@@ -1,0 +1,60 @@
+[Animation]
+Frames=10
+UseWMAssist=false
+
+[Appearance]
+BackgroundColor=255,255,255
+TerminalHighlightOnManualActivation=true
+Translucency=true
+
+[Behavior]
+OpenAfterStart=true
+
+[Desktop Entry]
+DefaultProfile=konsole-matej.profile
+
+[Dialogs]
+FirstRun=false
+
+[DownloadDialog Settings]
+Height 1080=494
+Width 1920=700
+
+[Favorite Profiles]
+Favorites=
+
+[KFileDialog Settings]
+Recent Files[$e]=877650.jpg,file:$HOME/Downloads/image.png,file:$HOME/Downloads/877650.jpg
+Recent URLs[$e]=file:$HOME/Downloads/
+detailViewIconSize=0
+
+[Shortcuts]
+close-active-terminal=Alt+W
+close-session=Alt+R
+decrease-window-height=Meta+Alt+Down
+decrease-window-width=Meta+Alt+Right
+grow-terminal-bottom=none
+grow-terminal-left=none
+grow-terminal-right=none
+grow-terminal-top=none
+increase-window-height=Meta+Alt+Up
+increase-window-width=Meta+Alt+Left
+move-session-left=Alt+Shift+L
+move-session-right=Alt+Shift+H
+new-session=Alt+Shift+T
+next-session=Alt+L
+next-terminal=Alt+K
+previous-session=Alt+H
+previous-terminal=Alt+J
+rename-session=Alt+S
+split-left-right=Alt+[
+split-top-bottom=Alt+]
+switch-to-session-1=Alt+1
+switch-to-session-2=Alt+2
+switch-to-session-3=Alt+3
+switch-to-session-4=Alt+4
+switch-to-session-5=Alt+5
+view-full-screen=none
+
+[Window]
+Height=100

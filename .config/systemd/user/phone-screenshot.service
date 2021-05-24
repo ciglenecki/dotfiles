@@ -1,0 +1,9 @@
+ 
+[Unit]
+Description=Move from phone KDE connect to screenshots (all images)
+
+[Service]
+ExecStart=%h/.scripts/phone-to-screenshot.sh --no-daemon
+
+[Install]
+WantedBy=default.target

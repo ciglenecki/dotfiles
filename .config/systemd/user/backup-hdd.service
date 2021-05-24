@@ -1,0 +1,10 @@
+[Unit]
+Description=Trigger that mounts once external drive is mounted. Used for backing up files.
+Requires=media-matej-ex\x2dgep.mount
+After=media-matej-ex\x2dgep.mount
+
+[Service]
+ExecStart=/bin/bash -c '/home/matej/.scripts/backup-hdd.sh'
+
+[Install]
+WantedBy=media-matej-ex\x2dgep.mount

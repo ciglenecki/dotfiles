@@ -1,0 +1,81 @@
+# hand download
+# insync
+# krohnkite
+# virtual desktops only on primary
+# markdown to pdf https://www.princexml.com/doc/12/doc-install/#install-debian
+
+# Basics
+build-essential
+pulseaudio
+software-properties-common
+rsync
+sed
+sxhkd
+# limit network speed
+trickle
+
+# Terminal
+zsh
+yakuake
+autojump
+bash-completion
+tree
+neofetch
+bat
+
+# Development
+git
+python3
+r-base
+
+# Apps
+teams
+thunderbird
+vlc
+discord
+
+# Editor
+nano
+vim
+
+# Documents
+okular
+libreoffice
+
+# Managers
+ranger
+tmux
+wmctrl
+
+# Browsers
+firefox
+
+# Media
+shutter
+gimp
+qbittorrent
+
+# Education
+texlive-latex-extra
+texlive-lang-european
+geogebra
+anki
+vim-runtime
+
+# Backups
+syncthing
+insync
+keepassxc
+xclip
+spotify
+
+xdotool
+hunspell-hr
+gnome-keyring
+
+inotify-tools
+
+subdownloader
+jhead
+# epub -> mobi
+calibre
