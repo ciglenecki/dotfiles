@@ -19,8 +19,8 @@ done
 
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=9000
-HISTFILESIZE=2000
+HISTSIZE=-1
+HISTFILESIZE=-1
 
 # append to the history file, don't overwrite it
 shopt -s histappend

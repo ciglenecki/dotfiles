@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xbel>
-<xbel xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:kdepriv="http://www.kde.org/kdepriv">
+<xbel xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:kdepriv="http://www.kde.org/kdepriv" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info">
  <bookmark href="file:///home/matej">
   <title>Home</title>
   <info>
@@ -2394,4 +2394,39 @@
   </info>
   <title>Kindle</title>
  </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/kde/fstab/overlay/var/lib/docker/overlay2/46b416c4d591b09f755418044356e94b6c4021763a3e932811d2d60c9c9ce9a4/merged</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/kde/fstab/overlay/var/lib/docker/overlay2/0fa70316f34f2219f77097956681a9ce448cbcfe8080b2595a635b3acee52fee-init/merged</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/kde/fstab/overlay/var/lib/docker/overlay2/0fa70316f34f2219f77097956681a9ce448cbcfe8080b2595a635b3acee52fee/merged</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
+ <bookmark href="kdeconnect://ff4badd4f3dc52e9/">
+  <title>SM-G780F</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="kdeconnect"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1623066308/3</ID>
+   </metadata>
+  </info>
+ </bookmark>
 </xbel>

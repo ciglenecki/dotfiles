@@ -166,4 +166,5 @@
 	"editor.formatOnSave": true,
 	"debug.javascript.autoAttachFilter": "smart",
 	"workbench.colorTheme": "Quiet Light",
+	"java.dependency.showMembers": true,
 }
