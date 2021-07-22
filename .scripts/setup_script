@@ -20,6 +20,7 @@ mkdir ~/.cache/vlc
 
 
 # Install krohnkite
+sudo apt install -y node-typescript
 git clone https://github.com/esjeon/krohnkite.git $HOME/tmp/krohnkite
 cd $HOME/tmp/krohnkite
 make install
