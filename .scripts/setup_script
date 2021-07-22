@@ -20,7 +20,7 @@ mkdir ~/.cache/vlc
 
 
 # Install krohnkite
-git clone https://github.com/esjeon/krohnkite.git $HOME/tmp
+git clone https://github.com/esjeon/krohnkite.git $HOME/tmp/krohnkite
 cd $HOME/tmp/krohnkite
 make install
 cd $HOME
