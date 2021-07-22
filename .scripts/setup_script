@@ -6,8 +6,8 @@ sudo echo "Script now has sudo permissions"
 rm -rf $HOME/Documents $HOME/Music $HOME/Pictures $HOME/Public $HOME/Templates $HOME/Videos
 mkdir -p tmp
 
-sudo ubuntu-drivers autoinstall
-sudo apt-get install -y git
+sudo apt update && sudo apt -y upgrade
+sudo apt autoremove && sudo apt autoclean
 
 # Install from package list, loop skips unlocated packages
 for i in $(grep -vE "^\s*#" $HOME/.config/matej-packages.txt  | tr "\n" " "); do
