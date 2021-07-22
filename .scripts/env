@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ -z ${HOME+x} ]; then export HOME="/home/matej"; fi
+# if [ -z ${HOME+x} ]; then export HOME="/home/matej"; fi
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$PATH:$HOME/.local/bin:"

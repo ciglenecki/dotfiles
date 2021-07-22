@@ -1,0 +1,623 @@
+64.0312423743285	/etc/X11/xorg.conf.d
+34.64101615137755	/etc/X11
+26.457513110645905	/etc
+22.360679774997898	/usr/share/X11/xorg.conf.d
+26.457513110645905	/sys/devices/pci0000:00/0000:00:02.0/backlight/acpi_video0
+17.320508075688775	/sys/devices/pci0000:00/0000:00:02.0/backlight
+10.0	/sys/devices/pci0000:00/0000:00:02.0
+10.0	/sys/devices/pci0000:00
+17.320508075688775	/sys/devices
+10.0	/sys
+14.142135623730951	/sys/class
+14.142135623730951	/sys/class/backlight
+31.622776601683796	/sys/devices/pci0000:00/0000:00:02.0/drm/card0/card0-eDP-1/intel_backlight
+287.5760768909682	/home/matej/Downloads
+153.94804318340644	/media/matej/Seagate Expansion Drive
+14.142135623730951	/media/matej/Seagate Expansion Drive/1-drive
+156.52475842498518	/home/matej/1-drive
+70.71067811865477	/home/matej/1-drive/3-pictures
+74.83314773547885	/home/matej/2-projects
+65.57438524302002	/home/matej/.config
+26.457513110645905	/home/matej/.config/.notes
+57.44562646538029	/home/matej/2-projects/memgraph
+379.3415347678137	/home/matej/2-projects/memgraph/cloud
+57.44562646538029	/home/matej/1-drive/0-notes
+30.000000000000004	/home/matej/.local/share
+76.1577310586391	/home/matej/.local/share/konsole
+40.00000000000001	/home/matej/.local/share/color-schemes
+81.24038404635962	/media/matej/Seagate Expansion Drive/series
+34.64101615137755	/media/matej/1ED5AD283C1C3E06
+24.49489742783178	/home/matej/snap
+26.457513110645905	/home/matej/snap/snap-store
+20.0	/home/matej/snap/snap-store/518
+14.142135623730951	/home/matej/snap/snap-store/common
+36.0555127546399	/home/matej/Jts
+38.729833462074176	/home/matej/Desktop
+400.6245124802031	/home/matej/tmp
+90.55385138137417	/home/matej/3-base
+30.000000000000004	/home/matej/.kde/share/apps/color-schemes
+141.42135623730945	/home/matej/1-drive/2-fer
+149.99999999999994	/home/matej/1-drive/2-fer/pis
+87.74964387392123	/home/matej/1-drive/2-fer/pis/3-labs
+176.63521732655693	/home/matej/torrent
+37.41657386773942	/home/matej/torrent/torrent
+17.320508075688775	/home/matej/torrent/torrent/The Sopranos - The Complete Series (Season 1, 2, 3, 4, 5 & 6) + Extras
+114.45523142259593	/home/matej/1-drive/2-fer/pis/3-labs/seminar
+26.457513110645905	/home/matej/1-drive/2-fer/pis/3-labs/dz
+17.320508075688775	/home/matej/1-drive/2-fer/pis/3-labs/pics
+38.729833462074176	/home/matej/.shutter/profiles
+64.0312423743285	/home/matej/1-drive/2-fer/pis/2-notes
+42.42640687119286	/home/matej/1-drive/2-fer/pis/1-presentations
+24.49489742783178	/home/matej/Downloads/torrent
+82.46211251235323	/home/matej/torrent/The Sopranos - The Complete Series (Season 1, 2, 3, 4, 5 & 6) + Extras
+46.904157598234306	/home/matej/torrent/The Sopranos - The Complete Series (Season 1, 2, 3, 4, 5 & 6) + Extras/Season 3
+17.320508075688775	/home/matej/torrent/The Sopranos - The Complete Series (Season 1, 2, 3, 4, 5 & 6) + Extras/Season 3/.unwanted
+17.320508075688775	/usr/share/hunspell
+14.142135623730951	/home/matej/1-drive/2-fer/pis/3-labs/seminar/backups
+102.95630140986995	/home/matej/2-projects/memgraph/cloud/docs
+31.622776601683796	/home/matej/2-projects/memgraph/playground
+17.320508075688775	/home/matej/2-projects/memgraph/playground/docs
+56.568542494923804	/home/matej/.local/share/plasma/desktoptheme
+50.00000000000001	/home/matej/.local/share/plasma
+48.98979485566357	/usr/share/plasma/desktoptheme/breeze-light
+33.166247903554	/home/matej/torrent/The Sopranos - The Complete Series (Season 1, 2, 3, 4, 5 & 6) + Extras/Season 4
+300.4995840263344	/home/matej/.scripts
+26.457513110645905	/home/matej/Downloads/anki-2.1.38-linux
+14.142135623730951	/home/matej/Downloads/anki-2.1.38-linux/bin
+37.41657386773942	/home/matej/2-projects/memgraph/cloud/feature-specs
+42.42640687119286	/usr/share/plasma/desktoptheme
+22.360679774997898	/usr/share/plasma/desktoptheme/breeze-light-matej
+58.30951894845301	/usr/share/plasma/desktoptheme/default
+14.142135623730951	/usr/share/plasma/desktoptheme/default/dialogs
+17.320508075688775	/usr/share/plasma/desktoptheme/default/icons
+22.360679774997898	/usr/share/plasma/desktoptheme/default/opaque
+14.142135623730951	/usr/share/plasma/desktoptheme/default/opaque/widgets
+17.320508075688775	/usr/share/plasma/desktoptheme/default/translucent
+10.0	/usr/share/plasma/desktoptheme/default/weather
+28.284271247461902	/usr/share/plasma/desktoptheme/default/widgets
+20.0	/home/matej/.local/share/plasma/desktoptheme/Sweet-mars
+10.0	/home/matej/.local/share/plasma/desktoptheme/Sweet-mars/widgets
+45.82575694955841	/home/matej/.local/share/plasma/desktoptheme/breeze-light-matej
+34.64101615137755	/home/matej/.local/share/plasma/desktoptheme/WhiteSur-dark
+14.142135623730951	/home/matej/.local/share/plasma/desktoptheme/WhiteSur-dark/widgets
+24.49489742783178	/home/matej/.local/share/plasma/desktoptheme/breeze-light-matej/widgets
+80.62257748298552	/home/matej/.local/share/plasma/look-and-feel
+10.0	/home/matej/.local/share/plasma/look-and-feel/Reactionary
+10.0	/home/matej/.local/share/plasma/look-and-feel/Reactionary/contents
+14.142135623730951	/home/matej/.local/share/plasma/look-and-feel/Sweet
+17.320508075688775	/home/matej/.local/share/plasma/look-and-feel/com.github.vinceliuice.ChromeOS-light
+28.284271247461902	/home/matej/.local/share/plasma/look-and-feel/com.github.vinceliuice.ChromeOS-light/contents
+14.142135623730951	/home/matej/.local/share/plasma/look-and-feel/com.github.vinceliuice.ChromeOS-light/contents/splash
+14.142135623730951	/home/matej/.local/share/plasma/look-and-feel/com.github.vinceliuice.ChromeOS-light/contents/previews
+14.142135623730951	/home/matej/.local/share/plasma/look-and-feel/com.github.vinceliuice.ChromeOS-light/contents/layouts
+22.360679774997898	/home/matej/.local/share/plasma/look-and-feel/Nordic
+10.0	/home/matej/.local/share/plasma/look-and-feel/Nordic/contents
+14.142135623730951	/home/matej/.local/share/plasma/look-and-feel/Nordic/contents/components
+14.142135623730951	/home/matej/.local/share/plasma/look-and-feel/org.kde.breeze.desktop
+14.142135623730951	/home/matej/.local/share/plasma/look-and-feel/com.github.vinceliuice.WhiteSur-dark
+37.41657386773942	/home/matej/.local/share/plasma/look-and-feel/org.kde.breeze-matej.desktop
+36.0555127546399	/home/matej/.local/share/plasma/look-and-feel/org.kde.breeze-matej.desktop/contents
+17.320508075688775	/home/matej/.local/share/plasma/look-and-feel/breeze-light-matej
+10.0	/home/matej/.local/share/plasma/look-and-feel/org.kde.breeze-matej.desktop/contents/splash
+14.142135623730951	/home/matej/.local/share/plasma/look-and-feel/org.kde.breeze-matej.desktop/contents/runcommand
+10.0	/home/matej/.local/share/plasma/look-and-feel/org.kde.breeze-matej.desktop/contents/osd
+14.142135623730951	/home/matej/.local/share/plasma/look-and-feel/org.kde.breeze-matej.desktop/contents/logout
+14.142135623730951	/home/matej/.local/share/plasma/look-and-feel/org.kde.breeze-matej.desktop/contents/lockscreen
+14.142135623730951	/home/matej/.local/share/plasma/look-and-feel/org.kde.breeze-matej.desktop/contents/desktopswitcher
+20.0	/home/matej/.local/share/plasma/look-and-feel/org.kde.breeze-matej.desktop/contents/components
+14.142135623730951	/home/matej/.local/share/plasma/look-and-feel/org.kde.breeze-matej.desktop/contents/components/artwork
+26.457513110645905	/usr/share/plasma
+28.284271247461902	/usr/share/plasma/look-and-feel
+20.0	/usr/share/plasma/look-and-feel/org.kde.breeze.desktop
+10.0	/usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents
+10.0	/usr/share/plasma/desktoptheme/breeze-dark
+24.49489742783178	/home/matej/torrent/downloading
+34.64101615137755	/home/matej/torrent/.torrent
+52.91502622129182	/home/matej/torrent/.downloading
+20.0	/home/matej/torrent/.downloading/The Sopranos - The Complete Series (Season 1, 2, 3, 4, 5 & 6) + Extras/Season 3
+10.0	/home/matej/torrent/.downloading/The Sopranos - The Complete Series (Season 1, 2, 3, 4, 5 & 6) + Extras/Season 3/.unwanted
+26.457513110645905	/home/matej/2-projects/memgraph/_pesonal
+20.0	/home/matej/torrent/The Sopranos - The Complete Series (Season 1, 2, 3, 4, 5 & 6) + Extras/Season 6
+10.0	/home/matej/tmp/mg_cloud
+128.45232578665124	/home/matej/tmp/cloud
+88.31760866327848	/home/matej/1-drive/2-fer/tinf
+10.0	/home/matej/torrent/The Sopranos - The Complete Series (Season 1, 2, 3, 4, 5 & 6) + Extras/Season 2
+121.24355652982136	/home/matej/2-projects/memgraph/demos/wiki_articles
+50.00000000000001	/home/matej/2-projects/memgraph/demos/wiki_articles/src
+26.457513110645905	/home/matej/2-projects/memgraph/demos/wiki_articles/src/generate-files
+14.142135623730951	/home/matej/2-projects/memgraph/demos/wiki_articles/src/file-parsing
+10.0	/home/matej/2-projects/memgraph/demos/wiki_articles/src/file-parsing/dataset
+75.49834435270752	/home/matej/2-projects/memgraph/demos/wiki_articles/data
+14.142135623730951	/home/matej/2-projects/memgraph/demos
+59.16079783099617	/home/matej/torrent/Monster [Ultimate Collection] By Kira [SEV]
+40.00000000000001	/home/matej/torrent/Monster [Ultimate Collection] By Kira [SEV]/Monster [2004-2005] DVDRip x265 AC-3 2.0 Kira [SEV]
+33.166247903554	/home/matej/torrent/.downloading/Monster [Ultimate Collection] By Kira [SEV]
+34.64101615137755	/home/matej/torrent/.downloading/Monster [Ultimate Collection] By Kira [SEV]/Monster [2004-2005] DVDRip x265 AC-3 2.0 Kira [SEV]
+36.0555127546399	/home/matej/1-drive/2-fer/tinf/TEOINF
+24.49489742783178	/home/matej/1-drive/2-fer/tinf/TEOINF/ispiti
+24.49489742783178	/home/matej/1-drive/2-fer/tinf/TEOINF/ispiti/zi
+20.0	/home/matej/1-drive/2-fer/tinf/TEOINF/ispiti/zi/2019-20
+17.320508075688775	/home/matej/torrent/The Sopranos - The Complete Series (Season 1, 2, 3, 4, 5 & 6) + Extras/Season 5
+24.49489742783178	/home/matej/torrent/.downloading/The Sopranos - The Complete Series (Season 1, 2, 3, 4, 5 & 6) + Extras
+34.64101615137755	/home/matej/1-drive/2-fer/nasp
+14.142135623730951	/home/matej/1-drive/2-fer/nasp/dodatna
+33.166247903554	/home/matej/.ssh
+762.8237017817409	/home/matej/2-projects/memgraph/cloud/backend
+22.360679774997898	/home/matej/2-projects/memgraph/cloud/backend/resources
+50.00000000000001	/home/matej/2-projects/memgraph/cloud/backend/src
+10.0	/home/matej/2-projects/memgraph/cloud/backend/resources/docker_image
+22.360679774997898	/home/matej/2-projects/memgraph/cloud/backend/database
+14.142135623730951	/home/matej/2-projects/memgraph/cloud/backend/database/config
+14.142135623730951	/home/matej/2-projects/memgraph/cloud/backend/database/migrations
+14.142135623730951	/home/matej/2-projects/memgraph/cloud/backend/database/models
+14.142135623730951	/home/matej/2-projects/memgraph/cloud/backend/database/seeders
+30.000000000000004	/home/matej/Downloads/src
+403.36088060197454	/home/matej/2-projects/memgraph/cloud/backend2
+42.42640687119286	/home/matej/2-projects/memgraph/cloud/backend2/src
+24.49489742783178	/home/matej/2-projects/memgraph/cloud/backend2/src/models
+96.95359714832654	/home/matej/tmp/cloud/backend
+30.000000000000004	/home/matej/tmp/cloud/backend/database
+24.49489742783178	/home/matej/2-projects/memgraph/cloud/backend2/database
+20.0	/home/matej/2-projects/memgraph/cloud/backend2/database/config
+14.142135623730951	/home/matej/tmp/cloud/backend/database/models
+17.320508075688775	/home/matej/tmp/cloud/backend/database/config
+14.142135623730951	/home/matej/tmp/cloud/backend/resources
+17.320508075688775	/home/matej/tmp/cloud/backend/src
+95.91663046625435	/media/matej/Seagate Expansion Drive/anime
+14.142135623730951	/home/matej/torrent/Monster [Ultimate Collection] By Kira [SEV]/[Manga] Monster [1994-2001]
+14.142135623730951	/home/matej/torrent/Monster [Ultimate Collection] By Kira [SEV]/[Manga] Monster [1994-2001]/[English Translated] Monster [2006-2008]
+10.0	/media/matej/Seagate Expansion Drive/anime/Monster [2004-2005] DVDRip x265 AC-3 2.0 Kira [SEV]
+40.00000000000001	/media/matej/Seagate Expansion Drive/series/The Sopranos - The Complete Series (Season 1, 2, 3, 4, 5 & 6) + Extras
+20.0	/media/matej/Seagate Expansion Drive/series/The Sopranos - The Complete Series (Season 1, 2, 3, 4, 5 & 6) + Extras/Season 6
+10.0	/media/matej/Seagate Expansion Drive/series/The Sopranos - The Complete Series (Season 1, 2, 3, 4, 5 & 6) + Extras/Season 4
+69.28203230275511	/media/matej/Seagate Expansion Drive/movies
+17.320508075688775	/media/matej/Seagate Expansion Drive/series/The Sopranos - The Complete Series (Season 1, 2, 3, 4, 5 & 6) + Extras/The Complete Series Bonus + Extras
+14.142135623730951	/media/matej/Seagate Expansion Drive/series/The Sopranos - The Complete Series (Season 1, 2, 3, 4, 5 & 6) + Extras/TSV Torrents
+20.0	/home/matej/2-projects/memgraph/_pesonal/templates
+10.0	/home/matej/2-projects/memgraph/cloud/backend2/config
+20.0	/home/matej/2-projects/memgraph/cloud/backend2/models
+50.00000000000001	/tmp
+10.0	/home/matej/2-projects/memgraph/cloud/backend2/database/models
+24.49489742783178	/home/matej/Downloads/postman
+10.0	/home/matej/Downloads/postman/app
+17.320508075688775	/home/matej/torrent/Lord of the Rings Trilogy BluRay Extended 1080p QEBS5 AAC51 PS3 MP4-FASM
+20.0	/home/matej/torrent/It's A Wonderful Life (1946) [BluRay] [1080p] [YTS.AM]
+30.000000000000004	/home/matej/torrent/How the Grinch Stole Christmas (2000)
+33.166247903554	/home/matej/torrent/Code Geass Complete  720p [Dual-Audio] [English Subbed] Neroextreme_NTRG
+20.0	/home/matej/torrent/Code Geass Complete  720p [Dual-Audio] [English Subbed] Neroextreme_NTRG/Season 1
+10.0	/home/matej/torrent/Code Geass Complete  720p [Dual-Audio] [English Subbed] Neroextreme_NTRG/Season 2
+38.729833462074176	/home/matej/torrent/[Judas] Mushishi (Seasons 1-3 + Movie + Special) [BD 1080p][HEVC x265 10bit][Eng-Subs]
+14.142135623730951	/home/matej/torrent/[Judas] Mushishi (Seasons 1-3 + Movie + Special) [BD 1080p][HEVC x265 10bit][Eng-Subs]/[Judas] Mushishi S3
+72.1110255092798	/home/matej/1-drive/4-config
+14.142135623730951	/home/matej/2-projects/memgraph/cloud/backend2/src/validators/projects
+17.320508075688775	/media/matej/Seagate Expansion Drive/Monster [Ultimate Collection] By Kira [SEV]
+14.142135623730951	/media/matej/Seagate Expansion Drive/Monster [Ultimate Collection] By Kira [SEV]/Monster [2004-2005] DVDRip x265 AC-3 2.0 Kira [SEV]
+37.41657386773942	/media/matej/Seagate Expansion Drive/marijan
+17.320508075688775	/media/matej/Seagate Expansion Drive/marijan/pbz_certifikati
+100.49875621120886	/home/matej/1-drive/2-fer/irg
+33.166247903554	/home/matej/1-drive/2-fer/irg/github
+20.0	/home/matej/1-drive/2-fer/irg/github/vjezba
+33.166247903554	/home/matej/tmp/cloud/backend2
+20.0	/home/matej/torrent/.downloading/Fate Zero (2011) S01 [1080p x265 HEVC 10bit BluRay Dual Audio AAC] [Prof]
+72.1110255092798	/media/matej/Seagate Expansion Drive/The Sopranos - The Complete Series (Season 1, 2, 3, 4, 5 & 6) + Extras
+20.0	/media/matej/Seagate Expansion Drive/The Sopranos - The Complete Series (Season 1, 2, 3, 4, 5 & 6) + Extras/Season 4
+31.622776601683796	/home/matej/2-projects/memgraph/cloud/common
+54.772255750516614	/media/matej/Seagate Expansion Drive/series/The Sopranos
+10.0	/media/matej/Seagate Expansion Drive/series/The Sopranos/Season 4
+80.00000000000001	/home/matej/1-drive/1-documents
+24.49489742783178	/home/matej/1-drive/1-documents/_archive
+31.622776601683796	/home/matej/1-drive/1-documents/fin
+55.677643628300224	/home/matej/1-drive/1-documents/work
+10.0	/home/matej/1-drive/1-documents/work/2020-06-memgraph
+26.457513110645905	/home/matej/1-drive/1-documents/work/2020-10-chemedu
+38.729833462074176	/media/matej/Seagate Expansion Drive/The Sopranos - The Complete Series (Season 1, 2, 3, 4, 5 & 6) + Extras/Season 5
+217.48563170931553	/home/matej/1-drive/2-fer/mrepro
+205.18284528683193	/home/matej/1-drive/2-fer/mrepro/gitrepo
+216.1018278497432	/home/matej/1-drive/2-fer/mrepro/dz
+134.90737563232034	/media/matej/ex-gep
+42.42640687119286	/media/matej/ex-gep/_otherpeople
+40.00000000000001	/media/matej/ex-gep/.backup-files
+26.457513110645905	/media/matej/ex-gep/.installation-games
+36.0555127546399	/media/matej/ex-gep/.installation-programs
+53.851648071345046	/media/matej/ex-gep/.backup-CD
+34.64101615137755	/media/matej/ex-gep/fer
+63.24555320336759	/media/matej/ex-gep/.backup-CD/D
+30.000000000000004	/media/matej/ex-gep/.backup-CD/D/7-archive
+14.142135623730951	/media/matej/ex-gep/.backup-CD/D/6-assets
+14.142135623730951	/media/matej/ex-gep/.backup-files/game saves
+14.142135623730951	/media/matej/ex-gep/.backup-files/deborah
+44.7213595499958	/media/matej/ex-gep/.backup-CD/D/1-projects
+31.622776601683796	/media/matej/ex-gep/.backup-CD/D/2-drive
+42.42640687119286	/home/matej/1-drive/2-fer/_else
+10.0	/media/matej/ex-gep/System Volume Information
+22.360679774997898	/home/matej/VirtualBox VMs/IMUNES-11.3-RELEASE_20190722
+34.64101615137755	/home/matej/VirtualBox VMs
+40.00000000000001	/opt
+42.42640687119286	/opt/WebStorm-203.7148.54
+22.360679774997898	/opt/WebStorm-203.7148.54/bin
+26.457513110645905	/home/matej/2-projects/memgraph/cloud/backend/scripts
+44.7213595499958	/home/matej/2-projects/memgraph/cloud/backend/src/models
+60.827625302982206	/home/matej/Downloads/videos
+42.42640687119286	/home/matej/1-drive/5-archive
+46.904157598234306	/home/matej/1-drive/_tmp
+36.0555127546399	/home/matej/1-drive/2-fer/_else/folder-structure
+10.0	/home/matej/1-drive/2-fer/_else/folder-structure/0-lit
+14.142135623730951	/home/matej/1-drive/2-fer/_else/folder-structure/2-notes
+10.0	/home/matej/1-drive/2-fer/_else/folder-structure/3-labs
+14.142135623730951	/home/matej/1-drive/2-fer/_else/folder-structure/5-tasks
+10.0	/home/matej/1-drive/2-fer/_else/folder-structure/github
+14.142135623730951	/home/matej/VirtualBox VMs/IMUNES-11.3-RELEASE_20190722/Snapshots
+56.568542494923804	/home
+17.320508075688775	/home/matej/1-drive/_tmp/matej_filip_ucenje
+26.457513110645905	/home/matej/.config/systemd
+223.60679774997908	/home/matej/.config/systemd/user
+42.42640687119286	/home/matej/3-base/9-phone
+58.30951894845301	/home/matej/Downloads/pics
+114.01754250991375	/home/matej/1-drive/2-fer/mrepro/0-lit
+131.14877048603998	/home/matej/Downloads/zips
+14.142135623730951	/home/matej/zips
+10.0	/home/matej/videos
+10.0	/home/matej/pics
+26.457513110645905	/home/matej/1-drive/2-fer/natpro
+14.142135623730951	/home/matej/1-drive/2-fer/natpro/2-notes
+14.142135623730951	/home/matej/1-drive/2-fer/irg/5-tasks
+52.91502622129182	/home/matej/1-drive/2-fer/irg/3-labs
+14.142135623730951	/home/matej/1-drive/2-fer/tinf/TEOINF/zadace
+14.142135623730951	/home/matej/1-drive/2-fer/tinf/TEOINF/vjezba
+17.320508075688775	/home/matej/1-drive/2-fer/tinf/0-lit
+20.0	/home/matej/1-drive/2-fer/tinf/1-presentations
+10.0	/home/matej/1-drive/2-fer/tinf/1-presentations/2-bilješke
+14.142135623730951	/home/matej/1-drive/2-fer/tinf/1-presentations/1-bilješke
+22.360679774997898	/home/matej/1-drive/2-fer/tinf/4-exams
+20.0	/home/matej/1-drive/2-fer/tinf/5-tasks
+14.142135623730951	/home/matej/1-drive/2-fer/tinf/5-tasks/zbirka-rjesenja
+26.457513110645905	/home/matej/1-drive/2-fer/tinf/6-podsjetnik-formule
+20.0	/home/matej/1-drive/2-fer/tinf/7-tuts
+55.677643628300224	/home/matej/1-drive/2-fer/irg/IRG
+24.49489742783178	/home/matej/Downloads/tmp
+14.142135623730951	/home/matej/Downloads/tmp/hadoop-3.0.0
+131.52946437965903	/home/matej/2-projects/memgraph/cloud/frontend
+26.457513110645905	/home/matej/2-projects/memgraph/cloud/backend/src/shared
+20.0	/home/matej/2-projects/memgraph/cloud/backend/src/shared/api
+103.9230484541326	/home/matej/2-projects/memgraph/cloud/backend/postman
+41.231056256176615	/home/matej/Downloads/docs
+69.28203230275511	/home/matej/1-drive/2-fer/mrepro/3-labs
+386.52296180175404	/home/matej/1-drive/2-fer/mrepro/gitrepo/lab1
+20.0	/home/matej/tmp/gitrepo
+26.457513110645905	/home/matej/tmp/gitrepo/lab1
+38.729833462074176	/home/matej/.cache
+80.00000000000001	/tmp/krohnkite
+45.82575694955841	/home/matej/2-projects/memgraph/cloud/frontend/src
+48.98979485566357	/home/matej/2-projects/memgraph/cloud/backend/src/shared/models
+30.000000000000004	/media/matej/Seagate Expansion Drive/series/The Sopranos/Season 5
+55.677643628300224	/var/lib/apt
+83.06623862918076	/etc/apt/sources.list.d
+17.320508075688775	/usr/local/go
+159.05973720586857	/home/matej/1-drive/2-fer/go
+133.41664064126329	/home/matej/1-drive/2-fer/go/3-labs
+26.457513110645905	/home/matej/1-drive/2-fer/go/0-lit
+28.284271247461902	/usr/local/go/bin
+14.142135623730951	/home/matej/1-drive/2-fer/go2
+30.000000000000004	/home/matej/go
+14.142135623730951	/home/matej/go/bin
+14.142135623730951	/usr/local/sbin
+14.142135623730951	/usr/local/bin
+31.622776601683796	/usr/sbin
+24.49489742783178	/home/matej/1-drive/2-fer/mrepro/5-dz
+419.16583830269474	/home/matej/1-drive/2-fer/mrepro/gitrepo/zadatak3
+20.0	/media/matej/Seagate Expansion Drive/series/The Sopranos/Season 6
+41.231056256176615	/media/matej/Seagate Expansion Drive/The Sopranos - The Complete Series (Season 1, 2, 3, 4, 5 & 6) + Extras/Season 6
+30.000000000000004	/home/matej/tmp/scripts
+24.49489742783178	/home/matej/docs
+212.6029162546931	/home/matej/1-drive/2-fer/mrepro/gitrepo/zadatak3/test
+40.00000000000001	/home/matej/tmp/mrepro
+24.49489742783178	/home/matej/tmp/mrepro/zadatak3
+22.360679774997898	/home/matej/.config/mpv
+14.142135623730951	/media/matej/Seagate Expansion Drive/The Sopranos - The Complete Series (Season 1, 2, 3, 4, 5 & 6) + Extras/Season 3
+30.000000000000004	/usr/lib/vlc/lua/extensions
+31.622776601683796	/home/matej/tmp/spotify-adblock-linux
+353.83612025908303	/home/matej/1-drive/2-fer/mrepro/gitrepo/mi
+40.00000000000001	/home/matej/1-drive/2-fer/irg/IRG/vjezba
+14.142135623730951	/home/matej/1-drive/2-fer/irg/IRG/vjezba/zzv
+10.0	/home/matej/1-drive/2-fer/irg/IRG/ispiti
+10.0	/home/matej/1-drive/2-fer/irg/IRG/izlaganja
+10.0	/home/matej/1-drive/2-fer/irg/IRG/labosi
+20.0	/home/matej/1-drive/2-fer/irg/IRG/razno
+14.142135623730951	/home/matej/1-drive/2-fer/irg/IRG/razno/prilozi
+14.142135623730951	/home/matej/1-drive/2-fer/irg/IRG/zadace
+10.0	/home/matej/1-drive/2-fer/irg/2-notes
+14.142135623730951	/home/matej/1-drive/2-fer/irg/0-lit
+24.49489742783178	/media/matej/Seagate Expansion Drive/How the Grinch Stole Christmas (2000)
+14.142135623730951	/home/matej/torrent/.downloading/True Detective Season 1 COMPLETE 720p HDTV x264 [MKV,AC3,5.1] Ehhhh
+46.904157598234306	/media/matej/Seagate Expansion Drive/series/True Detective
+43.588989435406745	/media/matej/Seagate Expansion Drive/series/True Detective/Season 1
+20.0	/home/matej/torrent/[GamePersia] Death Note (Complete Series)
+41.231056256176615	/home/matej/torrent/Fate Zero (2011) S01 [1080p x265 HEVC 10bit BluRay Dual Audio AAC] [Prof]
+14.142135623730951	/home/matej/torrent/Parasite.2019.1080p.HDRip.X264.AC3-EVO[TGx]
+34.64101615137755	/home/matej/torrent/True Detective Season 1 COMPLETE 720p HDTV x264 [MKV,AC3,5.1] Ehhhh
+67.82329983125271	/home/matej/1-drive/2-fer/irg/3-labs/8-zad
+36.0555127546399	/home/matej/1-drive/2-fer/irg/3-labs/7-zad
+41.231056256176615	/home/matej/1-drive/2-fer/irg/3-labs/3-lab
+14.142135623730951	/home/matej/1-drive/2-fer/irg/3-labs/1-lab
+10.0	/home/matej/1-drive/2-fer/irg/3-labs/.vscode
+17.320508075688775	/home/matej/1-drive/2-fer/irg/3-labs/8-zad/lib
+20.0	/home/matej/1-drive/2-fer/irg/3-labs/8-zad/obj
+24.49489742783178	/home/matej/1-drive/2-fer/irg/3-labs/3-lab/obj
+17.320508075688775	/home/matej/1-drive/2-fer/irg/3-labs/3-lab/lib
+24.49489742783178	/home/matej/1-drive/2-fer/irg/3-labs/2-lab
+10.0	/home/matej/Downloads/zips/mgclient-1.2.0
+34.64101615137755	/home/matej/Downloads/zips/mgclient-1.2.0/build
+22.360679774997898	/home/matej/1-drive/2-fer/mrepro/gitrepo/zadatak2
+20.0	/media/matej/Seagate Expansion Drive/Code Geass Complete  720p [Dual-Audio] [English Subbed] Neroextreme_NTRG
+26.457513110645905	/home/matej/torrent/[Hakata Ramen] Kimetsu no Yaiba (Demon Slayer) {Season 1} [1080p][HEVC][10bit][Opus][Multi-Subs](Doc_Ramen)
+41.231056256176615	/home/matej/.local/share/applications
+270.73972741361786	/home/matej/1-drive/2-fer/mrepro/gitrepo/lab2
+20.0	/home/matej/1-drive/2-fer/mrepro/gitrepo/zadatak4
+10.0	/media/matej/Seagate Expansion Drive/anime/[Judas] Mushishi (Seasons 1-3 + Movie + Special) [BD 1080p][HEVC x265 10bit][Eng-Subs]
+14.142135623730951	/media/matej/Seagate Expansion Drive/anime/[Judas] Mushishi (Seasons 1-3 + Movie + Special) [BD 1080p][HEVC x265 10bit][Eng-Subs]/[Judas] Mushishi S3
+26.457513110645905	/media/matej/Seagate Expansion Drive/anime/Monster [Ultimate Collection] By Kira [SEV]
+14.142135623730951	/media/matej/Seagate Expansion Drive/anime/Monster [Ultimate Collection] By Kira [SEV]/Monster [2004-2005] DVDRip x265 AC-3 2.0 Kira [SEV]
+14.142135623730951	/media/matej/Seagate Expansion Drive/anime/Monster-2004-2005
+10.0	/media/matej/Seagate Expansion Drive/anime/Monster [Ultimate Collection] By Kira [SEV]/Original Soundtracks [2004]
+33.166247903554	/media/matej/Seagate Expansion Drive/anime/Code Geass
+24.49489742783178	/media/matej/Seagate Expansion Drive/anime/Code Geass/Season 1
+14.142135623730951	/media/matej/Seagate Expansion Drive/anime/Code Geass/Season 2
+14.142135623730951	/home/matej/torrent/Demon Slayer (Kimetsu no Yaiba)
+33.166247903554	/home/matej/torrent/Fullmetal Alchemist Brotherhood
+14.142135623730951	/home/matej/torrent/Fullmetal Alchemist Brotherhood/OVA
+24.49489742783178	/media/matej/Seagate Expansion Drive/movies/Lord of the Rings Trilogy
+14.142135623730951	/media/matej/Seagate Expansion Drive/movies/Lord of the Rings Trilogy/Instruction_for_fixing_your_player_problems
+14.142135623730951	/media/matej/Seagate Expansion Drive/movies/Lord of the Rings Trilogy/subtitles
+14.142135623730951	/media/matej/Seagate Expansion Drive/movies/Parasite (2019)
+20.0	/home/matej/torrent/Samurai Champloo Complete Series [1-26] [720p Dual Audio] L@mBerT
+20.0	/home/matej/torrent/Steins;Gate
+24.49489742783178	/home/matej/torrent/Parasite (2019)
+22.360679774997898	/home/matej/torrent/The Sopranos - The Complete Series (Season 1, 2, 3, 4, 5 & 6) + Extras/The Complete Series Bonus + Extras
+20.0	/media/matej/ex-gep/.backup-CD/C
+46.904157598234306	/media/matej/ex-gep/.backup-CD/D/1-projects/1-tech
+22.360679774997898	/media/matej/ex-gep/.backup-CD/D/7-archive/2013-2017-highschool
+20.0	/media/matej/ex-gep/.backup-CD/D/7-archive/1-memes
+17.320508075688775	/media/matej/ex-gep/.backup-CD/D/2-drive/3-pictures
+14.142135623730951	/media/matej/ex-gep/.backup-CD/D/2-drive/3-pictures/1-memes
+17.320508075688775	/home/matej/1-drive/3-pictures/1-memes
+14.142135623730951	/media/matej/ex-gep/.backup-CD/D/2-drive/4-config
+17.320508075688775	/media/matej/ex-gep/.backup-CD/D/1-projects/2-editing-video
+31.622776601683796	/media/matej/ex-gep/.backup-CD/D/1-projects/1-tech/2019-datacrunch
+24.49489742783178	/media/matej/ex-gep/.backup-CD/D/1-projects/1-tech/2019-datacrunch/0-hackaton
+31.622776601683796	/media/matej/ex-gep/.backup-CD/D/1-projects/1-tech/2019-datacrunch/0-hackaton/0-hackaton
+30.000000000000004	/media/matej/ex-gep/.backup-CD/D/1-projects/1-tech/2019-datacrunch/0-hackaton/0-hackaton/data
+24.49489742783178	/media/matej/ex-gep/.backup-CD/D/1-projects/1-tech/2019-datacrunch/0-hackaton/0-hackaton/scripts
+22.360679774997898	/media/matej/ex-gep/.backup-CD/D/1-projects/1-tech/2019-datacrunch/pintar
+22.360679774997898	/media/matej/ex-gep/.backup-CD/D/1-projects/1-tech/2019-datacrunch/0-hackaton/0-hackaton/data/financije
+10.0	/media/matej/ex-gep/.backup-CD/D/1-projects/1-tech/2019-datacrunch/0-hackaton/0-hackaton/figures (self-visualisation)
+10.0	/media/matej/ex-gep/.backup-CD/D/1-projects/1-tech/2019-datacrunch/pintar/figures
+30.000000000000004	/media/matej/ex-gep/.backup-CD/D/1-projects/1-tech/messanger-parse
+36.0555127546399	/media/matej/ex-gep/.backup-CD/D/1-projects/1-tech/2019-opp-humanitarian-mapping
+22.360679774997898	/media/matej/ex-gep/.backup-CD/D/1-projects/1-tech/2019-opp-humanitarian-mapping/assets
+17.320508075688775	/media/matej/ex-gep/.backup-CD/D/1-projects/1-tech/2019-opp-humanitarian-mapping/documentation
+10.0	/media/matej/ex-gep/.backup-CD/D/1-projects/1-tech/2019-opp-humanitarian-mapping/assets/my-app
+14.142135623730951	/media/matej/ex-gep/.backup-CD/D/1-projects/1-tech/2019-opp-humanitarian-mapping/assets/my-app/node_modules
+20.0	/media/matej/ex-gep/.backup-CD/D/1-projects/1-tech/2019-projekt
+14.142135623730951	/media/matej/ex-gep/.backup-CD/D/1-projects/1-tech/2019-projekt/ck+
+10.0	/media/matej/ex-gep/.backup-CD/D/1-projects/3-design-picture
+26.457513110645905	/media/matej/ex-gep/.backup-CD/D/3-pictures
+14.142135623730951	/media/matej/ex-gep/.backup-CD/D/3-pictures/1-photography
+10.0	/media/matej/ex-gep/.backup-CD/D/3-pictures/6-screenshots
+14.142135623730951	/home/matej/1-drive/3-pictures/2-screenshots
+10.0	/media/matej/ex-gep/.backup-CD/D/3-pictures/Camera
+10.0	/media/matej/ex-gep/.backup-CD/D/3-pictures/3-random
+20.0	/media/matej/ex-gep/.backup-CD/D/4-audio
+10.0	/media/matej/ex-gep/.backup-CD/D/4-audio/1-music
+14.142135623730951	/media/matej/ex-gep/.backup-CD/D/4-audio/2-audiobooks
+14.142135623730951	/media/matej/ex-gep/.backup-CD/D/4-audio/2-audiobooks/Habits - James Clear - Atomic Habits
+10.0	/media/matej/ex-gep/.backup-CD/D/4-audio/2-audiobooks/LIFE - High Output Management - Andrew S. Grove
+14.142135623730951	/media/matej/ex-gep/.backup-CD/D/4-audio/3-random
+20.0	/home/matej/1-drive/3-pictures/8-wallpaper
+10.0	/home/matej/1-drive/3-pictures/3-avi
+14.142135623730951	/home/matej/1-drive/5-archive/conty
+14.142135623730951	/home/matej/1-drive/5-archive/game-save
+14.142135623730951	/home/matej/1-drive/5-archive/old
+14.142135623730951	/home/matej/1-drive/_tmp/a
+10.0	/home/matej/1-drive/_tmp/matej_filip_ucenje/ap
+14.142135623730951	/home/matej/1-drive/MoneyManager
+22.360679774997898	/home/matej/1-drive/4-config/browser
+24.49489742783178	/media/matej/ex-gep/.backup-CD/D/1-projects/1-tech/messanger-parse/facebook-cigleneckimatej
+17.320508075688775	/media/matej/ex-gep/.backup-CD/D/1-projects/1-tech/messanger-parse/facebook-cigleneckimatej/messages
+14.142135623730951	/media/matej/ex-gep/.backup-CD/D/1-projects/1-tech/messanger-parse/facebook-cigleneckimatej/messages/stickers_used
+45.82575694955841	/media/matej/ex-gep/Camera
+85.44003745317532	/home/matej/tmp/Camera
+17.320508075688775	/home/matej/tmp/Camera.old
+62.44997998398399	/home/matej/tmp/Camera/withoutexif
+24.49489742783178	/home/matej/tmp/Camera/withoutexif/backup
+38.729833462074176	/home/matej/1-drive/4-config/phone
+28.284271247461902	/home/matej/1-drive/4-config/phone/apk
+14.142135623730951	/home/matej/1-drive/4-config/windows
+30.000000000000004	/media/matej/ex-gep/curated_camera
+28.284271247461902	/home/matej/tmp/Camera/exif
+44.7213595499958	/media/matej/ex-gep/drive-backup-2021-05-15-22-02-50
+47.9583152331272	/media/matej/ex-gep/drive-backup-2021-05-15-22-02-50/1-drive
+14.142135623730951	/media/matej/ex-gep/drive-backup-2021-05-15-22-02-50/1-drive/0-notes
+38.729833462074176	/media/matej/ex-gep/camera-curated
+120.4159457879229	/home/matej/0-notes
+56.568542494923804	/home/matej/4-pictures
+20.0	/media/matej/ex-gep/camera-curated/pics
+31.622776601683796	/media/matej/ex-gep/camera-curated/pics_exifed_without
+24.49489742783178	/media/matej/ex-gep/camera-curated/pics_exifed_without/exif
+14.142135623730951	/media/matej/ex-gep/camera-curated/non_exifed_exifed
+14.142135623730951	/home/matej/4-pictures/wallpaper
+28.284271247461902	/home/matej/3-archive
+43.588989435406745	/home/matej/projects
+66.33249580710802	/home/matej/1-documents
+61.64414002968977	/home/matej/2-fer
+40.00000000000001	/home/matej/_tmp
+33.166247903554	/home/matej/1-documents/work
+14.142135623730951	/home/matej/1-documents/fin
+10.0	/home/matej/1-documents/_archived
+81.85352771872452	/home/matej/2-fer/irg
+66.33249580710802	/home/matej/2-fer/irg/IRG
+20.0	/home/matej/2-fer/irg/IRG/zadace
+41.231056256176615	/home/matej/2-fer/irg/IRG/vjezba
+14.142135623730951	/media/matej/ex-gep/drive-backup-2021-05-15-22-02-50/1-drive/_tmp
+14.142135623730951	/media/matej/ex-gep/drive-backup-2021-05-15-22-02-50/1-drive/5-backup
+28.284271247461902	/media/matej/ex-gep/drive-backup-2021-05-15-22-02-50/1-drive/2-fer
+34.64101615137755	/media/matej/ex-gep/drive-backup-2021-05-15-22-02-50/1-drive/4-pictures
+14.142135623730951	/media/matej/ex-gep/drive-backup-2021-05-15-22-02-50/1-drive/4-pictures/wallpaper
+20.0	/media/matej/ex-gep/drive-backup-2021-05-15-22-02-50/1-drive/4-pictures/screenshots
+37.41657386773942	/media/matej/ex-gep/drive-backup-2021-05-15-22-02-50/1-drive/4-pictures/memes
+14.142135623730951	/media/matej/ex-gep/drive-backup-2021-05-15-22-02-50/1-drive/4-pictures/avi
+14.142135623730951	/media/matej/ex-gep/drive-backup-2021-05-15-22-02-50/1-drive/3-archive
+14.142135623730951	/media/matej/ex-gep/drive-backup-2021-05-15-22-02-50/1-drive/2-fer/_else
+17.320508075688775	/media/matej/ex-gep/drive-backup-2021-05-15-22-02-50/1-drive/2-fer/irg
+14.142135623730951	/media/matej/ex-gep/drive-backup-2021-05-15-22-02-50/1-drive/2-fer/irg/IRG
+46.904157598234306	/home/matej/5-backup
+14.142135623730951	/home/matej/2-fer/_else
+30.000000000000004	/home/matej/2-fer/go
+20.0	/home/matej/2-fer/_other
+168.8194301613413	/home/matej/2-fer/mrepro
+100.49875621120886	/home/matej/2-fer/mrepro/gitrepo
+14.142135623730951	/home/matej/2-fer/natpro
+33.166247903554	/home/matej/5-backup/linux
+14.142135623730951	/home/matej/2-fer/.git
+87.17797887081348	/media/matej/ex-gep/test-backup
+88.31760866327848	/home/matej/0-notes/test
+24.49489742783178	/home/matej/test
+46.904157598234306	/media/matej/ex-gep/test-backup/0-notes
+20.0	/media/matej/ex-gep/test-backup/1-documents
+126.88577540449515	/home/matej/.unison
+26.457513110645905	/media/matej/ex-gep/test-backup/0-notes/test
+14.142135623730951	/media/matej/ex-gep/test-backup/.vscode
+53.851648071345046	/media/matej/ex-gep/test-backup/Downloads
+22.360679774997898	/media/matej/ex-gep/test-backup/Downloads/zips
+31.622776601683796	/media/matej/ex-gep/test-backup/Downloads/videos
+24.49489742783178	/media/matej/ex-gep/test-backup/Downloads/pics
+28.284271247461902	/media/matej/ex-gep/test-backup/Downloads/docs
+22.360679774997898	/media/matej/ex-gep/test-backup/matej
+26.457513110645905	/media/matej/ex-gep/test-backup/2-fer
+17.320508075688775	/media/matej/ex-gep/test-backup/2-fer/mrepro
+20.0	/media/matej/ex-gep/test-backup/2-fer/irg
+17.320508075688775	/media/matej/ex-gep/test-backup/2-fer/irg/3-labs
+33.166247903554	/home/matej/.scripts/.log-ignoreme
+62.44997998398399	/home/matej/torrent/The Making of the Atomic Bomb
+17.320508075688775	/home/matej/torrent/The Making of the Atomic Bomb/1.  PART ONE- Profound Truth and Necessary Truth
+553.3534132902774	/home/matej/projects/memgraph/cloud/backend
+31.622776601683796	/home/matej/.log
+20.0	/home/matej/tmp/v4l2ucp
+43.588989435406745	/home/matej/tmp/v4l2ucp/build
+20.0	/home/matej/tmp/v4l2ucp-2.0.2
+87.17797887081348	/home/matej/projects/memgraph/cloud
+65.57438524302002	/home/matej/projects/memgraph/cloud/frontend
+302.8200785945343	/home/matej/2-fer/mrepro/gitrepo/zadatak4
+48.98979485566357	/run/user/1000/ff4badd4f3dc52e9
+10.0	/mnt
+14.142135623730951	/media
+70.00000000000001	/media/matej
+10.0	/home/matej/.local
+14.142135623730951	/media/matej/ex-gep/.backup-CD/D/tmp
+14.142135623730951	/media/matej/ex-gep/.backup-CD/D/2-fer
+26.457513110645905	/home/matej/2-fer/irg/3-labs
+296.4793416074719	/home/matej/2-fer/mrepro/gitrepo/lab3
+31.622776601683796	/home/matej/tmp/mrepro/gitrepo/lab3
+86.02325267042627	/home/matej/projects/memgraph/cloud/backend/src
+57.44562646538029	/home/matej/projects/memgraph/cloud/backend/elk
+26.457513110645905	/home/matej/2-fer/irg/0-lit
+17.320508075688775	/home/matej/2-fer/mrepro/3-labs
+37.41657386773942	/usr/share/elasticsearch
+40.00000000000001	/var/log/elasticsearch
+34.64101615137755	/home/matej/2-fer/irg/IRG/razno
+17.320508075688775	/home/matej/2-fer/irg/IRG/vjezba/zzv
+22.360679774997898	/home/matej/2-fer/irg/IRG/labosi
+30.000000000000004	/home/matej/2-fer/irg/IRG/izlaganja
+30.000000000000004	/home/matej/2-fer/irg/IRG/ispiti
+17.320508075688775	/home/matej/2-fer/irg/5-tasks
+14.142135623730951	/home/matej/2-fer/irg/2-notes
+14.142135623730951	/home/matej/2-fer/irg/IRG/izlaganja/predavanja
+10.0	/home/matej/2-fer/irg/IRG/razno/prilozi
+24.49489742783178	/media/matej/Seagate Expansion Drive/movies/It's A Wonderful Life (1946) [BluRay] [1080p] [YTS.AM]
+26.457513110645905	/run/user/1000/ff4badd4f3dc52e9/Download
+36.0555127546399	/media/matej/Seagate Expansion Drive/anime/Fullmetal Alchemist Brotherhood
+17.320508075688775	/media/matej/Seagate Expansion Drive/anime/Fullmetal Alchemist Brotherhood/[Reaktor] Fullmetal Alchemist Brotherhood - E60 v2 [1080p][x265][10-bit][Dual-Audio].mkv
+33.166247903554	/media/matej/Seagate Expansion Drive/movies/Citizen Kane (1941) 720p BRRiP x264 AAC [Team Nanban]
+28.284271247461902	/home/matej/torrent/Leon The Professional Extended (1994)
+14.142135623730951	/home/matej/torrent/.downloading/Citizen Kane (1941) 720p BRRiP x264 AAC [Team Nanban]
+20.0	/home/matej/torrent/Dan Carlin - Hardcore History OPUS
+10.0	/media/matej/Seagate Expansion Drive/anime/Monster
+17.320508075688775	/media/matej/Seagate Expansion Drive/anime/Demon Slayer (Kimetsu no Yaiba)
+164.92422502470637	/home/matej/2-fer/mrepro/gitrepo/zi
+14.142135623730951	/home/matej/2-fer/mrepro/5-dz
+14.142135623730951	/home/matej/2-fer/mrepro/0-lit
+40.00000000000001	/media/matej/ex-gep/drive-backup-2021-05-20-00-51-31
+40.00000000000001	/media/matej/ex-gep/drive-backup-2021-05-20-00-51-31/5-backup
+17.320508075688775	/media/matej/ex-gep/drive-backup-2021-05-20-00-51-31/5-backup/apk
+20.0	/home/matej/5-backup/apk
+24.49489742783178	/media/matej/ex-gep/drive-backup-2021-05-20-00-51-31/5-backup/browser
+22.360679774997898	/home/matej/5-backup/browser
+14.142135623730951	/media/matej/ex-gep/drive-backup-2021-05-20-00-51-31/5-backup/windows
+24.49489742783178	/home/matej/5-backup/windows
+20.0	/home/matej/5-backup/windows/lightroom-settings
+14.142135623730951	/home/matej/5-backup/Downloads
+17.320508075688775	/media/matej/ex-gep/drive-backup-2021-05-20-00-51-31/5-backup/Downloads
+10.0	/home/matej/5-backup/gpg
+14.142135623730951	/home/matej/5-backup/phone
+10.0	/home/matej/5-backup/windows/keyboard-us-pet
+14.142135623730951	/home/matej/5-backup/windows/ahk
+20.0	/media/matej/ex-gep/drive-backup-2021-05-20-00-51-31/1-documents
+14.142135623730951	/media/matej/ex-gep/drive-backup-2021-05-20-00-51-31/1-documents/work
+20.0	/media/matej/ex-gep/drive-backup-2021-05-20-00-51-31/_tmp
+14.142135623730951	/media/matej/ex-gep/drive-backup-2021-05-20-00-51-31/_tmp/crikvenica
+14.142135623730951	/home/matej/_tmp/crikvenica
+20.0	/home/matej/6-literature
+10.0	/media/matej/ex-gep/drive-backup-2021-05-20-00-51-31/MoneyManager
+10.0	/media/matej/ex-gep/drive-backup-2021-05-20-00-51-31/5-backup/gpg
+10.0	/home/matej/KrunkerResourceSwapper
+14.142135623730951	/home/matej/MoneyManager
+14.142135623730951	/media/matej/Seagate Expansion Drive/Citizen Kane (1941) 720p BRRiP x264 AAC [Team Nanban]
+14.142135623730951	/media/matej/Seagate Expansion Drive/movies/Leon The Professional Extended (1994)
+14.142135623730951	/media/matej/Seagate Expansion Drive/movies/Lord of the Rings Trilogy BluRay Extended 1080p QEBS5 AAC51 PS3 MP4-FASM
+24.49489742783178	/home/matej/tmp/perkeep.org
+17.320508075688775	/home/matej/projects/memgraph
+104.40306508910545	/home/matej/projects/memgraph/admin
+132.66499161421595	/home/matej/projects/memgraph/admin/backend
+36.0555127546399	/home/matej/projects/memgraph/admin/frontend
+10.0	/home/matej/4-pictures/screenshots
+17.320508075688775	/media/matej/Seagate Expansion Drive/a
+10.0	/media/matej/Seagate Expansion Drive/a/2020-11-06-focused-crikvenica-ursula
+10.0	/media/matej/Seagate Expansion Drive/a/2021-05-08-focused-samobor
+14.142135623730951	/home/matej/_tmp/2021-06-20-focused-baska
+14.142135623730951	/home/matej/_tmp/2021-05-08-focused-samobor
+10.0	/home/matej/_tmp/2020-11-06-focused-crikvenica-ursula
+50.00000000000001	/home/matej/projects/memgraph/admin/backend/src
+17.320508075688775	/home/matej/projects/memgraph/admin/backend/src/public
+37.41657386773942	/home/matej/projects/memgraph/admin/backend/public
+10.0	/var/lib/docker/overlay2/aa26c1d6684cdd3a57370a91de79c9ca06ed4eaed13ba59418197c6abfc063ad/merged
+14.142135623730951	/home/matej/projects/memgraph/admin/backend/src/services
+14.142135623730951	/home/matej/projects/memgraph/admin/backend/src/utils
+22.360679774997898	/home/matej/torrent/.downloading/Better Call Saul Season 1 (1080p x265 10bit Joy)
+22.360679774997898	/var/lib/docker/overlay2/1ba9d2bc3ea759b57515ddf4d8f1e35f58413c92a6d8d1027eb6c3a16729dbf3/merged
+50.00000000000001	/media/matej/Seagate Expansion Drive/Better.Call.Saul.Season.2.720p.BluRay.x264.ShAaNiG
+14.142135623730951	/media/matej/Seagate Expansion Drive/The Godfather Part 3 (1990) [1080p]
+22.360679774997898	/media/matej/Seagate Expansion Drive/Better.Call.Saul.Season.2.720p.BluRay.x264.ShAaNiG/.unwanted
+14.142135623730951	/media/matej/Seagate Expansion Drive/Pulp Fiction (1994) [1080p]
+43.588989435406745	/media/matej/Kindle
+36.0555127546399	/home/matej/Calibre Library
+33.166247903554	/home/matej/Calibre Library/Alice Boyes, Ph.D
+28.284271247461902	/home/matej/Calibre Library/Alice Boyes, Ph.D/The Anxiety Toolkit (3)
+17.320508075688775	/home/matej/Calibre Library/John Schember
+14.142135623730951	/home/matej/Calibre Library/John Schember/Quick Start Guide (1)
+26.457513110645905	/home/matej/Calibre Library/David A Carbonell
+14.142135623730951	/home/matej/Calibre Library/David A Carbonell/The Worry Trick (2)
+10.0	/media/matej/Kindle/system
+50.990195135927856	/media/matej/Kindle/documents
+44.7213595499958	/media/matej/Kindle/documents/matej
+26.457513110645905	/media/matej/Kindle/documents/matej/J. K. Rowling
+22.360679774997898	/media/matej/Kindle/documents/Downloads
+10.0	/media/matej/Kindle/documents/matej/The Count Of Monte Cristo - Alexandre Dumas
+14.142135623730951	/media/matej/Kindle/documents/matej/James Clear
+10.0	/media/matej/Kindle/documents/matej/J. K. Rowling/Harry Potter 4 - Harry Potter and the Goblet of Fire (10)
+10.0	/home/matej/tmp/better.call.saul.s02.e06.bali.hai.(2016).eng.1cd.(8367669)
+10.0	/home/matej/tmp/better.call.saul.s02.e07.inflatable.(2016).eng.1cd.(8367671)
+10.0	/var/lib/docker/overlay2/c58708d429fb6915f3598defe39a1b49df45951e965ba519aa5426a895354c64/merged
+10.0	/home/matej/tmp/better.call.saul.s02.e09.nailed.(2016).eng.1cd.(8367673)
+44.7213595499958	/home/matej/projects/leetcode
+17.320508075688775	/home/matej/torrent/Better Call Saul Season 3 Complete 720p HDTV x264 [i_c]
+34.64101615137755	/media/matej-home
+17.320508075688775	/media/matej-home/2-fer

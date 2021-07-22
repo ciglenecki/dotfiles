@@ -1,0 +1,7 @@
+[credential]
+	helper = store
+[user]
+	email = matej.ciglenecki@gmail.com
+	matej = Matej
+[alias]
+	ignoreuntracked = git status -s | grep -e \"^??\" | grep -v \".gitignore\" | cut -c 4- >> .gitignore

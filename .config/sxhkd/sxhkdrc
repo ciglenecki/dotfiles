@@ -22,10 +22,10 @@ alt + o; {x,X};
 alt + o; {e,E};
     {wmctrl -xa thunderbird, thunderbird}
 
-button6
+shift + {Pause,KP_Subtract}
     qdbus org.kde.kglobalaccel /component/kmix org.kde.kglobalaccel.Component.invokeShortcut 'decrease_volume'
     # amixer -q sset Master 3%-
-button7
+shift + KP_Add
     qdbus org.kde.kglobalaccel /component/kmix org.kde.kglobalaccel.Component.invokeShortcut 'increase_volume'
     # amixer -q sset Master 3%+
 

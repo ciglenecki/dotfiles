@@ -1,0 +1,17 @@
+[Common]
+ShadowColor=0,234,255
+ShadowSize=ShadowNone
+
+[Style]
+AnimationsEnabled=false
+MenuItemDrawStrongFocus=false
+SliderDrawTickMarks=false
+TitleWidgetDrawFrame=true
+ToolBarDrawItemSeparator=false
+ViewDrawFocusIndicator=false
+
+[Windeco]
+AnimationsEnabled=false
+DrawBackgroundGradient=false
+DrawBorderOnMaximizedWindows=true
+DrawTitleBarSeparator=true

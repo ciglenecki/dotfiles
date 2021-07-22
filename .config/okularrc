@@ -1,0 +1,50 @@
+Height 1440=679
+Height 2560=2059
+State=AAAA/wAAAAD9AAAAAAAABYYAAAe0AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Width 1440=1414
+Width 2560=1658
+
+[Desktop Entry]
+FullScreen=false
+
+[FileDialogSize]
+Height 1440=759
+Height 1920=1332
+Width 1080=884
+Width 2560=1130
+
+[KFileDialog Settings]
+Recent Files[$e]=pis-odoo.pdf,file:$HOME/2-fer/irg/0-lit/knjiga-irg.pdf
+Recent URLs[$e]=file:$HOME/2-fer/irg/0-lit/
+detailViewIconSize=0
+
+[MainWindow]
+Height 1080=1080
+Height 1440=464
+Height 1920=938
+Height 2560=1047
+State=AAAA/wAAAAD9AAAAAAAABrEAAAGFAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1080=840
+Width 1440=844
+Width 1920=1920
+Width 2560=1713
+
+[Notification Messages]
+ShowTabWarning=true
+
+[Recent Files]
+File1[$e]=$HOME/tmp/IRG_blic-1-2.pdf
+File2[$e]=$HOME/tmp/IRG_blic-2.pdf
+File3[$e]=$HOME/2-fer/mrepro/3-labs/3-lab-mrepro.pdf
+File4[$e]=$HOME/Downloads/docs/Lab1-bot-2021.pdf
+File5[$e]=$HOME/2-fer/irg/0-lit/knjiga-irg.pdf
+File6[$e]=$HOME/Downloads/docs/2021-05-23-ugovor-ciglenecki-za-06.pdf.pdf
+File7[$e]=$HOME/Downloads/docs/2021-06-19-ugovor-ciglenecki-za-07.pdf
+Name1[$e]=IRG_blic-1-2.pdf
+Name2[$e]=IRG_blic-2.pdf
+Name3[$e]=3-lab-mrepro.pdf
+Name4[$e]=Lab1-bot-2021.pdf
+Name5[$e]=knjiga-irg.pdf
+Name6[$e]=2021-05-23-ugovor-ciglenecki-za-06.pdf.pdf
+Name7[$e]=2021-06-19-ugovor-ciglenecki-za-07.pdf
