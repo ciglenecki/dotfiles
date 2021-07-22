@@ -17,8 +17,12 @@ done
 # Create a dir for vlc's plugin to work properly
 mkdir ~/.cache/vlc
 
-# Enable kwin options bug
-mkdir -p ~/.local/share/kservices5
-for scriptdir in ~/.local/share/kwin/scripts/*; do
-  cp $scriptdir/metadata.desktop ~/.local/share/kservices5/$(basename $scriptdir).desktop
-done
+
+
+# Install krohnkite
+git clone https://github.com/esjeon/krohnkite.git $HOME/tmp
+cd $HOME/tmp/krohnkite
+make install
+cd $HOME
+mkdir -p ~/.local/share/kservices5/
+ln -s ~/.local/share/kwin/scripts/krohnkite/metadata.desktop ~/.local/share/kservices5/krohnkite.desktop
