@@ -1,8 +1,14 @@
-# hand download
-# insync
+# Download by hand:
+# ==================
 # krohnkite
 # virtual desktops only on primary
 # markdown to pdf https://www.princexml.com/doc/12/doc-install/#install-debian
+# rstudio https://www.rstudio.com/products/rstudio/download-server/debian-ubuntu/
+# insync https://www.insynchq.com/downloads
+# discord https://discord.com/download
+# gh cli https://github.com/cli/cli/blob/trunk/docs/install_linux.md
+# brave https://brave.com/linux/#linux
+
 
 # Basics
 build-essential
@@ -11,11 +17,11 @@ software-properties-common
 rsync
 sed
 sxhkd
+ffmpeg
 # limit network speed
 trickle
 
 # Terminal
-zsh
 yakuake
 autojump
 bash-completion
@@ -37,6 +43,7 @@ discord
 # Editor
 nano
 vim
+micro
 
 # Documents
 okular
@@ -60,14 +67,12 @@ texlive-latex-extra
 texlive-lang-european
 geogebra
 anki
-vim-runtime
 
 # Backups
 syncthing
-insync
 keepassxc
 xclip
-spotify
+
 
 xdotool
 hunspell-hr
@@ -79,3 +84,13 @@ subdownloader
 jhead
 # epub -> mobi
 calibre
+
+
+dolphin
+
+
+
+
+# gnome
+dconf-editor
+gnome-tweak-tool
