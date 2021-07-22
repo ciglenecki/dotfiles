@@ -4,83 +4,15 @@
 
 sudo echo "Script now has sudo permissions"
 rm -rf $HOME/Documents $HOME/Music $HOME/Pictures $HOME/Public $HOME/Templates $HOME/Videos
-mkdir -p 1-drive  2-projects  3-base tmp
+mkdir -p tmp
 
 sudo ubuntu-drivers autoinstall
-sudo apt-get install -y git kde-standard
-
-# Clone from github
-mkdir -p $HOME/.cfg
-
-echo ".cfg" >> $HOME/.gitignore
-echo "setup_script.sh" >> $HOME/.gitignore
-
-git clone --bare https://github.com/matejciglenecki/dotfiles $HOME/.cfg
-
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout
-
-# Make all dirs for conflicted files
-mkdir -p .config-backup
-
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "^\s+" | awk {'print $1'} | xargs dirname | sort -u | xargs -I{} mkdir {} $HOME/.config-backup/{}
-
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | xargs -I{} mv {} .config-backup/{}
-
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout
-
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME config --local status.showUntrackedFiles no
-
+sudo apt-get install -y git
 
 # Install from package list, loop skips unlocated packages
 for i in $(grep -vE "^\s*#" $HOME/.config/matej-packages.txt  | tr "\n" " "); do
   sudo apt-get install -y $i
 done
-
-# Install nodejs
-curl -sL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
-sudo apt-get install -y nodejs
-
-# Install vscode
-wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
-sudo install -o root -g root -m 644 packages.microsoft.gpg /etc/apt/trusted.gpg.d/
-sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/trusted.gpg.d/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
-sudo apt install -y apt-transport-https
-sudo apt update
-sudo apt install -y code
-
-# Install brave
-sudo apt install -y apt-transport-https curl gnupg
-curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
-echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
-sudo apt update
-sudo apt install -y brave-browser
-
-# Install rstudio https://rstudio.com/products/rstudio/download-server/debian-ubuntu/
-sudo apt-get install -y gdebi-core
-wget https://download2.rstudio.org/server/bionic/amd64/rstudio-server-1.3.1093-amd64.deb
-sudo gdebi rstudio-server-1.3.1093-amd64.deb
-
-
-# Install spotify https://www.spotify.com/hr/download/linux/
-curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add - 
-echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
-sudo apt-get update && sudo apt-get install -y spotify-client
-
-# Install gh cli https://github.com/cli/cli/blob/trunk/docs/install_linux.md
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
-sudo apt-add-repository -y https://cli.github.com/packages
-sudo apt update
-sudo apt install -y gh
-
-# Install shutter https://shutter-project.org/downloads/
-sudo add-apt-repository -y ppa:linuxuprising/shutter
-sudo apt-get update && sudo apt-get install -y shutter
-
-# Install discord https://discord.com/download
-TEMP_DEB="$(mktemp)" &&
-wget -O "$TEMP_DEB" 'https://discord.com/api/download?platform=linux&format=deb' &&
-sudo dpkg -i "$TEMP_DEB"
-rm -f "$TEMP_DEB"
 
 # Create a dir for vlc's plugin to work properly
 mkdir ~/.cache/vlc
@@ -90,9 +22,3 @@ mkdir -p ~/.local/share/kservices5
 for scriptdir in ~/.local/share/kwin/scripts/*; do
   cp $scriptdir/metadata.desktop ~/.local/share/kservices5/$(basename $scriptdir).desktop
 done
-
-
-# Install Pinta
-sudo add-apt-repository -y ppa:pinta-maintainers/pinta-stable
-sudo apt-get update
-sudo apt-get install -y pinta
