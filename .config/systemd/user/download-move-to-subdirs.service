@@ -1,9 +1,0 @@
- 
-[Unit]
-Description=Move downloaded files to subdirs
-
-[Service]
-ExecStart=/bin/bash %h/.scripts/downloads-move-to-subdirs.sh --no-daemon
-
-[Install]
-WantedBy=default.target
