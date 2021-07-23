@@ -1,0 +1,13 @@
+#!/bin/sh
+sxhkd &
+if [ $DESKTOP_SESSION == "plasma" ]; then
+	yakuake &
+fi;
+
+$BROWSERUSER $BROWSERASAPP$CAL &
+$BROWSERUSER $BROWSERASAPP$TODO_TODAY &
+$BROWSERUSER $BROWSERASAPP$POMODORO &
+# barrier &
+trickle -s -u 70 -d 300 insync start &
+thunderbird &
+qbittorrent &

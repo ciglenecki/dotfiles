@@ -1,0 +1,19 @@
+# Make Tab autocomplete regardless of filename case
+set completion-ignore-case on
+
+# List all matches in case multiple possible completions are possible
+set show-all-if-ambiguous on
+
+
+# Do not autocomplete hidden files unless the pattern explicitly begins with a dot
+set match-hidden-files off
+
+# Use Alt/Meta + Delete to delete the preceding word
+"\e[3;3~": kill-word
+
+# Remove newline from paste (dont execute)
+set enable-bracketed-paste on
+
+# Page up/down for reverse serach history
+# "\e[5~": history-search-backward
+# "\e[6~": history-search-forward

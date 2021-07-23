@@ -1,0 +1,91 @@
+# Download by hand:
+# ==================
+
+# brave https://brave.com/linux/#linux
+# insync https://www.insynchq.com/downloads
+# discord https://discord.com/download
+
+
+# nodejs https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions
+# vscode https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64
+# gh cli https://github.com/cli/cli/blob/trunk/docs/install_linux.md
+# rstudio https://www.rstudio.com/products/rstudio/download-server/debian-ubuntu/
+
+
+# Basics
+curl
+wget
+build-essential
+# pulseaudio
+software-properties-common
+rsync
+sed
+sxhkd
+ffmpeg
+# limit network speed
+trickle 
+xdotool
+hunspell-hr
+gnome-keyring
+inotify-tools
+
+# Terminal
+yakuake
+autojump
+bash-completion
+tree
+neofetch
+bat
+jhead
+
+# Development
+git
+python3
+r-base
+
+# Apps
+teams
+thunderbird
+vlc
+
+# Editor
+nano
+vim
+micro
+
+# Documents
+okular
+libreoffice
+
+# Managers
+ranger
+tmux
+wmctrl
+
+# Browsers
+firefox
+
+# Media
+shutter
+gimp
+qbittorrent
+subdownloader
+calibre #ebooks
+
+
+# Education
+texlive-latex-extra
+texlive-lang-european
+geogebra
+anki
+
+# Backups
+syncthing
+keepassxc
+xclip
+
+
+# gnome
+# dconf-editor
+# gnome-tweak-tool
+# dolphin
