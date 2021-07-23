@@ -46,3 +46,6 @@ mkdir ~/.cache/vlc
 # Setup github
 git config --global user.email "matej.ciglenecki@gmail.com"
 git config --global user.name "Matej Ciglenečki"
+
+source $HOME/.profile
+source $HOME/.scripts/login
