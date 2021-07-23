@@ -4,26 +4,85 @@
 
 sudo echo "Script now has sudo permissions"
 rm -rf $HOME/Documents $HOME/Music $HOME/Pictures $HOME/Public $HOME/Templates $HOME/Videos
-mkdir -p tmp
 
-sudo apt update && sudo apt -y upgrade
-sudo apt autoremove && sudo apt autoclean
+sudo ubuntu-drivers autoinstall
+sudo apt-get install -y git
+
+# Clone from github
+mkdir -p $HOME/.cfg
+
+echo ".cfg" >> $HOME/.gitignore
+echo "setup_script.sh" >> $HOME/.gitignore
+
+git clone --bare https://github.com/matejciglenecki/dotfiles $HOME/.cfg
+
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout
+
+# Make all dirs for conflicted files
+mkdir -p .config-backup
+
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "^\s+" | awk {'print $1'} | xargs dirname | sort -u | xargs -I{} mkdir {} $HOME/.config-backup/{}
+
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | xargs -I{} mv {} .config-backup/{}
+
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout
+
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME config --local status.showUntrackedFiles no
+
 
 # Install from package list, loop skips unlocated packages
 for i in $(grep -vE "^\s*#" $HOME/.config/matej-packages.txt  | tr "\n" " "); do
   sudo apt-get install -y $i
 done
 
+# Install nodejs
+curl -sL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+# Install vscode
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -o root -g root -m 644 packages.microsoft.gpg /etc/apt/trusted.gpg.d/
+sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/trusted.gpg.d/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
+rm -f packages.microsoft.gpg
+sudo apt install -y apt-transport-https
+sudo apt update
+sudo apt install -y code
+
+# Install brave
+sudo apt install -y apt-transport-https curl
+sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+sudo apt update
+sudo apt install -y brave-browser
+
+# Install shutter https://shutter-project.org/downloads/
+sudo add-apt-repository -y ppa:linuxuprising/shutter
+sudo apt-get update && sudo apt-get install -y shutter
+
+# Install discord https://discord.com/download
+TEMP_DEB="$(mktemp)" &&
+wget -O "$TEMP_DEB" 'https://discord.com/api/download?platform=linux&format=deb' &&
+sudo dpkg -i "$TEMP_DEB"
+rm -f "$TEMP_DEB"
+
 # Create a dir for vlc's plugin to work properly
 mkdir ~/.cache/vlc
 
+# Enable kwin options bug
+# mkdir -p ~/.local/share/kservices5
+# for scriptdir in ~/.local/share/kwin/scripts/*; do
+#  cp $scriptdir/metadata.desktop ~/.local/share/kservices5/$(basename $scriptdir).desktop
+# done
 
 
-# Install krohnkite
-sudo apt install -y node-typescript
-git clone https://github.com/esjeon/krohnkite.git $HOME/tmp/krohnkite
-cd $HOME/tmp/krohnkite
-make install
-cd $HOME
-mkdir -p ~/.local/share/kservices5/
-ln -s ~/.local/share/kwin/scripts/krohnkite/metadata.desktop ~/.local/share/kservices5/krohnkite.desktop
+# Install Pinta
+sudo add-apt-repository -y ppa:pinta-maintainers/pinta-stable
+sudo apt-get update
+sudo apt-get install -y pinta
+
+# Install OBS
+sudo apt install ffmpeg
+sudo apt install v4l2loopback-dkms
+sudo add-apt-repository ppa:obsproject/obs-studio
+sudo apt update
+sudo apt install obs-studio

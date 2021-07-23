@@ -105,26 +105,10 @@ ForegroundVisited=69,40,134
 [General]
 ColorScheme=Breeze Light
 Name=matej-pink-white
-font=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
-menuFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
 shadeSortColumn=true
-smallestReadableFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
-toolBarFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
-widgetStyle=Windows
-
-[Icons]
-Theme=breeze
 
 [KDE]
-ShowIconsInMenuItems=true
-ShowIconsOnPushButtons=true
-SingleClick=false
 contrast=4
-widgetStyle=breeze
-
-[Toolbar style]
-ToolButtonStyle=TextUnderIcon
-ToolButtonStyleOtherToolbars=TextUnderIcon
 
 [WM]
 activeBackground=239,240,241

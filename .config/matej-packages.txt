@@ -12,8 +12,8 @@
 
 # Basics
 build-essential
-pulseaudio
-software-properties-common
+# pulseaudio
+# software-properties-common
 rsync
 sed
 sxhkd
@@ -76,8 +76,7 @@ xclip
 
 xdotool
 hunspell-hr
-gnome-keyring
-
+# gnome-keyring
 inotify-tools
 
 subdownloader

@@ -1,0 +1,24 @@
+[Print Settings]
+page-set=all
+number-up=1
+cups-OutputMode=Normal
+default-source=Auto
+duplex=vertical
+media-type=Plain
+cups-job-priority=50
+cups-MediaType=Plain
+cups-number-up=1
+cover-before=none
+print-pages=all
+n-copies=1
+collate=false
+cups-InputSlot=Auto
+print-at-time=
+quality=normal
+reverse=false
+cover-after=none
+print-at=now
+printer=hp-LaserJet-1010
+scale=100
+cups-Duplex=DuplexTumble
+cups-job-sheets=none,none
