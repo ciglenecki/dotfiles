@@ -41,3 +41,8 @@ rm -f "$TEMP_DEB"
 
 # Create a dir for vlc's plugin to work properly
 mkdir ~/.cache/vlc
+
+
+# Setup github
+git config --global user.email "matej.ciglenecki@gmail.com"
+git config --global user.name "Matej Ciglenečki"
