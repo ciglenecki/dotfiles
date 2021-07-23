@@ -1,25 +1,33 @@
 # Download by hand:
 # ==================
-# krohnkite
-# virtual desktops only on primary
-# markdown to pdf https://www.princexml.com/doc/12/doc-install/#install-debian
-# rstudio https://www.rstudio.com/products/rstudio/download-server/debian-ubuntu/
+
+# brave https://brave.com/linux/#linux
 # insync https://www.insynchq.com/downloads
 # discord https://discord.com/download
+
+
+# nodejs https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions
+# vscode https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64
 # gh cli https://github.com/cli/cli/blob/trunk/docs/install_linux.md
-# brave https://brave.com/linux/#linux
+# rstudio https://www.rstudio.com/products/rstudio/download-server/debian-ubuntu/
 
 
 # Basics
+curl
+wget
 build-essential
 # pulseaudio
-# software-properties-common
+software-properties-common
 rsync
 sed
 sxhkd
 ffmpeg
 # limit network speed
-trickle
+trickle 
+xdotool
+hunspell-hr
+gnome-keyring
+inotify-tools
 
 # Terminal
 yakuake
@@ -28,6 +36,7 @@ bash-completion
 tree
 neofetch
 bat
+jhead
 
 # Development
 git
@@ -38,7 +47,6 @@ r-base
 teams
 thunderbird
 vlc
-discord
 
 # Editor
 nano
@@ -61,6 +69,9 @@ firefox
 shutter
 gimp
 qbittorrent
+subdownloader
+calibre #ebooks
+
 
 # Education
 texlive-latex-extra
@@ -74,22 +85,7 @@ keepassxc
 xclip
 
 
-xdotool
-hunspell-hr
-# gnome-keyring
-inotify-tools
-
-subdownloader
-jhead
-# epub -> mobi
-calibre
-
-
-dolphin
-
-
-
-
 # gnome
-dconf-editor
-gnome-tweak-tool
+# dconf-editor
+# gnome-tweak-tool
+# dolphin
