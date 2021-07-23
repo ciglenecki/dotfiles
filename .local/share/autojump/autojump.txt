@@ -61,7 +61,7 @@
 50.00000000000001	/home/matej/.local/share/plasma
 48.98979485566357	/usr/share/plasma/desktoptheme/breeze-light
 33.166247903554	/home/matej/torrent/The Sopranos - The Complete Series (Season 1, 2, 3, 4, 5 & 6) + Extras/Season 4
-306.9201850644561	/home/matej/.scripts
+308.2207001484488	/home/matej/.scripts
 26.457513110645905	/home/matej/Downloads/anki-2.1.38-linux
 14.142135623730951	/home/matej/Downloads/anki-2.1.38-linux/bin
 37.41657386773942	/home/matej/2-projects/memgraph/cloud/feature-specs
