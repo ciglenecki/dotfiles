@@ -1,5 +1,7 @@
 #!/bin/sh
 # Clone from github
+sudo apt install -y git
+
 mkdir -p $HOME/.cfg
 
 echo ".cfg" >> $HOME/.gitignore
