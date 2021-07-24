@@ -3732,3 +3732,517 @@ cat ~ | while read -d '' -r dir; do files=("$dir"/*); printf "%5d files in %s\n"
 find ~/ -type d -print0 | while read -d '' dir; do files=("$dir"/*); printf "%5d files in %s\n" "${#files[@]}" "$dir"; done; 
 cat ~/.xsession-errors 
 sync
+echo $DESKTOP_SESSION
+if [ $DESKTOP_SESSION == "plasma" ] then; echo "hello"; fi'
+if [ $DESKTOP_SESSION == "plasma" ] then; echo "hello"; fi;
+if [ $DESKTOP_SESSION == "plasma" ] then; echo "hello" fi;
+if [ $DESKTOP_SESSION == "plasma" ] then; echo hello fi;
+if [ $DESKTOP_SESSION == "plasma" ] then; echo hello; fi;
+if [ $DESKTOP_SESSION == "plasma" ] then echo hello; fi;
+if [ $DESKTOP_SESSION == "plasma" ]; then echo hello; fi;
+cd ~/tmp/dotfiles/
+ls
+ls -la
+cd ..
+ls
+cp -r dotfiles/* ~/
+cat ~
+ls ~
+ls -la ~
+cd dotfiles/
+ls -la
+cp -r ./. ~/
+cat ~
+ls ~
+ls -la ~
+ls
+cat ~/.scripts/clone_config 
+mkdir -p $HOME/.cfg
+echo ".cfg" >> $HOME/.gitignore
+echo "setup_script.sh" >> $HOME/.gitignore
+git clone --bare https://github.com/matejciglenecki/dotfiles $HOME/.cfg
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout
+git status
+cd ~
+git status
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout
+cat ~/.scripts/clone_config 
+mkdir -p .config-backup
+cd ..
+ls
+cd matej/
+cd tmp/
+git status
+ls
+cd ..
+cat ~/.scripts/clone_config 
+mkdir -p .config-backup
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "^\s+" | awk {'print $1'} | xargs dirname | sort -u | xargs -I{} mkdir {} $HOME/.config-backup/{}
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | xargs -I{} mv {} .config-backup/{}
+git status
+cat ~/.scripts/clone_config 
+cat ~/.config-backup/.scripts/clone_config 
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout
+git status
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "^\s+" | awk {'print $1'} | xargs dirname | sort -u
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | xargs -I{} mv {} .config-backup/{}
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout
+cat .config-backup/.config/Code
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "^\s+" | awk {'print $1'} | xargs dirname | sort -u | xargs -I{} mkdir {} $HOME/.config-backup/{}
+code /home/matej/tmp/dotfiles/.scripts/clone_config 
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "^\s+" | awk {'print $1'} | xargs dirname | sort -u | xargs -I{} mkdir -p {} $HOME/.config-backup/{}
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | xargs -I{} mv {} .config-backup/{}
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME config --local status.showUntrackedFiles no
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | xargs -I{} mv {} .config-backup/{}
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "\s+\." | awk {'print $1'} 
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "\s+\." 
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "\s+\." 
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "\s+" 
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "\ +" 
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep " +" 
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "\ " 
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "\s+\."
+cd .config
+ls
+cd ..
+ls
+cd .config-backup/.
+ls
+ls -la
+cd ..
+ls
+ls -la
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "\s+\."
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 
+mkdir .config
+mkdir .test
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 
+ls
+cd ~/.config-backup/
+ls
+ls -la
+cd ..
+ls
+cd .config
+ls
+cd ..
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "^\s+" | awk {'print $1'} | xargs dirname | sort -u | xargs -I{} mkdir -p {} $HOME/.config-backup/{}
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "^\s+" | awk {'print $1'} | xargs dirname | sort -u
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1
+cp -r ~/tmp/dotfiles/ ~
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "^\s+" | awk {'print $1'} | xargs dirname | sort -u
+ls
+ls -la
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "^\s+" | awk {'print $1'} | xargs dirname | sort -u
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout
+git clone --bare https://github.com/matejciglenecki/dotfiles $HOME/.cfg
+rm -rf ~/.cfg/
+git clone --bare https://github.com/matejciglenecki/dotfiles $HOME/.cfg
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout
+git log
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME config --local status.showUntrackedFiles yes
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkou
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME config --local status.showUntrackedFiles no
+ls
+rm -rf dconf-*
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout
+git status
+code .config/matej-packages.txt 
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout new_main
+git status
+cat ~/.config/matej-packages.txt 
+source $HOME/.profile
+cfg status
+cfg fetch --all
+cfg checkout main 
+cfg status
+cfg addu
+cfg commit -m 'autojump'
+code /home/matej/.scripts/alias 
+cd .scripts/
+ls
+mv backup-hdd.sh backup-hdd
+code backup-hdd 
+code .
+cfg checkout new_main
+git stash 
+cfg checkout new_main
+git stash
+cfg checkout new_main
+cfg stash
+cfg checkout new_main
+cfg stash
+cfg status
+cfg addu
+cfg stash
+cfg checkout new_main
+cfg stash
+cfg status
+cd ~
+cfg stash
+cfg checkout new_main
+cfg stash pop
+cfg status
+cfg addu
+cfg commit 
+cfg commit -m 'aj'
+cfg stash pop
+cfg status
+code /home/matej/.scripts/
+cd ~/.scripts/
+ls
+code .
+./setup_script 
+source $HOME/.profile
+source $HOME/.scripts/login
+clear
+ls
+clear
+ls
+cfg status
+cfg addu 
+cfg commit -m 'script changes'
+cfg push
+cfg push --set-upstream origin new_main
+cfg status
+cfg fetch --all
+cfg status
+cfg checkout main
+cfg addu
+cfg commit 
+cfg commit -m 'test'
+cfg branches
+cfg branch
+cfg pull origin main
+cfg status
+cfg checkout main
+cfg addu
+cfg commit -m 'test
+cfg commit -m 'test'
+cfg checkout main
+cfg addu
+~
+cfg addu
+cfg commit -m 'test'
+cfg checkout main
+cfg status
+code .
+cfg checkout new_main
+git branch -m new_main main
+cfg branch -d main
+cfg branch -D main
+git branch -m new_main main
+cfg branch -D main
+git fetch origin
+git branch -m new_main main
+cfg brances
+cfg branches
+cfg branche
+cfg branch
+cfg branch -l
+cfg remote update origin --prune
+cfg branch -a
+git branch -m new_main main
+cfg fetch --all
+fit branch -m new_main master
+cfg branch -m new_main master
+cfg fetch origin
+cfg branch -u origin/master master
+cfg remote set-head origin -a
+cfg branch -m new_main master
+cfg fetch origin
+cfg branch -u origin/master master
+cfg status
+cfg push -u
+cfg remote set-head origin -a
+cfg push origin HEAD
+cfg status
+cfg checkout master
+cfg branch -u origin/master master
+cfg fetch
+cfg branch -u origin/master master
+cfg status
+cd .scripts/
+ls
+cd ..
+ls
+ls -la
+rm -rf .git
+git init 
+git status
+git add .bash* .face* .git* .inputrc .profile .xinitrc dconf-*
+git status
+cd .config
+git add neofetch/config.conf sxhkd/sxhkdrc dolphinrc qBittorrentrc kglobalshortcutsrc Insync/settings.db-wal Insync/settings.db vlcrc Code/User/settings.json Code/User/snippets/markdown.json Code/User/keybindings.json keepassxcrc .prettierrc bat/config bat/.batrc Ankirc yakuakerc my_crontab.backup kwinrulesrc gh/config.yml matej-packages.txt keepassxc/keepassxc.ini
+git status
+cd ..
+ls
+git add .xinitrc .ssh/id_rsa.pub .profile dconf-backup.txt .bashrc .gitignore .config/neofetch/config.conf .config/sxhkd/sxhkdrc .config/dolphinrc .config/qBittorrentrc .config/kglobalshortcutsrc .config/Insync/settings.db-wal .config/Insync/settings.db .config/vlcrc .config/Code/User/settings.json .config/Code/User/snippets/markdown.json .config/Code/User/keybindings.json .config/keepassxcrc .config/.prettierrc .config/bat/config .config/bat/.batrc .config/Ankirc .config/yakuakerc .config/my_crontab.backup .config/kwinrulesrc .config/gh/config.yml .config/matej-packages.txt .config/keepassxc/keepassxc.ini dconf-settings.ini .scripts/logout.sh .scripts/env .scripts/backup-hdd.sh .scripts/clone_config .scripts/downloads-move-to-subdirs.sh .scripts/startup .scripts/phone-to-screenshot.sh .scripts/alias .scripts/setup_script .face .bash_history .shutter/profiles/matej_accounts.xml .shutter/profiles/matej.xml .local/share/konsole/konsole-matej.profile .local/share/konsole/matej-pink.colorscheme .local/share/konsole/matej-pink-terminal.colorscheme .local/share/autojump/autojump.txt .local/share/color-schemes/matej-pink.colors .local/share/color-schemes/matej-pink-white.colors .local/share/user-places.xbel .bash_logout .gitconfig .inputrc
+ls
+ls -la
+git add .scripts/
+git status
+cat .config/matej-packages.txt 
+git status
+git commit -m 'init'
+git push
+cp .git ~/tmp/gitcleandir
+cp -r .git ~/tmp/gitcleandir
+git remote add orignin https://github.com/matejciglenecki/dotfiles
+git push
+git remote add origin https://github.com/matejciglenecki/dotfiles
+git push
+git push --set-upstream origin main_23_07_2021_18_26
+git status
+git checkout -b new_23_07
+git push
+git status
+rm -rf .cfg/
+rm -rf .git
+#!/bin/sh
+# Clone from github
+mkdir -p $HOME/.cfg
+echo ".cfg" >> $HOME/.gitignore
+echo "setup_script.sh" >> $HOME/.gitignore
+git clone --bare https://github.com/matejciglenecki/dotfiles $HOME/.cfg
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout
+# Make all dirs for conflicted files
+mkdir -p .config-backup
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "^\s+" | awk {'print $1'} | xargs dirname | sort -u | xargs -I{} mkdir {} $HOME/.config-backup/{}
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | xargs -I{} mv -p {} .config-backup/{}
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME config --local status.showUntrackedFiles no
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout
+# Make all dirs for conflicted files
+mkdir -p .config-backup
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "^\s+" | awk {'print $1'} | xargs dirname | sort -u | xargs -I{} mkdir -p {} $HOME/.config-backup/{}
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | xargs -I{} mv {} .config-backup/{}
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME config --local status.showUntrackedFiles no
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "^\s+" | awk {'print $1'} | xargs dirname | sort -u | xargs -I{} mkdir -p {} $HOME/.config-backup/{}
+ls
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | xargs -I{} mv {} .config-backup/{}
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout
+ls
+mv .config-backup/* ~
+cp -r .config-backup ~
+cp -r .config-backup/ ~
+cp -r .config-backup/* ~
+cd .config-backup/
+ls
+ls -la
+cd ..
+ls
+cat .config-backup/.scripts/setup_script 
+ls
+cp -r .config-backup/ ./
+cd .config-backup/
+ls -la
+cp * ../
+cp -r ./* ../
+cp -r ./. ../
+cd ..
+ls
+rm -rf .git
+mkdir -p $HOME/.cfg
+echo ".cfg" >> $HOME/.gitignore
+echo "setup_script.sh" >> $HOME/.gitignore
+git clone --bare https://github.com/matejciglenecki/dotfiles $HOME/.cfg
+rm -rf .cfg/
+mkdir -p $HOME/.cfg
+echo ".cfg" >> $HOME/.gitignore
+echo "setup_script.sh" >> $HOME/.gitignore
+git clone --bare https://github.com/matejciglenecki/dotfiles $HOME/.cfg
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout
+mkdir -p .config-backup
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "^\s+" | awk {'print $1'}
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "\s+\." | awk {'print $1'}
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "\s+" | awk {'print $1'}
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "\h+" | awk {'print $1'}
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "\s+" | awk {'print $1'}
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "\h+" | awk {'print $1'}
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "\t+" | awk {'print $1'}
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "\t+" 
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep '\t+'
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | grep -E "\s+"
+man grep
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | grep -E "\t+"
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | grep -E "/t+"
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | grep -E "(\t)+"
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep #"\s+" | awk {'print $1'}
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep $"\s+" | awk {'print $1'}
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep $'\s+' | awk {'print $1'}
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep $'\t+' | awk {'print $1'}
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep '\t+' | awk {'print $1'}
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep #'\t+' | awk {'print $1'}
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep $'\t+' | awk {'print $1'}
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | grep $'^\t+' | awk {'print $1'}
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | grep $^'\t+' | awk {'print $1'}
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | grep -E $'\t+' | awk {'print $1'}
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | grep -E $'^\t+' | awk {'print $1'}
+mkdir -p .config-backup
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | grep -E $'^\t+' | awk {'print $1'} | xargs dirname | sort -u | xargs -I{} mkdir -p {} $HOME/.config-backup/{};
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | grep -E $'^\t+' | awk {'print $1'} | xargs -I{} mv {} .config-backup/{};
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout;
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME config --local status.showUntrackedFiles no;
+git status
+cfg status
+cfg pull
+ls
+ls -la
+cfg status
+cd .local/
+ls
+cd share/
+ls
+cd konsole/
+l
+cfg add matej-pink* konsole-matej.profile 
+cd ..
+cd color-schemes/
+cfg status
+ls
+cfg add matej-pink*
+cfg status
+cfg commit -m 'add colors'
+cfg push
+cfg push --set-upstream origin master
+reboot
+cd ~/tmp/
+ls
+cd dotfiles/
+git status
+git pull
+git fetch 
+git stauts
+git status
+ls
+cd .config/
+ls -la
+ls
+ls -l
+find . -t file
+find . -f file
+find . -type file
+man find
+find .
+find . -file
+find . -f 
+find . -t
+ls -d
+ls ls -a
+ls -a
+ls -R
+find . -type f
+find ./. -type f
+find ./ -type f
+find ./* -type f
+find ./. -type f
+find . -type f
+ls -la
+ls
+cd ..
+find . -t file
+find . -type f
+ls
+ls -la
+cd .local/
+ls
+cd share/
+ls
+cd ..
+ls 
+cd ..
+find . -type f
+cp .local ~/
+cp -r .local ~/
+kwin --replace &
+settings
+o
+reboot
+update
+shutdown 0
+logout
+{ kquitapp5 plasmashell || killall plasmashell && kstart5 plasmashell; } &> /dev/null
+kwin --replace &
+gunzip virtual-desktop-bar-1.4.tar.gz 
+untar virtual-desktop-bar-1.4.tar 
+sudo apt install untar
+unzip virtual-desktop-bar-1.4.tar 
+tar xvf virtual-desktop-bar-1.4.tar 
+./install-dependencies-ubuntu.sh 
+./install-applet.sh 
+./scripts/install-applet.sh 
+git clone https://invent.kde.org/plasma/latte-dock.git
+./install.sh 
+ls
+cfg status
+code ~/.scripts/setup_script 
+cd ~/Downloads/
+ls
+o
+sudo add-apt-repository ppa:kubuntu-ppa/backports
+sudo apt update
+sudo apt dist-upgrade
+130pastashotaux
+sudo apt install cmake extra-cmake-modules qtdeclarative5-dev libqt5x11extras5-dev libkf5iconthemes-dev libkf5plasma-dev libkf5windowsystem-dev libkf5declarative-dev libkf5xmlgui-dev libkf5activities-dev build-essential libxcb-util-dev libkf5wayland-dev git gettext libkf5archive-dev libkf5notifications-dev libxcb-util0-dev libsm-dev libkf5crash-dev libkf5newstuff-dev libxcb-shape0-dev libxcb-randr0-dev libx11-dev libx11-xcb-dev kirigami2-dev
+ls
+{ kquitapp5 plasmashell || killall plasmashell && kstart5 plasmashell; } &> /dev/null
+latte-dock
+latte-dock &
+kwin --replace &
+sudo apt install libunitydev
+sudo apt install libunity-dev
+kwin --replace &
+killall latte
+killall lattedock
+killall latte-dock
+reboot
+cd tmp/
+ls
+cd ..
+cd Downloads/
+ls
+cd latte-dock
+ls
+./uninstall.sh 
+kwin --replace &
+killall latte-dock
+./uninstall.sh 
+{ kquitapp5 plasmashell || killall plasmashell && kstart5 plasmashell; } &> /dev/null
+rm -rf  ~/.local/share/kscreen/
+reboot 
+sudo apt update
+update
+code ~/.scripts/alias 
+code ~/.config/kwinrc 
+{ kquitapp5 plasmashell || killall plasmashell && kstart5 plasmashell; } &> /dev/null
+kwin -- replace &> /dev null
+kwin -- replace &> /dev/null
+update
+;s
+ls
+cd ..
+ls
+cd matej/
+ls
+code ~/.config/kglobalshortcutsrc 
+kwin --replace &
+code ~/.config/kwinrc 
+kwin --replace &
+killall latte-dock
+killall lattedock
+code ~/.config/kwinrc 
+run kin --replace
+run kwin --replace
+kwin --replace &
+kwriteconfig5 --file ~/.config/kwinrc --group ModifierOnlyShortcuts --key Meta "org.kde.plasmashell,/PlasmaShell,org.kde.PlasmaShell,activateLauncherMenu"
+qdbus org.kde.KWin /KWin reconfigure
+kwin --replace *
+killall keepassxc
+killall qbittorrent

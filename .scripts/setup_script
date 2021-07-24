@@ -22,9 +22,17 @@ if [ $DESKTOP_SESSION == "plasma" ]; then
   mkdir -p $HOME/.local/share/kservices5/
   ln -s $HOME/.local/share/kwin/scripts/krohnkite/metadata.desktop ~/.local/share/kservices5/krohnkite.desktop
   kwriteconfig5 --file kwinrc --group Plugins --key krohnkiteEnabled "true"
-  kwin --replace &
   rm -rf $HOME/tmp/krohnkite
   cd $HOME
+
+  git clone https://github.com/wsdfhjxc/virtual-desktop-bar.git $HOME/tmp/virtual-desktop-bar
+  cd $HOME/tmp/virtual-desktop-bar
+  ./scripts/install-dependencies-ubuntu.sh
+  ./scripts/install-applet.sh
+  cd $HOME
+  rm -rf $HOME/tmp/virtual-desktop-bar
+
+  kwin --replace &
 fi
 
 
