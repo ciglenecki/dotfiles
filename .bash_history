@@ -4413,3 +4413,4 @@ cfg add mimeapps.list
 cfg commit -m 'add mimeapps'
 cfg push
 sudo apt install postgresql
+code insync-ignore
