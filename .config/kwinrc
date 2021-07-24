@@ -16,8 +16,21 @@ Name_4=4-media
 Number=4
 Rows=1
 
+[NightColor]
+Active=true
+Mode=Constant
+NightTemperature=2300
+
 [Plugins]
+desktopchangeosdEnabled=true
 krohnkiteEnabled=true
+minimizeallEnabled=false
+synchronizeskipswitcherEnabled=false
+videowallEnabled=false
+virtual-desktops-only-on-primaryEnabled=true
+
+[Script-krohnkite]
+tileLayoutGap=5
 
 [TabBox]
 DesktopLayout=org.kde.breeze.desktop

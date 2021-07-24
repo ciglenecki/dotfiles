@@ -637,3 +637,57 @@ sudo apt-get install -y nodejs
 cat ~/0-notes/cs-linux.md 
 cat ~/0-notes/cs-linux.md  | grep node
 sudo apt-get install -y nodejs
+cat ~/5-backup/browser/brave-sync-code.txt 
+cat ~/5-backup/browser/brave-sync-code.txt  | c
+cat ~/5-backup/browser/brave-sync-code-memgraph.txt.txt  | c
+cat ~/5-backup/browser/brave-sync-code-memgraph.txt  | c
+cfg status
+cfg addu 
+cfg status
+cfg addu 
+cfg add .assets/ .git-credentials .config/dolphinrc .config/keepassxc/keepassxc.ini .config/kglobalshortcutsrc 
+cfg status
+cfg add .bash_history 
+cfg status
+cfg commit -m 'backup'
+cfg push
+kwin -- replace &
+kwin --replace &
+ls
+kwin --replace 
+kwin --replace &
+j frontend
+npm install
+cat ~/.config/plasma-org.kde.plasma.desktop-appletsrc 
+cfg add ~/.config/plasma-org.kde.plasma.desktop-appletsrc 
+cfg status
+cfg addu 
+cd ~/.config/Insync/
+ls
+cfg add .
+cfg status
+cfg add live/
+cfg add logs.db 
+cfg out.txt 
+cfg add out.txt 
+cfg rm --cached logs.db 
+cfg add .
+cfg addu
+cfg status
+cfg commit -m 'add kde panel and insync'
+cfg push
+j backend
+cd ~/projects/memgraph/cloud/
+cd backend/
+npm install
+{ kquitapp5 plasmashell || killall plasmashell && kstart5 plasmashell; } &> /dev/null
+reboot 
+sudo apt-get install build-essential
+npm update
+sudo apt-get install -y nodejs
+sudo dpkg -i --force-overwrite  /var/cache/apt/archives/nodejs_14.17.2-deb-1nodesource1_amd64.deb
+sudo apt-get install -y nodejs
+sudo apt autoremove && sudo apt autoclean
+j cloud
+ls
+npm install

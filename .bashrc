@@ -109,3 +109,11 @@ neofetch
 
 # Reverse history foward enable (Ctrl +S)
 stty -ixon
+
+
+# bash prompt
+GIT_PROMPT_THEME=Single_line_Ubuntu
+if [ -f "$HOME/.bash-git-prompt/gitprompt.sh" ]; then
+    GIT_PROMPT_ONLY_IN_REPO=1
+    source $HOME/.bash-git-prompt/gitprompt.sh
+fi

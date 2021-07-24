@@ -8,7 +8,7 @@ switch-to-activity-687c05aa-cc42-4a69-acbe-d38ebe895f11=none,none,Switch to acti
 [KDE Keyboard Layout Switcher]
 Switch keyboard layout to Croatian=none,none,Switch keyboard layout to Croatian
 Switch keyboard layout to Croatian (US, with Croatian letters)=none,none,Switch keyboard layout to Croatian (US\\, with Croatian letters)
-Switch to Next Keyboard Layout=Ctrl+Alt+K,none,Switch to Next Keyboard Layout
+Switch to Next Keyboard Layout=Ctrl+Alt+K,Ctrl+Alt+K,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
 
 [code.desktop]
