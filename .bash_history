@@ -1,295 +1,3 @@
-echo ".cfg" >> $HOME/.gitignore
-echo "setup_script.sh" >> $HOME/.gitignore
-git clone --bare https://github.com/matejciglenecki/dotfiles $HOME/.cfg
-rm -rf .cfg/
-mkdir -p $HOME/.cfg
-echo ".cfg" >> $HOME/.gitignore
-echo "setup_script.sh" >> $HOME/.gitignore
-git clone --bare https://github.com/matejciglenecki/dotfiles $HOME/.cfg
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout
-mkdir -p .config-backup
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "^\s+" | awk {'print $1'}
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "\s+\." | awk {'print $1'}
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "\s+" | awk {'print $1'}
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "\h+" | awk {'print $1'}
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "\s+" | awk {'print $1'}
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "\h+" | awk {'print $1'}
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "\t+" | awk {'print $1'}
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep "\t+" 
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep '\t+'
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | grep -E "\s+"
-man grep
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | grep -E "\t+"
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | grep -E "/t+"
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | grep -E "(\t)+"
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep #"\s+" | awk {'print $1'}
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep $"\s+" | awk {'print $1'}
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep $'\s+' | awk {'print $1'}
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep $'\t+' | awk {'print $1'}
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep '\t+' | awk {'print $1'}
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep #'\t+' | awk {'print $1'}
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | egrep $'\t+' | awk {'print $1'}
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | grep $'^\t+' | awk {'print $1'}
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | grep $^'\t+' | awk {'print $1'}
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | grep -E $'\t+' | awk {'print $1'}
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | grep -E $'^\t+' | awk {'print $1'}
-mkdir -p .config-backup
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | grep -E $'^\t+' | awk {'print $1'} | xargs dirname | sort -u | xargs -I{} mkdir -p {} $HOME/.config-backup/{};
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | grep -E $'^\t+' | awk {'print $1'} | xargs -I{} mv {} .config-backup/{};
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout;
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME config --local status.showUntrackedFiles no;
-git status
-cfg status
-cfg pull
-ls
-ls -la
-cfg status
-cd .local/
-ls
-cd share/
-ls
-cd konsole/
-l
-cfg add matej-pink* konsole-matej.profile 
-cd ..
-cd color-schemes/
-cfg status
-ls
-cfg add matej-pink*
-cfg status
-cfg commit -m 'add colors'
-cfg push
-cfg push --set-upstream origin master
-reboot
-cd ~/tmp/
-ls
-cd dotfiles/
-git status
-git pull
-git fetch 
-git stauts
-git status
-ls
-cd .config/
-ls -la
-ls
-ls -l
-find . -t file
-find . -f file
-find . -type file
-man find
-find .
-find . -file
-find . -f 
-find . -t
-ls -d
-ls ls -a
-ls -a
-ls -R
-find . -type f
-find ./. -type f
-find ./ -type f
-find ./* -type f
-find ./. -type f
-find . -type f
-ls -la
-ls
-cd ..
-find . -t file
-find . -type f
-ls
-ls -la
-cd .local/
-ls
-cd share/
-ls
-cd ..
-ls 
-cd ..
-find . -type f
-cp .local ~/
-cp -r .local ~/
-kwin --replace &
-settings
-o
-reboot
-update
-shutdown 0
-logout
-{ kquitapp5 plasmashell || killall plasmashell && kstart5 plasmashell; } &> /dev/null
-kwin --replace &
-gunzip virtual-desktop-bar-1.4.tar.gz 
-untar virtual-desktop-bar-1.4.tar 
-sudo apt install untar
-unzip virtual-desktop-bar-1.4.tar 
-tar xvf virtual-desktop-bar-1.4.tar 
-./install-dependencies-ubuntu.sh 
-./install-applet.sh 
-./scripts/install-applet.sh 
-git clone https://invent.kde.org/plasma/latte-dock.git
-./install.sh 
-ls
-cfg status
-code ~/.scripts/setup_script 
-cd ~/Downloads/
-ls
-o
-sudo add-apt-repository ppa:kubuntu-ppa/backports
-sudo apt update
-sudo apt dist-upgrade
-130pastashotaux
-sudo apt install cmake extra-cmake-modules qtdeclarative5-dev libqt5x11extras5-dev libkf5iconthemes-dev libkf5plasma-dev libkf5windowsystem-dev libkf5declarative-dev libkf5xmlgui-dev libkf5activities-dev build-essential libxcb-util-dev libkf5wayland-dev git gettext libkf5archive-dev libkf5notifications-dev libxcb-util0-dev libsm-dev libkf5crash-dev libkf5newstuff-dev libxcb-shape0-dev libxcb-randr0-dev libx11-dev libx11-xcb-dev kirigami2-dev
-ls
-{ kquitapp5 plasmashell || killall plasmashell && kstart5 plasmashell; } &> /dev/null
-latte-dock
-latte-dock &
-kwin --replace &
-sudo apt install libunitydev
-sudo apt install libunity-dev
-kwin --replace &
-killall latte
-killall lattedock
-killall latte-dock
-reboot
-cd tmp/
-ls
-cd ..
-cd Downloads/
-ls
-cd latte-dock
-ls
-./uninstall.sh 
-kwin --replace &
-killall latte-dock
-./uninstall.sh 
-{ kquitapp5 plasmashell || killall plasmashell && kstart5 plasmashell; } &> /dev/null
-rm -rf  ~/.local/share/kscreen/
-reboot 
-sudo apt update
-update
-code ~/.scripts/alias 
-code ~/.config/kwinrc 
-{ kquitapp5 plasmashell || killall plasmashell && kstart5 plasmashell; } &> /dev/null
-kwin -- replace &> /dev null
-kwin -- replace &> /dev/null
-update
-;s
-ls
-cd ..
-ls
-cd matej/
-ls
-code ~/.config/kglobalshortcutsrc 
-kwin --replace &
-code ~/.config/kwinrc 
-kwin --replace &
-killall latte-dock
-killall lattedock
-code ~/.config/kwinrc 
-run kin --replace
-run kwin --replace
-kwin --replace &
-kwriteconfig5 --file ~/.config/kwinrc --group ModifierOnlyShortcuts --key Meta "org.kde.plasmashell,/PlasmaShell,org.kde.PlasmaShell,activateLauncherMenu"
-qdbus org.kde.KWin /KWin reconfigure
-kwin --replace *
-killall keepassxc
-killall qbittorrent
-sudo apt update && sudo apt upgrade && sudo apt autoremove && sudo apt autoclean
-sudo ubuntu-drivers list
-sudo apt install git
-cd Downloads/
-ls
-chmod +x clone_config 
-./clone_config 
-chmod +x clone_config 
-./clone_config 
-dirname
-xargs
-man xargs
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | grep -E $'^\t+' | awk {'print $1'} | xargs dirname | sort -u | xargs -I{} mkdir -p {} $HOME/.config-backup/{};
-./clone_config 
-ediet clone_config 
-open clone_config 
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | grep -E $'^\t+' | awk {'print $1'} | xargs dirname | sort -u | xargs -I{} mkdir -p {} $HOME/.config-backup/{};
-./clone_config 
-ls -la
-ls -la ~
-cd ..
-ls
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | grep -E $'^\t+' | awk {'print $1'} | xargs dirname | sort -u | xargs -I{} mkdir -p {} $HOME/.config-backup/{};
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | grep -E $'^\t+' | awk {'print $1'} | xargs -I{} mv {} $HOME/.config-backup/{};
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout;
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME config --local status.showUntrackedFiles no;
-mv ~/Downloads/ ../
-mv ~/Downloads/clone_config ../
-sudo mv ~/Downloads/clone_config ../
-ls
-cd ..
-ls
-mv clone_config matej/
-sudo mv clone_config matej/
-cd matej/
-./clone_config 
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | grep -E $'^\t+' | awk {'print $1'} 
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | grep -E $'^\t+'
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout;
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME config --local status.showUntrackedFiles no;
-cfg status
-./.scripts/setup_script 
-sudo apt update && sudo apt upgrade && sudo apt autoremove && sudo apt autoclean
-sudo apt --fix-broken install
-[200~mkdir ~/.cache/vlc
-# Setup github
-git config --global user.email "matej.ciglenecki@gmail.com"
-git config --global user.name "Matej Ciglenečki"
-source $HOME/.profile
-source $HOME/.scripts/login
-reboot
-ls
-cd .config
-ls
-cd plasma-workspace/env/
-ls
-cd .
-..
-cd shutdown/
-l
-cfg add logout 
-cd ..
-ls
-cd ..
-ls
-cd autostart
-ls
-ls -la
-cd ~/.config/plasma-workspace/env/
-ls
-ls -la
-yakuake
-ls -la
-cfg status
-cfg commit -m 'add logout kde'
-cfg push
-cfg push --set-upstream origin master
-cfg pull
-cfg status
-cfg push --set-upstream origin master
-cfg pull
-cfg status
-cfg commit 
-cfg commit -F nano
-cfg commit -m nano
-cfg status
-cfg push
-cfg push --set-upstream origin master
-cfg status
-reboot
-sudo apt install node-typescript
-cd ~/tmp/
-ls
-ls -la
 git clone https://github.com/wsdfhjxc/virtual-desktop-bar.git $HOME/tmp/virtual-desktop-bar
 sudo apt install yakuake
 code ~/.scripts/login 
@@ -692,3 +400,108 @@ j cloud
 ls
 npm install
 docker load -i memgraph-1.6.1-community-docker.tar.gz 
+j backend
+sudo -u postgres psql -c "ALTER USER postgres WITH PASSWORD 'myPasswordForPostgresUser';"
+sudo -u postgres psql -c 'create database cloud;'
+sudo -u postgres psql -c 'create database cloud_test;'
+sudo apt install postgresql
+sudo -u postgres psql -c 'create database cloud_test;'
+sudo -u postgres psql -c "ALTER USER postgres WITH PASSWORD 'myPasswordForPostgresUser';"
+sudo -u postgres psql -c 'create database cloud_test;'
+npm run start:setup:local
+echo -e 'DB_USERNAME=postgres\nDB_PASSWORD=myPasswordForPostgresUser' | tee -a .env.local .env.test
+sudo -u postgres psql -c "ALTER USER postgres WITH PASSWORD 'postgres';"
+sudo -u postgres psql -c "ALTER USER postgres WITH PASSWORD 'passgres';"
+sudo -u postgres psql -c "ALTER USER postgres WITH PASSWORD 'passgres';"npm run start:setup:local
+npm run start:setup:local
+npm start
+{ kquitapp5 plasmashell || killall plasmashell && kstart5 plasmashell; } &> /dev/null
+j backend
+ls
+code .
+git status
+git fetch --all
+git pull
+code ~/.gitconfig 
+git pull --ff-only
+git status
+git pull origin master
+git status
+git fetch
+git branch -a
+code ~/.gitignore 
+code ~/.git-credentials 
+git checkout T1528
+git checkout T1528-CL-docker-service-extract
+git status
+git checkout dev
+git clone https://github.com/magicmonty/bash-git-prompt.git ~/.bash-git-prompt --depth=1
+code ~/.bashrc 
+. ~/.profile 
+ls
+j backend
+ls
+git status
+git log
+. ~/.profile 
+j backend
+git checkout dev
+. ~/.bashrc 
+. ~/.git-completion.bash
+. ~/.bashrc 
+git checkout dev 
+git checkout T1528-CL-docker-service-extract 
+git_prompt_list_themes
+code ~/.bash-git-prompt/
+git_prompt_list_themes
+git_prompt_list_themes | grep Ubuntu
+code ~/.bash-git-prompt/
+. ~/.bashrc 
+git status
+ls
+cd ..
+ls
+cd ..
+ls
+~
+cfg status
+cfg addu 
+cfg add .git-completion.bash .bash-git-prompt/
+git rm --cached .bash-git-prompt/
+cfg rm --cached .bash-git-prompt/
+cfg status
+cfg rm -f --cached .bash-git-prompt/
+cfg status
+cfg commit -m 'update'
+cfg push
+sgit_prompt_list_themes | grep Ubuntu
+udo ubuntu-drivers list
+git_prompt_list_themes | grep Ubuntu
+j backend
+git status
+code .
+cat README.md 
+code scripts/database.local.yml 
+sudo apt-get update
+git status
+sudo apt-get purge upower
+sudo apt-get install upower
+cd /home/matej/Downloads/
+docker load -i memgraph-1.6.1-community-docker.tar.gz 
+docker load -i memgraph-1.6.1-community-docker.tar.gz 
+docker images
+j backend
+npm install
+cat README.md 
+code .
+cfg status
+cfg addu 
+cfg commit -m '2021-07-24-20-35-57'
+cfg push
+pwd | c
+pwd | c /usr/bin/env /bin/sh /tmp/Microsoft-MIEngine-Cmd-3cto8rey.i22 
+git status
+touch .gitignore
+git add .
+git commit -m '2-add-two-numbers.cpp'
+git push

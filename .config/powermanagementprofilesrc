@@ -2,19 +2,22 @@
 icon=battery-charging
 
 [AC][HandleButtonEvents]
-lidAction=1
+lidAction=0
 powerButtonAction=16
 powerDownAction=16
-triggerLidActionWhenExternalMonitorPresent=false
+triggerLidActionWhenExternalMonitorPresent=true
+
+[Activities][687c05aa-cc42-4a69-acbe-d38ebe895f11]
+mode=None
 
 [Battery]
 icon=battery-060
 
 [Battery][HandleButtonEvents]
-lidAction=1
+lidAction=0
 powerButtonAction=16
 powerDownAction=16
-triggerLidActionWhenExternalMonitorPresent=false
+triggerLidActionWhenExternalMonitorPresent=true
 
 [LowBattery]
 icon=battery-low
@@ -30,10 +33,10 @@ lockBeforeTurnOff=0
 idleTime=60000
 
 [LowBattery][HandleButtonEvents]
-lidAction=1
+lidAction=0
 powerButtonAction=16
 powerDownAction=16
-triggerLidActionWhenExternalMonitorPresent=false
+triggerLidActionWhenExternalMonitorPresent=true
 
 [LowBattery][SuspendSession]
 idleTime=300000

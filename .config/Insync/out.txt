@@ -3617,3 +3617,32 @@ Traceback (most recent call last):
   File "configparser.py", line 1091, in _read
 configparser.DuplicateOptionError: While reading from '/usr/share/applications/defaults.list' [line 265]: option 'application/xhtml+xml' in section 'Default Applications' already exists
 WebEngineContext used before QtWebEngine::initialize() or OpenGL context creation failed.
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 33525, resource id: 79691782, major code: 10 (UnmapWindow), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 33532, resource id: 79691782, major code: 4 (DestroyWindow), minor code: 0
+QXcbIntegration: Cannot create platform OpenGL context, neither GLX nor EGL are enabled
+QXcbIntegration: Cannot create platform OpenGL context, neither GLX nor EGL are enabled
+WARNING:root:While reading /usr/share/applications/defaults.list
+Traceback (most recent call last):
+  File "idesklinux/application_manager.py", line 53, in __index_default_apps
+  File "configparser.py", line 696, in read
+  File "configparser.py", line 1091, in _read
+configparser.DuplicateOptionError: While reading from '/usr/share/applications/defaults.list' [line 265]: option 'application/xhtml+xml' in section 'Default Applications' already exists
+WARNING:root:While reading /usr/share/applications/defaults.list
+Traceback (most recent call last):
+  File "idesklinux/application_manager.py", line 53, in __index_default_apps
+  File "configparser.py", line 696, in read
+  File "configparser.py", line 1091, in _read
+configparser.DuplicateOptionError: While reading from '/usr/share/applications/defaults.list' [line 265]: option 'application/xhtml+xml' in section 'Default Applications' already exists
+WARNING:root:While reading /usr/share/applications/defaults.list
+Traceback (most recent call last):
+  File "idesklinux/application_manager.py", line 70, in __index_apps_for_mimetypes
+  File "configparser.py", line 696, in read
+  File "configparser.py", line 1091, in _read
+configparser.DuplicateOptionError: While reading from '/usr/share/applications/defaults.list' [line 265]: option 'application/xhtml+xml' in section 'Default Applications' already exists
+WARNING:root:While reading /usr/share/applications/defaults.list
+Traceback (most recent call last):
+  File "idesklinux/application_manager.py", line 70, in __index_apps_for_mimetypes
+  File "configparser.py", line 696, in read
+  File "configparser.py", line 1091, in _read
+configparser.DuplicateOptionError: While reading from '/usr/share/applications/defaults.list' [line 265]: option 'application/xhtml+xml' in section 'Default Applications' already exists
+WebEngineContext used before QtWebEngine::initialize() or OpenGL context creation failed.
