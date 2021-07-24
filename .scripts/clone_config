@@ -9,8 +9,6 @@ echo "setup_script.sh" >> $HOME/.gitignore
 
 git clone --bare https://github.com/matejciglenecki/dotfiles $HOME/.cfg
 
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout
-
 # Make all dirs for conflicted files
 mkdir -p .config-backup
 
