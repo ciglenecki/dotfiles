@@ -691,3 +691,4 @@ sudo apt autoremove && sudo apt autoclean
 j cloud
 ls
 npm install
+docker load -i memgraph-1.6.1-community-docker.tar.gz 

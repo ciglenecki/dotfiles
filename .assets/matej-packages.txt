@@ -10,9 +10,10 @@
 # vscode https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64
 # gh cli https://github.com/cli/cli/blob/trunk/docs/install_linux.md
 # rstudio https://www.rstudio.com/products/rstudio/download/#download
+# docker https://docs.docker.com/engine/install/ubuntu/
 
-# pgadmin https://www.pgadmin.org/download/pgadmin-4-apt/
-# sudo snap install postman
+# pgadmin https://www.pgadmin.org/download/pgadmin-4-apt/1
+# postman - sudo snap install postman
 
 # Basics
 curl
