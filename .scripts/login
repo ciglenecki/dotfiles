@@ -1,8 +1,6 @@
 #!/bin/sh
 sxhkd &
-if [ $DESKTOP_SESSION == "plasma" ]; then
-	yakuake &
-fi;
+yakuake &
 
 $BROWSERUSER $BROWSERASAPP$CAL &
 $BROWSERUSER $BROWSERASAPP$TODO_TODAY &

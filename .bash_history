@@ -4246,3 +4246,104 @@ qdbus org.kde.KWin /KWin reconfigure
 kwin --replace *
 killall keepassxc
 killall qbittorrent
+sudo apt update && sudo apt upgrade && sudo apt autoremove && sudo apt autoclean
+sudo ubuntu-drivers list
+sudo apt install git
+cd Downloads/
+ls
+chmod +x clone_config 
+./clone_config 
+chmod +x clone_config 
+./clone_config 
+dirname
+xargs
+man xargs
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | grep -E $'^\t+' | awk {'print $1'} | xargs dirname | sort -u | xargs -I{} mkdir -p {} $HOME/.config-backup/{};
+./clone_config 
+ediet clone_config 
+open clone_config 
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | grep -E $'^\t+' | awk {'print $1'} | xargs dirname | sort -u | xargs -I{} mkdir -p {} $HOME/.config-backup/{};
+./clone_config 
+ls -la
+ls -la ~
+cd ..
+ls
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | grep -E $'^\t+' | awk {'print $1'} | xargs dirname | sort -u | xargs -I{} mkdir -p {} $HOME/.config-backup/{};
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | grep -E $'^\t+' | awk {'print $1'} | xargs -I{} mv {} $HOME/.config-backup/{};
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout;
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME config --local status.showUntrackedFiles no;
+mv ~/Downloads/ ../
+mv ~/Downloads/clone_config ../
+sudo mv ~/Downloads/clone_config ../
+ls
+cd ..
+ls
+mv clone_config matej/
+sudo mv clone_config matej/
+cd matej/
+./clone_config 
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | grep -E $'^\t+' | awk {'print $1'} 
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout 2>&1 | grep -E $'^\t+'
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout;
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME config --local status.showUntrackedFiles no;
+cfg status
+./.scripts/setup_script 
+sudo apt update && sudo apt upgrade && sudo apt autoremove && sudo apt autoclean
+sudo apt --fix-broken install
+[200~mkdir ~/.cache/vlc
+# Setup github
+git config --global user.email "matej.ciglenecki@gmail.com"
+git config --global user.name "Matej Ciglenečki"
+source $HOME/.profile
+source $HOME/.scripts/login
+reboot
+ls
+cd .config
+ls
+cd plasma-workspace/env/
+ls
+cd .
+..
+cd shutdown/
+l
+cfg add logout 
+cd ..
+ls
+cd ..
+ls
+cd autostart
+ls
+ls -la
+cd ~/.config/plasma-workspace/env/
+ls
+ls -la
+yakuake
+ls -la
+cfg status
+cfg commit -m 'add logout kde'
+cfg push
+cfg push --set-upstream origin master
+cfg pull
+cfg status
+cfg push --set-upstream origin master
+cfg pull
+cfg status
+cfg commit 
+cfg commit -F nano
+cfg commit -m nano
+cfg status
+cfg push
+cfg push --set-upstream origin master
+cfg status
+reboot
+sudo apt install node-typescript
+cd ~/tmp/
+ls
+ls -la
+git clone https://github.com/wsdfhjxc/virtual-desktop-bar.git $HOME/tmp/virtual-desktop-bar
+sudo apt install yakuake
+code ~/.scripts/login 
+open ~/.scripts/login 
+echo $$DESKTOP_SESSION
+echo $DESKTOP_SESSION
+if [ $DESKTOP_SESSION == "plasma" ]; then 	yakuake & fi;

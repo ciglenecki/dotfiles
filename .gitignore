@@ -21,4 +21,5 @@
 # .git
 
 # *.ignoreme.*
-# *-ignore*
+# *-ignore*.cfg
+setup_script.sh
