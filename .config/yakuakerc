@@ -29,8 +29,8 @@ Recent URLs[$e]=file:$HOME/Downloads/
 detailViewIconSize=0
 
 [Shortcuts]
-close-active-terminal=Alt+R
-close-session=Alt+Shift+R
+close-active-terminal=Alt+W
+close-session=Alt+R
 decrease-window-height=Meta+Alt+Down
 decrease-window-width=Meta+Alt+Right
 grow-terminal-bottom=none
@@ -41,7 +41,7 @@ increase-window-height=Meta+Alt+Up
 increase-window-width=Meta+Alt+Left
 move-session-left=Alt+Shift+L
 move-session-right=Alt+Shift+H
-new-session=Alt+Shift+T
+new-session=Ctrl+T
 next-session=Alt+L
 next-terminal=Alt+K
 previous-session=Alt+H
@@ -49,11 +49,6 @@ previous-terminal=Alt+J
 rename-session=Alt+S
 split-left-right=Alt+[
 split-top-bottom=Alt+]
-switch-to-session-1=Alt+1
-switch-to-session-2=Alt+2
-switch-to-session-3=Alt+3
-switch-to-session-4=Alt+4
-switch-to-session-5=Alt+5
 view-full-screen=none
 
 [Window]

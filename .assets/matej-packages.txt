@@ -9,8 +9,10 @@
 # nodejs https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions
 # vscode https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64
 # gh cli https://github.com/cli/cli/blob/trunk/docs/install_linux.md
-# rstudio https://www.rstudio.com/products/rstudio/download-server/debian-ubuntu/
+# rstudio https://www.rstudio.com/products/rstudio/download/#download
 
+# pgadmin https://www.pgadmin.org/download/pgadmin-4-apt/
+# sudo snap install postman
 
 # Basics
 curl
@@ -42,6 +44,7 @@ jhead
 git
 python3
 r-base
+postgresql
 
 # Apps
 teams
