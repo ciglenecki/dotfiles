@@ -1,0 +1,7 @@
+[Added Associations]
+application/vnd.debian.binary-package=qapt-deb-installer.desktop;org.kde.discover.desktop;org.kde.ark.desktop;
+text/html=firefox.desktop;calibre-ebook-edit.desktop;org.kde.kate.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;calibre-gui.desktop;calibre-ebook-viewer.desktop;vim.desktop;
+
+[Default Applications]
+application/vnd.debian.binary-package=qapt-deb-installer.desktop;
+text/html=brave-browser.desktop
