@@ -1,121 +1,3 @@
-git clone https://github.com/wsdfhjxc/virtual-desktop-bar.git $HOME/tmp/virtual-desktop-bar
-sudo apt install yakuake
-code ~/.scripts/login 
-open ~/.scripts/login 
-echo $$DESKTOP_SESSION
-echo $DESKTOP_SESSION
-if [ $DESKTOP_SESSION == "plasma" ]; then 	yakuake & fi;
-sudo apt install brave-browser
-ls
-cd ~/.config
-ls
-cfg add powermanagementprofilesrc 
-cfg status
-cfg commit -m 'add powers'
-cfg push
-ls
-sudo gdebi rstudio-server-1.4.1717-amd64.deb
-sudo apt purge rstudio-server
-sudo apt purge rstudio-server-1.4.1717-amd64.deb 
-sudo apt purge rstudio-server
-sudo apt remove --purge rstudio-server
-code ~/.assets/matej-packages.txt 
-sudo apt install postgresql
-sudo apt install pgadmin4
-#
-# Setup the repository
-#
-# Install the public key for the repository (if not done previously):
-sudo curl https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo apt-key add
-# Create the repository configuration file:
-sudo sh -c 'echo "deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs) pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list && apt update'
-#
-# Install pgAdmin
-#
-# Install for both desktop and web modes:
-sudo apt install pgadmin4
-~/.local/share/mime/application/
-cd ~/.local/share/mime/application/
-ls
-cat vnd.sun.xml.base.xml 
-cd ~/.local/share/mime/
-cd ~/.local/share/mime/aliases 
-ls
-cat globs
-cat types 
-cat types
-ls
-cd a
-cd app
-cd application/l
-cd application/
-ls
-cat pkcs12.xml 
-cat x-
-cd ..
-ls
-ls *
-cat *
-cat * | grep firefox
-cat *
-cat $XDG_CONFIG_HOME
-echo $XDG_CONFIG_HOME
-ls ~/.kde/share/config/
-cat mime.cache 
-ls
-cd ~/.config
-ls
-ls | grep mime
-cat mimeapps.list 
-cfg add mimeapps.list 
-cfg commit -m 'add mimeapps'
-cfg push
-sudo apt install postgresql
-code insync-ignore
-chmod -x anki-addons.txt 
-ls
-cd ..
-ls
-chmod -R -x 0-notes/ 2-fer/ 1-documents/ 3-archive/ 4-pictures/ 5-backup/ 6-literature/
-sudo chmod -R -x 0-notes/ 2-fer/ 1-documents/ 3-archive/ 4-pictures/ 5-backup/ 6-literature/
-cd 0-notes/
-sudo chown matej:matej 0-notes/ 2-fer/ 1-documents/ 3-archive/ 4-pictures/ 5-backup/ 6-literature/
-ls
-cd 0-notes/
-mkdir test
-chmod -R g+w test/
-chmod -R g+w 0-notes/ 2-fer/ 1-documents/ 3-archive/ 4-pictures/ 5-backup/ 6-literature/
-sudo chmod -R g+w 0-notes/ 2-fer/ 1-documents/ 3-archive/ 4-pictures/ 5-backup/ 6-literature/
-cd 0-notes/
-ls
-cd ..
-ls
-sudo chmod -R g+w 0-notes/ 2-fer/ 1-documents/ 3-archive/ 4-pictures/ 5-backup/ 6-literature/
-ls 
-ls -la
-cd .torrent/
-ls -la
-sudo chmod -R 0775 0-notes/ 2-fer/ 1-documents/ 3-archive/ 4-pictures/ 5-backup/ 6-literature/
-sudo chmod -R -x 0-notes/ 2-fer/ 1-documents/ 3-archive/ 4-pictures/ 5-backup/ 6-literature/
-sudo chmod -R 0775 0-notes/ 2-fer/ 1-documents/ 3-archive/ 4-pictures/ 5-backup/ 6-literature/
-sudo chmod -R -x+X 0-notes/ 2-fer/ 1-documents/ 3-archive/ 4-pictures/ 5-backup/ 6-literature/
-ls -la
-cat ~/.kde/share/config/kdeglobals 
-cat ~/.kde/share/config/kdeglobals | grep test
-cd ~/.kde/share/config
-ls
-cd ..
-ls
-cd apps/
-ls
-cd ..
-ls
-cd ..
-ls
-cd share/config/
-ls
-cat ~/.config/kdeglobals 
-cat ~/.config/kde.org/systemsettings.conf 
 cat ~/.local/share/user-places.xbel
 cat ~/.local/share/user-places.xbel | grep test
 cfg add ~/.local/share/user-places.xbel
@@ -616,3 +498,51 @@ DB_USERNAME=postgres DB_PASSWORD=passgress npm test
 cat .env.test 
 DB_USERNAME=postgres DB_PASSWORD=passgres npm test
 tsc --watch
+pwd | c
+find my_root_dir -depth -exec rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;
+find . -depth -exec rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;
+find ./ -depth -exec rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;
+sudo apt install rename
+echo "rename" >> ~/.assets/matej-packages.txt 
+mv ~/.assets/matej-packages.txt ~/.assets/packages.txt
+code ~/.scripts/setup_script 
+find my_root_dir -depth -exec rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;
+find . -depth -exec rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;
+rename 'tr/ A-Z/-a-z/' -- *
+rename 'tr/\ +A-Z/-a-z/' -- *
+rename 'tr/s\ +A-Z/-a-z/' -- *
+tr ' ' '-'
+tr ' ' '-'
+rename "tr/' ' '-'" -- *
+find . -depth -exec rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \; -exec rename "s/\s+/_/g" {} \;
+find . -depth -exec rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \; -exec rename "s/\s+/_/g" {} \; -exec rename "s/-+/-/g" {} \;
+find . -depth -exec rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \; -exec rename "s/\s+/_/g" {} \; -exec rename "s/([^w]*_[^w]+)|([^w]+_[^w]*)/-/g" {} \;
+find . -depth -exec rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \; -exec rename "s/\s+/_/g" {} \; -exec rename "s/([^\w]*_[^\w]+)|([^\w]+_[^\w]*)/-/g" {} \;
+find . -depth -exec rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \; -exec rename "s/\s+/_/g" {} \; -exec rename "s/([^a-zA-Z0-9]*_[^a-zA-Z0-9]+)|([^a-zA-Z0-9]+_[^a-zA-Z0-9]*)/-/g" {} \;
+find . -depth -exec rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \; -exec rename "s/\s+/_/g" {} \; -exec rename "s/([^a-zA-Z0-9]*_[^a-zA-Z0-9]+)|([^a-zA-Z0-9]+_[^a-zA-Z0-9]*)/-/g" {} \; -exec rename "s/([0-9]+)(_)/$1-/' {} \;
+find . -depth -exec rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \; -exec rename "s/\s+/_/g" {} \; -exec rename "s/([^a-zA-Z0-9]*_[^a-zA-Z0-9]+)|([^a-zA-Z0-9]+_[^a-zA-Z0-9]*)/-/g" {} \; -exec rename 's/([0-9]+)(_)/$1-/' {} \;
+code ~/.scripts/alias 
+. ~/.scripts/alias 
+find . -depth     -exec rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;
+find . -depth     -exec rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \; \ # Make everyhing lowercase, avoid dir issues (a/a -> A/A)
+find . -depth     -exec rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;\ # Make everyhing lowercase, avoid dir issues (a/a -> A/A)
+find . -depth     -exec rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;     -exec rename "s/\s+/_/g" {} \;     -exec rename "s/([^a-zA-Z0-9]*_[^a-zA-Z0-9]+)|([^a-zA-Z0-9]+_[^a-zA-Z0-9]*)/-/g" {} \;     -exec rename 's/^([0-9]+)(_)/$1-/' {} \;
+find . -depth     -exec rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;     -exec rename "s/\s+/_/g" {} \;     -exec rename "s/\(([0-9]+)\s*\)/$2/g" {} \;     -exec rename "s/([^a-zA-Z0-9]*_[^a-zA-Z0-9]+)|([^a-zA-Z0-9]+_[^a-zA-Z0-9]*)/-/g" {} \;     -exec rename 's/^([0-9]+)(_)/$1-/' {} \;
+find . -depth     -exec rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;     -exec rename "s/\s+/_/g" {} \;     -exec rename "s/\(([0-9]+)\s*\)/$3/g" {} \;     -exec rename "s/([^a-zA-Z0-9]*_[^a-zA-Z0-9]+)|([^a-zA-Z0-9]+_[^a-zA-Z0-9]*)/-/g" {} \;     -exec rename 's/^([0-9]+)(_)/$1-/' {} \;
+find . -depth     -exec rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;     -exec rename "s/\s+/_/g" {} \;     -exec rename "s/\(([0-9]+)\)/$2/g" {} \; \
+find . -depth     -exec rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;     -exec rename "s/\s+/_/g" {} \;     -exec rename "s/\(([0-9]+)\)/$2/g" {} \;
+find . -depth     -exec rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;     -exec rename "s/\s+/_/g" {} \;     -exec rename "s/\(([0-9]+)\)/$1/g" {} \;
+find . -depth     -exec rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;     -exec rename "s/\s+/_/g" {} \;     -exec rename "s/\(([0-9]+)\)/$1/" {} \;
+find . -depth     -exec rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;     -exec rename "s/\s+/_/g" {} \;     -exec rename "s/\(([0-9]+)\)/$2/" {} \;
+find . -depth     -exec rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;     -exec rename "s/\s+/_/g" {} \;     -exec rename 's/\(([0-9]+)\)/$2/g' {} \;
+find . -depth     -exec rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;     -exec rename "s/\s+/_/g" {} \;     -exec rename 's/\(([0-9]+)\)/$1/g' {} \;
+~/.scripts/alias 
+. ~/.scripts/alias 
+renameall 
+. ~/.scripts/alias 
+renameall 
+. ~/.scripts/alias 
+renameall 
+cd ..
+ls
+renameall

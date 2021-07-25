@@ -93,3 +93,4 @@ xclip
 # dconf-editor
 # gnome-tweak-tool
 # dolphin
+rename

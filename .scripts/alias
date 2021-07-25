@@ -8,7 +8,7 @@ alias ~="cd ~"
 alias a="cd ~"
 alias -- -="cd -"
 alias cd='cd -P' # autofollow symlinks
-function cs () { cd $1;ls -1 --color=auto; } # cd + ls
+function cs() { cd $1;ls -1 --color=auto; } # cd + ls
 
 # f = show dir ending "/", symlinks "*"...
 
@@ -146,6 +146,19 @@ function addpackage() {
     echo -e "$1" >> $HOME/.config/matej-packages.txt
 }
 
-function run () {
+function run() {
     nohup $1 >/dev/null 2>&1 &
+}
+
+
+function renameall() {
+    # Make everyhing lowercase, avoid dir issues (a/a -> A/A)
+    # replace whitespace with underscore
+    # replace multiple special characters with a single hyphen
+    # replace underscore if number is leading in the name
+    find . -depth -exec rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;
+    find . -depth -exec rename "s/\s+/_/g" {} \;
+    find . -depth -exec rename 's/\(([0-9]+)\)/$1/g' {} \;
+    find . -depth -exec rename 's/([^a-zA-Z0-9]*_[^a-zA-Z0-9]+)|([^a-zA-Z0-9]+_[^a-zA-Z0-9]*)/-/g' {} \;
+    find . -depth -exec rename 's/^([0-9]+)(_)/$1-/' {} \;
 }

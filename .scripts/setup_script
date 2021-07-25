@@ -10,7 +10,7 @@ sudo apt-get install -y git
 
 
 # Install from package list, loop skips unlocated packages
-for i in $(grep -vE "^\s*#" $HOME/.assets/matej-packages.txt  | tr "\n" " "); do
+for i in $(grep -vE "^\s*#" $HOME/.assets/packages.txt  | tr "\n" " "); do
   sudo apt-get install -y $i
 done
 
