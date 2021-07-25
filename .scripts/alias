@@ -45,7 +45,7 @@ fi
 alias die="killall keepassxc & shutdown now" # shutdown pc
 alias nap="sudo systemctl hibernate" # hibernate pc
 alias cfg='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME' # add file to config repo
-alias update='sudo apt update; sudo apt upgrade -y; sudo apt autoremove' # update all
+alias update='sudo apt update; sudo apt upgrade -y; sudo apt -y autoremove' # update all
 alias c="xclip -selection clipboard" # easy clipboard pipe
 alias path='echo -e ${PATH//:/\\n}' # Print each PATH entry on a separate line
 alias k='killall'

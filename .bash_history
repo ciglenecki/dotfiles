@@ -505,3 +505,114 @@ touch .gitignore
 git add .
 git commit -m '2-add-two-numbers.cpp'
 git push
+code .
+node
+git status
+git add . && git  commit -m 'cleaup docker enterprise logic' && git push
+cfg status
+git status
+cfg addu
+cfg commit -m '2021-07-25-01-09-27'
+cfg push
+git add .
+git commit -m 'remove docker decorate'
+git push
+git add . && git  commit -m 'fix docker types' && git push
+git status
+git add . && git  commit -m 'put in docker container function' && git push
+git add . && git  commit -m 'remove trim function comment' && git push
+code .
+git add . && git  commit -m 'fix tests' && git push
+git log
+git status
+git add . && git  commit -m 'port => mgPort' && git push
+j backend
+code .
+clear
+ls
+ls 
+ls -la
+ls -ls
+ls -la
+ls 
+ls -la
+npm start
+npm run start:setup:local
+npm start
+docker images
+cat scripts/database.local.yml | grep "1.6.1"
+npm start
+cd ../frontend/
+j mrepro
+j fer
+ls
+cd mrepro/
+ls
+cd gitrepo/
+ls
+ls -la
+cd ..
+ls
+images
+docker ps
+docker ps -a
+docker ps -a --format "{{. json}}"
+docker ps -a --format "{. json}"
+docker ps -a --format "{{json .}}"
+docker ps -a --format "{{json .}}" | grep 76
+DB_USERNAME=postgres DB_PASSWORD=passgress npm test
+die
+docker iamges
+docker ps
+j backend
+code .
+docker ps
+git status
+docker images
+docker ps
+git status
+git add .
+git commit -m 'fix small docker comments'
+git push
+cat ../frontend/README.md 
+code ~/.npmrc
+git push
+cd ..
+cd frontend/
+npm install
+cd ../backend/
+git push
+git status
+git add .
+git commit -m 'update readme'
+git push
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+gh repo clone matejciglenecki/leetcode
+ls
+cd leetcode/
+ls
+code .
+j backend
+code .env.test 
+git add .
+git commit -m 'remove env test vars'
+git push
+git status
+git pull
+git push
+git status
+git add .
+git status
+git commit -m 'remove port prop'
+git push
+tsc 
+tsc --watch
+DB_USERNAME=postgres DB_PASSWORD=passgress npm test
+cat .env.test 
+DB_USERNAME=postgres DB_PASSWORD=passgres npm test
+tsc --watch
