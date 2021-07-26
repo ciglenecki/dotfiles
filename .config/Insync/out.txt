@@ -3673,3 +3673,13 @@ Traceback (most recent call last):
   File "configparser.py", line 1091, in _read
 configparser.DuplicateOptionError: While reading from '/usr/share/applications/defaults.list' [line 265]: option 'application/xhtml+xml' in section 'Default Applications' already exists
 WebEngineContext used before QtWebEngine::initialize() or OpenGL context creation failed.
+js: ResizeObserver loop limit exceeded
+js: ResizeObserver loop limit exceeded
+js: ResizeObserver loop limit exceeded
+js: ResizeObserver loop limit exceeded
+js: ResizeObserver loop limit exceeded
+js: ResizeObserver loop limit exceeded
+js: ResizeObserver loop limit exceeded
+js: ResizeObserver loop limit exceeded
+js: ResizeObserver loop limit exceeded
+js: ResizeObserver loop limit exceeded
