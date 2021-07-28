@@ -2,6 +2,10 @@
 update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage
 
 [Compositing]
+GLCore=true
+GLPreferBufferSwap=e
+GLTextureFilter=0
+LatencyPolicy=ExtremelyHigh
 OpenGLIsUnsafe=false
 
 [Desktops]
@@ -16,20 +20,34 @@ Name_4=4-media
 Number=4
 Rows=1
 
+[KDE]
+AnimationDurationFactor=0.5
+
 [NightColor]
 Active=true
 Mode=Constant
 NightTemperature=2300
 
 [Plugins]
-desktopchangeosdEnabled=true
+desktopchangeosdEnabled=false
 krohnkiteEnabled=true
 minimizeallEnabled=false
 synchronizeskipswitcherEnabled=false
 videowallEnabled=false
 virtual-desktops-only-on-primaryEnabled=true
 
+[Script-desktopchangeosd]
+PopupHideDelay=0
+TextOnly=true
+
 [Script-krohnkite]
+enableMonocleLayout=false
+enableQuarterLayout=true
+enableSpiralLayout=false
+enableSpreadLayout=false
+enableStairLayout=false
+enableThreeColumnLayout=false
+noTileBorder=true
 tileLayoutGap=5
 
 [TabBox]

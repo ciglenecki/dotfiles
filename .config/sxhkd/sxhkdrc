@@ -34,7 +34,8 @@ alt + p; {d,D};
     sleep 0.2; xdotool getwindowfocus windowfocus --sync type "$(eval $DATENOW)"
 alt + p; {t};
     sleep 0.2; xdotool getwindowfocus windowfocus --sync type "(next 14 days | no due date) & (p1 | p2 | p3) & (!#📚 FER)"
-
+alt + p; {p};
+    { kquitapp5 plasmashell || killall plasmashell && kstart5 plasmashell; } &> /dev/null;
 # copy
 alt + c; s;
     xclip -selection clipboard -t image -i $DIR_SCREENSHOTS$(ls -t $DIR_SCREENSHOTS | head -n 1)

@@ -1,9 +1,10 @@
 [Appearance]
 AntiAliasFonts=true
 BoldIntense=false
-ColorScheme=matej-pink
+ColorScheme=WhiteOnBlack
 Font=Noto Mono,11,-1,5,50,0,0,0,0,0
 LineSpacing=0
+TabColor=255,0,0
 
 [General]
 Name=konsole-matej

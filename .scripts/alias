@@ -146,8 +146,9 @@ function addpackage() {
     echo -e "$1" >> $HOME/.config/matej-packages.txt
 }
 
+# run set of commands with nohup
 function run() {
-    nohup $1 >/dev/null 2>&1 &
+    nohup sh -c `"$@"` >/dev/null 2>&1 &
 }
 
 

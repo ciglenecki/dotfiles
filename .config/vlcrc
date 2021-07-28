@@ -2,6 +2,8 @@
 Autoplay=false
 
 [FileDialogSize]
+DP-0 HDMI-0 Height 2560x1440=789
+DP-0 HDMI-0 Width 2560x1440=1306
 Height 1440=789
 Height 1920=777
 Height 2560=1349
@@ -10,6 +12,6 @@ Width 1440=1357
 Width 2560=1306
 
 [KFileDialog Settings]
-Recent Files[$e]=The Sopranos - 2x07 - D-Girl.en.srt,file:$HOME/tmp/better.call.saul.s03.e05.chicanery.(2017).eng.1cd.(8367724)/Better Call Saul S03-E05 by Feroz Lashari.srt,file:$HOME/tmp/better.call.saul.s03.e02.witness.(2017).eng.1cd.(8367721)/Better Call Saul S03-E02 by Feroz Lashari.srt,file:$HOME/tmp/better.call.saul.s03.e01.mabel.(2017).eng.1cd.(8367720)/Better Call Saul S03-E01 by Feroz Lashari.srt,file:$HOME/torrent/Better Call Saul Season 3 Complete 720p HDTV x264 [i_c]/Better Call Saul S03E01 Mabel.mkv,file:$HOME/tmp/better.call.saul.s02.e10.klick.(2016).eng.1cd.(8367674)/Better Call Saul S02-E10.srt,file:///media/matej/Seagate Expansion Drive/Better.Call.Saul.Season.2.720p.BluRay.x264.ShAaNiG/Better.Call.Saul.S02E10.720p.BluRay.x264.ShAaNiG.mkv,file:///media/matej/Seagate Expansion Drive/Better.Call.Saul.Season.2.720p.BluRay.x264.ShAaNiG/Better.Call.Saul.S02E09.720p.BluRay.x264.ShAaNiG.mkv,file:///media/matej/Seagate Expansion Drive/Better.Call.Saul.Season.2.720p.BluRay.x264.ShAaNiG/Better.Call.Saul.S02E08.720p.BluRay.x264.ShAaNiG.mkv,file:///media/matej/Seagate Expansion Drive/Better.Call.Saul.Season.2.720p.BluRay.x264.ShAaNiG/Better.Call.Saul.S02E07.720p.BluRay.x264.ShAaNiG.mkv,file:///media/matej/Seagate Expansion Drive/Better.Call.Saul.Season.2.720p.BluRay.x264.ShAaNiG/Better.Call.Saul.S02E06.720p.BluRay.x264.ShAaNiG.mkv,file:///media/matej/Seagate Expansion Drive/Better.Call.Saul.Season.2.720p.BluRay.x264.ShAaNiG/Better.Call.Saul.S02E05.720p.BluRay.x264.ShAaNiG.mkv,file:///media/matej/Seagate Expansion Drive/Better.Call.Saul.Season.2.720p.BluRay.x264.ShAaNiG/Better.Call.Saul.S02E04.720p.BluRay.x264.ShAaNiG.mkv
-Recent URLs[$e]=file:$HOME/tmp/better.call.saul.s03.e05.chicanery.(2017).eng.1cd.(8367724)/
-detailViewIconSize=0
+Recent Files[$e]=The Sopranos - 2x07 - D-Girl.en.srt,file:$HOME/Downloads/better.call.saul.s03.e08.slip.(2017).eng.1cd.(8367728)/Better Call Saul S03-E08 by Feroz Lashari.srt,file:$HOME/Downloads/better.call.saul.s03.e07.expenses.(2017).eng.1cd.(6990948)/Better.Call.Saul.S03E07.1080p.HDTV.x264-CRAVERS.HI.srt,file:$HOME/Downloads/better.call.saul.s03.e07.expenses.(2017).eng.1cd.(6997784)/Better.Call.Saul.S03E07.720p.WEB-DL.DD5.1.H264-RARBG.srt,file:$HOME/Downloads/better.call.saul.s03.e07.expenses.(2017).eng.1cd.(8367727)/Better Call Saul S03-E07 by Feroz Lashari.srt,file:$HOME/Downloads/better.call.saul.s03.e06.off.brand.(2017).eng.1cd.(8367725)/Better Call Saul S03-E06 by Feroz Lashari.srt
+Recent URLs[$e]=file:$HOME/Downloads/better.call.saul.s03.e06.off.brand.(2017).eng.1cd.(8367725)/,file:$HOME/Downloads/better.call.saul.s03.e07.expenses.(2017).eng.1cd.(8367727)/,file:$HOME/Downloads/better.call.saul.s03.e07.expenses.(2017).eng.1cd.(6997784)/,file:$HOME/Downloads/better.call.saul.s03.e07.expenses.(2017).eng.1cd.(6990948)/,file:$HOME/Downloads/,file:$HOME/Downloads/better.call.saul.s03.e08.slip.(2017).eng.1cd.(8367728)/
+detailViewIconSize=16
