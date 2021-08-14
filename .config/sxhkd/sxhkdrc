@@ -38,8 +38,7 @@ alt + p; {p};
     { kquitapp5 plasmashell || killall plasmashell && kstart5 plasmashell; } &> /dev/null;
 # copy
 alt + c; s;
-    xclip -selection clipboard -t image -i $DIR_SCREENSHOTS$(ls -t $DIR_SCREENSHOTS | head -n 1)
-
+    copyq write image/jpg - < $DIR_SCREENSHOTS$(ls -t $DIR_SCREENSHOTS | head -n 1) && copyq select 0
 
 # volume with pause button
 Pause;

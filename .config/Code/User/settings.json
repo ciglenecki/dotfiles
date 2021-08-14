@@ -165,11 +165,12 @@
 	"diffEditor.renderSideBySide": false,
 	"editor.formatOnSave": true,
 	"debug.javascript.autoAttachFilter": "smart",
-	"workbench.colorTheme": "Quiet Light",
 	"java.dependency.showMembers": true,
 	"terminal.integrated.tabs.enabled": true,
 	"security.workspace.trust.enabled": false,
 	"[html]": {
 		"editor.defaultFormatter": "vscode.html-language-features"
-	}
+	},
+	"explorer.confirmDragAndDrop": false,
+	"workbench.colorTheme": "Quiet Light"
 }

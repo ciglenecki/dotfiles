@@ -3,7 +3,7 @@ Autoplay=false
 
 [FileDialogSize]
 DP-0 HDMI-0 Height 2560x1440=789
-DP-0 HDMI-0 Width 2560x1440=1306
+DP-0 HDMI-0 Width 2560x1440=1030
 Height 1440=789
 Height 1920=777
 Height 2560=1349
@@ -12,6 +12,6 @@ Width 1440=1357
 Width 2560=1306
 
 [KFileDialog Settings]
-Recent Files[$e]=The Sopranos - 2x07 - D-Girl.en.srt,file:$HOME/Downloads/better.call.saul.s03.e08.slip.(2017).eng.1cd.(8367728)/Better Call Saul S03-E08 by Feroz Lashari.srt,file:$HOME/Downloads/better.call.saul.s03.e07.expenses.(2017).eng.1cd.(6990948)/Better.Call.Saul.S03E07.1080p.HDTV.x264-CRAVERS.HI.srt,file:$HOME/Downloads/better.call.saul.s03.e07.expenses.(2017).eng.1cd.(6997784)/Better.Call.Saul.S03E07.720p.WEB-DL.DD5.1.H264-RARBG.srt,file:$HOME/Downloads/better.call.saul.s03.e07.expenses.(2017).eng.1cd.(8367727)/Better Call Saul S03-E07 by Feroz Lashari.srt,file:$HOME/Downloads/better.call.saul.s03.e06.off.brand.(2017).eng.1cd.(8367725)/Better Call Saul S03-E06 by Feroz Lashari.srt
-Recent URLs[$e]=file:$HOME/Downloads/better.call.saul.s03.e06.off.brand.(2017).eng.1cd.(8367725)/,file:$HOME/Downloads/better.call.saul.s03.e07.expenses.(2017).eng.1cd.(8367727)/,file:$HOME/Downloads/better.call.saul.s03.e07.expenses.(2017).eng.1cd.(6997784)/,file:$HOME/Downloads/better.call.saul.s03.e07.expenses.(2017).eng.1cd.(6990948)/,file:$HOME/Downloads/,file:$HOME/Downloads/better.call.saul.s03.e08.slip.(2017).eng.1cd.(8367728)/
+Recent Files[$e]=The Sopranos - 2x07 - D-Girl.en.srt,file:$HOME/torrent/Better Call Saul Season 5 Complete 720p NF WEBRip x264 [i_c]/Better Call Saul S05E01 Magic Man.srt,file:$HOME/torrent/Better Call Saul - Season 4 (2018) [720p]/Better Call Saul - S04E10 - Winner.mkv,file:$HOME/torrent/Better Call Saul - Season 4 (2018) [720p]/Better Call Saul - S04E09 - Wiedersehen.mkv,file:$HOME/torrent/Better Call Saul - Season 4 (2018) [720p]/Better Call Saul - S04E08 - Coushatta.mkv,file:$HOME/torrent/Better Call Saul - Season 4 (2018) [720p]/Better Call Saul - S04E07 - Something Stupid.mkv,file:$HOME/torrent/Better Call Saul - Season 4 (2018) [720p]/Better Call Saul - S04E05 - Quite a Ride.mkv,file:$HOME/torrent/Better Call Saul - Season 4 (2018) [720p]/Better Call Saul - S04E04 - Talk.mkv
+Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/torrent/Better Call Saul - Season 4 (2018) [720p]/,file:$HOME/torrent/Better Call Saul Season 5 Complete 720p NF WEBRip x264 [i_c]/
 detailViewIconSize=16
