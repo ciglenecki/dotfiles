@@ -2,7 +2,9 @@
 Autoplay=false
 
 [FileDialogSize]
+DP-0 HDMI-0 Height 1920x1080=600
 DP-0 HDMI-0 Height 2560x1440=789
+DP-0 HDMI-0 Width 1920x1080=980
 DP-0 HDMI-0 Width 2560x1440=1030
 Height 1440=789
 Height 1920=777
@@ -12,6 +14,6 @@ Width 1440=1357
 Width 2560=1306
 
 [KFileDialog Settings]
-Recent Files[$e]=The Sopranos - 2x07 - D-Girl.en.srt,file:$HOME/torrent/Better Call Saul Season 5 Complete 720p NF WEBRip x264 [i_c]/Better Call Saul S05E01 Magic Man.srt,file:$HOME/torrent/Better Call Saul - Season 4 (2018) [720p]/Better Call Saul - S04E10 - Winner.mkv,file:$HOME/torrent/Better Call Saul - Season 4 (2018) [720p]/Better Call Saul - S04E09 - Wiedersehen.mkv,file:$HOME/torrent/Better Call Saul - Season 4 (2018) [720p]/Better Call Saul - S04E08 - Coushatta.mkv,file:$HOME/torrent/Better Call Saul - Season 4 (2018) [720p]/Better Call Saul - S04E07 - Something Stupid.mkv,file:$HOME/torrent/Better Call Saul - Season 4 (2018) [720p]/Better Call Saul - S04E05 - Quite a Ride.mkv,file:$HOME/torrent/Better Call Saul - Season 4 (2018) [720p]/Better Call Saul - S04E04 - Talk.mkv
-Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/torrent/Better Call Saul - Season 4 (2018) [720p]/,file:$HOME/torrent/Better Call Saul Season 5 Complete 720p NF WEBRip x264 [i_c]/
+Recent Files[$e]=The Sopranos - 2x07 - D-Girl.en.srt,file:$HOME/torrent/[Judas] Jujutsu Kaisen (Season 1) [1080p][HEVC x265 10bit][Multi-Subs]/[Judas] Jujutsu Kaisen - S01E17.mkv,file:$HOME/torrent/[Judas] Jujutsu Kaisen (Season 1) [1080p][HEVC x265 10bit][Multi-Subs]/[Judas] Jujutsu Kaisen - S01E16.mkv,file:$HOME/torrent/[Judas] Jujutsu Kaisen (Season 1) [1080p][HEVC x265 10bit][Multi-Subs]/[Judas] Jujutsu Kaisen - S01E15.mkv,file:$HOME/torrent/[Judas] Jujutsu Kaisen (Season 1) [1080p][HEVC x265 10bit][Multi-Subs]/[Judas] Jujutsu Kaisen - S01E14.mkv,file:$HOME/torrent/[Judas] Jujutsu Kaisen (Season 1) [1080p][HEVC x265 10bit][Multi-Subs]/[Judas] Jujutsu Kaisen - S01E13.mkv,file:$HOME/torrent/[Judas] Jujutsu Kaisen (Season 1) [1080p][HEVC x265 10bit][Multi-Subs]/[Judas] Jujutsu Kaisen - S01E12.mkv,file:$HOME/torrent/[Judas] Jujutsu Kaisen (Season 1) [1080p][HEVC x265 10bit][Multi-Subs]/[Judas] Jujutsu Kaisen - S01E11.mkv,file:$HOME/torrent/[Judas] Jujutsu Kaisen (Season 1) [1080p][HEVC x265 10bit][Multi-Subs]/[Judas] Jujutsu Kaisen - S01E10.mkv,file:$HOME/torrent/[Judas] Jujutsu Kaisen (Season 1) [1080p][HEVC x265 10bit][Multi-Subs]/[Judas] Jujutsu Kaisen - S01E09.mkv,file:$HOME/torrent/[Judas] Jujutsu Kaisen (Season 1) [1080p][HEVC x265 10bit][Multi-Subs]/[Judas] Jujutsu Kaisen - S01E08.mkv,file:$HOME/torrent/[Judas] Jujutsu Kaisen (Season 1) [1080p][HEVC x265 10bit][Multi-Subs]/[Judas] Jujutsu Kaisen - S01E07.mkv,file:$HOME/torrent/[Judas] Jujutsu Kaisen (Season 1) [1080p][HEVC x265 10bit][Multi-Subs]/[Judas] Jujutsu Kaisen - S01E06.mkv,file:$HOME/torrent/[Judas] Jujutsu Kaisen (Season 1) [1080p][HEVC x265 10bit][Multi-Subs]/[Judas] Jujutsu Kaisen - S01E02.mkv
+Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/torrent/[Judas] Jujutsu Kaisen (Season 1) [1080p][HEVC x265 10bit][Multi-Subs]/,file:$HOME/Downloads/videos/
 detailViewIconSize=16

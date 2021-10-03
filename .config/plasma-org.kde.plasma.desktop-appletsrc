@@ -1,13 +1,31 @@
 [ActionPlugins][0]
-MiddleButton;NoModifier=org.kde.paste
 RightButton;NoModifier=org.kde.contextmenu
 wheel:Vertical;NoModifier=org.kde.switchdesktop
+
+[ActionPlugins][0][RightButton;NoModifier]
+_add panel=true
+_context=true
+_lock_screen=true
+_logout=true
+_run_command=true
+_sep1=true
+_sep2=true
+_sep3=true
+_wallpaper=true
+add widgets=true
+configure=true
+configure shortcuts=false
+edit mode=true
+manage activities=true
+remove=true
+run associated application=true
 
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
 ItemGeometriesHorizontal=
+ItemGeometriesVertical=
 activityId=687c05aa-cc42-4a69-acbe-d38ebe895f11
 formfactor=0
 immutability=1
@@ -16,12 +34,17 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][1][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][1][Configuration]
 PreloadWeight=0
 
 [Containments][1][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=821
+ToolBoxButtonX=897
+ToolBoxButtonY=26
 
 [Containments][1][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/wallpapers/Next/contents/images/2560x1440.png
@@ -43,8 +66,8 @@ plugin=org.kde.plasma.virtualdesktopbar
 PreloadWeight=0
 
 [Containments][2][Applets][27][Configuration][ConfigDialog]
-DialogHeight=720
-DialogWidth=960
+DialogHeight=540
+DialogWidth=720
 
 [Containments][2][Applets][27][Configuration][Preferences]
 AddDesktopButtonShow=false
@@ -58,13 +81,14 @@ DesktopLabelsBoldFontForCurrentDesktop=true
 DesktopLabelsCustomColor=#232629
 DesktopLabelsCustomFontSize=17
 DesktopLabelsMaximumLength=22
+MouseWheelRemoveDesktopOnClick=false
 
 [Containments][2][Applets][28]
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][28][Configuration]
-PreloadWeight=34
+PreloadWeight=76
 
 [Containments][2][Applets][28][Configuration][ConfigDialog]
 DialogHeight=720
@@ -132,12 +156,12 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][7][Configuration]
-PreloadWeight=100
+PreloadWeight=92
 SystrayContainmentId=8
 
 [Containments][2][ConfigDialog]
-DialogHeight=86
-DialogWidth=1920
+DialogHeight=84
+DialogWidth=1440
 
 [Containments][2][Configuration]
 PreloadWeight=0
@@ -209,10 +233,17 @@ immutability=1
 lastScreen=4
 location=0
 plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
+wallpaperplugin=org.kde.color
+
+[Containments][25][ConfigDialog]
+DialogHeight=720
+DialogWidth=872
 
 [Containments][25][Configuration]
 PreloadWeight=0
+
+[Containments][25][Wallpaper][org.kde.color][General]
+Color=0,0,0
 
 [Containments][25][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/wallpapers/Next/contents/images/3840x2160.png
@@ -266,7 +297,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][23][Configuration]
-PreloadWeight=89
+PreloadWeight=86
 
 [Containments][8][Applets][24][Configuration]
 PreloadWeight=42
@@ -279,7 +310,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][8][Applets][31][Configuration]
-PreloadWeight=28
+PreloadWeight=0
 
 [Containments][8][Applets][9][Configuration]
 PreloadWeight=42

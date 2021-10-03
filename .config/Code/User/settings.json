@@ -145,8 +145,6 @@
 	"gitlens.blame.highlight.enabled": false,
 	"gitlens.blame.heatmap.enabled": false,
 	"gitlens.codeLens.enabled": false,
-	"markdown.preview.scrollEditorWithPreview": false,
-	"markdown.preview.scrollPreviewWithEditor": false,
 	"typescript.preferences.quoteStyle": "double",
 	"prettier.singleQuote": true,
 	"prettier.trailingComma": "all",
@@ -172,5 +170,13 @@
 		"editor.defaultFormatter": "vscode.html-language-features"
 	},
 	"explorer.confirmDragAndDrop": false,
-	"workbench.colorTheme": "Quiet Light"
+	"workbench.colorTheme": "Quiet Light",
+	"python.defaultInterpreterPath": "/usr/bin/python3",
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.python"
+	},
+	"python.formatting.provider": "black",
+	"[yaml]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
 }

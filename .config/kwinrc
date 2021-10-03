@@ -10,11 +10,11 @@ OpenGLIsUnsafe=false
 
 [Desktops]
 Id_1=5c9e9300-afe9-4959-b4c3-ecf6bd99cf80
-Id_2=01fca4a0-8f66-4b42-93dc-c006e9a8c9b2
-Id_3=a496ef28-8fe8-43e5-83f6-b5ce1a93e687
-Id_4=c141142a-5176-45fe-9b5d-5e9b89115fac
+Id_2=a496ef28-8fe8-43e5-83f6-b5ce1a93e687
+Id_3=c141142a-5176-45fe-9b5d-5e9b89115fac
+Id_4=48ced5dd-6b92-40fd-98c0-c85584c25233
 Name_1=1-main
-Name_2=2-resource
+Name_2=2-resources
 Name_3=3-gtd
 Name_4=4-media
 Number=4
