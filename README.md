@@ -19,7 +19,7 @@
 
 `.config/kwinrc` - kde window manager shortcuts
 
-`.config/mimeapps.list` - favourite directories used in Dolphin
+`.config/mimeapps.list` - favorite directories used in Dolphin
 
 `.config/plasma-org.kde.plasma.desktop-appletsrc` - kde pannel
 
