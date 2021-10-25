@@ -1,5 +1,6 @@
 # dotfiles - mainly for Kubuntu
 
+files I curated/collected/configured
 
 ## Assets
 
