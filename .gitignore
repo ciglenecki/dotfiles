@@ -22,4 +22,6 @@
 
 # *.ignoreme.*
 # *-ignore*.cfg
+Insync
+.ssh
 setup_script.sh
