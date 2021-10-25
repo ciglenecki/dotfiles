@@ -1,0 +1,69 @@
+#!/bin/sh
+
+# if [ -z ${HOME+x} ]; then export HOME="/home/matej"; fi
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/.local/bin" ] ; then
+    PATH="$PATH:$HOME/.local/bin:"
+fi
+
+if [ -d "/bin/include" ] ; then
+    PATH="$PATH:/bin/include"
+fi
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ] ; then
+    PATH="$PATH:$HOME/bin"
+fi
+
+#PATH
+if [ -d "$HOME/.npm-global/bin" ] ; then
+    PATH="$HOME/.npm-global/bin:$PATH"
+fi
+
+if [ -d "/usr/sbin:/sbin" ] ; then
+    export PATH=$PATH:/usr/sbin:/sbin
+fi
+
+export EDITOR="nano"
+export VISUAL="code"
+export BROWSER="brave-browser"
+export BROWSERASAPP="--app="
+export BROWSERUSER="$BROWSER --profile-directory=Default"
+export BROWSERWORK="$BROWSER --profile-directory=memgraph"
+export BROWSERMUSIC="$BROWSER --profile-directory=music"
+export BROWSERAPP="${BROWSERUSER} ${BROWSERASAPP}"
+export SPOTIFY="${BROWSERMUSIC} ${BROWSERASAPP}https://open.spotify.com/collection/albums"
+export CAL="${BROWSERUSER} ${BROWSERASAPP}https://calendar.google.com/calendar/r"
+export ASOFTMURMUR="${BROWSERMUSIC} ${BROWSERASAPP}https://asoftmurmur.com/"
+export POMODORO="${BROWSERUSER} ${BROWSERASAPP}https://pomofocus.io/"
+export FILEMANAGER="dolphin"
+export BAT_THEME="OneHalfLight" #bat -> cat with wings
+
+
+# urls
+export TODO_TODAY='https://todoist.com/app/#upcoming'
+export TODO_FER="https://todoist.com/app#project%2F2207071836"
+export TODO_DO="https://todoist.com/app#project%2F1808310462"
+export TODO_PROJECTS="https://todoist.com/app#project%2F2221923577%2Ffull"
+export STUDY_SHEET="https://docs.google.com/spreadsheets/d/11UlxBM-DTHeX6rWfuDKuoaKp-lOP1sK10xJGQKnsqMU"
+
+
+# paths
+export INPUTRC="$HOME/.inputrc"
+export DIR_NOTES="$HOME/0-notes"
+export DIR_DOCUMENTS="$HOME/1-documents"
+export DIR_FER="$HOME/2-fer"
+export DIR_ARCHIVE="$HOME/3-archive"
+export DIR_PICTURES="$HOME/4-pictures"
+    export DIR_SCREENSHOTS="$DIR_PICTURES/screenshots/"
+export DIR_BACKUP="$HOME/5-backup"
+export DIR_DOWNLOADS="$HOME/Downloads"
+export DIR_PROJECTS="$HOME/projects"
+export DIR_HDD_EXT="/media/$(whoami)/ex-gep"
+
+
+#etc
+export TIMEFS="%F"
+export TIMEFL="%F-%H-%M-%S"
+export DATENOW='date +"$TIMEFL"'
+export SOUND_LEVEL=33

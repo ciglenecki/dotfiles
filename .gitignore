@@ -1,0 +1,25 @@
+# /*
+# /*/
+# !0-notes
+# !1-documents
+# !2-fer
+# !3-archive 
+# !4-pictures/
+# !5-backup
+
+# # OS generated files #
+# ######################
+# .DS_Store
+# .DS_Store?
+# ._*
+# .Spotlight-V100
+# .Trashes
+# ehthumbs.db
+# Thumbs.db
+# TEOINF
+# gitrepo
+# .git
+
+# *.ignoreme.*
+# *-ignore*.cfg
+setup_script.sh

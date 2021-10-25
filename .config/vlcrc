@@ -1,0 +1,19 @@
+[Audio Preview Settings]
+Autoplay=false
+
+[FileDialogSize]
+DP-0 HDMI-0 Height 1920x1080=600
+DP-0 HDMI-0 Height 2560x1440=789
+DP-0 HDMI-0 Width 1920x1080=980
+DP-0 HDMI-0 Width 2560x1440=1030
+Height 1440=789
+Height 1920=777
+Height 2560=1349
+Width 1080=1080
+Width 1440=1357
+Width 2560=1306
+
+[KFileDialog Settings]
+Recent Files[$e]=The Sopranos - 2x07 - D-Girl.en.srt,file:$HOME/Downloads/The Wire 2002 Season 1 Complete 720p WEB-DL x264 [i_c]/The Wire S01e06 The Wire.mkv,file:$HOME/Downloads/The Wire 2002 Season 1 Complete 720p WEB-DL x264 [i_c]/The Wire S01e05 The Pager.mkv,file:$HOME/Downloads/The Wire 2002 Season 1 Complete 720p WEB-DL x264 [i_c]/The Wire S01e04 Old Cases.mkv
+Recent URLs[$e]=file:$HOME/Downloads/The Wire 2002 Season 1 Complete 720p WEB-DL x264 [i_c]/
+detailViewIconSize=16
