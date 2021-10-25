@@ -23,32 +23,6 @@ run associated application=true
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
-[Containments][1]
-ItemGeometriesHorizontal=
-ItemGeometriesVertical=
-activityId=687c05aa-cc42-4a69-acbe-d38ebe895f11
-formfactor=0
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][1][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][1][Configuration]
-PreloadWeight=0
-
-[Containments][1][General]
-ToolBoxButtonState=topcenter
-ToolBoxButtonX=897
-ToolBoxButtonY=26
-
-[Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Next/contents/images/2560x1440.png
-
 [Containments][2]
 activityId=
 formfactor=2
@@ -88,7 +62,11 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][28][Configuration]
-PreloadWeight=76
+PreloadWeight=28
+
+[Containments][2][Applets][28][Configuration][Appearance]
+showDate=true
+showSeconds=true
 
 [Containments][2][Applets][28][Configuration][ConfigDialog]
 DialogHeight=720
@@ -102,7 +80,8 @@ plugin=org.kde.plasma.panelspacer
 PreloadWeight=0
 
 [Containments][2][Applets][29][Configuration][General]
-length=1215
+expanding=false
+length=436
 
 [Containments][2][Applets][3]
 immutability=1
@@ -161,17 +140,40 @@ SystrayContainmentId=8
 
 [Containments][2][ConfigDialog]
 DialogHeight=84
-DialogWidth=1440
+DialogWidth=1920
 
 [Containments][2][Configuration]
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=3;5;30;28;29;27;6;7
+AppletOrder=3;5;30;28;29;27;7
 
-[Containments][20]
-ItemGeometriesHorizontal=
-activityId=687c05aa-cc42-4a69-acbe-d38ebe895f11
+[Containments][31]
+activityId=cc6d1c2b-777d-4eec-9d0d-3d1035c10498
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][31][ConfigDialog]
+DialogHeight=628
+DialogWidth=1012
+
+[Containments][31][Configuration]
+PreloadWeight=0
+
+[Containments][31][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=739
+ToolBoxButtonY=22
+
+[Containments][31][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/Milky_Way/contents/images/5120x2880.png
+
+[Containments][33]
+activityId=cc6d1c2b-777d-4eec-9d0d-3d1035c10498
 formfactor=0
 immutability=1
 lastScreen=1
@@ -179,15 +181,14 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][20][Configuration]
+[Containments][33][Configuration]
 PreloadWeight=0
 
-[Containments][20][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.png
+[Containments][33][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.jpg
 
-[Containments][21]
-ItemGeometriesHorizontal=
-activityId=687c05aa-cc42-4a69-acbe-d38ebe895f11
+[Containments][34]
+activityId=cc6d1c2b-777d-4eec-9d0d-3d1035c10498
 formfactor=0
 immutability=1
 lastScreen=2
@@ -195,58 +196,11 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][21][Configuration]
+[Containments][34][Configuration]
 PreloadWeight=0
 
-[Containments][21][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.png
-
-[Containments][22]
-ItemGeometriesHorizontal=
-activityId=687c05aa-cc42-4a69-acbe-d38ebe895f11
-formfactor=0
-immutability=1
-lastScreen=3
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][22][ConfigDialog]
-DialogHeight=720
-DialogWidth=960
-
-[Containments][22][Configuration]
-PreloadWeight=0
-
-[Containments][22][General]
-ToolBoxButtonState=topcenter
-ToolBoxButtonX=501
-
-[Containments][22][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.png
-
-[Containments][25]
-ItemGeometriesHorizontal=
-activityId=687c05aa-cc42-4a69-acbe-d38ebe895f11
-formfactor=0
-immutability=1
-lastScreen=4
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.color
-
-[Containments][25][ConfigDialog]
-DialogHeight=720
-DialogWidth=872
-
-[Containments][25][Configuration]
-PreloadWeight=0
-
-[Containments][25][Wallpaper][org.kde.color][General]
-Color=0,0,0
-
-[Containments][25][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Next/contents/images/3840x2160.png
+[Containments][34][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.jpg
 
 [Containments][8]
 activityId=
@@ -283,7 +237,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][8][Applets][17][Configuration]
-PreloadWeight=0
+PreloadWeight=22
 
 [Containments][8][Applets][22]
 immutability=1
@@ -297,7 +251,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][23][Configuration]
-PreloadWeight=91
+PreloadWeight=100
 
 [Containments][8][Applets][24][Configuration]
 PreloadWeight=42
@@ -310,7 +264,11 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][8][Applets][31][Configuration]
-PreloadWeight=0
+PreloadWeight=64
+
+[Containments][8][Applets][31][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][8][Applets][9][Configuration]
 PreloadWeight=42
@@ -323,11 +281,11 @@ DialogWidth=960
 PreloadWeight=0
 
 [Containments][8][General]
-extraItems=org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.plasma.volume
-hiddenItems=qBittorrent,shutter,Discover Notifier_org.kde.DiscoverNotifier,Yakuake,KDE Daemon,vlc
+extraItems=org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.plasma.volume,discord1,Microsoft Teams - Preview1,Insync,Plasma_microphone
+hiddenItems=qBittorrent,shutter,Discover Notifier_org.kde.DiscoverNotifier,Yakuake,KDE Daemon,vlc,discord1,Microsoft Teams - Preview1,Insync,Plasma_microphone
 knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.clipboard,org.kde.kupapplet,org.kde.plasma.keyboardindicator,org.kde.plasma.devicenotifier,org.kde.plasma.printmanager,org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.kdeconnect,org.kde.plasma.vault,org.kde.plasma.bluetooth,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.volume
 scaleIconsToFit=true
-shownItems=Insync,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.battery,ibus-ui-gtk3,org.kde.plasma.volume
+shownItems=org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.battery,ibus-ui-gtk3,org.kde.plasma.volume
 
 [ScreenMapping]
 itemsOnDisabledScreens=

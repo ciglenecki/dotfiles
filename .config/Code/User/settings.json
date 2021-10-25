@@ -96,7 +96,6 @@
 	"explorer.confirmDelete": false,
 	"movets.relativeToTsconfig": true,
 	"git.autofetch": true,
-	"editor.insertSpaces": false,
 	"python.pythonPath": "/usr/bin/python3",
 	"prettier.useEditorConfig": false,
 	"prettier.printWidth": 120,
@@ -172,11 +171,17 @@
 	"explorer.confirmDragAndDrop": false,
 	"workbench.colorTheme": "Quiet Light",
 	"python.defaultInterpreterPath": "/usr/bin/python3",
+	"[yaml]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
 	"[python]": {
 		"editor.defaultFormatter": "ms-python.python"
 	},
 	"python.formatting.provider": "black",
-	"[yaml]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
+	"editor.insertSpaces": false,
+	"jupyter.askForKernelRestart": false,
+	"settingsSync.ignoredExtensions": [
+		"ctf0.laravel-goto-env"
+	],
+	"window.zoomLevel": 1,
 }

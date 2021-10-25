@@ -42,3 +42,6 @@ triggerLidActionWhenExternalMonitorPresent=true
 idleTime=300000
 suspendThenHibernate=false
 suspendType=1
+
+[migration]
+kdedShortcutMigration=true

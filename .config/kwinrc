@@ -9,10 +9,10 @@ LatencyPolicy=ExtremelyHigh
 OpenGLIsUnsafe=false
 
 [Desktops]
-Id_1=5c9e9300-afe9-4959-b4c3-ecf6bd99cf80
-Id_2=a496ef28-8fe8-43e5-83f6-b5ce1a93e687
-Id_3=c141142a-5176-45fe-9b5d-5e9b89115fac
-Id_4=48ced5dd-6b92-40fd-98c0-c85584c25233
+Id_1=a496ef28-8fe8-43e5-83f6-b5ce1a93e687
+Id_2=c141142a-5176-45fe-9b5d-5e9b89115fac
+Id_3=48ced5dd-6b92-40fd-98c0-c85584c25233
+Id_4=770df387-17fc-4922-8d25-5f2f7de2cedb
 Name_1=1-main
 Name_2=2-resources
 Name_3=3-gtd
@@ -20,21 +20,54 @@ Name_4=4-media
 Number=4
 Rows=1
 
+[Effect-DimInactive]
+Strength=10
+
 [KDE]
 AnimationDurationFactor=0.5
+
+[MouseBindings]
+CommandActiveTitlebar1=Raise
+CommandActiveTitlebar2=Nothing
+CommandActiveTitlebar3=Operations menu
+CommandAll1=Move
+CommandAll2=Toggle raise and lower
+CommandAll3=Resize
+CommandAllKey=Meta
+CommandAllWheel=Nothing
+CommandInactiveTitlebar1=Activate and raise
+CommandInactiveTitlebar2=Nothing
+CommandInactiveTitlebar3=Operations menu
+CommandTitlebarWheel=Nothing
+CommandWindow1=Activate, raise and pass click
+CommandWindow2=Activate and pass click
+CommandWindow3=Activate and pass click
+CommandWindowWheel=Scroll
 
 [NightColor]
 Active=true
 Mode=Constant
-NightTemperature=2300
+NightTemperature=2200
 
 [Plugins]
+bismuthEnabled=true
 desktopchangeosdEnabled=false
-krohnkiteEnabled=true
+diminactiveEnabled=true
+krohnkiteEnabled=false
 minimizeallEnabled=false
 synchronizeskipswitcherEnabled=false
 videowallEnabled=false
 virtual-desktops-only-on-primaryEnabled=true
+
+[Script-bismuth]
+enableMonocleLayout=false
+enableSpiralLayout=false
+enableSpreadLayout=false
+enableStairLayout=false
+enableThreeColumnLayout=false
+noTileBorder=true
+preventProtrusion=false
+tileLayoutGap=5
 
 [Script-desktopchangeosd]
 PopupHideDelay=0
@@ -42,18 +75,26 @@ TextOnly=true
 
 [Script-krohnkite]
 enableMonocleLayout=false
-enableQuarterLayout=true
 enableSpiralLayout=false
 enableSpreadLayout=false
 enableStairLayout=false
 enableThreeColumnLayout=false
+maximizeSoleTile=true
+monocleMaximize=false
 noTileBorder=true
+preventProtrusion=false
 tileLayoutGap=5
 
 [TabBox]
 DesktopLayout=org.kde.breeze.desktop
 DesktopListLayout=org.kde.breeze.desktop
 LayoutName=org.kde.breeze.desktop
+
+[Windows]
+MaximizeButtonLeftClickCommand=Maximize
+MaximizeButtonMiddleClickCommand=Maximize (vertical only)
+MaximizeButtonRightClickCommand=Maximize (horizontal only)
+TitlebarDoubleClickCommand=Maximize
 
 [org.kde.kdecoration2]
 library=org.kde.breeze

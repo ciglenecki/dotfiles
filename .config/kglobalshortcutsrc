@@ -4,12 +4,13 @@ switch-to-activity-4b826226-8565-4e76-9913-489312dfe868=none,none,Switch to acti
 switch-to-activity-4d65d885-451f-40ff-96ca-1f6b8999f6ee=none,none,Switch to activity "Default"
 switch-to-activity-4e34d715-6e7e-4ad1-a6fb-08166418a89b=none,none,Switch to activity "Default"
 switch-to-activity-687c05aa-cc42-4a69-acbe-d38ebe895f11=none,none,Switch to activity "Default"
+switch-to-activity-cc6d1c2b-777d-4eec-9d0d-3d1035c10498=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
 Switch keyboard layout to Croatian=none,none,Switch keyboard layout to Croatian
 Switch keyboard layout to Croatian (US, with Croatian letters)=none,none,Switch keyboard layout to Croatian (US\\, with Croatian letters)
 Switch to Next Keyboard Layout=Ctrl+Alt+K,Ctrl+Alt+K,Switch to Next Keyboard Layout
-_k_friendly_name=Keyboard Layout Switcher
+_k_friendly_name=KDE Daemon
 
 [code.desktop]
 _k_friendly_name=Launch Visual Studio Code
@@ -39,7 +40,7 @@ stopAudio=none,none,Stop Play
 Disable Touchpad=Touchpad Off,Touchpad Off,Disable Touchpad
 Enable Touchpad=Touchpad On,Touchpad On,Enable Touchpad
 Toggle Touchpad=Touchpad Toggle,Touchpad Toggle,Toggle Touchpad
-_k_friendly_name=Touchpad
+_k_friendly_name=KDE Daemon
 
 [kded5]
 Show System Activity=Ctrl+Esc,Ctrl+Esc,Show System Activity
@@ -47,8 +48,8 @@ _k_friendly_name=KDE Daemon
 display=Display\tMeta+P,Display\tMeta+P,Switch Display
 
 [khotkeys]
-_k_friendly_name=Custom Shortcuts Service
-{2f965cb9-8118-451a-b380-f641a2c68b21}=none,none,Launch Konsole
+_k_friendly_name=KDE Daemon
+{8d025501-bb09-47c8-9849-f6c315c32cde}=,none,Launch Konsole
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=,none,Search
 
 [klipper]
@@ -82,7 +83,7 @@ Lock Session=\tCtrl+Alt+L\tScreensaver,Meta+L\tCtrl+Alt+L\tScreensaver,Lock Sess
 Log Out=Ctrl+Alt+Del,Ctrl+Alt+Del,Log Out
 Log Out Without Confirmation=Ctrl+Alt+Shift+Del,Ctrl+Alt+Shift+Del,Log Out Without Confirmation
 Reboot Without Confirmation=Ctrl+Alt+Shift+PgUp,Ctrl+Alt+Shift+PgUp,Reboot Without Confirmation
-_k_friendly_name=Session Management
+_k_friendly_name=ksmserver
 
 [kwin]
 Activate Window Demanding Attention=Ctrl+Alt+A,Ctrl+Alt+A,Activate Window Demanding Attention
@@ -96,34 +97,34 @@ Invert Screen Colors=none,none,Invert Screen Colors
 InvertWindow=none,Meta+Ctrl+U,Toggle Invert Effect on Window
 Kill Window=Ctrl+Alt+Esc,Ctrl+Alt+Esc,Kill Window
 Krohnkite: Cycle Layout=,none,
-Krohnkite: Decrease=Meta+[,none,
-Krohnkite: Down/Next=Meta+J,none,
-Krohnkite: Float=Meta+T,none,
+Krohnkite: Decrease=,none,
+Krohnkite: Down/Next=,none,
+Krohnkite: Float=,none,
 Krohnkite: Float All=,none,
 Krohnkite: Floating Layout=none,none,
-Krohnkite: Grow Height=Meta+Alt+K,none,
-Krohnkite: Grow Width=Meta+Alt+L,none,
-Krohnkite: Increase=Meta+],none,
-Krohnkite: Left=Meta+H,none,
+Krohnkite: Grow Height=,none,
+Krohnkite: Grow Width=,none,
+Krohnkite: Increase=,none,
+Krohnkite: Left=,none,
 Krohnkite: Monocle Layout=,none,
-Krohnkite: Move Down/Next=Meta+Shift+J,none,
-Krohnkite: Move Left=Meta+Shift+H,none,
-Krohnkite: Move Right=Meta+Shift+L,none,
-Krohnkite: Move Up/Prev=Meta+Shift+K,none,
+Krohnkite: Move Down/Next=,none,
+Krohnkite: Move Left=,none,
+Krohnkite: Move Right=,none,
+Krohnkite: Move Up/Prev=,none,
 Krohnkite: Next Layout=,none,
 Krohnkite: Previous Layout=none,none,
 Krohnkite: Quarter Layout=none,none,
-Krohnkite: Right=Meta+L,none,
+Krohnkite: Right=,none,
 Krohnkite: Rotate=Meta+R,none,
 Krohnkite: Rotate Part=Meta+Shift+R,none,
-Krohnkite: Set master=Meta+M,none,
-Krohnkite: Shrink Height=Meta+Alt+J,none,
-Krohnkite: Shrink Width=Meta+Alt+H,none,
+Krohnkite: Set master=,none,
+Krohnkite: Shrink Height=,none,
+Krohnkite: Shrink Width=,none,
 Krohnkite: Spread Layout=none,none,
 Krohnkite: Stair Layout=none,none,
 Krohnkite: Three Column Layout=none,none,
 Krohnkite: Tile Layout=none,none,
-Krohnkite: Up/Prev=Meta+K,none,
+Krohnkite: Up/Prev=,none,
 MoveMouseToCenter=Meta+F6,Meta+F6,Move Mouse to Center
 MoveMouseToFocus=Meta+F5,Meta+F5,Move Mouse to Focus
 MoveZoomDown=none,none,Move Zoomed Area Downwards
@@ -234,10 +235,10 @@ Window Minimize=Meta+PgDown\tMeta+Down,Meta+PgDown,Minimize Window
 Window Move=none,none,Move Window
 Window No Border=none,none,Hide Window Border
 Window On All Desktops=none,none,Keep Window on All Desktops
-Window One Desktop Down=Meta+Ctrl+Shift+Down,Meta+Ctrl+Shift+Down,Window One Desktop Down
-Window One Desktop Up=Meta+Ctrl+Shift+Up,Meta+Ctrl+Shift+Up,Window One Desktop Up
-Window One Desktop to the Left=Meta+Ctrl+Shift+Left,Meta+Ctrl+Shift+Left,Window One Desktop to the Left
-Window One Desktop to the Right=Meta+Ctrl+Shift+Right,Meta+Ctrl+Shift+Right,Window One Desktop to the Right
+Window One Desktop Down=Meta+Ctrl+Shift+Down,none,Window One Desktop Down
+Window One Desktop Up=Meta+Ctrl+Shift+Up,none,Window One Desktop Up
+Window One Desktop to the Left=Meta+Ctrl+Shift+Left,none,Window One Desktop to the Left
+Window One Desktop to the Right=Meta+Ctrl+Shift+Right,none,Window One Desktop to the Right
 Window Operations Menu=Alt+F3,Alt+F3,Window Operations Menu
 Window Pack Down=none,none,Pack Window Down
 Window Pack Left=none,none,Pack Window to the Left
@@ -277,9 +278,9 @@ Window to Desktop 7=none,none,Window to Desktop 7
 Window to Desktop 8=none,none,Window to Desktop 8
 Window to Desktop 9=none,none,Window to Desktop 9
 Window to Next Desktop=none,none,Window to Next Desktop
-Window to Next Screen=Meta+Shift+Right,Meta+Shift+Right,Window to Next Screen
+Window to Next Screen=Meta+Shift+Right,none,Window to Next Screen
 Window to Previous Desktop=none,none,Window to Previous Desktop
-Window to Previous Screen=Meta+Shift+Left,Meta+Shift+Left,Window to Previous Screen
+Window to Previous Screen=Meta+Shift+Left,none,Window to Previous Screen
 Window to Screen 0=none,none,Window to Screen 0
 Window to Screen 1=none,none,Window to Screen 1
 Window to Screen 2=none,none,Window to Screen 2
@@ -292,6 +293,39 @@ WindowGeometry=Ctrl+Shift+F11,Ctrl+Shift+F11,Toggle window geometry display (eff
 _k_friendly_name=Plasma
 addDesktop=none,none,Virtual Desktop Bar - Add Desktop
 addNewDesktop=none,none,Add New Desktop
+bismuth_decrease_master_size=,none,Bismuth: Decrease Master Area Size
+bismuth_decrease_master_win_count=Meta+[,none,Bismuth: Decrease Master Area Window Count
+bismuth_decrease_window_height=Meta+Alt+J,none,Bismuth: Decrease Window Height
+bismuth_decrease_window_width=Meta+H,none,Bismuth: Decrease Window Width
+bismuth_focus_bottom_window=,none,Bismuth: Focus Bottom Window
+bismuth_focus_left_window=,none,Bismuth: Focus Left Window
+bismuth_focus_next_window=Meta+K,none,Bismuth: Focus Next Window
+bismuth_focus_prev_window=Meta+J,none,Bismuth: Focus Previous Window
+bismuth_focus_right_window=,none,Bismuth: Focus Right Window
+bismuth_focus_upper_window=,none,Bismuth: Focus Upper Window
+bismuth_increase_master_size=none,none,Bismuth: Increase Master Area Size
+bismuth_increase_master_win_count=Meta+],none,Bismuth: Increase Master Area Window Count
+bismuth_increase_window_height=Meta+Alt+K,none,Bismuth: Increase Window Height
+bismuth_increase_window_width=Meta+L,none,Bismuth: Increase Window Width
+bismuth_move_window_to_bottom_pos=Meta+Shift+J,none,Bismuth: Move Window Down
+bismuth_move_window_to_left_pos=Meta+Shift+H,none,Bismuth: Move Window Left
+bismuth_move_window_to_next_pos=none,none,Bismuth: Move Window to the Next Position
+bismuth_move_window_to_prev_pos=none,none,Bismuth: Move Window to the Previous Position
+bismuth_move_window_to_right_pos=Meta+Shift+L,none,Bismuth: Move Window Right
+bismuth_move_window_to_upper_pos=Meta+Shift+K,none,Bismuth: Move Window Up
+bismuth_next_layout=Meta+\\\\,none,Bismuth: Switch to the Next Layout
+bismuth_prev_layout=Meta+|,none,Bismuth: Switch to the Previous Layout
+bismuth_push_window_to_master=Meta+M,none,Bismuth: Push Active Window to Master Area
+bismuth_rotate=,none,Bismuth: Rotate
+bismuth_rotate_part=,none,Bismuth: Rotate Part
+bismuth_toggle_float_layout=none,none,Bismuth: Toggle Floating Layout
+bismuth_toggle_monocle_layout=,none,Bismuth: Toggle Monocle Layout
+bismuth_toggle_quarter_layout=none,none,Bismuth: Toggle Quarter Layout
+bismuth_toggle_spread_layout=none,none,Bismuth: Toggle Spread Layout
+bismuth_toggle_stair_layout=none,none,Bismuth: Toggle Stair Layout
+bismuth_toggle_three_column_layout=none,none,Bismuth: Toggle Three Column Layout
+bismuth_toggle_tile_layout=,none,Bismuth: Toggle Tile Layout
+bismuth_toggle_window_floating=Meta+T,none,Bismuth: Toggle Active Window Floating
 moveCurrentDesktopToLeft=none,none,Virtual Desktop Bar - Move Current Desktop to Left
 moveCurrentDesktopToRight=none,none,Virtual Desktop Bar - Move Current Desktop to Right
 removeCurrentDesktop=none,none,Virtual Desktop Bar - Remove Current Desktop
@@ -319,7 +353,7 @@ _launch=Meta+E,Meta+E,Dolphin
 
 [org.kde.ksysguard.desktop]
 _k_friendly_name=Launch KSysGuard
-_launch=Ctrl+Shift+Esc,none,Launch KSysGuard
+_launch=,none,Launch KSysGuard
 
 [org.kde.plasma.emojier.desktop]
 _k_friendly_name=Emoji Selector
@@ -375,7 +409,7 @@ clipboard_action=Ctrl+Alt+X,Ctrl+Alt+X,Enable Clipboard Actions
 cycleNextAction=none,none,Next History Item
 cyclePrevAction=none,none,Previous History Item
 edit_clipboard=none,none,Edit Contents...
-manage activities=Meta+Q,Meta+Q,Show Activity Switcher
+manage activities=Meta+Q,Meta+Q,Activities...
 next activity=Meta+Tab,Meta+Tab,Walk through activities
 previous activity=Meta+Shift+Tab,Meta+Shift+Tab,Walk through activities (Reverse)
 repeat_action=Ctrl+Alt+R,Ctrl+Alt+R,Manually Invoke Action on Current Clipboard
@@ -410,11 +444,11 @@ _launch=none,none,Launch Shutter
 [systemsettings.desktop]
 _k_friendly_name=System Settings
 _launch=Tools,Tools,System Settings
-kcm-kscreen=,,Display Configuration
-kcm-lookandfeel=,,Global Theme
-kcm-users=,,Users
-powerdevilprofilesconfig=,,Energy Saving
-screenlocker=,,Screen Locking
+kcm-kscreen=,none,Display Configuration
+kcm-lookandfeel=,none,Global Theme
+kcm-users=,none,Users
+powerdevilprofilesconfig=,none,Energy Saving
+screenlocker=,none,Screen Locking
 
 [wacomtablet]
 Map to fullscreen=Meta+Ctrl+F,Meta+Ctrl+F,Map to fullscreen
