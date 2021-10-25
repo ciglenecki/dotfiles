@@ -50,23 +50,25 @@ Mode=Constant
 NightTemperature=2200
 
 [Plugins]
-bismuthEnabled=true
+bismuthEnabled=false
 desktopchangeosdEnabled=false
 diminactiveEnabled=true
-krohnkiteEnabled=false
+krohnkiteEnabled=true
 minimizeallEnabled=false
 synchronizeskipswitcherEnabled=false
 videowallEnabled=false
 virtual-desktops-only-on-primaryEnabled=true
 
 [Script-bismuth]
+adjustLayoutLive=false
 enableMonocleLayout=false
 enableSpiralLayout=false
 enableSpreadLayout=false
 enableStairLayout=false
 enableThreeColumnLayout=false
+layoutPerActivity=false
 noTileBorder=true
-preventProtrusion=false
+preventMinimize=true
 tileLayoutGap=5
 
 [Script-desktopchangeosd]

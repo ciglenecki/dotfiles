@@ -498,4 +498,15 @@
   </info>
   <title>512,0 MiB Hard Drive</title>
  </separator>
+ <bookmark href="kdeconnect://ff4badd4f3dc52e9/">
+  <title>SM-G780F</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="kdeconnect"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1635197824/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
 </xbel>
