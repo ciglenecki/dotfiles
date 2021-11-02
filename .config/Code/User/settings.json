@@ -1,5 +1,6 @@
 {
 	"workbench.iconTheme": "material-icon-theme",
+	"workbench.panel.defaultLocation": "right",
 	"editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
 	"editor.fontLigatures": true,
 	"workbench.editor.highlightModifiedTabs": true, // Don't lose your working by turning on autosave,
@@ -183,5 +184,10 @@
 	"settingsSync.ignoredExtensions": [
 		"ctf0.laravel-goto-env"
 	],
-	"window.zoomLevel": 1,
+	"debug.onTaskErrors": "showErrors",
+	"python.analysis.typeCheckingMode": "basic",
+	"python.formatting.blackArgs": [
+		"--line-length",
+		"140"
+	],
 }

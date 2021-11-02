@@ -47,7 +47,7 @@ CommandWindowWheel=Scroll
 [NightColor]
 Active=true
 Mode=Constant
-NightTemperature=2200
+NightTemperature=3200
 
 [Plugins]
 bismuthEnabled=false
