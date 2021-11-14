@@ -33,6 +33,8 @@ export BROWSERWORK="$BROWSER --profile-directory=memgraph"
 export BROWSERMUSIC="$BROWSER --profile-directory=music"
 export BROWSERAPP="${BROWSERUSER} ${BROWSERASAPP}"
 export SPOTIFY="${BROWSERMUSIC} ${BROWSERASAPP}https://open.spotify.com/collection/albums"
+export SPOTIFY_RAND_PREFIX="${BROWSERMUSIC} ${BROWSERASAPP}"
+
 export CAL="${BROWSERUSER} ${BROWSERASAPP}https://calendar.google.com/calendar/r"
 export ASOFTMURMUR="${BROWSERMUSIC} ${BROWSERASAPP}https://asoftmurmur.com/"
 export POMODORO="${BROWSERUSER} ${BROWSERASAPP}https://pomofocus.io/"
@@ -66,4 +68,4 @@ export DIR_HDD_EXT="/media/$(whoami)/ex-gep"
 export TIMEFS="%F"
 export TIMEFL="%F-%H-%M-%S"
 export DATENOW='date +"$TIMEFL"'
-export SOUND_LEVEL=33
+export SOUND_LEVEL=10

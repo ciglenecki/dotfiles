@@ -1,5 +1,4 @@
 {
-	"workbench.iconTheme": "material-icon-theme",
 	"workbench.panel.defaultLocation": "right",
 	"editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
 	"editor.fontLigatures": true,
@@ -7,9 +6,6 @@
 	"explorer.sortOrder": "type",
 	"files.trimFinalNewlines": true,
 	"editor.mouseWheelZoom": true,
-	"[typescript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode",
-	},
 	"breadcrumbs.icons": false,
 	"breadcrumbs.showArrays": false,
 	"breadcrumbs.showBooleans": false,
@@ -119,8 +115,6 @@
 	"markdown.preview.openMarkdownLinks": "inEditor",
 	"pasteImage.path": "${projectRoot}/pic",
 	"terminal.integrated.cursorBlinking": true,
-	"anki.md.card.separator": "::: q",
-	"anki.md.card.frontBackSeparator": "\\n",
 	"window.restoreWindows": "none",
 	"vim.useSystemClipboard": true,
 	"vim.normalModeKeyBindingsNonRecursive": [],
@@ -180,14 +174,17 @@
 	},
 	"python.formatting.provider": "black",
 	"editor.insertSpaces": false,
-	"jupyter.askForKernelRestart": false,
 	"settingsSync.ignoredExtensions": [
 		"ctf0.laravel-goto-env"
 	],
 	"debug.onTaskErrors": "showErrors",
-	"python.analysis.typeCheckingMode": "basic",
 	"python.formatting.blackArgs": [
 		"--line-length",
 		"140"
 	],
+	"workbench.editorAssociations": {
+		"*.mat": "default"
+	},
+	"jupyter.experiments.enabled": false,
+	"jupyter.askForKernelRestart": false,
 }

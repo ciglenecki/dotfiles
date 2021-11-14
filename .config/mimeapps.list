@@ -5,6 +5,7 @@ text/html=firefox.desktop;calibre-ebook-edit.desktop;org.kde.kate.desktop;libreo
 text/json=code.desktop;
 text/markdown=code.desktop;okularApplication_md.desktop;rstudio.desktop;org.kde.kate.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;vim.desktop;calibre-gui.desktop;calibre-ebook-viewer.desktop;
 text/plain=code.desktop;org.kde.kate.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;calibre-ebook-viewer.desktop;vim.desktop;calibre-gui.desktop;
+text/x-csrc=code.desktop;rstudio.desktop;org.kde.kate.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;calibre-ebook-viewer.desktop;vim.desktop;calibre-gui.desktop;
 text/x-tex=code.desktop;rstudio.desktop;org.kde.kate.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;vim.desktop;calibre-ebook-viewer.desktop;calibre-gui.desktop;
 video/x-matroska=vlc.desktop;mpv.desktop;
 
@@ -15,6 +16,7 @@ text/html=brave-browser.desktop
 text/json=code.desktop;
 text/markdown=code.desktop;
 text/plain=code.desktop;
+text/x-csrc=code.desktop;
 text/x-tex=code.desktop;
 video/x-matroska=vlc.desktop;
 x-scheme-handler/msteams=teams.desktop

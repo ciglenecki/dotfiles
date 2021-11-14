@@ -62,7 +62,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][28][Configuration]
-PreloadWeight=0
+PreloadWeight=81
 
 [Containments][2][Applets][28][Configuration][Appearance]
 showDate=true
@@ -81,7 +81,7 @@ PreloadWeight=0
 
 [Containments][2][Applets][29][Configuration][General]
 expanding=false
-length=436
+length=362
 
 [Containments][2][Applets][3]
 immutability=1
@@ -111,7 +111,7 @@ plugin=org.kde.plasma.panelspacer
 PreloadWeight=0
 
 [Containments][2][Applets][30][Configuration][General]
-length=1051
+length=786
 
 [Containments][2][Applets][5]
 immutability=1
@@ -135,7 +135,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][7][Configuration]
-PreloadWeight=40
+PreloadWeight=81
 SystrayContainmentId=8
 
 [Containments][2][ConfigDialog]
@@ -167,7 +167,7 @@ PreloadWeight=0
 [Containments][31][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=739
-ToolBoxButtonY=22
+ToolBoxButtonY=18
 
 [Containments][31][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/wallpapers/Milky_Way/contents/images/5120x2880.png
@@ -251,7 +251,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][23][Configuration]
-PreloadWeight=15
+PreloadWeight=0
 
 [Containments][8][Applets][24][Configuration]
 PreloadWeight=42
@@ -264,11 +264,11 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][8][Applets][31][Configuration]
-PreloadWeight=20
+PreloadWeight=84
 
 [Containments][8][Applets][31][Configuration][ConfigDialog]
 DialogHeight=540
-DialogWidth=720
+DialogWidth=719
 
 [Containments][8][Applets][9][Configuration]
 PreloadWeight=42

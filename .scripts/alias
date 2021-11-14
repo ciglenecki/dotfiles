@@ -148,18 +148,24 @@ function addpackage() {
 
 # run set of commands with nohup
 function run() {
-    nohup sh -c `"$@"` </dev/null >/dev/null 2>&1 &
+    nohup "$@" >/dev/null 2>&1 &
 }
 
 
 function renameall() {
-    # Make everyhing lowercase, avoid dir issues (a/a -> A/A)
-    # replace whitespace with underscore
-    # replace multiple special characters with a single hyphen
-    # replace underscore if number is leading in the name
-    find . -depth -exec rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;
-    find . -depth -exec rename "s/\s+/_/g" {} \;
-    find . -depth -exec rename 's/\(([0-9]+)\)/$1/g' {} \;
-    find . -depth -exec rename 's/([^a-zA-Z0-9]*_[^a-zA-Z0-9]+)|([^a-zA-Z0-9]+_[^a-zA-Z0-9]*)/-/g' {} \;
-    find . -depth -exec rename 's/^([0-9]+)(_)/$1-/' {} \;
+    rename "y/A-Z/a-z/" *
+    rename "s/\s+/_/g" *
+    rename 's/\((.*?)\)\./-$1/g' *
+    rename 's/\((.*?)\)[^\.]/-$1-/g' *
+    rename 's/^([0-9]+)_/$1-/' *
+    rename "s/://g" *
+    rename "s/\(//g" *
+    rename "s/\)//g" *
+    rename "s/\[//g" *
+    rename "s/\]//g" *
+    rename 's/"//g' *
+    rename "s/'//g" *
+    rename "s/,//g" *
+    rename "s/-+/-/g" *
+    rename "s/_+/_/g" *
 }

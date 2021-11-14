@@ -4,7 +4,7 @@ alt + o; {b,B};
 alt + o; {m, M};
 	{wmctrl -xa $BROWSER, $BROWSERWORK}
 alt + o; {s,S};
-	{wmctrl -xa spotify, $SPOTIFY}
+	{wmctrl -xa spotify, $SPOTIFY_RAND_PREFIX$(python3 /home/matej/projects/spotify-random-saved-album/src.py)}
 alt + o; {a,A};
 	{wmctrl -xa spotify, $ASOFTMURMUR}
 alt + o; {k,K};
@@ -37,15 +37,15 @@ alt + p; {t};
 alt + p; {p};
     { kquitapp5 plasmashell || killall plasmashell && kstart5 plasmashell; } &> /dev/null;
 # copy
-alt + c; s;
-    copyq write image/jpg - < $DIR_SCREENSHOTS$(ls -t $DIR_SCREENSHOTS | head -n 1) && copyq select 0
+# alt + c; s;
+    # # copyq write image/jpg - < $DIR_SCREENSHOTS$(ls -t $DIR_SCREENSHOTS | head -n 1) && copyq select 0
 
 # volume with pause button
 Pause;
     amixer -q sset Master $SOUND_LEVEL
 
 ctrl + grave;
-    shutter -s -p=matej
+    flameshot gui -p $DIR_SCREENSHOTS
 super + grave;
     {foldername=$(wmctrl -lx | grep -E ".*code.Code.*notes" | tr -s ' ' | cut -d ' ' -f 5 | head -n 1 | sed 's/\~/\/home\/matej/') && \
         name=$(date +'%F-%H-%M-%S').jpg && \
