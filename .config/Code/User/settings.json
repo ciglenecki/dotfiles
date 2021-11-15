@@ -143,8 +143,7 @@
 	"prettier.singleQuote": true,
 	"prettier.trailingComma": "all",
 	"prettier.ignorePath": "",
-	"window.openFilesInNewWindow": "default",
-	"window.openFoldersInNewWindow": "off",
+	"window.openFoldersInNewWindow": "on",
 	"workbench.editor.enablePreviewFromQuickOpen": true,
 	"[jsonc]": {
 		"editor.defaultFormatter": "vscode.json-language-features"
@@ -155,7 +154,6 @@
 		"editor.defaultFormatter": "ms-vscode.cpptools"
 	},
 	"diffEditor.renderSideBySide": false,
-	"editor.formatOnSave": true,
 	"debug.javascript.autoAttachFilter": "smart",
 	"java.dependency.showMembers": true,
 	"terminal.integrated.tabs.enabled": true,
@@ -172,7 +170,6 @@
 	"[python]": {
 		"editor.defaultFormatter": "ms-python.python"
 	},
-	"python.formatting.provider": "black",
 	"editor.insertSpaces": false,
 	"settingsSync.ignoredExtensions": [
 		"ctf0.laravel-goto-env"
@@ -180,11 +177,13 @@
 	"debug.onTaskErrors": "showErrors",
 	"python.formatting.blackArgs": [
 		"--line-length",
-		"140"
+		"100"
 	],
 	"workbench.editorAssociations": {
 		"*.mat": "default"
 	},
 	"jupyter.experiments.enabled": false,
 	"jupyter.askForKernelRestart": false,
+	"editor.formatOnSave": true,
+	"python.analysis.typeCheckingMode": "basic",
 }
