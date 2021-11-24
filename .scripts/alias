@@ -72,7 +72,10 @@ function o() {
 	if [ $# -eq 0 ]; then
 		open .;
 	else
-		open "$@";
+        for file in "$@"
+        do
+            open $file;
+        done		
 	fi;
 }
 ### GTD ###
@@ -154,7 +157,7 @@ function run() {
 
 function renameall() {
     rename "y/A-Z/a-z/" *
-    rename "s/\s+/_/g" *
+    rename "s/\s+/-/g" *
     rename 's/\((.*?)\)\./-$1/g' *
     rename 's/\((.*?)\)[^\.]/-$1-/g' *
     rename 's/^([0-9]+)_/$1-/' *

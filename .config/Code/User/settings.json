@@ -103,9 +103,6 @@
 	"C_Cpp.vcFormat.space.betweenEmptyLambdaBrackets": true,
 	"C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0 }",
 	"editor.wordWrap": "on",
-	"[json]": {
-		"editor.defaultFormatter": "vscode.json-language-features"
-	},
 	"gitlens.views.searchAndCompare.files.layout": "tree",
 	"gitlens.views.commits.files.layout": "tree",
 	"diffEditor.codeLens": true,
@@ -145,9 +142,6 @@
 	"prettier.ignorePath": "",
 	"window.openFoldersInNewWindow": "on",
 	"workbench.editor.enablePreviewFromQuickOpen": true,
-	"[jsonc]": {
-		"editor.defaultFormatter": "vscode.json-language-features"
-	},
 	"window.closeWhenEmpty": true,
 	"editor.wordWrapColumn": 120,
 	"[c]": {
@@ -163,13 +157,10 @@
 	},
 	"explorer.confirmDragAndDrop": false,
 	"workbench.colorTheme": "Quiet Light",
-	"python.defaultInterpreterPath": "/usr/bin/python3",
 	"[yaml]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
-	"[python]": {
-		"editor.defaultFormatter": "ms-python.python"
-	},
+
 	"editor.insertSpaces": false,
 	"settingsSync.ignoredExtensions": [
 		"ctf0.laravel-goto-env"
@@ -177,13 +168,12 @@
 	"debug.onTaskErrors": "showErrors",
 	"python.formatting.blackArgs": [
 		"--line-length",
-		"100"
+		"80"
 	],
 	"workbench.editorAssociations": {
-		"*.mat": "default"
+		"*.mat": "default",
+		"*.class": "default"
 	},
-	"jupyter.experiments.enabled": false,
-	"jupyter.askForKernelRestart": false,
 	"editor.formatOnSave": true,
-	"python.analysis.typeCheckingMode": "basic",
+	"python.formatting.provider": "black",
 }

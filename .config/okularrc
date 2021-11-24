@@ -1,0 +1,51 @@
+Height 1080=1062
+Height 1920=1888
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAPiAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Width 1080=1080
+Width 1920=1920
+Window-Maximized 1080x1920=true
+
+[Desktop Entry]
+FullScreen=false
+
+[KFileDialog Settings]
+Recent Files[$e]=SU1-2021-P02-OsnovniKoncepti.pdf,file:$HOME/2-fer/sap/0-lit/rj-probability-and-statistics_rjesenja.pdf,file:$HOME/2-fer/sap/0-lit/book-walpole-probability_and_statistics_for_engineers_and_scientists.pdf,file:$HOME/2-fer/struce/1-lectures/10-jezgrenemetode.pdf,file:$HOME/2-fer/struce/1-lectures/6-logistickaregresija.pdf,file:$HOME/2-fer/struce/4-vjezbe/13-procjenaparametara-vjezbe.pdf,file:$HOME/2-fer/struce/4-vjezbe/10-jezgrenemetode-vjezbe.pdf,file:$HOME/2-fer/struce/4-vjezbe/09-strojpotpornihvektora2-vjezbe.pdf,file:$HOME/2-fer/struce/4-vjezbe/08-strojpotpornihvektora-vjezbe.pdf,file:$HOME/2-fer/struce/4-vjezbe/06-logistickaregresija-vjezbe.pdf,file:$HOME/2-fer/struce/4-vjezbe/07-logistickaregresija2-vjezbe.pdf,file:$HOME/2-fer/struce/4-vjezbe/05-linearnidiskriminativnimodeli-vjezbe.pdf,file:$HOME/2-fer/struce/1-lectures/9-strojpotpornihvektora2.pdf,file:$HOME/2-fer/struce/1-lectures/8-strojpotpornihvektora.pdf,file:$HOME/2-fer/sap/cheatsheet/tablice-sap.pdf
+Recent URLs[$e]=file:$HOME/2-fer/sap/0-lit/
+detailViewIconSize=0
+
+[MainWindow]
+Height 1080=1062
+Height 1920=1888
+Height 720=1058
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAPcAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1080=295
+Width 1280=1920
+Width 1920=1920
+Window-Maximized 1080x1920=true
+Window-Maximized 1920x1080=true
+
+[Notification Messages]
+ShowTabWarning=true
+
+[Recent Files]
+File1[$e]=$HOME/2-fer/struce/1-lectures/3-regresija.pdf
+File10[$e]=$HOME/2-fer/struce/5-natuktnice/SU1-2021-N10-JezgreneMetode.pdf
+File2[$e]=$HOME/2-fer/struce/5-natuktnice/SU1-2021-N03-Regresija.pdf
+File3[$e]=$HOME/2-fer/struce/5-natuktnice/SU1-2021-N04-Regresija2.pdf
+File4[$e]=$HOME/2-fer/struce/5-natuktnice/SU1-2021-N05-LinearniDiskriminativniModeli.pdf
+File5[$e]=$HOME/2-fer/struce/5-natuktnice/SU1-2021-N06-LogistickaRegresija.pdf
+File6[$e]=$HOME/2-fer/struce/5-natuktnice/SU1-2021-N07-LogistickaRegresija2.pdf
+File7[$e]=$HOME/2-fer/struce/5-natuktnice/SU1-2021-N08-StrojPotpornihVektora.pdf
+File8[$e]=$HOME/2-fer/struce/5-natuktnice/SU1-2021-N09-StrojPotpornihVektora2.pdf
+File9[$e]=$HOME/2-fer/struce/5-natuktnice/SU1-2021-N02-OsnovniKoncepti.pdf
+Name1[$e]=3-regresija.pdf
+Name10[$e]=SU1-2021-N10-JezgreneMetode.pdf
+Name2[$e]=SU1-2021-N03-Regresija.pdf
+Name3[$e]=SU1-2021-N04-Regresija2.pdf
+Name4[$e]=SU1-2021-N05-LinearniDiskriminativniModeli.pdf
+Name5[$e]=SU1-2021-N06-LogistickaRegresija.pdf
+Name6[$e]=SU1-2021-N07-LogistickaRegresija2.pdf
+Name7[$e]=SU1-2021-N08-StrojPotpornihVektora.pdf
+Name8[$e]=SU1-2021-N09-StrojPotpornihVektora2.pdf
+Name9[$e]=SU1-2021-N02-OsnovniKoncepti.pdf
