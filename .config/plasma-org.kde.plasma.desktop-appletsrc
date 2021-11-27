@@ -126,6 +126,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][2][Applets][5][Configuration][General]
+groupingStrategy=0
 launchers=
 middleClickAction=Close
 
@@ -141,7 +142,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][7][Configuration]
-PreloadWeight=89
+PreloadWeight=100
 SystrayContainmentId=8
 
 [Containments][2][ConfigDialog]
@@ -155,6 +156,7 @@ PreloadWeight=0
 AppletOrder=3;5;30;28;29;27;7
 
 [Containments][31]
+ItemGeometriesHorizontal=
 activityId=cc6d1c2b-777d-4eec-9d0d-3d1035c10498
 formfactor=0
 immutability=1
@@ -162,6 +164,10 @@ lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
+
+[Containments][31][Applets][38]
+immutability=1
+plugin=org.kde.plasma.showActivityManager
 
 [Containments][31][ConfigDialog]
 DialogHeight=628
@@ -173,7 +179,6 @@ PreloadWeight=0
 [Containments][31][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=739
-ToolBoxButtonY=24
 
 [Containments][31][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/wallpapers/Milky_Way/contents/images/5120x2880.png
@@ -243,7 +248,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][8][Applets][17][Configuration]
-PreloadWeight=19
+PreloadWeight=49
 
 [Containments][8][Applets][22]
 immutability=1
@@ -257,7 +262,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][23][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][8][Applets][24][Configuration]
 PreloadWeight=42
@@ -270,7 +275,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][8][Applets][31][Configuration]
-PreloadWeight=89
+PreloadWeight=94
 
 [Containments][8][Applets][31][Configuration][ConfigDialog]
 DialogHeight=540

@@ -32,6 +32,8 @@ shift + KP_Add
 # p = paste
 alt + p; {d,D};
     sleep 0.2; xdotool getwindowfocus windowfocus --sync type "$(eval $DATENOW)"
+alt + p; {e,E};
+    sleep 0.2; xdotool getwindowfocus windowfocus --sync type "matej.ciglenecki@gmail.com"
 alt + p; {t};
     sleep 0.2; xdotool getwindowfocus windowfocus --sync type "(next 14 days | no due date) & (p1 | p2 | p3) & (!#📚 FER)"
 alt + p; {p};
