@@ -5,32 +5,21 @@ source /home/matej/.scripts/env
 
 SRC=$HOME/*; # files inside of home
 DEST="$DIR_HDD_EXT/.backup-CD/D/"
-EXCLUDE_LIST=$HOME/.assets/backup-ignore.txt
+EXCLUDE_LIST=$HOME/.assets/backup-exclude.txt
+INCLUDE_LIST=$HOME/.assets/backup-include.txt
+
 LOG="$HOME/.log/"; mkdir -p $LOG;
 LOG="$LOG/backup-hdd.log"
 echo $(date +"$TIMEFL") >> $LOG;
 
 notify-send "Starting backup!" "src\t$SRC\ndest\t$DEST";
 
-# What to back up ?
-DIR_NOTES_BASE=$(basename $DIR_NOTES);
-DIR_DOCUMENTS_BASE=$(basename $DIR_DOCUMENTS);
-DIR_FER_BASE=$(basename $DIR_FER);
-DIR_ARCHIVE_BASE=$(basename $DIR_ARCHIVE);
-DIR_BACKUP_BASE=$(basename $DIR_BACKUP);
-DIR_PICTURES_BASE=$(basename $DIR_PICTURES);
-DIR_DOWNLOADS_BASE=$(basename $DIR_DOWNLOADS);
-
 # take into account .gitignore in each subdirectory. If gitignore exists dont copy file specified in that gitignore
 # --filter='dir-merge,- .gitignore'
 
 rsync --archive --verbose --update --times --recursive --progress --human-readable \
 --exclude-from $EXCLUDE_LIST \
---include="$DIR_NOTES_BASE/***" \
---include="$DIR_DOCUMENTS_BASE/***" \
---include="$DIR_FER_BASE/***" \
---include="$DIR_PICTURES_BASE/***" \
---include="$DIR_DOWNLOADS_BASE/***" \
+--include-from $INCLUDE_LIST \
 --exclude="*" \
 $HOME/* $DEST
 
