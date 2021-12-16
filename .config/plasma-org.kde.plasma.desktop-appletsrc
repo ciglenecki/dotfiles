@@ -32,37 +32,12 @@ location=3
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][2][Applets][27]
-immutability=1
-plugin=org.kde.plasma.virtualdesktopbar
-
-[Containments][2][Applets][27][Configuration]
-PreloadWeight=0
-
-[Containments][2][Applets][27][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][2][Applets][27][Configuration][Preferences]
-AddDesktopButtonShow=false
-AddingDesktopsSwitchTo=false
-DesktopButtonsHorizontalMargin=8
-DesktopButtonsSpacing=6
-DesktopIndicatorsCustomColorForCurrentDesktop=#00b7e9
-DesktopIndicatorsDistinctForOccupiedIdleDesktops=false
-DesktopIndicatorsStyle=4
-DesktopLabelsBoldFontForCurrentDesktop=true
-DesktopLabelsCustomColor=#232629
-DesktopLabelsCustomFontSize=17
-DesktopLabelsMaximumLength=22
-MouseWheelRemoveDesktopOnClick=false
-
 [Containments][2][Applets][28]
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][28][Configuration]
-PreloadWeight=100
+PreloadWeight=40
 
 [Containments][2][Applets][28][Configuration][Appearance]
 boldText=true
@@ -89,7 +64,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
-PreloadWeight=100
+PreloadWeight=92
 
 [Containments][2][Applets][3][Configuration][Configuration/General]
 showAppsByName=true
@@ -114,6 +89,32 @@ PreloadWeight=0
 [Containments][2][Applets][30][Configuration][General]
 length=786
 
+[Containments][2][Applets][35]
+immutability=1
+plugin=org.kde.plasma.virtualdesktopbar
+
+[Containments][2][Applets][35][Configuration]
+PreloadWeight=0
+
+[Containments][2][Applets][35][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][2][Applets][35][Configuration][Preferences]
+AddDesktopButtonShow=false
+DesktopButtonsHorizontalMargin=14
+DesktopButtonsSpacing=1
+DesktopButtonsVerticalMargin=4
+DesktopIndicatorsCustomColorForCurrentDesktop=#0990e9
+DesktopIndicatorsCustomColorForDesktopsNeedingAttention=#9e9e9e
+DesktopIndicatorsCustomColorForIdleDesktops=#9e9e9e
+DesktopIndicatorsCustomColorForOccupiedIdleDesktops=#9e9e9e
+DesktopIndicatorsDoNotOverrideOpacityOfCustomColors=true
+DesktopIndicatorsStyle=2
+DesktopIndicatorsStyleBlockRadius=0
+DesktopLabelsBoldFontForCurrentDesktop=true
+DesktopLabelsCustomFontSize=16
+
 [Containments][2][Applets][5]
 immutability=1
 plugin=org.kde.plasma.icontasks
@@ -129,6 +130,7 @@ DialogWidth=720
 groupingStrategy=0
 launchers=
 middleClickAction=Close
+showOnlyCurrentScreen=true
 
 [Containments][2][Applets][6]
 immutability=1
@@ -142,7 +144,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][7][Configuration]
-PreloadWeight=100
+PreloadWeight=92
 SystrayContainmentId=8
 
 [Containments][2][ConfigDialog]
@@ -153,7 +155,7 @@ DialogWidth=1920
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=3;5;30;28;29;27;7
+AppletOrder=3;5;30;28;29;35;7
 
 [Containments][31]
 ItemGeometriesHorizontal=
@@ -165,10 +167,6 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][31][Applets][38]
-immutability=1
-plugin=org.kde.plasma.showActivityManager
-
 [Containments][31][ConfigDialog]
 DialogHeight=628
 DialogWidth=1012
@@ -179,6 +177,7 @@ PreloadWeight=0
 [Containments][31][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=739
+ToolBoxButtonY=24
 
 [Containments][31][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/wallpapers/Milky_Way/contents/images/5120x2880.png
@@ -248,7 +247,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][8][Applets][17][Configuration]
-PreloadWeight=49
+PreloadWeight=2
 
 [Containments][8][Applets][22]
 immutability=1
@@ -262,7 +261,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][23][Configuration]
-PreloadWeight=5
+PreloadWeight=3
 
 [Containments][8][Applets][24][Configuration]
 PreloadWeight=42
@@ -275,7 +274,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][8][Applets][31][Configuration]
-PreloadWeight=94
+PreloadWeight=42
 
 [Containments][8][Applets][31][Configuration][ConfigDialog]
 DialogHeight=540

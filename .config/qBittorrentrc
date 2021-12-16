@@ -1,5 +1,7 @@
 [FileDialogSize]
+Height 1080=560
 Height 1440=605
+Width 1920=1098
 Width 2560=882
 
 [KFileDialog Settings]

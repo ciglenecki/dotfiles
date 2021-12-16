@@ -7,7 +7,7 @@ ShowOSD=false
 ttsEngine=flite
 
 [Main View]
-SplitterSizes=414,1469
+SplitterSizes=302,1403
 
 [Nav Panel]
 SidebarIconSize=22
@@ -18,7 +18,10 @@ MouseMode=TextSelect
 TrimMargins=true
 
 [Reviews]
-AnnotationTools=<tool type="highlight" id="1"><engine type="TextSelector" color="#ffffff00"><annotation type="Highlight" color="#ffffff00"/></engine><shortcut>1</shortcut></tool>,<tool type="rectangle" id="2"><engine block="true" type="PickPoint" color="#ffffff00"><annotation type="GeomSquare" opacity="0.5" width="6" color="#ffffff00"/></engine><shortcut>2</shortcut></tool>,<tool type="rectangle" id="3"><engine block="true" type="PickPoint" color="#ff1d1d1d"><annotation type="GeomSquare" width="1" innerColor="#ffffff" color="#ff1d1d1d"/></engine><shortcut>3</shortcut></tool>,<tool type="typewriter" id="4"><engine block="true" type="PickPoint"><annotation type="Typewriter" width="0" color="#00ffffff" font="Noto Sans\\,7\\,-1\\,0\\,50\\,0\\,0\\,0\\,0\\,0\\,Regular" textColor="#ff0000"/></engine><shortcut>4</shortcut></tool>,<tool type="note-inline" id="5"><engine block="true" type="PickPoint" hoverIcon="tool-note-inline" color="#ffa9d6ff"><annotation type="FreeText" width="1" color="#ffa9d6ff" font="Noto Sans\\,7\\,-1\\,0\\,50\\,0\\,0\\,0\\,0\\,0\\,Regular"/></engine><shortcut>5</shortcut></tool>,<tool type="straight-line" id="6"><engine type="PolyLine" points="2" color="#ffffe000"><annotation type="Line" width="1" color="#ffffe000"/></engine><shortcut>6</shortcut></tool>,<tool type="underline" id="7"><engine type="TextSelector" color="#ff000000"><annotation type="Underline" color="#ff000000"/></engine><shortcut>7</shortcut></tool>
+AnnotationTools=<tool type="highlight" id="1"><engine type="TextSelector" color="#ffffff00"><annotation type="Highlight" color="#ffffff00"/></engine><shortcut>1</shortcut></tool>,<tool type="rectangle" id="2"><engine type="PickPoint" block="true" color="#ffffff00"><annotation opacity="0.5" type="GeomSquare" width="6" color="#ffffff00"/></engine><shortcut>2</shortcut></tool>,<tool type="rectangle" id="3"><engine type="PickPoint" block="true" color="#ff1d1d1d"><annotation type="GeomSquare" width="1" innerColor="#ffffff" color="#ff1d1d1d"/></engine><shortcut>3</shortcut></tool>,<tool type="typewriter" id="4"><engine type="PickPoint" block="true"><annotation type="Typewriter" font="DejaVu Sans\\,9\\,-1\\,0\\,75\\,0\\,0\\,0\\,0\\,0\\,Condensed Bold" width="0" textColor="#cc1c1c" color="#00ffffff"/></engine><shortcut>4</shortcut></tool>,<tool type="note-inline" id="5"><engine type="PickPoint" hoverIcon="tool-note-inline" color="#ffa9d6ff" block="true"><annotation type="FreeText" font="Noto Sans\\,9\\,-1\\,0\\,50\\,0\\,0\\,0\\,0\\,0\\,Regular" width="1" color="#ffa9d6ff"/></engine><shortcut>5</shortcut></tool>,<tool type="straight-line" id="6"><engine type="PolyLine" points="2" color="#ffffe000"><annotation type="Line" width="1" color="#ffffe000"/></engine><shortcut>6</shortcut></tool>,<tool type="underline" id="7"><engine type="TextSelector" color="#ff000000"><annotation type="Underline" color="#ff000000"/></engine><shortcut>7</shortcut></tool>
+
+[Search]
+SearchCaseSensitive=true
 
 [Zoom]
 ZoomMode=2

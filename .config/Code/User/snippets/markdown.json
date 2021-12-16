@@ -34,15 +34,6 @@
 		],
 		"description": "Insert questions"
 	},
-	"markdown_math": {
-		"prefix": [
-			"m"
-		],
-		"body": [
-			"$$TM_SELECTED_TEXT${1:}$ $0"
-		],
-		"description": "Insert math"
-	},
 	"markdown_arrow_right": {
 		"prefix": [
 			"ra"

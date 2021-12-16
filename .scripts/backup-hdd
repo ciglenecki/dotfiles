@@ -5,6 +5,7 @@ source /home/matej/.scripts/env
 
 SRC=$HOME/*; # files inside of home
 DEST="$DIR_HDD_EXT/.backup-CD/D/"
+EXCLUDE_LIST=$HOME/.assets/backup-ignore.txt
 LOG="$HOME/.log/"; mkdir -p $LOG;
 LOG="$LOG/backup-hdd.log"
 echo $(date +"$TIMEFL") >> $LOG;
@@ -12,33 +13,26 @@ echo $(date +"$TIMEFL") >> $LOG;
 notify-send "Starting backup!" "src\t$SRC\ndest\t$DEST";
 
 # What to back up ?
-DIR_NOTES=$(basename $DIR_NOTES);
-DIR_DOCUMENTS=$(basename $DIR_DOCUMENTS);
-DIR_FER=$(basename $DIR_FER);
-DIR_ARCHIVE=$(basename $DIR_ARCHIVE);
-DIR_BACKUP=$(basename $DIR_BACKUP);
-DIR_PICTURES=$(basename $DIR_PICTURES);
-DIR_DOWNLOADS=$(basename $DIR_DOWNLOADS);
+DIR_NOTES_BASE=$(basename $DIR_NOTES);
+DIR_DOCUMENTS_BASE=$(basename $DIR_DOCUMENTS);
+DIR_FER_BASE=$(basename $DIR_FER);
+DIR_ARCHIVE_BASE=$(basename $DIR_ARCHIVE);
+DIR_BACKUP_BASE=$(basename $DIR_BACKUP);
+DIR_PICTURES_BASE=$(basename $DIR_PICTURES);
+DIR_DOWNLOADS_BASE=$(basename $DIR_DOWNLOADS);
+
+# take into account .gitignore in each subdirectory. If gitignore exists dont copy file specified in that gitignore
+# --filter='dir-merge,- .gitignore'
 
 rsync --archive --verbose --update --times --recursive --progress --human-readable \
---exclude=".DS_Store" \
---exclude=".DS_Store?" \
---exclude="._*" \
---exclude=".Trashes" \
---exclude="ehthumbs.db" \
---exclude="Thumbs.db" \
---exclude="TEOINF/" \
---exclude="gitrepo/" \
---exclude="**/.git/" \
---exclude="venv/" \
---exclude="*__pycache__*" \
---include="$DIR_NOTES/***" \
---include="$DIR_DOCUMENTS/***" \
---include="$DIR_FER/***" \
---include="$DIR_PICTURES/***" \
---include="$DIR_DOWNLOADS/***" \
+--exclude-from $EXCLUDE_LIST \
+--include="$DIR_NOTES_BASE/***" \
+--include="$DIR_DOCUMENTS_BASE/***" \
+--include="$DIR_FER_BASE/***" \
+--include="$DIR_PICTURES_BASE/***" \
+--include="$DIR_DOWNLOADS_BASE/***" \
 --exclude="*" \
-$HOME/* $DEST &>> $LOG
+$HOME/* $DEST
 
 notify-send "Backup done!" "src\t$SRC\ndest\t$DEST\nlog file\t$LOG";
 

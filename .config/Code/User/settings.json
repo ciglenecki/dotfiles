@@ -33,7 +33,7 @@
 	"breadcrumbs.showTypeParameters": false,
 	"breadcrumbs.showVariables": false,
 	"breadcrumbs.showClasses": false,
-	"window.menuBarVisibility": "compact",
+	"window.menuBarVisibility": "toggle",
 	"editor.minimap.renderCharacters": false,
 	"editor.minimap.showSlider": "always",
 	"workbench.colorCustomizations": {
@@ -62,7 +62,7 @@
 	"editor.cursorWidth": 2,
 	"editor.cursorStyle": "block",
 	"[markdown]": {
-		"editor.quickSuggestions": true,
+		// "editor.quickSuggestions": true,
 		"editor.formatOnSave": false,
 		"files.trimTrailingWhitespace": false,
 		"editor.defaultFormatter": "yzhang.markdown-all-in-one",
@@ -157,10 +157,6 @@
 	},
 	"explorer.confirmDragAndDrop": false,
 	"workbench.colorTheme": "Quiet Light",
-	"[yaml]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-
 	"editor.insertSpaces": false,
 	"settingsSync.ignoredExtensions": [
 		"ctf0.laravel-goto-env"
@@ -168,7 +164,7 @@
 	"debug.onTaskErrors": "showErrors",
 	"python.formatting.blackArgs": [
 		"--line-length",
-		"80"
+		"300"
 	],
 	"workbench.editorAssociations": {
 		"*.mat": "default",
@@ -176,4 +172,13 @@
 	},
 	"editor.formatOnSave": true,
 	"python.formatting.provider": "black",
+	"jupyter.askForKernelRestart": false,
+	"workbench.editor.untitled.hint": "hidden",
+	"python.linting.pylintArgs": [
+		"--enable=W0611"
+	],
+	"workbench.activityBar.visible": false,
+	"editor.acceptSuggestionOnEnter": "off",
+	"editor.cursorSmoothCaretAnimation": true,
+	"editor.smoothScrolling": true
 }

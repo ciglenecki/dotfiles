@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xbel>
-<xbel xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:kdepriv="http://www.kde.org/kdepriv">
+<xbel xmlns:kdepriv="http://www.kde.org/kdepriv" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info">
  <info>
   <metadata owner="http://www.kde.org">
    <kde_places_version>4</kde_places_version>
@@ -498,4 +498,236 @@
   </info>
   <title>512,0 MiB Hard Drive</title>
  </separator>
+ <bookmark href="tags:/a%203">
+  <title>a 3</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="tag"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1638461391/11</ID>
+    <isSystemItem>true</isSystemItem>
+    <tag>a 3</tag>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="tags:/b%203">
+  <title>b 3</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="tag"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1638461391/12</ID>
+    <isSystemItem>true</isSystemItem>
+    <tag>b 3</tag>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="tags:/c%20test%201%20test%202">
+  <title>c test 1 test 2</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="tag"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1638461391/13</ID>
+    <isSystemItem>true</isSystemItem>
+    <tag>c test 1 test 2</tag>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="tags:/electrodes_ignored%20[]">
+  <title>electrodes_ignored []</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="tag"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1638461391/14</ID>
+    <isSystemItem>true</isSystemItem>
+    <tag>electrodes_ignored []</tag>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="tags:/epoch_elems%201000">
+  <title>epoch_elems 1000</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="tag"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1638461391/15</ID>
+    <isSystemItem>true</isSystemItem>
+    <tag>epoch_elems 1000</tag>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="tags:/sig_seconds%20300">
+  <title>sig_seconds 300</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="tag"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1638461391/16</ID>
+    <isSystemItem>true</isSystemItem>
+    <tag>sig_seconds 300</tag>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="tags:/user_count%2012">
+  <title>user_count 12</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="tag"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1638461391/17</ID>
+    <isSystemItem>true</isSystemItem>
+    <tag>user_count 12</tag>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="tags:/C%20100">
+  <title>C 100</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="tag"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1638889263/11</ID>
+    <isSystemItem>true</isSystemItem>
+    <tag>C 100</tag>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="tags:/alpha%200.0001">
+  <title>alpha 0.0001</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="tag"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1638889263/12</ID>
+    <isSystemItem>true</isSystemItem>
+    <tag>alpha 0.0001</tag>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="tags:/gamma%200.03125">
+  <title>gamma 0.03125</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="tag"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1638889263/13</ID>
+    <isSystemItem>true</isSystemItem>
+    <tag>gamma 0.03125</tag>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="tags:/learning_rate%20constant">
+  <title>learning_rate constant</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="tag"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1638889263/14</ID>
+    <isSystemItem>true</isSystemItem>
+    <tag>learning_rate constant</tag>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="tags:/max_features%2022">
+  <title>max_features 22</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="tag"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1638889263/15</ID>
+    <isSystemItem>true</isSystemItem>
+    <tag>max_features 22</tag>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="tags:/n_estimators%20500">
+  <title>n_estimators 500</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="tag"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1638889263/16</ID>
+    <isSystemItem>true</isSystemItem>
+    <tag>n_estimators 500</tag>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="tags:/weights%20distance">
+  <title>weights distance</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="tag"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1638889263/17</ID>
+    <isSystemItem>true</isSystemItem>
+    <tag>weights distance</tag>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="tags:/alpha%201e-05">
+  <title>alpha 1e-05</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="tag"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1638985778/23</ID>
+    <isSystemItem>true</isSystemItem>
+    <tag>alpha 1e-05</tag>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="tags:/alpha%200.001">
+  <title>alpha 0.001</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="tag"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1639071429/4</ID>
+    <isSystemItem>true</isSystemItem>
+    <tag>alpha 0.001</tag>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="tags:/learning_rate%20adaptive">
+  <title>learning_rate adaptive</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="tag"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1639071429/5</ID>
+    <isSystemItem>true</isSystemItem>
+    <tag>learning_rate adaptive</tag>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="kdeconnect://ff4badd4f3dc52e9/">
+  <title>SM-G780F</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="kdeconnect"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1639675241/4</ID>
+   </metadata>
+  </info>
+ </bookmark>
 </xbel>

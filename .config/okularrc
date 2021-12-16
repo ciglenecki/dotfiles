@@ -7,44 +7,48 @@ Window-Maximized 1080x1920=true
 
 [Desktop Entry]
 FullScreen=false
+shouldShowMenuBarComingFromFullScreen=true
+shouldShowToolBarComingFromFullScreen=true
+
+[FileDialogSize]
+Height 1080=745
+Width 1920=1397
 
 [KFileDialog Settings]
-Recent Files[$e]=SU1-2021-P02-OsnovniKoncepti.pdf,file:$HOME/2-fer/nasp/1-predavanja/2-b-stabla_rb-stabla.pdf,file:$HOME/2-fer/sap/0-lit/rj-probability-and-statistics_rjesenja.pdf,file:$HOME/2-fer/sap/0-lit/book-walpole-probability_and_statistics_for_engineers_and_scientists.pdf,file:$HOME/2-fer/struce/1-lectures/10-jezgrenemetode.pdf,file:$HOME/2-fer/struce/1-lectures/6-logistickaregresija.pdf,file:$HOME/2-fer/struce/4-vjezbe/13-procjenaparametara-vjezbe.pdf,file:$HOME/2-fer/struce/4-vjezbe/10-jezgrenemetode-vjezbe.pdf,file:$HOME/2-fer/struce/4-vjezbe/09-strojpotpornihvektora2-vjezbe.pdf,file:$HOME/2-fer/struce/4-vjezbe/08-strojpotpornihvektora-vjezbe.pdf,file:$HOME/2-fer/struce/4-vjezbe/06-logistickaregresija-vjezbe.pdf,file:$HOME/2-fer/struce/4-vjezbe/07-logistickaregresija2-vjezbe.pdf,file:$HOME/2-fer/struce/4-vjezbe/05-linearnidiskriminativnimodeli-vjezbe.pdf,file:$HOME/2-fer/struce/1-lectures/9-strojpotpornihvektora2.pdf,file:$HOME/2-fer/struce/1-lectures/8-strojpotpornihvektora.pdf
-Recent URLs[$e]=file:$HOME/2-fer/nasp/1-predavanja/
+Recent Files[$e]=SU1-2021-P02-OsnovniKoncepti.pdf,file:$HOME/2-fer/struce/1-lectures/15-bayesovklasifikator.pdf,file:$HOME/2-fer/sap/student-success-analysis/pdfs/opis_podataka.pdf,file:$HOME/2-fer/sap/student-success-analysis/pdfs/opis_teme.pdf,file:$HOME/Downloads/CamScanner 12-12-2021 19.29 (1).pdf,file:$HOME/2-fer/struce/1-lectures/skripta.pdf,file:$HOME/2-fer/struce/1-lectures/5-linearnidiskriminativnimodeli.pdf,file:$HOME/2-fer/struce/1-lectures/3-regresija.pdf,file:$HOME/2-fer/struce/1-lectures/2-osnovnikoncepti.pdf,file:$HOME/2-fer/nos/0-literature/5-ulazno-izlazne-skripta.pdf,file:$HOME/2-fer/tehpod/1-lec/3_analiza_poslovne_prilike.pdf,file:$HOME/2-fer/tehpod/1-lec/2_novo_poduzece.pdf,file:$HOME/2-fer/tehpod/1-lec/1_poduzetnistvo.pdf,file:$HOME/2-fer/nasp/1-predavanja/7-kompresijski_algoritmi.pdf,file:$HOME/2-fer/nasp/1-predavanja/5-linearno_programiranje.pdf,file:$HOME/2-fer/nasp/1-predavanja/4-geometrijski_algoritmi.pdf
+Recent URLs[$e]=file:$HOME/2-fer/struce/1-lectures/
 detailViewIconSize=0
 
 [MainWindow]
 Height 1080=1056
 Height 1920=1888
 Height 720=1058
-State=AAAA/wAAAAD9AAAAAAAAAvQAAAPcAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABAQAAAPcAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1080=295
 Width 1280=1920
-Width 1920=756
+Width 1920=1028
 Window-Maximized 1920x1080=true
 
 [Notification Messages]
 ShowTabWarning=true
 
 [Recent Files]
-File1[$e]=$HOME/2-fer/struce/5-natuktnice/SU1-2021-N09-StrojPotpornihVektora2.pdf
-File10[$e]=$HOME/2-fer/uuzop/eeg-driver-fatigue-detection/_papers-ignoreme/bi_driver_fatigue_thomaswengerter.pdf
-File2[$e]=$HOME/2-fer/struce/5-natuktnice/SU1-2021-N02-OsnovniKoncepti.pdf
-File3[$e]=$HOME/2-fer/struce/5-natuktnice/SU1-2021-N10-JezgreneMetode.pdf
-File4[$e]=$HOME/2-fer/nasp/ispiti/ZR_-_12._2._2018._-_HR.pdf
-File5[$e]=$HOME/2-fer/nasp/ispiti/ZR_-_10.2.2020_-_HR.pdf
-File6[$e]=$HOME/2-fer/nasp/ispiti/M_-_20.11.2017._-_HR.pdf
-File7[$e]=$HOME/2-fer/nasp/ispiti/M_-_18.11.2019._-_HR.pdf
-File8[$e]=$HOME/2-fer/nasp/1-predavanja/3-strukture-algoritmi-znakovni_nizovi.pdf
-File9[$e]=$HOME/2-fer/nasp/1-predavanja/1-uravnotezena_stabla.pdf
-Name1[$e]=SU1-2021-N09-StrojPotpornihVektora2.pdf
-Name10[$e]=bi_driver_fatigue_thomaswengerter.pdf
-Name2[$e]=SU1-2021-N02-OsnovniKoncepti.pdf
-Name3[$e]=SU1-2021-N10-JezgreneMetode.pdf
-Name4[$e]=ZR_-_12._2._2018._-_HR.pdf
-Name5[$e]=ZR_-_10.2.2020_-_HR.pdf
-Name6[$e]=M_-_20.11.2017._-_HR.pdf
-Name7[$e]=M_-_18.11.2019._-_HR.pdf
-Name8[$e]=3-strukture-algoritmi-znakovni_nizovi.pdf
-Name9[$e]=1-uravnotezena_stabla.pdf
+File1[$e]=$HOME/Downloads/CamScanner 12-12-2021 19.29.pdf
+File2[$e]=$HOME/Downloads/CamScanner 12-12-2021 19.29 (1).pdf
+File3[$e]=$HOME/2-fer/nos/0-literature/5-ulazno-izlazne-skripta.pdf
+File4[$e]=$HOME/2-fer/struce/1-lectures/14-procjenaparametara2.pdf
+File5[$e]=$HOME/2-fer/struce/1-lectures/15-bayesovklasifikator.pdf
+File6[$e]=$HOME/2-fer/struce/1-lectures/16-bayesovklasifikator2.pdf
+File7[$e]=$HOME/2-fer/nasp/1-predavanja/advanced_algorithms_and_data_structures.pdf
+File8[$e]=$HOME/2-fer/sap/student-success-analysis/cheatsheets/r-data-transformation.pdf
+File9[$e]=$HOME/2-fer/uuzop/eeg-driver-fatigue-detection/paper-driver_fatigue_detection_through_multiple_entropy_fusion_analysis_in_an_eeg-based_system.pdf
+Name1[$e]=CamScanner 12-12-2021 19.29.pdf
+Name2[$e]=CamScanner 12-12-2021 19.29 (1).pdf
+Name3[$e]=5-ulazno-izlazne-skripta.pdf
+Name4[$e]=14-procjenaparametara2.pdf
+Name5[$e]=15-bayesovklasifikator.pdf
+Name6[$e]=16-bayesovklasifikator2.pdf
+Name7[$e]=advanced_algorithms_and_data_structures.pdf
+Name8[$e]=r-data-transformation.pdf
+Name9[$e]=paper-driver_fatigue_detection_through_multiple_entropy_fusion_analysis_in_an_eeg-based_system.pdf

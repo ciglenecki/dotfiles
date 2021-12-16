@@ -118,4 +118,8 @@ if [ -f "$HOME/.bash-git-prompt/gitprompt.sh" ]; then
     source $HOME/.bash-git-prompt/gitprompt.sh
 fi
 
-source ~/.local/share/icons-in-terminal/icons_bash.sh
+# Avoid duplicates
+HISTCONTROL=ignoredups:erasedups
+
+# After each command, append to the history file and reread it
+PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
