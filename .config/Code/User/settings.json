@@ -33,7 +33,6 @@
 	"breadcrumbs.showTypeParameters": false,
 	"breadcrumbs.showVariables": false,
 	"breadcrumbs.showClasses": false,
-	"window.menuBarVisibility": "toggle",
 	"editor.minimap.renderCharacters": false,
 	"editor.minimap.showSlider": "always",
 	"workbench.colorCustomizations": {
@@ -177,7 +176,6 @@
 	"python.linting.pylintArgs": [
 		"--enable=W0611"
 	],
-	"workbench.activityBar.visible": false,
 	"editor.acceptSuggestionOnEnter": "off",
 	"editor.cursorSmoothCaretAnimation": true,
 	"editor.smoothScrolling": true
