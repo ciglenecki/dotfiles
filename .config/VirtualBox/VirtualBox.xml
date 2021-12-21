@@ -11,17 +11,18 @@
       <ExtraDataItem name="GUI/ActivateHoveredMachineWindow" value="true"/>
       <ExtraDataItem name="GUI/Details/Elements" value="general,system,preview,display,storage,audio,network,usb,sharedFolders,description"/>
       <ExtraDataItem name="GUI/GroupDefinitions/" value="n=GLOBAL,m=a475bef6-f207-46a7-bf25-6b1c2d75224b"/>
-      <ExtraDataItem name="GUI/Input/AutoCapture" value="false"/>
+      <ExtraDataItem name="GUI/Input/AutoCapture" value="true"/>
       <ExtraDataItem name="GUI/LastItemSelected" value="m=ubuntu-64"/>
-      <ExtraDataItem name="GUI/LastWindowPosition" value="820,377,1099,348"/>
+      <ExtraDataItem name="GUI/LastWindowPosition" value="0,24,807,1056"/>
       <ExtraDataItem name="GUI/RecentFolderCD" value="/home/matej/Downloads"/>
       <ExtraDataItem name="GUI/RecentListCD" value="/home/matej/Downloads/ubuntu-20.04.3-desktop-amd64.iso"/>
-      <ExtraDataItem name="GUI/SplitterSizes" value="415,683"/>
+      <ExtraDataItem name="GUI/SplitterSizes" value="269,537"/>
       <ExtraDataItem name="GUI/SuppressMessages" value="confirmInputCapture"/>
       <ExtraDataItem name="GUI/Toolbar" value="false"/>
       <ExtraDataItem name="GUI/Tools/LastItemsSelected" value="Welcome,Details"/>
-      <ExtraDataItem name="GUI/UpdateCheckCount" value="3"/>
-      <ExtraDataItem name="GUI/UpdateDate" value="1 d, 2021-12-20, stable, 6.1.30"/>
+      <ExtraDataItem name="GUI/UpdateCheckCount" value="5"/>
+      <ExtraDataItem name="GUI/UpdateDate" value="1 d, 2021-12-22, stable, 6.1.30"/>
+      <ExtraDataItem name="GUI/VirtualMediaManager/Details/Expanded" value="true"/>
     </ExtraData>
     <MachineRegistry>
       <MachineEntry uuid="{a475bef6-f207-46a7-bf25-6b1c2d75224b}" src="/home/matej/VirtualBox VMs/ubuntu-64/ubuntu-64.vbox"/>

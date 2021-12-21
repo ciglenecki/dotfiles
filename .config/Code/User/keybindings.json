@@ -116,5 +116,9 @@
     {
         "key": "alt+]",
         "command": "workbench.action.splitEditorRight"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "-editor.action.toggleTabFocusMode"
     }
 ]
