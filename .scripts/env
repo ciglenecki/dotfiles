@@ -48,6 +48,7 @@ export TODO_FER="https://todoist.com/app#project%2F2207071836"
 export TODO_DO="https://todoist.com/app#project%2F1808310462"
 export TODO_PROJECTS="https://todoist.com/app#project%2F2221923577%2Ffull"
 export STUDY_SHEET="https://docs.google.com/spreadsheets/d/11UlxBM-DTHeX6rWfuDKuoaKp-lOP1sK10xJGQKnsqMU"
+export URL_WHATSAPP="https://web.whatsapp.com/"
 
 
 # paths

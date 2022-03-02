@@ -37,7 +37,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][28][Configuration]
-PreloadWeight=46
+PreloadWeight=92
 
 [Containments][2][Applets][28][Configuration][Appearance]
 boldText=true
@@ -57,7 +57,7 @@ PreloadWeight=0
 
 [Containments][2][Applets][29][Configuration][General]
 expanding=false
-length=362
+length=428
 
 [Containments][2][Applets][3]
 immutability=1
@@ -89,48 +89,37 @@ PreloadWeight=0
 [Containments][2][Applets][30][Configuration][General]
 length=786
 
-[Containments][2][Applets][35]
+[Containments][2][Applets][36]
+immutability=1
+plugin=org.kde.plasma.taskmanager
+
+[Containments][2][Applets][36][Configuration]
+PreloadWeight=0
+
+[Containments][2][Applets][36][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][2][Applets][36][Configuration][General]
+showOnlyCurrentScreen=true
+
+[Containments][2][Applets][37]
 immutability=1
 plugin=org.kde.plasma.virtualdesktopbar
 
-[Containments][2][Applets][35][Configuration]
+[Containments][2][Applets][37][Configuration]
 PreloadWeight=0
 
-[Containments][2][Applets][35][Configuration][ConfigDialog]
+[Containments][2][Applets][37][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
-[Containments][2][Applets][35][Configuration][Preferences]
+[Containments][2][Applets][37][Configuration][Preferences]
 AddDesktopButtonShow=false
-DesktopButtonsHorizontalMargin=14
-DesktopButtonsSpacing=1
-DesktopButtonsVerticalMargin=4
-DesktopIndicatorsCustomColorForCurrentDesktop=#0990e9
-DesktopIndicatorsCustomColorForDesktopsNeedingAttention=#9e9e9e
-DesktopIndicatorsCustomColorForIdleDesktops=#9e9e9e
-DesktopIndicatorsCustomColorForOccupiedIdleDesktops=#9e9e9e
-DesktopIndicatorsDoNotOverrideOpacityOfCustomColors=true
+DesktopIndicatorsCustomColorForCurrentDesktop=#30b7ff
+DesktopIndicatorsDistinctForOccupiedIdleDesktops=false
 DesktopIndicatorsStyle=2
-DesktopIndicatorsStyleBlockRadius=0
-DesktopLabelsBoldFontForCurrentDesktop=true
-DesktopLabelsCustomFontSize=16
-
-[Containments][2][Applets][5]
-immutability=1
-plugin=org.kde.plasma.icontasks
-
-[Containments][2][Applets][5][Configuration]
-PreloadWeight=0
-
-[Containments][2][Applets][5][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][2][Applets][5][Configuration][General]
-groupingStrategy=0
-launchers=
-middleClickAction=Close
-showOnlyCurrentScreen=true
+MouseWheelRemoveDesktopOnClick=false
 
 [Containments][2][Applets][6]
 immutability=1
@@ -144,7 +133,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][7][Configuration]
-PreloadWeight=78
+PreloadWeight=92
 SystrayContainmentId=8
 
 [Containments][2][ConfigDialog]
@@ -155,7 +144,7 @@ DialogWidth=1920
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=3;5;30;28;29;35;7
+AppletOrder=3;36;30;28;29;37;7
 
 [Containments][31]
 ItemGeometriesHorizontal=
@@ -247,7 +236,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][8][Applets][17][Configuration]
-PreloadWeight=0
+PreloadWeight=32
 
 [Containments][8][Applets][22]
 immutability=1
@@ -261,7 +250,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][23][Configuration]
-PreloadWeight=0
+PreloadWeight=92
 
 [Containments][8][Applets][24][Configuration]
 PreloadWeight=42
@@ -274,7 +263,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][8][Applets][31][Configuration]
-PreloadWeight=18
+PreloadWeight=29
 
 [Containments][8][Applets][31][Configuration][ConfigDialog]
 DialogHeight=540

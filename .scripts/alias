@@ -171,4 +171,5 @@ function renameall() {
     rename "s/,//g" *
     rename "s/-+/-/g" *
     rename "s/_+/_/g" *
+    rename "s/_-_/-/g" *
 }

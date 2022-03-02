@@ -2,6 +2,7 @@
 update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage
 
 [Compositing]
+Enabled=false
 GLCore=true
 GLPreferBufferSwap=e
 GLTextureFilter=0
@@ -9,12 +10,12 @@ LatencyPolicy=ExtremelyHigh
 OpenGLIsUnsafe=false
 
 [Desktops]
-Id_1=a496ef28-8fe8-43e5-83f6-b5ce1a93e687
-Id_2=c141142a-5176-45fe-9b5d-5e9b89115fac
-Id_3=48ced5dd-6b92-40fd-98c0-c85584c25233
-Id_4=770df387-17fc-4922-8d25-5f2f7de2cedb
+Id_1=c141142a-5176-45fe-9b5d-5e9b89115fac
+Id_2=770df387-17fc-4922-8d25-5f2f7de2cedb
+Id_3=1fbdf8ac-bbf1-498b-b4a6-27324861d580
+Id_4=c7eebf19-cff0-4d68-83d3-1acd2754cdc5
 Name_1=1-main
-Name_2=2-resources
+Name_2=2-resource
 Name_3=3-gtd
 Name_4=4-media
 Number=4
@@ -47,7 +48,7 @@ CommandWindowWheel=Scroll
 [NightColor]
 Active=true
 Mode=Constant
-NightTemperature=2600
+NightTemperature=2300
 
 [Plugins]
 bismuthEnabled=false
@@ -82,10 +83,10 @@ enableSpiralLayout=false
 enableSpreadLayout=false
 enableStairLayout=false
 enableThreeColumnLayout=false
+keepFloatAbove=false
 maximizeSoleTile=true
 monocleMaximize=false
 noTileBorder=true
-preventProtrusion=false
 tileLayoutGap=5
 
 [TabBox]

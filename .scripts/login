@@ -6,7 +6,7 @@ yakuake &
 #$BROWSERUSER $BROWSERASAPP$TODO_TODAY &
 #$BROWSERUSER $BROWSERASAPP$POMODORO &
 # barrier &
-trickle -s -u 70 -d 300 insync start &
+trickle -s -u 6250 -d 6250 insync start &
 thunderbird &
 # qbittorrent &
 syncthing -no-browser &

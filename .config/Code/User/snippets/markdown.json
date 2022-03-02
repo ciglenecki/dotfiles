@@ -30,7 +30,7 @@
 			"q?"
 		],
 		"body": [
-			"<details><summary>\n$TM_SELECTED_TEXT${1:}\n</summary>\n\n${2:}\n</details>\n$0"
+			"<details open><summary>\n$TM_SELECTED_TEXT${1:}\n</summary>\n\n${2:}\n</details>\n$0"
 		],
 		"description": "Insert questions"
 	},

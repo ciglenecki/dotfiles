@@ -3,10 +3,10 @@ alt + o; {b,B};
 	{wmctrl -xa $BROWSER, $BROWSERUSER}
 alt + o; {m, M};
 	{wmctrl -xa $BROWSER, $BROWSERWORK}
-alt + o; {s,S};
-	{wmctrl -xa spotify, $SPOTIFY_RAND_PREFIX$(python3 /home/matej/projects/spotify-random-saved-album/spotify-random-album.py)}
+alt + o; {s, S};
+	{wmctrl -xa spotify;,${BROWSERMUSIC} --new-window ${BROWSERASAPP}$(python3 /home/matej/projects/spotify-random-saved-album/spotify-random-album.py)
 alt + o; {a,A};
-	{wmctrl -xa spotify, $ASOFTMURMUR}
+	{wmctrl -xa asoft, $ASOFTMURMUR}
 alt + o; {k,K};
     {wmctrl -xa keepassxc, keepassxc}
 alt + o; {p,P};
@@ -15,12 +15,14 @@ alt + o; {c,C};
     {wmctrl -xa calendar, $CAL &}
 alt + o; {t,T};
     {wmctrl -xa todoist,$BROWSERUSER $BROWSERASAPP$TODO_TODAY &}
+alt + o; {w,W};
+    wmctrl -xa whatsapp || $BROWSERUSER $BROWSERASAPP$URL_WHATSAPP &
 alt + o; {z,Z};
     {wmctrl -xa code, code ~/tmp/tmp.md}
 alt + o; {x,X};
     {wmctrl -xa code, code $DIR_NOTES}
 alt + o; {e,E};
-    {wmctrl -xa thunderbird, thunderbird}
+    wmctrl -xa thunderbird || thunderbird
 
 shift + {Pause,KP_Subtract}
     qdbus org.kde.kglobalaccel /component/kmix org.kde.kglobalaccel.Component.invokeShortcut 'decrease_volume'

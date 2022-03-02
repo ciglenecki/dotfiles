@@ -36,7 +36,6 @@
 	"editor.minimap.renderCharacters": false,
 	"editor.minimap.showSlider": "always",
 	"workbench.colorCustomizations": {
-		// Bracket Pair Colorizer overrides.
 		"colorizer.color-1": "#ff9900",
 		"colorizer.color-2": "#f500f5",
 		"colorizer.color-3": "#54b9f8"
@@ -176,6 +175,7 @@
 	"editor.smoothScrolling": true,
 	"C_Cpp.updateChannel": "Insiders",
 	"editor.cursorSmoothCaretAnimation": true,
-	"workbench.activityBar.visible": false,
 	"python.experiments.enabled": false,
+	"http.systemCertificates": false,
+	"python.analysis.typeCheckingMode": "basic",
 }
