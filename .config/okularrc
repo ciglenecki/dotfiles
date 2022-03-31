@@ -15,42 +15,42 @@ Height 1080=745
 Width 1920=1397
 
 [KFileDialog Settings]
-Recent Files[$e]=SU1-2021-P02-OsnovniKoncepti.pdf,file:$HOME/Downloads/Richard Arnold Johnson\\, Dean W. Wichern - Applied multivariate statistical analysis\\, 6th Edition  -Pearson Prentice Hall (2007).pdf,file:$HOME/Downloads/Luciano Ramalho - Fluent Python_ Clear\\, Concise\\, and Effective Programming-O’Reilly Media (2015).pdf,file:$HOME/2-fer/sap/student-success-analysis/pdfs/opis_teme.pdf,file:$HOME/2-fer/sap/student-success-analysis/pdfs/upute_za_projekt_2021.pdf
-Recent URLs[$e]=file:$HOME/Downloads/
+Recent Files[$e]=SU1-2021-P02-OsnovniKoncepti.pdf,file:$HOME/2-fer/map/3-labs/1-lab/cor_matrix_continuous.pdf,file:$HOME/2-fer/map/3-labs/1-lab/cor_matrix_ir.pdf,file:$HOME/2-fer/parpro/0-lit/skripta-parpro.pdf,file:$HOME/2-fer/map/0-lit/applied-multivariate-statistical-analysis-pearson-6th-2014.pdf,file:$HOME/2-fer/map/0-lit/using-multivariate-statistics-barbara-g.-tabachnick-linda-s.-fidell-2012.pdf,file:$HOME/2-fer/sap/student-success-analysis/pdfs/opis_teme.pdf,file:$HOME/2-fer/sap/student-success-analysis/pdfs/upute_za_projekt_2021.pdf
+Recent URLs[$e]=file:$HOME/2-fer/map/3-labs/1-lab/
 detailViewIconSize=0
 
 [MainWindow]
 Height 1080=1056
 Height 1920=1888
 Height 720=1058
-State=AAAA/wAAAAD9AAAAAAAAAjQAAAPcAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABMQAAAPcAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1080=295
 Width 1280=1920
-Width 1920=564
+Width 1920=1220
 Window-Maximized 1920x1080=true
 
 [Notification Messages]
 ShowTabWarning=true
 
+[Print Preview]
+Height 1080=889
+Width 1920=840
+
 [Recent Files]
-File1[$e]=$HOME/1-documents/work/cv_matej_ciglenecki2.pdf
-File10[$e]=$HOME/2-fer/map/0-lit/book-applied-multivariate-statistical-analysis-pearson-2014.pdf
-File2[$e]=$HOME/Downloads/1810.03077.pdf
-File3[$e]=$HOME/1-documents/work/cv_matej_ciglenecki.pdf
-File4[$e]=$HOME/2-fer/sap/student-success-analysis/report.pdf
-File5[$e]=$HOME/2-fer/sap/student-success-analysis/pdfs/upute_za_projekt_2021.pdf
-File6[$e]=$HOME/2-fer/sap/student-success-analysis/pdfs/opis_teme.pdf
-File7[$e]=https://bookdown.org/yihui/rmarkdown/learnr-start.html
-File8[$e]=$HOME/1-documents/receipts/a1_Jedinstvena izjava (gosp. Darko Ciglenečki).pdf
-File9[$e]=$HOME/1-documents/receipts/namecheap-order-81983929.pdf
-Name1[$e]=cv_matej_ciglenecki2.pdf
-Name10[$e]=book-applied-multivariate-statistical-analysis-pearson-2014.pdf
-Name2[$e]=1810.03077.pdf
-Name3[$e]=cv_matej_ciglenecki.pdf
-Name4[$e]=report.pdf
-Name5[$e]=upute_za_projekt_2021.pdf
-Name6[$e]=opis_teme.pdf
-Name7[$e]=learnr-start.html
-Name8[$e]=a1_Jedinstvena izjava (gosp. Darko Ciglenečki).pdf
-Name9[$e]=namecheap-order-81983929.pdf
+File1[$e]=$HOME/Downloads/aibg/ana_bagic_potvrda_o_upisu_29957.pdf
+File2[$e]=$HOME/projects/aibg-2022/AIBG-6.0-manual.pdf
+File3[$e]=$HOME/2-fer/parpro/0-lit/skripta-parpro.pdf
+File4[$e]=$HOME/projects/matejciglenecki.github.io/cv_matej_ciglenecki.pdf
+File5[$e]=$HOME/2-fer/map/3-labs/1-lab/lab_1.pdf
+File6[$e]=$HOME/projects/lumen-geoguesser/references/deepgeo_photo_localization_with_deep_neural_network.pdf
+File7[$e]=$HOME/1-documents/work/cv_matej_ciglenecki.pdf
+File8[$e]=$HOME/2-fer/map/3-labs/1-lab/pdfs/zi.pdf
+Name1[$e]=ana_bagic_potvrda_o_upisu_29957.pdf
+Name2[$e]=AIBG-6.0-manual.pdf
+Name3[$e]=skripta-parpro.pdf
+Name4[$e]=cv_matej_ciglenecki.pdf
+Name5[$e]=lab_1.pdf
+Name6[$e]=deepgeo_photo_localization_with_deep_neural_network.pdf
+Name7[$e]=cv_matej_ciglenecki.pdf
+Name8[$e]=zi.pdf

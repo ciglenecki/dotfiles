@@ -14,11 +14,13 @@ Id_1=c141142a-5176-45fe-9b5d-5e9b89115fac
 Id_2=770df387-17fc-4922-8d25-5f2f7de2cedb
 Id_3=1fbdf8ac-bbf1-498b-b4a6-27324861d580
 Id_4=c7eebf19-cff0-4d68-83d3-1acd2754cdc5
+Id_5=95c62399-5a80-4dd6-bda2-798674f41956
 Name_1=1-main
 Name_2=2-resource
-Name_3=3-gtd
-Name_4=4-media
-Number=4
+Name_3=3-second
+Name_4=4-gtd
+Name_5=5-media
+Number=5
 Rows=1
 
 [Effect-DimInactive]
@@ -48,7 +50,7 @@ CommandWindowWheel=Scroll
 [NightColor]
 Active=true
 Mode=Constant
-NightTemperature=2300
+NightTemperature=2200
 
 [Plugins]
 bismuthEnabled=false

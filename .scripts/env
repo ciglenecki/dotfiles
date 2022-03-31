@@ -70,3 +70,5 @@ export TIMEFS="%F"
 export TIMEFL="%F-%H-%M-%S"
 export DATENOW='date +"$TIMEFL"'
 export SOUND_LEVEL=10
+
+export PATH="$PATH:/opt/mssql-tools/bin"

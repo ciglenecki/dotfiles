@@ -79,10 +79,27 @@
 		"hr_HR"
 	],
 	"cSpell.userWords": [
-		"funckija"
+		"Allreduce",
+		"Blokirajuće",
+		"Brentovo",
+		"Defaultni",
+		"downsweap",
+		"ERCW",
+		"funckija",
+		"Krupnozrnatost",
+		"međuvrijednosti",
+		"Neblokirajući",
+		"nelokalnog",
+		"paralelizirati",
+		"podniz",
+		"podnizove",
+		"prescan",
+		"prescana",
+		"psuma",
+		"settamo",
+		"sweap"
 	],
 	"editor.multiCursorMergeOverlapping": false,
-	"markdown.extension.list.indentationSize": "inherit",
 	"workbench.startupEditor": "newUntitledFile",
 	"typescript.tsserver.trace": "verbose",
 	"window.title": "${folderPath} ${activeEditorLong} ",
@@ -121,11 +138,10 @@
 		"./.vscode/style.css"
 	],
 	"spellright.documentTypes": [
-		"markdown",
 		"latex",
-		"plaintext"
+		"plaintext",
+		"markdown"
 	],
-	"markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
 	"markdown-preview-enhanced.codeBlockTheme": "github.css",
 	"files.associations": {
 		"*.txt": "plaintext"
@@ -173,9 +189,22 @@
 	"workbench.editor.untitled.hint": "hidden",
 	"editor.acceptSuggestionOnEnter": "off",
 	"editor.smoothScrolling": true,
-	"C_Cpp.updateChannel": "Insiders",
 	"editor.cursorSmoothCaretAnimation": true,
 	"python.experiments.enabled": false,
 	"http.systemCertificates": false,
 	"python.analysis.typeCheckingMode": "basic",
+	"markdownlint.config": {
+		"MD040": false, // fenced code block allow no language spec
+		"MD033": false, // allow inline html
+		"MD045": false, // no image text
+		"MD025": true,
+		"MD010": false,
+	},
+	"cSpell.enableFiletypes": [
+		"markdown"
+	],
+	"cSpell.language": "en,hr-HR,hr",
+	"cSpell.diagnosticLevel": "Warning",
+	"cSpell.enabled": false,
+	"markdown-preview-enhanced.previewTheme": "github-light.css"
 }

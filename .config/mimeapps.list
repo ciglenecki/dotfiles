@@ -1,7 +1,11 @@
 [Added Associations]
 application/vnd.debian.binary-package=qapt-deb-installer.desktop;org.kde.discover.desktop;org.kde.ark.desktop;
+application/x-desktop=org.kde.kate.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;calibre-ebook-viewer.desktop;vim.desktop;calibre-gui.desktop;
 application/x-ipynb+json=code.desktop;jupyter-notebook.desktop;org.kde.kate.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;rstudio.desktop;vim.desktop;calibre-ebook-viewer.desktop;calibre-gui.desktop;
 application/x-matroska=vlc.desktop;mpv.desktop;
+application/xhtml+xml=brave-browser.desktop;calibre-ebook-edit.desktop;code.desktop;org.kde.kate.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;calibre-ebook-viewer.desktop;vim.desktop;calibre-gui.desktop;firefox.desktop;
+image/png=geeqie.desktop;org.kde.gwenview.desktop;display-im6.q16.desktop;firefox.desktop;okularApplication_kimgio.desktop;shutter.desktop;brave-browser.desktop;gimp.desktop;
+inode/directory=org.kde.dolphin.desktop;
 text/html=firefox.desktop;calibre-ebook-edit.desktop;org.kde.kate.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;calibre-gui.desktop;calibre-ebook-viewer.desktop;vim.desktop;
 text/json=code.desktop;
 text/markdown=code.desktop;okularApplication_md.desktop;rstudio.desktop;org.kde.kate.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;vim.desktop;calibre-gui.desktop;calibre-ebook-viewer.desktop;
@@ -14,8 +18,12 @@ video/x-msvideo=vlc.desktop;subdownloader.desktop;mpv.desktop;
 
 [Default Applications]
 application/vnd.debian.binary-package=qapt-deb-installer.desktop;
+application/x-desktop=org.kde.kate.desktop;
 application/x-ipynb+json=code.desktop;
 application/x-matroska=vlc.desktop;
+application/xhtml+xml=brave-browser.desktop;
+image/png=geeqie.desktop;
+inode/directory=org.kde.dolphin.desktop;
 text/html=brave-browser.desktop
 text/json=code.desktop;
 text/markdown=code.desktop;
@@ -25,4 +33,9 @@ text/x-tex=code.desktop;
 video/ogg=vlc.desktop;
 video/x-matroska=vlc.desktop;
 video/x-msvideo=vlc.desktop;
+x-scheme-handler/http=brave-browser.desktop;
+x-scheme-handler/https=brave-browser.desktop;
 x-scheme-handler/msteams=teams.desktop
+
+[Removed Associations]
+application/x-desktop=brave-browser.desktop;code.desktop;
