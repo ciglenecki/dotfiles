@@ -206,5 +206,6 @@
 	"cSpell.language": "en,hr-HR,hr",
 	"cSpell.diagnosticLevel": "Warning",
 	"cSpell.enabled": false,
-	"markdown-preview-enhanced.previewTheme": "github-light.css"
+	"markdown-preview-enhanced.previewTheme": "github-light.css",
+	"window.zoomLevel": 1
 }

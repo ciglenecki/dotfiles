@@ -7,18 +7,17 @@ ShowOSD=false
 ttsEngine=flite
 
 [Main View]
-SplitterSizes=130,1140
+SplitterSizes=159,863
 
 [Nav Panel]
 SidebarIconSize=22
 SidebarShowText=false
 
 [PageView]
-MouseMode=TextSelect
 TrimMargins=true
 
 [Reviews]
-AnnotationTools=<tool type="highlight" id="1"><engine type="TextSelector" color="#ffffff00"><annotation type="Highlight" color="#ffffff00"/></engine><shortcut>1</shortcut></tool>,<tool type="rectangle" id="2"><engine type="PickPoint" block="true" color="#ffffff00"><annotation opacity="0.5" type="GeomSquare" width="6" color="#ffffff00"/></engine><shortcut>2</shortcut></tool>,<tool type="rectangle" id="3"><engine type="PickPoint" block="true" color="#ff1d1d1d"><annotation type="GeomSquare" width="1" innerColor="#ffffff" color="#ff1d1d1d"/></engine><shortcut>3</shortcut></tool>,<tool type="typewriter" id="4"><engine type="PickPoint" block="true"><annotation type="Typewriter" font="DejaVu Sans\\,9\\,-1\\,0\\,75\\,0\\,0\\,0\\,0\\,0\\,Condensed Bold" width="0" textColor="#cc1c1c" color="#00ffffff"/></engine><shortcut>4</shortcut></tool>,<tool type="note-inline" id="5"><engine type="PickPoint" hoverIcon="tool-note-inline" color="#ffa9d6ff" block="true"><annotation type="FreeText" font="Noto Sans\\,9\\,-1\\,0\\,50\\,0\\,0\\,0\\,0\\,0\\,Regular" width="1" color="#ffa9d6ff"/></engine><shortcut>5</shortcut></tool>,<tool type="straight-line" id="6"><engine type="PolyLine" points="2" color="#ffffe000"><annotation type="Line" width="1" color="#ffffe000"/></engine><shortcut>6</shortcut></tool>,<tool type="underline" id="7"><engine type="TextSelector" color="#ff000000"><annotation type="Underline" color="#ff000000"/></engine><shortcut>7</shortcut></tool>
+AnnotationTools=<tool id="1" type="highlight"><engine color="#ffffff00" type="TextSelector"><annotation color="#ffffff00" type="Highlight" opacity="0.75"/></engine><shortcut>1</shortcut></tool>,<tool id="2" type="rectangle"><engine color="#ffffff00" block="true" type="PickPoint"><annotation color="#ffffff00" type="GeomSquare" opacity="0.5" width="6"/></engine><shortcut>2</shortcut></tool>,<tool id="3" type="rectangle"><engine color="#ff1d1d1d" block="true" type="PickPoint"><annotation color="#ff1d1d1d" innerColor="#ffffff" type="GeomSquare" width="1"/></engine><shortcut>3</shortcut></tool>,<tool id="4" type="typewriter"><engine block="true" type="PickPoint"><annotation color="#00ffffff" font="DejaVu Sans\\,9\\,-1\\,0\\,75\\,0\\,0\\,0\\,0\\,0\\,Condensed Bold" type="Typewriter" width="0" textColor="#cc1c1c"/></engine><shortcut>4</shortcut></tool>,<tool id="5" type="note-inline"><engine color="#ffa9d6ff" block="true" hoverIcon="tool-note-inline" type="PickPoint"><annotation color="#ffa9d6ff" font="Noto Sans\\,9\\,-1\\,0\\,50\\,0\\,0\\,0\\,0\\,0\\,Regular" type="FreeText" width="1"/></engine><shortcut>5</shortcut></tool>,<tool id="6" type="straight-line"><engine color="#ffffe000" points="2" type="PolyLine"><annotation color="#ffffe000" type="Line" width="1"/></engine><shortcut>6</shortcut></tool>,<tool id="7" type="underline"><engine color="#ff000000" type="TextSelector"><annotation color="#ff000000" type="Underline"/></engine><shortcut>7</shortcut></tool>,<tool id="8" name="highligher red" type="highlight"><engine color="#ffff7474" type="TextSelector"><annotation color="#ffff7474" type="Highlight" opacity="0.75"/></engine><shortcut>8</shortcut></tool>
 
 [Zoom]
 ZoomMode=2

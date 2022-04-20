@@ -37,7 +37,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][28][Configuration]
-PreloadWeight=35
+PreloadWeight=55
 
 [Containments][2][Applets][28][Configuration][Appearance]
 boldText=true
@@ -64,7 +64,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
-PreloadWeight=92
+PreloadWeight=89
 
 [Containments][2][Applets][3][Configuration][Configuration/General]
 showAppsByName=true
@@ -158,7 +158,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][7][Configuration]
-PreloadWeight=47
+PreloadWeight=15
 SystrayContainmentId=8
 
 [Containments][2][ConfigDialog]
@@ -192,6 +192,7 @@ PreloadWeight=0
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=739
 ToolBoxButtonY=24
+sortMode=-1
 
 [Containments][31][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/wallpapers/Milky_Way/contents/images/5120x2880.png
@@ -275,7 +276,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][23][Configuration]
-PreloadWeight=35
+PreloadWeight=3
 
 [Containments][8][Applets][24][Configuration]
 PreloadWeight=42

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xbel>
-<xbel xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:kdepriv="http://www.kde.org/kdepriv" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks">
+<xbel xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:kdepriv="http://www.kde.org/kdepriv">
  <info>
   <metadata owner="http://www.kde.org">
    <kde_places_version>4</kde_places_version>
@@ -28,6 +28,17 @@
    </metadata>
   </info>
  </bookmark>
+ <bookmark href="sftp://fwolf@karla.zesoi.fer.hr/home/fwolf">
+  <title>fwolf</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-remote"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1650478446/1</ID>
+   </metadata>
+  </info>
+ </bookmark>
  <bookmark href="file:///home/matej/Downloads">
   <title>Downloads</title>
   <info>
@@ -51,6 +62,17 @@
     <ID>1635000596/0</ID>
     <isSystemItem>false</isSystemItem>
     <IsHidden>false</IsHidden>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="sftp://fwolf@karla.zesoi.fer.hr/home/fwolf">
+  <title>fwolf</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-remote"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1650478457/2</ID>
    </metadata>
   </info>
  </bookmark>
@@ -331,6 +353,17 @@
     <ID>1627132493/5</ID>
     <isSystemItem>true</isSystemItem>
     <IsHidden>false</IsHidden>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="sftp://fwolf@karla.zesoi.fer.hr/home/fwolf">
+  <title>fwolf</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-remote"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1650478441/0</ID>
    </metadata>
   </info>
  </bookmark>
@@ -728,6 +761,7 @@
    <metadata owner="http://www.kde.org">
     <ID>1639936115/3</ID>
     <isSystemItem>true</isSystemItem>
+    <IsHidden>false</IsHidden>
    </metadata>
   </info>
  </bookmark>
@@ -779,6 +813,14 @@
    </metadata>
   </info>
  </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/loop5</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
  <bookmark href="kdeconnect://ff4badd4f3dc52e9/">
   <title>SM-G780F</title>
   <info>
@@ -786,7 +828,7 @@
     <bookmark:icon name="kdeconnect"/>
    </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1648758603/4</ID>
+    <ID>1650491939/2</ID>
    </metadata>
   </info>
  </bookmark>

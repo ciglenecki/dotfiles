@@ -15,19 +15,19 @@ Height 1080=745
 Width 1920=1397
 
 [KFileDialog Settings]
-Recent Files[$e]=SU1-2021-P02-OsnovniKoncepti.pdf,file:$HOME/2-fer/map/3-labs/1-lab/cor_matrix_continuous.pdf,file:$HOME/2-fer/map/3-labs/1-lab/cor_matrix_ir.pdf,file:$HOME/2-fer/parpro/0-lit/skripta-parpro.pdf,file:$HOME/2-fer/map/0-lit/applied-multivariate-statistical-analysis-pearson-6th-2014.pdf,file:$HOME/2-fer/map/0-lit/using-multivariate-statistics-barbara-g.-tabachnick-linda-s.-fidell-2012.pdf,file:$HOME/2-fer/sap/student-success-analysis/pdfs/opis_teme.pdf,file:$HOME/2-fer/sap/student-success-analysis/pdfs/upute_za_projekt_2021.pdf
-Recent URLs[$e]=file:$HOME/2-fer/map/3-labs/1-lab/
+Recent Files[$e]=SU1-2021-P02-OsnovniKoncepti.pdf,file:$HOME/2-fer/map/1-lectures/06_eksploratorna_faktorska_analiza.pdf,file:$HOME/2-fer/map/0-lit/solutions.pdf,file:$HOME/projects/lumen-geoguesser/references/deepgeo_photo_localization_with_deep_neural_network_modified.pdf,file:$HOME/2-fer/parpro/0-lit/skripta-parpro.pdf,file:$HOME/2-fer/map/0-lit/applied-multivariate-statistical-analysis-pearson-6th-2014.pdf,file:$HOME/2-fer/map/0-lit/using-multivariate-statistics-barbara-g.-tabachnick-linda-s.-fidell-2012.pdf,file:$HOME/2-fer/sap/student-success-analysis/pdfs/opis_teme.pdf,file:$HOME/2-fer/sap/student-success-analysis/pdfs/upute_za_projekt_2021.pdf
+Recent URLs[$e]=file:$HOME/2-fer/map/1-lectures/
 detailViewIconSize=0
 
 [MainWindow]
-Height 1080=1056
+Height 1080=525
 Height 1920=1888
 Height 720=1058
-State=AAAA/wAAAAD9AAAAAAAABMQAAAPcAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABgsAAAHJAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1080=295
 Width 1280=1920
-Width 1920=1220
+Width 1920=1547
 Window-Maximized 1920x1080=true
 
 [Notification Messages]
@@ -38,19 +38,23 @@ Height 1080=889
 Width 1920=840
 
 [Recent Files]
-File1[$e]=$HOME/Downloads/aibg/ana_bagic_potvrda_o_upisu_29957.pdf
-File2[$e]=$HOME/projects/aibg-2022/AIBG-6.0-manual.pdf
-File3[$e]=$HOME/2-fer/parpro/0-lit/skripta-parpro.pdf
-File4[$e]=$HOME/projects/matejciglenecki.github.io/cv_matej_ciglenecki.pdf
-File5[$e]=$HOME/2-fer/map/3-labs/1-lab/lab_1.pdf
-File6[$e]=$HOME/projects/lumen-geoguesser/references/deepgeo_photo_localization_with_deep_neural_network.pdf
-File7[$e]=$HOME/1-documents/work/cv_matej_ciglenecki.pdf
-File8[$e]=$HOME/2-fer/map/3-labs/1-lab/pdfs/zi.pdf
-Name1[$e]=ana_bagic_potvrda_o_upisu_29957.pdf
-Name2[$e]=AIBG-6.0-manual.pdf
-Name3[$e]=skripta-parpro.pdf
-Name4[$e]=cv_matej_ciglenecki.pdf
-Name5[$e]=lab_1.pdf
-Name6[$e]=deepgeo_photo_localization_with_deep_neural_network.pdf
-Name7[$e]=cv_matej_ciglenecki.pdf
-Name8[$e]=zi.pdf
+File1[$e]=$HOME/2-fer/map/1-lectures/02_matricna_algebra_i_slucajni_vektori.pdf
+File10[$e]=$HOME/2-fer/finmat/studosi/vjezba/zzv/2016-17/FINMAT_2016-17_zzv_2.pdf
+File2[$e]=$HOME/2-fer/map/1-lectures/03_geometrija_slucajni_uzorak_i_mvn.pdf
+File3[$e]=$HOME/2-fer/map/1-lectures/04_multivarijatni_modeli_linearne_regresije.pdf
+File4[$e]=$HOME/2-fer/map/1-lectures/05_analiza_glavnih_komponenti.pdf
+File5[$e]=$HOME/2-fer/map/0-lit/solutions.pdf
+File6[$e]=$HOME/2-fer/map/1-lectures/06_eksploratorna_faktorska_analiza.pdf
+File7[$e]=$HOME/Downloads/CamScanner 04-10-2022 19.30.pdf
+File8[$e]=$HOME/2-fer/finmat/studosi/vjezba/zzv/2016-17/FINMAT_2016-17_zzv_1.pdf
+File9[$e]=$HOME/2-fer/finmat/studosi/vjezba/zzv/2016-17/FINMAT_2016-17_zzv_3.pdf
+Name1[$e]=02_matricna_algebra_i_slucajni_vektori.pdf
+Name10[$e]=FINMAT_2016-17_zzv_2.pdf
+Name2[$e]=03_geometrija_slucajni_uzorak_i_mvn.pdf
+Name3[$e]=04_multivarijatni_modeli_linearne_regresije.pdf
+Name4[$e]=05_analiza_glavnih_komponenti.pdf
+Name5[$e]=solutions.pdf
+Name6[$e]=06_eksploratorna_faktorska_analiza.pdf
+Name7[$e]=CamScanner 04-10-2022 19.30.pdf
+Name8[$e]=FINMAT_2016-17_zzv_1.pdf
+Name9[$e]=FINMAT_2016-17_zzv_3.pdf

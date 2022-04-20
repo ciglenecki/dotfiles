@@ -173,3 +173,13 @@ function renameall() {
     rename "s/_+/_/g" *
     rename "s/_-_/-/g" *
 }
+
+function note() {
+    if [ $# -eq 0 ]; then
+        cat $DIR_NOTES/notes.md
+        return
+    fi
+
+    echo -e "\n$@" >> $DIR_NOTES/notes.md
+    echo "Noted to $DIR_NOTES/notes.md"
+}
