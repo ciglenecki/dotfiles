@@ -13,6 +13,7 @@ text/plain=code.desktop;org.kde.kate.desktop;libreoffice-writer.desktop;okularAp
 text/x-csrc=code.desktop;rstudio.desktop;org.kde.kate.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;calibre-ebook-viewer.desktop;vim.desktop;calibre-gui.desktop;
 text/x-tex=code.desktop;rstudio.desktop;org.kde.kate.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;vim.desktop;calibre-ebook-viewer.desktop;calibre-gui.desktop;
 video/ogg=vlc.desktop;mpv.desktop;
+video/webm=vlc.desktop;firefox.desktop;mpv.desktop;
 video/x-matroska=vlc.desktop;mpv.desktop;
 video/x-msvideo=vlc.desktop;subdownloader.desktop;mpv.desktop;
 
@@ -31,6 +32,7 @@ text/plain=code.desktop;
 text/x-csrc=code.desktop;
 text/x-tex=code.desktop;
 video/ogg=vlc.desktop;
+video/webm=vlc.desktop;
 video/x-matroska=vlc.desktop;
 video/x-msvideo=vlc.desktop;
 x-scheme-handler/http=brave-browser.desktop;

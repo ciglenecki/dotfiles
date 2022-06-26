@@ -70,12 +70,30 @@
         }
     },
     {
-        "key": "ctrl+i",
+        "key": "ctrl+alt+i",
         "command": "editor.action.insertSnippet",
         "when": "editorLangId == 'markdown'",
         "args": {
             "langId": "markdown",
             "name": "markdown_image"
+        }
+    },
+    {
+        "key": "ctrl+alt+k",
+        "command": "editor.action.insertSnippet",
+        "when": "editorLangId == 'markdown'",
+        "args": {
+            "langId": "markdown",
+            "name": "markdown_link"
+        }
+    },
+    {
+        "key": "ctrl+i",
+        "command": "editor.action.insertSnippet",
+        "when": "editorLangId == 'markdown'",
+        "args": {
+            "langId": "markdown",
+            "name": "markdown_italic"
         }
     },
     {
@@ -124,11 +142,6 @@
     {
         "key": "ctrl+j",
         "command": "-workbench.action.togglePanel"
-    },
-    {
-        "key": "backspace",
-        "command": "-markdown.extension.onBackspaceKey",
-        "when": "editorTextFocus && !editorReadonly && !suggestWidgetVisible && editorLangId == 'markdown' && vim.mode != 'CommandlineInProgress' && vim.mode != 'EasyMotionInputMode' && vim.mode != 'EasyMotionMode' && vim.mode != 'Normal' && vim.mode != 'Replace' && vim.mode != 'SearchInProgressMode' && vim.mode != 'SurroundInputMode' && vim.mode != 'Visual' && vim.mode != 'VisualBlock' && vim.mode != 'VisualLine'"
     },
     {
         "key": "ctrl+j",

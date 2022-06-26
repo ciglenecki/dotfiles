@@ -2,12 +2,16 @@
 update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage
 
 [Compositing]
-Enabled=false
+Backend=OpenGL
+Enabled=true
 GLCore=true
 GLPreferBufferSwap=e
-GLTextureFilter=0
+GLTextureFilter=1
+HiddenPreviews=5
 LatencyPolicy=ExtremelyHigh
 OpenGLIsUnsafe=false
+WindowsBlockCompositing=true
+XRenderSmoothScale=false
 
 [Desktops]
 Id_1=c141142a-5176-45fe-9b5d-5e9b89115fac
@@ -24,7 +28,11 @@ Number=5
 Rows=1
 
 [Effect-DimInactive]
-Strength=10
+DimKeepAbove=true
+Strength=15
+
+[Effect-Slide]
+Duration=300
 
 [KDE]
 AnimationDurationFactor=0.5
@@ -50,7 +58,7 @@ CommandWindowWheel=Scroll
 [NightColor]
 Active=true
 Mode=Constant
-NightTemperature=2200
+NightTemperature=2600
 
 [Plugins]
 bismuthEnabled=false
@@ -80,7 +88,6 @@ PopupHideDelay=0
 TextOnly=true
 
 [Script-krohnkite]
-enableMonocleLayout=false
 enableSpiralLayout=false
 enableSpreadLayout=false
 enableStairLayout=false

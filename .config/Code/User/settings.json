@@ -82,10 +82,13 @@
 		"Allreduce",
 		"Blokirajuće",
 		"Brentovo",
+		"Convolutional",
 		"Defaultni",
 		"downsweap",
 		"ERCW",
 		"funckija",
+		"Guessr",
+		"interpretability",
 		"Krupnozrnatost",
 		"međuvrijednosti",
 		"Neblokirajući",
@@ -175,15 +178,10 @@
 		"ctf0.laravel-goto-env"
 	],
 	"debug.onTaskErrors": "showErrors",
-	"python.formatting.blackArgs": [
-		"--line-length",
-		"300"
-	],
 	"workbench.editorAssociations": {
 		"*.mat": "default",
 		"*.class": "default"
 	},
-	"editor.formatOnSave": true,
 	"python.formatting.provider": "black",
 	"jupyter.askForKernelRestart": false,
 	"workbench.editor.untitled.hint": "hidden",
@@ -201,11 +199,19 @@
 		"MD010": false,
 	},
 	"cSpell.enableFiletypes": [
+		"!python",
 		"markdown"
 	],
 	"cSpell.language": "en,hr-HR,hr",
 	"cSpell.diagnosticLevel": "Warning",
-	"cSpell.enabled": false,
+	"cSpell.enabled": true,
 	"markdown-preview-enhanced.previewTheme": "github-light.css",
+	"editor.formatOnSave": true,
+	"python.formatting.blackArgs": [
+		"--line-length",
+		"120"
+	],
+	"terminal.integrated.inheritEnv": false,
+	"OpenCL.formatting.name": "/usr/bin/clang-format",
 	"window.zoomLevel": 1
 }

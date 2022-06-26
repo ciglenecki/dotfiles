@@ -175,11 +175,16 @@ function renameall() {
 }
 
 function note() {
+    echo "$@"
+    str="'$*'"
     if [ $# -eq 0 ]; then
         cat $DIR_NOTES/notes.md
         return
     fi
+    echo "$@"
+    str="'$*'"
 
-    echo -e "\n$@" >> $DIR_NOTES/notes.md
+    echo "$str"
+    echo -e "\n$str" >> $DIR_NOTES/notes.md
     echo "Noted to $DIR_NOTES/notes.md"
 }

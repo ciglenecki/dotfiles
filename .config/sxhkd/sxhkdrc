@@ -41,8 +41,11 @@ alt + p; {t};
 alt + p; {p};
     { kquitapp5 plasmashell || killall plasmashell && kstart5 plasmashell; } &> /dev/null;
 # copy
-# alt + c; s;
-    # # copyq write image/jpg - < $DIR_SCREENSHOTS$(ls -t $DIR_SCREENSHOTS | head -n 1) && copyq select 0
+alt + c; s;
+    copyq write image/jpg - < $DIR_SCREENSHOTS$(ls -t $DIR_SCREENSHOTS | head -n 1) && copyq select 0
+# edit last screenshot
+alt + c; e;
+    pinta $DIR_SCREENSHOTS$(ls -t $DIR_SCREENSHOTS | head -n 1)
 
 # volume with pause button
 Pause;
@@ -50,6 +53,7 @@ Pause;
 
 ctrl + grave;
     flameshot gui -p $DIR_SCREENSHOTS
+
 super + grave;
     {foldername=$(wmctrl -lx | grep -E ".*code.Code.*notes" | tr -s ' ' | cut -d ' ' -f 5 | head -n 1 | sed 's/\~/\/home\/matej/') && \
         name=$(date +'%F-%H-%M-%S').jpg && \
