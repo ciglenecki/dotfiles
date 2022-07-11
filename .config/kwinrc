@@ -32,7 +32,7 @@ DimKeepAbove=true
 Strength=15
 
 [Effect-Slide]
-Duration=300
+Duration=10
 
 [KDE]
 AnimationDurationFactor=0.5
@@ -65,7 +65,9 @@ bismuthEnabled=false
 desktopchangeosdEnabled=false
 diminactiveEnabled=true
 krohnkiteEnabled=true
+kwin4_effect_fadedesktopEnabled=true
 minimizeallEnabled=false
+slideEnabled=false
 synchronizeskipswitcherEnabled=false
 videowallEnabled=false
 virtual-desktops-only-on-primaryEnabled=true

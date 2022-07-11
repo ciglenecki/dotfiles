@@ -1,32 +1,33 @@
 Height 1080=1056
 Height 1920=1888
-State=AAAA/wAAAAD9AAAAAAAAA70AAAPcAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAP6AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 Width 1080=1080
 Width 1920=957
+Window-Maximized 1080x1920=true
 
 [Audio Preview Settings]
 Autoplay=false
 
 [Desktop Entry]
-FullScreen=true
-shouldShowMenuBarComingFromFullScreen=false
+FullScreen=false
+shouldShowMenuBarComingFromFullScreen=true
 shouldShowToolBarComingFromFullScreen=true
 
 [FileDialogSize]
 Height 1080=745
-Width 1920=1397
+Width 1920=907
 
 [KFileDialog Settings]
-Recent Files[$e]=SU1-2021-P02-OsnovniKoncepti.pdf,file:$HOME/2-fer/dubuce/0-lit/du6recurrent2.pdf,file:$HOME/2-fer/dubuce/0-lit/du5recurrent-pdfjam.pdf,file:$HOME/2-fer/finmat/studosi/razno/prilozi/FINMAT_2009-10_literatura.pdf,file:$HOME/2-fer/finmat/studosi/razno/biljeske/FINMAT_2009-10_bijeske_prezentacija-12.pdf,file:$HOME/2-fer/finmat/1-lectures/Prezentacija_10_2022.pdf,file:$HOME/2-fer/finmat/2-zzv/08_CAPM_2021_RJ.pdf,file:$HOME/2-fer/finmat/studosi/vjezba/zzv/2009-10/FINMAT_2009-10_zzv_tjedan-09.pdf,file:$HOME/2-fer/finmat/studosi/vjezba/zzv/2009-10/FINMAT_2009-10_zzv_tjedan-08.pdf,file:$HOME/2-fer/finmat/studosi/vjezba/zzv/2009-10/FINMAT_2009-10_zzv_rjesenja_tjedan-08.pdf,file:$HOME/2-fer/finmat/studosi/vjezba/zzv/2009-10/FINMAT_2009-10_zzv_rjesenja_tjedan-09.pdf,file:$HOME/2-fer/finmat/studosi/vjezba/zzv/2014-15/FINMAT_2014-15_zzv-mi.pdf,file:$HOME/2-fer/finmat/studosi/vjezba/zzv/2016-17/FINMAT_2016-17_zzv_3.pdf,file:$HOME/2-fer/finmat/studosi/vjezba/zzv/2016-17/FINMAT_2016-17_zzv_2.pdf,file:$HOME/2-fer/finmat/studosi/zadace/FINMAT_2009-10_dz_z1-z2.pdf,file:$HOME/2-fer/finmat/studosi/vjezba/zzv/2009-10/dodatak/FINMAT_2009-10_zzv_dodatak_32.pdf
-Recent URLs[$e]=file:$HOME/2-fer/dubuce/0-lit/
+Recent Files[$e]=SU1-2021-P02-OsnovniKoncepti.pdf,file:$HOME/fer/map/1-lectures/05_analiza_glavnih_komponenti.pdf,file:$HOME/fer/sap/4-exams/mi-2020-21-rjesenja.pdf,file:$HOME/fer/sap/4-exams/mi-2021-22-rjesenja.pdf,file:$HOME/fer/finmat/5-exercises/solved/zzv_3_2016_rj.pdf,file:$HOME/fer/finmat/1-lectures/Prezentacija_08_2022.pdf,file:$HOME/fer/finmat/4-exams/ljir_2015.pdf,file:$HOME/fer/finmat/4-exams/mi_2012_3.jpg,file:$HOME/fer/finmat/5-exercises/solved/zzv_zi.pdf,file:$HOME/fer/finmat/5-exercises/solved/zzv_mi.pdf,file:$HOME/fer/finmat/5-exercises/solved/zzv_z1-z2.pdf,file:$HOME/fer/finmat/5-exercises/solved/zzv_tjedan_05.pdf,file:$HOME/fer/finmat/5-exercises/solved/zzv_2_2016_rj.pdf,file:$HOME/fer/finmat/4-exams/mi_2012_rj.pdf,file:$HOME/fer/finmat/4-exams/mi_2012_2.jpg,file:$HOME/fer/finmat/4-exams/mi_2012_1.jpg
+Recent URLs[$e]=file:$HOME/fer/map/1-lectures/
 detailViewIconSize=0
 
 [MainWindow]
-Height 1080=1080
+Height 1080=1056
 Height 1920=1888
 Height 720=1058
-MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAB4AAAAQ4AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAPcAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1080=295
 Width 1280=1920
@@ -41,23 +42,23 @@ Height 1080=889
 Width 1920=840
 
 [Recent Files]
-File1[$e]=$HOME/2-fer/finmat/studosi/vjezba/zzv/2016-17/FINMAT_2016-17_zzv_3.pdf
-File10[$e]=$HOME/projects/matejciglenecki.github.io/cv_matej_ciglenecki.pdf
-File2[$e]=$HOME/2-fer/finmat/studosi/ispiti/zi/2011-12/FINMAT_2011-12_zi_rjesenja.pdf
-File3[$e]=$HOME/2-fer/finmat/studosi/ispiti/zi/2011-12/FINMAT_2011-12_zi.pdf
-File4[$e]=$HOME/2-fer/finmat/studosi/ispiti/zi/2009-10/FINMAT_2009-10_zi_rjesenja.pdf
-File5[$e]=$HOME/2-fer/finmat/studosi/ispiti/rokovi/2015-16/FINMAT_2015-16_ljir.pdf
-File6[$e]=$HOME/2-fer/dubuce/0-lit/du6recurrent2-pdfjam.pdf
-File7[$e]=$HOME/2-fer/dubuce/0-lit/du5recurrent.pdf
-File8[$e]=$HOME/2-fer/dubuce/0-lit/du5recurrent-pdfjam.pdf
-File9[$e]=$HOME/1-documents/work/cv_matej_ciglenecki.pdf
-Name1[$e]=FINMAT_2016-17_zzv_3.pdf
-Name10[$e]=cv_matej_ciglenecki.pdf
-Name2[$e]=FINMAT_2011-12_zi_rjesenja.pdf
-Name3[$e]=FINMAT_2011-12_zi.pdf
-Name4[$e]=FINMAT_2009-10_zi_rjesenja.pdf
-Name5[$e]=FINMAT_2015-16_ljir.pdf
-Name6[$e]=du6recurrent2-pdfjam.pdf
-Name7[$e]=du5recurrent.pdf
-Name8[$e]=du5recurrent-pdfjam.pdf
-Name9[$e]=cv_matej_ciglenecki.pdf
+File1[$e]=$HOME/fer/sap/1-lectures/07._predavanje-postupci_ponovnog_uzorkovanja.pdf
+File10[$e]=$HOME/Downloads/Ugovor_60407501.pdf
+File2[$e]=$HOME/fer/sap/1-lectures/08-linearna_regresija7.pdf
+File3[$e]=$HOME/fer/sap/1-lectures/10-logisticka_regresija.pdf
+File4[$e]=$HOME/fer/sap/1-lectures/11-predavanje-analiza_varijance.pdf
+File5[$e]=$HOME/fer/sap/1-lectures/12-neparametarskipostupci4.pdf
+File6[$e]=$HOME/fer/sap/1-lectures/13-alternativni_pristup_analizi_podataka.pdf
+File7[$e]=$HOME/fer/map/1-lectures/06_eksploratorna_faktorska_analiza.pdf
+File8[$e]=$HOME/fer/map/1-lectures/05_analiza_glavnih_komponenti.pdf
+File9[$e]=$HOME/Downloads/Ugovor_6040750.pdf
+Name1[$e]=07._predavanje-postupci_ponovnog_uzorkovanja.pdf
+Name10[$e]=Ugovor_60407501.pdf
+Name2[$e]=08-linearna_regresija7.pdf
+Name3[$e]=10-logisticka_regresija.pdf
+Name4[$e]=11-predavanje-analiza_varijance.pdf
+Name5[$e]=12-neparametarskipostupci4.pdf
+Name6[$e]=13-alternativni_pristup_analizi_podataka.pdf
+Name7[$e]=06_eksploratorna_faktorska_analiza.pdf
+Name8[$e]=05_analiza_glavnih_komponenti.pdf
+Name9[$e]=Ugovor_6040750.pdf

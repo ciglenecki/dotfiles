@@ -12,10 +12,10 @@ Height 1920=777
 Height 2560=1349
 Width 1080=1080
 Width 1440=1357
-Width 1920=1206
+Width 1920=1027
 Width 2560=1306
 
 [KFileDialog Settings]
-Recent Files[$e]=The Sopranos - 2x07 - D-Girl.en.srt,file:$HOME/Downloads/lstm.webm
-Recent URLs[$e]=file:$HOME/Downloads/
+Recent Files[$e]=The Sopranos - 2x07 - D-Girl.en.srt,file:///media/matej/sam/series/Curb Your Enthusiasm/Season 2/Curb Your Enthusiasm Season 2 Episode 05 - The Thong.avi,file:///media/matej/sam/series/Curb Your Enthusiasm/Season 2/Curb Your Enthusiasm Season 2 Episode 03 - Trick or Treat.avi,file:$HOME/fer/finmat/1-lectures/video/FINMAT_20210416.mp4,file:$HOME/fer/finmat/1-lectures/video/FINMAT_20210409.mp4,file:$HOME/fer/finmat/1-lectures/video/FINMAT_20210402.mp4
+Recent URLs[$e]=file:///media/matej/sam/series/Curb Your Enthusiasm/Season 2/
 detailViewIconSize=16

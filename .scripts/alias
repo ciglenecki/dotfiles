@@ -123,9 +123,11 @@ function cry() {
         echo "GPG/UnGpg which file?";
         return -1;
     fi
-    if [[ $1 =~ \.gpg$ ]]; then
-        gpg -d "$1" > $(basename "$1" .gpg) && rm "$1" || echo "Error, $1 did not decrypt";
+    if [[ $1 == *.gpg ]]; then
+        echo "Decrypting file $1"
+        gpg -d $1 > $(basename $1 .gpg) && rm "$1" || echo "Error, $1 did not decrypt";
     else
+        echo "Encrypting file $1"
         gpg -r matej.ciglenecki@gmail.com -e $1 && rm "$1" || echo "Error, $1 did not encrypt";
     fi;
 
@@ -158,20 +160,18 @@ function run() {
 function renameall() {
     rename "y/A-Z/a-z/" *
     rename "s/\s+/-/g" *
-    rename 's/\((.*?)\)\./-$1/g' *
-    rename 's/\((.*?)\)[^\.]/-$1-/g' *
-    rename 's/^([0-9]+)_/$1-/' *
-    rename "s/://g" *
-    rename "s/\(//g" *
-    rename "s/\)//g" *
-    rename "s/\[//g" *
-    rename "s/\]//g" *
+    rename 's/\((.*?)\)\./-$1/g' * # (abc).txt -> -abc.txt
+    rename 's/\((.*?)\)[^\.]/-$1-/g' * # x(abc)x -> x-abc-x
+    rename "s/(:|\(|\)|\[|\]|'|,)//g" * # a()[],b'c" -> abc
     rename 's/"//g' *
-    rename "s/'//g" *
-    rename "s/,//g" *
-    rename "s/-+/-/g" *
-    rename "s/_+/_/g" *
-    rename "s/_-_/-/g" *
+
+    # files will contain _
+    rename 's/-+/_/g if -f;' *
+    rename "s/_+/_/g if -f;" *
+
+    # directories will contain -
+    rename "s/_+/-/g if -d;" *
+    rename 's/-+/-/g if -d;' *
 }
 
 function note() {

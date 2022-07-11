@@ -37,7 +37,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][28][Configuration]
-PreloadWeight=100
+PreloadWeight=92
 
 [Containments][2][Applets][28][Configuration][Appearance]
 boldText=true
@@ -64,7 +64,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
-PreloadWeight=100
+PreloadWeight=92
 
 [Containments][2][Applets][3][Configuration][Configuration/General]
 showAppsByName=true
@@ -115,7 +115,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][2][Applets][39][Configuration][General]
-launcherUrls=file:///usr/share/applications/brave-browser.desktop,file:///home/matej/.local/share/applications/Todoist.desktop,file:///home/matej/.local/share/applications/G Calendar.desktop
+launcherUrls=file:///usr/share/applications/brave-browser.desktop,file:///home/matej/.local/share/applications/G Calendar.desktop,file:///home/matej/.local/share/applications/Todoist.desktop
 
 [Containments][2][Applets][40]
 immutability=1
@@ -161,7 +161,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][7][Configuration]
-PreloadWeight=100
+PreloadWeight=92
 SystrayContainmentId=8
 
 [Containments][2][ConfigDialog]
@@ -265,21 +265,21 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][8][Applets][17][Configuration]
-PreloadWeight=32
+PreloadWeight=19
 
 [Containments][8][Applets][22]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][8][Applets][22][Configuration]
-PreloadWeight=0
+PreloadWeight=1
 
 [Containments][8][Applets][23]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][23][Configuration]
-PreloadWeight=100
+PreloadWeight=91
 
 [Containments][8][Applets][24][Configuration]
 PreloadWeight=42
@@ -292,7 +292,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][8][Applets][31][Configuration]
-PreloadWeight=87
+PreloadWeight=67
 
 [Containments][8][Applets][31][Configuration][ConfigDialog]
 DialogHeight=540
@@ -314,6 +314,26 @@ hiddenItems=qBittorrent,shutter,Discover Notifier_org.kde.DiscoverNotifier,Yakua
 knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.clipboard,org.kde.kupapplet,org.kde.plasma.keyboardindicator,org.kde.plasma.devicenotifier,org.kde.plasma.printmanager,org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.kdeconnect,org.kde.plasma.vault,org.kde.plasma.bluetooth,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.volume
 scaleIconsToFit=true
 shownItems=org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.battery,ibus-ui-gtk3,org.kde.plasma.volume
+
+[Containments2Appletsts][41][Configuration][Preferences]
+AddDesktopButtonShow=false
+DesktopIndicatorsCustomColorForCurrentDesktop=#6bc7ff
+DesktopIndicatorsCustomColorForDesktopsNeedingAttention=#ffffff
+DesktopIndicatorsCustomColorForIdleDesktops=#ffffff
+DesktopIndicatorsCustomColorForOccupiedIdleDesktops=#ffffff
+DesktopIndicatorsDoNotOverrideOpacityOfCustomColors=true
+DesktopIndicatorsStyle=2
+DesktopLabelsCustomColor=#232627
+
+[Containments31Appletsts][41][Configuration][Preferences]
+AddDesktopButtonShow=false
+DesktopIndicatorsCustomColorForCurrentDesktop=#6bc7ff
+DesktopIndicatorsCustomColorForDesktopsNeedingAttention=#ffffff
+DesktopIndicatorsCustomColorForIdleDesktops=#ffffff
+DesktopIndicatorsCustomColorForOccupiedIdleDesktops=#ffffff
+DesktopIndicatorsDoNotOverrideOpacityOfCustomColors=true
+DesktopIndicatorsStyle=2
+DesktopLabelsCustomColor=#232627
 
 [ScreenMapping]
 itemsOnDisabledScreens=

@@ -12,6 +12,7 @@ text/markdown=code.desktop;okularApplication_md.desktop;rstudio.desktop;org.kde.
 text/plain=code.desktop;org.kde.kate.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;calibre-ebook-viewer.desktop;vim.desktop;calibre-gui.desktop;
 text/x-csrc=code.desktop;rstudio.desktop;org.kde.kate.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;calibre-ebook-viewer.desktop;vim.desktop;calibre-gui.desktop;
 text/x-tex=code.desktop;rstudio.desktop;org.kde.kate.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;vim.desktop;calibre-ebook-viewer.desktop;calibre-gui.desktop;
+video/mp4=vlc.desktop;mpv.desktop;
 video/ogg=vlc.desktop;mpv.desktop;
 video/webm=vlc.desktop;firefox.desktop;mpv.desktop;
 video/x-matroska=vlc.desktop;mpv.desktop;
@@ -31,6 +32,7 @@ text/markdown=code.desktop;
 text/plain=code.desktop;
 text/x-csrc=code.desktop;
 text/x-tex=code.desktop;
+video/mp4=vlc.desktop;
 video/ogg=vlc.desktop;
 video/webm=vlc.desktop;
 video/x-matroska=vlc.desktop;
@@ -38,6 +40,7 @@ video/x-msvideo=vlc.desktop;
 x-scheme-handler/http=brave-browser.desktop;
 x-scheme-handler/https=brave-browser.desktop;
 x-scheme-handler/msteams=teams.desktop
+x-scheme-handler/webcatalog=WebCatalog.desktop
 
 [Removed Associations]
 application/x-desktop=brave-browser.desktop;code.desktop;

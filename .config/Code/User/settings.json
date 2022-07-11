@@ -213,5 +213,6 @@
 	],
 	"terminal.integrated.inheritEnv": false,
 	"OpenCL.formatting.name": "/usr/bin/clang-format",
-	"window.zoomLevel": 1
+	"markdown.preview.doubleClickToSwitchToEditor": false,
+	"window.zoomLevel": 2
 }

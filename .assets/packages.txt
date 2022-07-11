@@ -1,6 +1,7 @@
 # Download by hand:
 # ==================
 
+# veracrypt https://www.veracrypt.fr/en/Downloads.html
 # brave https://brave.com/linux/#linux
 # insync https://www.insynchq.com/downloads
 # discord https://discord.com/download

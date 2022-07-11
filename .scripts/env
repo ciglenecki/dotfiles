@@ -53,22 +53,22 @@ export URL_WHATSAPP="https://web.whatsapp.com/"
 
 # paths
 export INPUTRC="$HOME/.inputrc"
+export DIR_FER="$HOME/fer"
 export DIR_NOTES="$HOME/0-notes"
 export DIR_DOCUMENTS="$HOME/1-documents"
-export DIR_FER="$HOME/2-fer"
-export DIR_ARCHIVE="$HOME/3-archive"
-export DIR_PICTURES="$HOME/4-pictures"
+export DIR_PICTURES="$HOME/2-media"
     export DIR_SCREENSHOTS="$DIR_PICTURES/screenshots/"
-export DIR_BACKUP="$HOME/5-backup"
+export DIR_AUDIO="$HOME/3-audio"
+export DIR_EDUCATION="$HOME/4-education"
+export DIR_ASSETS="$HOME/5-assets"
 export DIR_DOWNLOADS="$HOME/Downloads"
 export DIR_PROJECTS="$HOME/projects"
-export DIR_HDD_EXT="/media/$(whoami)/ex-gep"
 
+export DIR_SAM="/media/matej/ex-gep"
+export DIR_GEP="/media/matej/sam"
 
 #etc
 export TIMEFS="%F"
 export TIMEFL="%F-%H-%M-%S"
 export DATENOW='date +"$TIMEFL"'
 export SOUND_LEVEL=10
-
-export PATH="$PATH:/opt/mssql-tools/bin"

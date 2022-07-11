@@ -1,13 +1,14 @@
 # Folders must have / at the end or else they wont sync
 /*
 /*/
+!fer/
 !0-notes/
 !1-documents/
-!2-fer/
-!3-archive/
-!4-pictures/
-4-pictures/screenshots/
-!5-backup/
+!2-media/
+2-media/screenshots/
+!3-audio/
+!4-education/
+!5-assets/
 !6-literature/
 !_tmp/
 
@@ -23,7 +24,7 @@ ehthumbs.db
 Thumbs.db
 gitrepo/
 .git
-*.ignoreme.*
+*ignoreme*
 *-ignore*
 venv/
 __pycache__y
