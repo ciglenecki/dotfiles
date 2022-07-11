@@ -1,4 +1,5 @@
 # ~/.profile: executed by the command interpreter for login shells.
+
 # This file is not read by bash(1), if ~/.bash_profile or ~/.bash_login
 # exists.
 # see /usr/share/doc/bash/examples/startup-files for examples.
@@ -16,7 +17,7 @@ if [ -d "$HOME" ]; then
   export DOTFILES_DIR="$HOME/.scripts"
 fi
 
-for dotfile in $DOTFILES_DIR/{env,alias}; do
+for dotfile in $DOTFILES_DIR/{env.sh,alias.sh}; do
   [ -f "$dotfile" ] && . "$dotfile";
 done
 
