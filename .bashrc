@@ -13,7 +13,7 @@ esac
 HISTCONTROL=ignoreboth
 
 
-for DOTFILE in $DOTFILES_DIR/{env,alias}; do
+for DOTFILE in $DOTFILES_DIR/{env.sh,alias.sh}; do
   [ -f "$DOTFILE" ] && . "$DOTFILE";
 done
 
