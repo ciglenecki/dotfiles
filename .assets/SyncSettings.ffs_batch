@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FreeFileSync XmlType="BATCH" XmlFormat="17">
+    <Compare>
+        <Variant>TimeAndSize</Variant>
+        <Symlinks>Exclude</Symlinks>
+        <IgnoreTimeShift/>
+    </Compare>
+    <Synchronize>
+        <Variant>TwoWay</Variant>
+        <DetectMovedFiles>false</DetectMovedFiles>
+        <DeletionPolicy>RecycleBin</DeletionPolicy>
+        <VersioningFolder Style="Replace"/>
+    </Synchronize>
+    <Filter>
+        <Include>
+            <Item>0-notes</Item>
+            <Item>1-documents</Item>
+            <Item>2-fer</Item>
+            <Item>3-archive</Item>
+            <Item>4-pictures</Item>
+            <Item>tmp</Item>
+        </Include>
+        <Exclude>
+            <Item>.DS_Store</Item>
+            <Item>.DS_Store?</Item>
+            <Item>._*</Item>
+            <Item>.Spotlight-V100</Item>
+            <Item>.Trashes</Item>
+            <Item>ehthumbs.db</Item>
+            <Item>Thumbs.db</Item>
+            <Item>**/TEOINF</Item>
+            <Item>**/gitrepo</Item>
+            <Item>**/.git</Item>
+            <Item>*.ignoreme.*</Item>
+            <Item>*-ignore*</Item>
+            <Item>**/venv</Item>
+            <Item>**/__pycache__</Item>
+        </Exclude>
+        <TimeSpan Type="None">0</TimeSpan>
+        <SizeMin Unit="None">0</SizeMin>
+        <SizeMax Unit="None">0</SizeMax>
+    </Filter>
+    <FolderPairs>
+        <Pair>
+            <Left>/home/matej</Left>
+            <Right>/media/matej/ex-gep/.backup-CD/D</Right>
+        </Pair>
+    </FolderPairs>
+    <Errors Ignore="true" Retry="0" Delay="5"/>
+    <PostSyncCommand Condition="Completion"/>
+    <LogFolder/>
+    <EmailNotification Condition="Always"/>
+    <Batch>
+        <ProgressDialog Minimized="true" AutoClose="true"/>
+        <ErrorDialog>Show</ErrorDialog>
+        <PostSyncAction>None</PostSyncAction>
+    </Batch>
+</FreeFileSync>
