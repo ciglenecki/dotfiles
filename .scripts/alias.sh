@@ -1,5 +1,11 @@
 #!/bin/bash
 
+#################################
+# Author:       Matej Ciglenečki
+# Description:  script which sets aliases and functions so they can be used in the terminal
+#               some variables depend on ~/.script/env.sh 
+#################################
+
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
@@ -12,15 +18,13 @@ alias cd='cd -P' # autofollow symlinks
 function cs() { cd $1;ls -1 --color=auto; } # cd + ls
 
 # f = show dir ending "/", symlinks "*"...
-
 alias l="ls -lF --group-directories-first" # List all files
 alias la="ls -laF  --group-directories-first" # List all files excluding . and ..
 alias lt="ls -lt " # List all files excluding . and ..
 alias lsd="ls -lF | grep --color=never '^d'" # List only directories
 alias lsf="ls -p | grep -v /"
 
-# Add an "alert" alias for long running commands.  Use like so:
-#   sleep 10; alert
+# Add an "alert" alias for long running commands. Use like so: sleep 10; alert
 alias alert="notify-send"
 
 # enable color support of ls and also add handy aliases
@@ -33,6 +37,8 @@ if [ -x /usr/bin/dircolors ]; then
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
 fi
+
+# "open" alias will automatically open file(s) in the default application based on their file extension
 if [ ! $(uname -s) = 'Darwin' ]; then
 	if grep -q Microsoft /proc/version; then
 		# Ubuntu on Windows using the Linux subsystem
@@ -42,25 +48,44 @@ if [ ! $(uname -s) = 'Darwin' ]; then
 	fi
 fi
 
-# commands
+
+alias cfg='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME' # git alias for my presonal config repoitory based on this guide https://www.atlassian.com/git/tutorials/dotfiles
 alias nap="sudo systemctl hibernate" # hibernate pc
-alias cfg='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME' # add file to config repo
-alias update='sudo apt update; sudo apt upgrade -y; sudo apt -y autoremove' # update all
-alias c="xclip -selection clipboard" # easy clipboard pipe
-alias path='echo -e ${PATH//:/\\n}' # Print each PATH entry on a separate line
+alias update='sudo apt update; sudo apt upgrade -y; sudo apt -y autoremove' # update and clean all packages
+alias c="xclip -selection clipboard" # copy input to clipboard: cat file.txt | c
+alias path='echo -e ${PATH//:/\\n}' # print each PATH entry on a separate line
 alias k='killall'
 alias bat='batcat'
 alias wttr='curl wttr.in/Zagreb?format=v2'
-alias clear='\clear;source ~/.bashrc'
-alias clipboard="xclip -o -selection clipboard"
+alias clear='\clear;source ~/.bashrc' # clear the terminal and source (execute) bashrc
+alias clipboard="xclip -o -selection clipboard" # paste the clipboard entry
+
+alias study="$BROWSERUSER $BROWSERASAPP$STUDY_SHEET &"
+alias cal="$BROWSERUSER $BROWSERASAPP$CAL &"
+alias pomo="$BROWSERUSER $BROWSERASAPP$POMODORO &"
+# extglob If set, the extended pattern matching features described above under Pathname Expansion are enabled.
 shopt -s extglob
 
+
+# Set dynamic subject names alias 
+if [ -d "$DIR_FER" ]; then
+    for subject in $(ls $DIR_FER | sed -nE 's/^([a-zA-Z].*)/\1/p'); do
+        alias $subject="cs $DIR_FER/$subject"
+    done
+fi
+
+################
+# FUNCTIONS 
+################
+
+# shutdown the system
 function die(){
     $DOTFILES_DIR/logout.sh;
     shutdown now;
 }
 
-function memesrename(){
+# rename images to a date format
+function rename_images(){
     for f in *; do
     if [[ $f != 20* ]]
     then
@@ -71,7 +96,7 @@ function memesrename(){
     done
 }
 
-# `o` opens the current directory or opens argument
+# `o` opens the current directory or opens the argument (file)
 function o() {
 	if [ $# -eq 0 ]; then
 		open . ;
@@ -82,36 +107,53 @@ function o() {
         done		
 	fi;
 }
-### GTD ###
 
-alias study="$BROWSERUSER $BROWSERASAPP$STUDY_SHEET &"
-alias cal="$BROWSERUSER $BROWSERASAPP$CAL &"
-alias pomo="$BROWSERUSER $BROWSERASAPP$POMODORO &"
-
+# Starts Todoist in browser. It will open different filter/project based on the argument
+# usage:    todo
+#           todo projects
+#           todo fer
+#           ...
 function todo() {
-    # Get ENV's and pick ones that start with TODO_NAME
-    # NAME is saved in array
-    todos=$(printenv | sed -nE 's/^TODO_(.*)=.*/\1/p')
+    
+    # If no argument was provided just open Todoist
     if [ "$#" -ne 1 ]; then
         $BROWSERUSER $BROWSERASAPP$TODO_TODAY &
         return 1
     fi
-    uppercase_arg="$(echo $1 | tr a-z A-Z)"
-    link=TODO_${uppercase_arg}
+
+    # Get ENV's and pick ones that start with TODO_<NAME> (TODO_PROJECTS, TODO_TODAY...)
+    # <NAME>s are saved in array
+    todo_names=$(printenv | sed -nE 's/^TODO_(.*)=.*/\1/p' | tr A-Z a-z)
+
+    SAVEIFS=$IFS   # Save current IFS (Internal Field Separator)
+    IFS=$'\n'      # Change IFS to newline char
+    todo_names=($todo_names) # split the `names` string into an array by the same name
+    IFS=$SAVEIFS   # Restore original IFS
+
+    lowercase_arg="$(echo $1 | tr A-Z a-z)"
+
+    if [[ ! "${todo_names[*]}" =~ "${lowercase_arg}" ]]; then # if todo_names doesn't contain the argument
+        names_concat=$(join_by "|" "${todo_names[@]}")
+
+        echo "usage: todo [$names_concat]"
+        unset lowercase_arg
+        unset link
+        return 1
+    fi
+
+    link=TODO_${lowercase_arg}
     $BROWSERUSER $BROWSERASAPP${!link} &
-    unset uppercase_arg
+
+    unset lowercase_arg
     unset link
-    unset todos
-    return 1
+    unset todo_names
+    return 0
 }
-if [ -d "$DIR_FER" ]; then
-    for subject in $(ls $DIR_FER | sed -nE 's/^([a-zA-Z].*)/\1/p'); do
-        alias $subject="cs $DIR_FER/$subject"
-    done
-fi
 
 
-# crypt / decrypt files
+
+
+# Encrypt or decrypt files
 function cry() {
     if [ "$#" -ne 1 ]; then
         echo "GPG/UnGpg which file?";
@@ -125,6 +167,16 @@ function cry() {
         gpg -r matej.ciglenecki@gmail.com -e $1 && rm "$1" || echo "Error, $1 did not encrypt";
     fi;
 
+}
+
+# Join array by a delimiter
+# arr = (1 2 3)
+# join_by "|" "${todo_names[@]}" => 1|2|3
+function join_by() {
+  local d=${1-} f=${2-}
+  if shift 2; then
+    printf %s "$f" "${@/#/$d}"
+  fi
 }
 
 # Install .deb from web
@@ -141,15 +193,15 @@ function debfromweb() {
     fi
 }
 
+# Append package name to the txt list of packages
 function addpackage() {
-    echo -e "$1" >> $HOME/.config/matej-packages.txt
+    echo -e "$1" >> $FILE_PACKAGES
 }
 
 # run set of commands with nohup
 function run() {
     nohup "$@" >/dev/null 2>&1 &
 }
-
 
 function renameall() {
     rename "y/A-Z/a-z/" *
@@ -182,15 +234,3 @@ function note() {
     echo -e "\n$str" >> $DIR_NOTES/notes.md
     echo "Noted to $DIR_NOTES/notes.md"
 }
-
-
-# Favourite
-# function fav() {
-#     for var in "$@"
-#     do
-#         ln -rs $var $DIR_FAV
-#     done
-
-# }
-
-# alias x='cs $DIR_FAV'

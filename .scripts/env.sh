@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#################################
+# Author:       Matej Ciglenečki
+# Description:  Set variables which are used across the system and other scripts
+#################################
+
 # if [ -z ${HOME+x} ]; then export HOME="/home/matej"; fi
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/.local/bin" ] ; then
@@ -15,7 +20,6 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$PATH:$HOME/bin"
 fi
 
-#PATH
 if [ -d "$HOME/.npm-global/bin" ] ; then
     PATH="$HOME/.npm-global/bin:$PATH"
 fi
@@ -66,6 +70,8 @@ export DIR_PROJECTS="$HOME/projects"
 
 export DIR_SAM="/media/matej/ex-gep"
 export DIR_GEP="/media/matej/sam"
+
+export FILE_PACKAGES="$HOME/.assets/packages.txt"
 
 #etc
 export TIMEFS="%F"

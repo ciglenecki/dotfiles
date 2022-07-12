@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#################################
+# Author:       Matej Ciglenečki
+# Description:  pushes dotfiles to github. Anacron calls this script daily
+#################################
+
 notify-send "Pushing dotfiles to Github!";
 
 shopt -s expand_aliases

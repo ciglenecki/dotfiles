@@ -1,5 +1,13 @@
 #!/bin/bash
 
+#################################
+# Author:       Matej Ciglenečki
+# Description:  Backup files to external hard disk
+#               1. Mount veracrypt container
+#               2. Rsync files defined in exclude and include lists
+#               3. Unmount veracrypt container
+#################################
+
 if [ "$EUID" -ne 0 ]
   then echo "Please run as root"
   return 

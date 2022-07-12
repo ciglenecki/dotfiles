@@ -1,6 +1,10 @@
 #!/bin/bash
 
-# Clone from github
+#################################
+# Author:       Matej Ciglenečki
+# Description:  Clone dotfiles from github, a bare git repository (based on this guide https://www.atlassian.com/git/tutorials/dotfiles)
+#################################
+
 sudo apt install -y git
 
 mkdir -p $HOME/.cfg

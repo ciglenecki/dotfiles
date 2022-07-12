@@ -96,4 +96,7 @@ xclip
 # gnome-tweak-tool
 # dolphin
 rename
-findimagedupes\ncurl\nnet-tools\ntexlive-extra-utils
+findimagedupes
+curl
+net-tools
+texlive-extra-utils

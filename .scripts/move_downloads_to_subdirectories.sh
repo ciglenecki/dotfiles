@@ -1,6 +1,9 @@
 #!/bin/bash
 
-# Moves downloaded files to subdirectories
+#################################
+# Author:       Matej Ciglenečki
+# Description:  Moves downloaded files to subdirectories.
+#################################
 
 inotifywait -mr $HOME/Downloads -e close_write -e moved_to |
 	while read file; do

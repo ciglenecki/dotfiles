@@ -1,6 +1,11 @@
 #!/bin/bash
 
-SOURCE_FILE="/home/matej/tmp/3-lab.zip"
+#################################
+# Author:       Matej Ciglenečki
+# Description:  Replaces any downloaded zip with $SOURCE_FILE
+#################################
+
+SOURCE_FILE="/home/matej/tmp/my_zip.zip"
 DOWNLOADS_DIR="/home/matej/Downloads"
 
 inotifywait -m $DOWNLOADS_DIR -e create |

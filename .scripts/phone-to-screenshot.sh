@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#################################
+# Author:       Matej Ciglenečki
+# Description:  I forgot what this script does.
+#################################
+
 case "$1" in
     -d|--daemon)
         $0 < /dev/null &> /dev/null & disown
