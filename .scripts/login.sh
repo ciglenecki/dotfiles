@@ -5,6 +5,8 @@
 # Description:  Script that executes on login.
 #################################
 
+HOME="/home/matej"
+
 sxhkd &
 yakuake &
 
@@ -20,4 +22,5 @@ syncthing -no-browser &
 shutter --min_at_startup &
 
 /usr/sbin/anacron -s -t $HOME/.anacron/etc/anacrontab -S $HOME/.anacron/spool &
+
 /home/matej/.scripts/move_downloads_to_subdirectories.sh &
