@@ -1,0 +1,165 @@
+[$Version]
+update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar,icons_remove_effects.upd:IconsRemoveEffects,kwin.upd:animation-speed
+
+[ColorEffects:Disabled]
+ChangeSelectionColor=
+Color=56,56,56
+ColorAmount=0
+ColorEffect=0
+ContrastAmount=0.65
+ContrastEffect=1
+Enable=
+IntensityAmount=0.1
+IntensityEffect=2
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=112,111,110
+ColorAmount=0.025
+ColorEffect=2
+ContrastAmount=0.1
+ContrastEffect=2
+Enable=false
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate=224,223,222
+BackgroundNormal=252,252,252
+DecorationFocus=226,28,31
+DecorationHover=226,98,100
+ForegroundActive=255,255,255
+ForegroundInactive=136,134,135
+ForegroundLink=0,12,255
+ForegroundNegative=255,219,38
+ForegroundNeutral=0,4,255
+ForegroundNormal=35,38,39
+ForegroundPositive=0,255,51
+ForegroundVisited=69,40,134
+
+[Colors:Complementary]
+BackgroundAlternate=59,64,69
+BackgroundNormal=49,54,59
+DecorationFocus=30,146,255
+DecorationHover=61,174,230
+ForegroundActive=246,116,0
+ForegroundInactive=175,176,179
+ForegroundLink=61,174,230
+ForegroundNegative=237,21,21
+ForegroundNeutral=201,206,59
+ForegroundNormal=239,240,241
+ForegroundPositive=17,209,22
+ForegroundVisited=61,174,230
+
+[Colors:Selection]
+BackgroundAlternate=62,138,204
+BackgroundNormal=255,42,45
+DecorationFocus=226,28,31
+DecorationHover=226,98,100
+ForegroundActive=255,255,255
+ForegroundInactive=172,28,33
+ForegroundLink=0,12,255
+ForegroundNegative=255,219,38
+ForegroundNeutral=0,4,255
+ForegroundNormal=255,255,255
+ForegroundPositive=0,255,51
+ForegroundVisited=69,40,134
+
+[Colors:Tooltip]
+BackgroundAlternate=196,224,255
+BackgroundNormal=252,252,252
+DecorationFocus=226,28,31
+DecorationHover=226,98,100
+ForegroundActive=255,255,255
+ForegroundInactive=136,134,135
+ForegroundLink=0,12,255
+ForegroundNegative=255,219,38
+ForegroundNeutral=0,4,255
+ForegroundNormal=0,255,21
+ForegroundPositive=0,255,51
+ForegroundVisited=69,40,134
+
+[Colors:View]
+BackgroundAlternate=241,241,241
+BackgroundNormal=252,252,252
+DecorationFocus=226,28,31
+DecorationHover=226,98,100
+ForegroundActive=255,255,255
+ForegroundInactive=136,134,135
+ForegroundLink=0,12,255
+ForegroundNegative=255,219,38
+ForegroundNeutral=0,4,255
+ForegroundNormal=39,38,38
+ForegroundPositive=0,255,51
+ForegroundVisited=69,40,134
+
+[Colors:Window]
+BackgroundAlternate=241,241,241
+BackgroundNormal=252,252,252
+DecorationFocus=226,28,31
+DecorationHover=226,98,100
+ForegroundActive=255,255,255
+ForegroundInactive=136,134,135
+ForegroundLink=0,12,255
+ForegroundNegative=255,219,38
+ForegroundNeutral=0,4,255
+ForegroundNormal=35,38,39
+ForegroundPositive=0,255,51
+ForegroundVisited=69,40,134
+
+[DirSelect Dialog]
+DirSelectDialog Size=1098,560
+History Items[$e]=file:///media/matej/sam/series,file:$HOME/6-literature,file:$HOME/6-literature,file:///media/matej/sam,file:$HOME/6-literature,file:$HOME/.config/CalibreLibrary/,file:$HOME/.config,file:$HOME/.config/CalibreLibrary,file:$HOME/.config,file:$HOME/2-fer/diprad/data/dataset.ignoreme,file:$HOME/Downloads,file:///media/matej/KingStone USB 8GB,file:$HOME/torrent,file:$HOME/torrent,file:$HOME/torrent
+
+[General]
+BrowserApplication=brave-browser.desktop
+ColorScheme=MatejRedWhite
+Name=Breeze
+dbfile=/home/matej/.mozilla/firefox/zt6yez1i.default/places.sqlite
+shadeSortColumn=true
+widgetStyle=Breeze
+
+[Icons]
+Theme=candy-icons
+
+[KDE]
+AnimationDurationFactor=0
+ColorScheme=Breeze
+LookAndFeelPackage=org.kubuntu.desktop
+ShowDeleteCommand=false
+contrast=4
+widgetStyle=Breeze
+
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=true
+Breadcrumb Navigation=false
+Decoration position=2
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Preview Width=494
+Show Bookmarks=false
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=false
+Show Speedbar=true
+Show hidden files=true
+Sort by=Name
+Sort directories first=true
+Sort reversed=false
+Speedbar Width=138
+View Style=DetailTree
+
+[KShortcutsDialog Settings]
+Dialog Size=856,599
+
+[PreviewSettings]
+MaximumRemoteSize=0
+
+[WM]
+activeBackground=190,0,0
+activeBlend=252,252,252
+activeForeground=250,231,231
+inactiveBackground=239,240,241
+inactiveBlend=75,71,67
+inactiveForeground=137,142,146

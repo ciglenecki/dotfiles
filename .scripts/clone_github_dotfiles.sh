@@ -12,7 +12,7 @@ mkdir -p $HOME/.cfg
 echo ".cfg" >> $HOME/.gitignore
 echo "setup_script.sh" >> $HOME/.gitignore
 
-git clone --bare https://github.com/matejciglenecki/dotfiles $HOME/.cfg
+git clone --bare https://github.com/ciglenecki/dotfiles $HOME/.cfg
 
 # Make all dirs for conflicted files
 mkdir -p .config-backup
