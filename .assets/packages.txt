@@ -82,6 +82,8 @@ calibre #ebooks
 # Education
 texlive-latex-extra
 texlive-lang-european
+texlive-extra
+texlive-extra-utils
 geogebra
 anki
 
@@ -99,4 +101,5 @@ rename
 findimagedupes
 curl
 net-tools
-texlive-extra-utils
+pdfnup
+veracrypt-console
