@@ -1,20 +1,20 @@
 [Background]
-Color=245,239,239
+Color=245,237,237
 
 [BackgroundFaint]
-Color=245,239,239
+Color=245,237,237
 
 [BackgroundIntense]
-Color=245,239,239
+Color=245,237,237
 
 [Color0]
-Color=217,212,212
+Color=217,211,211
 
 [Color0Faint]
-Color=217,212,212
+Color=217,211,211
 
 [Color0Intense]
-Color=217,212,212
+Color=217,211,211
 
 [Color1]
 Color=178,24,24

@@ -5,6 +5,7 @@ ColorScheme=WhiteOnBlack
 Font=Noto Mono,16,-1,5,50,0,0,0,0,0
 LineSpacing=0
 TabColor=255,0,0
+UseFontLineChararacters=false
 
 [General]
 Name=konsole-matej

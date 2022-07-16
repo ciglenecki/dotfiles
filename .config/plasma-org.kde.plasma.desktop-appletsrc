@@ -37,7 +37,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][28][Configuration]
-PreloadWeight=92
+PreloadWeight=100
 
 [Containments][2][Applets][28][Configuration][Appearance]
 boldText=true
@@ -64,7 +64,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
-PreloadWeight=92
+PreloadWeight=100
 
 [Containments][2][Applets][3][Configuration][Configuration/General]
 showAppsByName=true
@@ -137,17 +137,18 @@ PreloadWeight=0
 
 [Containments][2][Applets][41][Configuration][ConfigDialog]
 DialogHeight=540
-DialogWidth=720
+DialogWidth=1029
 
 [Containments][2][Applets][41][Configuration][Preferences]
 AddDesktopButtonShow=false
-DesktopIndicatorsCustomColorForCurrentDesktop=#6bc7ff
-DesktopIndicatorsCustomColorForDesktopsNeedingAttention=#ffffff
-DesktopIndicatorsCustomColorForIdleDesktops=#ffffff
-DesktopIndicatorsCustomColorForOccupiedIdleDesktops=#ffffff
+DesktopIndicatorsCustomColorForCurrentDesktop=#d40000
+DesktopIndicatorsCustomColorForIdleDesktops=#621c1c
+DesktopIndicatorsCustomColorForOccupiedIdleDesktops=#621c1c
+DesktopIndicatorsDistinctForOccupiedIdleDesktops=false
 DesktopIndicatorsDoNotOverrideOpacityOfCustomColors=true
 DesktopIndicatorsStyle=2
-DesktopLabelsCustomColor=#232627
+DesktopIndicatorsStyleBlockRadius=1
+DesktopLabelsCustomColor=#ffffff
 
 [Containments][2][Applets][6]
 immutability=1
@@ -161,7 +162,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][7][Configuration]
-PreloadWeight=89
+PreloadWeight=92
 SystrayContainmentId=8
 
 [Containments][2][ConfigDialog]
@@ -185,8 +186,8 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][31][ConfigDialog]
-DialogHeight=628
-DialogWidth=1012
+DialogHeight=727
+DialogWidth=1118
 
 [Containments][31][Configuration]
 PreloadWeight=0
@@ -197,8 +198,11 @@ ToolBoxButtonX=739
 ToolBoxButtonY=24
 sortMode=-1
 
+[Containments][31][Wallpaper][org.kde.color][General]
+Color=255,216,216
+
 [Containments][31][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Milky_Way/contents/images/5120x2880.png
+Image=file:///home/matej/2-media/wallpaper/red_sky.jpg
 
 [Containments][33]
 activityId=cc6d1c2b-777d-4eec-9d0d-3d1035c10498
@@ -265,7 +269,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][8][Applets][17][Configuration]
-PreloadWeight=21
+PreloadWeight=43
 
 [Containments][8][Applets][22]
 immutability=1
@@ -279,7 +283,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][23][Configuration]
-PreloadWeight=83
+PreloadWeight=85
 
 [Containments][8][Applets][24][Configuration]
 PreloadWeight=42
@@ -292,7 +296,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][8][Applets][31][Configuration]
-PreloadWeight=59
+PreloadWeight=51
 
 [Containments][8][Applets][31][Configuration][ConfigDialog]
 DialogHeight=540

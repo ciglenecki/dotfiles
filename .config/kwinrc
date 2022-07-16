@@ -32,7 +32,7 @@ DimKeepAbove=true
 Strength=15
 
 [Effect-Slide]
-Duration=10
+Duration=400
 
 [KDE]
 AnimationDurationFactor=0.5
@@ -58,16 +58,14 @@ CommandWindowWheel=Scroll
 [NightColor]
 Active=true
 Mode=Constant
-NightTemperature=2600
+NightTemperature=2500
 
 [Plugins]
 bismuthEnabled=false
 desktopchangeosdEnabled=false
 diminactiveEnabled=true
 krohnkiteEnabled=true
-kwin4_effect_fadedesktopEnabled=true
 minimizeallEnabled=false
-slideEnabled=false
 synchronizeskipswitcherEnabled=false
 videowallEnabled=false
 virtual-desktops-only-on-primaryEnabled=true

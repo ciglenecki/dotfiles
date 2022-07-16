@@ -6,6 +6,8 @@
 #               some variables depend on ~/.script/env.sh 
 #################################
 
+HOME="/home/matej"
+
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
