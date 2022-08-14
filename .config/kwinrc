@@ -29,7 +29,7 @@ Rows=1
 
 [Effect-DimInactive]
 DimKeepAbove=true
-Strength=15
+Strength=5
 
 [Effect-Slide]
 Duration=400
@@ -96,6 +96,10 @@ keepFloatAbove=false
 maximizeSoleTile=true
 monocleMaximize=false
 noTileBorder=true
+screenGapBottom=5
+screenGapLeft=5
+screenGapRight=5
+screenGapTop=5
 tileLayoutGap=5
 
 [TabBox]

@@ -34,7 +34,7 @@ ForegroundLink=0,12,255
 ForegroundNegative=255,219,38
 ForegroundNeutral=0,4,255
 ForegroundNormal=35,38,39
-ForegroundPositive=0,255,51
+ForegroundPositive=255,255,255
 ForegroundVisited=69,40,134
 
 [Colors:Complementary]
@@ -62,12 +62,12 @@ ForegroundLink=0,12,255
 ForegroundNegative=255,219,38
 ForegroundNeutral=0,4,255
 ForegroundNormal=255,255,255
-ForegroundPositive=0,255,51
+ForegroundPositive=255,255,255
 ForegroundVisited=69,40,134
 
 [Colors:Tooltip]
 BackgroundAlternate=196,224,255
-BackgroundNormal=252,252,252
+BackgroundNormal=113,0,0
 DecorationFocus=226,28,31
 DecorationHover=226,98,100
 ForegroundActive=255,255,255
@@ -75,8 +75,8 @@ ForegroundInactive=136,134,135
 ForegroundLink=0,12,255
 ForegroundNegative=255,219,38
 ForegroundNeutral=0,4,255
-ForegroundNormal=0,255,21
-ForegroundPositive=0,255,51
+ForegroundNormal=255,255,255
+ForegroundPositive=255,255,255
 ForegroundVisited=69,40,134
 
 [Colors:View]
@@ -90,7 +90,7 @@ ForegroundLink=0,12,255
 ForegroundNegative=255,219,38
 ForegroundNeutral=0,4,255
 ForegroundNormal=39,38,38
-ForegroundPositive=0,255,51
+ForegroundPositive=255,255,255
 ForegroundVisited=69,40,134
 
 [Colors:Window]
@@ -104,7 +104,7 @@ ForegroundLink=0,12,255
 ForegroundNegative=255,219,38
 ForegroundNeutral=0,4,255
 ForegroundNormal=35,38,39
-ForegroundPositive=0,255,51
+ForegroundPositive=255,255,255
 ForegroundVisited=69,40,134
 
 [DirSelect Dialog]
@@ -149,6 +149,10 @@ Sort directories first=true
 Sort reversed=false
 Speedbar Width=138
 View Style=DetailTree
+
+[KScreen]
+ScaleFactor=1
+ScreenScaleFactors=eDP-1=1;DP-1=1;HDMI-1=1;
 
 [KShortcutsDialog Settings]
 Dialog Size=856,599
