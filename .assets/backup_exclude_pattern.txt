@@ -10,8 +10,6 @@ ehthumbs.db
 Thumbs.db
 gitrepo/
 .git
-*ignoreme*
-*-ignore*
 venv/
 __pycache__y
 */cache/

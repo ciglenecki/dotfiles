@@ -1,17 +1,17 @@
-340.8812109811865	/home/matej/Downloads
+351.14099732158905	/home/matej/Downloads
 33.166247903554	/home/matej/tmp/krohnkite
 75.49834435270752	/home/matej/tmp/virtual-desktop-bar
 28.284271247461902	/home/matej/.config-backup
-80.00000000000001	/home/matej/.config
+87.74964387392123	/home/matej/.config
 26.457513110645905	/home/matej/.config/Insync
-248.99799195977496	/home/matej/tmp
-203.22401432901574	/media/matej/sam
+249.39927826679883	/home/matej/tmp
+210.71307505705482	/media/matej/sam
 53.851648071345046	/media/matej/sam/home-matej-2021-10-04-00-42-20
 20.0	/media/matej/sam/home-matej-2021-10-04-00-42-20/4-pictures
 10.0	/media/matej/sam/home-matej-2021-10-04-00-42-20/4-pictures/screenshots
 14.142135623730951	/media/matej/sam/home-matej-2021-10-04-00-42-20/5-backup
 89.44271909999159	/home/matej/4-pictures
-70.00000000000001	/media/matej/sam/home-matej-2021-07-19
+71.41428428542852	/media/matej/sam/home-matej-2021-07-19
 20.0	/media/matej/sam/home-matej-2021-07-19/4-pictures
 20.0	/media/matej/sam/home-matej-2021-07-19/4-pictures/screenshots
 135.27749258468674	/home/matej/4-pictures/screenshots
@@ -22,7 +22,7 @@
 20.0	/media/matej/disk
 17.320508075688775	/media/matej/disk/DCIM
 17.320508075688775	/media/matej/disk/DCIM/100MSDCF
-144.56832294800955	/home/matej/1-documents
+145.25839046333945	/home/matej/1-documents
 24.49489742783178	/home/matej/1-documents/receipt
 38.729833462074176	/home/matej/2-fer/strojno
 20.0	/home/matej/4-pictures/wallpaper
@@ -38,9 +38,9 @@
 20.0	/home/matej/Downloads/val_set/images
 22.360679774997898	/home/matej/Downloads/val_set/annotations
 37.41657386773942	/home/matej/4-pictures/avi
-167.63054614240207	/home/matej/0-notes
-115.75836902790222	/media/matej/sam/series
-106.30145812734645	/media/matej/sam/movies
+169.99999999999997	/home/matej/0-notes
+121.65525060596434	/media/matej/sam/series
+107.23805294763604	/media/matej/sam/movies
 24.49489742783178	/media/matej/ex-gep/_otherpeople
 30.000000000000004	/home/matej/2-fer/struce/natuknice
 24.49489742783178	/usr/share/wallpapers/Milky_Way/contents/images
@@ -63,7 +63,7 @@
 46.904157598234306	/home/matej/Desktop
 14.142135623730951	/home/matej/dotfiles
 53.851648071345046	/home/matej/_tmp
-119.58260743101391	/home/matej/6-literature
+144.22205101855954	/home/matej/6-literature
 238.9560629069706	/home/matej/2-fer/sap
 235.58437978779514	/home/matej/2-fer/uuzop
 30.000000000000004	/home/matej/2-fer/natpro/0-lit
@@ -126,7 +126,7 @@
 42.42640687119286	/home/matej/2-fer/nos/0-literature
 20.0	/media/matej/sam/$RECYCLE.BIN
 30.000000000000004	/home/matej/2-fer/diprad/src/.venv
-166.13247725836146	/home/matej/torrent
+167.63054614240207	/home/matej/torrent
 58.30951894845301	/home/matej/tmp/qBittorrent
 31.622776601683796	/home/matej/tmp/qBittorrent-release-4.3.7
 181.10770276274835	/home/matej/2-fer/nasp/3-labs/2-lab
@@ -211,7 +211,7 @@
 38.729833462074176	/home/matej/5-backup/windows
 14.142135623730951	/home/matej/5-backup/windows/keyboard-us-pet
 10.0	/home/matej/5-backup/windows/keyboard-us-pet/ia64
-44.7213595499958	/home
+50.00000000000001	/home
 24.49489742783178	/home/matej/mne_data
 171.75564037317667	/home/matej/2-fer/nos/3-labs/1-lab/zad2
 24.49489742783178	/home/matej/2-fer/nos/3-labs/1-lab/zad1
@@ -221,7 +221,7 @@
 106.77078252031306	/home/matej/2-fer/nasp/3-labs/3-lab
 14.142135623730951	/home/matej/2-fer/uuzop/projekt/venv
 24.49489742783178	/home/matej/1-documents/_archived
-154.59624833740298	/home/matej/1-documents/work
+163.40134638368184	/home/matej/1-documents/work
 44.7213595499958	/home/matej/Downloads/aadscodes
 783.3262411026442	/home/matej/2-fer/uuzop/eeg-driver-fatigue-detection
 22.360679774997898	/home/matej/2-fer/uuzop/projekt/home
@@ -235,11 +235,11 @@
 85.44003745317532	/home/matej/tmp/spotify_random_saved_album
 22.360679774997898	/home/matej/tmp/spotify_random_saved_album/pics
 58.30951894845301	/home/matej/tmp/spotify-random-saved-album
-196.21416870348583	/home/matej/projects
-273.3130073743292	/home/matej/projects/spotify-random-saved-album
+203.71548787463362	/home/matej/projects
+275.6809750418047	/home/matej/projects/spotify-random-saved-album
 72.1110255092798	/home/matej/projects/spotify-random-saved-album/pics
 97.4679434480896	/home/matej/2-fer/uuzop/eeg-driver-fatigue-detection/src
-183.30302779823364	/home/matej/projects/matejciglenecki.github.io
+185.20259177452138	/home/matej/projects/matejciglenecki.github.io
 14.142135623730951	/home/matej/2-fer/uuzop/eeg-driver-fatigue-detection/home
 17.320508075688775	/home/matej/2-fer/uuzop/eeg-driver-fatigue-detection/home/matej
 26.457513110645905	/home/matej/2-fer/uuzop/eeg-driver-fatigue-detection/home/matej/2-fer/uuzop/projekt
@@ -258,7 +258,7 @@
 66.33249580710802	/home/matej/2-fer/sap/auditorne
 33.166247903554	/home/matej/2-fer/sap/auditorne/2-auditorne-vjezbe
 28.284271247461902	/home/matej/2-fer/sap/auditorne/1-auditorna-vjezba
-43.588989435406745	/home/matej/.config/BraveSoftware/Brave-Browser
+45.82575694955841	/home/matej/.config/BraveSoftware/Brave-Browser
 14.142135623730951	/home/matej/.config/BraveSoftware/Brave-Browser/afalakplffnnnlkncjhbmahjfjhmlkal
 33.166247903554	/home/matej/tmp/exploratory-data-analysis-simpsons
 47.9583152331272	/home/matej/2-fer/sap/cheatsheet
@@ -363,7 +363,7 @@
 14.142135623730951	/media/matej/ex-gep/home-matej-2021-10-04-00-42-20/3-archive/2020-memgraph
 14.142135623730951	/media/matej/ex-gep/drive-backup-2021-05-20-00-51-31/3-archive
 17.320508075688775	/media/matej/ex-gep/drive-backup-2021-05-20-00-51-31/3-archive/old
-139.99999999999994	/home/matej/.scripts
+145.25839046333945	/home/matej/.scripts
 58.30951894845301	/media/matej/ex-gep/.backup-CD
 119.58260743101391	/media/matej/ex-gep/.backup-CD/D
 43.588989435406745	/media/matej/ex-gep/.backup-CD/D/2-fer
@@ -584,7 +584,7 @@
 14.142135623730951	/media/matej/ex-gep/.backup-CD/C/Program Files Portable
 14.142135623730951	/media/matej/ex-gep/.backup-CD/C/Users/matej
 34.64101615137755	/media/matej/sam/test
-74.16198487095664	/media/matej
+78.74007874011812	/media/matej
 31.622776601683796	/mnt
 36.0555127546399	/media
 30.000000000000004	/media/matej/sam/vera-mount
@@ -596,11 +596,11 @@
 10.0	/media/matej/ex-gep/backup-files
 14.142135623730951	/media/matej/ex-gep/backup-CD
 14.142135623730951	/media/matej/ex-gep/backup-CD/D
-40.00000000000001	/media/matej/Kindle
-14.142135623730951	/media/matej/Kindle/audible
-30.000000000000004	/media/matej/Kindle/documents
-20.0	/media/matej/Kindle/documents/dictionaries
-33.166247903554	/media/matej/Kindle/documents/Downloads
+70.71067811865477	/media/matej/Kindle
+28.284271247461902	/media/matej/Kindle/audible
+64.0312423743285	/media/matej/Kindle/documents
+30.000000000000004	/media/matej/Kindle/documents/dictionaries
+46.904157598234306	/media/matej/Kindle/documents/Downloads
 60.827625302982206	/media/matej/Kindle/documents/matej
 24.49489742783178	/media/matej/Kindle/documents/matej/Edmund J. Bourne - The Anxiety and Phobia Workbook-New Harbinger Publications (2011).sdr
 20.0	/media/matej/Kindle/documents/matej/The Economist
@@ -610,12 +610,12 @@
 20.0	/media/matej/Kindle/documents/matej/James Clear
 14.142135623730951	/media/matej/Kindle/documents/matej/David A Carbonell
 10.0	/media/matej/Kindle/documents/matej/Alice Boyes, Ph.D
-14.142135623730951	/media/matej/Kindle/system
-10.0	/media/matej/Kindle/documents/Downloads/Items01
+33.166247903554	/media/matej/Kindle/system
+40.00000000000001	/media/matej/Kindle/documents/Downloads/Items01
 14.142135623730951	/media/matej/Kindle/documents/matej/J. K. Rowling
 20.0	/media/matej/Kindle/documents/matej/The Selfish Gene - Richard Dawkings
 10.0	/media/matej/Kindle/documents/matej/Zločin I Kazna - Dostojevski
-10.0	/media/matej/Kindle/fonts
+17.320508075688775	/media/matej/Kindle/fonts
 54.772255750516614	/home/matej/2-fer/tehpod/seminar
 10.0	/home/matej/Downloads/tb
 20.0	/home/matej/2-fer/sap/auditorne/Repository
@@ -676,11 +676,11 @@
 30.000000000000004	/home/matej/6-literature/the-economist
 17.320508075688775	/home/matej/2-fer/uuzop/eeg-driver-fatigue-detection/data/reports/backup
 22.360679774997898	/home/matej/2-fer/uuzop/eeg-driver-fatigue-detection/data/figures/backup
-1138.4199576606156	/home/matej/projects/lumen-geoguesser
+1153.863076798974	/home/matej/projects/lumen-geoguesser
 106.30145812734645	/home/matej/projects/lumen-geoguesser/src
 376.5634076752553	/home/matej/projects/lumen-geoguesser/data
 73.48469228349536	/home/matej/projects/lumen-geoguesser/readme-pics
-91.6515138991168	/home/matej/projects/lumen-geoguesser/models
+92.73618495495703	/home/matej/projects/lumen-geoguesser/models
 83.06623862918076	/home/matej/projects/lumen-geoguesser/references
 185.20259177452138	/home/matej/projects/lumen-geoguesser/reports
 42.42640687119286	/home/matej/projects/lumen-geoguesser/venv
@@ -1099,7 +1099,7 @@
 26.457513110645905	/home/matej/projects/lumen-geoguesser/data/raw_example/train
 14.142135623730951	/home/matej/projects/lumen-geoguesser/data/raw_example/val
 131.52946437965903	/home/matej/projects/lumen-geoguesser/data/coord_sampler
-40.00000000000001	/run/user/1000/ff4badd4f3dc52e9
+41.231056256176615	/run/user/1000/ff4badd4f3dc52e9
 20.0	/home/matej/torrent/_downloading
 14.142135623730951	/home/matej/torrent/_downloading/Curb Your Enthusiasm
 10.0	/media/matej/sam/Curb Your Enthusiasm
@@ -1188,7 +1188,7 @@
 20.0	/home/matej/Downloads/images/0006a268-e3df-497d-a4bf-32b4519b31cb
 24.49489742783178	/home/matej/projects/lumen-geoguesser/reports/22-04-22-01-52-53-Quebec_64-num_classes_53
 14.142135623730951	/home/matej/projects/lumen-geoguesser/reports/22-04-22-01-52-53-Quebec_64-num_classes_53/version_0
-126.49110640673511	/home/matej/projects/lumen-geoguesser/docs
+126.88577540449515	/home/matej/projects/lumen-geoguesser/docs
 22.360679774997898	/home/matej/2-fer/__archived_subjects.ignoreme/mrepro/3-labs
 26.457513110645905	/home/matej/2-fer/__archived_subjects.ignoreme/mrepro/0-lit
 28.284271247461902	/home/matej/2-fer/__archived_subjects.ignoreme/mrepro/5-dz
@@ -1200,7 +1200,7 @@
 14.142135623730951	/home/matej/projects/lumen-geoguesser/reports/22-04-21-23-12-07-Papa_90-regression
 14.142135623730951	/home/matej/projects/lumen-geoguesser/reports/22-04-21-23-12-07-Papa_90-regression/version_0
 10.0	/home/matej/projects/lumen-geoguesser/reports/22-04-21-23-12-07-Papa_90-regression/version_0/checkpoints
-50.00000000000001	/etc/apt/sources.list.d
+76.8114574786861	/etc/apt/sources.list.d
 14.142135623730951	/etc/apt
 14.142135623730951	/home/matej/Downloads/model
 10.0	/home/matej/Downloads/model/checkpoints
@@ -1210,7 +1210,7 @@
 33.166247903554	/media/matej/sam/home-matej-2021-07-19/2-fer
 20.0	/media/matej/sam/home-matej-2021-07-19/1-documents
 22.360679774997898	/media/matej/sam/home-matej-2021-07-19/0-notes
-87.74964387392123	/media/matej/sam/_large_files
+90.0	/media/matej/sam/_large_files
 14.142135623730951	/home/matej/VirtualBox VMs/OdooDev
 128.84098726725122	/home/matej/projects/lumen-geoguesser/src/app
 20.0	/home/matej/projects/lumen-geoguesser/reports/India_48__num_classes_53__05-01-19-28-43
@@ -1450,7 +1450,7 @@
 14.142135623730951	/home/matej/2-fer/seminar2/figures/image samples/e5eec1af-3a3f-489b-993d-4187384c77c9
 14.142135623730951	/home/matej/2-fer/seminar2/figures/image samples/e5f03ebe-bff8-428a-8f94-e1c90484dfaf
 14.142135623730951	/home/matej/2-fer/seminar2/figures/image samples/e5f14c02-efd2-4a72-ad99-9ffb1fa1990c
-62.44997998398399	/media/matej/sam/seminar2
+67.08203932499372	/media/matej/sam/seminar2
 116.61903789690597	/home/matej/2-fer/dubuce/3-labs/4-lab
 20.0	/home/matej/2-fer/dubuce/3-labs/4-lab/minst.ignoreme
 20.0	/home/matej/2-fer/dubuce/3-labs/4-lab/minst.ignoreme/MNIST
@@ -1535,7 +1535,7 @@
 10.0	/home/matej/3-archive/2013-2017-highschool/4-r/IPMAT/4RH - IPMAT - Karte/Source
 14.142135623730951	/home/matej/3-archive/2013-2017-highschool/4-r/IPMAT/4RH - IPMAT - Karte/Finished cards
 14.142135623730951	/home/matej/3-archive/2013-2017-highschool/3-r/FIZ/3RH - FIZ - Plin
-59.16079783099617	/home/matej/5-assets
+60.827625302982206	/home/matej/5-assets
 14.142135623730951	/home/matej/3-archive/2020-10-chemedu
 36.0555127546399	/home/matej/2-fer/posint/1-lec
 10.0	/home/matej/2-fer/posint/3-labs/1-lab
@@ -1578,24 +1578,24 @@
 24.49489742783178	/home/matej/3-media
 17.320508075688775	/home/matej/.config/autostart-scripts
 20.0	/home/matej/miniconda3
-109.0871211463571	/home/matej/fer
+109.54451150103318	/home/matej/fer
 72.8010988928052	/home/matej/fer/__other
 20.0	/home/matej/DataGripProjects
 10.0	/home/matej/DataGripProjects/test
-47.9583152331272	/home/matej/3-audio
-83.66600265340756	/home/matej/4-education
-56.568542494923804	/home/matej/4-education/_archived
+50.990195135927856	/home/matej/3-audio
+110.45361017187257	/home/matej/4-education
+60.00000000000001	/home/matej/4-education/_archived
 14.142135623730951	/home/matej/0-notes/.obsidian
 10.0	/home/matej/1-documents/_archived/conty
 10.0	/home/matej/1-documents/_archived/old
 30.000000000000004	/home/matej/1-documents/finance
 10.0	/home/matej/1-documents/travel
-56.568542494923804	/home/matej/2-media
+61.64414002968977	/home/matej/2-media
 10.0	/home/matej/5-assets/datasets
-26.457513110645905	/home/matej/4-education/datasets
+31.622776601683796	/home/matej/4-education/datasets
 14.142135623730951	/home/matej/5-assets/apk
 10.0	/home/matej/5-assets/windows
-67.82329983125271	/home/matej/4-education/books
+94.33981132056601	/home/matej/4-education/books
 10.0	/home/matej/_tmp/matej_filip_ucenje/ap
 22.360679774997898	/home/matej/.anaconda_backup
 41.231056256176615	/home/matej/fer/dubuce
@@ -1634,14 +1634,14 @@
 58.30951894845301	/home/matej/fer/map
 24.49489742783178	/home/matej/fer/__other/dir_struct
 10.0	/home/matej/fer/__other/dir_struct/0-literature
-112.2497216032182	/home/matej/fer/finmat
+183.57559750685823	/home/matej/fer/finmat
 14.142135623730951	/home/matej/fer/__other/dir_struct/5-exercises
 10.0	/home/matej/_drive_backup2022-07-02-22-20-56
 40.00000000000001	/home/matej/__backuop
-30.000000000000004	/home/matej/3-audio/audiobooks-ignoreme
+36.0555127546399	/home/matej/3-audio/audiobooks-ignoreme
 14.142135623730951	/home/matej/3-audio/audiobooks-ignoreme/Little Miss Sunshine (2006)
 20.0	/home/matej/3-audio/audiobooks-ignoreme/Mary Beard -- S.P.Q.R. (2015)/Mary Beard TV Programme
-26.457513110645905	/home/matej/3-audio/audiobooks-ignoreme/Mary Beard -- S.P.Q.R. (2015)/Mary Beard Ebooks
+30.000000000000004	/home/matej/3-audio/audiobooks-ignoreme/Mary Beard -- S.P.Q.R. (2015)/Mary Beard Ebooks
 14.142135623730951	/home/matej/3-audio/audiobooks-ignoreme/Mary Beard -- S.P.Q.R. (2015)/Mary Beard Ebooks/SPQR - A History of Ancient Rome (2015)
 14.142135623730951	/home/matej/3-audio/audiobooks-ignoreme/Mary Beard -- S.P.Q.R. (2015)
 10.0	/home/matej/6-literature/SPQR - A History of Ancient Rome (2015)
@@ -1662,12 +1662,12 @@
 22.360679774997898	/home/matej/tmp/a/gaudf-ignoreme
 17.320508075688775	/home/matej/2-media/camera/Camera
 22.360679774997898	/home/matej/2-media/camera.ignoreme/Camera
-41.231056256176615	/home/matej/2-media/camera.ignoreme
+43.588989435406745	/home/matej/2-media/camera.ignoreme
 20.0	/home/matej/2-media/camera.ignoreme/OpenCamera
-22.360679774997898	/home/matej/2-media/camera.ignoreme/Screenshots
+26.457513110645905	/home/matej/2-media/camera.ignoreme/Screenshots
 30.000000000000004	/home/matej/fer/sap/4-exams
 14.142135623730951	/home/matej/2-media/icons
-28.284271247461902	/home/matej/2-media/avi
+31.622776601683796	/home/matej/2-media/avi
 17.320508075688775	/home/matej/2-media/camera.ignoreme/todo
 17.320508075688775	/home/matej/2-media/camera.ignoreme/GIF
 14.142135623730951	/home/matej/2-media/camera.ignoreme/fer dipl bckp
@@ -1685,8 +1685,8 @@
 65.57438524302002	/home/matej/fer/map/1-lectures
 24.49489742783178	/home/matej/fer/map/1-lectures/new_dir
 14.142135623730951	/home/matej/fer/map/0-lit
-47.9583152331272	/home/matej/fer/finmat/5-exercises
-57.44562646538029	/home/matej/fer/finmat/1-lectures
+91.10433579144299	/home/matej/fer/finmat/5-exercises
+96.95359714832654	/home/matej/fer/finmat/1-lectures
 22.360679774997898	/home/matej/fer/finmat/1-lectures/video.ignoreme
 24.49489742783178	/home/matej/fer/finmat/studosi
 17.320508075688775	/home/matej/fer/finmat/studosi/ispiti
@@ -1729,10 +1729,10 @@
 34.64101615137755	/home/matej/fer/finmat/studosi rename/vjezba/zzv/2013-14
 14.142135623730951	/home/matej/fer/finmat/studosi rename/vjezba/zzv/2009-10/dodatak
 33.166247903554	/home/matej/fer/finmat/5-exercises/original
-30.000000000000004	/home/matej/fer/finmat/4-exams
-34.64101615137755	/home/matej/fer/finmat/5-exercises/solved
-37.41657386773942	/home/matej/fer/finmat/studosi.ignoreme
-17.320508075688775	/home/matej/fer/finmat/1-lectures/video
+60.827625302982206	/home/matej/fer/finmat/4-exams
+46.904157598234306	/home/matej/fer/finmat/5-exercises/solved
+38.729833462074176	/home/matej/fer/finmat/studosi.ignoreme
+60.00000000000001	/home/matej/fer/finmat/1-lectures/video
 17.320508075688775	/home/matej/fer/finmat/studosi.ignoreme/ispiti
 14.142135623730951	/home/matej/fer/finmat/studosi.ignoreme/vjezba/zzv
 26.457513110645905	/home/matej/fer/finmat/studosi.ignoreme/vjezba/zzv/2009-10
@@ -1752,7 +1752,7 @@
 14.142135623730951	/media/matej/sam1/series/World Peace
 20.0	/home/matej/tmp/testing-borg
 14.142135623730951	/home/matej/.r
-10.0	/home/matej/4-education/papers
+22.360679774997898	/home/matej/4-education/papers
 20.0	/home/matej/projects/diprad/test
 20.0	/home/matej/projects/MaskTheFace/test
 14.142135623730951	/home/matej/projects/MaskTheFace/test/_masked
@@ -1789,7 +1789,7 @@
 14.142135623730951	/home/matej/tmp/borg_web/borgweb/js
 238.3275057562599	/home/matej/projects/ursula-pca
 10.0	/home/matej/projects/ursula-pca/original
-47.9583152331272	/media/matej/sam/series/Curb Your Enthusiasm
+67.82329983125271	/media/matej/sam/series/Curb Your Enthusiasm
 26.457513110645905	/media/matej/sam/series/Curb Your Enthusiasm/Season 2
 14.142135623730951	/home/matej/Downloads/curb.your.enthusiasm.s02.e02.thor.(2001).eng.1cd.(3671972) (1)
 14.142135623730951	/home/matej/1-documents/work/axillis
@@ -1803,10 +1803,10 @@
 10.0	/home/matej/0-notes/PureWriter/App
 46.904157598234306	/home/matej/.gnupg
 30.000000000000004	/home/matej/.gnupg/private-keys-v1.d
-31.622776601683796	/media/matej/c055611e-7203-41fd-9837-2065233f92ce
-84.2614977317636	/media/matej/gep
-30.000000000000004	/media/matej/veracrypt
-20.0	/media/matej/gep/backup-files
+36.0555127546399	/media/matej/c055611e-7203-41fd-9837-2065233f92ce
+90.55385138137417	/media/matej/gep
+47.9583152331272	/media/matej/veracrypt
+22.360679774997898	/media/matej/gep/backup-files
 14.142135623730951	/media/matej/veracrypt/tmp
 10.0	/media/matej/sam/home-matej-2021-07-19/5-backup
 14.142135623730951	/media/matej/sam/home-matej-2021-07-19/3-archive
@@ -1816,7 +1816,7 @@
 14.142135623730951	/media/matej/sam/home-matej-2021-07-19/2-fer/irg
 14.142135623730951	/media/matej/sam/home-matej-2021-07-19/2-fer/_other
 37.41657386773942	/media/matej/gep/drive-backup-2021-05-20-00-51-31
-28.284271247461902	/media/matej/gep/backup-CD
+30.000000000000004	/media/matej/gep/backup-CD
 17.320508075688775	/media/matej/gep/drive-backup-2021-05-20-00-51-31/2-fer
 10.0	/media/matej/gep/drive-backup-2021-05-20-00-51-31/3-archive
 14.142135623730951	/media/matej/gep/drive-backup-2021-05-20-00-51-31/1-documents
@@ -1828,9 +1828,9 @@
 14.142135623730951	/media/matej/gep/backup-CD/D
 31.622776601683796	/media/matej/gep/installation-games
 30.000000000000004	/home/matej/.anacron
-40.00000000000001	/home/matej/Downloads/pics
-22.360679774997898	/home/matej/Downloads/docs
-20.0	/home/matej/Downloads/zips
+44.7213595499958	/home/matej/Downloads/pics
+51.96152422706633	/home/matej/Downloads/docs
+53.851648071345046	/home/matej/Downloads/zips
 10.0	/home/matej/.anaconda_backup/2022-06-05T001537
 10.0	/home/matej/.config-backup/.local
 10.0	/home/matej/.config-backup/.local/share
@@ -1849,19 +1849,19 @@
 10.0	/media/matej/sam/home-matej-2021-07-19/_tmp/2020-11-06-focused-crikvenica-ursula
 20.0	/home/matej/torrent/Better.Call.Saul.S06E08.Point.And.Shoot.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx]
 99.49874371066196	/media/matej/sam/_large_files/_studosi_github
-14.142135623730951	/home/matej/2-media/screenshots
+17.320508075688775	/home/matej/2-media/screenshots
 17.320508075688775	/home/matej/.shutter
 14.142135623730951	/home/matej/.shutter/profiles
 14.142135623730951	/home/matej/.dbus
-28.284271247461902	/media/matej/gep/_otherpeople
+30.000000000000004	/media/matej/gep/_otherpeople
 17.320508075688775	/home/matej/fer/__archived_subjects.ignoreme/nos
 14.142135623730951	/media/matej/sam/_large_files/_studosi_github/ENETEH
 20.0	/media/matej/sam/_large_files/_studosi_github/ENETEH/ispiti
 93.27379053088814	/home/matej/projects/nerf-research
 20.0	/home/matej/projects/nerf/data
 38.729833462074176	/media/matej/sam/_large_files/here
-114.45523142259593	/home/matej/projects/nerf-research/references
-10.0	/home/matej/Downloads/videos
+114.89125293076053	/home/matej/projects/nerf-research/references
+28.284271247461902	/home/matej/Downloads/videos
 10.0	/media/matej/sam/_large_files/_studosi_github/BAZPOD
 10.0	/media/matej/sam/_large_files/_studosi_github/AAIS
 10.0	/media/matej/sam/_large_files/_studosi_github/APS
@@ -1871,16 +1871,114 @@
 24.49489742783178	/media/matej/sam/seminar2/figures
 14.142135623730951	/media/matej/sam/seminar2/figures/image samples
 10.0	/media/matej/sam/seminar2/figures/highres
-24.49489742783178	/media/matej/sam/series/Curb Your Enthusiasm/Season 3
+28.284271247461902	/media/matej/sam/series/Curb Your Enthusiasm/Season 3
 14.142135623730951	/home/matej/projects/nerf-pytorch/venv
 14.142135623730951	/home/matej/torrent/Better.Call.Saul.S06E10.1080p.WEB.H264-GLHF[rarbg]
 14.142135623730951	/home/matej/projects/nerf-research/reports
 14.142135623730951	/media/matej/gep/installation-programs
 14.142135623730951	/media/matej/sam/series/Impractical Jokers/Impractical Jokers S06 Season 6 [1080p WEB-DL x265 AAC 5.1]-CPT
 14.142135623730951	/media/matej/gep/installation-games/Jackbox
-20.0	/media/matej/sam/series/Curb Your Enthusiasm/Season 4
+26.457513110645905	/media/matej/sam/series/Curb Your Enthusiasm/Season 4
 10.0	/media/matej/sam/series/Curb Your Enthusiasm/Season 4/Subs
 28.284271247461902	/home/matej/torrent/Better.Call.Saul.S06E12.Waterworks.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[rarbg]
-28.284271247461902	/media/matej/sam/Better.Call.Saul.S06E12.Waterworks.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[rarbg]
+30.000000000000004	/media/matej/sam/Better.Call.Saul.S06E12.Waterworks.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[rarbg]
 10.0	/media/matej/sam/bcs12
 17.320508075688775	/home/matej/tmp/recup_dir.1
+34.64101615137755	/media/matej/sam/series/Curb Your Enthusiasm/Season 5
+22.360679774997898	/media/matej/sam/bcs13
+17.320508075688775	/media/matej/sam/bcs13/Better.Call.Saul.S06E13.1080p.WEB.H264-GGEZ[rarbg]
+10.0	/media/matej/Kindle/system/kindleCurator/data
+14.142135623730951	/media/matej/Kindle/system/kindleCurator
+20.0	/media/matej/Kindle/documents/Downloads/Items01/Zločin i kazna_M2YZ6ZLOAI6KJXDXQEVY45WAQF3SK7K3.sdr
+17.320508075688775	/media/matej/Kindle/documents/Downloads/Items01/The New Oxford American Dictionary_B0053VMNY2.sdr
+10.0	/media/matej/Kindle/documents/Downloads/Items01/The Iliad_CLAKOKYUWKEB5LV6CIPMHKF77BUEH6OF.sdr
+14.142135623730951	/media/matej/Kindle/documents/Downloads/Items01/Laughter in Ancient Rome_EURFBXUPRHPSI3XLZKPTZDH5S3JYASWE.sdr
+10.0	/media/matej/Kindle/documents/Downloads/Items01/INFO_David McCullough_1776 (Unabridged)_FerraBit_XBWS7ZGE4GOVSIISSOI5LPJLC3WYVJ7F.sdr
+10.0	/media/matej/Kindle/documents/Downloads/Items01/Hrvatski bog Mars_PFWLCNGV7JFXJ2RYFO6K5IUHAUWNGHG7.sdr
+10.0	/media/matej/Kindle/documents/Downloads/Items01/Darkest Hour_VHUSK4GW66JI6W7Y7WRLHM375LPVF4BJ.sdr
+14.142135623730951	/media/matej/Kindle/documents/Downloads/Items01/Charles Petzold - Code_ The Hidden Language of Computer Hardware and Software  -Microsoft Press (2000)_4DUAQ5JMV74LD7JX54WAHP55DTGK44BZ.sdr
+14.142135623730951	/home/matej/.config/CalibreLibrary/calibre/TheEconomist.2021.05.01 [Fri, 30 Apr 2021] (4)
+14.142135623730951	/home/matej/6-literature/Calibre
+14.142135623730951	/home/matej/.conda
+22.360679774997898	/home/matej/.config/CalibreLibrary
+14.142135623730951	/home/matej/.config/CalibreLibrary/Robert Homer
+10.0	/home/matej/.config/CalibreLibrary/Robert Homer/The Iliad (3)
+14.142135623730951	/home/matej/.config/CalibreLibrary/Miroslav Krleza
+10.0	/home/matej/.config/CalibreLibrary/Miroslav Krleza/Hrvatski bog Mars (11)
+14.142135623730951	/home/matej/.config/CalibreLibrary/Anthony McCarten
+10.0	/home/matej/.config/CalibreLibrary/Anthony McCarten/Darkest Hour (21)
+47.9583152331272	/home/matej/6-literature_backup
+17.320508075688775	/home/matej/6-literature_backup/the-economist
+20.0	/home/matej/6-literature/Alexandre Dumas
+14.142135623730951	/home/matej/6-literature/Alexandre Dumas/The Count of Monte Cristo, Illustrated (14)
+36.0555127546399	/home/matej/6-literature/Anthony McCarten
+14.142135623730951	/home/matej/6-literature/Anthony McCarten/Darkest Hour (1)
+10.0	/home/matej/6-literature/Antun Gustav Matos/Novo iverje (13)
+26.457513110645905	/home/matej/6-literature/Ivan Mazuranic
+17.320508075688775	/home/matej/6-literature/Ivan Mazuranic/Smrt Smail-age Cengica (10)
+22.360679774997898	/media/matej/Kindle/amazon-cover-bug
+10.0	/media/matej/Kindle/voice
+10.0	/media/matej/Kindle/documents/Zlocin i kazna by Dostojevski, Fjodor M_
+14.142135623730951	/media/matej/Kindle/documents/SPQR_ A history of Ancient Rome by Beard, Mary
+14.142135623730951	/media/matej/Kindle/documents/SPQR_ A history of Ancient Rome by Beard, Mary/SPQR_ A history of Ancient Rome by Mary Beard.sdr
+10.0	/media/matej/Kindle/documents/Count of Monte Cristo, Illustrated, The by Dumas, Alexandre
+10.0	/media/matej/Kindle/documents/Gospoda Glembajevi by Krleza, Miroslav
+10.0	/media/matej/Kindle/documents/Count of Monte Cristo, Illustrated, The - Dumas, Alexandre
+10.0	/media/matej/Kindle/documents/Novo iverje - Matos, Antun Gustav
+10.0	/media/matej/Kindle/documents/Smrt Smail-age Cengica - Mazuranic, Ivan
+24.49489742783178	/home/matej/Downloads/literature
+10.0	/home/matej/6-literature/Miroslav Krleza/Gospoda Glembajevi (11)
+17.320508075688775	/home/matej/6-literature/Miroslav Krleza
+14.142135623730951	/home/matej/6-literature/Mary Beard
+10.0	/home/matej/6-literature/George Orwel
+28.284271247461902	/home/matej/6-literature/Hermann Hesse
+10.0	/home/matej/6-literature/Daniel Quinn
+10.0	/home/matej/6-literature/Antun Gustav Matos
+14.142135623730951	/home/matej/6-literature/Robert Homer
+10.0	/home/matej/6-literature/Robert Homer/The Iliad (6)
+10.0	/home/matej/6-literature/Ranko Marinkovic/Kiklop (12)
+10.0	/home/matej/6-literature/Hermann Hesse/Siddhartha (44)
+10.0	/home/matej/6-literature/Hermann Hesse/Siddhartha (6)
+14.142135623730951	/home/matej/6-literature/Anto Gardas
+10.0	/home/matej/6-literature/Anto Gardas/Filip, djecak bez imena (32)
+14.142135623730951	/home/matej/6-literature/Anthony McCarten/Darkest Hour (41)
+14.142135623730951	/home/matej/6-literature/Anthony McCarten/Darkest Hour (42)
+17.320508075688775	/home/matej/6-literature_backup/Daniel Quinn/Ishmael_ A Novel (18)
+14.142135623730951	/home/matej/6-literature_backup/Hermann Hesse/Siddhartha (17)
+14.142135623730951	/home/matej/6-literature_backup/George Orwel/1984 (16)
+14.142135623730951	/home/matej/6-literature_backup/Antun Gustav Matos/Novo iverje (13)
+14.142135623730951	/home/matej/6-literature_backup/Ranko Marinkovic/Kiklop (12)
+24.49489742783178	/home/matej/6-literature_backup/Ivan Mazuranic/Smrt Smail-age Cengica (10)
+14.142135623730951	/home/matej/4-education/books_backup
+30.000000000000004	/home/matej/Downloads/zips/predavanja
+10.0	/media/matej/gep/$RECYCLE.BIN
+93.27379053088814	/home/matej/Downloads/zips/finmat-video-predavanja
+17.320508075688775	/home/matej/Downloads/zips/finmat-video-predavanja/3
+14.142135623730951	/home/matej/Downloads/zips/finmat-video-predavanja/4
+28.284271247461902	/home/matej/Downloads/zips/finmat-video-predavanja/6
+34.64101615137755	/home/matej/Downloads/zips/finmat-video-predavanja/8
+134.53624047073703	/home/matej/1-documents/work/ciglenecki.github.io
+42.42640687119286	/home/matej/Downloads/zips/finmat-video-predavanja/9
+14.142135623730951	/home/matej/torrent/The Godfather Part 3 (1990)
+14.142135623730951	/home/matej/torrent/The Godfather (1972)
+14.142135623730951	/home/matej/Downloads/mps
+24.49489742783178	/home/matej/Downloads/zips/finmat-video-predavanja/11b
+28.284271247461902	/home/matej/Downloads/zips/finmat-video-predavanja/7
+33.166247903554	/home/matej/Downloads/zips/finmat-video-predavanja/10
+34.64101615137755	/home/matej/Downloads/zips/finmat-video-predavanja/11
+17.320508075688775	/home/matej/Downloads/zips/finmat-video-predavanja/12
+14.142135623730951	/home/matej/Downloads/zips/finmat-video-predavanja/13
+14.142135623730951	/home/matej/Downloads/zips/finmat-video-predavanja/13b
+41.231056256176615	/home/matej/projects/gcal-template
+14.142135623730951	/home/matej/Downloads/zips/finmat-video-predavanja/konzultacije
+20.0	/media/matej/veracrypt/3-audio
+10.0	/home/matej/fer/finmat/studosi.ignoreme/vjezba
+10.0	/home/matej/fer/finmat/studosi.ignoreme/zadace
+24.49489742783178	/home/matej/Downloads/zips/finmat-video-predavanja/5
+22.360679774997898	/media/matej/sam/series/Curb Your Enthusiasm/Season 7
+20.0	/media/matej/sam/series/Curb Your Enthusiasm/Season 8
+58.30951894845301	/home/matej/projects/spotify-random-playlist
+73.48469228349536	/home/matej/projects/im2math
+14.142135623730951	/home/matej/projects/photomath-praksa
+14.142135623730951	/home/matej/.config/BraveSoftware/Brave-Browser/Default
+14.142135623730951	/home/matej/.config/BraveSoftware/Brave-Browser/Default/Service Worker

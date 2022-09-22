@@ -18,20 +18,21 @@ Height 1080=745
 Width 1920=907
 
 [KFileDialog Settings]
-Recent Files[$e]=SU1-2021-P02-OsnovniKoncepti.pdf,file:$HOME/fer/map/1-lectures/05_analiza_glavnih_komponenti.pdf,file:$HOME/fer/sap/4-exams/mi-2020-21-rjesenja.pdf,file:$HOME/fer/sap/4-exams/mi-2021-22-rjesenja.pdf,file:$HOME/fer/finmat/5-exercises/solved/zzv_3_2016_rj.pdf,file:$HOME/fer/finmat/1-lectures/Prezentacija_08_2022.pdf,file:$HOME/fer/finmat/4-exams/ljir_2015.pdf,file:$HOME/fer/finmat/4-exams/mi_2012_3.jpg,file:$HOME/fer/finmat/5-exercises/solved/zzv_zi.pdf,file:$HOME/fer/finmat/5-exercises/solved/zzv_mi.pdf,file:$HOME/fer/finmat/5-exercises/solved/zzv_z1-z2.pdf,file:$HOME/fer/finmat/5-exercises/solved/zzv_tjedan_05.pdf,file:$HOME/fer/finmat/5-exercises/solved/zzv_2_2016_rj.pdf,file:$HOME/fer/finmat/4-exams/mi_2012_rj.pdf,file:$HOME/fer/finmat/4-exams/mi_2012_2.jpg,file:$HOME/fer/finmat/4-exams/mi_2012_1.jpg
-Recent URLs[$e]=file:$HOME/fer/map/1-lectures/
+Recent Files[$e]=SU1-2021-P02-OsnovniKoncepti.pdf,file:$HOME/fer/finmat/1-lectures/07_2022.pdf,file:$HOME/fer/finmat/5-exercises/07_RJ.pdf,file:$HOME/fer/finmat/5-exercises/10_RJ[1].pdf,file:$HOME/fer/finmat/4-exams/ljir_2022_rj.pdf,file:$HOME/fer/finmat/5-exercises/Zadaci_FER_7_07_22.pdf,file:$HOME/fer/finmat/5-exercises/solved/zzv_3_2016_rj.pdf,file:$HOME/fer/finmat/5-exercises/08_RJ.pdf,file:$HOME/fer/finmat/5-exercises/solved/zzv_2_2016_rj.pdf,file:$HOME/fer/finmat/5-exercises/06_RJ.pdf,file:$HOME/fer/finmat/5-exercises/solved/zzv_tjedan_04_rj.pdf,file:$HOME/fer/finmat/5-exercises/solved/zzv_tjedan_06_rj.pdf,file:$HOME/fer/finmat/5-exercises/solved/zzv_mi.pdf,file:$HOME/fer/finmat/5-exercises/solved/zzv_z1-z2.pdf,file:$HOME/fer/finmat/5-exercises/solved/zzv_tjedan_05.pdf,file:$HOME/fer/finmat/5-exercises/02_RJ.pdf
+Recent URLs[$e]=file:$HOME/fer/finmat/1-lectures/
 detailViewIconSize=0
 
 [MainWindow]
-Height 1080=1056
-Height 1920=1150
+Height 1080=515
+Height 1920=1888
 Height 720=1058
-State=AAAA/wAAAAD9AAAAAAAABNYAAAPSAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAQCAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-Width 1080=1070
+Width 1080=1080
 Width 1280=1920
-Width 1920=1920
-Window-Maximized 1080x1920=true
+Width 1920=1073
+Window-Maximized 768x1360=true
 
 [Notification Messages]
 ShowTabWarning=true
@@ -41,23 +42,23 @@ Height 1080=889
 Width 1920=840
 
 [Recent Files]
-File1[$e]=$HOME/fer/sap/1-lectures/11-predavanje-analiza_varijance.pdf
-File10[$e]=$HOME/projects/nerf-research/references/ref_nerf.pdf
-File2[$e]=$HOME/fer/sap/1-lectures/12-neparametarskipostupci4.pdf
-File3[$e]=$HOME/fer/sap/1-lectures/13-alternativni_pristup_analizi_podataka.pdf
-File4[$e]=$HOME/projects/nerf-research/references/nerfies.pdf
-File5[$e]=$HOME/projects/nerf-research/references/mip_nerf.pdf
-File6[$e]=$HOME/projects/nerf-research/references/plenoxels.pdf
-File7[$e]=$HOME/projects/nerf-research/references/nerf.pdf
-File8[$e]=$HOME/fer/seminar2/ciglenecki_seminar2_v01.pdf
-File9[$e]=$HOME/fer/inzeko2/1-lectures/inzeko_01-12.pdf
-Name1[$e]=11-predavanje-analiza_varijance.pdf
-Name10[$e]=ref_nerf.pdf
-Name2[$e]=12-neparametarskipostupci4.pdf
-Name3[$e]=13-alternativni_pristup_analizi_podataka.pdf
-Name4[$e]=nerfies.pdf
-Name5[$e]=mip_nerf.pdf
-Name6[$e]=plenoxels.pdf
-Name7[$e]=nerf.pdf
-Name8[$e]=ciglenecki_seminar2_v01.pdf
-Name9[$e]=inzeko_01-12.pdf
+File1[$e]=$HOME/fer/finmat/5-exercises/Zadaci_FER_7_07_22.pdf
+File10[$e]=$HOME/1-documents/work/ciglenecki.github.io/Matej_Ciglenecki_resume.pdf
+File2[$e]=$HOME/1-documents/work/ciglenecki.github.io/cv_matej_ciglenecki_dl.pdf
+File3[$e]=$HOME/fer/finmat/1-lectures/finmat_01_12.pdf
+File4[$e]=$HOME/fer/finmat/1-lectures/03_2022.pdf
+File5[$e]=$HOME/fer/finmat/1-lectures/05_2022.pdf
+File6[$e]=$HOME/fer/finmat/1-lectures/08_2022.pdf
+File7[$e]=$HOME/fer/finmat/1-lectures/07_2022.pdf
+File8[$e]=$HOME/fer/finmat/4-exams/ljir_2022_rj.pdf
+File9[$e]=$HOME/4-education/Gayle Laakmann McDowell - Cracking the Coding Interview_ 189 Programming Questions and Solutions-CareerCup (2015).pdf
+Name1[$e]=Zadaci_FER_7_07_22.pdf
+Name10[$e]=Matej_Ciglenecki_resume.pdf
+Name2[$e]=cv_matej_ciglenecki_dl.pdf
+Name3[$e]=finmat_01_12.pdf
+Name4[$e]=03_2022.pdf
+Name5[$e]=05_2022.pdf
+Name6[$e]=08_2022.pdf
+Name7[$e]=07_2022.pdf
+Name8[$e]=ljir_2022_rj.pdf
+Name9[$e]=Gayle Laakmann McDowell - Cracking the Coding Interview_ 189 Programming Questions and Solutions-CareerCup (2015).pdf

@@ -1,5 +1,5 @@
 [$Version]
-update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar,icons_remove_effects.upd:IconsRemoveEffects,kwin.upd:animation-speed
+update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar,icons_remove_effects.upd:IconsRemoveEffects,kwin.upd:animation-speed,style_widgetstyle_default_breeze.upd:StyleWidgetStyleDefaultBreeze
 
 [ColorEffects:Disabled]
 ChangeSelectionColor=
@@ -108,12 +108,12 @@ ForegroundPositive=255,255,255
 ForegroundVisited=69,40,134
 
 [DirSelect Dialog]
-DirSelectDialog Size=1098,560
-History Items[$e]=file:///media/matej/sam/series,file:$HOME/6-literature,file:$HOME/6-literature,file:///media/matej/sam,file:$HOME/6-literature,file:$HOME/.config/CalibreLibrary/,file:$HOME/.config,file:$HOME/.config/CalibreLibrary,file:$HOME/.config,file:$HOME/2-fer/diprad/data/dataset.ignoreme,file:$HOME/Downloads,file:///media/matej/KingStone USB 8GB,file:$HOME/torrent,file:$HOME/torrent,file:$HOME/torrent
+DirSelectDialog Size=821,598
+History Items[$e]=file:$HOME/2-media/screenshots,file:$HOME/4-education/books,file:$HOME/6-literature_backup,file:$HOME/6-literature_backup,file:$HOME/Downloads/literature,file:$HOME/6-literature_backup,file:$HOME/6-literature,file:$HOME/6-literature,file:$HOME/6-literature,file:$HOME/6-literature,file:$HOME/6-literature,file:///media/matej/sam/bcs13,file:///media/matej/sam/series,file:$HOME/6-literature,file:$HOME/6-literature,file:///media/matej/sam,file:$HOME/6-literature,file:$HOME/.config/CalibreLibrary/,file:$HOME/.config,file:$HOME/.config/CalibreLibrary,file:$HOME/.config,file:$HOME/2-fer/diprad/data/dataset.ignoreme,file:$HOME/Downloads,file:///media/matej/KingStone USB 8GB,file:$HOME/torrent,file:$HOME/torrent,file:$HOME/torrent
 
 [General]
 BrowserApplication=brave-browser.desktop
-ColorScheme=MatejRedWhite
+ColorSchemeHash=53534fa4d212e7552d57ffacb0d343f3bea0f932
 Name=Breeze
 dbfile=/home/matej/.mozilla/firefox/zt6yez1i.default/places.sqlite
 shadeSortColumn=true

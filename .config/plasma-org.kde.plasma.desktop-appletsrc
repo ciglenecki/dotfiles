@@ -37,7 +37,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][28][Configuration]
-PreloadWeight=59
+PreloadWeight=44
 
 [Containments][2][Applets][28][Configuration][Appearance]
 boldText=true
@@ -100,6 +100,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][2][Applets][36][Configuration][General]
+launchers=preferred://browser
 showOnlyCurrentScreen=true
 
 [Containments][2][Applets][39]
@@ -161,20 +162,21 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][7][Configuration]
-PreloadWeight=46
+PreloadWeight=31
 SystrayContainmentId=8
 
 [Containments][2][ConfigDialog]
 DialogHeight=84
-DialogWidth=1080
+DialogWidth=1920
 
 [Containments][2][Configuration]
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=3;39;40;36;30;28;29;41;7
+AppletOrder=3;39;40;36;30;28;29;41;7;6
 
 [Containments][31]
+ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
 activityId=cc6d1c2b-777d-4eec-9d0d-3d1035c10498
 formfactor=0
@@ -220,6 +222,8 @@ PreloadWeight=0
 Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.jpg
 
 [Containments][34]
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
 activityId=cc6d1c2b-777d-4eec-9d0d-3d1035c10498
 formfactor=0
 immutability=1
@@ -283,7 +287,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][23][Configuration]
-PreloadWeight=29
+PreloadWeight=10
 
 [Containments][8][Applets][24][Configuration]
 PreloadWeight=42
@@ -296,11 +300,15 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][8][Applets][31][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][8][Applets][31][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=719
+
+[Containments][8][Applets][42]
+immutability=1
+plugin=org.kde.plasma.manage-inputmethod
 
 [Containments][8][Applets][9][Configuration]
 PreloadWeight=42
@@ -313,9 +321,9 @@ DialogWidth=960
 PreloadWeight=0
 
 [Containments][8][General]
-extraItems=org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.plasma.volume,discord1,Microsoft Teams - Preview1,Insync,Plasma_microphone
+extraItems=org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod
 hiddenItems=qBittorrent,shutter,Discover Notifier_org.kde.DiscoverNotifier,Yakuake,KDE Daemon,vlc,discord1,Microsoft Teams - Preview1,Insync,Plasma_microphone
-knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.clipboard,org.kde.kupapplet,org.kde.plasma.keyboardindicator,org.kde.plasma.devicenotifier,org.kde.plasma.printmanager,org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.kdeconnect,org.kde.plasma.vault,org.kde.plasma.bluetooth,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.volume
+knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.clipboard,org.kde.kupapplet,org.kde.plasma.keyboardindicator,org.kde.plasma.devicenotifier,org.kde.plasma.printmanager,org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.kdeconnect,org.kde.plasma.vault,org.kde.plasma.bluetooth,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod
 scaleIconsToFit=true
 shownItems=org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.battery,ibus-ui-gtk3,org.kde.plasma.volume
 

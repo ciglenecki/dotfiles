@@ -182,7 +182,6 @@
 		"*.mat": "default",
 		"*.class": "default"
 	},
-	"python.formatting.provider": "black",
 	"jupyter.askForKernelRestart": false,
 	"workbench.editor.untitled.hint": "hidden",
 	"editor.acceptSuggestionOnEnter": "off",
@@ -207,12 +206,13 @@
 	"cSpell.enabled": true,
 	"markdown-preview-enhanced.previewTheme": "github-light.css",
 	"editor.formatOnSave": true,
-	"python.formatting.blackArgs": [
-		"--line-length",
-		"120"
-	],
 	"terminal.integrated.inheritEnv": false,
 	"OpenCL.formatting.name": "/usr/bin/clang-format",
 	"markdown.preview.doubleClickToSwitchToEditor": false,
-	"window.zoomLevel": 2
+	"python.linting.flake8Enabled": true,
+	"autoDocstring.customTemplatePath": "/home/matej/.config/autoDocStringTemplate.mustache",
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.black-formatter"
+	},
+	"python.formatting.provider": "black",
 }

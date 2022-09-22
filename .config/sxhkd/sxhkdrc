@@ -52,7 +52,7 @@ Pause;
     amixer -q sset Master $SOUND_LEVEL
 
 ctrl + grave;
-    flameshot gui -p $DIR_SCREENSHOTS
+    flameshot gui -c -p $DIR_SCREENSHOTS
 
 super + grave;
     {foldername=$(wmctrl -lx | grep -E ".*code.Code.*notes" | tr -s ' ' | cut -d ' ' -f 5 | head -n 1 | sed 's/\~/\/home\/matej/') && \

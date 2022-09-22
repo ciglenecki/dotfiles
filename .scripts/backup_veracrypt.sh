@@ -14,9 +14,9 @@ if [ "$EUID" -ne 0 ]
 fi
 
 HOME="/home/matej"
-. $HOME/.scripts/env
+. $HOME/.scripts/env.sh
 SRC=$HOME/*; # files inside of home
-DEST=$DIR_GEP
+DEST=$DIR_SAM
 
 ### Mount veracrypt
 DEST_MOUNT_LOCATION="/media/matej/veracrypt"

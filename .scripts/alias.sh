@@ -61,7 +61,8 @@ alias bat='batcat'
 alias wttr='curl wttr.in/Zagreb?format=v2'
 alias clear='\clear;source ~/.bashrc' # clear the terminal and source (execute) bashrc
 alias clipboard="xclip -o -selection clipboard" # paste the clipboard entry
-
+alias v="source venv/bin/activate"
+alias de="deactivate"
 alias study="$BROWSERUSER $BROWSERASAPP$STUDY_SHEET &"
 alias cal="$BROWSERUSER $BROWSERASAPP$CAL &"
 alias pomo="$BROWSERUSER $BROWSERASAPP$POMODORO &"

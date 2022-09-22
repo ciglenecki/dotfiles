@@ -18,7 +18,7 @@ DefaultProfile=Profile 3.profile
 
 [DetailsMode]
 FontWeight=50
-PreviewSize=256
+PreviewSize=16
 
 [Favorite Profiles]
 Favorites=
@@ -29,13 +29,13 @@ GlobalViewProps=false
 LockPanels=false
 ShowFullPath=true
 ShowZoomSlider=false
-Version=200
+Version=201
 ViewPropsTimestamp=2021,11,7,23,26,33
 
 [IconsMode]
 FontWeight=50
 IconSize=48
-PreviewSize=16
+PreviewSize=160
 
 [KFileDialog Settings]
 Recent Files[$e]=tmp_tree.png,file:$HOME/2-media/icons/document_clip.png,file:$HOME/2-media/icons/tmp_tree.png
@@ -47,13 +47,13 @@ DP-0 HDMI-0 Height 1920x1080=458
 DP-0 HDMI-0 Height 2560x1440=587
 DP-0 HDMI-0 Width 1920x1080=383
 DP-0 HDMI-0 Width 2560x1440=518
-Height 1080=456
+Height 1080=524
 Height 1440=516
 Height 1920=456
 Height 768=456
 Width 1080=362
 Width 1360=377
-Width 1920=385
+Width 1920=438
 Width 2048=369
 Width 2560=849
 
@@ -88,27 +88,35 @@ HDMI-0 eDP-1-1 Height 1920x1080=1058
 HDMI-0 eDP-1-1 Width 1920x1080=1648
 HDMI-0 eDP-1-1 XPosition 1920x1080=271
 HDMI-0 eDP-1-1 YPosition 1920x1080=22
+HDMI-1 Height 1920x1080=1046
+HDMI-1 Width 1920x1080=485
+HDMI-1 XPosition 1920x1080=5
+HDMI-1 YPosition 1920x1080=29
+HDMI-1 eDP-1 Height 1920x1080=1046
+HDMI-1 eDP-1 Width 1920x1080=1903
+HDMI-1 eDP-1 XPosition 1920x1080=11
+HDMI-1 eDP-1 YPosition 1920x1080=29
 Height 1024=1000
-Height 1080=1046
+Height 1080=520
 Height 1440=451
 Height 1920=1888
 Height 2560=1080
 Height 617=598
 Height 720=696
-Height 768=1058
+Height 768=1046
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAwAAAAAAAAC/AAADqfwCAAAAAvsAAAAUAHAAbABhAGMAZQBzAEQAbwBjAGsBAAAAJgAAA6kAAAB1AQAAA/sAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAETAAABwwAAACIBAAADAAAAAQAAALAAAAFB/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAACYAAAFBAAAAIgEAAAMAAAADAAADvwAAAEb8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawEAAAAAAAADvwAAAJEBAAADAAAC/wAAA6kAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
 Width 1080=1080
 Width 1097=491
 Width 1280=1280
-Width 1360=1053
+Width 1360=952
 Width 1440=1920
-Width 1920=959
+Width 1920=1248
 Width 2048=552
 Width 2560=2044
+Window-Maximized 1080x1920=true
 Window-Maximized 1440x2560=true
-Window-Maximized 768x1360=true
+Window-Maximized 1920x1080=true
 eDP-1-1 HDMI-0 Height 1920x1080=1058
 eDP-1-1 HDMI-0 Width 1920x1080=1920
 eDP-1-1 HDMI-0 XPosition 1920x1080=0
@@ -130,7 +138,7 @@ IconSize=16
 Plugins=audiothumbnail,blenderthumbnail,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,textthumbnail,ffmpegthumbs
 
 [Search]
-What=Content
+Location=Everywhere
 
 [SettingsDialog]
 Height 1080=456

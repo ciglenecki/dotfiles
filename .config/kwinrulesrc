@@ -1,3 +1,6 @@
+[$Version]
+update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
+
 [1]
 Description=Unnamed entry
 maximizehoriz=true
@@ -9,11 +12,19 @@ wmclasscomplete=false
 wmclassmatch=3
 
 [2]
+Description=borders
+noborder=true
+noborderrule=3
+wmclass=
+wmclasscomplete=false
+wmclassmatch=0
+
+[3]
 Description=thunderbird
 clientmachine=localhost
 clientmachinematch=0
-desktop=5
-desktoprule=3
+desktops=95c62399-5a80-4dd6-bda2-798674f41956
+desktopsrule=3
 title=Sent Mail - Matej - Mozilla Thunderbird
 titlematch=0
 wmclass=mail thunderbird
@@ -24,7 +35,8 @@ wmclassmatch=1
 XftAntialias[$d]
 XftHintStyle[$d]
 XftSubPixel[$d]
-count=2
+count=3
+rules=1,2,3
 
 [KDE]
 LookAndFeelPackage[$d]

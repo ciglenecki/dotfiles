@@ -68,8 +68,8 @@ export DIR_ASSETS="$HOME/5-assets"
 export DIR_DOWNLOADS="$HOME/Downloads"
 export DIR_PROJECTS="$HOME/projects"
 
-export DIR_SAM="/media/matej/ex-gep"
-export DIR_GEP="/media/matej/sam"
+export DIR_GEP="/media/matej/ex-gep"
+export DIR_SAM="/media/matej/sam"
 
 export FILE_PACKAGES="$HOME/.assets/packages.txt"
 

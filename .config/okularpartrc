@@ -1,3 +1,6 @@
+[$Version]
+update_info=okular.upd:annotation-toolbar,okular.upd:builtin-annotations
+
 [Core General]
 ObeyDRM=false
 
@@ -7,7 +10,7 @@ ShowOSD=false
 ttsEngine=flite
 
 [Main View]
-SplitterSizes=327,1556
+SplitterSizes=353,836
 
 [Nav Panel]
 SidebarIconSize=22
@@ -18,7 +21,7 @@ MouseMode=TextSelect
 TrimMargins=true
 
 [Reviews]
-AnnotationTools=<tool id="1" type="highlight"><engine color="#ffffff00" type="TextSelector"><annotation color="#ffffff00" type="Highlight" opacity="0.45"/></engine><shortcut>1</shortcut></tool>,<tool id="2" type="highlight" name="highligher red"><engine type="TextSelector" color="#ffff7474"><annotation type="Highlight" color="#ffff7474" opacity="0.5"/></engine><shortcut>2</shortcut></tool>,<tool id="3" type="rectangle"><engine block="true" color="#ffff0004" type="PickPoint"><annotation width="2" color="#ffff0004" type="GeomSquare" opacity="0.6"/></engine><shortcut>3</shortcut></tool>,<tool id="4" type="ink"><engine color="#ffff0000" type="SmoothLine"><annotation width="2" color="#ffff0000" type="Ink" opacity="0.6"/></engine><shortcut>4</shortcut></tool>,<tool id="5" type="typewriter"><engine block="true" type="PickPoint"><annotation font="DejaVu Sans\\,9\\,-1\\,0\\,75\\,0\\,0\\,0\\,0\\,0\\,Condensed Bold" width="0" textColor="#cc1c1c" color="#00ffffff" type="Typewriter"/></engine><shortcut>5</shortcut></tool>,<tool id="6" type="typewriter"><engine block="true" type="PickPoint"><annotation font="Noto Sans\\,18\\,-1\\,0\\,50\\,0\\,0\\,0\\,0\\,0\\,Regular" width="0" textColor="#000000" color="#00ffffff" type="Typewriter"/></engine><shortcut>6</shortcut></tool>,<tool id="7" type="note-inline"><engine hoverIcon="tool-note-inline" block="true" color="#ffa9d6ff" type="PickPoint"><annotation font="Noto Sans\\,9\\,-1\\,0\\,50\\,0\\,0\\,0\\,0\\,0\\,Regular" width="1" color="#ffa9d6ff" type="FreeText"/></engine><shortcut>7</shortcut></tool>,<tool id="8" type="straight-line"><engine points="2" color="#ffffe000" type="PolyLine"><annotation width="1" color="#ffffe000" type="Line"/></engine><shortcut>8</shortcut></tool>,<tool id="9" type="underline"><engine color="#ff000000" type="TextSelector"><annotation color="#ff000000" type="Underline"/></engine><shortcut>9</shortcut></tool>
+QuickAnnotationTools=<tool id="1" type="highlight"><engine type="TextSelector" color="#ffffff00"><annotation type="Highlight" opacity="0.45" color="#ffffff00"/></engine><shortcut>1</shortcut></tool>,<tool id="2" type="highlight" name="highligher red"><engine type="TextSelector" color="#ffff7474"><annotation type="Highlight" opacity="0.5" color="#ffff7474"/></engine><shortcut>2</shortcut></tool>,<tool id="3" type="rectangle"><engine type="PickPoint" block="true" color="#ffff0004"><annotation type="GeomSquare" opacity="0.6" color="#ffff0004" width="2"/></engine><shortcut>3</shortcut></tool>,<tool id="4" type="ink"><engine type="SmoothLine" color="#ffff0000"><annotation type="Ink" opacity="0.6" color="#ffff0000" width="2"/></engine><shortcut>4</shortcut></tool>,<tool id="5" type="typewriter"><engine type="PickPoint" block="true"><annotation font="DejaVu Sans\\,9\\,-1\\,0\\,75\\,0\\,0\\,0\\,0\\,0\\,Condensed Bold" type="Typewriter" color="#00ffffff" width="0" textColor="#cc1c1c"/></engine><shortcut>5</shortcut></tool>,<tool id="6" type="typewriter"><engine type="PickPoint" block="true"><annotation font="Noto Sans\\,18\\,-1\\,0\\,50\\,0\\,0\\,0\\,0\\,0\\,Regular" type="Typewriter" color="#00ffffff" width="0" textColor="#000000"/></engine><shortcut>6</shortcut></tool>,<tool id="7" type="note-inline"><engine type="PickPoint" block="true" color="#ffa9d6ff" hoverIcon="tool-note-inline"><annotation font="Noto Sans\\,9\\,-1\\,0\\,50\\,0\\,0\\,0\\,0\\,0\\,Regular" type="FreeText" color="#ffa9d6ff" width="1"/></engine><shortcut>7</shortcut></tool>,<tool id="8" type="straight-line"><engine points="2" type="PolyLine" color="#ffffe000"><annotation type="Line" color="#ffffe000" width="1"/></engine><shortcut>8</shortcut></tool>,<tool id="9" type="underline"><engine type="TextSelector" color="#ff000000"><annotation type="Underline" color="#ff000000"/></engine><shortcut>9</shortcut></tool>,<tool type="squiggly" id="10" name="black"><engine type="TextSelector" color="#ffffff00"><annotation type="Squiggly" color="#ffffff00"/></engine></tool>
 
 [Search]
 SearchFromCurrentPage=false
