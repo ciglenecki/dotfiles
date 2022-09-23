@@ -676,9 +676,9 @@
 30.000000000000004	/home/matej/6-literature/the-economist
 17.320508075688775	/home/matej/2-fer/uuzop/eeg-driver-fatigue-detection/data/reports/backup
 22.360679774997898	/home/matej/2-fer/uuzop/eeg-driver-fatigue-detection/data/figures/backup
-1172.731853408953	/home/matej/projects/lumen-geoguesser
+1185.622199522257	/home/matej/projects/lumen-geoguesser
 106.30145812734645	/home/matej/projects/lumen-geoguesser/src
-376.5634076752553	/home/matej/projects/lumen-geoguesser/data
+376.696164036748	/home/matej/projects/lumen-geoguesser/data
 73.48469228349536	/home/matej/projects/lumen-geoguesser/readme-pics
 92.73618495495703	/home/matej/projects/lumen-geoguesser/models
 83.06623862918076	/home/matej/projects/lumen-geoguesser/references
@@ -1849,7 +1849,7 @@
 10.0	/media/matej/sam/home-matej-2021-07-19/_tmp/2020-11-06-focused-crikvenica-ursula
 20.0	/home/matej/torrent/Better.Call.Saul.S06E08.Point.And.Shoot.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx]
 99.49874371066196	/media/matej/sam/_large_files/_studosi_github
-52.91502622129182	/home/matej/2-media/screenshots
+64.80740698407861	/home/matej/2-media/screenshots
 17.320508075688775	/home/matej/.shutter
 14.142135623730951	/home/matej/.shutter/profiles
 14.142135623730951	/home/matej/.dbus
@@ -1983,3 +1983,4 @@
 14.142135623730951	/home/matej/.config/BraveSoftware/Brave-Browser/Default
 14.142135623730951	/home/matej/.config/BraveSoftware/Brave-Browser/Default/Service Worker
 26.457513110645905	/home/matej/2-media/memes
+17.320508075688775	/run/user/1000/kio-fuse-oRTsHJ/recentlyused/locations
