@@ -37,7 +37,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][28][Configuration]
-PreloadWeight=44
+PreloadWeight=54
 
 [Containments][2][Applets][28][Configuration][Appearance]
 boldText=true
@@ -100,7 +100,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][2][Applets][36][Configuration][General]
-launchers=preferred://browser
+launchers=
 showOnlyCurrentScreen=true
 
 [Containments][2][Applets][39]
