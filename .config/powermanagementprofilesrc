@@ -10,6 +10,9 @@ triggerLidActionWhenExternalMonitorPresent=false
 [Activities][687c05aa-cc42-4a69-acbe-d38ebe895f11]
 mode=None
 
+[Activities][9020d8d7-730d-45db-9d75-2056f5a738e5]
+mode=None
+
 [Battery]
 icon=battery-060
 

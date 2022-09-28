@@ -147,7 +147,8 @@
 	],
 	"markdown-preview-enhanced.codeBlockTheme": "github.css",
 	"files.associations": {
-		"*.txt": "plaintext"
+		"*.*": "plaintext",
+		"*.py": "python"
 	},
 	"gitlens.blame.highlight.enabled": false,
 	"gitlens.blame.heatmap.enabled": false,
@@ -211,8 +212,16 @@
 	"markdown.preview.doubleClickToSwitchToEditor": false,
 	"python.linting.flake8Enabled": true,
 	"autoDocstring.customTemplatePath": "/home/matej/.config/autoDocStringTemplate.mustache",
+	"python.formatting.provider": "black",
+	"python.linting.pylintEnabled": true,
 	"[python]": {
 		"editor.defaultFormatter": "ms-python.black-formatter"
 	},
-	"python.formatting.provider": "black",
+	"python.linting.flake8Args": [
+		"--max-line-length",
+		"88"
+	],
+	"files.associations": {
+		"*.*": "plaintext",
+	},
 }
