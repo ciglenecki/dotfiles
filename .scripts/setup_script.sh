@@ -37,6 +37,9 @@ come to new machine in dolphin and go to smb://
 8.
 cd ~/projects %% git clone https://github.com/matejciglenecki/spotify-random-saved-album.git
 pip install spotipy python-dotenv
+
+9. copy gpg private key by running
+gpg --import private.key
 '
 
 
@@ -102,6 +105,10 @@ mkdir ~/.cache/vlc
 # Setup github
 git config --global user.email "matej.ciglenecki@gmail.com"
 git config --global user.name "Matej Ciglenečki"
+
+# Set GpG agent to CLI instead of GUI
+sudo apt install pinentry-tty
+sudo update-alternatives --config pinentry
 
 source $HOME/.profile
 source $HOME/.scripts/login.sh

@@ -8,6 +8,7 @@ TabColor=255,0,0
 UseFontLineChararacters=false
 
 [General]
+DimWhenInactive=false
 Name=konsole-matej
 Parent=FALLBACK/
 ShowTerminalSizeHint=false

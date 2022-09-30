@@ -108,3 +108,8 @@ veracrypt-console
 flameshotsamba
 jq
 cpu-x
+python3-venv
+python3-poetry
+notify-send
+libnotify-bin
+pinentry-tty

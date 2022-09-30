@@ -61,11 +61,11 @@ alias bat='batcat'
 alias wttr='curl wttr.in/Zagreb?format=v2'
 alias clear='\clear;source ~/.bashrc' # clear the terminal and source (execute) bashrc
 alias clipboard="xclip -o -selection clipboard" # paste the clipboard entry
-alias v="source venv/bin/activate"
 alias de="deactivate"
 alias study="$BROWSERUSER $BROWSERASAPP$STUDY_SHEET &"
 alias cal="$BROWSERUSER $BROWSERASAPP$CAL &"
 alias pomo="$BROWSERUSER $BROWSERASAPP$POMODORO &"
+alias poe="poetry"
 # extglob If set, the extended pattern matching features described above under Pathname Expansion are enabled.
 shopt -s extglob
 
@@ -80,6 +80,15 @@ fi
 ################
 # FUNCTIONS 
 ################
+
+function v(){
+    if [ -d "venv" ]; then
+        source venv/bin/activate
+    fi
+    if [ -d ".venv" ]; then
+        source .venv/bin/activate
+    fi  
+}
 
 # shutdown the system
 function die(){
