@@ -2,9 +2,9 @@
 33.166247903554	/home/matej/tmp/krohnkite
 75.49834435270752	/home/matej/tmp/virtual-desktop-bar
 28.284271247461902	/home/matej/.config-backup
-87.74964387392123	/home/matej/.config
-26.457513110645905	/home/matej/.config/Insync
-249.79991993593623	/home/matej/tmp
+88.8819441731559	/home/matej/.config
+42.42640687119286	/home/matej/.config/Insync
+250.1999200639364	/home/matej/tmp
 211.18712081942883	/media/matej/sam
 53.851648071345046	/media/matej/sam/home-matej-2021-10-04-00-42-20
 20.0	/media/matej/sam/home-matej-2021-10-04-00-42-20/4-pictures
@@ -62,7 +62,7 @@
 95.39392014169452	/home/matej/2-fer/struce/1-lectures/video
 46.904157598234306	/home/matej/Desktop
 14.142135623730951	/home/matej/dotfiles
-53.851648071345046	/home/matej/_tmp
+55.677643628300224	/home/matej/_tmp
 144.22205101855954	/home/matej/6-literature
 238.9560629069706	/home/matej/2-fer/sap
 235.58437978779514	/home/matej/2-fer/uuzop
@@ -235,7 +235,7 @@
 85.44003745317532	/home/matej/tmp/spotify_random_saved_album
 22.360679774997898	/home/matej/tmp/spotify_random_saved_album/pics
 58.30951894845301	/home/matej/tmp/spotify-random-saved-album
-204.20577856662138	/home/matej/projects
+210.71307505705482	/home/matej/projects
 275.6809750418047	/home/matej/projects/spotify-random-saved-album
 72.1110255092798	/home/matej/projects/spotify-random-saved-album/pics
 97.4679434480896	/home/matej/2-fer/uuzop/eeg-driver-fatigue-detection/src
@@ -258,7 +258,7 @@
 66.33249580710802	/home/matej/2-fer/sap/auditorne
 33.166247903554	/home/matej/2-fer/sap/auditorne/2-auditorne-vjezbe
 28.284271247461902	/home/matej/2-fer/sap/auditorne/1-auditorna-vjezba
-45.82575694955841	/home/matej/.config/BraveSoftware/Brave-Browser
+60.00000000000001	/home/matej/.config/BraveSoftware/Brave-Browser
 14.142135623730951	/home/matej/.config/BraveSoftware/Brave-Browser/afalakplffnnnlkncjhbmahjfjhmlkal
 33.166247903554	/home/matej/tmp/exploratory-data-analysis-simpsons
 47.9583152331272	/home/matej/2-fer/sap/cheatsheet
@@ -281,7 +281,7 @@
 17.320508075688775	/home/matej/tmp/nasp
 24.49489742783178	/home/matej/projects/spotify-random-saved-album/tmp/r
 72.1110255092798	/home/matej/projects/spotify-random-saved-album/tmp/outs
-84.85281374238572	/home/matej/projects/advent-of-code-2021
+87.17797887081348	/home/matej/projects/advent-of-code-2021
 52.91502622129182	/home/matej/projects/advent-of-code-2021/01-sonar-sweep
 41.231056256176615	/home/matej/projects/advent-of-code-2021/02-dive
 20.0	/home/matej/.cargo
@@ -385,7 +385,7 @@
 14.142135623730951	/media/matej/ex-gep/.backup-CD/D/2-fer/_pis/2-notes
 20.0	/media/matej/ex-gep/.backup-CD/D/2-fer/sap
 17.320508075688775	/media/matej/ex-gep/.backup-CD/D/2-fer/struce
-30.000000000000004	/home/matej/.log
+33.166247903554	/home/matej/.log
 24.49489742783178	/media/matej/ex-gep/home-matej-2021-10-04-00-42-20/.assets
 138.5640646055101	/home/matej/tmp/rsync
 10.0	/home/matej/2-fer/sap/student-success-analysis/src/.Rproj.user
@@ -676,7 +676,7 @@
 30.000000000000004	/home/matej/6-literature/the-economist
 17.320508075688775	/home/matej/2-fer/uuzop/eeg-driver-fatigue-detection/data/reports/backup
 22.360679774997898	/home/matej/2-fer/uuzop/eeg-driver-fatigue-detection/data/figures/backup
-1185.622199522257	/home/matej/projects/lumen-geoguesser
+1185.7908753232987	/home/matej/projects/lumen-geoguesser
 106.30145812734645	/home/matej/projects/lumen-geoguesser/src
 376.696164036748	/home/matej/projects/lumen-geoguesser/data
 73.48469228349536	/home/matej/projects/lumen-geoguesser/readme-pics
@@ -713,7 +713,7 @@
 46.904157598234306	/home/matej/6-literature/cs
 63.24555320336759	/home/matej/2-fer/__archived_subjects
 20.0	/home/matej/2-fer/uuzop/eeg-driver-fatigue-detection/readme-pics
-121.65525060596434	/home/matej/projects/eeg-driver-fatigue-detection
+122.882057274445	/home/matej/projects/eeg-driver-fatigue-detection
 176.63521732655693	/home/matej/2-fer/map
 87.74964387392123	/home/matej/2-fer/map/0-lit
 28.284271247461902	/home/matej/projects/eeg-driver-fatigue-detection/data
@@ -763,8 +763,8 @@
 17.320508075688775	/home/matej/Downloads/raf-db/feature
 22.360679774997898	/home/matej/Downloads/raf-db/images
 14.142135623730951	/home/matej/Downloads/raf-db/annotation
-373.2291521304311	/home/matej/projects/diprad
-110.45361017187257	/home/matej/projects/diprad/data
+373.6308338453887	/home/matej/projects/diprad
+111.35528725660039	/home/matej/projects/diprad/data
 14.142135623730951	/home/matej/projects/eeg-driver-fatigue-detection/src
 14.142135623730951	/home/matej/projects/eeg-driver-fatigue-detection/readme-pics
 14.142135623730951	/home/matej/projects/eeg-driver-fatigue-detection/data/figures
@@ -825,7 +825,7 @@
 20.0	/home/matej/projects/diprad/data/dataset_subset_100000/train_set/images
 20.0	/home/matej/3-archive/webs
 34.64101615137755	/home/matej/projects/diprad/data/reports
-34.64101615137755	/home/matej/projects/diprad/data/objects
+36.0555127546399	/home/matej/projects/diprad/data/objects
 31.622776601683796	/home/matej/projects/diprad/data/models
 47.9583152331272	/home/matej/projects/diprad/data/dataset.ignoreme
 20.0	/home/matej/projects/diprad/data/dataset.ignoreme/dataset_sample
@@ -846,7 +846,7 @@
 14.142135623730951	/home/matej/Downloads/affectnet_dataset.ignoreme
 36.0555127546399	/home/matej/3-archive/rafdb_dataset.ignoreme
 63.24555320336759	/home/matej/projects/diprad/src
-38.729833462074176	/home/matej/projects/diprad/paper
+41.231056256176615	/home/matej/projects/diprad/paper
 37.41657386773942	/home/matej/projects/diprad/data/raf-db.ignoreme/images/original
 59.16079783099617	/home/matej/projects/diprad/data/raf-db.ignoreme/images/aligned
 17.320508075688775	/home/matej/2-fer/__archived_subjects/nos/3-labs
@@ -940,7 +940,7 @@
 125.29964086141662	/home/matej/projects/rl-game
 17.320508075688775	/home/matej/projects/rl-game/Pygame-Checkers
 103.9230484541326	/home/matej/projects/snake-ai-pytorch
-335.70820663189056	/home/matej/projects/aibg-2022
+336.6006535941368	/home/matej/projects/aibg-2022
 50.00000000000001	/home/matej/projects/aibg-2022/websocketdemo
 47.9583152331272	/home/matej/projects/aibg-2022/websocketdemo/src
 33.166247903554	/home/matej/projects/aibg-2022/websocketdemo/src/test
@@ -981,7 +981,7 @@
 24.49489742783178	/home/matej/_tmp/MaskTheFace/test/_masked
 17.320508075688775	/home/matej/tmp/MaskTheFace
 45.82575694955841	/home/matej/projects/diprad/MaskTheFace
-68.55654600401047	/home/matej/projects/MaskTheFace
+70.00000000000001	/home/matej/projects/MaskTheFace
 24.49489742783178	/home/matej/projects/MaskTheFace/masks
 40.00000000000001	/home/matej/projects/diprad/data/raf-db.ignoreme/images/aligned_masked
 24.49489742783178	/home/matej/projects/MaskTheFace/images
@@ -1484,7 +1484,7 @@
 26.457513110645905	/home/matej/2-fer/finmat/studosi/vjezba/zzv/2009-10/dodatak
 20.0	/home/matej/2-fer/finmat/studosi/izlaganja/predavanja/2019-20
 36.0555127546399	/home/matej/2-fer/finmat/2-zzv
-326.9556544854364	/home/matej/projects/leetcode
+328.17678162843885	/home/matej/projects/leetcode
 36.0555127546399	/home/matej/2-fer/finmat/studosi/ispiti/zi
 22.360679774997898	/home/matej/2-fer/finmat/studosi/ispiti/zi/2015-16
 17.320508075688775	/home/matej/2-fer/finmat/studosi/ispiti/zi/2011-12
@@ -1535,7 +1535,7 @@
 10.0	/home/matej/3-archive/2013-2017-highschool/4-r/IPMAT/4RH - IPMAT - Karte/Source
 14.142135623730951	/home/matej/3-archive/2013-2017-highschool/4-r/IPMAT/4RH - IPMAT - Karte/Finished cards
 14.142135623730951	/home/matej/3-archive/2013-2017-highschool/3-r/FIZ/3RH - FIZ - Plin
-60.827625302982206	/home/matej/5-assets
+68.55654600401047	/home/matej/5-assets
 14.142135623730951	/home/matej/3-archive/2020-10-chemedu
 36.0555127546399	/home/matej/2-fer/posint/1-lec
 10.0	/home/matej/2-fer/posint/3-labs/1-lab
@@ -1590,7 +1590,7 @@
 10.0	/home/matej/1-documents/_archived/old
 30.000000000000004	/home/matej/1-documents/finance
 10.0	/home/matej/1-documents/travel
-67.82329983125271	/home/matej/2-media
+69.28203230275511	/home/matej/2-media
 10.0	/home/matej/5-assets/datasets
 31.622776601683796	/home/matej/4-education/datasets
 14.142135623730951	/home/matej/5-assets/apk
@@ -1599,7 +1599,7 @@
 10.0	/home/matej/_tmp/matej_filip_ucenje/ap
 22.360679774997898	/home/matej/.anaconda_backup
 41.231056256176615	/home/matej/fer/dubuce
-78.74007874011812	/home/matej/fer/sap
+79.37253933193773	/home/matej/fer/sap
 14.142135623730951	/home/matej/fer/sap/SAP
 14.142135623730951	/home/matej/fer/posint
 14.142135623730951	/home/matej/fer/parpro_backup
@@ -1685,7 +1685,7 @@
 65.57438524302002	/home/matej/fer/map/1-lectures
 24.49489742783178	/home/matej/fer/map/1-lectures/new_dir
 14.142135623730951	/home/matej/fer/map/0-lit
-91.10433579144299	/home/matej/fer/finmat/5-exercises
+91.6515138991168	/home/matej/fer/finmat/5-exercises
 96.95359714832654	/home/matej/fer/finmat/1-lectures
 22.360679774997898	/home/matej/fer/finmat/1-lectures/video.ignoreme
 24.49489742783178	/home/matej/fer/finmat/studosi
@@ -1857,7 +1857,7 @@
 17.320508075688775	/home/matej/fer/__archived_subjects.ignoreme/nos
 14.142135623730951	/media/matej/sam/_large_files/_studosi_github/ENETEH
 20.0	/media/matej/sam/_large_files/_studosi_github/ENETEH/ispiti
-93.27379053088814	/home/matej/projects/nerf-research
+109.54451150103318	/home/matej/projects/nerf-research
 20.0	/home/matej/projects/nerf/data
 38.729833462074176	/media/matej/sam/_large_files/here
 114.89125293076053	/home/matej/projects/nerf-research/references
@@ -1867,7 +1867,7 @@
 10.0	/media/matej/sam/_large_files/_studosi_github/APS
 20.0	/media/matej/sam/anime/Paprika (2006)/_
 14.142135623730951	/media/matej/sam/_large_files/_studosi_github/AES
-40.00000000000001	/home/matej/.local/share/color-schemes
+46.904157598234306	/home/matej/.local/share/color-schemes
 24.49489742783178	/media/matej/sam/seminar2/figures
 14.142135623730951	/media/matej/sam/seminar2/figures/image samples
 10.0	/media/matej/sam/seminar2/figures/highres
@@ -1969,7 +1969,7 @@
 17.320508075688775	/home/matej/Downloads/zips/finmat-video-predavanja/12
 14.142135623730951	/home/matej/Downloads/zips/finmat-video-predavanja/13
 14.142135623730951	/home/matej/Downloads/zips/finmat-video-predavanja/13b
-41.231056256176615	/home/matej/projects/gcal-template
+43.588989435406745	/home/matej/projects/gcal-template
 14.142135623730951	/home/matej/Downloads/zips/finmat-video-predavanja/konzultacije
 20.0	/media/matej/veracrypt/3-audio
 10.0	/home/matej/fer/finmat/studosi.ignoreme/vjezba
@@ -1978,9 +1978,21 @@
 22.360679774997898	/media/matej/sam/series/Curb Your Enthusiasm/Season 7
 22.360679774997898	/media/matej/sam/series/Curb Your Enthusiasm/Season 8
 58.30951894845301	/home/matej/projects/spotify-random-playlist
-74.83314773547885	/home/matej/projects/im2math
+75.49834435270752	/home/matej/projects/im2math
 14.142135623730951	/home/matej/projects/photomath-praksa
-14.142135623730951	/home/matej/.config/BraveSoftware/Brave-Browser/Default
+31.622776601683796	/home/matej/.config/BraveSoftware/Brave-Browser/Default
 14.142135623730951	/home/matej/.config/BraveSoftware/Brave-Browser/Default/Service Worker
 26.457513110645905	/home/matej/2-media/memes
-17.320508075688775	/run/user/1000/kio-fuse-oRTsHJ/recentlyused/locations
+24.49489742783178	/run/user/1000/kio-fuse-oRTsHJ/recentlyused/locations
+17.320508075688775	/home/matej/.local/share
+24.49489742783178	/home/matej/.local/share/konsole
+24.49489742783178	/home/matej/.local
+10.0	/home/matej/.config/gh
+22.360679774997898	/run/user/1000/kio-fuse-oRTsHJ/filenamesearch
+26.457513110645905	/run/user/1000/kio-fuse-oRTsHJ/remote
+31.622776601683796	/run/user/1000/kio-fuse-oRTsHJ/smb
+10.0	/run/user/1000/kio-fuse-oRTsHJ/smb/hotpan.local
+20.0	/run/user/1000/kio-fuse-LRWyFE/smb
+10.0	/home/matej/.config/BraveSoftware/Brave-Browser/Default/Extension Rules
+10.0	/home/matej/.config/BraveSoftware/Brave-Browser/Default/Extension Scripts
+17.320508075688775	/run/user/1000/kio-fuse-LRWyFE/filenamesearch
