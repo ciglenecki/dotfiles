@@ -136,7 +136,7 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [DirSelect Dialog]
-DirSelectDialog Size=823,598
+DirSelectDialog Size=823,586
 History Items[$e]=file:$HOME,file:$HOME/2-media/screenshots,file:$HOME/4-education/books,file:$HOME/6-literature_backup,file:$HOME/6-literature_backup,file:$HOME/Downloads/literature,file:$HOME/6-literature_backup,file:$HOME/6-literature,file:$HOME/6-literature,file:$HOME/6-literature,file:$HOME/6-literature,file:$HOME/6-literature,file:///media/matej/sam/bcs13,file:///media/matej/sam/series,file:$HOME/6-literature,file:$HOME/6-literature,file:///media/matej/sam,file:$HOME/6-literature,file:$HOME/.config/CalibreLibrary/,file:$HOME/.config,file:$HOME/.config/CalibreLibrary,file:$HOME/.config,file:$HOME/2-fer/diprad/data/dataset.ignoreme,file:$HOME/Downloads,file:///media/matej/KingStone USB 8GB,file:$HOME/torrent,file:$HOME/torrent,file:$HOME/torrent
 
 [General]
