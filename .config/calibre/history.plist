@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>lineedit_history_choose_library_dialog</key>
+	<array>
+		<string>/home/matej/4-education/books</string>
+		<string>/home/matej/6-literature</string>
+		<string>/home/matej/6-literature/Calibre</string>
+	</array>
+	<key>lineedit_history_preferences_setting_auto_add_path</key>
+	<array>
+		<string>/home/matej/Downloads/literature</string>
+		<string>/home/matej/6-literature</string>
+	</array>
+	<key>lineedit_history_store_search_search_title</key>
+	<array>
+		<string>design</string>
+		<string>darkest hour</string>
+	</array>
+</dict>
+</plist>

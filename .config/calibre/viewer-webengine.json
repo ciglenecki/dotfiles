@@ -1,0 +1,41 @@
+{
+  "main_window_geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAAAAAAAGAAAB38AAAQ3AAAAAAAAABgAAAd/AAAENwAAAAAAAAAAB4AAAAAAAAAAGAAAB38AAAQ3"
+  },
+  "main_window_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIoA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAmgD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACEAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAPIA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFAD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAANIA////AAAHgAAABCAAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+  },
+  "old_prefs_migrated": true,
+  "session_data": {
+    "controls_help_shown_count": 2,
+    "standalone_font_settings": {},
+    "standalone_misc_settings": {
+      "remember_last_read": true,
+      "remember_window_geometry": false,
+      "save_annotations_in_ebook": true,
+      "singleinstance": false
+    },
+    "standalone_recently_opened": [
+      {
+        "authors": [
+          "Charles Petzold"
+        ],
+        "key": "/home/matej/4-education/books/Charles Petzold - Code_ The Hidden Language of Computer Hardware and Software  -Microsoft Press (2000).mobi",
+        "pathtoebook": "/home/matej/4-education/books/Charles Petzold - Code_ The Hidden Language of Computer Hardware and Software  -Microsoft Press (2000).mobi",
+        "timestamp": "2022-07-12T15:25:51.780Z",
+        "title": "CODE"
+      },
+      {
+        "authors": [
+          "Alexandre Dumas"
+        ],
+        "key": "/home/matej/.config/CalibreLibrary/Alexandre Dumas/The Count of Monte Cristo, Illustrated (2)/The Count of Monte Cristo, Illustrated - Alexandre Dumas.mobi",
+        "pathtoebook": "/home/matej/.config/CalibreLibrary/Alexandre Dumas/The Count of Monte Cristo, Illustrated (2)/The Count of Monte Cristo, Illustrated - Alexandre Dumas.mobi",
+        "timestamp": "2021-12-30T23:52:24.041Z",
+        "title": "The Count of Monte Cristo, Illustrated"
+      }
+    ]
+  }
+}
