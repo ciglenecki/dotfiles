@@ -60,6 +60,8 @@ Width 1360=377
 Width 1920=438
 Width 2048=369
 Width 2560=849
+eDP-1 Height 1920x1080=616
+eDP-1 Width 1920x1080=444
 
 [MainWindow]
 DP-0 HDMI-0 Height 1440x2560=831
@@ -123,6 +125,9 @@ Window-Maximized 1440x2560=true
 Window-Maximized 1920x1080=true
 eDP-1 Height 1920x1080=1056
 eDP-1 Width 1920x1080=1920
+eDP-1 Window-Maximized 1920x1080=true
+eDP-1 XPosition 1920x1080=0
+eDP-1 YPosition 1920x1080=24
 eDP-1-1 HDMI-0 Height 1920x1080=1058
 eDP-1-1 HDMI-0 Width 1920x1080=1920
 eDP-1-1 HDMI-0 XPosition 1920x1080=0
@@ -144,7 +149,7 @@ IconSize=16
 Plugins=audiothumbnail,blenderthumbnail,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,textthumbnail,ffmpegthumbs
 
 [Search]
-Location=Everywhere
+What=Content
 
 [SettingsDialog]
 Height 1080=456

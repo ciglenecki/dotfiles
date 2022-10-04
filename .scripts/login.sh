@@ -9,6 +9,7 @@ HOME="/home/matej"
 
 sxhkd &
 yakuake &
+flameshot &
 
 #$BROWSERUSER $BROWSERASAPP$CAL &
 #$BROWSERUSER $BROWSERASAPP$TODO_TODAY &
