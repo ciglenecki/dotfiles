@@ -3,14 +3,13 @@ update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-
 
 [Compositing]
 Backend=OpenGL
-Enabled=true
+Enabled=false
 GLCore=true
 GLPreferBufferSwap=e
 GLTextureFilter=1
-HiddenPreviews=5
 LatencyPolicy=ExtremelyHigh
 OpenGLIsUnsafe=false
-WindowsBlockCompositing=true
+WindowsBlockCompositing=false
 XRenderSmoothScale=false
 
 [Desktops]
@@ -60,7 +59,7 @@ Active=true
 LatitudeAuto=45.8293
 LongitudeAuto=15.9793
 Mode=Constant
-NightTemperature=2500
+NightTemperature=2200
 
 [Plugins]
 bismuthEnabled=false

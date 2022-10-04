@@ -1,14 +1,15 @@
+
 # Download by hand:
 # ==================
 
-# veracrypt https://www.veracrypt.fr/en/Downloads.html
 # brave https://brave.com/linux/#linux
 # insync https://www.insynchq.com/downloads
+# vscode https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64
+
+# veracrypt https://www.veracrypt.fr/en/Downloads.html
 # discord https://discord.com/download
 
-
 # nodejs https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions
-# vscode https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64
 # gh cli https://github.com/cli/cli/blob/trunk/docs/install_linux.md
 # rstudio https://www.rstudio.com/products/rstudio/download/#download
 # docker https://docs.docker.com/engine/install/ubuntu/
@@ -46,6 +47,7 @@ jhead
 # Development
 git
 python3
+python3-pip
 r-base
 postgresql
 
@@ -103,3 +105,11 @@ curl
 net-tools
 pdfnup
 veracrypt-console
+flameshotsamba
+jq
+cpu-x
+python3-venv
+python3-poetry
+notify-send
+libnotify-bin
+pinentry-tty

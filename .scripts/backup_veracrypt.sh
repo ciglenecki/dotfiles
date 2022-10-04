@@ -8,29 +8,49 @@
 #               3. Unmount veracrypt container
 #################################
 
-if [ "$EUID" -ne 0 ]
-  then echo "Please run as root"
-  return 
+function notify-send() {
+    #Detect the name of the display in use
+    local display=":$(ls /tmp/.X11-unix/* | sed 's#/tmp/.X11-unix/X##' | head -n 1)"
+
+    #Detect the user using such display
+    local user=$(who | grep '('$display')' | awk '{print $1}' | head -n 1)
+
+    #Detect the id of the user
+    local uid=$(id -u $user)
+
+    sudo -u $user DISPLAY=$display DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/$uid/bus notify-send "$@"
+}
+
+if [ "$EUID" -ne 0 ]; then
+    echo "Please run as root"
+    exit 1
 fi
 
 HOME="/home/matej"
 . $HOME/.scripts/env.sh
 SRC=$HOME/*; # files inside of home
-DEST=$DIR_SAM
+DEST_HDD=$DIR_SAM
 
 ### Mount veracrypt
 DEST_MOUNT_LOCATION="/media/matej/veracrypt"
 sudo mkdir -p $DEST_MOUNT_LOCATION
 
+echo "Unmounting any pervious virtual disks...";
 veracrypt -d
-veracrypt \
--t -k "" --pim=0 --protect-hidden=no \
---mount "$DEST/home-backup" $DEST_MOUNT_LOCATION
+
+if [ $? -ne 0 ]; then
+    echo "Canceling backup because existing virtual disk cannot be unmounted.";
+    exit $?;
+fi
+
+echo "Mounting a new disk...";
+
+veracrypt -t -k "" --pim=0 --protect-hidden=no --mount "$DEST_HDD/home-backup" $DEST_MOUNT_LOCATION
 
 if [ $? -eq 0 ]; then
     echo "Veracrypt mounted at $DEST_MOUNT_LOCATION";
 else
-    echo "Veracrypt coudln't be monuted at $DEST_MOUNT_LOCATION";
+    echo "Veracrypt couldn't be monuted at $DEST_MOUNT_LOCATION";
     return $?;
 fi
 
@@ -43,7 +63,11 @@ mkdir -p $LOG;
 LOG="$LOG/backup-hdd.log"
 echo $(date +"$TIMEFL") >> $LOG;
 
-notify-send "Starting backup!" "src\t$SRC\ndest\t$DEST";
+notify-send "Starting backup!" "src\t$SRC\ndest\t$DEST_HDD";
+
+
+
+echo "Starting file transfer...";
 
 # take into account .gitignore in each subdirectory. If gitignore exists dont copy file specified in that gitignore
 # --filter='dir-merge,- .gitignore'
@@ -54,9 +78,17 @@ rsync --archive --verbose --update --times --recursive --progress --human-readab
 --exclude="*" \
 $HOME/* $DEST_MOUNT_LOCATION
 
-veracrypt -d
-notify-send "Backup done!" "src\t$SRC\ndest\t$DEST\nlog file\t$LOG";
+echo "File transfer ended.";
+echo "Unmount the virtual disk...";
 
+sleep 2
+veracrypt -d
+
+echo "Unmounting done.";
+
+notify-send "Backup done!" "src\t$SRC\ndest\t$DEST_HDD\nlog file\t$LOG";
+
+exit 0
 
 # /usr/bin/unison /home/matej /media/matej/ex-gep/test-backup\
 # 	-prefer "newer"\

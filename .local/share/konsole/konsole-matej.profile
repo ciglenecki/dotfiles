@@ -1,13 +1,14 @@
 [Appearance]
 AntiAliasFonts=true
 BoldIntense=false
-ColorScheme=WhiteOnBlack
+ColorScheme=matej-red
 Font=Noto Mono,16,-1,5,50,0,0,0,0,0
 LineSpacing=0
 TabColor=255,0,0
 UseFontLineChararacters=false
 
 [General]
+DimWhenInactive=false
 Name=konsole-matej
 Parent=FALLBACK/
 ShowTerminalSizeHint=false

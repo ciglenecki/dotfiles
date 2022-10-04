@@ -37,7 +37,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][28][Configuration]
-PreloadWeight=43
+PreloadWeight=100
 
 [Containments][2][Applets][28][Configuration][Appearance]
 boldText=true
@@ -162,7 +162,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][7][Configuration]
-PreloadWeight=100
+PreloadWeight=94
 SystrayContainmentId=8
 
 [Containments][2][ConfigDialog]
@@ -175,10 +175,11 @@ PreloadWeight=0
 [Containments][2][General]
 AppletOrder=3;39;40;36;30;28;29;41;7;6
 
-[Containments][31]
+[Containments][43]
+ItemGeometries-1024x768=
 ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
-activityId=cc6d1c2b-777d-4eec-9d0d-3d1035c10498
+activityId=9020d8d7-730d-45db-9d75-2056f5a738e5
 formfactor=0
 immutability=1
 lastScreen=0
@@ -186,57 +187,20 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][31][ConfigDialog]
-DialogHeight=727
-DialogWidth=1920
+[Containments][43][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
-[Containments][31][Configuration]
+[Containments][43][Configuration]
 PreloadWeight=0
 
-[Containments][31][General]
+[Containments][43][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=319
-ToolBoxButtonY=32
-sortMode=-1
+ToolBoxButtonX=559
+ToolBoxButtonY=25
 
-[Containments][31][Wallpaper][org.kde.color][General]
-Color=255,216,216
-
-[Containments][31][Wallpaper][org.kde.image][General]
-FillMode=3
-Image=file:///home/matej/.local/share/wallpapers/Sweet-Wallpapers/Sweet-space.png
-
-[Containments][33]
-activityId=cc6d1c2b-777d-4eec-9d0d-3d1035c10498
-formfactor=0
-immutability=1
-lastScreen=1
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][33][Configuration]
-PreloadWeight=0
-
-[Containments][33][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.jpg
-
-[Containments][34]
-ItemGeometries-1920x1080=
-ItemGeometriesHorizontal=
-activityId=cc6d1c2b-777d-4eec-9d0d-3d1035c10498
-formfactor=0
-immutability=1
-lastScreen=2
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][34][Configuration]
-PreloadWeight=0
-
-[Containments][34][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.jpg
+[Containments][43][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/Next/contents/images/1024x768.jpg
 
 [Containments][8]
 activityId=
@@ -273,21 +237,21 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][8][Applets][17][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][8][Applets][22]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][8][Applets][22][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][8][Applets][23]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][23][Configuration]
-PreloadWeight=48
+PreloadWeight=84
 
 [Containments][8][Applets][24][Configuration]
 PreloadWeight=42
@@ -300,7 +264,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][8][Applets][31][Configuration]
-PreloadWeight=5
+PreloadWeight=43
 
 [Containments][8][Applets][31][Configuration][ConfigDialog]
 DialogHeight=540
@@ -311,7 +275,7 @@ immutability=1
 plugin=org.kde.plasma.manage-inputmethod
 
 [Containments][8][Applets][42][Configuration]
-PreloadWeight=34
+PreloadWeight=0
 
 [Containments][8][Applets][9][Configuration]
 PreloadWeight=42
@@ -325,9 +289,10 @@ PreloadWeight=0
 
 [Containments][8][General]
 extraItems=org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod
-hiddenItems=qBittorrent,shutter,Discover Notifier_org.kde.DiscoverNotifier,Yakuake,KDE Daemon,vlc,discord1,Microsoft Teams - Preview1,Insync,Plasma_microphone
+hiddenItems=qBittorrent,shutter,Discover Notifier_org.kde.DiscoverNotifier,Yakuake,KDE Daemon,vlc,discord1,Microsoft Teams - Preview1,Insync,Plasma_microphone,org.kde.plasma.battery
 knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.clipboard,org.kde.kupapplet,org.kde.plasma.keyboardindicator,org.kde.plasma.devicenotifier,org.kde.plasma.printmanager,org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.kdeconnect,org.kde.plasma.vault,org.kde.plasma.bluetooth,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod
-shownItems=org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.battery,ibus-ui-gtk3,org.kde.plasma.volume
+scaleIconsToFit=true
+shownItems=org.kde.plasma.networkmanagement,org.kde.plasma.notifications,ibus-ui-gtk3,org.kde.plasma.volume
 
 [Containments2Appletsts][41][Configuration][Preferences]
 AddDesktopButtonShow=false

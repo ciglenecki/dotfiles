@@ -9,6 +9,40 @@
 # chmod +x setup_script.sh
 # sudo ./setup_script.sh
 
+
+: '
+Things to do after running this script:
+
+1. download other packages by hand
+cat ~/$DIR_ASSETS packages.txt
+
+2. start insync and paste ignore files from
+cat ~/$DIR_ASSETS insync.ignoreme
+
+3. copy brave code from https://drive.google.com/drive
+
+4. setup shortcuts
+
+5. setup samba on old device
+sudo apt install samba
+right click on directory in dolphin
+create password and share it
+
+come to new machine in dolphin and go to smb://
+
+6. smbget -R smb://hotpan.local/.thunderbird/ ~/.thunderbird
+
+7. install vscode extensions
+
+8.
+cd ~/projects %% git clone https://github.com/matejciglenecki/spotify-random-saved-album.git
+pip install spotipy python-dotenv
+
+9. copy gpg private key by running
+gpg --import private.key
+'
+
+
 sudo echo "Script now has sudo permissions"
 
 HOME="/home/matej"
@@ -71,6 +105,10 @@ mkdir ~/.cache/vlc
 # Setup github
 git config --global user.email "matej.ciglenecki@gmail.com"
 git config --global user.name "Matej Ciglenečki"
+
+# Set GpG agent to CLI instead of GUI
+sudo apt install pinentry-tty
+sudo update-alternatives --config pinentry
 
 source $HOME/.profile
 source $HOME/.scripts/login.sh

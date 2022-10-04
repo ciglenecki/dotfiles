@@ -40,22 +40,8 @@
 		"colorizer.color-2": "#f500f5",
 		"colorizer.color-3": "#54b9f8"
 	},
-	"bracket-pair-colorizer-2.colors": [
-		"colorizer.color-1",
-		"colorizer.color-2",
-		"colorizer.color-3"
-	],
 	"javascript.updateImportsOnFileMove.enabled": "always",
-	"todo-tree.tree.showScanModeButton": false,
-	"bracketPairColorizer.showBracketsInGutter": true,
-	"bracketPairColorizer.showBracketsInRuler": true,
-	"BracketHighlighter.blurOpacity": "0.8",
-	"BracketHighlighter.highlightScopeFromText": true,
-	"BracketHighlighter.timeOutValue": 30,
-	"BracketHighlighter.backgroundColor": "Crimson",
-	"BracketHighlighter.textColor": "white",
 	"editor.minimap.maxColumn": 60,
-	"gitlens.blame.highlight.locations": [],
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"editor.cursorWidth": 2,
 	"editor.cursorStyle": "block",
@@ -109,14 +95,7 @@
 	"editor.snippetSuggestions": "top",
 	"emmet.showSuggestionsAsSnippets": true,
 	"explorer.confirmDelete": false,
-	"movets.relativeToTsconfig": true,
 	"git.autofetch": true,
-	"prettier.useEditorConfig": false,
-	"prettier.printWidth": 120,
-	"stories.username": "North Korea_global",
-	"[cpp]": {
-		"editor.defaultFormatter": "ms-vscode.cpptools"
-	},
 	"C_Cpp.vcFormat.space.betweenEmptyLambdaBrackets": true,
 	"C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0 }",
 	"editor.wordWrap": "on",
@@ -146,9 +125,6 @@
 		"markdown"
 	],
 	"markdown-preview-enhanced.codeBlockTheme": "github.css",
-	"files.associations": {
-		"*.txt": "plaintext"
-	},
 	"gitlens.blame.highlight.enabled": false,
 	"gitlens.blame.heatmap.enabled": false,
 	"gitlens.codeLens.enabled": false,
@@ -211,8 +187,13 @@
 	"markdown.preview.doubleClickToSwitchToEditor": false,
 	"python.linting.flake8Enabled": true,
 	"autoDocstring.customTemplatePath": "/home/matej/.config/autoDocStringTemplate.mustache",
+	"python.formatting.provider": "black",
+	"python.linting.pylintEnabled": true,
 	"[python]": {
 		"editor.defaultFormatter": "ms-python.black-formatter"
 	},
-	"python.formatting.provider": "black",
+	"python.linting.flake8Args": [
+		"--max-line-length",
+		"88"
+	],
 }
