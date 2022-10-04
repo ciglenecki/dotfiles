@@ -1,0 +1,20 @@
+{
+  "accounts": {
+    "uwu6_uwu7_uwu@kindle.com": [
+      "AZW, MOBI, TPZ, PRC, AZW1",
+      true,
+      true
+    ]
+  },
+  "aliases": {},
+  "encryption": "TLS",
+  "from_": "matej.ciglenecki@gmail.com",
+  "relay_host": null,
+  "relay_password": "",
+  "relay_port": 25,
+  "relay_username": null,
+  "subjects": {
+    "MATEJ.CIGLENECKI_PK5WUU@KINDLE.COM": ""
+  },
+  "tags": {}
+}

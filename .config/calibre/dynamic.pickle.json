@@ -1,0 +1,86 @@
+{
+  "add books dialog dir": "/home/matej/4-education/books",
+  "add books dialog dir-last-used-filter-spec-all-files": false,
+  "auto add path choose": "/home/matej/Downloads/literature",
+  "catalogs_to_be_synced": {
+    "__class__": "set",
+    "__value__": []
+  },
+  "choose library location": "/home/matej/4-education/books",
+  "database location dialog": "/home/matej/.config/CalibreLibrary/",
+  "notified-version-updates": {
+    "__class__": "set",
+    "__value__": [
+      "5.42",
+      "6.0",
+      "6.3",
+      "5.44",
+      "5.37"
+    ]
+  },
+  "recursive book import root dir dialog": "/home/matej/6-literature_backup",
+  "sort_history": [
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "ondevice",
+      true
+    ],
+    [
+      "authors",
+      true
+    ],
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "ondevice",
+      true
+    ],
+    [
+      "authors",
+      true
+    ],
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "ondevice",
+      true
+    ],
+    [
+      "authors",
+      true
+    ],
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "timestamp",
+      true
+    ],
+    [
+      "ondevice",
+      true
+    ],
+    [
+      "authors",
+      true
+    ],
+    [
+      "timestamp",
+      false
+    ]
+  ],
+  "welcome_wizard_device": "kindle",
+  "welcome_wizard_was_run": true
+}

@@ -1,0 +1,14 @@
+{
+  "asciiize": true,
+  "formats": "all",
+  "replace_whitespace": true,
+  "save_cover": true,
+  "send_template": "{title} - {authors}/{title} - {authors}",
+  "send_timefmt": "%b, %Y",
+  "single_dir": false,
+  "template": "{title} by {authors}/{title} by {authors}",
+  "timefmt": "%b, %Y",
+  "to_lowercase": true,
+  "update_metadata": true,
+  "write_opf": true
+}
