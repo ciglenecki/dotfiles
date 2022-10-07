@@ -233,16 +233,17 @@ function renameall() {
 }
 
 function note() {
+    note_file=$DIR_NOTES/notes.txt
     echo "$@"
     str="'$*'"
     if [ $# -eq 0 ]; then
-        cat $DIR_NOTES/notes.md
+        cat $note_file
         return
     fi
     echo "$@"
     str="'$*'"
 
     echo "$str"
-    echo -e "\n$str" >> $DIR_NOTES/notes.md
-    echo "Noted to $DIR_NOTES/notes.md"
+    echo -e "\n$str" >> $note_file
+    echo "Noted to $note_file"
 }

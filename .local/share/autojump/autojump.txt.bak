@@ -1,6 +1,6 @@
 26.457513110645905	/home/matej/.local/share/konsole
-14.142135623730951	/home/matej/.config
-14.142135623730951	/home/matej/.assets
+55.677643628300224	/home/matej/.config
+17.320508075688775	/home/matej/.assets
 30.000000000000004	/home/matej/.scripts
 42.42640687119286	/media/matej/963C7C223C7BFB95
 47.9583152331272	/media/matej/hdd-main
@@ -19,7 +19,7 @@
 20.0	/home/matej/.thunderbird/2hedqkd8.default
 14.142135623730951	/home/matej/.thunderbird/k2jw5vml.default-release
 14.142135623730951	/run/user/1000/kio-fuse-NtmDkX/smb/hotpan.local/.thunderbird/ki9fwghi.default
-92.19544457292886	/home/matej/projects
+101.48891565092215	/home/matej/projects
 488.77397639399805	/home/matej/projects/spotify-random-saved-album
 14.142135623730951	/run/user/1000/kio-fuse-NtmDkX/smb/hotpan.local/projects
 14.142135623730951	/run/user/1000/kio-fuse-NtmDkX/smb/hotpan.local/projects/spotify-album-images
@@ -32,16 +32,16 @@
 10.0	/media/matej/sam/series/Curb Your Enthusiasm
 10.0	/media/matej/sam/series/Curb Your Enthusiasm/Season 8
 36.0555127546399	/home/matej/Downloads/Curb Your Enthusiasm Season 9 Complete 720p HDTV x264 [i_c]
-42.42640687119286	/home/matej/Downloads
+54.772255750516614	/home/matej/Downloads
 80.62257748298552	/home/matej/2-media
-46.904157598234306	/home/matej/Downloads/pics
+48.98979485566357	/home/matej/Downloads/pics
 14.142135623730951	/home
 22.360679774997898	/home/matej/3-audio
 26.457513110645905	/home/matej/1-documents
 95.91663046625435	/home/matej/0-notes
-14.142135623730951	/home/matej/5-assets
+17.320508075688775	/home/matej/5-assets
 24.49489742783178	/home/matej/Desktop
-14.142135623730951	/home/matej/Downloads/docs
+20.0	/home/matej/Downloads/docs
 33.166247903554	/home/matej/1-documents/work
 10.0	/home/matej/1-documents/work/ciglenecki.github.io
 42.42640687119286	/home/matej/projects/spotify-random-saved-album/spotify_random_saved_album_ciglenecki.egg-info
@@ -63,9 +63,9 @@
 14.142135623730951	/home/matej/tmp/new_test/dist
 17.320508075688775	/home/matej/projects/spotify-random-saved-album/source
 34.64101615137755	/home/matej/projects/spotify-random-saved-album/src/spotify-random-saved-album
-26.457513110645905	/home/matej/2-media/screenshots
+28.284271247461902	/home/matej/2-media/screenshots
 20.0	/home/matej/projects/spotify-random-saved-album/pics
-24.49489742783178	/home/matej/fer
+47.9583152331272	/home/matej/fer
 31.622776601683796	/home/matej/fer/finmat/1-lectures
 24.49489742783178	/home/matej/fer/finmat/1-lectures/video
 14.142135623730951	/media/matej/sam/_large_files
@@ -78,12 +78,12 @@
 17.320508075688775	/media/matej/veracrypt
 10.0	/home/matej/fer/__other
 14.142135623730951	/media/matej/veracrypt/fer
-52.91502622129182	/home/matej/projects/nerf-research
+58.30951894845301	/home/matej/projects/nerf-research
 14.142135623730951	/home/matej/projects/nerf-research/references
 50.990195135927856	/home/matej/4-education
 22.360679774997898	/home/matej/4-education/papers
 22.360679774997898	/home/matej/4-education/datasets
-20.0	/home/matej/4-education/books
+33.166247903554	/home/matej/4-education/books
 10.0	/home/matej/4-education/_archived
 24.49489742783178	/home/matej/0-notes/specific
 24.49489742783178	/home/matej/.local/lib/python3.10
@@ -97,3 +97,12 @@
 17.320508075688775	/usr
 24.49489742783178	/usr/lib
 14.142135623730951	/home/matej/projects/spotify-random-saved-album/dist
+36.0555127546399	/home/matej/fer/dubuce2
+26.457513110645905	/home/matej/fer/oos
+59.16079783099617	/home/matej/.config/calibre
+14.142135623730951	/media/matej/Kubuntu 22.04 LTS amd64
+10.0	/home/matej/Downloads/zips
+10.0	/media/matej/blacky
+10.0	/home/matej/Downloads/Curb Your Enthusiasm (2000) Season 10 S10 (1080p AMZN WEB-DL x265 HEVC 10bit AAC 5.1 Qman) [UTR]
+22.360679774997898	/home/matej/2-media/avi
+36.0555127546399	/home/matej/projects/ics
