@@ -196,4 +196,5 @@
 		"--max-line-length",
 		"88"
 	],
+	"window.zoomLevel": 1,
 }
