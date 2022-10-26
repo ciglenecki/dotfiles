@@ -59,14 +59,14 @@ Active=true
 LatitudeAuto=45.8293
 LongitudeAuto=15.9793
 Mode=Constant
-NightTemperature=2200
+NightTemperature=2500
 
 [Plugins]
 bismuthEnabled=false
 desktopchangeosdEnabled=false
 diminactiveEnabled=true
 krohnkiteEnabled=true
-minimizeallEnabled=false
+minimizeallEnabled=true
 synchronizeskipswitcherEnabled=false
 videowallEnabled=false
 virtual-desktops-only-on-primaryEnabled=true

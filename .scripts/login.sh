@@ -23,4 +23,4 @@ syncthing -no-browser &
 
 /usr/sbin/anacron -s -t $HOME/.anacron/etc/anacrontab -S $HOME/.anacron/spool &
 
-/home/matej/.scripts/move_downloads_to_subdirectories.sh &
+# /home/matej/.scripts/move_downloads_to_subdirectories.sh &

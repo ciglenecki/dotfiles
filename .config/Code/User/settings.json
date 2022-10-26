@@ -190,10 +190,12 @@
 	"python.formatting.provider": "black",
 	"python.linting.pylintEnabled": true,
 	"[python]": {
-		"editor.defaultFormatter": "ms-python.black-formatter"
+		"editor.defaultFormatter": "ms-python.python"
 	},
 	"python.linting.flake8Args": [
 		"--max-line-length",
 		"88"
 	],
+	"notebook.output.textLineLimit": 300,
+	"window.zoomLevel": 1,
 }

@@ -1,10 +1,10 @@
-HDMI-0 Height 1920x1080=1045
-HDMI-0 Width 1920x1080=1384
-HDMI-0 XPosition 1920x1080=5
-HDMI-0 YPosition 1920x1080=30
+HDMI-0 Height 1920x1080=1055
+HDMI-0 Width 1920x1080=1920
+HDMI-0 XPosition 1920x1080=0
+HDMI-0 YPosition 1920x1080=25
 Height 1080=1056
 Height 1920=1888
-State=AAAA/wAAAAD9AAAAAAAABWgAAAOzAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAMAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAACwAcQB1AGkAYwBrAEEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgEAAAMm/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAQBAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAAAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8EhQExAjiBdwAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
 Width 1080=1080
 Width 1920=957
 Window-Maximized 1080x1920=true
@@ -24,8 +24,8 @@ Height 1080=745
 Width 1920=907
 
 [KFileDialog Settings]
-Recent Files[$e]=SU1-2021-P02-OsnovniKoncepti.pdf,file:$HOME/projects/nerf-research/references/fastnerf.pdf
-Recent URLs[$e]=file:$HOME/projects/nerf-research/references/
+Recent Files[$e]=SU1-2021-P02-OsnovniKoncepti.pdf,file:$HOME/fer/nummat/1-lectures/nummat_linearni_sustavi.pdf,file:$HOME/fer/nummat/1-lectures/nummat interpolacijska funkcija.pdf,file:$HOME/fer/nummat/1-lectures/nummat numericka integracija.pdf,file:$HOME/fer/nummat/1-lectures/nummat_najmanji_kvadrati.pdf,file:$HOME/fer/nummat/1-lectures/nummat_nelinearne_jednadzbe.pdf,file:$HOME/fer/nummat/1-lectures/nummat_bezuvjetna_optimizacija.pdf,file:$HOME/fer/nummat/1-lectures/nummat_pogreske.pdf,file:$HOME/fer/oos/1-lectures/04_ocitavanje.pdf,file:$HOME/fer/oos/1-lectures/03_spektar.pdf,file:$HOME/fer/oos/4-exams/mi_2022_ponovljeni.pdf,file:$HOME/fer/oos/5-tasks/OOS_2021-2022_domaca_zadaca_01.pdf,file:$HOME/fer/oos/4-exams/mi_2020.pdf,file:$HOME/fer/oos/4-exams/mi_rjesenja_2021.pdf,file:$HOME/fer/oos/4-exams/ir_z_2022.pdf,file:$HOME/fer/oos/4-exams/mi_2021.pdf,file:$HOME/fer/oos/1-lectures/02_transformacije.pdf,file:$HOME/fer/oos/1-lectures/01_signali.pdf,file:$HOME/fer/oos/1-lectures/15_fft.pdf,file:$HOME/fer/oos/1-lectures/08_z_i_laplaceova_transformacija.pdf,file:$HOME/fer/oos/1-lectures/07_sustavi.pdf
+Recent URLs[$e]=file:$HOME/projects/nerf-research/references/,file:$HOME/fer/oos/1-lectures/,file:$HOME/fer/oos/,file:$HOME/fer/oos/5-tasks/,file:$HOME/fer/oos/4-exams/,file:$HOME/fer/oos/6-auditorne/,file:$HOME/fer/oos/3-labs/,file:$HOME/fer/nummat/1-lectures/
 detailViewIconSize=16
 
 [MainWindow]
@@ -36,7 +36,8 @@ HDMI-0 YPosition 1920x1080=25
 Height 1080=515
 Height 1920=1888
 Height 720=1058
-State=AAAA/wAAAAD9AAAAAAAAB4AAAAO9AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAMAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIBAAADhf////8AAAAAAAAAAAAAACwAcQB1AGkAYwBrAEEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgEAAAVI/////wAAAAAAAAAA
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAAAABzwAAAQBAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAAAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 Width 1080=1080
 Width 1280=1920
@@ -51,23 +52,17 @@ Height 1080=889
 Width 1920=840
 
 [Recent Files]
-File1[$e]=$HOME/1-documents/work/cv_matej_ciglenecki (2).pdf
-File10[$e]=$HOME/projects/nerf-research/references/nerfies.pdf
-File2[$e]=$HOME/1-documents/work/cv_matej_ciglenecki2.pdf
-File3[$e]=$HOME/1-documents/work/ciglenecki.github.io/Matej_Ciglenecki_resume.pdf
-File4[$e]=$HOME/Downloads/pics/zahtjev_za_povrat_novcanih_sredstva_matej_ciglenecki.pdf
-File5[$e]=$HOME/projects/nerf-research/references/mip_nerf.pdf
-File6[$e]=$HOME/projects/nerf-research/references/nerf.pdf
-File7[$e]=$HOME/projects/nerf-research/references/plenoxels.pdf
-File8[$e]=$HOME/projects/nerf-research/references/ref_nerf.pdf
-File9[$e]=$HOME/projects/nerf-research/references/fastnerf.pdf
-Name1[$e]=cv_matej_ciglenecki (2).pdf
-Name10[$e]=nerfies.pdf
-Name2[$e]=cv_matej_ciglenecki2.pdf
-Name3[$e]=Matej_Ciglenecki_resume.pdf
-Name4[$e]=zahtjev_za_povrat_novcanih_sredstva_matej_ciglenecki.pdf
-Name5[$e]=mip_nerf.pdf
-Name6[$e]=nerf.pdf
-Name7[$e]=plenoxels.pdf
-Name8[$e]=ref_nerf.pdf
-Name9[$e]=fastnerf.pdf
+File1[$e]=$HOME/projects/nerf-research/references/ref_nerf.pdf
+File2[$e]=$HOME/4-education/books/Gayle Laakmann McDowell - Cracking the Coding Interview_ 189 Programming Questions and Solutions-CareerCup (2015).pdf
+File3[$e]=$HOME/fer/nummat/1-lectures/predavanje_1.pdf
+File4[$e]=$HOME/fer/nummat/1-lectures/predavanje_3.pdf
+File5[$e]=$HOME/fer/nummat/1-lectures/predavanje_2.pdf
+File6[$e]=$HOME/fer/nummat/4-exams/kpz/NUMMAT_2019-20_kpz-2.pdf
+File7[$e]=$HOME/fer/nummat/4-exams/zi/zi_2014.pdf
+Name1[$e]=ref_nerf.pdf
+Name2[$e]=Gayle Laakmann McDowell - Cracking the Coding Interview_ 189 Programming Questions and Solutions-CareerCup (2015).pdf
+Name3[$e]=predavanje_1.pdf
+Name4[$e]=predavanje_3.pdf
+Name5[$e]=predavanje_2.pdf
+Name6[$e]=NUMMAT_2019-20_kpz-2.pdf
+Name7[$e]=zi_2014.pdf

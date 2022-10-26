@@ -234,13 +234,11 @@ function renameall() {
 
 function note() {
     note_file=$DIR_NOTES/notes.txt
-    echo "$@"
     str="'$*'"
     if [ $# -eq 0 ]; then
         cat $note_file
         return
     fi
-    echo "$@"
     str="'$*'"
 
     echo "$str"

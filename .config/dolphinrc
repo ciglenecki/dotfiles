@@ -16,13 +16,15 @@ PreviewSize=16
 DefaultProfile=Profile 3.profile
 
 [DetailsMode]
+ExpandableFolders=false
 FontWeight=50
-PreviewSize=16
+PreviewSize=64
 
 [Favorite Profiles]
 Favorites=
 
 [General]
+BrowseThroughArchives=true
 EditableUrl=true
 GlobalViewProps=false
 LockPanels=false
@@ -36,7 +38,7 @@ ViewPropsTimestamp=2021,11,7,23,26,33
 [IconsMode]
 FontWeight=50
 IconSize=48
-PreviewSize=16
+PreviewSize=176
 
 [KFileDialog Settings]
 Recent Files[$e]=tmp_tree.png,file:$HOME/2-media/icons/document_clip.png,file:$HOME/2-media/icons/tmp_tree.png
@@ -63,6 +65,8 @@ eDP-1 Height 1920x1080=616
 eDP-1 Width 1920x1080=444
 
 [MainWindow]
+:0.0 Height 1920x1080=1045
+:0.0 Width 1920x1080=1023
 DP-0 HDMI-0 Height 1440x2560=831
 DP-0 HDMI-0 Height 1920x1080=1080
 DP-0 HDMI-0 Height 2560x1440=1414
@@ -85,16 +89,16 @@ DP-0 HDMI-0 eDP-1-1 XPosition 1920x1080=0
 DP-0 HDMI-0 eDP-1-1 XPosition 2560x1440=1920
 DP-0 HDMI-0 eDP-1-1 YPosition 1920x1080=0
 DP-0 HDMI-0 eDP-1-1 YPosition 2560x1440=0
-HDMI-0 Height 1920x1080=1055
-HDMI-0 Width 1920x1080=1920
-HDMI-0 XPosition 1920x1080=658
-HDMI-0 YPosition 1920x1080=30
+HDMI-0 Height 1920x1080=1045
+HDMI-0 Width 1920x1080=869
+HDMI-0 XPosition 1920x1080=1063
+HDMI-0 YPosition 1920x1080=555
 HDMI-0 eDP-1-1 Height 1920x1080=1058
 HDMI-0 eDP-1-1 Width 1920x1080=1648
 HDMI-0 eDP-1-1 XPosition 1920x1080=271
 HDMI-0 eDP-1-1 YPosition 1920x1080=22
-HDMI-1 Height 1920x1080=1046
-HDMI-1 Width 1920x1080=485
+HDMI-1 Height 1920x1080=1055
+HDMI-1 Width 1920x1080=1920
 HDMI-1 XPosition 1920x1080=5
 HDMI-1 YPosition 1920x1080=29
 HDMI-1 eDP-1 Height 1920x1080=1046
@@ -109,7 +113,6 @@ Height 2560=1080
 Height 617=598
 Height 720=696
 Height 768=1046
-MenuBar=Disabled
 ToolBarsMovable=Disabled
 Width 1080=1080
 Width 1097=491
@@ -157,5 +160,7 @@ Width 1920=561
 Width 2560=691
 
 [ViewPropertiesDialog]
+HDMI-0 Height 1920x1080=714
+HDMI-0 Width 1920x1080=375
 Height 1080=704
 Width 1920=375

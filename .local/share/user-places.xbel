@@ -262,19 +262,6 @@
    </metadata>
   </info>
  </bookmark>
- <bookmark href="file:///home/matej/fer/inzeko2">
-  <title>inzeko2</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="inode-directory"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1656793108/6</ID>
-    <isSystemItem>false</isSystemItem>
-    <IsHidden>false</IsHidden>
-   </metadata>
-  </info>
- </bookmark>
  <bookmark href="file:///home/matej/fer/map">
   <title>map</title>
   <info>
@@ -309,6 +296,19 @@
    </metadata>
    <metadata owner="http://www.kde.org">
     <ID>1656793108/3</ID>
+    <isSystemItem>false</isSystemItem>
+    <IsHidden>false</IsHidden>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/matej/fer/inzeko2">
+  <title>inzeko2</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1656793108/6</ID>
     <isSystemItem>false</isSystemItem>
     <IsHidden>false</IsHidden>
    </metadata>
@@ -841,6 +841,22 @@
   </info>
   <title>111,3 GiB Internal Drive (sdb3)</title>
  </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/sdd4</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/sdd2</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
  <bookmark href="kdeconnect://ff4badd4f3dc52e9/">
   <title>SM-G780F</title>
   <info>
@@ -848,7 +864,9 @@
     <bookmark:icon name="kdeconnect"/>
    </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1665161634/2</ID>
+    <ID>1666782254/3</ID>
+    <isSystemItem>false</isSystemItem>
+    <IsHidden>false</IsHidden>
    </metadata>
   </info>
  </bookmark>

@@ -28,6 +28,17 @@ if [ -d "/usr/sbin:/sbin" ] ; then
     export PATH=$PATH:/usr/sbin:/sbin
 fi
 
+if [ -d "$HOME/anaconda3/bin" ] ; then
+    export PATH=$PATH:$HOME/anaconda3/bin
+fi
+
+if [ -d "/usr/local/cuda-11.8/bin" ] ; then
+    export PATH=$PATH:/usr/local/cuda-11.8/bin
+fi
+
+export CUDA_HOME=/usr/local/cuda-11.8
+
+
 export EDITOR="nano"
 export VISUAL="code"
 export BROWSER="brave-browser"
