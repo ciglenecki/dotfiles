@@ -60,3 +60,6 @@ super + grave;
         mkdir -p $foldername/pic && \
         shutter --min_at_startup -e -s -n -o $foldername/pic/$name && \
         echo pic/$name | xclip -selection clipboard}
+
+super + d;
+    . $HOME/.scripts/focus_all_windows_on_current_desktop.sh

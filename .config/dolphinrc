@@ -1,6 +1,5 @@
 Height 1080=1056
 Height 1440=1396
-MenuBar=Disabled
 Width 1920=1451
 Width 2560=1265
 
@@ -18,7 +17,7 @@ DefaultProfile=Profile 3.profile
 [DetailsMode]
 ExpandableFolders=false
 FontWeight=50
-PreviewSize=64
+PreviewSize=32
 
 [Favorite Profiles]
 Favorites=
@@ -89,10 +88,10 @@ DP-0 HDMI-0 eDP-1-1 XPosition 1920x1080=0
 DP-0 HDMI-0 eDP-1-1 XPosition 2560x1440=1920
 DP-0 HDMI-0 eDP-1-1 YPosition 1920x1080=0
 DP-0 HDMI-0 eDP-1-1 YPosition 2560x1440=0
-HDMI-0 Height 1920x1080=1045
-HDMI-0 Width 1920x1080=869
-HDMI-0 XPosition 1920x1080=1063
-HDMI-0 YPosition 1920x1080=555
+HDMI-0 Height 1920x1080=1055
+HDMI-0 Width 1920x1080=1920
+HDMI-0 XPosition 1920x1080=0
+HDMI-0 YPosition 1920x1080=25
 HDMI-0 eDP-1-1 Height 1920x1080=1058
 HDMI-0 eDP-1-1 Width 1920x1080=1648
 HDMI-0 eDP-1-1 XPosition 1920x1080=271

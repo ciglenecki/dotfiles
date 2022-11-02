@@ -157,5 +157,10 @@
         "key": "ctrl+.",
         "command": "-acceptSelectedCodeAction",
         "when": "codeActionMenuVisible"
+    },
+    {
+        "key": "ctrl+; x",
+        "command": "-jupyter.deleteCells",
+        "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
     }
 ]

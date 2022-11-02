@@ -24,20 +24,20 @@ Height 1080=745
 Width 1920=907
 
 [KFileDialog Settings]
-Recent Files[$e]=SU1-2021-P02-OsnovniKoncepti.pdf,file:$HOME/fer/nummat/1-lectures/nummat_linearni_sustavi.pdf,file:$HOME/fer/nummat/1-lectures/nummat interpolacijska funkcija.pdf,file:$HOME/fer/nummat/1-lectures/nummat numericka integracija.pdf,file:$HOME/fer/nummat/1-lectures/nummat_najmanji_kvadrati.pdf,file:$HOME/fer/nummat/1-lectures/nummat_nelinearne_jednadzbe.pdf,file:$HOME/fer/nummat/1-lectures/nummat_bezuvjetna_optimizacija.pdf,file:$HOME/fer/nummat/1-lectures/nummat_pogreske.pdf,file:$HOME/fer/oos/1-lectures/04_ocitavanje.pdf,file:$HOME/fer/oos/1-lectures/03_spektar.pdf,file:$HOME/fer/oos/4-exams/mi_2022_ponovljeni.pdf,file:$HOME/fer/oos/5-tasks/OOS_2021-2022_domaca_zadaca_01.pdf,file:$HOME/fer/oos/4-exams/mi_2020.pdf,file:$HOME/fer/oos/4-exams/mi_rjesenja_2021.pdf,file:$HOME/fer/oos/4-exams/ir_z_2022.pdf,file:$HOME/fer/oos/4-exams/mi_2021.pdf,file:$HOME/fer/oos/1-lectures/02_transformacije.pdf,file:$HOME/fer/oos/1-lectures/01_signali.pdf,file:$HOME/fer/oos/1-lectures/15_fft.pdf,file:$HOME/fer/oos/1-lectures/08_z_i_laplaceova_transformacija.pdf,file:$HOME/fer/oos/1-lectures/07_sustavi.pdf
+Recent Files[$e]=SU1-2021-P02-OsnovniKoncepti.pdf,file:$HOME/fer/oos/1-lectures/02_transformacije.pdf,file:$HOME/fer/oos/1-lectures/03_spektar.pdf,file:$HOME/fer/oos/1-lectures/04_ocitavanje.pdf,file:$HOME/fer/oos/1-lectures/05_vremenski_otvori.pdf,file:$HOME/fer/oos/4-exams/mi_2022_ponovljeni.pdf,file:$HOME/fer/oos/5-tasks/OOS_2021-2022_domaca_zadaca_01.pdf,file:$HOME/fer/oos/4-exams/mi_2020.pdf,file:$HOME/fer/oos/4-exams/mi_rjesenja_2021.pdf,file:$HOME/fer/oos/4-exams/ir_z_2022.pdf
 Recent URLs[$e]=file:$HOME/projects/nerf-research/references/,file:$HOME/fer/oos/1-lectures/,file:$HOME/fer/oos/,file:$HOME/fer/oos/5-tasks/,file:$HOME/fer/oos/4-exams/,file:$HOME/fer/oos/6-auditorne/,file:$HOME/fer/oos/3-labs/,file:$HOME/fer/nummat/1-lectures/
 detailViewIconSize=16
 
 [MainWindow]
 HDMI-0 Height 1920x1080=1045
-HDMI-0 Width 1920x1080=728
-HDMI-0 XPosition 1920x1080=5
+HDMI-0 Width 1920x1080=952
+HDMI-0 XPosition 1920x1080=962
 HDMI-0 YPosition 1920x1080=30
 Height 1080=515
 Height 1920=1888
 Height 720=1058
-RestorePositionForNextInstance=false
-State=AAAA/wAAAAD9AAAAAAAAApQAAAP3AAAABAAAAAQAAAAIAAAACPwAAAADAAAAAAAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAA3QAAAQVAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAAAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 Width 1080=1080
 Width 1280=1920
@@ -52,17 +52,23 @@ Height 1080=889
 Width 1920=840
 
 [Recent Files]
-File1[$e]=$HOME/projects/nerf-research/references/ref_nerf.pdf
-File2[$e]=$HOME/4-education/books/Gayle Laakmann McDowell - Cracking the Coding Interview_ 189 Programming Questions and Solutions-CareerCup (2015).pdf
-File3[$e]=$HOME/fer/nummat/1-lectures/predavanje_1.pdf
-File4[$e]=$HOME/fer/nummat/1-lectures/predavanje_3.pdf
-File5[$e]=$HOME/fer/nummat/1-lectures/predavanje_2.pdf
-File6[$e]=$HOME/fer/nummat/4-exams/kpz/NUMMAT_2019-20_kpz-2.pdf
-File7[$e]=$HOME/fer/nummat/4-exams/zi/zi_2014.pdf
-Name1[$e]=ref_nerf.pdf
-Name2[$e]=Gayle Laakmann McDowell - Cracking the Coding Interview_ 189 Programming Questions and Solutions-CareerCup (2015).pdf
-Name3[$e]=predavanje_1.pdf
-Name4[$e]=predavanje_3.pdf
-Name5[$e]=predavanje_2.pdf
-Name6[$e]=NUMMAT_2019-20_kpz-2.pdf
-Name7[$e]=zi_2014.pdf
+File1[$e]=$HOME/fer/nummat/4-exams/kpz/NUMMAT_2019-20_pitalica-2.pdf
+File10[$e]=$HOME/projects/nerf-research/references/nerfies.pdf
+File2[$e]=$HOME/fer/nummat/4-exams/kpz/NUMMAT_2019-20_pitalica-1.pdf
+File3[$e]=$HOME/fer/nummat/4-exams/kpz/NUMMAT_2019-20_kpz-2.pdf
+File4[$e]=$HOME/fer/nummat/4-exams/kpz/NUMMAT_2017-18_kpz-2.pdf
+File5[$e]=$HOME/fer/nummat/1-lectures/nummat_01_pogreske.pdf
+File6[$e]=$HOME/fer/nummat/1-lectures/nummat_04_numericka_integracija.pdf
+File7[$e]=$HOME/fer/nummat/1-lectures/nummat_05_najmanji_kvadrati.pdf
+File8[$e]=$HOME/4-education/books/competitive-programmer-handbook-anti-laaksonen.pdf
+File9[$e]=$HOME/projects/nerf-research/references/mip_nerf.pdf
+Name1[$e]=NUMMAT_2019-20_pitalica-2.pdf
+Name10[$e]=nerfies.pdf
+Name2[$e]=NUMMAT_2019-20_pitalica-1.pdf
+Name3[$e]=NUMMAT_2019-20_kpz-2.pdf
+Name4[$e]=NUMMAT_2017-18_kpz-2.pdf
+Name5[$e]=nummat_01_pogreske.pdf
+Name6[$e]=nummat_04_numericka_integracija.pdf
+Name7[$e]=nummat_05_najmanji_kvadrati.pdf
+Name8[$e]=competitive-programmer-handbook-anti-laaksonen.pdf
+Name9[$e]=mip_nerf.pdf

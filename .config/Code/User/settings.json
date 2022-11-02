@@ -116,9 +116,6 @@
 		"<C-d>": true
 	},
 	"markdown.links.openLocation": "beside",
-	"markdown.styles": [
-		"./.vscode/style.css"
-	],
 	"spellright.documentTypes": [
 		"latex",
 		"plaintext",
@@ -197,5 +194,16 @@
 		"88"
 	],
 	"notebook.output.textLineLimit": 300,
-	"window.zoomLevel": 1,
+	"python.linting.ignorePatterns": [
+		"**/site-packages/**/*.py",
+		".vscode/*.py",
+		"venv/**"
+	],
+	"python.linting.enabled": false,
+	"python.analysis.exclude": [
+		"**/venv",
+		"venv/",
+		"*.ipynb"
+	],
+	"window.zoomLevel": -1,
 }

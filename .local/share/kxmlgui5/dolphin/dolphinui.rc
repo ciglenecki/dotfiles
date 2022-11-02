@@ -1,7 +1,7 @@
 <!DOCTYPE gui>
-<gui name="dolphin" version="35" translationDomain="kxmlgui5">
+<gui version="35" name="dolphin" translationDomain="kxmlgui5">
  <MenuBar alreadyVisited="1">
-  <Menu name="file" noMerge="1" alreadyVisited="1">
+  <Menu noMerge="1" name="file" alreadyVisited="1">
    <text translationDomain="kxmlgui5">&amp;File</text>
    <Action name="file_new"/>
    <Separator weakSeparator="1"/>
@@ -26,7 +26,7 @@
    <Separator weakSeparator="1"/>
    <Action name="file_quit"/>
   </Menu>
-  <Menu name="edit" noMerge="1" alreadyVisited="1">
+  <Menu noMerge="1" name="edit" alreadyVisited="1">
    <text translationDomain="kxmlgui5">&amp;Edit</text>
    <Action name="edit_undo"/>
    <Separator weakSeparator="1"/>
@@ -53,7 +53,7 @@
    <Action name="edit_select_all"/>
    <Action name="invert_selection"/>
   </Menu>
-  <Menu name="view" noMerge="1" alreadyVisited="1">
+  <Menu noMerge="1" name="view" alreadyVisited="1">
    <text translationDomain="kxmlgui5">&amp;View</text>
    <Action name="view_zoom_in"/>
    <Action name="view_zoom_out"/>
@@ -77,7 +77,7 @@
    <Action name="stop"/>
    <Separator/>
    <Action name="panels"/>
-   <Menu name="location_bar" noMerge="1" icon="edit-select-text">
+   <Menu icon="edit-select-text" noMerge="1" name="location_bar">
     <text translationDomain="dolphin" context="@title:menu">Location Bar</text>
     <Action name="editable_location"/>
     <Action name="replace_location"/>
@@ -85,7 +85,7 @@
    <Separator/>
    <Action name="view_properties"/>
   </Menu>
-  <Menu name="go" noMerge="1" alreadyVisited="1">
+  <Menu noMerge="1" name="go" alreadyVisited="1">
    <text translationDomain="kxmlgui5">&amp;Go</text>
    <Action name="go_up"/>
    <Action name="go_back"/>
@@ -95,7 +95,8 @@
    <Action name="bookmarks"/>
    <Action name="closed_tabs"/>
   </Menu>
-  <Menu name="tools" noMerge="1" alreadyVisited="1">
+  <Separator weakSeparator="1"/>
+  <Menu noMerge="1" name="tools" alreadyVisited="1">
    <text translationDomain="kxmlgui5">&amp;Tools</text>
    <Action name="open_preferred_search_tool"/>
    <Action name="open_terminal"/>
@@ -103,7 +104,7 @@
    <Action name="compare_files"/>
    <Action name="change_remote_encoding"/>
   </Menu>
-  <Menu name="settings" noMerge="1">
+  <Menu noMerge="1" name="settings" alreadyVisited="1">
    <text translationDomain="kxmlgui5">&amp;Settings</text>
    <Action name="options_show_menubar"/>
    <Merge name="StandardToolBarMenuHandler"/>
@@ -115,7 +116,7 @@
    <Action name="options_configure"/>
   </Menu>
   <Separator weakSeparator="1"/>
-  <Menu name="help" noMerge="1">
+  <Menu noMerge="1" name="help" alreadyVisited="1">
    <text translationDomain="kxmlgui5">&amp;Help</text>
    <Action name="help_contents"/>
    <Action name="help_whats_this"/>
@@ -129,7 +130,7 @@
    <Action name="help_about_kde"/>
   </Menu>
  </MenuBar>
- <ToolBar name="mainToolBar" noMerge="1" alreadyVisited="1">
+ <ToolBar noMerge="1" name="mainToolBar" alreadyVisited="1">
   <text translationDomain="dolphin" context="@title:menu">Main Toolbar</text>
   <Action name="go_back"/>
   <Action name="go_forward"/>
@@ -143,6 +144,7 @@
   <Action name="split_stash"/>
   <Action name="toggle_search"/>
   <Action name="hamburger_menu"/>
+  <Action name="show_in_groups"/>
  </ToolBar>
  <State name="new_file">
   <disable>
@@ -183,9 +185,9 @@
   </disable>
  </State>
  <ActionProperties scheme="Default">
-  <Action priority="0" name="go_back" shortcut=""/>
+  <Action shortcut="" priority="0" name="go_back"/>
   <Action priority="0" name="go_forward"/>
-  <Action priority="0" name="go_up" shortcut="Left; Back"/>
+  <Action shortcut="Left; Back" priority="0" name="go_up"/>
   <Action priority="0" name="go_home"/>
   <Action priority="0" name="stop"/>
   <Action priority="0" name="icons"/>
@@ -194,13 +196,13 @@
   <Action priority="0" name="view_zoom_in"/>
   <Action priority="0" name="view_zoom_reset"/>
   <Action priority="0" name="view_zoom_out"/>
-  <Action priority="0" name="edit_cut" shortcut="Ctrl+X"/>
+  <Action shortcut="Ctrl+X" priority="0" name="edit_cut"/>
   <Action priority="0" name="edit_copy"/>
   <Action priority="0" name="edit_paste"/>
   <Action priority="0" name="toggle_search"/>
   <Action priority="0" name="toggle_filter"/>
-  <Action name="focus_terminal_panel" shortcut="F4"/>
-  <Action name="show_terminal_panel" shortcut=""/>
-  <Action name="show_target" shortcut="Right"/>
+  <Action shortcut="F4" name="focus_terminal_panel"/>
+  <Action shortcut="" name="show_terminal_panel"/>
+  <Action shortcut="Right" name="show_target"/>
  </ActionProperties>
 </gui>

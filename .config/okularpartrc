@@ -15,7 +15,7 @@ ttsEngine=flite
 
 [Main View]
 ShowBottomBar=true
-SplitterSizes=302,1617
+SplitterSizes=90,946
 
 [Nav Panel]
 GroupByAuthor=false
@@ -31,6 +31,7 @@ TrimMargins=true
 UseCustomBackgroundColor=true
 
 [Reviews]
+QuickAnnotationDefaultAction=1
 QuickAnnotationTools=<tool id="1" type="highlight"><engine color="#ffffff00" type="TextSelector"><annotation color="#ffffff00" type="Highlight" opacity="0.45"/></engine><shortcut>1</shortcut></tool>,<tool id="2" name="highligher red" type="highlight"><engine color="#ffff7474" type="TextSelector"><annotation color="#ffff7474" type="Highlight" opacity="0.5"/></engine><shortcut>2</shortcut></tool>,<tool id="3" type="rectangle"><engine block="true" color="#ffff0004" type="PickPoint"><annotation color="#ffff0004" width="2" type="GeomSquare" opacity="0.6"/></engine><shortcut>3</shortcut></tool>,<tool id="4" type="ink"><engine color="#ffff0000" type="SmoothLine"><annotation color="#ffff0000" width="2" type="Ink" opacity="0.6"/></engine><shortcut>4</shortcut></tool>,<tool id="5" type="typewriter"><engine block="true" type="PickPoint"><annotation color="#00ffffff" font="DejaVu Sans\\,9\\,-1\\,0\\,75\\,0\\,0\\,0\\,0\\,0\\,Condensed Bold" width="0" type="Typewriter" textColor="#cc1c1c"/></engine><shortcut>5</shortcut></tool>,<tool id="6" type="typewriter"><engine block="true" type="PickPoint"><annotation color="#00ffffff" font="Noto Sans\\,18\\,-1\\,0\\,50\\,0\\,0\\,0\\,0\\,0\\,Regular" width="0" type="Typewriter" textColor="#000000"/></engine><shortcut>6</shortcut></tool>,<tool id="7" type="note-inline"><engine block="true" hoverIcon="tool-note-inline" color="#ffa9d6ff" type="PickPoint"><annotation color="#ffa9d6ff" font="Noto Sans\\,9\\,-1\\,0\\,50\\,0\\,0\\,0\\,0\\,0\\,Regular" width="1" type="FreeText"/></engine><shortcut>7</shortcut></tool>,<tool id="8" type="straight-line"><engine points="2" color="#ffffe000" type="PolyLine"><annotation color="#ffffe000" width="1" type="Line"/></engine><shortcut>8</shortcut></tool>,<tool id="9" type="underline"><engine color="#ff000000" type="TextSelector"><annotation color="#ff000000" type="Underline"/></engine><shortcut>9</shortcut></tool>,<tool id="10" name="black" type="squiggly"><engine color="#ffffff00" type="TextSelector"><annotation color="#ffffff00" type="Squiggly"/></engine></tool>
 
 [Search]

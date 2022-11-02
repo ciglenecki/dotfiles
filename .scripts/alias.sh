@@ -66,6 +66,8 @@ alias study="$BROWSERUSER $BROWSERASAPP$STUDY_SHEET &"
 alias cal="$BROWSERUSER $BROWSERASAPP$CAL &"
 alias pomo="$BROWSERUSER $BROWSERASAPP$POMODORO &"
 alias poe="poetry"
+
+
 # extglob If set, the extended pattern matching features described above under Pathname Expansion are enabled.
 shopt -s extglob
 
@@ -234,14 +236,31 @@ function renameall() {
 
 function note() {
     note_file=$DIR_NOTES/notes.txt
-    str="'$*'"
+    str="$*"
     if [ $# -eq 0 ]; then
         cat $note_file
         return
     fi
-    str="'$*'"
+    str="$*"
 
     echo "$str"
     echo -e "\n$str" >> $note_file
     echo "Noted to $note_file"
+}
+
+function focus_all_windows_on_current_desktop() {
+    . $HOME/.scripts/focus_all_windows_on_current_desktop.sh
+}
+
+
+function cp_compile {
+    g++ -Wall -Wextra -Wshadow -D_GLIBCXX_ASSERTIONS -ggdb3 -fmax-errors=2 -o a $1
+}
+
+function cp_compile_dbg {
+    g++ -Wall -Wextra -Wshadow -D_GLIBCXX_ASSERTIONS -DDEBUG -ggdb3 -fmax-errors=2 -o  a $1
+}
+
+function cp_test {
+    . $HOME/projects/codeforces-testcases-parser/test.sh
 }
