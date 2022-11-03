@@ -205,5 +205,4 @@
 		"venv/",
 		"*.ipynb"
 	],
-	"window.zoomLevel": -1,
 }
