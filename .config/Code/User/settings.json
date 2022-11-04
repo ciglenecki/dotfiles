@@ -169,6 +169,7 @@
 		"MD045": false, // no image text
 		"MD025": true,
 		"MD010": false,
+		"MD034": false,
 	},
 	"cSpell.enableFiletypes": [
 		"!python",

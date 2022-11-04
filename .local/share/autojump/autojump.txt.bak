@@ -1,7 +1,7 @@
 26.457513110645905	/home/matej/.local/share/konsole
 55.677643628300224	/home/matej/.config
 17.320508075688775	/home/matej/.assets
-30.000000000000004	/home/matej/.scripts
+70.00000000000001	/home/matej/.scripts
 42.42640687119286	/media/matej/963C7C223C7BFB95
 48.98979485566357	/media/matej/hdd-main
 20.0	/media/matej/hdd-main/2-drive
@@ -10,7 +10,7 @@
 43.588989435406745	/run/user/1000/kio-fuse-NtmDkX/smb
 37.41657386773942	/run/user/1000/kio-fuse-NtmDkX/smb/hotpan.local
 10.0	/run/user/1000/kio-fuse-NtmDkX/smb/doom.local
-84.2614977317636	/home/matej/tmp
+183.0300521772313	/home/matej/tmp
 28.284271247461902	/home/matej/_tmp
 14.142135623730951	/home/matej/_tmp/budapest
 14.142135623730951	/run/user/1000/kio-fuse-NtmDkX/smb/matej@hotpan.local/.thunderbird
@@ -19,7 +19,7 @@
 20.0	/home/matej/.thunderbird/2hedqkd8.default
 14.142135623730951	/home/matej/.thunderbird/k2jw5vml.default-release
 14.142135623730951	/run/user/1000/kio-fuse-NtmDkX/smb/hotpan.local/.thunderbird/ki9fwghi.default
-132.66499161421595	/home/matej/projects
+173.2050807568877	/home/matej/projects
 489.182992345401	/home/matej/projects/spotify-random-saved-album
 14.142135623730951	/run/user/1000/kio-fuse-NtmDkX/smb/hotpan.local/projects
 14.142135623730951	/run/user/1000/kio-fuse-NtmDkX/smb/hotpan.local/projects/spotify-album-images
@@ -32,7 +32,7 @@
 10.0	/media/matej/sam/series/Curb Your Enthusiasm
 10.0	/media/matej/sam/series/Curb Your Enthusiasm/Season 8
 36.0555127546399	/home/matej/Downloads/Curb Your Enthusiasm Season 9 Complete 720p HDTV x264 [i_c]
-178.3255450012701	/home/matej/Downloads
+178.60571099491753	/home/matej/Downloads
 86.02325267042627	/home/matej/2-media
 59.16079783099617	/home/matej/Downloads/pics
 37.41657386773942	/home
@@ -63,9 +63,9 @@
 14.142135623730951	/home/matej/tmp/new_test/dist
 17.320508075688775	/home/matej/projects/spotify-random-saved-album/source
 34.64101615137755	/home/matej/projects/spotify-random-saved-album/src/spotify-random-saved-album
-78.74007874011812	/home/matej/2-media/screenshots
+84.85281374238572	/home/matej/2-media/screenshots
 20.0	/home/matej/projects/spotify-random-saved-album/pics
-106.30145812734645	/home/matej/fer
+108.62780491200212	/home/matej/fer
 31.622776601683796	/home/matej/fer/finmat/1-lectures
 24.49489742783178	/home/matej/fer/finmat/1-lectures/video
 14.142135623730951	/media/matej/sam/_large_files
@@ -78,8 +78,8 @@
 17.320508075688775	/media/matej/veracrypt
 20.0	/home/matej/fer/__other
 17.320508075688775	/media/matej/veracrypt/fer
-80.62257748298552	/home/matej/projects/nerf-research
-28.284271247461902	/home/matej/projects/nerf-research/references
+147.98648586948738	/home/matej/projects/nerf-research
+33.166247903554	/home/matej/projects/nerf-research/references
 60.827625302982206	/home/matej/4-education
 24.49489742783178	/home/matej/4-education/papers
 22.360679774997898	/home/matej/4-education/datasets
@@ -97,7 +97,7 @@
 17.320508075688775	/usr
 30.000000000000004	/usr/lib
 14.142135623730951	/home/matej/projects/spotify-random-saved-album/dist
-103.44080432788596	/home/matej/fer/dubuce2
+110.45361017187257	/home/matej/fer/dubuce2
 178.88543819998318	/home/matej/fer/oos
 59.16079783099617	/home/matej/.config/calibre
 14.142135623730951	/media/matej/Kubuntu 22.04 LTS amd64
@@ -150,7 +150,7 @@
 22.360679774997898	/home/matej/anaconda3
 80.62257748298552	/home/matej/projects/tiny-cuda-nn
 30.000000000000004	/home/matej/projects/apex
-262.4880949681339	/home/matej/projects/nerfstudio
+263.24893162176386	/home/matej/projects/nerfstudio
 17.320508075688775	/home/matej/projects/studosi-arhiva
 53.851648071345046	/home/matej/projects/nerfstudio/input_dir
 62.44997998398399	/home/matej/projects/nerfstudio/ceres-solver/build
@@ -303,4 +303,4 @@
 14.142135623730951	/home/matej/projects/competitive-programming/natpro
 17.320508075688775	/home/matej/projects/competitive-programming/natpro/2-b-slay-the-dragon
 135.27749258468674	/home/matej/projects/competitive-programming/natpro/2b-slay-the-dragon
-22.360679774997898	/home/matej/projects/nerf-research/imgs
+43.588989435406745	/home/matej/projects/nerf-research/imgs

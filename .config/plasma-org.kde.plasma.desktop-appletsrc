@@ -166,7 +166,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][7][Configuration]
-PreloadWeight=38
+PreloadWeight=68
 SystrayContainmentId=8
 
 [Containments][2][ConfigDialog]
@@ -241,7 +241,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][8][Applets][17][Configuration]
-PreloadWeight=5
+PreloadWeight=15
 
 [Containments][8][Applets][22]
 immutability=1
@@ -255,7 +255,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][23][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][8][Applets][24][Configuration]
 PreloadWeight=42
@@ -268,7 +268,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][8][Applets][31][Configuration]
-PreloadWeight=5
+PreloadWeight=20
 
 [Containments][8][Applets][31][Configuration][ConfigDialog]
 DialogHeight=540

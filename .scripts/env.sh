@@ -88,4 +88,4 @@ export FILE_PACKAGES="$HOME/.assets/packages.txt"
 export TIMEFS="%F"
 export TIMEFL="%F-%H-%M-%S"
 export DATENOW='date +"$TIMEFL"'
-export SOUND_LEVEL=10
+export SOUND_LEVEL=20
