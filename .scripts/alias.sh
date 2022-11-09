@@ -6,7 +6,7 @@
 #               some variables depend on ~/.script/env.sh 
 #################################
 
-HOME="/home/matej"
+HOME="/home/$(whoami)"
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
