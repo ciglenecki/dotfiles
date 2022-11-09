@@ -101,11 +101,16 @@ fi
 
 bind -f  ~/.inputrc
 
-# Use autojump
-. /usr/share/autojump/autojump.sh
+# Autojump anywhere
+AUTOJUMP=/usr/share/autojump/autojump.sh
+if [ -f "$AUTOJUMP" ]; then
+    source $AUTOJUMP
+fi
 
 # Details about system
-neofetch
+if command -v neofetch; then
+    neofetch
+fi;
 
 # Reverse history foward enable (Ctrl +S)
 stty -ixon
