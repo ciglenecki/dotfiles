@@ -29,15 +29,15 @@ Recent URLs[$e]=file:$HOME/projects/nerf-research/references/,file:$HOME/fer/oos
 detailViewIconSize=16
 
 [MainWindow]
-HDMI-0 Height 1920x1080=1055
-HDMI-0 Width 1920x1080=1920
-HDMI-0 XPosition 1920x1080=0
-HDMI-0 YPosition 1920x1080=25
+HDMI-0 Height 1920x1080=617
+HDMI-0 Width 1920x1080=1155
+HDMI-0 XPosition 1920x1080=759
+HDMI-0 YPosition 1920x1080=457
 Height 1080=515
 Height 1920=1888
 Height 720=1058
-MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAABzwAAAQfAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAAAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAAAABD8AAAJLAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAAAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 Width 1080=1080
 Width 1280=1920
@@ -52,23 +52,23 @@ Height 1080=889
 Width 1920=840
 
 [Recent Files]
-File1[$e]=$HOME/fer/nummat/4-exams/kpz/NUMMAT_2019-20_pitalica-3.pdf
-File10[$e]=$HOME/projects/nerf-research/references/nerfies.pdf
-File2[$e]=$HOME/fer/nummat/4-exams/kpz/NUMMAT_2019-20_pitalica-2.pdf
-File3[$e]=$HOME/fer/nummat/4-exams/kpz/NUMMAT_2019-20_pitalica-1.pdf
-File4[$e]=$HOME/fer/nummat/4-exams/kpz/NUMMAT_2019-20_kpz-2.pdf
-File5[$e]=$HOME/fer/nummat/4-exams/kpz/NUMMAT_2017-18_kpz-2.pdf
-File6[$e]=$HOME/fer/nummat/1-lectures/nummat_01_pogreske.pdf
-File7[$e]=$HOME/fer/nummat/1-lectures/nummat_04_numericka_integracija.pdf
-File8[$e]=$HOME/fer/nummat/1-lectures/nummat_05_najmanji_kvadrati.pdf
-File9[$e]=$HOME/4-education/books/competitive-programmer-handbook-anti-laaksonen.pdf
-Name1[$e]=NUMMAT_2019-20_pitalica-3.pdf
-Name10[$e]=nerfies.pdf
-Name2[$e]=NUMMAT_2019-20_pitalica-2.pdf
-Name3[$e]=NUMMAT_2019-20_pitalica-1.pdf
-Name4[$e]=NUMMAT_2019-20_kpz-2.pdf
-Name5[$e]=NUMMAT_2017-18_kpz-2.pdf
-Name6[$e]=nummat_01_pogreske.pdf
-Name7[$e]=nummat_04_numericka_integracija.pdf
-Name8[$e]=nummat_05_najmanji_kvadrati.pdf
-Name9[$e]=competitive-programmer-handbook-anti-laaksonen.pdf
+File1[$e]=$HOME/fer/nummat/4-exams/kpz/NUMMAT_2019-20_kpz-2.pdf
+File10[$e]=$HOME/Downloads/stlyegan2.pdf
+File2[$e]=$HOME/fer/nummat/4-exams/kpz/NUMMAT_2017-18_kpz-2.pdf
+File3[$e]=$HOME/fer/nummat/1-lectures/nummat_01_pogreske.pdf
+File4[$e]=$HOME/fer/nummat/1-lectures/nummat_04_numericka_integracija.pdf
+File5[$e]=$HOME/fer/nummat/1-lectures/nummat_05_najmanji_kvadrati.pdf
+File6[$e]=$HOME/4-education/books/competitive-programmer-handbook-anti-laaksonen.pdf
+File7[$e]=$HOME/projects/nerf-research/references/nerfies.pdf
+File8[$e]=$HOME/Downloads/stylegan1.pdf
+File9[$e]=$HOME/Downloads/stylegan2ada.pdf
+Name1[$e]=NUMMAT_2019-20_kpz-2.pdf
+Name10[$e]=stlyegan2.pdf
+Name2[$e]=NUMMAT_2017-18_kpz-2.pdf
+Name3[$e]=nummat_01_pogreske.pdf
+Name4[$e]=nummat_04_numericka_integracija.pdf
+Name5[$e]=nummat_05_najmanji_kvadrati.pdf
+Name6[$e]=competitive-programmer-handbook-anti-laaksonen.pdf
+Name7[$e]=nerfies.pdf
+Name8[$e]=stylegan1.pdf
+Name9[$e]=stylegan2ada.pdf

@@ -20,7 +20,7 @@ alt + o; {w,W};
 alt + o; {z,Z};
     {wmctrl -xa code, code ~/tmp/tmp.md}
 alt + o; {x,X};
-    {wmctrl -xa code, code $DIR_NOTES}
+    {wmctrl -xa code, code $DIR_NOTES/notes.md}
 alt + o; {e,E};
     wmctrl -xa thunderbird; test $? -ne 0 && thunderbird
 

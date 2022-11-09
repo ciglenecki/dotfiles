@@ -37,7 +37,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][28][Configuration]
-PreloadWeight=11
+PreloadWeight=34
 
 [Containments][2][Applets][28][Configuration][Appearance]
 boldText=true
@@ -63,7 +63,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
-PreloadWeight=100
+PreloadWeight=97
 
 [Containments][2][Applets][3][Configuration][ConfigDialog]
 DialogHeight=540
@@ -153,6 +153,7 @@ DesktopIndicatorsDoNotOverrideOpacityOfCustomColors=true
 DesktopIndicatorsStyle=2
 DesktopIndicatorsStyleBlockRadius=1
 DesktopLabelsCustomColor=#ffffff
+MouseWheelRemoveDesktopOnClick=false
 
 [Containments][2][Applets][6]
 immutability=1
@@ -166,7 +167,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][7][Configuration]
-PreloadWeight=68
+PreloadWeight=46
 SystrayContainmentId=8
 
 [Containments][2][ConfigDialog]
@@ -241,7 +242,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][8][Applets][17][Configuration]
-PreloadWeight=15
+PreloadWeight=0
 
 [Containments][8][Applets][22]
 immutability=1
@@ -255,7 +256,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][23][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][8][Applets][24][Configuration]
 PreloadWeight=42
@@ -268,7 +269,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][8][Applets][31][Configuration]
-PreloadWeight=20
+PreloadWeight=0
 
 [Containments][8][Applets][31][Configuration][ConfigDialog]
 DialogHeight=540

@@ -19,7 +19,7 @@
 20.0	/home/matej/.thunderbird/2hedqkd8.default
 14.142135623730951	/home/matej/.thunderbird/k2jw5vml.default-release
 14.142135623730951	/run/user/1000/kio-fuse-NtmDkX/smb/hotpan.local/.thunderbird/ki9fwghi.default
-173.2050807568877	/home/matej/projects
+201.74241001832016	/home/matej/projects
 489.182992345401	/home/matej/projects/spotify-random-saved-album
 14.142135623730951	/run/user/1000/kio-fuse-NtmDkX/smb/hotpan.local/projects
 14.142135623730951	/run/user/1000/kio-fuse-NtmDkX/smb/hotpan.local/projects/spotify-album-images
@@ -32,7 +32,7 @@
 10.0	/media/matej/sam/series/Curb Your Enthusiasm
 10.0	/media/matej/sam/series/Curb Your Enthusiasm/Season 8
 36.0555127546399	/home/matej/Downloads/Curb Your Enthusiasm Season 9 Complete 720p HDTV x264 [i_c]
-178.60571099491753	/home/matej/Downloads
+182.7566688249707	/home/matej/Downloads
 86.02325267042627	/home/matej/2-media
 59.16079783099617	/home/matej/Downloads/pics
 37.41657386773942	/home
@@ -65,7 +65,7 @@
 34.64101615137755	/home/matej/projects/spotify-random-saved-album/src/spotify-random-saved-album
 84.85281374238572	/home/matej/2-media/screenshots
 20.0	/home/matej/projects/spotify-random-saved-album/pics
-108.62780491200212	/home/matej/fer
+109.0871211463571	/home/matej/fer
 31.622776601683796	/home/matej/fer/finmat/1-lectures
 24.49489742783178	/home/matej/fer/finmat/1-lectures/video
 14.142135623730951	/media/matej/sam/_large_files
@@ -80,10 +80,10 @@
 17.320508075688775	/media/matej/veracrypt/fer
 147.98648586948738	/home/matej/projects/nerf-research
 33.166247903554	/home/matej/projects/nerf-research/references
-60.827625302982206	/home/matej/4-education
+62.44997998398399	/home/matej/4-education
 24.49489742783178	/home/matej/4-education/papers
 22.360679774997898	/home/matej/4-education/datasets
-34.64101615137755	/home/matej/4-education/books
+36.0555127546399	/home/matej/4-education/books
 10.0	/home/matej/4-education/_archived
 31.622776601683796	/home/matej/0-notes/specific
 24.49489742783178	/home/matej/.local/lib/python3.10
@@ -97,8 +97,8 @@
 17.320508075688775	/usr
 30.000000000000004	/usr/lib
 14.142135623730951	/home/matej/projects/spotify-random-saved-album/dist
-110.45361017187257	/home/matej/fer/dubuce2
-178.88543819998318	/home/matej/fer/oos
+111.35528725660039	/home/matej/fer/dubuce2
+181.38357147217056	/home/matej/fer/oos
 59.16079783099617	/home/matej/.config/calibre
 14.142135623730951	/media/matej/Kubuntu 22.04 LTS amd64
 28.284271247461902	/home/matej/Downloads/zips
@@ -119,7 +119,7 @@
 20.0	/home/matej/fer/__other/dir_struct
 14.142135623730951	/home/matej/fer/oos/Akademska skolska godina 2020.-2021.
 14.142135623730951	/home/matej/fer/oos/Akademska skolska godina 2021.-2022.
-61.64414002968977	/home/matej/fer/oos/4-exams
+63.24555320336759	/home/matej/fer/oos/4-exams
 24.49489742783178	/home/matej/fer/oos/4-exams/Akademska skolska godina 2020.-2021.
 22.360679774997898	/home/matej/fer/oos/4-exams/Akademska skolska godina 2021.-2022.
 34.64101615137755	/home/matej/fer/oos/5-tasks
@@ -131,16 +131,16 @@
 20.0	/home/matej/fer/oos/6-auditorne
 17.320508075688775	/home/matej/fer/oos/formule
 26.457513110645905	/home/matej/fer/oos/labosi
-46.904157598234306	/home/matej/fer/oos/3-labs
+62.44997998398399	/home/matej/fer/oos/3-labs
 126.88577540449515	/home/matej/fer/oos/3-labs/1-lab
-10.0	/home/matej/fer/oos/3-labs/2-lab
+20.0	/home/matej/fer/oos/3-labs/2-lab
 17.320508075688775	/home/matej/fer/oos/3-labs/4-lab
 14.142135623730951	/home/matej/fer/oos/3-labs/5-lab
 24.49489742783178	/home/matej/fer/oos/3-labs/6-lab
 14.142135623730951	/home/matej/fer/oos/3-labs/3-lab
 103.44080432788596	/home/matej/fer/nummat
 26.457513110645905	/home/matej/fer/seminar2
-17.320508075688775	/home/matej/fer/vizpod
+24.49489742783178	/home/matej/fer/vizpod
 10.0	/run/user/1000/kio-fuse-anKigH/trash
 14.142135623730951	/home/matej/Downloads/firefox.tmp
 44.7213595499958	/home/matej/2-media/memes
@@ -194,13 +194,13 @@
 17.320508075688775	/media/matej/hdd-main/3-pictures/4-memes
 14.142135623730951	/media/matej/hdd-main/3-pictures/Camera
 14.142135623730951	/media/matej/hdd-main/3-pictures/3-random/pc
-17.320508075688775	/home/matej/6-literature
+22.360679774997898	/home/matej/6-literature
 14.142135623730951	/home/matej/projects/nerfstudio/data
 26.457513110645905	/usr/local/cuda-11.8/bin
 17.320508075688775	/home/matej/anaconda3/envs/nerfstudio
 17.320508075688775	/home/matej/anaconda3/envs/nerfstudio/include
 14.142135623730951	/home/matej/anaconda3/envs/nerfstudio/include/python3.8
-14.142135623730951	/home/matej/anaconda3/envs/nerfstudio/include/python3.8/internal
+17.320508075688775	/home/matej/anaconda3/envs/nerfstudio/include/python3.8/internal
 14.142135623730951	/home/matej/anaconda3/envs/nerfstudio/include/python3.8/cpython
 10.0	/run/user/1000/kio-fuse-FhbOfr/filenamesearch
 10.0	/home/matej/anaconda3/envs/nerfstudio/lib/python3.8/site-packages/torchmetrics
@@ -299,8 +299,18 @@
 14.142135623730951	/home/matej/projects/leetcode/structs
 20.0	/home/matej/tmp/leetcode
 55.677643628300224	/home/matej/projects/codeforces-testcases-parser
-28.284271247461902	/home/matej/projects/competitive-programming
-14.142135623730951	/home/matej/projects/competitive-programming/natpro
+57.44562646538029	/home/matej/projects/competitive-programming
+44.7213595499958	/home/matej/projects/competitive-programming/natpro
 17.320508075688775	/home/matej/projects/competitive-programming/natpro/2-b-slay-the-dragon
-135.27749258468674	/home/matej/projects/competitive-programming/natpro/2b-slay-the-dragon
+189.47295321496418	/home/matej/projects/competitive-programming/natpro/2b-slay-the-dragon
 43.588989435406745	/home/matej/projects/nerf-research/imgs
+20.0	/home/matej/fer/vizpod/3-labs
+117.47340124470725	/home/matej/projects/competitive-programming/natpro/2c-pair-of-topics
+193.13207915827965	/home/matej/projects/geoguessr-ai
+44.7213595499958	/home/matej/projects/template-python
+180.0	/home/matej/projects/geoguessr2-ai
+64.80740698407861	/home/matej/projects/geoguessr2-ai/src
+57.44562646538029	/home/matej/projects/eva-evaluator
+17.320508075688775	/home/matej/projects/eva-evaluator/.git
+17.320508075688775	/home/matej/projects/eva-evaluator/.git/hooks
+48.98979485566357	/home/matej/projects/stylegan2-ada-project
