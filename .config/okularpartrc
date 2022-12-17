@@ -15,7 +15,8 @@ ttsEngine=flite
 
 [Main View]
 ShowBottomBar=true
-SplitterSizes=331,1520
+ShowLeftPanel=false
+SplitterSizes=163,748
 
 [Nav Panel]
 GroupByAuthor=false
@@ -27,6 +28,7 @@ SidebarShowText=false
 BackgroundColor=0,0,0
 MouseMode=TextSelect
 PrimaryAnnotationToolBar=QuickAnnotationToolBar
+TrimMargins=true
 UseCustomBackgroundColor=true
 
 [Reviews]

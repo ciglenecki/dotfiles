@@ -83,6 +83,8 @@ export DIR_GEP="/media/matej/ex-gep"
 export DIR_SAM="/media/matej/sam"
 
 export FILE_PACKAGES="$HOME/.assets/packages.txt"
+export DIR_BACKUP_DEST="/tmp/backup-veracrypt"
+export FILE_BACKUP="$DIR_SAM/home-backup.hc"
 
 #etc
 export TIMEFS="%F"

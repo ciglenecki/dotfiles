@@ -24,20 +24,20 @@ Height 1080=745
 Width 1920=907
 
 [KFileDialog Settings]
-Recent Files[$e]=SU1-2021-P02-OsnovniKoncepti.pdf,file:$HOME/fer/oos/1-lectures/02_transformacije.pdf,file:$HOME/fer/oos/1-lectures/03_spektar.pdf,file:$HOME/fer/oos/1-lectures/04_ocitavanje.pdf,file:$HOME/fer/oos/1-lectures/05_vremenski_otvori.pdf,file:$HOME/fer/oos/4-exams/mi_2022_ponovljeni.pdf,file:$HOME/fer/oos/5-tasks/OOS_2021-2022_domaca_zadaca_01.pdf,file:$HOME/fer/oos/4-exams/mi_2020.pdf,file:$HOME/fer/oos/4-exams/mi_rjesenja_2021.pdf,file:$HOME/fer/oos/4-exams/ir_z_2022.pdf
-Recent URLs[$e]=file:$HOME/projects/nerf-research/references/,file:$HOME/fer/oos/1-lectures/,file:$HOME/fer/oos/,file:$HOME/fer/oos/5-tasks/,file:$HOME/fer/oos/4-exams/,file:$HOME/fer/oos/6-auditorne/,file:$HOME/fer/oos/3-labs/,file:$HOME/fer/nummat/1-lectures/
+Recent Files[$e]=SU1-2021-P02-OsnovniKoncepti.pdf,file:$HOME/1-documents/work/ciglenecki.github.io/se/cv_matej_ciglenecki_se.pdf,file:$HOME/fer/oos/5-tasks/OOS_2021-2022_domaca_zadaca_05.pdf,file:$HOME/fer/oos/5-tasks/OOS_2021-2022_domaca_zadaca_04.pdf,file:$HOME/fer/oos/1-lectures/06_dct.pdf,file:$HOME/fer/oos/5-tasks/OOS_2021-2022_domaca_zadaca_02.pdf,file:$HOME/fer/dubuce2/1-lectures/vae_paper.pdf,file:$HOME/1-documents/work/ciglenecki.github.io/ai_datasci/cv_matej_ciglenecki_ai_datascience.pdf,file:$HOME/fer/oos/5-tasks/OOS_2021-2022_domaca_zadaca_03.pdf,file:$HOME/fer/oos/5-tasks/OOS_2021-2022_domaca_zadaca_01.pdf,file:$HOME/fer/oos/4-exams/mi_2022_ponovljeni.pdf,file:$HOME/fer/oos/4-exams/mi_2021.pdf,file:$HOME/fer/oos/4-exams/mi_2020.pdf,file:$HOME/fer/oos/1-lectures/09_prijenosna_funkcija.pdf,file:$HOME/fer/oos/1-lectures/08_z_i_laplaceova_transformacija.pdf,file:$HOME/fer/oos/4-exams/ir_j_2022.pdf
+Recent URLs[$e]=file:$HOME/fer/oos/6-auditorne/,file:$HOME/fer/oos/3-labs/,file:$HOME/fer/nummat/1-lectures/,file:$HOME/fer/oos/2-notes/,file:$HOME/1-documents/work/ciglenecki.github.io/ai_datasci/,file:$HOME/Downloads/,file:$HOME/fer/dubuce2/1-lectures/,file:$HOME/fer/oos/1-lectures/,file:$HOME/fer/oos/,file:$HOME/fer/oos/5-tasks/,file:$HOME/1-documents/work/ciglenecki.github.io/se/
 detailViewIconSize=16
 
 [MainWindow]
-HDMI-0 Height 1920x1080=617
-HDMI-0 Width 1920x1080=1155
-HDMI-0 XPosition 1920x1080=759
-HDMI-0 YPosition 1920x1080=457
+HDMI-0 Height 1920x1080=1055
+HDMI-0 Width 1920x1080=818
+HDMI-0 XPosition 1920x1080=0
+HDMI-0 YPosition 1920x1080=0
 Height 1080=515
 Height 1920=1888
 Height 720=1058
 RestorePositionForNextInstance=false
-State=AAAA/wAAAAD9AAAAAAAABD8AAAJLAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAAAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+State=AAAA/wAAAAD9AAAAAAAAAu4AAAQBAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAAAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 Width 1080=1080
 Width 1280=1920
@@ -52,23 +52,23 @@ Height 1080=889
 Width 1920=840
 
 [Recent Files]
-File1[$e]=$HOME/fer/nummat/4-exams/kpz/NUMMAT_2019-20_kpz-2.pdf
-File10[$e]=$HOME/Downloads/stlyegan2.pdf
-File2[$e]=$HOME/fer/nummat/4-exams/kpz/NUMMAT_2017-18_kpz-2.pdf
-File3[$e]=$HOME/fer/nummat/1-lectures/nummat_01_pogreske.pdf
-File4[$e]=$HOME/fer/nummat/1-lectures/nummat_04_numericka_integracija.pdf
-File5[$e]=$HOME/fer/nummat/1-lectures/nummat_05_najmanji_kvadrati.pdf
-File6[$e]=$HOME/4-education/books/competitive-programmer-handbook-anti-laaksonen.pdf
-File7[$e]=$HOME/projects/nerf-research/references/nerfies.pdf
-File8[$e]=$HOME/Downloads/stylegan1.pdf
-File9[$e]=$HOME/Downloads/stylegan2ada.pdf
-Name1[$e]=NUMMAT_2019-20_kpz-2.pdf
-Name10[$e]=stlyegan2.pdf
-Name2[$e]=NUMMAT_2017-18_kpz-2.pdf
-Name3[$e]=nummat_01_pogreske.pdf
-Name4[$e]=nummat_04_numericka_integracija.pdf
-Name5[$e]=nummat_05_najmanji_kvadrati.pdf
-Name6[$e]=competitive-programmer-handbook-anti-laaksonen.pdf
-Name7[$e]=nerfies.pdf
-Name8[$e]=stylegan1.pdf
-Name9[$e]=stylegan2ada.pdf
+File1[$e]=$HOME/fer/oos/1-lectures/08_z_i_laplaceova_transformacija.pdf
+File10[$e]=$HOME/fer/nummat/1-lectures/predavanje_16.pdf
+File2[$e]=$HOME/fer/oos/1-lectures/09_prijenosna_funkcija.pdf
+File3[$e]=$HOME/1-documents/work/ciglenecki.github.io/cv_matej_ciglenecki.pdf
+File4[$e]=$HOME/1-documents/work/ciglenecki.github.io/se/cv_matej_ciglenecki_se.pdf
+File5[$e]=/media/matej/hdd-main/6-assets/1-tech/anki_essentials-Alex_Vermeer-2013.pdf
+File6[$e]=/media/matej/hdd-main/6-assets/2019-03-08-handwriting-practice.pdf
+File7[$e]=$HOME/fer/nummat/1-lectures/predavanje_10.pdf
+File8[$e]=$HOME/fer/nummat/1-lectures/predavanje_16a.pdf
+File9[$e]=$HOME/fer/nummat/1-lectures/predavanje_16b.pdf
+Name1[$e]=08_z_i_laplaceova_transformacija.pdf
+Name10[$e]=predavanje_16.pdf
+Name2[$e]=09_prijenosna_funkcija.pdf
+Name3[$e]=cv_matej_ciglenecki.pdf
+Name4[$e]=cv_matej_ciglenecki_se.pdf
+Name5[$e]=anki_essentials-Alex_Vermeer-2013.pdf
+Name6[$e]=2019-03-08-handwriting-practice.pdf
+Name7[$e]=predavanje_10.pdf
+Name8[$e]=predavanje_16a.pdf
+Name9[$e]=predavanje_16b.pdf

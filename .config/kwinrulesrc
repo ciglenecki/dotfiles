@@ -13,6 +13,8 @@ wmclassmatch=3
 
 [2]
 Description=borders
+maxsize=32767,32767
+maxsizerule=2
 noborder=true
 noborderrule=3
 wmclass=
@@ -41,3 +43,7 @@ rules=1,2,3
 [KDE]
 LookAndFeelPackage[$d]
 SingleClick[$d]
+
+[f67ba343-225e-4243-976c-834b190746c2]
+Description=New window settings
+wmclassmatch=1

@@ -94,13 +94,11 @@ enableSpreadLayout=false
 enableStairLayout=false
 enableThreeColumnLayout=false
 keepFloatAbove=false
+layoutPerActivity=false
 maximizeSoleTile=true
 monocleMaximize=false
 noTileBorder=true
-screenGapBottom=5
-screenGapLeft=5
-screenGapRight=5
-screenGapTop=5
+preventProtrusion=false
 tileLayoutGap=5
 
 [TabBox]

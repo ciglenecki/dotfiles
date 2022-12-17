@@ -37,7 +37,7 @@ ViewPropsTimestamp=2021,11,7,23,26,33
 [IconsMode]
 FontWeight=50
 IconSize=48
-PreviewSize=176
+PreviewSize=112
 
 [KFileDialog Settings]
 Recent Files[$e]=tmp_tree.png,file:$HOME/2-media/icons/document_clip.png,file:$HOME/2-media/icons/tmp_tree.png
@@ -49,7 +49,7 @@ DP-0 HDMI-0 Height 1920x1080=458
 DP-0 HDMI-0 Height 2560x1440=587
 DP-0 HDMI-0 Width 1920x1080=383
 DP-0 HDMI-0 Width 2560x1440=518
-HDMI-0 Height 1920x1080=598
+HDMI-0 Height 1920x1080=588
 HDMI-0 Width 1920x1080=438
 Height 1080=524
 Height 1440=516
@@ -88,10 +88,10 @@ DP-0 HDMI-0 eDP-1-1 XPosition 1920x1080=0
 DP-0 HDMI-0 eDP-1-1 XPosition 2560x1440=1920
 DP-0 HDMI-0 eDP-1-1 YPosition 1920x1080=0
 DP-0 HDMI-0 eDP-1-1 YPosition 2560x1440=0
-HDMI-0 Height 1920x1080=509
-HDMI-0 Width 1920x1080=1196
-HDMI-0 XPosition 1920x1080=718
-HDMI-0 YPosition 1920x1080=565
+HDMI-0 Height 1920x1080=426
+HDMI-0 Width 1920x1080=1246
+HDMI-0 XPosition 1920x1080=673
+HDMI-0 YPosition 1920x1080=628
 HDMI-0 eDP-1-1 Height 1920x1080=1058
 HDMI-0 eDP-1-1 Width 1920x1080=1648
 HDMI-0 eDP-1-1 XPosition 1920x1080=271
@@ -141,16 +141,13 @@ eDP-1-1 YPosition 1920x1080=376
 
 [Open-with settings]
 CompletionMode=1
-History=imp,shut,shutt,code,brave,gwe,free,okular,kate,packa
+History=code,imp,shut,shutt,brave,gwe,free,okular,kate,packa
 
 [PlacesPanel]
 IconSize=16
 
 [PreviewSettings]
 Plugins=audiothumbnail,blenderthumbnail,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,textthumbnail,ffmpegthumbs
-
-[Search]
-What=Content
 
 [SettingsDialog]
 Height 1080=456

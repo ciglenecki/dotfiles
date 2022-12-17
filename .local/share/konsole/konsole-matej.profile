@@ -17,7 +17,7 @@ TerminalColumns=130
 TerminalMargin=30
 
 [Scrolling]
-HistoryMode=1
+HistoryMode=2
 HistorySize=9999
 
 [Terminal Features]

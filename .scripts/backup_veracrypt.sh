@@ -29,10 +29,10 @@ fi
 HOME="/home/matej"
 . $HOME/.scripts/env.sh
 SRC=$HOME/*; # files inside of home
-DEST_HDD=$DIR_SAM
+FILE_BACKUP=$FILE_BACKUP
 
 ### Mount veracrypt
-DEST_MOUNT_LOCATION="/media/matej/veracrypt"
+DEST_MOUNT_LOCATION=$DIR_BACKUP_DEST
 sudo mkdir -p $DEST_MOUNT_LOCATION
 
 echo "Unmounting any pervious virtual disks...";
@@ -45,7 +45,7 @@ fi
 
 echo "Mounting a new disk...";
 
-veracrypt -t -k "" --pim=0 --protect-hidden=no --mount "$DEST_HDD/home-backup" $DEST_MOUNT_LOCATION
+veracrypt -t -k "" --pim=0 --protect-hidden=no --mount $FILE_BACKUP $DEST_MOUNT_LOCATION
 
 if [ $? -eq 0 ]; then
     echo "Veracrypt mounted at $DEST_MOUNT_LOCATION";
@@ -64,8 +64,6 @@ LOG="$LOG/backup-hdd.log"
 echo $(date +"$TIMEFL") >> $LOG;
 
 notify-send "Starting backup!" "src\t$SRC\ndest\t$DEST_HDD";
-
-
 
 echo "Starting file transfer...";
 

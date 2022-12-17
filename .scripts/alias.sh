@@ -113,7 +113,7 @@ function rename_images(){
 # `o` opens the current directory or opens the argument (file)
 function o() {
 	if [ $# -eq 0 ]; then
-		open .;
+		open . > /dev/null 2>&1;
 	else
         for file in "$@"
         do

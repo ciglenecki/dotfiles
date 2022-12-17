@@ -19,10 +19,10 @@ done
 
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=-1
-HISTFILESIZE=-1
+HISTSIZE=-1  # the number of lines or commands that are stored in memory in a history list while your bash session is ongoing.
+HISTFILESIZE=-1 # is the number of lines or commands that (a) are allowed in the history file at startup time of a session, and (b) are stored in the history file at the end of your bash session for use in future sessions.
 
-# append to the history file, don't overwrite it
+# When the shell exits, append to the history file instead of overwriting it
 shopt -s histappend
 
 # check the window size after each command and, if necessary, update the values of LINES and COLUMNS.
@@ -86,7 +86,7 @@ fi
 prompt_color='\033[01;32m'
 
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\['${prompt_color}'\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+    PS1='\D{%H:%M} ${debian_chroot:+($debian_chroot)}\['${prompt_color}'\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
@@ -108,7 +108,7 @@ if [ -f "$AUTOJUMP" ]; then
 fi
 
 # Details about system
-if command -v neofetch; then
+if command -v neofetch &> /dev/null; then
     neofetch
 fi;
 
@@ -120,6 +120,8 @@ stty -ixon
 GIT_PROMPT_THEME=Single_line_Ubuntu
 if [ -f "$HOME/.bash-git-prompt/gitprompt.sh" ]; then
     GIT_PROMPT_ONLY_IN_REPO=1
+    GIT_PROMPT_THEME=Custom
+    GIT_PROMPT_THEME_FILE=$HOME/.git-prompt-colors.sh
     source $HOME/.bash-git-prompt/gitprompt.sh
 fi
 

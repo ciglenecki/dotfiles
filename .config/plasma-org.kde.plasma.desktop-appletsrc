@@ -28,7 +28,7 @@ activityId=
 formfactor=2
 immutability=1
 lastScreen=0
-location=3
+location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
@@ -37,7 +37,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][28][Configuration]
-PreloadWeight=34
+PreloadWeight=92
 
 [Containments][2][Applets][28][Configuration][Appearance]
 boldText=true
@@ -48,22 +48,12 @@ showSeconds=true
 DialogHeight=720
 DialogWidth=960
 
-[Containments][2][Applets][29]
-immutability=1
-plugin=org.kde.plasma.panelspacer
-
-[Containments][2][Applets][29][Configuration]
-PreloadWeight=0
-
-[Containments][2][Applets][29][Configuration][General]
-length=428
-
 [Containments][2][Applets][3]
 immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
-PreloadWeight=97
+PreloadWeight=100
 
 [Containments][2][Applets][3][Configuration][ConfigDialog]
 DialogHeight=540
@@ -90,7 +80,8 @@ plugin=org.kde.plasma.panelspacer
 PreloadWeight=0
 
 [Containments][2][Applets][30][Configuration][General]
-length=786
+expanding=false
+length=509
 
 [Containments][2][Applets][36]
 immutability=1
@@ -155,6 +146,16 @@ DesktopIndicatorsStyleBlockRadius=1
 DesktopLabelsCustomColor=#ffffff
 MouseWheelRemoveDesktopOnClick=false
 
+[Containments][2][Applets][44]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][2][Applets][44][Configuration]
+PreloadWeight=0
+
+[Containments][2][Applets][44][Configuration][General]
+length=240
+
 [Containments][2][Applets][6]
 immutability=1
 plugin=org.kde.plasma.marginsseparator
@@ -167,7 +168,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][7][Configuration]
-PreloadWeight=46
+PreloadWeight=89
 SystrayContainmentId=8
 
 [Containments][2][ConfigDialog]
@@ -178,7 +179,7 @@ DialogWidth=1920
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=3;39;40;36;30;28;29;41;7;6
+AppletOrder=3;39;40;36;30;28;44;41;7;6
 
 [Containments][43]
 ItemGeometries-1024x768=
@@ -212,7 +213,7 @@ activityId=
 formfactor=2
 immutability=1
 lastScreen=0
-location=3
+location=4
 plugin=org.kde.plasma.private.systemtray
 wallpaperplugin=org.kde.image
 

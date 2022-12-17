@@ -162,5 +162,9 @@
         "key": "ctrl+; x",
         "command": "-jupyter.deleteCells",
         "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+alt+b",
+        "command": "workbench.action.toggleActivityBarVisibility"
     }
 ]

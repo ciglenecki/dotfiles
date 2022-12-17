@@ -141,7 +141,7 @@ History Items[$e]=file:$HOME/2-media/screenshots,file:$HOME/2-media/screenshots,
 
 [General]
 BrowserApplication=brave-browser.desktop
-ColorSchemeHash=dd1942b5e93c3bbb5d5263740caa393b95b49d23
+ColorSchemeHash=0d37ac7d257c7643ff5540889d5368b99875ad6b
 Name=Breeze
 dbfile=/home/matej/.mozilla/firefox/zt6yez1i.default/places.sqlite
 shadeSortColumn=true
@@ -159,23 +159,23 @@ contrast=4
 widgetStyle=Breeze
 
 [KFileDialog Settings]
-Allow Expansion=false
+Allow Expansion=true
 Automatically select filename extension=true
 Breadcrumb Navigation=false
 Decoration position=2
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
-Preview Width=222
+Preview Width=190
 Show Bookmarks=false
 Show Full Path=false
-Show Inline Previews=true
+Show Inline Previews=false
 Show Preview=true
 Show Speedbar=true
 Show hidden files=true
 Sort by=Name
 Sort directories first=true
 Sort reversed=false
-Speedbar Width=138
+Speedbar Width=354
 View Style=DetailTree
 
 [KScreen]
