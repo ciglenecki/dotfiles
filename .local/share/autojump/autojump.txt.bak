@@ -1,16 +1,16 @@
 26.457513110645905	/home/matej/.local/share/konsole
 55.677643628300224	/home/matej/.config
-17.320508075688775	/home/matej/.assets
+22.360679774997898	/home/matej/.assets
 70.00000000000001	/home/matej/.scripts
-70.71067811865477	/media/matej/963C7C223C7BFB95
-96.95359714832654	/media/matej/hdd-main
-28.284271247461902	/media/matej/hdd-main/2-drive
+72.1110255092798	/media/matej/963C7C223C7BFB95
+111.80339887498944	/media/matej/hdd-main
+34.64101615137755	/media/matej/hdd-main/2-drive
 10.0	/media/matej/hdd-main/2-drive/_tmp
 30.000000000000004	/run/user/1000/kio-fuse-NtmDkX/remote
 43.588989435406745	/run/user/1000/kio-fuse-NtmDkX/smb
 37.41657386773942	/run/user/1000/kio-fuse-NtmDkX/smb/hotpan.local
 10.0	/run/user/1000/kio-fuse-NtmDkX/smb/doom.local
-193.64916731037084	/home/matej/tmp
+194.67922333931787	/home/matej/tmp
 52.91502622129182	/home/matej/_tmp
 20.0	/home/matej/_tmp/budapest
 14.142135623730951	/run/user/1000/kio-fuse-NtmDkX/smb/matej@hotpan.local/.thunderbird
@@ -19,7 +19,7 @@
 20.0	/home/matej/.thunderbird/2hedqkd8.default
 14.142135623730951	/home/matej/.thunderbird/k2jw5vml.default-release
 14.142135623730951	/run/user/1000/kio-fuse-NtmDkX/smb/hotpan.local/.thunderbird/ki9fwghi.default
-215.1743479135002	/home/matej/projects
+217.25560982400438	/home/matej/projects
 506.16202939375137	/home/matej/projects/spotify-random-saved-album
 14.142135623730951	/run/user/1000/kio-fuse-NtmDkX/smb/hotpan.local/projects
 14.142135623730951	/run/user/1000/kio-fuse-NtmDkX/smb/hotpan.local/projects/spotify-album-images
@@ -32,8 +32,8 @@
 10.0	/media/matej/sam/series/Curb Your Enthusiasm
 10.0	/media/matej/sam/series/Curb Your Enthusiasm/Season 8
 36.0555127546399	/home/matej/Downloads/Curb Your Enthusiasm Season 9 Complete 720p HDTV x264 [i_c]
-227.3763400180416	/home/matej/Downloads
-91.6515138991168	/home/matej/2-media
+231.30067012440773	/home/matej/Downloads
+92.73618495495703	/home/matej/2-media
 59.16079783099617	/home/matej/Downloads/pics
 37.41657386773942	/home
 37.41657386773942	/home/matej/3-audio
@@ -63,7 +63,7 @@
 14.142135623730951	/home/matej/tmp/new_test/dist
 17.320508075688775	/home/matej/projects/spotify-random-saved-album/source
 34.64101615137755	/home/matej/projects/spotify-random-saved-album/src/spotify-random-saved-album
-89.44271909999159	/home/matej/2-media/screenshots
+90.0	/home/matej/2-media/screenshots
 52.91502622129182	/home/matej/projects/spotify-random-saved-album/pics
 119.99999999999993	/home/matej/fer
 31.622776601683796	/home/matej/fer/finmat/1-lectures
@@ -104,7 +104,7 @@
 28.284271247461902	/home/matej/Downloads/zips
 22.360679774997898	/media/matej/blacky
 17.320508075688775	/home/matej/Downloads/Curb Your Enthusiasm (2000) Season 10 S10 (1080p AMZN WEB-DL x265 HEVC 10bit AAC 5.1 Qman) [UTR]
-55.677643628300224	/home/matej/2-media/avi
+56.568542494923804	/home/matej/2-media/avi
 36.0555127546399	/home/matej/projects/ics
 24.49489742783178	/home/matej/1-documents/_archived
 10.0	/home/matej/1-documents/work/2022-photomath
@@ -174,7 +174,7 @@
 10.0	/home/matej/projects/nerfstudio/outputs/out_dir/nerfacto/2022-10-20_133824
 14.142135623730951	/media/matej/Kubuntu 21.04 amd64
 26.457513110645905	/run/user/1000/kio-fuse-tBjBRS/sftp/brick@192.168.100.5:1234/storage/emulated/0/Download
-45.82575694955841	/media/matej/hdd-main/3-pictures
+52.91502622129182	/media/matej/hdd-main/3-pictures
 43.588989435406745	/media/matej/hdd-main/3-pictures/1-photography
 22.360679774997898	/media/matej/hdd-main/3-pictures/1-photography/_randomold
 14.142135623730951	/media/matej/hdd-main/3-pictures/1-photography/2008-08-09-focused-summer-igrane
@@ -192,7 +192,7 @@
 20.0	/media/matej/hdd-main/3-pictures/3-random/editing
 17.320508075688775	/media/matej/hdd-main/3-pictures/3-random/displacement
 20.0	/media/matej/hdd-main/3-pictures/4-memes
-14.142135623730951	/media/matej/hdd-main/3-pictures/Camera
+20.0	/media/matej/hdd-main/3-pictures/Camera
 14.142135623730951	/media/matej/hdd-main/3-pictures/3-random/pc
 34.64101615137755	/home/matej/6-literature
 24.49489742783178	/home/matej/projects/nerfstudio/data
@@ -313,9 +313,9 @@
 57.44562646538029	/home/matej/projects/eva-evaluator
 17.320508075688775	/home/matej/projects/eva-evaluator/.git
 17.320508075688775	/home/matej/projects/eva-evaluator/.git/hooks
-109.54451150103318	/home/matej/projects/stylegan2-ada-project
+109.99999999999996	/home/matej/projects/stylegan2-ada-project
 14.142135623730951	/media/matej/hdd-main/3-pictures/1-photography/2017-08-23-focused-netherlands
-47.9583152331272	/media/matej/hdd-main/1-projects
+52.91502622129182	/media/matej/hdd-main/1-projects
 10.0	/home/matej/projects/spotify-random-saved-album/src/spotify_random_saved_album/resources
 60.827625302982206	/home/matej/projects/spotify-album-images
 10.0	/home/matej/projects/spotify-album-images/images
@@ -331,15 +331,15 @@
 20.0	/home/matej/projects/stylegan2-ada-project/docs
 14.142135623730951	/home/matej/projects/stylegan2-ada-project/reports
 14.142135623730951	/home/matej/projects/stylegan2-ada-project/src
-78.74007874011812	/media/matej/gep
+84.85281374238572	/media/matej/gep
 44.7213595499958	/media/matej/gep/_otherpeople
 17.320508075688775	/media/matej/gep/_otherpeople/2017-07-01-deborah_slike
 10.0	/media/matej/gep/_otherpeople/2018-01-20-maja
 10.0	/media/matej/gep/_otherpeople/2018-01-20-maja/WhatsApp Video
-33.166247903554	/media/matej/gep/backup-CD
-36.0555127546399	/media/matej/gep/backup-files
-50.990195135927856	/media/matej/gep/home-matej-2021-10-04-00-42-20
-20.0	/media/matej/gep/installation-games
+34.64101615137755	/media/matej/gep/backup-CD
+41.231056256176615	/media/matej/gep/backup-files
+52.91502622129182	/media/matej/gep/home-matej-2021-10-04-00-42-20
+24.49489742783178	/media/matej/gep/installation-games
 22.360679774997898	/media/matej/gep/backup-CD/D
 10.0	/media/matej/gep/backup-CD/D/2-fer
 10.0	/media/matej/gep/backup-CD/D/2-fer/__other
@@ -745,7 +745,7 @@
 14.142135623730951	/media/matej/hdd-main/1-projects/1-tech/messanger-parse/facebook-cigleneckimatej/messages/filtered_threads
 14.142135623730951	/media/matej/hdd-main/1-projects/1-tech/messanger-parse/facebook-cigleneckimatej/messages/inbox
 10.0	/media/matej/hdd-main/1-projects/1-tech/messanger-parse/facebook-cigleneckimatej/messages/message_requests
-28.284271247461902	/media/matej/hdd-main/1-projects/2-editing-video
+31.622776601683796	/media/matej/hdd-main/1-projects/2-editing-video
 14.142135623730951	/media/matej/hdd-main/1-projects/1-tech/2019-datacrunch/0-hackaton/0-hackaton/figures (self-visualisation)
 14.142135623730951	/media/matej/hdd-main/1-projects/1-tech/2019-datacrunch/0-hackaton/0-hackaton/scripts
 20.0	/media/matej/hdd-main/1-projects/1-tech/2019-datacrunch/data_crunch_2019
@@ -753,21 +753,21 @@
 24.49489742783178	/media/matej/hdd-main/1-projects/1-tech/2019-datacrunch/data_crunch_2019/0-hackaton/data
 14.142135623730951	/media/matej/hdd-main/1-projects/1-tech/2019-datacrunch/data_crunch_2019/0-hackaton/data/financije
 14.142135623730951	/media/matej/hdd-main/1-projects/1-tech/2019-datacrunch/data_crunch_2019/0-hackaton/data/odnosi
-14.142135623730951	/media/matej/hdd-main/3-tmp
-40.00000000000001	/media/matej/hdd-main/4-audio
+17.320508075688775	/media/matej/hdd-main/3-tmp
+43.588989435406745	/media/matej/hdd-main/4-audio
 14.142135623730951	/media/matej/hdd-main/4-audio/1-music
-17.320508075688775	/media/matej/hdd-main/4-audio/2-audiobooks
-34.64101615137755	/media/matej/hdd-main/4-audio/3-random
+22.360679774997898	/media/matej/hdd-main/4-audio/2-audiobooks
+36.0555127546399	/media/matej/hdd-main/4-audio/3-random
 14.142135623730951	/run/user/1000/kio-fuse-UWCuht/zip/media/matej/hdd-main/4-audio/3-random/2017-leon.zip
 14.142135623730951	/tmp/veracrypt/_tmp
-30.000000000000004	/media/matej/hdd-main/5-video
-17.320508075688775	/media/matej/hdd-main/5-video/0-edits
-14.142135623730951	/media/matej/hdd-main/5-video/1-irl
+41.231056256176615	/media/matej/hdd-main/5-video
+22.360679774997898	/media/matej/hdd-main/5-video/0-edits
+17.320508075688775	/media/matej/hdd-main/5-video/1-irl
 10.0	/media/matej/hdd-main/1-projects/2-editing-video/0-output
 20.0	/media/matej/hdd-main/1-projects/2-editing-video/1-edits
 14.142135623730951	/media/matej/hdd-main/1-projects/2-editing-video/1-edits/0-output
 14.142135623730951	/media/matej/hdd-main/1-projects/2-editing-video/1-edits/0-potentialsongs
-26.457513110645905	/media/matej/hdd-main/6-assets
+30.000000000000004	/media/matej/hdd-main/6-assets
 28.284271247461902	/media/matej/hdd-main/6-assets/1-tech
 24.49489742783178	/media/matej/hdd-main/6-assets/1-tech/design
 14.142135623730951	/run/user/1000/kio-fuse-UWCuht/zip/media/matej/hdd-main/6-assets/1-tech/design/xd-resources-material-design-ui.zip
@@ -777,3 +777,49 @@
 14.142135623730951	/media/matej/hdd-main/6-assets/2-creative/2-audio/Background
 14.142135623730951	/media/matej/hdd-main/6-assets/2-creative/2-audio/Background/atmospheric
 14.142135623730951	/media/matej/hdd-main/6-assets/2-creative/3-video
+14.142135623730951	/home/matej/projects/stylegan2-ada
+14.142135623730951	/media/matej/gep/installation-programs
+10.0	/media/matej/hdd-main/2-drive/0-notes
+20.0	/media/matej/hdd-main/2-media
+31.622776601683796	/media/matej/hdd-main/tmp
+20.0	/media/matej/hdd-main/tmp/s6 bckup
+17.320508075688775	/media/matej/hdd-main/tmp/s6 bckup/FoneLab Android Data Recovery
+20.0	/media/matej/hdd-main/tmp/s6 bckup/FoneLab Android Data Recovery/SAMSUNG GALAXY S6
+42.42640687119286	/media/matej/hdd-main/tmp/s6 bckup/FoneLab Android Data Recovery/SAMSUNG GALAXY S6/2021-05-13 12-34-51
+31.622776601683796	/media/matej/hdd-main/tmp/s6 bckup/FoneLab Android Data Recovery/SAMSUNG GALAXY S6/2021-05-13 12-34-51/Videos
+20.0	/media/matej/hdd-main/tmp/s6 bckup/FoneLab Android Data Recovery/SAMSUNG GALAXY S6/2021-05-13 12-34-51/Videos/MP4
+20.0	/media/matej/hdd-main/tmp/s6 bckup/FoneLab Android Data Recovery/SAMSUNG GALAXY S6/2021-05-13 12-34-51/Videos/WEBM
+28.284271247461902	/media/matej/hdd-main/tmp/s6 bckup/FoneLab Android Data Recovery/SAMSUNG GALAXY S6/2021-05-13 12-34-51/Gallery
+14.142135623730951	/media/matej/hdd-main/tmp/s6 bckup/FoneLab Android Data Recovery/SAMSUNG GALAXY S6/2021-05-13 12-34-51/Gallery/JPEG
+14.142135623730951	/media/matej/hdd-main/tmp/s6 bckup/FoneLab Android Data Recovery/SAMSUNG GALAXY S6/2021-05-13 12-34-51/Gallery/JPG
+14.142135623730951	/media/matej/hdd-main/tmp/s6 bckup/FoneLab Android Data Recovery/SAMSUNG GALAXY S6/2021-05-13 12-34-51/Gallery/PNG
+14.142135623730951	/media/matej/hdd-main/tmp/s6 bckup/FoneLab Android Data Recovery/SAMSUNG GALAXY S6/2021-05-13 12-34-51/Documents
+20.0	/media/matej/hdd-main/tmp/s6 bckup/FoneLab Android Data Recovery/SAMSUNG GALAXY S6/2021-05-13 12-34-51/Audio
+14.142135623730951	/media/matej/hdd-main/tmp/s6 bckup/FoneLab Android Data Recovery/SAMSUNG GALAXY S6/2021-05-13 12-34-51/Audio/MP3
+20.0	/media/matej/hdd-main/tmp/s6 bckup/FoneLab Android Data Recovery/SAMSUNG GALAXY S6/2021-05-13 12-34-51/WhatsApp
+14.142135623730951	/media/matej/hdd-main/tmp/s6 bckup/FoneLab Android Data Recovery/SAMSUNG GALAXY S6/2021-05-13 12-34-51/WhatsApp/image
+14.142135623730951	/media/matej/hdd-main/tmp/s6 bckup/FoneLab Android Data Recovery/SAMSUNG GALAXY S6/2021-05-13 12-34-51/WhatsApp Attachments
+14.142135623730951	/media/matej/hdd-main/tmp/2020-07-03-sony
+10.0	/media/matej/hdd-main/tmp/2020-07-03-sony/filtered
+14.142135623730951	/media/matej/hdd-main/tmp/done
+10.0	/media/matej/hdd-main/tmp/done/raw
+14.142135623730951	/media/matej/hdd-main/tmp/torrent
+10.0	/media/matej/hdd-main/tmp/torrent/0-downloading
+10.0	/media/matej/hdd-main/8-games
+10.0	/media/matej/hdd-main/7-archive
+28.284271247461902	/run/user/1000/kio-fuse-RIIhuH/sftp/mciglenecki:130pastashotamc@zver1.zesoi.fer.hr:443/home/mciglenecki/projects/nerf-research
+14.142135623730951	/run/user/1000/kio-fuse-RIIhuH/sftp/mciglenecki:130pastashotamc@zver1.zesoi.fer.hr:443/home/mciglenecki/projects
+24.49489742783178	/run/user/1000/kio-fuse-RIIhuH/sftp/mciglenecki:130pastashotamc@zver1.zesoi.fer.hr:443/home/mciglenecki/projects/stylegan2-ada
+10.0	/run/user/1000/kio-fuse-RIIhuH/sftp/mciglenecki:130pastashotamc@zver1.zesoi.fer.hr:443/home/mciglenecki/projects/stylegan2-ada/original-stylegan2-ada
+10.0	/run/user/1000/kio-fuse-RIIhuH/sftp/mciglenecki:130pastashotamc@zver1.zesoi.fer.hr:443/home/mciglenecki/projects/stylegan2-ada/original-stylegan2-ada/out
+10.0	/run/user/1000/kio-fuse-RIIhuH/sftp/mciglenecki:130pastashotamc@zver1.zesoi.fer.hr:443/home/mciglenecki/projects/stylegan2-ada/data
+26.457513110645905	/run/user/1000/kio-fuse-RIIhuH/sftp/mciglenecki:130pastashotamc@zver1.zesoi.fer.hr:443/home/mciglenecki/projects/stylegan2-ada/data/raw
+33.166247903554	/run/user/1000/kio-fuse-RIIhuH/sftp/mciglenecki@zver1.zesoi.fer.hr:443/home/mciglenecki/projects/stylegan2-ada/original-stylegan2-ada
+40.00000000000001	/run/user/1000/kio-fuse-RIIhuH/sftp/mciglenecki@zver1.zesoi.fer.hr:443/home/mciglenecki/projects/stylegan2-ada/original-stylegan2-ada/out
+22.360679774997898	/run/user/1000/kio-fuse-RIIhuH/sftp/mciglenecki@zver1.zesoi.fer.hr:443/home/mciglenecki/projects/stylegan2-ada/original-stylegan2-ada/out1
+33.166247903554	/run/user/1000/kio-fuse-RIIhuH/sftp/mciglenecki@zver1.zesoi.fer.hr:443/home/mciglenecki/projects/stylegan2-ada
+14.142135623730951	/run/user/1000/kio-fuse-RIIhuH/sftp/mciglenecki@zver1.zesoi.fer.hr:443/home/mciglenecki/projects/stylegan2-ada/data
+10.0	/run/user/1000/kio-fuse-RIIhuH/sftp/mciglenecki@zver1.zesoi.fer.hr:443/home/mciglenecki/projects/stylegan2-ada/data/raw
+14.142135623730951	/run/user/1000/kio-fuse-RIIhuH/sftp/mciglenecki@zver1.zesoi.fer.hr:443/home/mciglenecki/projects/stylegan2-ada/data/processed
+28.284271247461902	/run/user/1000/kio-fuse-RIIhuH/sftp/mciglenecki@zver1.zesoi.fer.hr:443/home/mciglenecki/projects/stylegan2-ada/outputs
+14.142135623730951	/run/user/1000/kio-fuse-RIIhuH/sftp/mciglenecki@zver1.zesoi.fer.hr:443/home/mciglenecki/projects/stylegan2-ada/outputs/backup

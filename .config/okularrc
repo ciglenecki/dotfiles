@@ -29,15 +29,14 @@ Recent URLs[$e]=file:$HOME/fer/oos/6-auditorne/,file:$HOME/fer/oos/3-labs/,file:
 detailViewIconSize=16
 
 [MainWindow]
-HDMI-0 Height 1920x1080=1055
-HDMI-0 Width 1920x1080=818
-HDMI-0 XPosition 1920x1080=0
-HDMI-0 YPosition 1920x1080=0
+HDMI-0 Height 1920x1080=598
+HDMI-0 Width 1920x1080=1629
+HDMI-0 XPosition 1920x1080=290
+HDMI-0 YPosition 1920x1080=530
 Height 1080=515
 Height 1920=1888
 Height 720=1058
-RestorePositionForNextInstance=false
-State=AAAA/wAAAAD9AAAAAAAAAu4AAAQBAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAAAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+State=AAAA/wAAAAD9AAAAAAAABhkAAAI4AAAABAAAAAQAAAAIAAAACPwAAAADAAAAAAAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 Width 1080=1080
 Width 1280=1920
@@ -53,22 +52,20 @@ Width 1920=840
 
 [Recent Files]
 File1[$e]=$HOME/fer/oos/1-lectures/08_z_i_laplaceova_transformacija.pdf
-File10[$e]=$HOME/fer/nummat/1-lectures/predavanje_16.pdf
 File2[$e]=$HOME/fer/oos/1-lectures/09_prijenosna_funkcija.pdf
 File3[$e]=$HOME/1-documents/work/ciglenecki.github.io/cv_matej_ciglenecki.pdf
 File4[$e]=$HOME/1-documents/work/ciglenecki.github.io/se/cv_matej_ciglenecki_se.pdf
 File5[$e]=/media/matej/hdd-main/6-assets/1-tech/anki_essentials-Alex_Vermeer-2013.pdf
 File6[$e]=/media/matej/hdd-main/6-assets/2019-03-08-handwriting-practice.pdf
 File7[$e]=$HOME/fer/nummat/1-lectures/predavanje_10.pdf
-File8[$e]=$HOME/fer/nummat/1-lectures/predavanje_16a.pdf
-File9[$e]=$HOME/fer/nummat/1-lectures/predavanje_16b.pdf
+File8[$e]=$HOME/fer/nummat/1-lectures/predavanje_16.pdf
+File9[$e]=/media/matej/hdd-main/tmp/s6 bckup/FoneLab Android Data Recovery/SAMSUNG GALAXY S6/2021-05-13 12-34-51/WhatsApp Attachments/Filip_Wolf_CV.pdf
 Name1[$e]=08_z_i_laplaceova_transformacija.pdf
-Name10[$e]=predavanje_16.pdf
 Name2[$e]=09_prijenosna_funkcija.pdf
 Name3[$e]=cv_matej_ciglenecki.pdf
 Name4[$e]=cv_matej_ciglenecki_se.pdf
 Name5[$e]=anki_essentials-Alex_Vermeer-2013.pdf
 Name6[$e]=2019-03-08-handwriting-practice.pdf
 Name7[$e]=predavanje_10.pdf
-Name8[$e]=predavanje_16a.pdf
-Name9[$e]=predavanje_16b.pdf
+Name8[$e]=predavanje_16.pdf
+Name9[$e]=Filip_Wolf_CV.pdf

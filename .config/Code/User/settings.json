@@ -54,11 +54,16 @@
   "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
   "vim.insertModeKeyBindings": [
     {
-      "before": ["<C-b>"],
+      "before": [
+        "<C-b>"
+      ],
       "after": []
     }
   ],
-  "spellright.language": ["en_US", "hr_HR"],
+  "spellright.language": [
+    "en_US",
+    "hr_HR"
+  ],
   "cSpell.userWords": [
     "Allreduce",
     "Blokirajuće",
@@ -111,7 +116,11 @@
     "<C-d>": true
   },
   "markdown.links.openLocation": "beside",
-  "spellright.documentTypes": ["latex", "plaintext", "markdown"],
+  "spellright.documentTypes": [
+    "latex",
+    "plaintext",
+    "markdown"
+  ],
   "markdown-preview-enhanced.codeBlockTheme": "github.css",
   "gitlens.blame.highlight.enabled": false,
   "gitlens.blame.heatmap.enabled": false,
@@ -138,7 +147,9 @@
   "explorer.confirmDragAndDrop": false,
   "workbench.colorTheme": "Quiet Light",
   "editor.insertSpaces": false,
-  "settingsSync.ignoredExtensions": ["ctf0.laravel-goto-env"],
+  "settingsSync.ignoredExtensions": [
+    "ctf0.laravel-goto-env"
+  ],
   "debug.onTaskErrors": "showErrors",
   "workbench.editorAssociations": {
     "*.mat": "default",
@@ -160,7 +171,10 @@
     "MD010": false,
     "MD034": false
   },
-  "cSpell.enableFiletypes": ["!python", "markdown"],
+  "cSpell.enableFiletypes": [
+    "!python",
+    "markdown"
+  ],
   "cSpell.language": "en,hr-HR,hr",
   "cSpell.diagnosticLevel": "Warning",
   "cSpell.enabled": true,
@@ -176,11 +190,22 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.python"
   },
-  "python.linting.flake8Args": ["--max-line-length", "88"],
+  "python.linting.flake8Args": [
+    "--max-line-length",
+    "88"
+  ],
   "notebook.output.textLineLimit": 300,
-  "python.linting.ignorePatterns": ["**/site-packages/**/*.py", ".vscode/*.py", "venv/**"],
+  "python.linting.ignorePatterns": [
+    "**/site-packages/**/*.py",
+    ".vscode/*.py",
+    "venv/**"
+  ],
   "python.linting.enabled": false,
-  "python.analysis.exclude": ["**/venv", "venv/", "*.ipynb"],
+  "python.analysis.exclude": [
+    "**/venv",
+    "venv/",
+    "*.ipynb"
+  ],
   "python.defaultInterpreterPath": "/bin/python",
   "prettier.printWidth": 90,
   "window.zoomLevel": 1

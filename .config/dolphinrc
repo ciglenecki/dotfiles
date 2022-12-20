@@ -17,7 +17,7 @@ DefaultProfile=Profile 3.profile
 [DetailsMode]
 ExpandableFolders=false
 FontWeight=50
-PreviewSize=32
+PreviewSize=64
 
 [Favorite Profiles]
 Favorites=
@@ -88,10 +88,11 @@ DP-0 HDMI-0 eDP-1-1 XPosition 1920x1080=0
 DP-0 HDMI-0 eDP-1-1 XPosition 2560x1440=1920
 DP-0 HDMI-0 eDP-1-1 YPosition 1920x1080=0
 DP-0 HDMI-0 eDP-1-1 YPosition 2560x1440=0
-HDMI-0 Height 1920x1080=426
-HDMI-0 Width 1920x1080=1246
-HDMI-0 XPosition 1920x1080=673
-HDMI-0 YPosition 1920x1080=628
+HDMI-0 Height 1920x1080=1055
+HDMI-0 Width 1920x1080=1920
+HDMI-0 Window-Maximized 1920x1080=true
+HDMI-0 XPosition 1920x1080=0
+HDMI-0 YPosition 1920x1080=0
 HDMI-0 eDP-1-1 Height 1920x1080=1058
 HDMI-0 eDP-1-1 Width 1920x1080=1648
 HDMI-0 eDP-1-1 XPosition 1920x1080=271
