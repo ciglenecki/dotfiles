@@ -36,6 +36,10 @@ if [ -d "/usr/local/cuda-11.8/bin" ] ; then
     export PATH=$PATH:/usr/local/cuda-11.8/bin
 fi
 
+if [ -d "$HOME/.cargo/bin" ] ; then
+    export PATH=$PATH:$HOME/.cargo/bin
+fi
+
 export CUDA_HOME=/usr/local/cuda-11.8
 
 

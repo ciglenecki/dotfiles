@@ -35,8 +35,8 @@ wmclassmatch=1
 XftAntialias[$d]
 XftHintStyle[$d]
 XftSubPixel[$d]
-count=3
-rules=1,2,3
+count=2
+rules=1,2
 
 [KDE]
 LookAndFeelPackage[$d]
