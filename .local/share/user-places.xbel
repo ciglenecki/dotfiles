@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xbel>
-<xbel xmlns:kdepriv="http://www.kde.org/kdepriv" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks">
+<xbel xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:kdepriv="http://www.kde.org/kdepriv">
  <info>
   <metadata owner="http://www.kde.org">
    <kde_places_version>4</kde_places_version>
@@ -77,6 +77,19 @@
     <ID>1627132493/2</ID>
     <isSystemItem>true</isSystemItem>
     <IsHidden>true</IsHidden>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/matej/fer/sap">
+  <title>sap</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1656793108/4</ID>
+    <isSystemItem>false</isSystemItem>
+    <IsHidden>false</IsHidden>
    </metadata>
   </info>
  </bookmark>
@@ -270,19 +283,6 @@
    </metadata>
    <metadata owner="http://www.kde.org">
     <ID>1656793108/5</ID>
-    <isSystemItem>false</isSystemItem>
-    <IsHidden>false</IsHidden>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="file:///home/matej/fer/sap">
-  <title>sap</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="folder"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1656793108/4</ID>
     <isSystemItem>false</isSystemItem>
     <IsHidden>false</IsHidden>
    </metadata>
@@ -802,7 +802,7 @@
    </metadata>
   </info>
  </separator>
- <separator href="file:///media/matej/gep">
+ <separator href="file:///media/matej/sam">
   <info>
    <metadata owner="http://www.kde.org">
     <UDI>/org/freedesktop/UDisks2/block_devices/sdd1</UDI>
@@ -813,7 +813,7 @@
     <bookmark:icon name="drive-removable-media-usb"/>
    </metadata>
   </info>
-  <title>gep</title>
+  <title>sam</title>
  </separator>
  <separator href="file:///media/matej/963C7C223C7BFB95">
   <info>
@@ -918,9 +918,27 @@
    </metadata>
    <metadata owner="http://www.kde.org">
     <ID>1671384858/0</ID>
+    <isSystemItem>false</isSystemItem>
+    <IsHidden>false</IsHidden>
    </metadata>
   </info>
  </bookmark>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/kde/fstab/fuse.sshfs/media/zver</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/kde/fstab/fuse.sshfs/home/matej/projects/zver</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
  <bookmark href="kdeconnect://ff4badd4f3dc52e9/">
   <title>SM-G780F</title>
   <info>
@@ -928,7 +946,7 @@
     <bookmark:icon name="kdeconnect"/>
    </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1671717076/1</ID>
+    <ID>1675949906/4</ID>
    </metadata>
   </info>
  </bookmark>

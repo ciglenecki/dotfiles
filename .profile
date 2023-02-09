@@ -18,6 +18,7 @@ if [ -d "$HOME" ]; then
 fi
 
 for dotfile in $DOTFILES_DIR/{env.sh,alias.sh}; do
+  echo "Sourcing $dotfile"
   [ -f "$dotfile" ] && . "$dotfile";
 done
 

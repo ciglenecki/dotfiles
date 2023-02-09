@@ -9,7 +9,7 @@ killall firefox
 killall keepassxc
 
 # Clean tmp files
-rm -rf $HOME/tmp/*
+# rm -rf $HOME/tmp/*
 
 if [ "$SHLVL" = 1 ]; then
     [ -x clear_console ] && clear_console -q

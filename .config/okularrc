@@ -19,24 +19,24 @@ shouldShowToolBarComingFromFullScreen=true
 
 [FileDialogSize]
 HDMI-0 Height 1920x1080=745
-HDMI-0 Width 1920x1080=907
+HDMI-0 Width 1920x1080=1423
 Height 1080=745
 Width 1920=907
 
 [KFileDialog Settings]
-Recent Files[$e]=SU1-2021-P02-OsnovniKoncepti.pdf,file:$HOME/fer/oos/1-lectures/04_ocitavanje.pdf,file:$HOME/1-documents/work/ciglenecki.github.io/se/cv_matej_ciglenecki_se.pdf,file:$HOME/fer/oos/5-tasks/OOS_2021-2022_domaca_zadaca_05.pdf,file:$HOME/fer/oos/5-tasks/OOS_2021-2022_domaca_zadaca_04.pdf,file:$HOME/fer/oos/1-lectures/06_dct.pdf,file:$HOME/fer/oos/5-tasks/OOS_2021-2022_domaca_zadaca_02.pdf,file:$HOME/fer/dubuce2/1-lectures/vae_paper.pdf,file:$HOME/1-documents/work/ciglenecki.github.io/ai_datasci/cv_matej_ciglenecki_ai_datascience.pdf,file:$HOME/fer/oos/5-tasks/OOS_2021-2022_domaca_zadaca_03.pdf,file:$HOME/fer/oos/5-tasks/OOS_2021-2022_domaca_zadaca_01.pdf,file:$HOME/fer/oos/4-exams/mi_2022_ponovljeni.pdf,file:$HOME/fer/oos/4-exams/mi_2021.pdf,file:$HOME/fer/oos/4-exams/mi_2020.pdf,file:$HOME/fer/oos/1-lectures/09_prijenosna_funkcija.pdf,file:$HOME/fer/oos/1-lectures/08_z_i_laplaceova_transformacija.pdf
-Recent URLs[$e]=file:$HOME/fer/oos/3-labs/,file:$HOME/fer/nummat/1-lectures/,file:$HOME/fer/oos/2-notes/,file:$HOME/1-documents/work/ciglenecki.github.io/ai_datasci/,file:$HOME/Downloads/,file:$HOME/fer/dubuce2/1-lectures/,file:$HOME/fer/oos/1-lectures/,file:$HOME/fer/oos/,file:$HOME/fer/oos/5-tasks/,file:$HOME/1-documents/work/ciglenecki.github.io/se/
+Recent Files[$e]=SU1-2021-P02-OsnovniKoncepti.pdf,file:$HOME/Downloads/ispitivanje.pdf,file:$HOME/fer/oos/sp4comm_corrected.pdf,file:$HOME/fer/oos/1-lectures/15_fft.pdf,file:$HOME/fer/oos/1-lectures/DOS_2017-2018_predavanje_06.pdf,file:$HOME/fer/oos/1-lectures/16_izvedba_filtara.pdf,file:$HOME/fer/oos/4-exams/mi_2021.pdf,file:$HOME/fer/oos/4-exams/mi_2022.pdf,file:$HOME/fer/oos/1-lectures/09_prijenosna_funkcija.pdf,file:$HOME/fer/oos/1-lectures/08_z_i_laplaceova_transformacija.pdf,file:$HOME/projects/stylegan2-ada-project/references/stylegan.pdf,file:$HOME/fer/nummat/1-lectures/predavanje_18.pdf,file:$HOME/fer/nummat/1-lectures/predavanje_16.pdf,file:$HOME/fer/nummat/1-lectures/predavanje_15.pdf,file:$HOME/fer/nummat/1-lectures/predavanje_12.pdf
+Recent URLs[$e]=file:$HOME/fer/oos/,file:$HOME/Downloads/,file:$HOME/fer/dubuce2/1-lectures/,file:$HOME/fer/oos/1-lectures/,file:$HOME/fer/oos/5-tasks/,file:$HOME/1-documents/work/ciglenecki.github.io/se/,file:$HOME/projects/stylegan2-ada-project/references/,file:$HOME/fer/oos/4-exams/,file:$HOME/fer/oos/3-labs/,file:$HOME/
 detailViewIconSize=16
 
 [MainWindow]
 HDMI-0 Height 1920x1080=1055
-HDMI-0 Width 1920x1080=1207
-HDMI-0 XPosition 1920x1080=712
+HDMI-0 Width 1920x1080=1289
+HDMI-0 XPosition 1920x1080=630
 HDMI-0 YPosition 1920x1080=0
 Height 1080=515
 Height 1920=1888
 Height 720=1058
-State=AAAA/wAAAAD9AAAAAAAABHMAAAQBAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAAAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+State=AAAA/wAAAAD9AAAAAAAABMUAAAPTAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAAAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 Width 1080=1080
 Width 1280=1920
@@ -51,23 +51,21 @@ Height 1080=889
 Width 1920=840
 
 [Recent Files]
-File1[$e]=$HOME/1-documents/work/ciglenecki.github.io/cv_matej_ciglenecki.pdf
-File10[$e]=$HOME/fer/oos/1-lectures/04_ocitavanje.pdf
-File2[$e]=$HOME/1-documents/work/ciglenecki.github.io/se/cv_matej_ciglenecki_se.pdf
-File3[$e]=/media/matej/hdd-main/6-assets/1-tech/anki_essentials-Alex_Vermeer-2013.pdf
-File4[$e]=/media/matej/hdd-main/6-assets/2019-03-08-handwriting-practice.pdf
-File5[$e]=$HOME/fer/nummat/1-lectures/predavanje_10.pdf
-File6[$e]=$HOME/fer/nummat/1-lectures/predavanje_16.pdf
-File7[$e]=$HOME/fer/oos/1-lectures/07_sustavi.pdf
-File8[$e]=$HOME/fer/oos/1-lectures/08_z_i_laplaceova_transformacija.pdf
-File9[$e]=$HOME/fer/oos/1-lectures/09_prijenosna_funkcija.pdf
-Name1[$e]=cv_matej_ciglenecki.pdf
-Name10[$e]=04_ocitavanje.pdf
-Name2[$e]=cv_matej_ciglenecki_se.pdf
-Name3[$e]=anki_essentials-Alex_Vermeer-2013.pdf
-Name4[$e]=2019-03-08-handwriting-practice.pdf
-Name5[$e]=predavanje_10.pdf
-Name6[$e]=predavanje_16.pdf
-Name7[$e]=07_sustavi.pdf
-Name8[$e]=08_z_i_laplaceova_transformacija.pdf
-Name9[$e]=09_prijenosna_funkcija.pdf
+File1[$e]=$HOME/fer/oos/1-lectures/07_sustavi.pdf
+File2[$e]=$HOME/fer/oos/1-lectures/08_z_i_laplaceova_transformacija.pdf
+File3[$e]=$HOME/fer/oos/1-lectures/09_prijenosna_funkcija.pdf
+File4[$e]=zip:///home/matej/Downloads/Repository (1).zip/Akademska skolska godina 2021.-2022./OOS_20211130_medjuispit_rjesenja.pdf
+File5[$e]=$HOME/fer/oos/1-lectures/DOS_2017-2018_predavanje_06.pdf
+File6[$e]=$HOME/fer/oos/1-lectures/15_fft.pdf
+File7[$e]=$HOME/fer/oos/1-lectures/16_izvedba_filtara.pdf
+File8[$e]=zip:/home/matej/1-documents/_archived/ages_old.zip/shitpost-papic.txt
+File9[$e]=$HOME/projects/lumen-audio/references/zadatak.pdf
+Name1[$e]=07_sustavi.pdf
+Name2[$e]=08_z_i_laplaceova_transformacija.pdf
+Name3[$e]=09_prijenosna_funkcija.pdf
+Name4[$e]=OOS_20211130_medjuispit_rjesenja.pdf
+Name5[$e]=DOS_2017-2018_predavanje_06.pdf
+Name6[$e]=15_fft.pdf
+Name7[$e]=16_izvedba_filtara.pdf
+Name8[$e]=shitpost-papic.txt
+Name9[$e]=zadatak.pdf

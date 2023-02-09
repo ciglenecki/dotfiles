@@ -243,7 +243,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][8][Applets][17][Configuration]
-PreloadWeight=10
+PreloadWeight=17
 
 [Containments][8][Applets][22]
 immutability=1
@@ -257,7 +257,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][23][Configuration]
-PreloadWeight=0
+PreloadWeight=47
 
 [Containments][8][Applets][24][Configuration]
 PreloadWeight=42
@@ -270,11 +270,14 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][8][Applets][31][Configuration]
-PreloadWeight=5
+PreloadWeight=24
 
 [Containments][8][Applets][31][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=719
+
+[Containments][8][Applets][31][Configuration][General]
+currentTab=streams
 
 [Containments][8][Applets][42]
 immutability=1

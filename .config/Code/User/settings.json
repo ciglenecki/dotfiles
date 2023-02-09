@@ -148,7 +148,7 @@
   "workbench.editor.untitled.hint": "hidden",
   "editor.acceptSuggestionOnEnter": "off",
   "editor.smoothScrolling": true,
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "python.experiments.enabled": false,
   "http.systemCertificates": false,
   "python.analysis.typeCheckingMode": "basic",
@@ -174,13 +174,22 @@
   "python.formatting.provider": "black",
   "python.linting.pylintEnabled": true,
   "[python]": {
-    "editor.defaultFormatter": "ms-python.python"
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnType": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
   },
+  },
+  "isort.args":["--profile", "black"],
   "python.linting.flake8Args": ["--max-line-length", "88"],
   "notebook.output.textLineLimit": 300,
   "python.linting.ignorePatterns": ["**/site-packages/**/*.py", ".vscode/*.py", "venv/**"],
   "python.linting.enabled": false,
   "python.analysis.exclude": ["**/venv", "venv/", "*.ipynb"],
   "python.defaultInterpreterPath": "/bin/python",
-  "prettier.printWidth": 90
+  "prettier.printWidth": 90,
+  "python.formatting.blackArgs": [
+    "--line-lenght",
+    "120"
+  ]
 }

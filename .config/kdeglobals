@@ -136,8 +136,8 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [DirSelect Dialog]
-DirSelectDialog Size=821,598
-History Items[$e]=file:$HOME/2-media/screenshots,file:$HOME/2-media/screenshots,file:$HOME,file:$HOME/2-media/screenshots,file:$HOME/4-education/books,file:$HOME/6-literature_backup,file:$HOME/6-literature_backup,file:$HOME/Downloads/literature,file:$HOME/6-literature_backup,file:$HOME/6-literature,file:$HOME/6-literature,file:$HOME/6-literature,file:$HOME/6-literature,file:$HOME/6-literature,file:///media/matej/sam/bcs13,file:///media/matej/sam/series,file:$HOME/6-literature,file:$HOME/6-literature,file:///media/matej/sam,file:$HOME/6-literature,file:$HOME/.config/CalibreLibrary/,file:$HOME/.config,file:$HOME/.config/CalibreLibrary,file:$HOME/.config,file:$HOME/2-fer/diprad/data/dataset.ignoreme,file:$HOME/Downloads,file:///media/matej/KingStone USB 8GB,file:$HOME/torrent,file:$HOME/torrent,file:$HOME/torrent
+DirSelectDialog Size=859,598
+History Items[$e]=file:$HOME/fer/oos/docs/,file:$HOME,file:$HOME/fer/oos/docs,file:$HOME/fer/oos/2-notes,file:$HOME/Downloads/specimen_card_mask/colmap/sparse/0,file:$HOME/Downloads/specimen_card_mask,file:$HOME/Downloads/colmap/sparse/0,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2/hand_card_sequence,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/hand_card_sequence,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/colmap/sparse/0,file:$HOME/Downloads/specimen_rgb,file:$HOME/Downloads/hand_card_sequence,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/colmap,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/colmap,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/hand_card_sequence,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/hand_card_sequence,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/images,file:$HOME/Downloads/colmap,file:$HOME/Downloads/images,file:$HOME/Downloads/images,file:$HOME/Downloads/colmap/sparse,file:$HOME/Downloads/colmap,file:$HOME/2-media/screenshots,file:$HOME/2-media/screenshots,file:$HOME,file:$HOME/2-media/screenshots,file:$HOME/4-education/books
 
 [General]
 BrowserApplication=brave-browser.desktop
@@ -165,7 +165,7 @@ Breadcrumb Navigation=false
 Decoration position=2
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
-Preview Width=190
+Preview Width=257
 Show Bookmarks=false
 Show Full Path=false
 Show Inline Previews=false
