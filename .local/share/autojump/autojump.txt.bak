@@ -1,8 +1,8 @@
 26.457513110645905	/home/matej/.local/share/konsole
-55.677643628300224	/home/matej/.config
+60.00000000000001	/home/matej/.config
 42.42640687119286	/home/matej/.assets
 72.1110255092798	/home/matej/.scripts
-79.37253933193773	/media/matej/963C7C223C7BFB95
+80.00000000000001	/media/matej/963C7C223C7BFB95
 117.8982612255159	/media/matej/hdd-main
 34.64101615137755	/media/matej/hdd-main/2-drive
 10.0	/media/matej/hdd-main/2-drive/_tmp
@@ -19,7 +19,7 @@
 20.0	/home/matej/.thunderbird/2hedqkd8.default
 14.142135623730951	/home/matej/.thunderbird/k2jw5vml.default-release
 14.142135623730951	/run/user/1000/kio-fuse-NtmDkX/smb/hotpan.local/.thunderbird/ki9fwghi.default
-234.73389188611023	/home/matej/projects
+241.8677324489567	/home/matej/projects
 506.16202939375137	/home/matej/projects/spotify-random-saved-album
 14.142135623730951	/run/user/1000/kio-fuse-NtmDkX/smb/hotpan.local/projects
 14.142135623730951	/run/user/1000/kio-fuse-NtmDkX/smb/hotpan.local/projects/spotify-album-images
@@ -32,11 +32,11 @@
 10.0	/media/matej/sam/series/Curb Your Enthusiasm
 10.0	/media/matej/sam/series/Curb Your Enthusiasm/Season 8
 36.0555127546399	/home/matej/Downloads/Curb Your Enthusiasm Season 9 Complete 720p HDTV x264 [i_c]
-325.4228019054598	/home/matej/Downloads
+326.80269276736396	/home/matej/Downloads
 98.99494936611661	/home/matej/2-media
 59.16079783099617	/home/matej/Downloads/pics
 37.41657386773942	/home
-37.41657386773942	/home/matej/3-audio
+38.729833462074176	/home/matej/3-audio
 92.73618495495703	/home/matej/1-documents
 135.64659966250528	/home/matej/0-notes
 50.990195135927856	/home/matej/5-assets
@@ -63,7 +63,7 @@
 14.142135623730951	/home/matej/tmp/new_test/dist
 17.320508075688775	/home/matej/projects/spotify-random-saved-album/source
 34.64101615137755	/home/matej/projects/spotify-random-saved-album/src/spotify-random-saved-album
-105.35653752852734	/home/matej/2-media/screenshots
+105.83005244258358	/home/matej/2-media/screenshots
 52.91502622129182	/home/matej/projects/spotify-random-saved-album/pics
 121.65525060596434	/home/matej/fer
 31.622776601683796	/home/matej/fer/finmat/1-lectures
@@ -150,7 +150,7 @@
 22.360679774997898	/home/matej/anaconda3
 80.62257748298552	/home/matej/projects/tiny-cuda-nn
 30.000000000000004	/home/matej/projects/apex
-283.7252191822223	/home/matej/projects/nerfstudio
+284.0774542268359	/home/matej/projects/nerfstudio
 17.320508075688775	/home/matej/projects/studosi-arhiva
 53.851648071345046	/home/matej/projects/nerfstudio/input_dir
 62.44997998398399	/home/matej/projects/nerfstudio/ceres-solver/build
@@ -307,7 +307,7 @@
 91.10433579144299	/home/matej/fer/vizpod/3-labs
 117.47340124470725	/home/matej/projects/competitive-programming/natpro/2c-pair-of-topics
 194.164878389476	/home/matej/projects/geoguessr-ai
-44.7213595499958	/home/matej/projects/template-python
+46.904157598234306	/home/matej/projects/template-python
 180.0	/home/matej/projects/geoguessr2-ai
 64.80740698407861	/home/matej/projects/geoguessr2-ai/src
 57.44562646538029	/home/matej/projects/eva-evaluator
@@ -774,7 +774,7 @@
 22.360679774997898	/media/matej/hdd-main/6-assets/2-creative
 14.142135623730951	/media/matej/hdd-main/6-assets/2-creative/1-picture
 20.0	/media/matej/hdd-main/6-assets/2-creative/2-audio
-14.142135623730951	/media/matej/hdd-main/6-assets/2-creative/2-audio/Background
+17.320508075688775	/media/matej/hdd-main/6-assets/2-creative/2-audio/Background
 14.142135623730951	/media/matej/hdd-main/6-assets/2-creative/2-audio/Background/atmospheric
 14.142135623730951	/media/matej/hdd-main/6-assets/2-creative/3-video
 20.0	/home/matej/projects/stylegan2-ada
@@ -1313,19 +1313,19 @@
 14.142135623730951	/home/matej/Downloads/Norm MacDonald Live - Seasons 1, 2, 3/Season 1
 14.142135623730951	/home/matej/tmp/tuning_playbook/assets
 38.729833462074176	/home/matej/projects/tuning_playbook
-71.41428428542852	/home/matej/projects/lumen-audio
-54.772255750516614	/home/matej/projects/lumen-audio/data
-113.57816691600543	/home/matej/projects/lumen-audio/data/raw
+362.07733980463416	/home/matej/projects/lumen-audio
+105.83005244258358	/home/matej/projects/lumen-audio/data
+144.22205101855954	/home/matej/projects/lumen-audio/data/raw
 28.284271247461902	/run/user/1000/kio-fuse-WYEHVT/zip/home/matej/projects/lumen-audio/data/raw/IRMAS-TestingData-Part1.zip
 20.0	/run/user/1000/kio-fuse-WYEHVT/zip/home/matej/projects/lumen-audio/data/raw/IRMAS-TestingData-Part1.zip/IRMAS-TestingData-Part1
 14.142135623730951	/run/user/1000/kio-fuse-WYEHVT/zip/home/matej/projects/lumen-audio/data/raw/IRMAS-TestingData-Part1.zip/IRMAS-TestingData-Part1/Part1
 20.0	/run/user/1000/kio-fuse-WYEHVT/zip/home/matej/projects/lumen-audio/data/raw/IRMAS-TestingData-Part3.zip
-72.1110255092798	/home/matej/projects/lumen-audio/data/raw/train
+90.55385138137417	/home/matej/projects/lumen-audio/data/raw/train
 14.142135623730951	/run/user/1000/kio-fuse-WYEHVT/zip/home/matej/projects/lumen-audio/data/raw/IRMAS-TestingData-Part2.zip
 28.284271247461902	/run/user/1000/kio-fuse-WYEHVT/zip/home/matej/projects/lumen-audio/data/raw/IRMAS-TrainingData.zip
 26.457513110645905	/run/user/1000/kio-fuse-WYEHVT/zip/home/matej/projects/lumen-audio/data/raw/IRMAS-TrainingData.zip/IRMAS-TrainingData
-28.284271247461902	/home/matej/projects/lumen-audio/data/raw/test_sample
-80.00000000000001	/home/matej/projects/lumen-audio/data/raw/test
+31.622776601683796	/home/matej/projects/lumen-audio/data/raw/test_sample
+99.49874371066196	/home/matej/projects/lumen-audio/data/raw/test
 46.904157598234306	/home/matej/projects/lumen-audio/data/raw/test/IRMAS-TestingData-Part1
 33.166247903554	/home/matej/projects/lumen-audio/data/raw/test/IRMAS-TestingData-Part1/Part1
 34.64101615137755	/home/matej/projects/lumen-audio/data/raw/test/IRMAS-TestingData-Part2
@@ -1358,10 +1358,10 @@
 26.457513110645905	/home/matej/_tmp/nerf
 14.142135623730951	/home/matej/_tmp/nerf/specimen_mesh
 14.142135623730951	/run/user/1000/kio-fuse-WYEHVT/zip/home/matej/_tmp/PPJ.zip
-73.48469228349536	/home/matej/projects/lumen-audio/data/raw/train_sample
+74.83314773547885	/home/matej/projects/lumen-audio/data/raw/train_sample
 14.142135623730951	/home/matej/projects/lumen-audio/figures
 28.284271247461902	/home/matej/projects/lumen-audio/data/raw/train_sample/cel
-14.142135623730951	/home/matej/projects/lumen-audio/data/raw/train/cel
+26.457513110645905	/home/matej/projects/lumen-audio/data/raw/train/cel
 30.000000000000004	/home/matej/projects/lumen-audio/data/raw/train_sample/cla
 17.320508075688775	/home/matej/projects/lumen-audio/data/raw/train_sample/flu
 17.320508075688775	/home/matej/projects/lumen-audio/data/raw/train_sample/gac
@@ -1378,3 +1378,66 @@
 24.49489742783178	/home/matej/projects/lumen-audio/data/raw/train/voi
 24.49489742783178	/home/matej/projects/lumen-audio/data/raw/train_sample/voi
 14.142135623730951	/home/matej/projects/lumen-audio/data/raw/train/flu
+38.729833462074176	/home/matej/projects/test
+20.0	/home/matej/projects/lumen-audio/conf
+56.568542494923804	/home/matej/projects/test/configs
+24.49489742783178	/home/matej/projects/test/configs/logger
+28.284271247461902	/home/matej/projects/lumen-audio/config
+24.49489742783178	/home/matej/projects/test/configs/callbacks
+24.49489742783178	/home/matej/projects/test/configs/data
+14.142135623730951	/home/matej/projects/lumen-audio/config/logger
+14.142135623730951	/home/matej/projects/lumen-audio/config/callbacks
+14.142135623730951	/home/matej/projects/test/configs/debug
+14.142135623730951	/home/matej/projects/test/configs/experiment
+10.0	/home/matej/projects/test/configs/model
+14.142135623730951	/home/matej/projects/lumen-audio/data/raw/train/org
+28.284271247461902	/run/user/1000/kio-fuse-WQeQBm/filenamesearch
+14.142135623730951	/home/matej/projects/lumen-audio/docs
+47.9583152331272	/home/matej/projects/lumen-audio/data/raw/val
+50.00000000000001	/home/matej/.vscode/extensions
+54.772255750516614	/home/matej/.vscode/extensions/ms-python.python-2023.2.0
+30.000000000000004	/run/user/1000/kio-fuse-stvNNB/filenamesearch
+17.320508075688775	/home/matej/.vscode/extensions/ms-python.python-2023.2.0/pythonFiles/lib/jedilsp/jedi/third_party/django-stubs/django-stubs/core/servers
+10.0	/home/matej/.vscode/extensions/ms-python.python-2023.2.0/pythonFiles/lib/python/debugpy/server
+14.142135623730951	/home/matej/.vscode/extensions/ms-python.python-2023.2.0/syntaxes
+14.142135623730951	/home/matej/.vscode/extensions/ms-python.python-2023.2.0/schemas
+14.142135623730951	/home/matej/.vscode/extensions/ms-python.python-2023.2.0/resources
+14.142135623730951	/home/matej/.vscode/extensions/ms-python.python-2023.2.0/resources/dark
+26.457513110645905	/home/matej/.vscode/extensions/ms-python.python-2023.2.0/pythonFiles
+14.142135623730951	/home/matej/.vscode/extensions/ms-python.python-2023.2.0/pythonFiles/testing_tools
+14.142135623730951	/home/matej/.vscode/extensions/ms-python.python-2023.2.0/pythonFiles/unittestadapter
+10.0	/home/matej/.vscode/extensions/ms-python.python-2023.2.0/pythonFiles/vscode_datascience_helpers
+14.142135623730951	/home/matej/.vscode/extensions/ms-python.python-2023.2.0/pythonFiles/lib
+20.0	/home/matej/.vscode/extensions/ms-python.python-2023.2.0/pythonFiles/lib/python
+14.142135623730951	/home/matej/.vscode/extensions/ms-python.python-2023.2.0/pythonFiles/lib/python/debugpy
+20.0	/home/matej/.vscode/extensions/ms-python.python-2023.2.0/out
+14.142135623730951	/home/matej/.vscode/extensions/ms-python.python-2023.2.0/out/client
+14.142135623730951	/home/matej/.vscode/extensions/ms-python.python-2023.2.0/out/client/node_modules
+14.142135623730951	/home/matej/.vscode/extensions/ms-python.python-2023.2.0/languages
+10.0	/home/matej/.vscode/extensions/ms-python.python-2023.2.0/l10n
+14.142135623730951	/home/matej/.vscode/extensions/ms-python.python-2023.2.0/images
+14.142135623730951	/home/matej/.vscode/extensions/ms-python.python-2023.2.0/dist
+44.7213595499958	/home/matej/.config/Code
+14.142135623730951	/home/matej/.config/Code/Workspaces
+14.142135623730951	/home/matej/.config/Code/WebStorage
+20.0	/home/matej/.config/Code/User
+10.0	/home/matej/.config/Code/Session Storage
+20.0	/home/matej/.config/Code/Service Worker
+17.320508075688775	/home/matej/.config/Code/Service Worker/CacheStorage
+10.0	/home/matej/.config/Code/Local Storage
+14.142135623730951	/home/matej/.config/Code/Dictionaries
+14.142135623730951	/home/matej/.config/Code/databases
+10.0	/home/matej/.config/Code/Code Cache
+14.142135623730951	/home/matej/.config/Code/CachedExtensions
+14.142135623730951	/home/matej/projects/lumen-audio/venv
+20.0	/home/matej/.config/Code/Backups
+10.0	/home/matej/.config/Code/blob_storage
+43.588989435406745	/home/matej/projects/lumen-audio/data/irmas
+14.142135623730951	/home/matej/projects/lumen-audio/report
+14.142135623730951	/home/matej/projects/lumen-audio/mydata
+14.142135623730951	/home/matej/projects/lumen-audio/models
+20.0	/home/matej/projects/lumen-audio/outputs
+14.142135623730951	/home/matej/projects/lumen-audio/outputs/2023-02-09
+14.142135623730951	/home/matej/projects/lumen-audio/outputs/2023-02-09/17-48-01
+26.457513110645905	/home/matej/projects/lumen-audio/data/irmas/train
+10.0	/home/matej/projects/lumen-audio/img

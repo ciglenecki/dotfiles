@@ -57,8 +57,8 @@ DP-0 HDMI-0 Height 1920x1080=458
 DP-0 HDMI-0 Height 2560x1440=587
 DP-0 HDMI-0 Width 1920x1080=383
 DP-0 HDMI-0 Width 2560x1440=518
-HDMI-0 Height 1920x1080=598
-HDMI-0 Width 1920x1080=438
+HDMI-0 Height 1920x1080=458
+HDMI-0 Width 1920x1080=384
 HDMI-1 Height 1920x1080=458
 HDMI-1 Width 1920x1080=378
 Height 1080=524
@@ -98,10 +98,10 @@ DP-0 HDMI-0 eDP-1-1 XPosition 1920x1080=0
 DP-0 HDMI-0 eDP-1-1 XPosition 2560x1440=1920
 DP-0 HDMI-0 eDP-1-1 YPosition 1920x1080=0
 DP-0 HDMI-0 eDP-1-1 YPosition 2560x1440=0
-HDMI-0 Height 1920x1080=1055
-HDMI-0 Width 1920x1080=1013
-HDMI-0 XPosition 1920x1080=0
-HDMI-0 YPosition 1920x1080=419
+HDMI-0 Height 1920x1080=525
+HDMI-0 Width 1920x1080=923
+HDMI-0 XPosition 1920x1080=996
+HDMI-0 YPosition 1920x1080=530
 HDMI-0 eDP-1-1 Height 1920x1080=1058
 HDMI-0 eDP-1-1 Width 1920x1080=1648
 HDMI-0 eDP-1-1 XPosition 1920x1080=271
@@ -134,6 +134,10 @@ Width 2560=2044
 Window-Maximized 1080x1920=true
 Window-Maximized 1440x2560=true
 Window-Maximized 1920x1080=true
+default Height 1024x768=743
+default Width 1024x768=1024
+default XPosition 1024x768=0
+default YPosition 1024x768=0
 eDP-1 Height 1920x1080=1056
 eDP-1 Width 1920x1080=1920
 eDP-1 Window-Maximized 1920x1080=true
@@ -151,7 +155,7 @@ eDP-1-1 YPosition 1920x1080=376
 
 [Open-with settings]
 CompletionMode=1
-History=code,imp,shut,shutt,brave,gwe,free,okular,kate,packa
+History=kate,code,imp,shut,shutt,brave,gwe,free,okular,packa
 
 [PlacesPanel]
 IconSize=16
