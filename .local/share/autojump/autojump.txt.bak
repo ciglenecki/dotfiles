@@ -754,7 +754,7 @@
 14.142135623730951	/media/matej/hdd-main/1-projects/1-tech/2019-datacrunch/data_crunch_2019/0-hackaton/data/financije
 14.142135623730951	/media/matej/hdd-main/1-projects/1-tech/2019-datacrunch/data_crunch_2019/0-hackaton/data/odnosi
 17.320508075688775	/media/matej/hdd-main/3-tmp
-43.588989435406745	/media/matej/hdd-main/4-audio
+47.9583152331272	/media/matej/hdd-main/4-audio
 14.142135623730951	/media/matej/hdd-main/4-audio/1-music
 22.360679774997898	/media/matej/hdd-main/4-audio/2-audiobooks
 36.0555127546399	/media/matej/hdd-main/4-audio/3-random
@@ -1313,7 +1313,7 @@
 14.142135623730951	/home/matej/Downloads/Norm MacDonald Live - Seasons 1, 2, 3/Season 1
 14.142135623730951	/home/matej/tmp/tuning_playbook/assets
 38.729833462074176	/home/matej/projects/tuning_playbook
-362.07733980463416	/home/matej/projects/lumen-audio
+376.1648574760812	/home/matej/projects/lumen-audio
 105.83005244258358	/home/matej/projects/lumen-audio/data
 144.22205101855954	/home/matej/projects/lumen-audio/data/raw
 28.284271247461902	/run/user/1000/kio-fuse-WYEHVT/zip/home/matej/projects/lumen-audio/data/raw/IRMAS-TestingData-Part1.zip
@@ -1435,9 +1435,13 @@
 43.588989435406745	/home/matej/projects/lumen-audio/data/irmas
 14.142135623730951	/home/matej/projects/lumen-audio/report
 14.142135623730951	/home/matej/projects/lumen-audio/mydata
-14.142135623730951	/home/matej/projects/lumen-audio/models
+31.622776601683796	/home/matej/projects/lumen-audio/models
 20.0	/home/matej/projects/lumen-audio/outputs
 14.142135623730951	/home/matej/projects/lumen-audio/outputs/2023-02-09
 14.142135623730951	/home/matej/projects/lumen-audio/outputs/2023-02-09/17-48-01
 26.457513110645905	/home/matej/projects/lumen-audio/data/irmas/train
 10.0	/home/matej/projects/lumen-audio/img
+20.0	/home/matej/projects/lumen-audio/models/02-14-20-20-22_CoolTango_SupportedModels.AST
+14.142135623730951	/home/matej/projects/lumen-audio/models/02-14-20-20-22_CoolTango_SupportedModels.AST/version_0
+17.320508075688775	/home/matej/projects/lumen-audio/models/02-15-12-00-31_RaptQuebec_SupportedModels.AST
+10.0	/home/matej/projects/lumen-audio/models/02-15-12-00-31_RaptQuebec_SupportedModels.AST/checkpoints
