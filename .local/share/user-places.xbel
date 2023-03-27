@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xbel>
-<xbel xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:kdepriv="http://www.kde.org/kdepriv">
+<xbel xmlns:kdepriv="http://www.kde.org/kdepriv" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info">
  <info>
   <metadata owner="http://www.kde.org">
    <kde_places_version>4</kde_places_version>
@@ -28,6 +28,19 @@
    </metadata>
   </info>
  </bookmark>
+ <bookmark href="file:///home/matej/_tmp">
+  <title>_tmp</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1678904249/0</ID>
+    <isSystemItem>false</isSystemItem>
+    <IsHidden>false</IsHidden>
+   </metadata>
+  </info>
+ </bookmark>
  <bookmark href="file:///home/matej/tmp">
   <title>tmp</title>
   <info>
@@ -38,6 +51,33 @@
     <ID>1656791815/2</ID>
     <isSystemItem>false</isSystemItem>
     <IsHidden>false</IsHidden>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/matej/Downloads">
+  <title>Downloads</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-downloads"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1627132493/3</ID>
+    <isSystemItem>true</isSystemItem>
+    <IsHidden>false</IsHidden>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/matej/projects/zver/projects/nerf-research">
+  <title>nerf-research</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-red"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1677256845/0</ID>
+    <isSystemItem>false</isSystemItem>
+    <IsHidden>false</IsHidden>
+    <OnlyInApp/>
    </metadata>
   </info>
  </bookmark>
@@ -77,32 +117,6 @@
     <ID>1627132493/2</ID>
     <isSystemItem>true</isSystemItem>
     <IsHidden>true</IsHidden>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="file:///home/matej/fer/sap">
-  <title>sap</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="folder"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1656793108/4</ID>
-    <isSystemItem>false</isSystemItem>
-    <IsHidden>false</IsHidden>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="file:///home/matej/Downloads">
-  <title>Downloads</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="folder-downloads"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1627132493/3</ID>
-    <isSystemItem>true</isSystemItem>
-    <IsHidden>false</IsHidden>
    </metadata>
   </info>
  </bookmark>
@@ -249,19 +263,6 @@
    </metadata>
   </info>
  </bookmark>
- <bookmark href="file:///home/matej/fer/finmat">
-  <title>finmat</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="inode-directory"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1656793108/7</ID>
-    <isSystemItem>false</isSystemItem>
-    <IsHidden>false</IsHidden>
-   </metadata>
-  </info>
- </bookmark>
  <bookmark href="remote:/">
   <title>Network</title>
   <info>
@@ -271,45 +272,6 @@
    <metadata owner="http://www.kde.org">
     <ID>1627132493/4</ID>
     <isSystemItem>true</isSystemItem>
-    <IsHidden>false</IsHidden>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="file:///home/matej/fer/map">
-  <title>map</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="inode-directory"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1656793108/5</ID>
-    <isSystemItem>false</isSystemItem>
-    <IsHidden>false</IsHidden>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="file:///home/matej/fer/seminar2">
-  <title>seminar2</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="inode-directory"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1656793108/3</ID>
-    <isSystemItem>false</isSystemItem>
-    <IsHidden>false</IsHidden>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="file:///home/matej/fer/inzeko2">
-  <title>inzeko2</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="inode-directory"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1656793108/6</ID>
-    <isSystemItem>false</isSystemItem>
     <IsHidden>false</IsHidden>
    </metadata>
   </info>
@@ -931,12 +893,36 @@
    </metadata>
   </info>
  </separator>
- <separator>
+ <separator href="file:///home/matej/projects/zver">
   <info>
    <metadata owner="http://www.kde.org">
     <UDI>/org/kde/fstab/fuse.sshfs/home/matej/projects/zver</UDI>
     <isSystemItem>true</isSystemItem>
+    <IsHidden>false</IsHidden>
+   </metadata>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder"/>
+   </metadata>
+  </info>
+  <title>/home/matej/projects/zver</title>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/sdf1</UDI>
+    <isSystemItem>true</isSystemItem>
    </metadata>
   </info>
  </separator>
+ <bookmark href="kdeconnect://ff4badd4f3dc52e9/">
+  <title>SM-G780F</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="kdeconnect"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1679906582/1</ID>
+   </metadata>
+  </info>
+ </bookmark>
 </xbel>

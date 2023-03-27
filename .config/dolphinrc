@@ -20,7 +20,7 @@ DefaultProfile=Profile 3.profile
 [DetailsMode]
 ExpandableFolders=false
 FontWeight=50
-PreviewSize=16
+PreviewSize=22
 
 [ExtractDialog]
 DirHistory[$e]=$HOME/Downloads/dubuce projekt/all_images/
@@ -57,8 +57,8 @@ DP-0 HDMI-0 Height 1920x1080=458
 DP-0 HDMI-0 Height 2560x1440=587
 DP-0 HDMI-0 Width 1920x1080=383
 DP-0 HDMI-0 Width 2560x1440=518
-HDMI-0 Height 1920x1080=458
-HDMI-0 Width 1920x1080=384
+HDMI-0 Height 1920x1080=598
+HDMI-0 Width 1920x1080=438
 HDMI-1 Height 1920x1080=458
 HDMI-1 Width 1920x1080=378
 Height 1080=524
@@ -99,8 +99,9 @@ DP-0 HDMI-0 eDP-1-1 XPosition 2560x1440=1920
 DP-0 HDMI-0 eDP-1-1 YPosition 1920x1080=0
 DP-0 HDMI-0 eDP-1-1 YPosition 2560x1440=0
 HDMI-0 Height 1920x1080=1055
-HDMI-0 Width 1920x1080=1571
-HDMI-0 XPosition 1920x1080=348
+HDMI-0 Width 1920x1080=1920
+HDMI-0 Window-Maximized 1920x1080=true
+HDMI-0 XPosition 1920x1080=649
 HDMI-0 YPosition 1920x1080=0
 HDMI-0 eDP-1-1 Height 1920x1080=1058
 HDMI-0 eDP-1-1 Width 1920x1080=1648

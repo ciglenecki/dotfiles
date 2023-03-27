@@ -3,7 +3,6 @@ update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-
 
 [Compositing]
 Backend=OpenGL
-Enabled=false
 GLCore=true
 GLPreferBufferSwap=e
 GLTextureFilter=1
@@ -15,9 +14,11 @@ XRenderSmoothScale=false
 [Desktops]
 Id_1=c141142a-5176-45fe-9b5d-5e9b89115fac
 Id_2=1fbdf8ac-bbf1-498b-b4a6-27324861d580
+Id_3=f0822fc0-5eab-4692-bab0-7d7697b3e6a3
 Name_1=1-main
-Name_2=2-media
-Number=2
+Name_2=2-main2
+Name_3=3-media
+Number=3
 Rows=1
 
 [Effect-DimInactive]
@@ -61,6 +62,7 @@ desktopchangeosdEnabled=false
 diminactiveEnabled=true
 krohnkiteEnabled=true
 minimizeallEnabled=false
+slideEnabled=false
 synchronizeskipswitcherEnabled=false
 videowallEnabled=false
 virtual-desktops-only-on-primaryEnabled=true

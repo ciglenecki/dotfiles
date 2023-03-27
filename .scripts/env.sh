@@ -40,6 +40,15 @@ if [ -d "$HOME/.cargo/bin" ] ; then
     export PATH=$PATH:$HOME/.cargo/bin
 fi
 
+if [ -d "/opt/blender-3.4.1-linux-x64" ] ; then
+    export PATH=$PATH:/opt/blender-3.4.1-linux-x64
+fi
+
+if [ -d "/opt/blender-3.4.1-linux-x64" ] ; then
+    export PATH=$PATH:/opt/blender-3.4.1-linux-x64
+fi
+
+export PYENV_ROOT="$HOME/.pyenv"
 export CUDA_HOME=/usr/local/cuda-11.8
 
 

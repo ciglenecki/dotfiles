@@ -8,9 +8,6 @@ case $- in
       *) return;;
 esac
 
-# don't put duplicate lines or lines starting with space in the history.
-# See bash(1) for more options
-HISTCONTROL=ignoreboth
 
 
 for DOTFILE in $DOTFILES_DIR/{env.sh,alias.sh}; do
@@ -18,6 +15,8 @@ for DOTFILE in $DOTFILES_DIR/{env.sh,alias.sh}; do
 done
 
 
+# don't put duplicate lines in the history
+HISTCONTROL=ignoredups:erasedups
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=-1  # the number of lines or commands that are stored in memory in a history list while your bash session is ongoing.
 HISTFILESIZE=-1 # is the number of lines or commands that (a) are allowed in the history file at startup time of a session, and (b) are stored in the history file at the end of your bash session for use in future sessions.
@@ -101,7 +100,7 @@ fi
 
 bind -f  ~/.inputrc
 
-# Autojump anywhere
+# Autojump
 AUTOJUMP=/usr/share/autojump/autojump.sh
 if [ -f "$AUTOJUMP" ]; then
     source $AUTOJUMP
@@ -115,7 +114,6 @@ fi;
 # Reverse history foward enable (Ctrl +S)
 stty -ixon
 
-
 # bash prompt
 GIT_PROMPT_THEME=Single_line_Ubuntu
 if [ -f "$HOME/.bash-git-prompt/gitprompt.sh" ]; then
@@ -125,8 +123,8 @@ if [ -f "$HOME/.bash-git-prompt/gitprompt.sh" ]; then
     source $HOME/.bash-git-prompt/gitprompt.sh
 fi
 
-# Avoid duplicates
-HISTCONTROL=ignoredups:erasedups
-
 # After each command, append to the history file and reread it
 PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
+
+# command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+# eval "$(pyenv init -)"

@@ -188,4 +188,6 @@
     "black"
   ],
   "notebook.output.textLineLimit": 300,
+  "scm.diffDecorations": "none",
+  "python.defaultInterpreterPath": "/home/matej/projects/lumen-audio/venv",
 }

@@ -172,9 +172,9 @@ Show Inline Previews=false
 Show Preview=true
 Show Speedbar=true
 Show hidden files=true
-Sort by=Name
+Sort by=Date
 Sort directories first=true
-Sort reversed=false
+Sort reversed=true
 Speedbar Width=354
 View Style=DetailTree
 

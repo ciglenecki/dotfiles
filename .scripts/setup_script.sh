@@ -112,3 +112,6 @@ sudo update-alternatives --config pinentry
 
 source $HOME/.profile
 source $HOME/.scripts/login.sh
+
+# Install bash git prompt, only git pull, that's it
+git clone https://github.com/magicmonty/bash-git-prompt.git ~/.bash-git-prompt --depth=1
