@@ -6,7 +6,7 @@
 #               some variables depend on ~/.script/env.sh 
 #################################
 
-HOME="/home/$(whoami)"
+HOME=$(eval echo "~matej")
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
@@ -279,6 +279,18 @@ function nerf_gen_uri {
     local hex_=$(printf '+{"containerName":"/mciglenecki-nerf_gen_patch","settings":{"host":"ssh://mciglenecki@zver1.zesoi.fer.hr:443"}}' | od -A n -t x1 | tr -d '[\n\t ]')
     local path_uri="/root/projects/nerf-gen_patch_neural_rendering"
     # local path_uri="/"
+}
+function nerf_uri_7007 {
+    local hex_=$(printf '+{"containerName":"stupefied_heisenberg","settings":{"host":"ssh://mciglenecki@zver1.zesoi.fer.hr:443"}}' | od -A n -t x1 | tr -d '[\n\t ]')
+    local path_uri="/root/projects/nerf-research/"
+    local folder_uri="vscode-remote://attached-container%$hex_:$path_uri"
+    echo $folder_uri
+    # 2b7b22636f6e7461696e65724e616d65223a222f6d6369676c656e65636b692d6e65726673747564696f222c2273657474696e6773223a7b22686f7374223a227373683a2f2f6d6369676c656e65636b69407a766572312e7a65736f692e6665722e68723a343433227d7d
+}
+
+function nerf_uri_root {
+    local hex_=$(printf '+{"containerName":"/mciglenecki-nerfstudio","settings":{"host":"ssh://mciglenecki@zver1.zesoi.fer.hr:443"}}' | od -A n -t x1 | tr -d '[\n\t ]')
+    local path_uri="/"
     local folder_uri="vscode-remote://attached-container%$hex_:$path_uri"
     echo $folder_uri
     # 2b7b22636f6e7461696e65724e616d65223a222f6d6369676c656e65636b692d6e65726673747564696f222c2273657474696e6773223a7b22686f7374223a227373683a2f2f6d6369676c656e65636b69407a766572312e7a65736f692e6665722e68723a343433227d7d

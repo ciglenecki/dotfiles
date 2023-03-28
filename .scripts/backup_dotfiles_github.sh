@@ -6,6 +6,6 @@
 #################################
 
 shopt -s expand_aliases
-source /home/matej/.scripts/alias.sh
+source $HOME/.scripts/alias.sh
 
-(cfg add -u && cfg commit -m "daily $(date +%F-%H-%M-%S)" && cfg push) >/home/matej/.log/anacron.log 2>&1
+(cfg add -u && cfg commit -m "daily $(date +%F-%H-%M-%S)" && cfg push) >$HOME/.log/anacron.log 2>&1
