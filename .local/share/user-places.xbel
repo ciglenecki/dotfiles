@@ -914,15 +914,12 @@
    </metadata>
   </info>
  </separator>
- <bookmark href="kdeconnect://ff4badd4f3dc52e9/">
-  <title>SM-G780F</title>
+ <separator>
   <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="kdeconnect"/>
-   </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1679906582/1</ID>
+    <UDI>/org/freedesktop/UDisks2/block_devices/sdc4</UDI>
+    <isSystemItem>true</isSystemItem>
    </metadata>
   </info>
- </bookmark>
+ </separator>
 </xbel>

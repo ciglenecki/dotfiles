@@ -16,6 +16,11 @@ TerminalCenter=false
 TerminalColumns=130
 TerminalMargin=30
 
+[Interaction Options]
+AutoCopySelectedText=false
+TrimLeadingSpacesInSelectedText=true
+TrimTrailingSpacesInSelectedText=true
+
 [Scrolling]
 HistoryMode=2
 HistorySize=9999
