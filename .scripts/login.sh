@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#!/bin/bash
+
 #################################
 # Author:       Matej Ciglenečki
 # Description:  Script that executes on login.

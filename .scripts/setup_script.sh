@@ -45,8 +45,6 @@ gpg --import private.key
 
 sudo echo "Script now has sudo permissions"
 
-HOME="/home/matej"
-
 rm -rf $HOME/Documents $HOME/Music $HOME/Pictures $HOME/Public $HOME/Templates $HOME/Videos
 
 mkdir $HOME/tmp

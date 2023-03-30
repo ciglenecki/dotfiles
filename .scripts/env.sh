@@ -7,17 +7,18 @@
 
 # if [ -z ${HOME+x} ]; then export HOME="/home/matej"; fi
 # set PATH so it includes user's private bin if it exists
+
 if [ -d "$HOME/.local/bin" ] ; then
-    PATH="$PATH:$HOME/.local/bin:"
+    export PATH="$PATH:$HOME/.local/bin:"
 fi
 
 if [ -d "/bin/include" ] ; then
-    PATH="$PATH:/bin/include"
+    export PATH="$PATH:/bin/include"
 fi
 
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/bin" ] ; then
-    PATH="$PATH:$HOME/bin"
+    export PATH="$PATH:$HOME/bin"
 fi
 
 if [ -d "$HOME/.npm-global/bin" ] ; then

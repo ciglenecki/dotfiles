@@ -1,0 +1,5 @@
+/* my keybindings */
+
+{
+"@\U007F" = "deleteWordBackward:"; /* delete backwards one word */
+}
