@@ -1,0 +1,11 @@
+[MIME Cache]
+application/pdf=brave-browser.desktop;
+application/rdf+xml=brave-browser.desktop;
+application/rss+xml=brave-browser.desktop;
+application/xhtml+xml=brave-browser.desktop;
+application/xml=brave-browser.desktop;
+image/gif=brave-browser.desktop;
+image/jpeg=brave-browser.desktop;
+image/png=brave-browser.desktop;
+image/webp=brave-browser.desktop;
+text/html=brave-browser.desktop;
