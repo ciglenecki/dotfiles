@@ -19,7 +19,7 @@ flameshot &
 
 # barrier &
 trickle -s -u 6250 -d 6250 insync start &
-thunderbird &
+# thunderbird &
 # qbittorrent &
 syncthing -no-browser &
 

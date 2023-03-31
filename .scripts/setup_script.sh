@@ -61,7 +61,7 @@ for i in $(grep -vE "^\s*#" $HOME/.assets/packages.txt  | tr "\n" " "); do
 done
 
 if [ $DESKTOP_SESSION == "plasma" ]; then
-  sudo apt install node-typescript
+  sudo apt install -y node-typescript
   git clone https://github.com/esjeon/krohnkite.git $HOME/tmp/krohnkite
   cd $HOME/tmp/krohnkite
   make install

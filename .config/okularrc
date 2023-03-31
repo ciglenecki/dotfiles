@@ -30,14 +30,14 @@ detailViewIconSize=16
 
 [MainWindow]
 HDMI-0 Height 1920x1080=1055
-HDMI-0 Width 1920x1080=1920
+HDMI-0 Width 1920x1080=1453
 HDMI-0 Window-Maximized 1920x1080=true
-HDMI-0 XPosition 1920x1080=0
+HDMI-0 XPosition 1920x1080=466
 HDMI-0 YPosition 1920x1080=0
 Height 1080=515
 Height 1920=1888
 Height 720=1058
-State=AAAA/wAAAAD9AAAAAAAABzwAAAPTAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAAAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAA==
+State=AAAA/wAAAAD9AAAAAAAABWkAAAPTAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAAAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 Width 1080=1080
 Width 1280=1920
@@ -53,18 +53,18 @@ Width 1920=840
 
 [Recent Files]
 File1[$e]=zip:/home/matej/1-documents/_archived/ages_old.zip/shitpost-papic.txt
-File2[$e]=$HOME/projects/lumen-audio/references/zadatak.pdf
-File3[$e]=$HOME/1-documents/work/2022-photomath/ciglenecki_2022_07.pdf
-File4[$e]=$HOME/fer/seminar2/ciglenecki_seminar2_v01.pdf
-File5[$e]=$HOME/1-documents/travel/2023_amsterdam_eindhoven.pdf
-File6[$e]=$HOME/fer/apt/3-labs/Instructions.pdf
-File7[$e]=zip:///home/matej/Downloads/LAB_1.zip/Instructions.pdf
-File8[$e]=zip:///home/matej/Downloads/LAB_1 (1).zip/Instructions.pdf
+File2[$e]=$HOME/1-documents/work/2022-photomath/ciglenecki_2022_07.pdf
+File3[$e]=$HOME/fer/seminar2/ciglenecki_seminar2_v01.pdf
+File4[$e]=$HOME/1-documents/travel/2023_amsterdam_eindhoven.pdf
+File5[$e]=$HOME/fer/apt/3-labs/Instructions.pdf
+File6[$e]=zip:///home/matej/Downloads/LAB_1.zip/Instructions.pdf
+File7[$e]=zip:///home/matej/Downloads/LAB_1 (1).zip/Instructions.pdf
+File8[$e]=$HOME/projects/lumen-audio/references/zadatak.pdf
 Name1[$e]=shitpost-papic.txt
-Name2[$e]=zadatak.pdf
-Name3[$e]=ciglenecki_2022_07.pdf
-Name4[$e]=ciglenecki_seminar2_v01.pdf
-Name5[$e]=2023_amsterdam_eindhoven.pdf
+Name2[$e]=ciglenecki_2022_07.pdf
+Name3[$e]=ciglenecki_seminar2_v01.pdf
+Name4[$e]=2023_amsterdam_eindhoven.pdf
+Name5[$e]=Instructions.pdf
 Name6[$e]=Instructions.pdf
 Name7[$e]=Instructions.pdf
-Name8[$e]=Instructions.pdf
+Name8[$e]=zadatak.pdf
