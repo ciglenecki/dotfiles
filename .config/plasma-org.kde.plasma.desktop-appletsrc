@@ -184,11 +184,10 @@ PreloadWeight=0
 [Containments][2][General]
 AppletOrder=3;39;40;36;30;28;44;41;7;6
 
-[Containments][43]
-ItemGeometries-1024x768=
+[Containments][45]
 ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
-activityId=9020d8d7-730d-45db-9d75-2056f5a738e5
+activityId=e214cd9f-83af-453b-a50a-5a27178c2dd5
 formfactor=0
 immutability=1
 lastScreen=0
@@ -196,20 +195,16 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][43][ConfigDialog]
+[Containments][45][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
-[Containments][43][Configuration]
-PreloadWeight=0
-
-[Containments][43][General]
+[Containments][45][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=559
-ToolBoxButtonY=25
+ToolBoxButtonX=444
 
-[Containments][43][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Next/contents/images/1024x768.jpg
+[Containments][45][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.jpg
 
 [Containments][8]
 activityId=
@@ -260,7 +255,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][23][Configuration]
-PreloadWeight=81
+PreloadWeight=86
 
 [Containments][8][Applets][24][Configuration]
 PreloadWeight=42

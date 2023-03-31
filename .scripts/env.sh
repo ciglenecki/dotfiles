@@ -89,16 +89,17 @@ export DIR_PICTURES="$HOME/2-media"
     export DIR_SCREENSHOTS="$DIR_PICTURES/screenshots/"
 export DIR_AUDIO="$HOME/3-audio"
 export DIR_EDUCATION="$HOME/4-education"
-export DIR_ASSETS="$HOME/5-assets"
+export DIR_ASSETS="$HOME/.assets"
 export DIR_DOWNLOADS="$HOME/Downloads"
 export DIR_PROJECTS="$HOME/projects"
-
+export DIR_SECRETS="$HOME/.secrets"
 export DIR_GEP="/media/matej/ex-gep"
 export DIR_SAM="/media/matej/sam"
 
 export FILE_PACKAGES="$HOME/.assets/packages.txt"
 export DIR_BACKUP_DEST="/tmp/backup-veracrypt"
 export FILE_BACKUP="$DIR_SAM/home-backup.hc"
+export FILE_SPOTIFY_SECRET="$DIR_SECRETS/spotify.sh"
 
 #etc
 export TIMEFS="%F"

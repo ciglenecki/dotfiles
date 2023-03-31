@@ -4,7 +4,7 @@ alt + o; {b,B};
 alt + o; {m, M};
 	{wmctrl -xa $BROWSER, $BROWSERWORK}
 alt + o; {s, S};
-	{wmctrl -xa spotify, url=$(source ~/projects/spotify-random-saved-album/.env.local && spotify-random-saved-album); test $? -eq 0 && ${BROWSERMUSIC} --new-window ${BROWSERASAPP}$url}
+	{wmctrl -xa spotify, url=$(source $FILE_SPOTIFY_SECRET && spotify-random-saved-album); test $? -eq 0 && ${BROWSERMUSIC} --new-window ${BROWSERASAPP}$url}
 alt + o; {a,A};
 	{wmctrl -xa asoft, $ASOFTMURMUR}
 alt + o; {k,K};

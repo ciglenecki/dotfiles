@@ -3,6 +3,7 @@ update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-
 
 [Compositing]
 Backend=OpenGL
+Enabled=false
 GLCore=true
 GLPreferBufferSwap=e
 GLTextureFilter=1
@@ -28,9 +29,6 @@ Strength=5
 [Effect-Slide]
 Duration=400
 
-[KDE]
-AnimationDurationFactor=0.5
-
 [MouseBindings]
 CommandActiveTitlebar1=Raise
 CommandActiveTitlebar2=Nothing
@@ -54,7 +52,7 @@ Active=true
 LatitudeAuto=45.8293
 LongitudeAuto=15.9793
 Mode=Constant
-NightTemperature=2500
+NightTemperature=1800
 
 [Plugins]
 bismuthEnabled=false

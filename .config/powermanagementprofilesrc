@@ -1,6 +1,9 @@
 [AC]
 icon=battery-charging
 
+[AC][DPMSControl]
+idleTime=600
+
 [AC][HandleButtonEvents]
 lidAction=32
 powerButtonAction=16

@@ -20,6 +20,7 @@ cat ~/$DIR_ASSETS packages.txt
 cat ~/$DIR_ASSETS insync.ignoreme
 
 3. copy brave code from https://drive.google.com/drive
+use last word from here https://alexeybarabash.github.io/25th-brave-sync-word/
 
 4. setup shortcuts
 
@@ -108,8 +109,21 @@ git config --global user.name "Matej Ciglenečki"
 sudo apt install pinentry-tty
 sudo update-alternatives --config pinentry
 
+# Install bash git prompt, only git pull, that's it
+git clone https://github.com/magicmonty/bash-git-prompt.git ~/.bash-git-prompt --depth=1
+
+# Install docker https://github.com/docker/docker-install#usage
+curl -fsSL https://get.docker.com -o get-docker.sh
+sh get-docker.sh
+
+# Install nodejs
+curl -fsSL https://deb.nodesource.com/setup_19.x | sudo -E bash - &&\
+sudo apt-get install -y nodejs
+
+wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -O $DOTFILES_DIR/.git-completion.bash
+############
+
 source $HOME/.profile
 source $HOME/.scripts/login.sh
 
-# Install bash git prompt, only git pull, that's it
-git clone https://github.com/magicmonty/bash-git-prompt.git ~/.bash-git-prompt --depth=1
+run sxhkd

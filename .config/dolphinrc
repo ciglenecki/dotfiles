@@ -8,7 +8,6 @@ Height 1080=252
 Width 1920=276
 
 [CompactMode]
-FontWeight=50
 PreviewSize=16
 
 [CreateDialog]
@@ -19,7 +18,6 @@ DefaultProfile=Profile 3.profile
 
 [DetailsMode]
 ExpandableFolders=false
-FontWeight=50
 PreviewSize=22
 
 [ExtractDialog]
@@ -39,15 +37,16 @@ RememberOpenedTabs=false
 ShowFullPath=true
 ShowFullPathInTitlebar=true
 ShowZoomSlider=false
-Version=201
+Version=202
 ViewPropsTimestamp=2021,11,7,23,26,33
 
 [IconsMode]
-FontWeight=50
 IconSize=48
 PreviewSize=112
 
 [KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=16
 Recent Files[$e]=file:$HOME,file:$HOME/2-media/icons/document_clip.png,file:$HOME/2-media/icons/tmp_tree.png
 Recent URLs[$e]=file:$HOME/2-media/icons/,file:$HOME/Downloads/dubuce projekt/all_images/,file:$HOME/
 detailViewIconSize=16
