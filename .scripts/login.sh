@@ -9,7 +9,7 @@
 
 HOME="/home/matej"
 
-sxhkd &
+
 yakuake &
 flameshot &
 

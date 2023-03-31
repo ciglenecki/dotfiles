@@ -109,6 +109,7 @@ fi
 # Details about system
 if command -v neofetch &> /dev/null; then
     neofetch
+    yes '' | sed 8q # add some extra space
 fi;
 
 # Reverse history foward enable (Ctrl +S)

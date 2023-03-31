@@ -215,6 +215,7 @@ function addpackage() {
 # run set of commands with nohup
 function run() {
     nohup "$@" >/dev/null 2>&1 &
+    disown
 }
 
 function renameall() {

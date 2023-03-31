@@ -52,11 +52,11 @@ Active=true
 LatitudeAuto=45.8293
 LongitudeAuto=15.9793
 Mode=Constant
-NightTemperature=1800
+NightTemperature=2100
 
 [Plugins]
 bismuthEnabled=false
-desktopchangeosdEnabled=false
+desktopchangeosdEnabled=true
 diminactiveEnabled=true
 krohnkiteEnabled=true
 minimizeallEnabled=false
@@ -87,7 +87,7 @@ enableSpiralLayout=false
 enableSpreadLayout=false
 enableStairLayout=false
 enableThreeColumnLayout=false
-keepFloatAbove=false
+ignoreTitle=Plasma
 layoutPerActivity=false
 maximizeSoleTile=true
 monocleMaximize=false
