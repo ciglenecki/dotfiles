@@ -10,14 +10,14 @@
 #umask 022
 
 # set home if unset
-# if [ -z ${HOME+x} ]; then export HOME="/home/matej"; fi
+# if [ -z ${HOME+x} ]; then export HOME="~matej"; fi
 
 # Resolve DOTFILES_DIR (assuming ~/.dotfiles on distros without readlink and/or $BASH_SOURCE/$0). CAn be run here because .profile executes .bashrc
 if [ -d "$HOME" ]; then
   export DOTFILES_DIR="$HOME/.scripts"
 fi
 
-for dotfile in $DOTFILES_DIR/{env.sh,alias.sh}; do
+for dotfile in $DOTFILES_DIR/{env.sh,alias.sh,login.sh}; do
   echo "Sourcing $dotfile"
   [ -f "$dotfile" ] && . "$dotfile";
 done

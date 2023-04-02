@@ -7,6 +7,7 @@ switch-to-activity-687c05aa-cc42-4a69-acbe-d38ebe895f11=none,none,Switch to acti
 switch-to-activity-9020d8d7-730d-45db-9d75-2056f5a738e5=none,none,Switch to activity "Default"
 switch-to-activity-cc6d1c2b-777d-4eec-9d0d-3d1035c10498=none,none,Switch to activity "Default"
 switch-to-activity-e214cd9f-83af-453b-a50a-5a27178c2dd5=none,none,Switch to activity "Default"
+switch-to-activity-e294525a-f6a7-4830-8ca3-32792d69298d=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
 Switch keyboard layout to Croatian=none,none,Switch keyboard layout to Croatian
@@ -52,7 +53,7 @@ display=Display\tMeta+P,Display\tMeta+P,Switch Display
 
 [khotkeys]
 _k_friendly_name=Custom Shortcuts Service
-{8d025501-bb09-47c8-9849-f6c315c32cde}=none,none,Launch Konsole
+{8d025501-bb09-47c8-9849-f6c315c32cde}=,none,Launch Konsole
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none,none,Search
 
 [klipper]
@@ -415,18 +416,18 @@ activate widget 72=none,none,Activate Icons-only Task Manager Widget
 activate widget 9=none,none,Activate Digital Clock Widget
 activate widget 92=none,none,Activate Digital Clock Widget
 clear-history=none,none,Clear Clipboard History
-clipboard_action=Ctrl+Alt+X,Ctrl+Alt+X,Enable Clipboard Actions
+clipboard_action=Ctrl+Alt+X,Meta+Ctrl+X,Automatic Action Popup Menu
 cycle-panels=Meta+Alt+P,Meta+Alt+P,Move keyboard focus between panels
 cycleNextAction=none,none,Next History Item
 cyclePrevAction=none,none,Previous History Item
-edit_clipboard=none,none,Edit Contents...
+edit_clipboard=none,none,Edit Contents…
 manage activities=Meta+Q,Meta+Q,Show Activity Switcher
 next activity=Meta+Tab,Meta+Tab,Walk through activities
 previous activity=Meta+Shift+Tab,Meta+Shift+Tab,Walk through activities (Reverse)
-repeat_action=Ctrl+Alt+R,Ctrl+Alt+R,Manually Invoke Action on Current Clipboard
+repeat_action=Ctrl+Alt+R,Meta+Ctrl+R,Manually Invoke Action on Current Clipboard
 show dashboard=Ctrl+F12,Ctrl+F12,Show Desktop
-show-barcode=none,none,Show Barcode...
-show-on-mouse-pos=none,none,Open Klipper at Mouse Position
+show-barcode=none,none,Show Barcode…
+show-on-mouse-pos=none,Meta+V,Open Klipper at Mouse Position
 stop current activity=Meta+S,Meta+S,Stop Current Activity
 switch to next activity=none,,Switch to Next Activity
 switch to previous activity=none,,Switch to Previous Activity

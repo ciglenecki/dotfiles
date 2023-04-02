@@ -26,7 +26,7 @@ if [ "$EUID" -ne 0 ]; then
     exit 1
 fi
 
-HOME="/home/matej"
+HOME=$(eval echo "~matej")
 . $HOME/.scripts/env.sh
 SRC=$HOME/*; # files inside of home
 FILE_BACKUP=$FILE_BACKUP

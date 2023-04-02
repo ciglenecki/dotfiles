@@ -41,8 +41,8 @@ Version=202
 ViewPropsTimestamp=2021,11,7,23,26,33
 
 [IconsMode]
-IconSize=48
-PreviewSize=16
+IconSize=16
+PreviewSize=192
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
@@ -56,8 +56,8 @@ DP-0 HDMI-0 Height 1920x1080=458
 DP-0 HDMI-0 Height 2560x1440=587
 DP-0 HDMI-0 Width 1920x1080=383
 DP-0 HDMI-0 Width 2560x1440=518
-HDMI-0 Height 1920x1080=598
-HDMI-0 Width 1920x1080=438
+HDMI-0 Height 1920x1080=458
+HDMI-0 Width 1920x1080=384
 HDMI-1 Height 1920x1080=458
 HDMI-1 Width 1920x1080=378
 Height 1080=524

@@ -118,3 +118,4 @@ libreoffice-l10n-hr
 # dconf-editor
 # gnome-tweak-tool
 # dolphin
+htop

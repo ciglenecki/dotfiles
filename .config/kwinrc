@@ -52,7 +52,7 @@ Active=true
 LatitudeAuto=45.8293
 LongitudeAuto=15.9793
 Mode=Constant
-NightTemperature=2100
+NightTemperature=2300
 
 [Plugins]
 bismuthEnabled=false

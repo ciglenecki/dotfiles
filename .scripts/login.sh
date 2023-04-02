@@ -1,17 +1,15 @@
 #!/bin/bash
 
-#!/bin/bash
-
 #################################
 # Author:       Matej Ciglenečki
 # Description:  Script that executes on login.
 #################################
 
-HOME="/home/matej"
-
+HOME=$(eval echo "~matej")
 
 yakuake &
 flameshot &
+sxhkd &
 
 #$BROWSERUSER $BROWSERASAPP$CAL &
 #$BROWSERUSER $BROWSERASAPP$TODO_TODAY &
