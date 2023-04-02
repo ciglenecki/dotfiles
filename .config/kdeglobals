@@ -159,7 +159,6 @@ LookAndFeelPackage=org.kubuntu.desktop
 ScrollbarLeftClickNavigatesByPage=false
 ShowDeleteCommand=true
 contrast=4
-widgetStyle=Breeze
 
 [KFileDialog Settings]
 Allow Expansion=true
