@@ -2,7 +2,7 @@
 AntiAliasFonts=true
 BoldIntense=false
 ColorScheme=matej-red
-Font=Noto Mono,12,-1,5,50,0,0,0,0,0
+Font=Hack,11,-1,5,50,0,0,0,0,0
 LineSpacing=0
 TabColor=255,0,0
 UseFontLineChararacters=false
@@ -18,7 +18,7 @@ TerminalMargin=30
 
 [Interaction Options]
 AutoCopySelectedText=false
-TrimLeadingSpacesInSelectedText=true
+TrimLeadingSpacesInSelectedText=false
 TrimTrailingSpacesInSelectedText=true
 
 [Scrolling]

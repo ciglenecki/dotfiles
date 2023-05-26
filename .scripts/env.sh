@@ -49,6 +49,11 @@ if [ -d "/opt/blender-3.4.1-linux-x64" ] ; then
     export PATH=$PATH:/opt/blender-3.4.1-linux-x64
 fi
 
+if [ -d "$HOME/venv/lib/python3.11/site-packages" ] ; then
+    export PYTHONPATH="$HOME/venv/lib/python3.11/site-packages:$PYTHONPATH"
+fi
+
+
 export PYENV_ROOT="$HOME/.pyenv"
 export CUDA_HOME=/usr/local/cuda-11.8
 

@@ -1,6 +1,6 @@
 {
   "workbench.panel.defaultLocation": "right",
-  "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontFamily": "'IntelOne Mono', 'Hack', 'Noto Mono'",
   "editor.fontLigatures": true,
   "workbench.editor.highlightModifiedTabs": true, // Don't lose your working by turning on autosave,
   "explorer.sortOrder": "type",
@@ -104,7 +104,7 @@
   "diffEditor.codeLens": true,
   "typescript.implementationsCodeLens.enabled": true,
   "editor.rename.enablePreview": false,
-  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
   "markdown.preview.openMarkdownLinks": "inEditor",
   "pasteImage.path": "${projectRoot}/pic",
   "terminal.integrated.cursorBlinking": true,
@@ -145,7 +145,6 @@
     "editor.defaultFormatter": "vscode.html-language-features"
   },
   "explorer.confirmDragAndDrop": false,
-  "workbench.colorTheme": "Quiet Light",
   "editor.insertSpaces": false,
   "settingsSync.ignoredExtensions": [
     "ctf0.laravel-goto-env"
@@ -177,7 +176,7 @@
   "python.formatting.provider": "black",
   "python.linting.pylintEnabled": true,
   "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.defaultFormatter": "ms-python.python",
     "editor.formatOnType": true,
     "editor.codeActionsOnSave": {
       "source.organizeImports": true
@@ -189,8 +188,34 @@
   ],
   "notebook.output.textLineLimit": 300,
   "scm.diffDecorations": "none",
-  "python.defaultInterpreterPath": "/home/matej/projects/lumen-audio/venv",
-  "python.formatting.blackArgs": [
-    "--line-length 120"
+  "python.defaultInterpreterPath": "",
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.exclude": [
+    "**/venv",
+    "**/__pycache__",
+    "**/.pytest_cache",
+    "**/.mypy_cache"
   ],
+  "python.linting.ignorePatterns": [
+    "**/site-packages/**/*.py",
+    ".vscode/*.py",
+    "**/venv/**/*.py"
+  ],
+  "python.analysis.logLevel": "Error",
+  "python.analysis.diagnosticMode": "workspace",
+  "editor.scrollbar.verticalScrollbarSize": 10,
+  "editor.gotoLocation.multipleDefinitions": "gotoAndPeek",
+  "editor.gotoLocation.multipleTypeDefinitions": "gotoAndPeek",
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "terminal.integrated.scrollback": 999999,
+  "workbench.colorTheme": "Quiet Light",
+  "python.linting.pylintArgs": [
+    "--generate-members"
+  ]
 }

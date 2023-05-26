@@ -66,14 +66,6 @@
       [
         "timestamp",
         false
-      ],
-      [
-        "inlibrary",
-        false
-      ],
-      [
-        "timestamp",
-        false
       ]
     ]
   },
@@ -102,14 +94,6 @@
     "languages_injected": true,
     "last_modified_injected": true,
     "sort_history": [
-      [
-        "timestamp",
-        false
-      ],
-      [
-        "inlibrary",
-        false
-      ],
       [
         "timestamp",
         false
@@ -256,7 +240,7 @@
     "__value__": "AdnQywADAAAAAAAAAAABGAAABPoAAANEAAAAAAAAATUAAAT6AAADRAAAAAAAAAAAB4AAAAAAAAABNQAABPoAAANE"
   },
   "library_usage_stats": {
-    "/home/matej/6-literature": 25
+    "/home/matej/6-literature": 27
   },
   "manual_add_auto_convert": false,
   "memory_view books view state": {
@@ -284,18 +268,6 @@
     "languages_injected": true,
     "last_modified_injected": true,
     "sort_history": [
-      [
-        "title",
-        false
-      ],
-      [
-        "timestamp",
-        false
-      ],
-      [
-        "inlibrary",
-        false
-      ],
       [
         "title",
         false

@@ -21,9 +21,9 @@ ExpandableFolders=false
 PreviewSize=16
 
 [ExtractDialog]
-DirHistory[$e]=/opt/,$HOME/Downloads/,$HOME/Downloads/dubuce projekt/all_images/
-HDMI-0 Height 1920x1080=560
-HDMI-0 Width 1920x1080=1280
+DirHistory[$e]=$HOME/projects/lumen-audio/data/,/opt/,$HOME/Downloads/,$HOME/Downloads/dubuce projekt/all_images/
+HDMI-0 Height 1920x1080=547
+HDMI-0 Width 1920x1080=1279
 
 [Favorite Profiles]
 Favorites=
@@ -42,22 +42,24 @@ ViewPropsTimestamp=2021,11,7,23,26,33
 
 [IconsMode]
 IconSize=16
-PreviewSize=16
+PreviewSize=128
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
 Places Icons Static Size=16
-Recent Files[$e]=file:$HOME,file:$HOME/2-media/icons/document_clip.png,file:$HOME/2-media/icons/tmp_tree.png
-Recent URLs[$e]=file:///opt/,file:$HOME/2-media/icons/,file:$HOME/,file:$HOME/Downloads/
+Recent Files[$e]=file:$HOME/projects/lumen-audio/data,file:$HOME/projects/lumen-audio/data
+Recent URLs[$e]=file:$HOME/projects/lumen-audio/,file:///opt/,file:$HOME/2-media/icons/,file:$HOME/,file:$HOME/Downloads/,file:$HOME/projects/lumen-audio/data/
 detailViewIconSize=16
 
 [KPropertiesDialog]
+1920x1080 screen: Height=556
+1920x1080 screen: Width=427
 DP-0 HDMI-0 Height 1920x1080=458
 DP-0 HDMI-0 Height 2560x1440=587
 DP-0 HDMI-0 Width 1920x1080=383
 DP-0 HDMI-0 Width 2560x1440=518
 HDMI-0 Height 1920x1080=458
-HDMI-0 Width 1920x1080=384
+HDMI-0 Width 1920x1080=311
 HDMI-1 Height 1920x1080=458
 HDMI-1 Width 1920x1080=378
 Height 1080=524
@@ -155,13 +157,16 @@ eDP-1-1 YPosition 1920x1080=376
 
 [Open-with settings]
 CompletionMode=1
-History=kate,code,imp,shut,shutt,brave,gwe,free,okular,packa
+History=wine,code,kate,imp,shut,shutt,brave,gwe,free,okular,packa
 
 [PlacesPanel]
 IconSize=16
 
 [PreviewSettings]
 Plugins=audiothumbnail,blenderthumbnail,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,textthumbnail,ffmpegthumbs
+
+[Search]
+What=Content
 
 [SettingsDialog]
 Height 1080=456
@@ -170,7 +175,7 @@ Width 1920=561
 Width 2560=691
 
 [ViewPropertiesDialog]
-HDMI-0 Height 1920x1080=464
-HDMI-0 Width 1920x1080=375
+HDMI-0 Height 1920x1080=449
+HDMI-0 Width 1920x1080=355
 Height 1080=704
 Width 1920=375

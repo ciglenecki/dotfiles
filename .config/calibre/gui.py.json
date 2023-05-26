@@ -47,13 +47,15 @@
   "jobs_search_history": [],
   "lrf_viewer_search_history": [],
   "main_search_history": [
+    "anne",
+    "anna",
     "econom",
     "hrv",
     "authors:\"=Mary Beard\""
   ],
   "main_window_geometry": {
     "__class__": "bytearray",
-    "__value__": "AdnQywADAAAAAAInAAAAAAAAB34AAAIMAAACJwAAAAAAAAd+AAACDAAAAAAAAAAAB4AAAAInAAAAAAAAB34AAAIM"
+    "__value__": "AdnQywADAAAAAAInAAAAFAAACaYAAAQtAAACJwAAABQAAAmmAAAELQAAAAAAAAAAB4AAAAInAAAAFAAACaYAAAQt"
   },
   "match_tags_type": "any",
   "new_version_notification": true,

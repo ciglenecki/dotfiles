@@ -11,7 +11,7 @@ esac
 
 
 for DOTFILE in $DOTFILES_DIR/{env.sh,alias.sh}; do
-  [ -f "$DOTFILE" ] && . "$DOTFILE";
+  [ -f "$DOTFILE" ] && source "$DOTFILE";
 done
 
 
@@ -127,5 +127,5 @@ fi
 # After each command, append to the history file and reread it
 PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
 
-# command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
-# eval "$(pyenv init -)"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"

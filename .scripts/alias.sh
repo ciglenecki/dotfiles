@@ -73,11 +73,11 @@ shopt -s extglob
 
 
 # Set dynamic subject names alias 
-if [ -d "$DIR_FER" ]; then
-    for subject in $(ls $DIR_FER | sed -nE 's/^([a-zA-Z].*)/\1/p'); do
-        alias $subject="cs $DIR_FER/$subject"
-    done
-fi
+# if [ -d "$DIR_FER" ]; then
+#     for subject in $(ls $DIR_FER | sed -nE 's/^([a-zA-Z].*)/\1/p'); do
+#         alias $subject="cs $DIR_FER/$subject"
+#     done
+# fi
 
 ################
 # FUNCTIONS 
@@ -235,6 +235,7 @@ function renameall() {
     rename 's/-+/-/g if -d;' *
 }
 
+
 function note() {
     note_file=$DIR_NOTES/notes.txt
     str="$*"
@@ -253,6 +254,10 @@ function focus_all_windows_on_current_desktop() {
     . $HOME/.scripts/focus_all_windows_on_current_desktop.sh
 }
 
+function extendpdf() {
+    cp $1 $1.old
+    pdfcrop --margins '350 50 350 50' "$1" "$1"
+}
 
 function cp_compile {
     g++ -Wall -Wextra -Wshadow -D_GLIBCXX_ASSERTIONS -ggdb3 -fmax-errors=2 -o a $1
@@ -267,32 +272,17 @@ function cp_test {
 }
 
 
-function nerf_uri {
-    local hex_=$(printf '+{"containerName":"/mciglenecki-nerfstudio","settings":{"host":"ssh://mciglenecki@zver1.zesoi.fer.hr:443"}}' | od -A n -t x1 | tr -d '[\n\t ]')
-    local path_uri="/root/projects/nerf-research/"
-    # local path_uri="/"
+function projects_uri {
+    local hex_=$(printf '+{"containerName":"/mciglenecki-projects","settings":{"host":"ssh://mciglenecki@zver1.zesoi.fer.hr:443"}}' | od -A n -t x1 | tr -d '[\n\t ]')
+    local path_uri="/root/projects/"
     local folder_uri="vscode-remote://attached-container%$hex_:$path_uri"
     echo $folder_uri
-    # 2b7b22636f6e7461696e65724e616d65223a222f6d6369676c656e65636b692d6e65726673747564696f222c2273657474696e6773223a7b22686f7374223a227373683a2f2f6d6369676c656e65636b69407a766572312e7a65736f692e6665722e68723a343433227d7d
 }
 
-function nerf_gen_uri {
-    local hex_=$(printf '+{"containerName":"/mciglenecki-nerf_gen_patch","settings":{"host":"ssh://mciglenecki@zver1.zesoi.fer.hr:443"}}' | od -A n -t x1 | tr -d '[\n\t ]')
-    local path_uri="/root/projects/nerf-gen_patch_neural_rendering"
-    # local path_uri="/"
-}
-function nerf_uri_7007 {
-    local hex_=$(printf '+{"containerName":"stupefied_heisenberg","settings":{"host":"ssh://mciglenecki@zver1.zesoi.fer.hr:443"}}' | od -A n -t x1 | tr -d '[\n\t ]')
-    local path_uri="/root/projects/nerf-research/"
-    local folder_uri="vscode-remote://attached-container%$hex_:$path_uri"
-    echo $folder_uri
-    # 2b7b22636f6e7461696e65724e616d65223a222f6d6369676c656e65636b692d6e65726673747564696f222c2273657474696e6773223a7b22686f7374223a227373683a2f2f6d6369676c656e65636b69407a766572312e7a65736f692e6665722e68723a343433227d7d
-}
 
-function nerf_uri_root {
-    local hex_=$(printf '+{"containerName":"/mciglenecki-nerfstudio","settings":{"host":"ssh://mciglenecki@zver1.zesoi.fer.hr:443"}}' | od -A n -t x1 | tr -d '[\n\t ]')
-    local path_uri="/"
+function audio_uri {
+    local hex_=$(printf '+{"containerName":"/mciglenecki-audio-shm","settings":{"host":"ssh://mciglenecki@zver1.zesoi.fer.hr:443"}}' | od -A n -t x1 | tr -d '[\n\t ]')
+    local path_uri="/root/lumen-audio/"
     local folder_uri="vscode-remote://attached-container%$hex_:$path_uri"
     echo $folder_uri
-    # 2b7b22636f6e7461696e65724e616d65223a222f6d6369676c656e65636b692d6e65726673747564696f222c2273657474696e6773223a7b22686f7374223a227373683a2f2f6d6369676c656e65636b69407a766572312e7a65736f692e6665722e68723a343433227d7d
 }

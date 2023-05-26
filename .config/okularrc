@@ -24,19 +24,24 @@ Height 1080=745
 Width 1920=907
 
 [KFileDialog Settings]
-Recent Files[$e]=SU1-2021-P02-OsnovniKoncepti.pdf,file:$HOME/Downloads/2003.08934.pdf,file:$HOME/fer/oos/sp4comm_corrected.pdf,file:$HOME/fer/oos/1-lectures/15_fft.pdf,file:$HOME/fer/oos/1-lectures/DOS_2017-2018_predavanje_06.pdf,file:$HOME/fer/oos/1-lectures/16_izvedba_filtara.pdf,file:$HOME/fer/oos/4-exams/mi_2021.pdf,file:$HOME/fer/oos/4-exams/mi_2022.pdf,file:$HOME/fer/oos/1-lectures/09_prijenosna_funkcija.pdf,file:$HOME/fer/oos/1-lectures/08_z_i_laplaceova_transformacija.pdf,file:$HOME/fer/nummat/1-lectures/predavanje_18.pdf,file:$HOME/fer/nummat/1-lectures/predavanje_16.pdf,file:$HOME/fer/nummat/1-lectures/predavanje_15.pdf,file:$HOME/fer/nummat/1-lectures/predavanje_12.pdf
-Recent URLs[$e]=file:$HOME/fer/oos/,file:$HOME/Downloads/,file:$HOME/fer/oos/1-lectures/,file:$HOME/fer/oos/5-tasks/,file:$HOME/1-documents/work/ciglenecki.github.io/se/,file:$HOME/fer/oos/4-exams/,file:$HOME/fer/oos/3-labs/,file:$HOME/
+Recent Files[$e]=SU1-2021-P02-OsnovniKoncepti.pdf,file:$HOME/projects/lumen-audio/figures/project_documentation.pdf,file:$HOME/projects/lumen-audio/figures/tempo_distribution_genre_jaz_blu.png,file:$HOME/projects/geoguessr-ai/pdf-technical-documentation.pdf,file:$HOME/Downloads/2003.08934.pdf,file:$HOME/fer/oos/sp4comm_corrected.pdf,file:$HOME/fer/oos/1-lectures/15_fft.pdf,file:$HOME/fer/oos/1-lectures/DOS_2017-2018_predavanje_06.pdf,file:$HOME/fer/oos/1-lectures/16_izvedba_filtara.pdf,file:$HOME/fer/oos/4-exams/mi_2021.pdf,file:$HOME/fer/oos/4-exams/mi_2022.pdf,file:$HOME/fer/oos/1-lectures/09_prijenosna_funkcija.pdf,file:$HOME/fer/oos/1-lectures/08_z_i_laplaceova_transformacija.pdf,file:$HOME/fer/nummat/1-lectures/predavanje_18.pdf,file:$HOME/fer/nummat/1-lectures/predavanje_16.pdf,file:$HOME/fer/nummat/1-lectures/predavanje_15.pdf
+Recent URLs[$e]=file:$HOME/fer/oos/,file:$HOME/Downloads/,file:$HOME/fer/oos/1-lectures/,file:$HOME/fer/oos/5-tasks/,file:$HOME/1-documents/work/ciglenecki.github.io/se/,file:$HOME/fer/oos/4-exams/,file:$HOME/fer/oos/3-labs/,file:$HOME/,file:$HOME/projects/geoguessr-ai/,file:$HOME/projects/lumen-audio/figures/
 detailViewIconSize=16
 
 [MainWindow]
-HDMI-0 Height 1920x1080=1050
-HDMI-0 Width 1920x1080=1920
-HDMI-0 XPosition 1920x1080=0
-HDMI-0 YPosition 1920x1080=0
+1920x1080 screen: Height=1050
+1920x1080 screen: Width=1097
+1920x1080 screen: XPosition=822
+1920x1080 screen: YPosition=0
+HDMI-0=HDMI-0
+HDMI-0 Height 1920x1080=1021
+HDMI-0 Width 1920x1080=1354
+HDMI-0 XPosition 1920x1080=432
+HDMI-0 YPosition 1920x1080=29
 Height 1080=515
 Height 1920=1888
 Height 720=1058
-State=AAAA/wAAAAD9AAAAAAAABzwAAAPOAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAAAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAA==
+State=AAAA/wAAAAD9AAAAAAAABAUAAAPOAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAAAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 Width 1080=1080
 Width 1280=1920
@@ -51,23 +56,23 @@ Height 1080=889
 Width 1920=840
 
 [Recent Files]
-File1[$e]=zip:/home/matej/1-documents/_archived/ages_old.zip/shitpost-papic.txt
-File10[$e]=$HOME/Downloads/2003.08934-h.pdf
-File2[$e]=$HOME/1-documents/work/2022-photomath/ciglenecki_2022_07.pdf
-File3[$e]=$HOME/fer/seminar2/ciglenecki_seminar2_v01.pdf
-File4[$e]=$HOME/1-documents/travel/2023_amsterdam_eindhoven.pdf
-File5[$e]=$HOME/fer/apt/3-labs/Instructions.pdf
-File6[$e]=zip:///home/matej/Downloads/LAB_1.zip/Instructions.pdf
-File7[$e]=zip:///home/matej/Downloads/LAB_1 (1).zip/Instructions.pdf
-File8[$e]=$HOME/Downloads/RingSizer-618546095428a.pdf
-File9[$e]=$HOME/Downloads/2003.08934.pdf
-Name1[$e]=shitpost-papic.txt
-Name10[$e]=2003.08934-h.pdf
-Name2[$e]=ciglenecki_2022_07.pdf
-Name3[$e]=ciglenecki_seminar2_v01.pdf
-Name4[$e]=2023_amsterdam_eindhoven.pdf
-Name5[$e]=Instructions.pdf
-Name6[$e]=Instructions.pdf
-Name7[$e]=Instructions.pdf
-Name8[$e]=RingSizer-618546095428a.pdf
-Name9[$e]=2003.08934.pdf
+File1[$e]=$HOME/projects/lumen-audio/docs/technical_doc/technical_first_part.pdf
+File10[$e]=$HOME/4-education/papers/nlp/Sentiment Analysis: It’s Complicated!.pdf
+File2[$e]=$HOME/projects/lumen-audio/figures/tempo_distribution_genre_jaz_blu.png
+File3[$e]=$HOME/projects/lumen-audio/technical_docs.pdf
+File4[$e]=$HOME/projects/lumen-audio/figures/project_documentation.pdf
+File5[$e]=$HOME/4-education/papers/nlp/Improving Named Entity Recognition by External Context Retrieving and Cooperative Learning, Xinyu Wang et al., 2021, v3.pdf
+File6[$e]=$HOME/4-education/papers/diffusion/denoising_diffusion_probabilistic_models.pdf
+File7[$e]=$HOME/4-education/papers/diffusion/high_resolution_image_synthesis_with_latent_diffusion_models.pdf
+File8[$e]=$HOME/4-education/papers/nlp/Mind Your Outliers! Investigating the Negative Impact of Outliers on\nActive Learning for Visual Question Answering.pdf
+File9[$e]=$HOME/4-education/papers/diffusion/On Distillation of Guided Diffusion Models, Chenlin Meng et al., 2022, v3.pdf
+Name1[$e]=technical_first_part.pdf
+Name10[$e]=Sentiment Analysis: It’s Complicated!.pdf
+Name2[$e]=tempo_distribution_genre_jaz_blu.png
+Name3[$e]=technical_docs.pdf
+Name4[$e]=project_documentation.pdf
+Name5[$e]=Improving Named Entity Recognition by External Context Retrieving and Cooperative Learning, Xinyu Wang et al., 2021, v3.pdf
+Name6[$e]=denoising_diffusion_probabilistic_models.pdf
+Name7[$e]=high_resolution_image_synthesis_with_latent_diffusion_models.pdf
+Name8[$e]=Mind Your Outliers! Investigating the Negative Impact of Outliers on\nActive Learning for Visual Question Answering.pdf
+Name9[$e]=On Distillation of Guided Diffusion Models, Chenlin Meng et al., 2022, v3.pdf

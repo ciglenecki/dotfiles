@@ -1,509 +1,5 @@
 {
   "fonts": {
-    "/usr/local/share/fonts/r/Roboto_BlackItalic.ttf||166320:1665167830.2836256": {
-      "family_name": "Roboto Bk",
-      "font-family": "Roboto Bk",
-      "font-stretch": "normal",
-      "font-style": "italic",
-      "font-weight": "normal",
-      "fs_type": 4,
-      "full_name": "Roboto Black Italic",
-      "is_bold": true,
-      "is_italic": true,
-      "is_oblique": false,
-      "is_otf": false,
-      "is_regular": false,
-      "is_wws": false,
-      "os2_version": 3,
-      "panose": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "path": "/usr/local/share/fonts/r/Roboto_BlackItalic.ttf",
-      "preferred_family_name": "Roboto",
-      "preferred_subfamily_name": "Black Italic",
-      "subfamily_name": "Bold Italic",
-      "weight": 400,
-      "width": 5,
-      "wws_family_name": null,
-      "wws_subfamily_name": null
-    },
-    "/usr/local/share/fonts/r/Roboto_Bold.ttf||163448:1665167830.2916257": {
-      "family_name": "Roboto",
-      "font-family": "Roboto",
-      "font-stretch": "normal",
-      "font-style": "normal",
-      "font-weight": "bold",
-      "fs_type": 4,
-      "full_name": "Roboto Bold",
-      "is_bold": true,
-      "is_italic": false,
-      "is_oblique": false,
-      "is_otf": false,
-      "is_regular": false,
-      "is_wws": false,
-      "os2_version": 3,
-      "panose": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "path": "/usr/local/share/fonts/r/Roboto_Bold.ttf",
-      "preferred_family_name": null,
-      "preferred_subfamily_name": null,
-      "subfamily_name": "Bold",
-      "weight": 700,
-      "width": 5,
-      "wws_family_name": null,
-      "wws_subfamily_name": null
-    },
-    "/usr/local/share/fonts/r/Roboto_BoldCondensed.ttf||161308:1665167830.295626": {
-      "family_name": "Roboto Cn",
-      "font-family": "Roboto Cn",
-      "font-stretch": "condensed",
-      "font-style": "normal",
-      "font-weight": "bold",
-      "fs_type": 4,
-      "full_name": "Roboto Bold Condensed",
-      "is_bold": true,
-      "is_italic": false,
-      "is_oblique": false,
-      "is_otf": false,
-      "is_regular": false,
-      "is_wws": false,
-      "os2_version": 3,
-      "panose": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "path": "/usr/local/share/fonts/r/Roboto_BoldCondensed.ttf",
-      "preferred_family_name": "Roboto",
-      "preferred_subfamily_name": "Bold Condensed",
-      "subfamily_name": "Bold",
-      "weight": 700,
-      "width": 3,
-      "wws_family_name": null,
-      "wws_subfamily_name": null
-    },
-    "/usr/local/share/fonts/r/Roboto_BoldCondensedItalic.ttf||163584:1665167830.2996259": {
-      "family_name": "Roboto Cn",
-      "font-family": "Roboto Cn",
-      "font-stretch": "condensed",
-      "font-style": "italic",
-      "font-weight": "bold",
-      "fs_type": 4,
-      "full_name": "Roboto Bold Condensed Italic",
-      "is_bold": true,
-      "is_italic": true,
-      "is_oblique": false,
-      "is_otf": false,
-      "is_regular": false,
-      "is_wws": false,
-      "os2_version": 3,
-      "panose": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "path": "/usr/local/share/fonts/r/Roboto_BoldCondensedItalic.ttf",
-      "preferred_family_name": "Roboto",
-      "preferred_subfamily_name": "Bold Condensed Italic",
-      "subfamily_name": "Bold Italic",
-      "weight": 700,
-      "width": 3,
-      "wws_family_name": null,
-      "wws_subfamily_name": null
-    },
-    "/usr/local/share/fonts/r/Roboto_BoldItalic.ttf||165864:1665167830.3036258": {
-      "family_name": "Roboto",
-      "font-family": "Roboto",
-      "font-stretch": "normal",
-      "font-style": "italic",
-      "font-weight": "bold",
-      "fs_type": 4,
-      "full_name": "Roboto Bold Italic",
-      "is_bold": true,
-      "is_italic": true,
-      "is_oblique": false,
-      "is_otf": false,
-      "is_regular": false,
-      "is_wws": false,
-      "os2_version": 3,
-      "panose": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "path": "/usr/local/share/fonts/r/Roboto_BoldItalic.ttf",
-      "preferred_family_name": null,
-      "preferred_subfamily_name": null,
-      "subfamily_name": "Bold Italic",
-      "weight": 700,
-      "width": 5,
-      "wws_family_name": null,
-      "wws_subfamily_name": null
-    },
-    "/usr/local/share/fonts/r/Roboto_Condensed.ttf||158284:1665167830.307626": {
-      "family_name": "Roboto Cn",
-      "font-family": "Roboto Cn",
-      "font-stretch": "condensed",
-      "font-style": "normal",
-      "font-weight": "normal",
-      "fs_type": 4,
-      "full_name": "Roboto Condensed",
-      "is_bold": false,
-      "is_italic": false,
-      "is_oblique": false,
-      "is_otf": false,
-      "is_regular": false,
-      "is_wws": false,
-      "os2_version": 3,
-      "panose": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "path": "/usr/local/share/fonts/r/Roboto_Condensed.ttf",
-      "preferred_family_name": "Roboto",
-      "preferred_subfamily_name": "Condensed",
-      "subfamily_name": "Regular",
-      "weight": 400,
-      "width": 3,
-      "wws_family_name": null,
-      "wws_subfamily_name": null
-    },
-    "/usr/local/share/fonts/r/Roboto_CondensedItalic.ttf||161792:1665167830.311626": {
-      "family_name": "Roboto Cn",
-      "font-family": "Roboto Cn",
-      "font-stretch": "condensed",
-      "font-style": "italic",
-      "font-weight": "normal",
-      "fs_type": 4,
-      "full_name": "Roboto Condensed Italic",
-      "is_bold": false,
-      "is_italic": true,
-      "is_oblique": false,
-      "is_otf": false,
-      "is_regular": false,
-      "is_wws": false,
-      "os2_version": 3,
-      "panose": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "path": "/usr/local/share/fonts/r/Roboto_CondensedItalic.ttf",
-      "preferred_family_name": "Roboto",
-      "preferred_subfamily_name": "Condensed Italic",
-      "subfamily_name": "Italic",
-      "weight": 400,
-      "width": 3,
-      "wws_family_name": null,
-      "wws_subfamily_name": null
-    },
-    "/usr/local/share/fonts/r/Roboto_Light.ttf||162636:1665167831.031634": {
-      "family_name": "Roboto Lt",
-      "font-family": "Roboto Lt",
-      "font-stretch": "normal",
-      "font-style": "normal",
-      "font-weight": "300",
-      "fs_type": 4,
-      "full_name": "Roboto Light",
-      "is_bold": false,
-      "is_italic": false,
-      "is_oblique": false,
-      "is_otf": false,
-      "is_regular": false,
-      "is_wws": false,
-      "os2_version": 3,
-      "panose": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "path": "/usr/local/share/fonts/r/Roboto_Light.ttf",
-      "preferred_family_name": "Roboto",
-      "preferred_subfamily_name": "Light",
-      "subfamily_name": "Regular",
-      "weight": 300,
-      "width": 5,
-      "wws_family_name": null,
-      "wws_subfamily_name": null
-    },
-    "/usr/local/share/fonts/r/Roboto_LightItalic.ttf||163248:1665167831.035634": {
-      "family_name": "Roboto Lt",
-      "font-family": "Roboto Lt",
-      "font-stretch": "normal",
-      "font-style": "italic",
-      "font-weight": "300",
-      "fs_type": 4,
-      "full_name": "Roboto Light Italic",
-      "is_bold": false,
-      "is_italic": true,
-      "is_oblique": false,
-      "is_otf": false,
-      "is_regular": false,
-      "is_wws": false,
-      "os2_version": 3,
-      "panose": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "path": "/usr/local/share/fonts/r/Roboto_LightItalic.ttf",
-      "preferred_family_name": "Roboto",
-      "preferred_subfamily_name": "Light Italic",
-      "subfamily_name": "Italic",
-      "weight": 300,
-      "width": 5,
-      "wws_family_name": null,
-      "wws_subfamily_name": null
-    },
-    "/usr/local/share/fonts/r/Roboto_Medium.ttf||160696:1665167831.0436342": {
-      "family_name": "Roboto Lt",
-      "font-family": "Roboto Lt",
-      "font-stretch": "normal",
-      "font-style": "normal",
-      "font-weight": "500",
-      "fs_type": 4,
-      "full_name": "Roboto Medium",
-      "is_bold": false,
-      "is_italic": false,
-      "is_oblique": false,
-      "is_otf": false,
-      "is_regular": false,
-      "is_wws": false,
-      "os2_version": 3,
-      "panose": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "path": "/usr/local/share/fonts/r/Roboto_Medium.ttf",
-      "preferred_family_name": "Roboto",
-      "preferred_subfamily_name": "Medium",
-      "subfamily_name": "Regular",
-      "weight": 500,
-      "width": 5,
-      "wws_family_name": null,
-      "wws_subfamily_name": null
-    },
-    "/usr/local/share/fonts/r/Roboto_MediumItalic.ttf||163940:1665167831.0476344": {
-      "family_name": "Roboto Lt",
-      "font-family": "Roboto Lt",
-      "font-stretch": "normal",
-      "font-style": "italic",
-      "font-weight": "500",
-      "fs_type": 4,
-      "full_name": "Roboto Medium Italic",
-      "is_bold": true,
-      "is_italic": true,
-      "is_oblique": false,
-      "is_otf": false,
-      "is_regular": false,
-      "is_wws": false,
-      "os2_version": 3,
-      "panose": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "path": "/usr/local/share/fonts/r/Roboto_MediumItalic.ttf",
-      "preferred_family_name": "Roboto",
-      "preferred_subfamily_name": "Medium Italic",
-      "subfamily_name": "Bold Italic",
-      "weight": 500,
-      "width": 5,
-      "wws_family_name": null,
-      "wws_subfamily_name": null
-    },
-    "/usr/local/share/fonts/r/Roboto_Regular.ttf||158604:1665167802.6553154": {
-      "family_name": "Roboto",
-      "font-family": "Roboto",
-      "font-stretch": "normal",
-      "font-style": "normal",
-      "font-weight": "normal",
-      "fs_type": 4,
-      "full_name": "Roboto Regular",
-      "is_bold": false,
-      "is_italic": false,
-      "is_oblique": false,
-      "is_otf": false,
-      "is_regular": true,
-      "is_wws": false,
-      "os2_version": 3,
-      "panose": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "path": "/usr/local/share/fonts/r/Roboto_Regular.ttf",
-      "preferred_family_name": null,
-      "preferred_subfamily_name": null,
-      "subfamily_name": "Regular",
-      "weight": 400,
-      "width": 5,
-      "wws_family_name": null,
-      "wws_subfamily_name": null
-    },
-    "/usr/local/share/fonts/r/Roboto_Thin.ttf||122512:1665167831.0516343": {
-      "family_name": "Roboto Th",
-      "font-family": "Roboto Th",
-      "font-stretch": "normal",
-      "font-style": "normal",
-      "font-weight": "250",
-      "fs_type": 4,
-      "full_name": "Roboto Thin",
-      "is_bold": false,
-      "is_italic": false,
-      "is_oblique": false,
-      "is_otf": false,
-      "is_regular": false,
-      "is_wws": false,
-      "os2_version": 3,
-      "panose": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "path": "/usr/local/share/fonts/r/Roboto_Thin.ttf",
-      "preferred_family_name": "Roboto",
-      "preferred_subfamily_name": "Thin",
-      "subfamily_name": "Regular",
-      "weight": 250,
-      "width": 5,
-      "wws_family_name": null,
-      "wws_subfamily_name": null
-    },
-    "/usr/local/share/fonts/r/Roboto_ThinItalic.ttf||125884:1665167831.0556343": {
-      "family_name": "Roboto Th",
-      "font-family": "Roboto Th",
-      "font-stretch": "normal",
-      "font-style": "italic",
-      "font-weight": "250",
-      "fs_type": 4,
-      "full_name": "Roboto Thin Italic",
-      "is_bold": false,
-      "is_italic": true,
-      "is_oblique": false,
-      "is_otf": false,
-      "is_regular": false,
-      "is_wws": false,
-      "os2_version": 3,
-      "panose": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "path": "/usr/local/share/fonts/r/Roboto_ThinItalic.ttf",
-      "preferred_family_name": "Roboto",
-      "preferred_subfamily_name": "Thin Italic",
-      "subfamily_name": "Italic",
-      "weight": 250,
-      "width": 5,
-      "wws_family_name": null,
-      "wws_subfamily_name": null
-    },
     "/usr/share/calibre/fonts/liberation/LiberationMono-Bold.ttf||307996:1634812302.0": {
       "family_name": "Liberation Mono",
       "font-family": "Liberation Mono",
@@ -1476,7 +972,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/fonts/opentype/malayalam/Gayathri-Bold.otf||179724:1646316096.0": {
+    "/usr/share/fonts/opentype/malayalam/Gayathri-Bold.otf||182908:1652503210.0": {
       "family_name": "Gayathri",
       "font-family": "Gayathri",
       "font-stretch": "normal",
@@ -1512,7 +1008,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/fonts/opentype/malayalam/Gayathri-Regular.otf||185568:1646316096.0": {
+    "/usr/share/fonts/opentype/malayalam/Gayathri-Regular.otf||187928:1652503210.0": {
       "family_name": "Gayathri",
       "font-family": "Gayathri",
       "font-stretch": "normal",
@@ -1548,7 +1044,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/fonts/opentype/malayalam/Gayathri-Thin.otf||184048:1646316096.0": {
+    "/usr/share/fonts/opentype/malayalam/Gayathri-Thin.otf||186100:1652503210.0": {
       "family_name": "Gayathri Thin",
       "font-family": "Gayathri Thin",
       "font-stretch": "normal",
@@ -2988,7 +2484,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/fonts/truetype/Gubbi/Gubbi.ttf||128128:1613986279.0": {
+    "/usr/share/fonts/truetype/Gubbi/Gubbi.ttf||128128:1653028153.0": {
       "family_name": "Gubbi",
       "font-family": "Gubbi",
       "font-stretch": "normal",
@@ -3060,7 +2556,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/fonts/truetype/Navilu/Navilu.ttf||136520:1587189658.0": {
+    "/usr/share/fonts/truetype/Navilu/Navilu.ttf||136516:1654516127.0": {
       "family_name": "Navilu",
       "font-family": "Navilu",
       "font-stretch": "normal",
@@ -8892,7 +8388,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/fonts/truetype/libreoffice/opens___.ttf||207992:1666866853.0": {
+    "/usr/share/fonts/truetype/libreoffice/opens___.ttf||208872:1678293249.0": {
       "family_name": "OpenSymbol",
       "font-family": "OpenSymbol",
       "font-stretch": "normal",
@@ -9324,7 +8820,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/fonts/truetype/lyx/cmex10.ttf||20688:1606818815.0": {
+    "/usr/share/fonts/truetype/lyx/cmex10.ttf||20688:1655567140.0": {
       "family_name": "cmex10",
       "font-family": "cmex10",
       "font-stretch": "normal",
@@ -9360,7 +8856,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/fonts/truetype/lyx/cmmi10.ttf||32044:1606818815.0": {
+    "/usr/share/fonts/truetype/lyx/cmmi10.ttf||32044:1655567140.0": {
       "family_name": "cmmi10",
       "font-family": "cmmi10",
       "font-stretch": "normal",
@@ -9396,7 +8892,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/fonts/truetype/lyx/cmr10.ttf||26188:1606818815.0": {
+    "/usr/share/fonts/truetype/lyx/cmr10.ttf||26188:1655567140.0": {
       "family_name": "cmr10",
       "font-family": "cmr10",
       "font-stretch": "normal",
@@ -9432,7 +8928,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/fonts/truetype/lyx/cmsy10.ttf||28484:1606818815.0": {
+    "/usr/share/fonts/truetype/lyx/cmsy10.ttf||28484:1655567140.0": {
       "family_name": "cmsy10",
       "font-family": "cmsy10",
       "font-stretch": "normal",
@@ -9468,7 +8964,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/fonts/truetype/lyx/dsrom10.ttf||9944:1606818815.0": {
+    "/usr/share/fonts/truetype/lyx/dsrom10.ttf||9944:1655567140.0": {
       "family_name": "dsrom10",
       "font-family": "dsrom10",
       "font-stretch": "normal",
@@ -9504,7 +9000,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/fonts/truetype/lyx/esint10.ttf||24324:1606818815.0": {
+    "/usr/share/fonts/truetype/lyx/esint10.ttf||24324:1655567140.0": {
       "family_name": "esint10",
       "font-family": "esint10",
       "font-stretch": "normal",
@@ -9540,7 +9036,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/fonts/truetype/lyx/eufm10.ttf||23476:1606818815.0": {
+    "/usr/share/fonts/truetype/lyx/eufm10.ttf||23476:1655567140.0": {
       "family_name": "eufm10",
       "font-family": "eufm10",
       "font-stretch": "normal",
@@ -9576,7 +9072,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/fonts/truetype/lyx/msam10.ttf||26628:1606818815.0": {
+    "/usr/share/fonts/truetype/lyx/msam10.ttf||26628:1655567140.0": {
       "family_name": "msam10",
       "font-family": "msam10",
       "font-stretch": "normal",
@@ -9612,7 +9108,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/fonts/truetype/lyx/msbm10.ttf||36468:1606818815.0": {
+    "/usr/share/fonts/truetype/lyx/msbm10.ttf||36468:1655567140.0": {
       "family_name": "msbm10",
       "font-family": "msbm10",
       "font-stretch": "normal",
@@ -9648,7 +9144,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/fonts/truetype/lyx/rsfs10.ttf||10932:1606818815.0": {
+    "/usr/share/fonts/truetype/lyx/rsfs10.ttf||10932:1655567140.0": {
       "family_name": "rsfs10",
       "font-family": "rsfs10",
       "font-stretch": "normal",
@@ -9684,7 +9180,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/fonts/truetype/lyx/stmary10.ttf||18740:1606818815.0": {
+    "/usr/share/fonts/truetype/lyx/stmary10.ttf||18740:1655567140.0": {
       "family_name": "stmary10",
       "font-family": "stmary10",
       "font-stretch": "normal",
@@ -9720,7 +9216,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/fonts/truetype/lyx/wasy10.ttf||20884:1606818815.0": {
+    "/usr/share/fonts/truetype/lyx/wasy10.ttf||20884:1655567140.0": {
       "family_name": "wasy10",
       "font-family": "wasy10",
       "font-stretch": "normal",
@@ -10116,7 +9612,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf||10745172:1664222663.0": {
+    "/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf||10745172:1663327156.0": {
       "family_name": "Noto Color Emoji",
       "font-family": "Noto Color Emoji",
       "font-stretch": "normal",
@@ -80424,7 +79920,871 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf||733736:1409914740.0": {
+    "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf||58528:1598364542.0": {
+      "family_name": "MathJax_AMS",
+      "font-family": "MathJax_AMS",
+      "font-stretch": "normal",
+      "font-style": "normal",
+      "font-weight": "normal",
+      "fs_type": 0,
+      "full_name": "MathJax_AMS-Regular",
+      "is_bold": false,
+      "is_italic": false,
+      "is_oblique": false,
+      "is_otf": true,
+      "is_regular": true,
+      "is_wws": false,
+      "os2_version": 3,
+      "panose": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "path": "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf",
+      "preferred_family_name": "MathJax_AMS",
+      "preferred_subfamily_name": "Regular",
+      "subfamily_name": "Regular",
+      "weight": 400,
+      "width": 5,
+      "wws_family_name": null,
+      "wws_subfamily_name": null
+    },
+    "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Bold.otf||12348:1598364542.0": {
+      "family_name": "MathJax_Caligraphic",
+      "font-family": "MathJax_Caligraphic",
+      "font-stretch": "normal",
+      "font-style": "normal",
+      "font-weight": "bold",
+      "fs_type": 0,
+      "full_name": "MathJax_Caligraphic-Bold",
+      "is_bold": true,
+      "is_italic": false,
+      "is_oblique": false,
+      "is_otf": true,
+      "is_regular": false,
+      "is_wws": false,
+      "os2_version": 3,
+      "panose": [
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "path": "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Bold.otf",
+      "preferred_family_name": "MathJax_Caligraphic",
+      "preferred_subfamily_name": "Bold",
+      "subfamily_name": "Bold",
+      "weight": 700,
+      "width": 5,
+      "wws_family_name": null,
+      "wws_subfamily_name": null
+    },
+    "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Regular.otf||12024:1598364542.0": {
+      "family_name": "MathJax_Caligraphic",
+      "font-family": "MathJax_Caligraphic",
+      "font-stretch": "normal",
+      "font-style": "normal",
+      "font-weight": "normal",
+      "fs_type": 0,
+      "full_name": "MathJax_Caligraphic-Regular",
+      "is_bold": false,
+      "is_italic": false,
+      "is_oblique": false,
+      "is_otf": true,
+      "is_regular": true,
+      "is_wws": false,
+      "os2_version": 3,
+      "panose": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "path": "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Regular.otf",
+      "preferred_family_name": "MathJax_Caligraphic",
+      "preferred_subfamily_name": "Regular",
+      "subfamily_name": "Regular",
+      "weight": 400,
+      "width": 5,
+      "wws_family_name": null,
+      "wws_subfamily_name": null
+    },
+    "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Fraktur-Bold.otf||26900:1598364542.0": {
+      "family_name": "MathJax_Fraktur",
+      "font-family": "MathJax_Fraktur",
+      "font-stretch": "normal",
+      "font-style": "normal",
+      "font-weight": "bold",
+      "fs_type": 0,
+      "full_name": "MathJax_Fraktur-Bold",
+      "is_bold": true,
+      "is_italic": false,
+      "is_oblique": false,
+      "is_otf": true,
+      "is_regular": false,
+      "is_wws": false,
+      "os2_version": 3,
+      "panose": [
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "path": "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Fraktur-Bold.otf",
+      "preferred_family_name": "MathJax_Fraktur",
+      "preferred_subfamily_name": "Bold",
+      "subfamily_name": "Bold",
+      "weight": 700,
+      "width": 5,
+      "wws_family_name": null,
+      "wws_subfamily_name": null
+    },
+    "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Fraktur-Regular.otf||25876:1598364542.0": {
+      "family_name": "MathJax_Fraktur",
+      "font-family": "MathJax_Fraktur",
+      "font-stretch": "normal",
+      "font-style": "normal",
+      "font-weight": "normal",
+      "fs_type": 0,
+      "full_name": "MathJax_Fraktur-Regular",
+      "is_bold": false,
+      "is_italic": false,
+      "is_oblique": false,
+      "is_otf": true,
+      "is_regular": true,
+      "is_wws": false,
+      "os2_version": 3,
+      "panose": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "path": "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Fraktur-Regular.otf",
+      "preferred_family_name": "MathJax_Fraktur",
+      "preferred_subfamily_name": "Regular",
+      "subfamily_name": "Regular",
+      "weight": 400,
+      "width": 5,
+      "wws_family_name": null,
+      "wws_subfamily_name": null
+    },
+    "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf||46800:1598364542.0": {
+      "family_name": "MathJax_Main",
+      "font-family": "MathJax_Main",
+      "font-stretch": "normal",
+      "font-style": "normal",
+      "font-weight": "bold",
+      "fs_type": 0,
+      "full_name": "MathJax_Main-Bold",
+      "is_bold": true,
+      "is_italic": false,
+      "is_oblique": false,
+      "is_otf": true,
+      "is_regular": false,
+      "is_wws": false,
+      "os2_version": 3,
+      "panose": [
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "path": "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf",
+      "preferred_family_name": "MathJax_Main",
+      "preferred_subfamily_name": "Bold",
+      "subfamily_name": "Bold",
+      "weight": 700,
+      "width": 5,
+      "wws_family_name": null,
+      "wws_subfamily_name": null
+    },
+    "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Italic.otf||28224:1598364542.0": {
+      "family_name": "MathJax_Main",
+      "font-family": "MathJax_Main",
+      "font-stretch": "normal",
+      "font-style": "italic",
+      "font-weight": "normal",
+      "fs_type": 0,
+      "full_name": "MathJax_Main-Italic",
+      "is_bold": false,
+      "is_italic": true,
+      "is_oblique": false,
+      "is_otf": true,
+      "is_regular": false,
+      "is_wws": false,
+      "os2_version": 3,
+      "panose": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "path": "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Italic.otf",
+      "preferred_family_name": "MathJax_Main",
+      "preferred_subfamily_name": "Italic",
+      "subfamily_name": "Italic",
+      "weight": 400,
+      "width": 5,
+      "wws_family_name": null,
+      "wws_subfamily_name": null
+    },
+    "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf||47636:1598364542.0": {
+      "family_name": "MathJax_Main",
+      "font-family": "MathJax_Main",
+      "font-stretch": "normal",
+      "font-style": "normal",
+      "font-weight": "normal",
+      "fs_type": 0,
+      "full_name": "MathJax_Main-Regular",
+      "is_bold": false,
+      "is_italic": false,
+      "is_oblique": false,
+      "is_otf": true,
+      "is_regular": true,
+      "is_wws": false,
+      "os2_version": 3,
+      "panose": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "path": "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf",
+      "preferred_family_name": "MathJax_Main",
+      "preferred_subfamily_name": "Regular",
+      "subfamily_name": "Regular",
+      "weight": 400,
+      "width": 5,
+      "wws_family_name": null,
+      "wws_subfamily_name": null
+    },
+    "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Math-BoldItalic.otf||27096:1598364542.0": {
+      "family_name": "MathJax_Math",
+      "font-family": "MathJax_Math",
+      "font-stretch": "normal",
+      "font-style": "italic",
+      "font-weight": "bold",
+      "fs_type": 0,
+      "full_name": "MathJax_Math-BoldItalic",
+      "is_bold": true,
+      "is_italic": true,
+      "is_oblique": false,
+      "is_otf": true,
+      "is_regular": false,
+      "is_wws": false,
+      "os2_version": 3,
+      "panose": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "path": "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Math-BoldItalic.otf",
+      "preferred_family_name": "MathJax_Math",
+      "preferred_subfamily_name": "BoldItalic",
+      "subfamily_name": "Bold Italic",
+      "weight": 700,
+      "width": 5,
+      "wws_family_name": null,
+      "wws_subfamily_name": null
+    },
+    "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf||26384:1598364542.0": {
+      "family_name": "MathJax_Math",
+      "font-family": "MathJax_Math",
+      "font-stretch": "normal",
+      "font-style": "italic",
+      "font-weight": "normal",
+      "fs_type": 0,
+      "full_name": "MathJax_Math-Italic",
+      "is_bold": false,
+      "is_italic": true,
+      "is_oblique": false,
+      "is_otf": true,
+      "is_regular": false,
+      "is_wws": false,
+      "os2_version": 3,
+      "panose": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "path": "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf",
+      "preferred_family_name": "MathJax_Math",
+      "preferred_subfamily_name": "Italic",
+      "subfamily_name": "Italic",
+      "weight": 400,
+      "width": 5,
+      "wws_family_name": null,
+      "wws_subfamily_name": null
+    },
+    "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Math-Regular.otf||26328:1598364542.0": {
+      "family_name": "MathJax_Math",
+      "font-family": "MathJax_Math",
+      "font-stretch": "normal",
+      "font-style": "normal",
+      "font-weight": "normal",
+      "fs_type": 0,
+      "full_name": "MathJax_Math-Regular",
+      "is_bold": false,
+      "is_italic": false,
+      "is_oblique": false,
+      "is_otf": true,
+      "is_regular": true,
+      "is_wws": false,
+      "os2_version": 3,
+      "panose": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "path": "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Math-Regular.otf",
+      "preferred_family_name": "MathJax_Math",
+      "preferred_subfamily_name": "Regular",
+      "subfamily_name": "Regular",
+      "weight": 400,
+      "width": 5,
+      "wws_family_name": null,
+      "wws_subfamily_name": null
+    },
+    "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Bold.otf||22156:1598364542.0": {
+      "family_name": "MathJax_SansSerif",
+      "font-family": "MathJax_SansSerif",
+      "font-stretch": "normal",
+      "font-style": "normal",
+      "font-weight": "bold",
+      "fs_type": 0,
+      "full_name": "MathJax_SansSerif-Bold",
+      "is_bold": true,
+      "is_italic": false,
+      "is_oblique": false,
+      "is_otf": true,
+      "is_regular": false,
+      "is_wws": false,
+      "os2_version": 3,
+      "panose": [
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "path": "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Bold.otf",
+      "preferred_family_name": "MathJax_SansSerif",
+      "preferred_subfamily_name": "Bold",
+      "subfamily_name": "Bold",
+      "weight": 700,
+      "width": 5,
+      "wws_family_name": null,
+      "wws_subfamily_name": null
+    },
+    "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Italic.otf||18572:1598364542.0": {
+      "family_name": "MathJax_SansSerif",
+      "font-family": "MathJax_SansSerif",
+      "font-stretch": "normal",
+      "font-style": "italic",
+      "font-weight": "normal",
+      "fs_type": 0,
+      "full_name": "MathJax_SansSerif-Italic",
+      "is_bold": false,
+      "is_italic": true,
+      "is_oblique": false,
+      "is_otf": true,
+      "is_regular": false,
+      "is_wws": false,
+      "os2_version": 3,
+      "panose": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "path": "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Italic.otf",
+      "preferred_family_name": "MathJax_SansSerif",
+      "preferred_subfamily_name": "Italic",
+      "subfamily_name": "Italic",
+      "weight": 400,
+      "width": 5,
+      "wws_family_name": null,
+      "wws_subfamily_name": null
+    },
+    "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Regular.otf||15920:1598364542.0": {
+      "family_name": "MathJax_SansSerif",
+      "font-family": "MathJax_SansSerif",
+      "font-stretch": "normal",
+      "font-style": "normal",
+      "font-weight": "normal",
+      "fs_type": 0,
+      "full_name": "MathJax_SansSerif-Regular",
+      "is_bold": false,
+      "is_italic": false,
+      "is_oblique": false,
+      "is_otf": true,
+      "is_regular": true,
+      "is_wws": false,
+      "os2_version": 3,
+      "panose": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "path": "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Regular.otf",
+      "preferred_family_name": "MathJax_SansSerif",
+      "preferred_subfamily_name": "Regular",
+      "subfamily_name": "Regular",
+      "weight": 400,
+      "width": 5,
+      "wws_family_name": null,
+      "wws_subfamily_name": null
+    },
+    "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Script-Regular.otf||14616:1598364542.0": {
+      "family_name": "MathJax_Script",
+      "font-family": "MathJax_Script",
+      "font-stretch": "normal",
+      "font-style": "normal",
+      "font-weight": "normal",
+      "fs_type": 0,
+      "full_name": "MathJax_Script-Regular",
+      "is_bold": false,
+      "is_italic": false,
+      "is_oblique": false,
+      "is_otf": true,
+      "is_regular": true,
+      "is_wws": false,
+      "os2_version": 3,
+      "panose": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "path": "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Script-Regular.otf",
+      "preferred_family_name": "MathJax_Script",
+      "preferred_subfamily_name": "Regular",
+      "subfamily_name": "Regular",
+      "weight": 400,
+      "width": 5,
+      "wws_family_name": null,
+      "wws_subfamily_name": null
+    },
+    "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf||8252:1598364542.0": {
+      "family_name": "MathJax_Size1",
+      "font-family": "MathJax_Size1",
+      "font-stretch": "normal",
+      "font-style": "normal",
+      "font-weight": "normal",
+      "fs_type": 0,
+      "full_name": "MathJax_Size1-Regular",
+      "is_bold": false,
+      "is_italic": false,
+      "is_oblique": false,
+      "is_otf": true,
+      "is_regular": true,
+      "is_wws": false,
+      "os2_version": 3,
+      "panose": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "path": "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf",
+      "preferred_family_name": "MathJax_Size1",
+      "preferred_subfamily_name": "Regular",
+      "subfamily_name": "Regular",
+      "weight": 400,
+      "width": 5,
+      "wws_family_name": null,
+      "wws_subfamily_name": null
+    },
+    "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf||7608:1598364542.0": {
+      "family_name": "MathJax_Size2",
+      "font-family": "MathJax_Size2",
+      "font-stretch": "normal",
+      "font-style": "normal",
+      "font-weight": "normal",
+      "fs_type": 0,
+      "full_name": "MathJax_Size2-Regular",
+      "is_bold": false,
+      "is_italic": false,
+      "is_oblique": false,
+      "is_otf": true,
+      "is_regular": true,
+      "is_wws": false,
+      "os2_version": 3,
+      "panose": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "path": "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf",
+      "preferred_family_name": "MathJax_Size2",
+      "preferred_subfamily_name": "Regular",
+      "subfamily_name": "Regular",
+      "weight": 400,
+      "width": 5,
+      "wws_family_name": null,
+      "wws_subfamily_name": null
+    },
+    "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size3-Regular.otf||4712:1598364542.0": {
+      "family_name": "MathJax_Size3",
+      "font-family": "MathJax_Size3",
+      "font-stretch": "normal",
+      "font-style": "normal",
+      "font-weight": "normal",
+      "fs_type": 0,
+      "full_name": "MathJax_Size3-Regular",
+      "is_bold": false,
+      "is_italic": false,
+      "is_oblique": false,
+      "is_otf": true,
+      "is_regular": true,
+      "is_wws": false,
+      "os2_version": 3,
+      "panose": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "path": "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size3-Regular.otf",
+      "preferred_family_name": "MathJax_Size3",
+      "preferred_subfamily_name": "Regular",
+      "subfamily_name": "Regular",
+      "weight": 400,
+      "width": 5,
+      "wws_family_name": null,
+      "wws_subfamily_name": null
+    },
+    "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf||7364:1598364542.0": {
+      "family_name": "MathJax_Size4",
+      "font-family": "MathJax_Size4",
+      "font-stretch": "normal",
+      "font-style": "normal",
+      "font-weight": "normal",
+      "fs_type": 0,
+      "full_name": "MathJax_Size4-Regular",
+      "is_bold": false,
+      "is_italic": false,
+      "is_oblique": false,
+      "is_otf": true,
+      "is_regular": true,
+      "is_wws": false,
+      "os2_version": 3,
+      "panose": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "path": "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf",
+      "preferred_family_name": "MathJax_Size4",
+      "preferred_subfamily_name": "Regular",
+      "subfamily_name": "Regular",
+      "weight": 400,
+      "width": 5,
+      "wws_family_name": null,
+      "wws_subfamily_name": null
+    },
+    "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Typewriter-Regular.otf||24184:1598364542.0": {
+      "family_name": "MathJax_Typewriter",
+      "font-family": "MathJax_Typewriter",
+      "font-stretch": "normal",
+      "font-style": "normal",
+      "font-weight": "normal",
+      "fs_type": 0,
+      "full_name": "MathJax_Typewriter-Regular",
+      "is_bold": false,
+      "is_italic": false,
+      "is_oblique": false,
+      "is_otf": true,
+      "is_regular": true,
+      "is_wws": false,
+      "os2_version": 3,
+      "panose": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "path": "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Typewriter-Regular.otf",
+      "preferred_family_name": "MathJax_Typewriter",
+      "preferred_subfamily_name": "Regular",
+      "subfamily_name": "Regular",
+      "weight": 400,
+      "width": 5,
+      "wws_family_name": null,
+      "wws_subfamily_name": null
+    },
+    "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Vector-Bold.otf||1584:1598364542.0": {
+      "family_name": "MathJax_Vector-Bold",
+      "font-family": "MathJax_Vector-Bold",
+      "font-stretch": "normal",
+      "font-style": "normal",
+      "font-weight": "500",
+      "fs_type": 0,
+      "full_name": "MathJax_Vector-Bold",
+      "is_bold": true,
+      "is_italic": false,
+      "is_oblique": false,
+      "is_otf": true,
+      "is_regular": false,
+      "is_wws": false,
+      "os2_version": 4,
+      "panose": [
+        2,
+        0,
+        6,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "path": "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Vector-Bold.otf",
+      "preferred_family_name": null,
+      "preferred_subfamily_name": null,
+      "subfamily_name": "Bold",
+      "weight": 500,
+      "width": 5,
+      "wws_family_name": null,
+      "wws_subfamily_name": null
+    },
+    "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Vector-Regular.otf||1664:1598364542.0": {
+      "family_name": "MathJax_Vector",
+      "font-family": "MathJax_Vector",
+      "font-stretch": "normal",
+      "font-style": "normal",
+      "font-weight": "500",
+      "fs_type": 0,
+      "full_name": "MathJax_Vector-Regular",
+      "is_bold": false,
+      "is_italic": false,
+      "is_oblique": false,
+      "is_otf": true,
+      "is_regular": true,
+      "is_wws": false,
+      "os2_version": 4,
+      "panose": [
+        2,
+        0,
+        6,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "path": "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Vector-Regular.otf",
+      "preferred_family_name": null,
+      "preferred_subfamily_name": null,
+      "subfamily_name": "Regular",
+      "weight": 500,
+      "width": 5,
+      "wws_family_name": null,
+      "wws_subfamily_name": null
+    },
+    "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_WinChrome-Regular.otf||4408:1598364542.0": {
+      "family_name": "MathJax_WinChrome",
+      "font-family": "MathJax_WinChrome",
+      "font-stretch": "normal",
+      "font-style": "normal",
+      "font-weight": "normal",
+      "fs_type": 0,
+      "full_name": "MathJax_WinChrome-Regular",
+      "is_bold": false,
+      "is_italic": false,
+      "is_oblique": false,
+      "is_otf": true,
+      "is_regular": true,
+      "is_wws": false,
+      "os2_version": 3,
+      "panose": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "path": "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_WinChrome-Regular.otf",
+      "preferred_family_name": "MathJax_WinChrome",
+      "preferred_subfamily_name": "Regular",
+      "subfamily_name": "Regular",
+      "weight": 400,
+      "width": 5,
+      "wws_family_name": null,
+      "wws_subfamily_name": null
+    },
+    "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_WinIE6-Regular.otf||28100:1598364542.0": {
+      "family_name": "MathJax_WinIE6",
+      "font-family": "MathJax_WinIE6",
+      "font-stretch": "normal",
+      "font-style": "normal",
+      "font-weight": "normal",
+      "fs_type": 0,
+      "full_name": "MathJax_WinIE6-Regular",
+      "is_bold": false,
+      "is_italic": false,
+      "is_oblique": false,
+      "is_otf": true,
+      "is_regular": true,
+      "is_wws": false,
+      "os2_version": 3,
+      "panose": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "path": "/usr/share/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_WinIE6-Regular.otf",
+      "preferred_family_name": "MathJax_WinIE6",
+      "preferred_subfamily_name": "Regular",
+      "subfamily_name": "Regular",
+      "weight": 400,
+      "width": 5,
+      "wws_family_name": null,
+      "wws_subfamily_name": null
+    },
+    "/usr/share/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf||733736:1429396570.0": {
       "family_name": "Latin Modern Math",
       "font-family": "Latin Modern Math",
       "font-stretch": "normal",
@@ -80460,7 +80820,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmmono10-italic.otf||63584:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmmono10-italic.otf||63584:1255129361.0": {
       "family_name": "LM Mono 10",
       "font-family": "LM Mono 10",
       "font-stretch": "normal",
@@ -80496,7 +80856,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmmono10-regular.otf||64684:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmmono10-regular.otf||64684:1255129361.0": {
       "family_name": "LM Mono 10",
       "font-family": "LM Mono 10",
       "font-stretch": "normal",
@@ -80532,7 +80892,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmmono12-regular.otf||63012:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmmono12-regular.otf||63012:1255129361.0": {
       "family_name": "LM Mono 12",
       "font-family": "LM Mono 12",
       "font-stretch": "normal",
@@ -80568,7 +80928,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmmono8-regular.otf||66268:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmmono8-regular.otf||66268:1255129361.0": {
       "family_name": "LM Mono 8",
       "font-family": "LM Mono 8",
       "font-stretch": "normal",
@@ -80604,7 +80964,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmmono9-regular.otf||63076:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmmono9-regular.otf||63076:1255129361.0": {
       "family_name": "LM Mono 9",
       "font-family": "LM Mono 9",
       "font-stretch": "normal",
@@ -80640,7 +81000,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmmonocaps10-oblique.otf||71232:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmmonocaps10-oblique.otf||71232:1255129361.0": {
       "family_name": "LM Mono Caps 10",
       "font-family": "LM Mono Caps 10",
       "font-stretch": "normal",
@@ -80676,7 +81036,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmmonocaps10-regular.otf||63228:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmmonocaps10-regular.otf||63228:1255129361.0": {
       "family_name": "LM Mono Caps 10",
       "font-family": "LM Mono Caps 10",
       "font-stretch": "normal",
@@ -80712,7 +81072,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmmonolt10-bold.otf||66332:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmmonolt10-bold.otf||66332:1255129361.0": {
       "family_name": "LM Mono Light 10",
       "font-family": "LM Mono Light 10",
       "font-stretch": "normal",
@@ -80748,7 +81108,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmmonolt10-boldoblique.otf||75300:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmmonolt10-boldoblique.otf||75300:1255129361.0": {
       "family_name": "LM Mono Light 10",
       "font-family": "LM Mono Light 10",
       "font-stretch": "normal",
@@ -80784,7 +81144,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmmonolt10-oblique.otf||73144:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmmonolt10-oblique.otf||73144:1255129361.0": {
       "family_name": "LM Mono Light 10",
       "font-family": "LM Mono Light 10",
       "font-stretch": "normal",
@@ -80820,7 +81180,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmmonolt10-regular.otf||63628:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmmonolt10-regular.otf||63628:1255129361.0": {
       "family_name": "LM Mono Light 10",
       "font-family": "LM Mono Light 10",
       "font-stretch": "normal",
@@ -80856,7 +81216,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmmonoltcond10-oblique.otf||75908:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmmonoltcond10-oblique.otf||75908:1255129361.0": {
       "family_name": "LM Mono Light Cond 10",
       "font-family": "LM Mono Light Cond 10",
       "font-stretch": "normal",
@@ -80892,7 +81252,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmmonoltcond10-regular.otf||64160:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmmonoltcond10-regular.otf||64160:1255129361.0": {
       "family_name": "LM Mono Light Cond 10",
       "font-family": "LM Mono Light Cond 10",
       "font-stretch": "normal",
@@ -80928,7 +81288,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmmonoprop10-oblique.otf||116764:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmmonoprop10-oblique.otf||116764:1255129361.0": {
       "family_name": "LM Mono Prop 10",
       "font-family": "LM Mono Prop 10",
       "font-stretch": "normal",
@@ -80964,7 +81324,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmmonoprop10-regular.otf||109500:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmmonoprop10-regular.otf||109500:1255129361.0": {
       "family_name": "LM Mono Prop 10",
       "font-family": "LM Mono Prop 10",
       "font-stretch": "normal",
@@ -81000,7 +81360,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmmonoproplt10-bold.otf||110276:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmmonoproplt10-bold.otf||110276:1255129361.0": {
       "family_name": "LM Mono Prop Light 10",
       "font-family": "LM Mono Prop Light 10",
       "font-stretch": "normal",
@@ -81036,7 +81396,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmmonoproplt10-boldoblique.otf||120732:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmmonoproplt10-boldoblique.otf||120732:1255129361.0": {
       "family_name": "LM Mono Prop Light 10",
       "font-family": "LM Mono Prop Light 10",
       "font-stretch": "normal",
@@ -81072,7 +81432,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmmonoproplt10-oblique.otf||118244:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmmonoproplt10-oblique.otf||118244:1255129361.0": {
       "family_name": "LM Mono Prop Light 10",
       "font-family": "LM Mono Prop Light 10",
       "font-stretch": "normal",
@@ -81108,7 +81468,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmmonoproplt10-regular.otf||110784:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmmonoproplt10-regular.otf||110784:1255129361.0": {
       "family_name": "LM Mono Prop Light 10",
       "font-family": "LM Mono Prop Light 10",
       "font-stretch": "normal",
@@ -81144,7 +81504,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmmonoslant10-regular.otf||72212:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmmonoslant10-regular.otf||72212:1255129361.0": {
       "family_name": "LM Mono Slanted 10",
       "font-family": "LM Mono Slanted 10",
       "font-stretch": "normal",
@@ -81180,7 +81540,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmroman10-bold.otf||111240:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmroman10-bold.otf||111240:1255129361.0": {
       "family_name": "LM Roman 10",
       "font-family": "LM Roman 10",
       "font-stretch": "normal",
@@ -81216,7 +81576,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmroman10-bolditalic.otf||118204:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmroman10-bolditalic.otf||118204:1255129361.0": {
       "family_name": "LM Roman 10",
       "font-family": "LM Roman 10",
       "font-stretch": "normal",
@@ -81252,7 +81612,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmroman10-italic.otf||118828:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmroman10-italic.otf||118828:1255129361.0": {
       "family_name": "LM Roman 10",
       "font-family": "LM Roman 10",
       "font-stretch": "normal",
@@ -81288,7 +81648,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf||111536:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf||111536:1255129361.0": {
       "family_name": "LM Roman 10",
       "font-family": "LM Roman 10",
       "font-stretch": "normal",
@@ -81324,7 +81684,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmroman12-bold.otf||110496:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmroman12-bold.otf||110496:1255129361.0": {
       "family_name": "LM Roman 12",
       "font-family": "LM Roman 12",
       "font-stretch": "normal",
@@ -81360,7 +81720,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmroman12-italic.otf||117732:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmroman12-italic.otf||117732:1255129361.0": {
       "family_name": "LM Roman 12",
       "font-family": "LM Roman 12",
       "font-stretch": "normal",
@@ -81396,7 +81756,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmroman12-regular.otf||110400:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmroman12-regular.otf||110400:1255129361.0": {
       "family_name": "LM Roman 12",
       "font-family": "LM Roman 12",
       "font-stretch": "normal",
@@ -81432,7 +81792,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmroman17-regular.otf||110248:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmroman17-regular.otf||110248:1255129361.0": {
       "family_name": "LM Roman 17",
       "font-family": "LM Roman 17",
       "font-stretch": "normal",
@@ -81468,7 +81828,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmroman5-bold.otf||109564:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmroman5-bold.otf||109564:1255129361.0": {
       "family_name": "LM Roman 5",
       "font-family": "LM Roman 5",
       "font-stretch": "normal",
@@ -81504,7 +81864,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmroman5-regular.otf||111872:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmroman5-regular.otf||111872:1255129361.0": {
       "family_name": "LM Roman 5",
       "font-family": "LM Roman 5",
       "font-stretch": "normal",
@@ -81540,7 +81900,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmroman6-bold.otf||112452:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmroman6-bold.otf||112452:1255129361.0": {
       "family_name": "LM Roman 6",
       "font-family": "LM Roman 6",
       "font-stretch": "normal",
@@ -81576,7 +81936,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmroman6-regular.otf||112212:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmroman6-regular.otf||112212:1255129361.0": {
       "family_name": "LM Roman 6",
       "font-family": "LM Roman 6",
       "font-stretch": "normal",
@@ -81612,7 +81972,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmroman7-bold.otf||110212:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmroman7-bold.otf||110212:1255129361.0": {
       "family_name": "LM Roman 7",
       "font-family": "LM Roman 7",
       "font-stretch": "normal",
@@ -81648,7 +82008,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmroman7-italic.otf||117960:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmroman7-italic.otf||117960:1255129361.0": {
       "family_name": "LM Roman 7",
       "font-family": "LM Roman 7",
       "font-stretch": "normal",
@@ -81684,7 +82044,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmroman7-regular.otf||110792:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmroman7-regular.otf||110792:1255129361.0": {
       "family_name": "LM Roman 7",
       "font-family": "LM Roman 7",
       "font-stretch": "normal",
@@ -81720,7 +82080,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmroman8-bold.otf||112404:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmroman8-bold.otf||112404:1255129361.0": {
       "family_name": "LM Roman 8",
       "font-family": "LM Roman 8",
       "font-stretch": "normal",
@@ -81756,7 +82116,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmroman8-italic.otf||117248:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmroman8-italic.otf||117248:1255129361.0": {
       "family_name": "LM Roman 8",
       "font-family": "LM Roman 8",
       "font-stretch": "normal",
@@ -81792,7 +82152,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmroman8-regular.otf||111948:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmroman8-regular.otf||111948:1255129361.0": {
       "family_name": "LM Roman 8",
       "font-family": "LM Roman 8",
       "font-stretch": "normal",
@@ -81828,7 +82188,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmroman9-bold.otf||113040:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmroman9-bold.otf||113040:1255129361.0": {
       "family_name": "LM Roman 9",
       "font-family": "LM Roman 9",
       "font-stretch": "normal",
@@ -81864,7 +82224,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmroman9-italic.otf||118380:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmroman9-italic.otf||118380:1255129361.0": {
       "family_name": "LM Roman 9",
       "font-family": "LM Roman 9",
       "font-stretch": "normal",
@@ -81900,7 +82260,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmroman9-regular.otf||112680:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmroman9-regular.otf||112680:1255129361.0": {
       "family_name": "LM Roman 9",
       "font-family": "LM Roman 9",
       "font-stretch": "normal",
@@ -81936,7 +82296,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmromancaps10-oblique.otf||116564:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmromancaps10-oblique.otf||116564:1255129361.0": {
       "family_name": "LM Roman Caps 10",
       "font-family": "LM Roman Caps 10",
       "font-stretch": "normal",
@@ -81972,7 +82332,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmromancaps10-regular.otf||108740:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmromancaps10-regular.otf||108740:1255129361.0": {
       "family_name": "LM Roman Caps 10",
       "font-family": "LM Roman Caps 10",
       "font-stretch": "normal",
@@ -82008,7 +82368,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmromandemi10-oblique.otf||119632:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmromandemi10-oblique.otf||119632:1255129361.0": {
       "family_name": "LM Roman Demi 10",
       "font-family": "LM Roman Demi 10",
       "font-stretch": "normal",
@@ -82044,7 +82404,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmromandemi10-regular.otf||111892:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmromandemi10-regular.otf||111892:1255129361.0": {
       "family_name": "LM Roman Demi 10",
       "font-family": "LM Roman Demi 10",
       "font-stretch": "normal",
@@ -82080,7 +82440,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmromandunh10-oblique.otf||122840:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmromandunh10-oblique.otf||122840:1255129361.0": {
       "family_name": "LM Roman Dunhill 10",
       "font-family": "LM Roman Dunhill 10",
       "font-stretch": "normal",
@@ -82116,7 +82476,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmromandunh10-regular.otf||113276:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmromandunh10-regular.otf||113276:1255129361.0": {
       "family_name": "LM Roman Dunhill 10",
       "font-family": "LM Roman Dunhill 10",
       "font-stretch": "normal",
@@ -82152,7 +82512,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmromanslant10-bold.otf||117984:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmromanslant10-bold.otf||117984:1255129361.0": {
       "family_name": "LM Roman Slanted 10",
       "font-family": "LM Roman Slanted 10",
       "font-stretch": "normal",
@@ -82188,7 +82548,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmromanslant10-regular.otf||118508:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmromanslant10-regular.otf||118508:1255129361.0": {
       "family_name": "LM Roman Slanted 10",
       "font-family": "LM Roman Slanted 10",
       "font-stretch": "normal",
@@ -82224,7 +82584,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmromanslant12-regular.otf||117116:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmromanslant12-regular.otf||117116:1255129361.0": {
       "family_name": "LM Roman Slanted 12",
       "font-family": "LM Roman Slanted 12",
       "font-stretch": "normal",
@@ -82260,7 +82620,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmromanslant17-regular.otf||118092:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmromanslant17-regular.otf||118092:1255129361.0": {
       "family_name": "LM Roman Slanted 17",
       "font-family": "LM Roman Slanted 17",
       "font-stretch": "normal",
@@ -82296,7 +82656,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmromanslant8-regular.otf||118720:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmromanslant8-regular.otf||118720:1255129361.0": {
       "family_name": "LM Roman Slanted 8",
       "font-family": "LM Roman Slanted 8",
       "font-stretch": "normal",
@@ -82332,7 +82692,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmromanslant9-regular.otf||119932:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmromanslant9-regular.otf||119932:1255129361.0": {
       "family_name": "LM Roman Slanted 9",
       "font-family": "LM Roman Slanted 9",
       "font-stretch": "normal",
@@ -82368,7 +82728,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmromanunsl10-regular.otf||124048:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmromanunsl10-regular.otf||124048:1255129361.0": {
       "family_name": "LM Roman Unslanted 10",
       "font-family": "LM Roman Unslanted 10",
       "font-stretch": "normal",
@@ -82404,7 +82764,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmsans10-bold.otf||107448:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmsans10-bold.otf||107448:1255129361.0": {
       "family_name": "LM Sans 10",
       "font-family": "LM Sans 10",
       "font-stretch": "normal",
@@ -82440,7 +82800,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmsans10-boldoblique.otf||114984:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmsans10-boldoblique.otf||114984:1255129361.0": {
       "family_name": "LM Sans 10",
       "font-family": "LM Sans 10",
       "font-stretch": "normal",
@@ -82476,7 +82836,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmsans10-oblique.otf||101412:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmsans10-oblique.otf||101412:1255129361.0": {
       "family_name": "LM Sans 10",
       "font-family": "LM Sans 10",
       "font-stretch": "normal",
@@ -82512,7 +82872,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmsans10-regular.otf||95128:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmsans10-regular.otf||95128:1255129361.0": {
       "family_name": "LM Sans 10",
       "font-family": "LM Sans 10",
       "font-stretch": "normal",
@@ -82548,7 +82908,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmsans12-oblique.otf||102056:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmsans12-oblique.otf||102056:1255129361.0": {
       "family_name": "LM Sans 12",
       "font-family": "LM Sans 12",
       "font-stretch": "normal",
@@ -82584,7 +82944,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmsans12-regular.otf||95160:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmsans12-regular.otf||95160:1255129361.0": {
       "family_name": "LM Sans 12",
       "font-family": "LM Sans 12",
       "font-stretch": "normal",
@@ -82620,7 +82980,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmsans17-oblique.otf||100500:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmsans17-oblique.otf||100500:1255129361.0": {
       "family_name": "LM Sans 17",
       "font-family": "LM Sans 17",
       "font-stretch": "normal",
@@ -82656,7 +83016,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmsans17-regular.otf||94828:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmsans17-regular.otf||94828:1255129361.0": {
       "family_name": "LM Sans 17",
       "font-family": "LM Sans 17",
       "font-stretch": "normal",
@@ -82692,7 +83052,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmsans8-oblique.otf||100084:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmsans8-oblique.otf||100084:1255129361.0": {
       "family_name": "LM Sans 8",
       "font-family": "LM Sans 8",
       "font-stretch": "normal",
@@ -82728,7 +83088,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmsans8-regular.otf||94256:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmsans8-regular.otf||94256:1255129361.0": {
       "family_name": "LM Sans 8",
       "font-family": "LM Sans 8",
       "font-stretch": "normal",
@@ -82764,7 +83124,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmsans9-oblique.otf||101068:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmsans9-oblique.otf||101068:1255129361.0": {
       "family_name": "LM Sans 9",
       "font-family": "LM Sans 9",
       "font-stretch": "normal",
@@ -82800,7 +83160,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmsans9-regular.otf||94552:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmsans9-regular.otf||94552:1255129361.0": {
       "family_name": "LM Sans 9",
       "font-family": "LM Sans 9",
       "font-stretch": "normal",
@@ -82836,7 +83196,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmsansdemicond10-oblique.otf||114848:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmsansdemicond10-oblique.otf||114848:1255129361.0": {
       "family_name": "LM Sans Demi Cond 10",
       "font-family": "LM Sans Demi Cond 10",
       "font-stretch": "normal",
@@ -82872,7 +83232,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmsansdemicond10-regular.otf||106836:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmsansdemicond10-regular.otf||106836:1255129361.0": {
       "family_name": "LM Sans Demi Cond 10",
       "font-family": "LM Sans Demi Cond 10",
       "font-stretch": "normal",
@@ -82908,7 +83268,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmsansquot8-bold.otf||106232:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmsansquot8-bold.otf||106232:1255129361.0": {
       "family_name": "LM Sans Quot 8",
       "font-family": "LM Sans Quot 8",
       "font-stretch": "normal",
@@ -82944,7 +83304,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmsansquot8-boldoblique.otf||112456:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmsansquot8-boldoblique.otf||112456:1255129361.0": {
       "family_name": "LM Sans Quot 8",
       "font-family": "LM Sans Quot 8",
       "font-stretch": "normal",
@@ -82980,7 +83340,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmsansquot8-oblique.otf||112648:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmsansquot8-oblique.otf||112648:1255129361.0": {
       "family_name": "LM Sans Quot 8",
       "font-family": "LM Sans Quot 8",
       "font-stretch": "normal",
@@ -83016,7 +83376,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/texmf/fonts/opentype/public/lm/lmsansquot8-regular.otf||105172:1254938640.0": {
+    "/usr/share/texmf/fonts/opentype/public/lm/lmsansquot8-regular.otf||105172:1255129361.0": {
       "family_name": "LM Sans Quot 8",
       "font-family": "LM Sans Quot 8",
       "font-stretch": "normal",

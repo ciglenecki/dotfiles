@@ -1,5 +1,5 @@
 [$Version]
-update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,kwin.upd:replace-cascaded-zerocornered
 
 [Compositing]
 Backend=OpenGL
@@ -16,10 +16,12 @@ XRenderSmoothScale=false
 Id_1=c141142a-5176-45fe-9b5d-5e9b89115fac
 Id_2=1fbdf8ac-bbf1-498b-b4a6-27324861d580
 Id_3=f0822fc0-5eab-4692-bab0-7d7697b3e6a3
+Id_4=ae675942-8c52-4b7d-9a45-b07f4cd50307
 Name_1=1-main
 Name_2=2-main2
-Name_3=3-media
-Number=3
+Name_3=3-resources
+Name_4=4-media
+Number=4
 Rows=1
 
 [Effect-DimInactive]
@@ -87,6 +89,9 @@ enableSpiralLayout=false
 enableSpreadLayout=false
 enableStairLayout=false
 enableThreeColumnLayout=false
+floatingClass=matplotlib
+floatingTitle=matplotlib
+ignoreClass=krunner,yakuake,spectacle,kded5,matplotlib
 ignoreTitle=Plasma
 layoutPerActivity=false
 maximizeSoleTile=true
@@ -98,7 +103,12 @@ tileLayoutGap=5
 [TabBox]
 DesktopLayout=org.kde.breeze.desktop
 DesktopListLayout=org.kde.breeze.desktop
-LayoutName=org.kde.breeze.desktop
+
+[Tiling]
+padding=4
+
+[Tiling][7c6cb96c-6e18-5658-853a-6a70b47a352b]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Windows]
 ActiveMouseScreen=true
