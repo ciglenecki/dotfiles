@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <!DOCTYPE gui SYSTEM 'kpartgui.dtd'>
-<gui version="38" name="dolphin">
+<gui name="dolphin" version="38">
  <MenuBar>
   <Menu name="file">
    <Action name="new_menu"/>
@@ -55,7 +55,7 @@
    <Action name="stop"/>
    <Separator/>
    <Action name="panels"/>
-   <Menu icon="edit-select-text" name="location_bar">
+   <Menu name="location_bar" icon="edit-select-text">
     <text context="@title:menu">Location Bar</text>
     <Action name="editable_location"/>
     <Action name="replace_location"/>
@@ -76,7 +76,7 @@
    <Action name="change_remote_encoding"/>
   </Menu>
  </MenuBar>
- <ToolBar noMerge="1" name="mainToolBar" alreadyVisited="1">
+ <ToolBar name="mainToolBar" noMerge="1" alreadyVisited="1">
   <text translationDomain="dolphin" context="@title:menu">Main Toolbar</text>
   <Action name="go_back"/>
   <Action name="go_forward"/>
@@ -121,16 +121,16 @@
   <Action name="compact" priority="0"/>
   <Action name="details" priority="0"/>
   <Action name="edit_copy" priority="0"/>
-  <Action shortcut="Ctrl+X" name="edit_cut" priority="0"/>
+  <Action name="edit_cut" shortcut="Ctrl+X" priority="0"/>
   <Action name="edit_paste" priority="0"/>
-  <Action shortcut="F4" name="focus_terminal_panel"/>
-  <Action shortcut="" name="go_back" priority="0"/>
+  <Action name="focus_terminal_panel" shortcut=""/>
+  <Action name="go_back" shortcut="" priority="0"/>
   <Action name="go_forward" priority="0"/>
   <Action name="go_home" priority="0"/>
-  <Action shortcut="Left; Back" name="go_up" priority="0"/>
+  <Action name="go_up" shortcut="Left; Back" priority="0"/>
   <Action name="icons" priority="0"/>
-  <Action shortcut="Right" name="show_target"/>
-  <Action shortcut="" name="show_terminal_panel"/>
+  <Action name="show_target" shortcut="Right"/>
+  <Action name="show_terminal_panel" shortcut="F4; Ctrl+J"/>
   <Action name="stop" priority="0"/>
   <Action name="toggle_filter" priority="0"/>
   <Action name="toggle_search" priority="0"/>

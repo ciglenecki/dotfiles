@@ -108,14 +108,16 @@ ForegroundPositive=0,110,40
 ForegroundVisited=69,40,134
 
 [DirSelect Dialog]
-DirSelectDialog Size=859,598
-History Items[$e]=file:$HOME/fer/oos/docs/,file:$HOME,file:$HOME/fer/oos/docs,file:$HOME/fer/oos/2-notes,file:$HOME/Downloads/specimen_card_mask/colmap/sparse/0,file:$HOME/Downloads/specimen_card_mask,file:$HOME/Downloads/colmap/sparse/0,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2/hand_card_sequence,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/hand_card_sequence,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/colmap/sparse/0,file:$HOME/Downloads/specimen_rgb,file:$HOME/Downloads/hand_card_sequence,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/colmap,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/colmap,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/hand_card_sequence,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/hand_card_sequence,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/images,file:$HOME/Downloads/colmap,file:$HOME/Downloads/images,file:$HOME/Downloads/images,file:$HOME/Downloads/colmap/sparse,file:$HOME/Downloads/colmap,file:$HOME/2-media/screenshots,file:$HOME/2-media/screenshots,file:$HOME,file:$HOME/2-media/screenshots,file:$HOME/4-education/books
+DirSelectDialog Size=1098,560
+History Items[$e]=file:///media/matej/sam/movies,file:$HOME/fer/oos/docs/,file:$HOME,file:$HOME/fer/oos/docs,file:$HOME/fer/oos/2-notes,file:$HOME/Downloads/specimen_card_mask/colmap/sparse/0,file:$HOME/Downloads/specimen_card_mask,file:$HOME/Downloads/colmap/sparse/0,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2/hand_card_sequence,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/hand_card_sequence,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/colmap/sparse/0,file:$HOME/Downloads/specimen_rgb,file:$HOME/Downloads/hand_card_sequence,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/colmap,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/colmap,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/hand_card_sequence,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/hand_card_sequence,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/images,file:$HOME/Downloads/colmap,file:$HOME/Downloads/images,file:$HOME/Downloads/images,file:$HOME/Downloads/colmap/sparse,file:$HOME/Downloads/colmap,file:$HOME/2-media/screenshots,file:$HOME/2-media/screenshots,file:$HOME,file:$HOME/2-media/screenshots
 
 [General]
 BrowserApplication=brave-browser.desktop
 ColorScheme=matej-pink-white
 ColorSchemeHash=d2f9f23c62b2c7529878a3b4c96c2902e98086db
 Name=Breeze
+TerminalApplication="konsole -e tmux"
+TerminalService=/home/matej/.local/share/applications/konsole.desktop
 XftAntialias=true
 XftHintStyle=hintslight
 XftSubPixel=rgb
@@ -136,18 +138,18 @@ widgetStyle=Breeze
 [KFileDialog Settings]
 Allow Expansion=true
 Automatically select filename extension=true
-Breadcrumb Navigation=true
+Breadcrumb Navigation=false
 Decoration position=2
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
-Preview Width=223
+Preview Width=262
 Show Bookmarks=false
 Show Full Path=false
 Show Inline Previews=false
 Show Preview=true
 Show Speedbar=true
 Show hidden files=true
-Sort by=Date
+Sort by=Name
 Sort directories first=true
 Sort hidden files last=false
 Sort reversed=true

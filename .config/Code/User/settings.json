@@ -1,6 +1,6 @@
 {
   "workbench.panel.defaultLocation": "right",
-  "editor.fontFamily": "'IntelOne Mono', 'Hack', 'Noto Mono'",
+  "editor.fontFamily": "'Noto Mono', 'IntelOne Mono', 'Hack'",
   "editor.fontLigatures": true,
   "workbench.editor.highlightModifiedTabs": true, // Don't lose your working by turning on autosave,
   "explorer.sortOrder": "type",
@@ -189,12 +189,18 @@
   "notebook.output.textLineLimit": 300,
   "scm.diffDecorations": "none",
   "python.defaultInterpreterPath": "",
-  "python.analysis.autoImportCompletions": true,
   "python.analysis.exclude": [
     "**/venv",
     "**/__pycache__",
     "**/.pytest_cache",
-    "**/.mypy_cache"
+    "**/.mypy_cache",
+    "**/data",
+    "**/embeddings",
+    "**/output",
+    "data/",
+    "embeddings/",
+    "output/",
+    "**/test"
   ],
   "python.linting.ignorePatterns": [
     "**/site-packages/**/*.py",
@@ -202,7 +208,6 @@
     "**/venv/**/*.py"
   ],
   "python.analysis.logLevel": "Error",
-  "python.analysis.diagnosticMode": "workspace",
   "editor.scrollbar.verticalScrollbarSize": 10,
   "editor.gotoLocation.multipleDefinitions": "gotoAndPeek",
   "editor.gotoLocation.multipleTypeDefinitions": "gotoAndPeek",
@@ -211,11 +216,17 @@
     "*": true,
     "plaintext": false,
     "markdown": false,
-    "scminput": false
+    "scminput": false,
+    "cpp": false
   },
   "terminal.integrated.scrollback": 999999,
   "workbench.colorTheme": "Quiet Light",
   "python.linting.pylintArgs": [
     "--generate-members"
-  ]
+  ],
+  "editor.trimAutoWhitespace": false,
+  "python.experiments.enabled": false,
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.diagnosticMode": "workspace",
+  "workbench.editor.empty.hint": "hidden"
 }

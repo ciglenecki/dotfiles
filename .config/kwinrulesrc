@@ -20,12 +20,20 @@ wmclass=mail thunderbird
 wmclasscomplete=true
 wmclassmatch=1
 
+[8a1023c7-9b78-44b0-9bae-8556b17dadba]
+Description=Settings for latexocr latexocr
+fullscreen=true
+fullscreenrule=3
+wmclass=latexocr latexocr
+wmclasscomplete=true
+wmclassmatch=1
+
 [General]
 XftAntialias[$d]
 XftHintStyle[$d]
 XftSubPixel[$d]
-count=1
-rules=1
+count=2
+rules=1,8a1023c7-9b78-44b0-9bae-8556b17dadba
 
 [KDE]
 LookAndFeelPackage[$d]

@@ -49,6 +49,11 @@ previous-terminal=Alt+J
 rename-session=Alt+S
 split-left-right=Alt+[
 split-top-bottom=Alt+]
+switch-to-session-1=none
+switch-to-session-2=none
+switch-to-session-3=none
+switch-to-session-4=none
+switch-to-session-5=none
 view-full-screen=none
 
 [Window]

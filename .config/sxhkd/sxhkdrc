@@ -4,7 +4,7 @@ alt + o; {b,B};
 alt + o; {m, M};
 	{wmctrl -xa $BROWSER, $BROWSERWORK}
 alt + o; {s, S};
-	{wmctrl -xa spotify, url=$(source $FILE_SPOTIFY_SECRET && spotify-random-saved-album); test $? -eq 0 && ${BROWSERMUSIC} --new-window ${BROWSERASAPP}$url}
+	{wmctrl -xa spotify, uri=$(source $FILE_SPOTIFY_SECRET && spotify-random-saved-album --uri); test $? -eq 0 && spotify --uri=$uri}
 alt + o; {a,A};
 	{wmctrl -xa asoft, $ASOFTMURMUR}
 alt + o; {k,K};
@@ -42,6 +42,14 @@ alt + p; {t};
     sleep 0.2; xdotool getwindowfocus windowfocus --sync type "(next 14 days | no due date) & (p1 | p2 | p3) & (!#📚 FER)"
 alt + p; {p};
     { kquitapp5 plasmashell || killall plasmashell && kstart5 plasmashell; } &> /dev/null;
+alt + p; {l, L};
+    {source $FILE_SPOTIFY_SECRET; ~/projects/spotify-random-saved-album/venv/bin/python3 ~/projects/spotify-random-saved-album/src/spotify_random_saved_album/like_song.py --playlist_id "", source $FILE_SPOTIFY_SECRET; ~/projects/spotify-random-saved-album/venv/bin/python3 ~/projects/spotify-random-saved-album/src/spotify_random_saved_album/like_song.py}
+alt + p; {u,U};
+    source $FILE_SPOTIFY_SECRET; ~/projects/spotify-random-saved-album/venv/bin/python3 ~/projects/spotify-random-saved-album/src/spotify_random_saved_album/unlike_song.py
+alt + p; {n,N};
+    source $FILE_SPOTIFY_SECRET; ~/projects/spotify-random-saved-album/venv/bin/python3 ~/projects/spotify-random-saved-album/src/spotify_random_saved_album/next_song.py
+    
+    
 # copy
 alt + c; s;
     copyq write image/jpg - < $DIR_SCREENSHOTS$(ls -t $DIR_SCREENSHOTS | head -n 1) && copyq select 0
@@ -49,6 +57,7 @@ alt + c; s;
 alt + c; e;
     pinta $DIR_SCREENSHOTS$(ls -t $DIR_SCREENSHOTS | head -n 1)
 
+    
 # volume with pause button
 Pause;
     amixer -D pulse sset Master $SOUND_LEVEL%

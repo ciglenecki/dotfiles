@@ -16,7 +16,7 @@ ttsVoice=kal16
 
 [Main View]
 ShowBottomBar=true
-SplitterSizes=99,968
+SplitterSizes=348,745
 
 [Nav Panel]
 GroupByAuthor=false
@@ -28,6 +28,7 @@ SidebarShowText=false
 BackgroundColor=0,0,0
 MouseMode=TextSelect
 PrimaryAnnotationToolBar=QuickAnnotationToolBar
+TrimMargins=true
 UseCustomBackgroundColor=true
 
 [Reviews]

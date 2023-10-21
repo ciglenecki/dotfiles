@@ -30,8 +30,8 @@ detailViewIconSize=16
 
 [MainWindow]
 1920x1080 screen: Height=1050
-1920x1080 screen: Width=1097
-1920x1080 screen: XPosition=822
+1920x1080 screen: Width=1162
+1920x1080 screen: XPosition=757
 1920x1080 screen: YPosition=0
 HDMI-0=HDMI-0
 HDMI-0 Height 1920x1080=1021
@@ -41,7 +41,7 @@ HDMI-0 YPosition 1920x1080=29
 Height 1080=515
 Height 1920=1888
 Height 720=1058
-State=AAAA/wAAAAD9AAAAAAAABAUAAAPOAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAAAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAA==
+State=AAAA/wAAAAD9AAAAAAAABEYAAAP8AAAABAAAAAQAAAAIAAAACPwAAAADAAAAAAAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 Width 1080=1080
 Width 1280=1920
@@ -56,23 +56,23 @@ Height 1080=889
 Width 1920=840
 
 [Recent Files]
-File1[$e]=$HOME/projects/lumen-audio/docs/technical_doc/technical_first_part.pdf
-File10[$e]=$HOME/4-education/papers/nlp/Sentiment Analysis: It’s Complicated!.pdf
-File2[$e]=$HOME/projects/lumen-audio/figures/tempo_distribution_genre_jaz_blu.png
-File3[$e]=$HOME/projects/lumen-audio/technical_docs.pdf
-File4[$e]=$HOME/projects/lumen-audio/figures/project_documentation.pdf
-File5[$e]=$HOME/4-education/papers/nlp/Improving Named Entity Recognition by External Context Retrieving and Cooperative Learning, Xinyu Wang et al., 2021, v3.pdf
-File6[$e]=$HOME/4-education/papers/diffusion/denoising_diffusion_probabilistic_models.pdf
-File7[$e]=$HOME/4-education/papers/diffusion/high_resolution_image_synthesis_with_latent_diffusion_models.pdf
-File8[$e]=$HOME/4-education/papers/nlp/Mind Your Outliers! Investigating the Negative Impact of Outliers on\nActive Learning for Visual Question Answering.pdf
-File9[$e]=$HOME/4-education/papers/diffusion/On Distillation of Guided Diffusion Models, Chenlin Meng et al., 2022, v3.pdf
-Name1[$e]=technical_first_part.pdf
-Name10[$e]=Sentiment Analysis: It’s Complicated!.pdf
-Name2[$e]=tempo_distribution_genre_jaz_blu.png
-Name3[$e]=technical_docs.pdf
-Name4[$e]=project_documentation.pdf
-Name5[$e]=Improving Named Entity Recognition by External Context Retrieving and Cooperative Learning, Xinyu Wang et al., 2021, v3.pdf
-Name6[$e]=denoising_diffusion_probabilistic_models.pdf
-Name7[$e]=high_resolution_image_synthesis_with_latent_diffusion_models.pdf
-Name8[$e]=Mind Your Outliers! Investigating the Negative Impact of Outliers on\nActive Learning for Visual Question Answering.pdf
-Name9[$e]=On Distillation of Guided Diffusion Models, Chenlin Meng et al., 2022, v3.pdf
+File1[$e]=$HOME/1-documents/work/ciglenecki.github.io/cover_letter_matej_ciglenecki.pdf
+File10[$e]=$HOME/Downloads/Operativni sustavi i računalne mreže - Linux u primjeni.pdf
+File2[$e]=$HOME/1-documents/work/ciglenecki.github.io/happening_ml/cv_matej_ciglenecki.pdf
+File3[$e]=$HOME/1-documents/work/ciglenecki.github.io/hf/cv_matej_ciglenecki.pdf
+File4[$e]=$HOME/1-documents/work/ciglenecki.github.io/se/cv_matej_ciglenecki_se.pdf
+File5[$e]=$HOME/1-documents/work/ciglenecki.github.io/happening_ml/cv_matej_ciglenecki2.pdf
+File6[$e]=$HOME/1-documents/work/ciglenecki.github.io/blackshark/cv_matej_ciglenecki.pdf
+File7[$e]=$HOME/Downloads/[Effective Software Development Series] Brett Slatkin - Effective Python_ 59 Specific Ways to Write Better Python (2015, Addison-Wesley Professional) - libgen.li.pdf
+File8[$e]=$HOME/Downloads/BI Developer - JD.pdf
+File9[$e]=$HOME/Downloads/Brett Slatkin - Effective Python_ 90 Specific Ways to Write Better Python (2019, Addison-Wesley Professional) - libgen.li.pdf
+Name1[$e]=cover_letter_matej_ciglenecki.pdf
+Name10[$e]=Operativni sustavi i računalne mreže - Linux u primjeni.pdf
+Name2[$e]=cv_matej_ciglenecki.pdf
+Name3[$e]=cv_matej_ciglenecki.pdf
+Name4[$e]=cv_matej_ciglenecki_se.pdf
+Name5[$e]=cv_matej_ciglenecki2.pdf
+Name6[$e]=cv_matej_ciglenecki.pdf
+Name7[$e]=[Effective Software Development Series] Brett Slatkin - Effective Python_ 59 Specific Ways to Write Better Python (2015, Addison-Wesley Professional) - libgen.li.pdf
+Name8[$e]=BI Developer - JD.pdf
+Name9[$e]=Brett Slatkin - Effective Python_ 90 Specific Ways to Write Better Python (2019, Addison-Wesley Professional) - libgen.li.pdf

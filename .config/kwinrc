@@ -15,13 +15,11 @@ XRenderSmoothScale=false
 [Desktops]
 Id_1=c141142a-5176-45fe-9b5d-5e9b89115fac
 Id_2=1fbdf8ac-bbf1-498b-b4a6-27324861d580
-Id_3=f0822fc0-5eab-4692-bab0-7d7697b3e6a3
-Id_4=ae675942-8c52-4b7d-9a45-b07f4cd50307
+Id_3=e04ff956-8a04-4594-82e4-0ec3cd94598f
 Name_1=1-main
 Name_2=2-main2
-Name_3=3-resources
-Name_4=4-media
-Number=4
+Name_3=3-media
+Number=3
 Rows=1
 
 [Effect-DimInactive]
@@ -52,9 +50,11 @@ CommandWindowWheel=Scroll
 [NightColor]
 Active=true
 LatitudeAuto=45.8293
+LatitudeFixed=47.12581689349732
 LongitudeAuto=15.9793
+LongitudeFixed=10.69
 Mode=Constant
-NightTemperature=2300
+NightTemperature=2600
 
 [Plugins]
 bismuthEnabled=false
@@ -95,7 +95,6 @@ ignoreClass=krunner,yakuake,spectacle,kded5,matplotlib
 ignoreTitle=Plasma
 layoutPerActivity=false
 maximizeSoleTile=true
-monocleMaximize=false
 noTileBorder=true
 preventProtrusion=false
 tileLayoutGap=5

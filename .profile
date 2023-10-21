@@ -13,14 +13,26 @@
 # if [ -z ${HOME+x} ]; then export HOME="~matej"; fi
 
 # Resolve DOTFILES_DIR (assuming ~/.dotfiles on distros without readlink and/or $BASH_SOURCE/$0). CAn be run here because .profile executes .bashrc
+
+echo "Sourcing .profile"
+# if command -v ssh-agent &> /dev/null
+# then
+#     eval "$(ssh-agent -s)"
+# fi
+
+
 if [ -d "$HOME" ]; then
   export DOTFILES_DIR="$HOME/.scripts"
 fi
 
-for dotfile in $DOTFILES_DIR/{env.sh,alias.sh,login.sh}; do
+for dotfile in $DOTFILES_DIR/{env.sh,alias.sh}; do
   echo "Sourcing $dotfile"
   [ -f "$dotfile" ] && . "$dotfile";
 done
+
+# if [ -f $DOTFILES_DIR/login.sh ]; then
+#   source $DOTFILES_DIR/login.sh
+# fi
 
 # if running bash
 if [ -n "$BASH_VERSION" ]; then
@@ -29,7 +41,3 @@ if [ -n "$BASH_VERSION" ]; then
 	. "$HOME/.bashrc"
     fi
 fi
-
-test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash" || true
-
-alias blender=/Applications/Blender.app/Contents/MacOS/Blender

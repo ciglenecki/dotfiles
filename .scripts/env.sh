@@ -8,6 +8,8 @@
 # if [ -z ${HOME+x} ]; then export HOME="/home/matej"; fi
 # set PATH so it includes user's private bin if it exists
 
+export HOME=$(eval echo "~matej")
+
 if [ -d "$HOME/.local/bin" ] ; then
     export PATH="$PATH:$HOME/.local/bin:"
 fi
@@ -41,21 +43,24 @@ if [ -d "$HOME/.cargo/bin" ] ; then
     export PATH=$PATH:$HOME/.cargo/bin
 fi
 
-if [ -d "/opt/blender-3.4.1-linux-x64" ] ; then
-    export PATH=$PATH:/opt/blender-3.4.1-linux-x64
-fi
-
-if [ -d "/opt/blender-3.4.1-linux-x64" ] ; then
-    export PATH=$PATH:/opt/blender-3.4.1-linux-x64
-fi
-
-if [ -d "$HOME/venv/lib/python3.11/site-packages" ] ; then
-    export PYTHONPATH="$HOME/venv/lib/python3.11/site-packages:$PYTHONPATH"
+if [ -d "/opt/blender-3.5.1-linux-x64" ] ; then
+    export PATH=$PATH:/opt/blender-3.5.1-linux-x64
 fi
 
 
 export PYENV_ROOT="$HOME/.pyenv"
 export CUDA_HOME=/usr/local/cuda-11.8
+
+if [ -d "$HOME/venv/lib/python3.11/site-packages" ] ; then
+    export PYTHONPATH="$HOME/venv/lib/python3.11/site-packages:$PYTHONPATH"
+fi
+
+if [ -d "$PYENV_ROOT/bin" ] ; then
+    export PATH=$PATH:$PYENV_ROOT/bin
+fi
+
+export SSH_ASKPASS=/usr/bin/ksshaskpass
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR"/ssh-agent.socket
 
 
 export EDITOR="nano"

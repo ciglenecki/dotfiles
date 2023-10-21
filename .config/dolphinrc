@@ -18,10 +18,12 @@ DefaultProfile=Profile 3.profile
 
 [DetailsMode]
 ExpandableFolders=false
-PreviewSize=16
+PreviewSize=32
 
 [ExtractDialog]
-DirHistory[$e]=$HOME/projects/lumen-audio/data/,/opt/,$HOME/Downloads/,$HOME/Downloads/dubuce projekt/all_images/
+1920x1080 screen: Height=544
+1920x1080 screen: Width=1410
+DirHistory[$e]=/opt/,$HOME/projects/lumen-audio/data/,$HOME/Downloads/,$HOME/Downloads/dubuce projekt/all_images/
 HDMI-0 Height 1920x1080=547
 HDMI-0 Width 1920x1080=1279
 
@@ -42,18 +44,18 @@ ViewPropsTimestamp=2021,11,7,23,26,33
 
 [IconsMode]
 IconSize=16
-PreviewSize=128
+PreviewSize=256
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
 Places Icons Static Size=16
-Recent Files[$e]=file:$HOME/projects/lumen-audio/data,file:$HOME/projects/lumen-audio/data
-Recent URLs[$e]=file:$HOME/projects/lumen-audio/,file:///opt/,file:$HOME/2-media/icons/,file:$HOME/,file:$HOME/Downloads/,file:$HOME/projects/lumen-audio/data/
+Recent Files[$e]=file:$HOME/projects/lumen-audio/data,file:///opt
+Recent URLs[$e]=file:$HOME/projects/lumen-audio/,file:///opt/,file:$HOME/2-media/icons/,file:$HOME/,file:$HOME/Downloads/,file:$HOME/projects/lumen-audio/data/,file:///
 detailViewIconSize=16
 
 [KPropertiesDialog]
-1920x1080 screen: Height=556
-1920x1080 screen: Width=427
+1920x1080 screen: Height=458
+1920x1080 screen: Width=398
 DP-0 HDMI-0 Height 1920x1080=458
 DP-0 HDMI-0 Height 2560x1440=587
 DP-0 HDMI-0 Width 1920x1080=383
@@ -166,6 +168,7 @@ IconSize=16
 Plugins=audiothumbnail,blenderthumbnail,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,textthumbnail,ffmpegthumbs
 
 [Search]
+Location=Everywhere
 What=Content
 
 [SettingsDialog]

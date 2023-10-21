@@ -1,6 +1,19 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
+echo "Sourcing .bashrc"
+
+# Run tmux only if parent process is not Dolphin
+# Changing directory in Dolphin doesn't work if tmux is running
+parent_proc=$(ps -f $PPID | tail -n 1 | tr -s ' ' | cut -f9 -d ' ')
+if [[ "$parent_proc" != *"dolphin"* ]] ;then # determine if parent process is not Dolphin
+    if [[ -z "$TMUX" ]] ;then # Check if tmux variable is blank
+        if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+        exec tmux new-session -A -s main
+        fi
+    fi
+fi
+
 
 # If not running interactively, don't do anything
 case $- in
@@ -8,10 +21,9 @@ case $- in
       *) return;;
 esac
 
-
-
+DOTFILES_DIR="$HOME/.scripts"
 for DOTFILE in $DOTFILES_DIR/{env.sh,alias.sh}; do
-  [ -f "$DOTFILE" ] && source "$DOTFILE";
+    [ -f "$DOTFILE" ] && source "$DOTFILE"
 done
 
 
@@ -124,8 +136,4 @@ if [ -f "$HOME/.bash-git-prompt/gitprompt.sh" ]; then
     source $HOME/.bash-git-prompt/gitprompt.sh
 fi
 
-# After each command, append to the history file and reread it
 PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
-
-command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"

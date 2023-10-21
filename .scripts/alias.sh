@@ -59,14 +59,14 @@ alias path='echo -e ${PATH//:/\\n}' # print each PATH entry on a separate line
 alias k='killall'
 alias bat='batcat'
 alias wttr='curl wttr.in/Zagreb?format=v2'
-alias clear='\clear;source ~/.bashrc' # clear the terminal and source (execute) bashrc
+# alias clear='\clear;source ~/.bashrc' # clear the terminal and source (execute) bashrc
 alias clipboard="xclip -o -selection clipboard" # paste the clipboard entry
 alias de="deactivate"
 alias study="$BROWSERUSER $BROWSERASAPP$STUDY_SHEET &"
 alias cal="$BROWSERUSER $BROWSERASAPP$CAL &"
 alias pomo="$BROWSERUSER $BROWSERASAPP$POMODORO &"
 alias poe="poetry"
-
+alias code="code -a"
 
 # extglob If set, the extended pattern matching features described above under Pathname Expansion are enabled.
 shopt -s extglob
@@ -113,7 +113,7 @@ function rename_images(){
 # `o` opens the current directory or opens the argument (file)
 function o() {
 	if [ $# -eq 0 ]; then
-		open . > /dev/null 2>&1;
+		open .
 	else
         for file in "$@"
         do
@@ -274,7 +274,7 @@ function cp_test {
 
 function projects_uri {
     local hex_=$(printf '+{"containerName":"/mciglenecki-projects","settings":{"host":"ssh://mciglenecki@zver1.zesoi.fer.hr:443"}}' | od -A n -t x1 | tr -d '[\n\t ]')
-    local path_uri="/root/projects/"
+    local path_uri="/root/projects/nerf-research"
     local folder_uri="vscode-remote://attached-container%$hex_:$path_uri"
     echo $folder_uri
 }
