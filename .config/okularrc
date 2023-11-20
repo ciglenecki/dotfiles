@@ -1,10 +1,10 @@
-HDMI-0 Height 1920x1080=1055
-HDMI-0 Width 1920x1080=1920
-HDMI-0 XPosition 1920x1080=0
-HDMI-0 YPosition 1920x1080=25
+HDMI-0 Height 1920x1080=1050
+HDMI-0 Width 1920x1080=1697
+HDMI-0 XPosition 1920x1080=222
+HDMI-0 YPosition 1920x1080=0
 Height 1080=1056
 Height 1920=1888
-State=AAAA/wAAAAD9AAAAAAAAB4AAAAQBAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAAAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8EhQExAjiBdwAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+State=AAAA/wAAAAD9AAAAAAAABl0AAAPOAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAAAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAA==
 Width 1080=1080
 Width 1920=957
 Window-Maximized 1080x1920=true
@@ -24,29 +24,29 @@ Height 1080=745
 Width 1920=907
 
 [KFileDialog Settings]
-Recent Files[$e]=SU1-2021-P02-OsnovniKoncepti.pdf,file:$HOME/Downloads/ispitivanje.pdf,file:$HOME/fer/oos/sp4comm_corrected.pdf,file:$HOME/fer/oos/1-lectures/15_fft.pdf,file:$HOME/fer/oos/1-lectures/DOS_2017-2018_predavanje_06.pdf,file:$HOME/fer/oos/1-lectures/16_izvedba_filtara.pdf,file:$HOME/fer/oos/4-exams/mi_2021.pdf,file:$HOME/fer/oos/4-exams/mi_2022.pdf,file:$HOME/fer/oos/1-lectures/09_prijenosna_funkcija.pdf,file:$HOME/fer/oos/1-lectures/08_z_i_laplaceova_transformacija.pdf,file:$HOME/projects/stylegan2-ada-project/references/stylegan.pdf,file:$HOME/fer/nummat/1-lectures/predavanje_18.pdf,file:$HOME/fer/nummat/1-lectures/predavanje_16.pdf,file:$HOME/fer/nummat/1-lectures/predavanje_15.pdf,file:$HOME/fer/nummat/1-lectures/predavanje_12.pdf
-Recent URLs[$e]=file:$HOME/fer/oos/,file:$HOME/Downloads/,file:$HOME/fer/dubuce2/1-lectures/,file:$HOME/fer/oos/1-lectures/,file:$HOME/fer/oos/5-tasks/,file:$HOME/1-documents/work/ciglenecki.github.io/se/,file:$HOME/projects/stylegan2-ada-project/references/,file:$HOME/fer/oos/4-exams/,file:$HOME/fer/oos/3-labs/,file:$HOME/
+Recent Files[$e]=SU1-2021-P02-OsnovniKoncepti.pdf,file:$HOME/projects/lumen-audio/figures/project_documentation.pdf,file:$HOME/projects/lumen-audio/figures/tempo_distribution_genre_jaz_blu.png,file:$HOME/projects/geoguessr-ai/pdf-technical-documentation.pdf,file:$HOME/Downloads/2003.08934.pdf,file:$HOME/fer/oos/sp4comm_corrected.pdf,file:$HOME/fer/oos/1-lectures/15_fft.pdf,file:$HOME/fer/oos/1-lectures/DOS_2017-2018_predavanje_06.pdf,file:$HOME/fer/oos/1-lectures/16_izvedba_filtara.pdf,file:$HOME/fer/oos/4-exams/mi_2021.pdf,file:$HOME/fer/oos/4-exams/mi_2022.pdf,file:$HOME/fer/oos/1-lectures/09_prijenosna_funkcija.pdf,file:$HOME/fer/oos/1-lectures/08_z_i_laplaceova_transformacija.pdf,file:$HOME/fer/nummat/1-lectures/predavanje_18.pdf,file:$HOME/fer/nummat/1-lectures/predavanje_16.pdf,file:$HOME/fer/nummat/1-lectures/predavanje_15.pdf
+Recent URLs[$e]=file:$HOME/fer/oos/,file:$HOME/Downloads/,file:$HOME/fer/oos/1-lectures/,file:$HOME/fer/oos/5-tasks/,file:$HOME/1-documents/work/ciglenecki.github.io/se/,file:$HOME/fer/oos/4-exams/,file:$HOME/fer/oos/3-labs/,file:$HOME/,file:$HOME/projects/geoguessr-ai/,file:$HOME/projects/lumen-audio/figures/
 detailViewIconSize=16
 
 [MainWindow]
-HDMI-0 Height 1920x1080=1055
-HDMI-0 Width 1920x1080=853
-HDMI-0 Window-Maximized 1920x1080=true
-HDMI-0 XPosition 1920x1080=0
-HDMI-0 YPosition 1920x1080=0
+1920x1080 screen: Height=1050
+1920x1080 screen: Width=1162
+1920x1080 screen: XPosition=757
+1920x1080 screen: YPosition=0
+HDMI-0=HDMI-0
+HDMI-0 Height 1920x1080=1021
+HDMI-0 Width 1920x1080=1354
+HDMI-0 XPosition 1920x1080=432
+HDMI-0 YPosition 1920x1080=29
 Height 1080=515
 Height 1920=1888
 Height 720=1058
-State=AAAA/wAAAAD9AAAAAAAABzwAAAPUAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAAAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAA==
+State=AAAA/wAAAAD9AAAAAAAABEYAAAP8AAAABAAAAAQAAAAIAAAACPwAAAADAAAAAAAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 Width 1080=1080
 Width 1280=1920
 Width 1920=1073
 Window-Maximized 768x1360=true
-eDP-1 Height 1920x1080=1056
-eDP-1 Width 1920x1080=1920
-eDP-1 XPosition 1920x1080=0
-eDP-1 YPosition 1920x1080=0
 
 [Notification Messages]
 ShowTabWarning=true
@@ -56,23 +56,23 @@ Height 1080=889
 Width 1920=840
 
 [Recent Files]
-File1[$e]=$HOME/fer/oos/1-lectures/09_prijenosna_funkcija.pdf
-File10[$e]=$HOME/Downloads/potvrda_o_upisu_100714.pdf
-File2[$e]=zip:///home/matej/Downloads/Repository (1).zip/Akademska skolska godina 2021.-2022./OOS_20211130_medjuispit_rjesenja.pdf
-File3[$e]=$HOME/fer/oos/1-lectures/DOS_2017-2018_predavanje_06.pdf
-File4[$e]=$HOME/fer/oos/1-lectures/15_fft.pdf
-File5[$e]=$HOME/fer/oos/1-lectures/16_izvedba_filtara.pdf
-File6[$e]=zip:/home/matej/1-documents/_archived/ages_old.zip/shitpost-papic.txt
-File7[$e]=$HOME/projects/lumen-audio/references/zadatak.pdf
-File8[$e]=$HOME/Downloads/Ponuda za posao - Matej Ciglenečki.pdf
-File9[$e]=$HOME/Downloads/potvrda_o_upisu_s_prijepisom_ocjena_100715.pdf
-Name1[$e]=09_prijenosna_funkcija.pdf
-Name10[$e]=potvrda_o_upisu_100714.pdf
-Name2[$e]=OOS_20211130_medjuispit_rjesenja.pdf
-Name3[$e]=DOS_2017-2018_predavanje_06.pdf
-Name4[$e]=15_fft.pdf
-Name5[$e]=16_izvedba_filtara.pdf
-Name6[$e]=shitpost-papic.txt
-Name7[$e]=zadatak.pdf
-Name8[$e]=Ponuda za posao - Matej Ciglenečki.pdf
-Name9[$e]=potvrda_o_upisu_s_prijepisom_ocjena_100715.pdf
+File1[$e]=$HOME/1-documents/work/ciglenecki.github.io/cover_letter_matej_ciglenecki.pdf
+File10[$e]=$HOME/Downloads/Operativni sustavi i računalne mreže - Linux u primjeni.pdf
+File2[$e]=$HOME/1-documents/work/ciglenecki.github.io/happening_ml/cv_matej_ciglenecki.pdf
+File3[$e]=$HOME/1-documents/work/ciglenecki.github.io/hf/cv_matej_ciglenecki.pdf
+File4[$e]=$HOME/1-documents/work/ciglenecki.github.io/se/cv_matej_ciglenecki_se.pdf
+File5[$e]=$HOME/1-documents/work/ciglenecki.github.io/happening_ml/cv_matej_ciglenecki2.pdf
+File6[$e]=$HOME/1-documents/work/ciglenecki.github.io/blackshark/cv_matej_ciglenecki.pdf
+File7[$e]=$HOME/Downloads/[Effective Software Development Series] Brett Slatkin - Effective Python_ 59 Specific Ways to Write Better Python (2015, Addison-Wesley Professional) - libgen.li.pdf
+File8[$e]=$HOME/Downloads/BI Developer - JD.pdf
+File9[$e]=$HOME/Downloads/Brett Slatkin - Effective Python_ 90 Specific Ways to Write Better Python (2019, Addison-Wesley Professional) - libgen.li.pdf
+Name1[$e]=cover_letter_matej_ciglenecki.pdf
+Name10[$e]=Operativni sustavi i računalne mreže - Linux u primjeni.pdf
+Name2[$e]=cv_matej_ciglenecki.pdf
+Name3[$e]=cv_matej_ciglenecki.pdf
+Name4[$e]=cv_matej_ciglenecki_se.pdf
+Name5[$e]=cv_matej_ciglenecki2.pdf
+Name6[$e]=cv_matej_ciglenecki.pdf
+Name7[$e]=[Effective Software Development Series] Brett Slatkin - Effective Python_ 59 Specific Ways to Write Better Python (2015, Addison-Wesley Professional) - libgen.li.pdf
+Name8[$e]=BI Developer - JD.pdf
+Name9[$e]=Brett Slatkin - Effective Python_ 90 Specific Ways to Write Better Python (2019, Addison-Wesley Professional) - libgen.li.pdf

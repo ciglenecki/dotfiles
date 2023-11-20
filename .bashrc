@@ -1,6 +1,19 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
+echo "Sourcing .bashrc"
+
+# Run tmux only if parent process is not Dolphin
+# Changing directory in Dolphin doesn't work if tmux is running
+parent_proc=$(ps -f $PPID | tail -n 1 | tr -s ' ' | cut -f9 -d ' ')
+if [[ "$parent_proc" != *"dolphin"* ]] ;then # determine if parent process is not Dolphin
+    if [[ -z "$TMUX" ]] ;then # Check if tmux variable is blank
+        if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+        exec tmux new-session -A -s main
+        fi
+    fi
+fi
+
 
 # If not running interactively, don't do anything
 case $- in
@@ -8,19 +21,17 @@ case $- in
       *) return;;
 esac
 
-# don't put duplicate lines or lines starting with space in the history.
-# See bash(1) for more options
-HISTCONTROL=ignoreboth
-
-
+DOTFILES_DIR="$HOME/.scripts"
 for DOTFILE in $DOTFILES_DIR/{env.sh,alias.sh}; do
-  [ -f "$DOTFILE" ] && . "$DOTFILE";
+    [ -f "$DOTFILE" ] && source "$DOTFILE"
 done
 
 
+# don't put duplicate lines in the history
+HISTCONTROL=ignoredups:erasedups
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=-1  # the number of lines or commands that are stored in memory in a history list while your bash session is ongoing.
-HISTFILESIZE=-1 # is the number of lines or commands that (a) are allowed in the history file at startup time of a session, and (b) are stored in the history file at the end of your bash session for use in future sessions.
+HISTSIZE=9999999999  # the number of lines or commands that are stored in memory in a history list while your bash session is ongoing.
+HISTFILESIZE=9999999999 # is the number of lines or commands that (a) are allowed in the history file at startup time of a session, and (b) are stored in the history file at the end of your bash session for use in future sessions.
 
 # When the shell exits, append to the history file instead of overwriting it
 shopt -s histappend
@@ -101,7 +112,7 @@ fi
 
 bind -f  ~/.inputrc
 
-# Autojump anywhere
+# Autojump
 AUTOJUMP=/usr/share/autojump/autojump.sh
 if [ -f "$AUTOJUMP" ]; then
     source $AUTOJUMP
@@ -110,11 +121,11 @@ fi
 # Details about system
 if command -v neofetch &> /dev/null; then
     neofetch
+    yes '' | sed 8q # add some extra space
 fi;
 
 # Reverse history foward enable (Ctrl +S)
 stty -ixon
-
 
 # bash prompt
 GIT_PROMPT_THEME=Single_line_Ubuntu
@@ -125,10 +136,6 @@ if [ -f "$HOME/.bash-git-prompt/gitprompt.sh" ]; then
     source $HOME/.bash-git-prompt/gitprompt.sh
 fi
 
-# Avoid duplicates
-HISTCONTROL=ignoredups:erasedups
-
-# After each command, append to the history file and reread it
 PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
 
 

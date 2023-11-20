@@ -7,17 +7,20 @@
 
 # if [ -z ${HOME+x} ]; then export HOME="/home/matej"; fi
 # set PATH so it includes user's private bin if it exists
+
+export HOME=$(eval echo "~matej")
+
 if [ -d "$HOME/.local/bin" ] ; then
-    PATH="$PATH:$HOME/.local/bin:"
+    export PATH="$PATH:$HOME/.local/bin:"
 fi
 
 if [ -d "/bin/include" ] ; then
-    PATH="$PATH:/bin/include"
+    export PATH="$PATH:/bin/include"
 fi
 
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/bin" ] ; then
-    PATH="$PATH:$HOME/bin"
+    export PATH="$PATH:$HOME/bin"
 fi
 
 if [ -d "$HOME/.npm-global/bin" ] ; then
@@ -40,7 +43,24 @@ if [ -d "$HOME/.cargo/bin" ] ; then
     export PATH=$PATH:$HOME/.cargo/bin
 fi
 
+if [ -d "/opt/blender-3.5.1-linux-x64" ] ; then
+    export PATH=$PATH:/opt/blender-3.5.1-linux-x64
+fi
+
+
+export PYENV_ROOT="$HOME/.pyenv"
 export CUDA_HOME=/usr/local/cuda-11.8
+
+if [ -d "$HOME/venv/lib/python3.11/site-packages" ] ; then
+    export PYTHONPATH="$HOME/venv/lib/python3.11/site-packages:$PYTHONPATH"
+fi
+
+if [ -d "$PYENV_ROOT/bin" ] ; then
+    export PATH=$PATH:$PYENV_ROOT/bin
+fi
+
+export SSH_ASKPASS=/usr/bin/ksshaskpass
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR"/ssh-agent.socket
 
 
 export EDITOR="nano"
@@ -79,16 +99,17 @@ export DIR_PICTURES="$HOME/2-media"
     export DIR_SCREENSHOTS="$DIR_PICTURES/screenshots/"
 export DIR_AUDIO="$HOME/3-audio"
 export DIR_EDUCATION="$HOME/4-education"
-export DIR_ASSETS="$HOME/5-assets"
+export DIR_ASSETS="$HOME/.assets"
 export DIR_DOWNLOADS="$HOME/Downloads"
 export DIR_PROJECTS="$HOME/projects"
-
+export DIR_SECRETS="$HOME/.secrets"
 export DIR_GEP="/media/matej/ex-gep"
 export DIR_SAM="/media/matej/sam"
 
 export FILE_PACKAGES="$HOME/.assets/packages.txt"
 export DIR_BACKUP_DEST="/tmp/backup-veracrypt"
 export FILE_BACKUP="$DIR_SAM/home-backup.hc"
+export FILE_SPOTIFY_SECRET="$DIR_SECRETS/spotify.sh"
 
 #etc
 export TIMEFS="%F"

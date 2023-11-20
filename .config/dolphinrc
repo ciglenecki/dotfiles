@@ -8,7 +8,6 @@ Height 1080=252
 Width 1920=276
 
 [CompactMode]
-FontWeight=50
 PreviewSize=16
 
 [CreateDialog]
@@ -19,13 +18,14 @@ DefaultProfile=Profile 3.profile
 
 [DetailsMode]
 ExpandableFolders=false
-FontWeight=50
-PreviewSize=16
+PreviewSize=32
 
 [ExtractDialog]
-DirHistory[$e]=$HOME/Downloads/dubuce projekt/all_images/
-HDMI-0 Height 1920x1080=560
-HDMI-0 Width 1920x1080=1280
+1920x1080 screen: Height=544
+1920x1080 screen: Width=1410
+DirHistory[$e]=/opt/,$HOME/projects/lumen-audio/data/,$HOME/Downloads/,$HOME/Downloads/dubuce projekt/all_images/
+HDMI-0 Height 1920x1080=547
+HDMI-0 Width 1920x1080=1279
 
 [Favorite Profiles]
 Favorites=
@@ -39,26 +39,29 @@ RememberOpenedTabs=false
 ShowFullPath=true
 ShowFullPathInTitlebar=true
 ShowZoomSlider=false
-Version=201
+Version=202
 ViewPropsTimestamp=2021,11,7,23,26,33
 
 [IconsMode]
-FontWeight=50
-IconSize=48
-PreviewSize=112
+IconSize=16
+PreviewSize=256
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME,file:$HOME/2-media/icons/document_clip.png,file:$HOME/2-media/icons/tmp_tree.png
-Recent URLs[$e]=file:$HOME/2-media/icons/,file:$HOME/Downloads/dubuce projekt/all_images/,file:$HOME/
+Places Icons Auto-resize=false
+Places Icons Static Size=16
+Recent Files[$e]=file:$HOME/projects/lumen-audio/data,file:///opt
+Recent URLs[$e]=file:$HOME/projects/lumen-audio/,file:///opt/,file:$HOME/2-media/icons/,file:$HOME/,file:$HOME/Downloads/,file:$HOME/projects/lumen-audio/data/,file:///
 detailViewIconSize=16
 
 [KPropertiesDialog]
+1920x1080 screen: Height=458
+1920x1080 screen: Width=398
 DP-0 HDMI-0 Height 1920x1080=458
 DP-0 HDMI-0 Height 2560x1440=587
 DP-0 HDMI-0 Width 1920x1080=383
 DP-0 HDMI-0 Width 2560x1440=518
 HDMI-0 Height 1920x1080=458
-HDMI-0 Width 1920x1080=384
+HDMI-0 Width 1920x1080=311
 HDMI-1 Height 1920x1080=458
 HDMI-1 Width 1920x1080=378
 Height 1080=524
@@ -98,16 +101,17 @@ DP-0 HDMI-0 eDP-1-1 XPosition 1920x1080=0
 DP-0 HDMI-0 eDP-1-1 XPosition 2560x1440=1920
 DP-0 HDMI-0 eDP-1-1 YPosition 1920x1080=0
 DP-0 HDMI-0 eDP-1-1 YPosition 2560x1440=0
-HDMI-0 Height 1920x1080=525
-HDMI-0 Width 1920x1080=923
-HDMI-0 XPosition 1920x1080=996
-HDMI-0 YPosition 1920x1080=530
+HDMI-0 Height 1920x1080=1055
+HDMI-0 Width 1920x1080=1920
+HDMI-0 Window-Maximized 1920x1080=true
+HDMI-0 XPosition 1920x1080=0
+HDMI-0 YPosition 1920x1080=0
 HDMI-0 eDP-1-1 Height 1920x1080=1058
 HDMI-0 eDP-1-1 Width 1920x1080=1648
 HDMI-0 eDP-1-1 XPosition 1920x1080=271
 HDMI-0 eDP-1-1 YPosition 1920x1080=22
 HDMI-1 Height 1920x1080=1056
-HDMI-1 Width 1920x1080=1920
+HDMI-1 Width 1920x1080=986
 HDMI-1 XPosition 1920x1080=0
 HDMI-1 YPosition 1920x1080=0
 HDMI-1 eDP-1 Height 1920x1080=1046
@@ -159,13 +163,17 @@ eDP-1-1 YPosition 1920x1080=376
 
 [Open-with settings]
 CompletionMode=1
-History=kate,code,imp,shut,shutt,brave,gwe,free,okular,packa
+History=wine,code,kate,imp,shut,shutt,brave,gwe,free,okular,packa
 
 [PlacesPanel]
 IconSize=16
 
 [PreviewSettings]
 Plugins=audiothumbnail,blenderthumbnail,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,textthumbnail,ffmpegthumbs
+
+[Search]
+Location=Everywhere
+What=Content
 
 [SettingsDialog]
 Height 1080=456
@@ -174,7 +182,7 @@ Width 1920=561
 Width 2560=691
 
 [ViewPropertiesDialog]
-HDMI-0 Height 1920x1080=714
-HDMI-0 Width 1920x1080=375
+HDMI-0 Height 1920x1080=449
+HDMI-0 Width 1920x1080=355
 Height 1080=704
 Width 1920=375

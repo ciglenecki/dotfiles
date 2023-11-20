@@ -5,11 +5,11 @@
 # Description:  Script that executes on login.
 #################################
 
-HOME="/home/matej"
+HOME=$(eval echo "~matej")
 
-sxhkd &
 yakuake &
-flameshot &
+# flameshot &
+sxhkd &
 
 #$BROWSERUSER $BROWSERASAPP$CAL &
 #$BROWSERUSER $BROWSERASAPP$TODO_TODAY &
@@ -17,10 +17,11 @@ flameshot &
 
 # barrier &
 trickle -s -u 6250 -d 6250 insync start &
-thunderbird &
+# thunderbird &
 # qbittorrent &
 syncthing -no-browser &
 
-/usr/sbin/anacron -s -t $HOME/.anacron/etc/anacrontab -S $HOME/.anacron/spool &
+
+# /usr/sbin/anacron -s -t $HOME/.anacron/etc/anacrontab -S $HOME/.anacron/spool &
 
 # /home/matej/.scripts/move_downloads_to_subdirectories.sh &

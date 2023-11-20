@@ -6,7 +6,7 @@
 #               some variables depend on ~/.script/env.sh 
 #################################
 
-HOME="/home/$(whoami)"
+HOME=$(eval echo "~matej")
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
@@ -59,25 +59,25 @@ alias path='echo -e ${PATH//:/\\n}' # print each PATH entry on a separate line
 alias k='killall'
 alias bat='batcat'
 alias wttr='curl wttr.in/Zagreb?format=v2'
-alias clear='\clear;source ~/.bashrc' # clear the terminal and source (execute) bashrc
+# alias clear='\clear;source ~/.bashrc' # clear the terminal and source (execute) bashrc
 alias clipboard="xclip -o -selection clipboard" # paste the clipboard entry
 alias de="deactivate"
 alias study="$BROWSERUSER $BROWSERASAPP$STUDY_SHEET &"
 alias cal="$BROWSERUSER $BROWSERASAPP$CAL &"
 alias pomo="$BROWSERUSER $BROWSERASAPP$POMODORO &"
 alias poe="poetry"
-
+alias code="code -a"
 
 # extglob If set, the extended pattern matching features described above under Pathname Expansion are enabled.
 shopt -s extglob
 
 
 # Set dynamic subject names alias 
-if [ -d "$DIR_FER" ]; then
-    for subject in $(ls $DIR_FER | sed -nE 's/^([a-zA-Z].*)/\1/p'); do
-        alias $subject="cs $DIR_FER/$subject"
-    done
-fi
+# if [ -d "$DIR_FER" ]; then
+#     for subject in $(ls $DIR_FER | sed -nE 's/^([a-zA-Z].*)/\1/p'); do
+#         alias $subject="cs $DIR_FER/$subject"
+#     done
+# fi
 
 ################
 # FUNCTIONS 
@@ -113,7 +113,7 @@ function rename_images(){
 # `o` opens the current directory or opens the argument (file)
 function o() {
 	if [ $# -eq 0 ]; then
-		open . > /dev/null 2>&1;
+		open .
 	else
         for file in "$@"
         do
@@ -215,6 +215,7 @@ function addpackage() {
 # run set of commands with nohup
 function run() {
     nohup "$@" >/dev/null 2>&1 &
+    disown
 }
 
 function renameall() {
@@ -234,6 +235,7 @@ function renameall() {
     rename 's/-+/-/g if -d;' *
 }
 
+
 function note() {
     note_file=$DIR_NOTES/notes.txt
     str="$*"
@@ -252,6 +254,10 @@ function focus_all_windows_on_current_desktop() {
     . $HOME/.scripts/focus_all_windows_on_current_desktop.sh
 }
 
+function extendpdf() {
+    cp $1 $1.old
+    pdfcrop --margins '350 50 350 50' "$1" "$1"
+}
 
 function cp_compile {
     g++ -Wall -Wextra -Wshadow -D_GLIBCXX_ASSERTIONS -ggdb3 -fmax-errors=2 -o a $1
@@ -265,22 +271,18 @@ function cp_test {
     . $HOME/projects/codeforces-testcases-parser/test.sh
 }
 
-function test_args {
-    if [ "$#" -ne 4 ]; then
-        echo "Illegal number of parameters";
-    fi
-    
 
-    if { [ -z "$1" ] || [ -z "$2" ] || [ -z "$3" ] || [ -z "$4" ] ;}; then
-        echo $1 $2 $3 $4
-        echo "aa";
-    fi
-}
-
-function nerf_uri {
-    local hex_=$(printf '+{"containerName":"/mciglenecki-nerfstudio","settings":{"host":"ssh://mciglenecki@zver1.zesoi.fer.hr:443"}}' | od -A n -t x1 | tr -d '[\n\t ]')
-    local path_uri="/root/projects/nerf-research/"
+function projects_uri {
+    local hex_=$(printf '+{"containerName":"/mciglenecki-projects","settings":{"host":"ssh://mciglenecki@zver1.zesoi.fer.hr:443"}}' | od -A n -t x1 | tr -d '[\n\t ]')
+    local path_uri="/root/projects/nerf-research"
     local folder_uri="vscode-remote://attached-container%$hex_:$path_uri"
     echo $folder_uri
-    # 2b7b22636f6e7461696e65724e616d65223a222f6d6369676c656e65636b692d6e65726673747564696f222c2273657474696e6773223a7b22686f7374223a227373683a2f2f6d6369676c656e65636b69407a766572312e7a65736f692e6665722e68723a343433227d7d
+}
+
+
+function audio_uri {
+    local hex_=$(printf '+{"containerName":"/mciglenecki-audio-shm","settings":{"host":"ssh://mciglenecki@zver1.zesoi.fer.hr:443"}}' | od -A n -t x1 | tr -d '[\n\t ]')
+    local path_uri="/root/lumen-audio/"
+    local folder_uri="vscode-remote://attached-container%$hex_:$path_uri"
+    echo $folder_uri
 }

@@ -15,5 +15,11 @@ set match-hidden-files off
 set enable-bracketed-paste on
 
 # Page up/down for reverse serach history
-# "\e[5~": history-search-backward
-# "\e[6~": history-search-forward
+"\e[5~": history-search-backward
+"\e[6~": history-search-forward
+
+"\e\e[D": backward-word
+"\e\e[C": forward-word
+
+"^[[A": up-line-or-search
+"^[[B": down-line-or-search

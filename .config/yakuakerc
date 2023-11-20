@@ -26,7 +26,7 @@ Favorites=
 [KFileDialog Settings]
 Recent Files[$e]=877650.jpg,file:$HOME/2-media/wallpaper/MilkyWay.png
 Recent URLs[$e]=file:$HOME/2-media/wallpaper/
-detailViewIconSize=0
+detailViewIconSize=16
 
 [Shortcuts]
 close-active-terminal=Alt+W
@@ -49,10 +49,11 @@ previous-terminal=Alt+J
 rename-session=Alt+S
 split-left-right=Alt+[
 split-top-bottom=Alt+]
-switch-to-session-1=Alt+1
-switch-to-session-2=Alt+2
-switch-to-session-3=Alt+3
-switch-to-session-4=Alt+4
+switch-to-session-1=none
+switch-to-session-2=none
+switch-to-session-3=none
+switch-to-session-4=none
+switch-to-session-5=none
 view-full-screen=none
 
 [Window]

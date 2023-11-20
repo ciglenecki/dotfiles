@@ -1,5 +1,5 @@
 [$Version]
-update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,kwin.upd:replace-cascaded-zerocornered
 
 [Compositing]
 Backend=OpenGL
@@ -15,9 +15,11 @@ XRenderSmoothScale=false
 [Desktops]
 Id_1=c141142a-5176-45fe-9b5d-5e9b89115fac
 Id_2=1fbdf8ac-bbf1-498b-b4a6-27324861d580
+Id_3=e04ff956-8a04-4594-82e4-0ec3cd94598f
 Name_1=1-main
-Name_2=2-media
-Number=2
+Name_2=2-main2
+Name_3=3-media
+Number=3
 Rows=1
 
 [Effect-DimInactive]
@@ -26,9 +28,6 @@ Strength=5
 
 [Effect-Slide]
 Duration=400
-
-[KDE]
-AnimationDurationFactor=0.5
 
 [MouseBindings]
 CommandActiveTitlebar1=Raise
@@ -51,16 +50,19 @@ CommandWindowWheel=Scroll
 [NightColor]
 Active=true
 LatitudeAuto=45.8293
+LatitudeFixed=47.12581689349732
 LongitudeAuto=15.9793
+LongitudeFixed=10.69
 Mode=Constant
-NightTemperature=2500
+NightTemperature=2600
 
 [Plugins]
 bismuthEnabled=false
-desktopchangeosdEnabled=false
+desktopchangeosdEnabled=true
 diminactiveEnabled=true
 krohnkiteEnabled=true
 minimizeallEnabled=false
+slideEnabled=false
 synchronizeskipswitcherEnabled=false
 videowallEnabled=false
 virtual-desktops-only-on-primaryEnabled=true
@@ -87,10 +89,12 @@ enableSpiralLayout=false
 enableSpreadLayout=false
 enableStairLayout=false
 enableThreeColumnLayout=false
-keepFloatAbove=false
+floatingClass=matplotlib
+floatingTitle=matplotlib
+ignoreClass=krunner,yakuake,spectacle,kded5,matplotlib
+ignoreTitle=Plasma
 layoutPerActivity=false
 maximizeSoleTile=true
-monocleMaximize=false
 noTileBorder=true
 preventProtrusion=false
 tileLayoutGap=5
@@ -98,7 +102,12 @@ tileLayoutGap=5
 [TabBox]
 DesktopLayout=org.kde.breeze.desktop
 DesktopListLayout=org.kde.breeze.desktop
-LayoutName=org.kde.breeze.desktop
+
+[Tiling]
+padding=4
+
+[Tiling][7c6cb96c-6e18-5658-853a-6a70b47a352b]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Windows]
 ActiveMouseScreen=true

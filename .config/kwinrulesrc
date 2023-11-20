@@ -2,24 +2,13 @@
 update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
 
 [1]
-Description=Unnamed entry
-maximizehoriz=true
-maximizehorizrule=3
-maximizevert=true
-maximizevertrule=3
-wmclass=^((?!(krunner|yakuake|spectacle|kded5)).)*$\n
-wmclasscomplete=false
-wmclassmatch=3
-
-[2]
-Description=borders
-maxsize=32767,32767
-maxsizerule=2
+Description=Settings for plasmashell
+minimize=true
+minimizerule=3
 noborder=true
-noborderrule=3
-wmclass=
-wmclasscomplete=false
-wmclassmatch=0
+noborderrule=2
+wmclass=plasmashell
+wmclassmatch=1
 
 [3]
 Description=thunderbird
@@ -31,16 +20,33 @@ wmclass=mail thunderbird
 wmclasscomplete=true
 wmclassmatch=1
 
+[8a1023c7-9b78-44b0-9bae-8556b17dadba]
+Description=Settings for latexocr latexocr
+fullscreen=true
+fullscreenrule=3
+wmclass=latexocr latexocr
+wmclasscomplete=true
+wmclassmatch=1
+
 [General]
 XftAntialias[$d]
 XftHintStyle[$d]
 XftSubPixel[$d]
 count=2
-rules=1,2
+rules=1,8a1023c7-9b78-44b0-9bae-8556b17dadba
 
 [KDE]
 LookAndFeelPackage[$d]
 SingleClick[$d]
+
+[c45bd9f5-2b6e-4b38-b200-4267a5519099]
+Description=Settings for plasmashell
+minimize=true
+minimizerule=3
+noborder=true
+noborderrule=2
+wmclass=plasmashell
+wmclassmatch=1
 
 [f67ba343-225e-4243-976c-834b190746c2]
 Description=New window settings

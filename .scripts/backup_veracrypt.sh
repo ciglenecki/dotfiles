@@ -26,7 +26,7 @@ if [ "$EUID" -ne 0 ]; then
     exit 1
 fi
 
-HOME="/home/matej"
+HOME=$(eval echo "~matej")
 . $HOME/.scripts/env.sh
 SRC=$HOME/*; # files inside of home
 FILE_BACKUP=$FILE_BACKUP
@@ -45,7 +45,7 @@ fi
 
 echo "Mounting a new disk...";
 
-veracrypt -t -k "" --pim=0 --protect-hidden=no --mount $FILE_BACKUP $DEST_MOUNT_LOCATION
+veracrypt -t -k "" --pim=0 --protect-hidden=no -m=nokernelcrypto --mount $FILE_BACKUP $DEST_MOUNT_LOCATION
 
 if [ $? -eq 0 ]; then
     echo "Veracrypt mounted at $DEST_MOUNT_LOCATION";
