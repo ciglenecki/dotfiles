@@ -188,4 +188,6 @@
     "black"
   ],
   "notebook.output.textLineLimit": 300,
+  "python.defaultInterpreterPath": "/home/matej/projects/ml-font-classifier/venv",
+  "window.zoomLevel": 1,
 }

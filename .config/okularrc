@@ -37,12 +37,16 @@ HDMI-0 YPosition 1920x1080=0
 Height 1080=515
 Height 1920=1888
 Height 720=1058
-State=AAAA/wAAAAD9AAAAAAAAAxEAAAPTAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAAAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAA==
+State=AAAA/wAAAAD9AAAAAAAABzwAAAPUAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAAAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 Width 1080=1080
 Width 1280=1920
 Width 1920=1073
 Window-Maximized 768x1360=true
+eDP-1 Height 1920x1080=1056
+eDP-1 Width 1920x1080=1920
+eDP-1 XPosition 1920x1080=0
+eDP-1 YPosition 1920x1080=0
 
 [Notification Messages]
 ShowTabWarning=true
@@ -52,21 +56,23 @@ Height 1080=889
 Width 1920=840
 
 [Recent Files]
-File1[$e]=$HOME/fer/oos/1-lectures/07_sustavi.pdf
-File2[$e]=$HOME/fer/oos/1-lectures/08_z_i_laplaceova_transformacija.pdf
-File3[$e]=$HOME/fer/oos/1-lectures/09_prijenosna_funkcija.pdf
-File4[$e]=zip:///home/matej/Downloads/Repository (1).zip/Akademska skolska godina 2021.-2022./OOS_20211130_medjuispit_rjesenja.pdf
-File5[$e]=$HOME/fer/oos/1-lectures/DOS_2017-2018_predavanje_06.pdf
-File6[$e]=$HOME/fer/oos/1-lectures/15_fft.pdf
-File7[$e]=$HOME/fer/oos/1-lectures/16_izvedba_filtara.pdf
-File8[$e]=zip:/home/matej/1-documents/_archived/ages_old.zip/shitpost-papic.txt
-File9[$e]=$HOME/projects/lumen-audio/references/zadatak.pdf
-Name1[$e]=07_sustavi.pdf
-Name2[$e]=08_z_i_laplaceova_transformacija.pdf
-Name3[$e]=09_prijenosna_funkcija.pdf
-Name4[$e]=OOS_20211130_medjuispit_rjesenja.pdf
-Name5[$e]=DOS_2017-2018_predavanje_06.pdf
-Name6[$e]=15_fft.pdf
-Name7[$e]=16_izvedba_filtara.pdf
-Name8[$e]=shitpost-papic.txt
-Name9[$e]=zadatak.pdf
+File1[$e]=$HOME/fer/oos/1-lectures/09_prijenosna_funkcija.pdf
+File10[$e]=$HOME/Downloads/potvrda_o_upisu_100714.pdf
+File2[$e]=zip:///home/matej/Downloads/Repository (1).zip/Akademska skolska godina 2021.-2022./OOS_20211130_medjuispit_rjesenja.pdf
+File3[$e]=$HOME/fer/oos/1-lectures/DOS_2017-2018_predavanje_06.pdf
+File4[$e]=$HOME/fer/oos/1-lectures/15_fft.pdf
+File5[$e]=$HOME/fer/oos/1-lectures/16_izvedba_filtara.pdf
+File6[$e]=zip:/home/matej/1-documents/_archived/ages_old.zip/shitpost-papic.txt
+File7[$e]=$HOME/projects/lumen-audio/references/zadatak.pdf
+File8[$e]=$HOME/Downloads/Ponuda za posao - Matej Ciglenečki.pdf
+File9[$e]=$HOME/Downloads/potvrda_o_upisu_s_prijepisom_ocjena_100715.pdf
+Name1[$e]=09_prijenosna_funkcija.pdf
+Name10[$e]=potvrda_o_upisu_100714.pdf
+Name2[$e]=OOS_20211130_medjuispit_rjesenja.pdf
+Name3[$e]=DOS_2017-2018_predavanje_06.pdf
+Name4[$e]=15_fft.pdf
+Name5[$e]=16_izvedba_filtara.pdf
+Name6[$e]=shitpost-papic.txt
+Name7[$e]=zadatak.pdf
+Name8[$e]=Ponuda za posao - Matej Ciglenečki.pdf
+Name9[$e]=potvrda_o_upisu_s_prijepisom_ocjena_100715.pdf
