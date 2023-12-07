@@ -87,9 +87,11 @@ _k_friendly_name=Session Management
 [kwin]
 Activate Window Demanding Attention=Ctrl+Alt+A,Meta+Ctrl+A,Activate Window Demanding Attention
 Decrease Opacity=none,,Decrease Opacity of Active Window by 5%
+Edit Tiles=none,Meta+T,Toggle Tiles Editor
 Expose=Meta+D,Ctrl+F9,Toggle Present Windows (Current desktop)
 ExposeAll=Launch (C),Ctrl+F10\tLaunch (C),Toggle Present Windows (All desktops)
 ExposeClass=Ctrl+F7,Ctrl+F7,Toggle Present Windows (Window class)
+ExposeClassCurrentDesktop=none,none,Toggle Present Windows (Window class on current desktop)
 Increase Opacity=none,,Increase Opacity of Active Window by 5%
 Invert=none,Meta+Ctrl+I,Toggle Invert Effect
 Invert Screen Colors=none,none,Invert Screen Colors
@@ -343,7 +345,7 @@ removeLastDesktop=none,,Virtual Desktop Bar - Remove Last Desktop
 renameCurrentDesktop=none,,Virtual Desktop Bar - Rename Current Desktop
 switchToRecentDesktop=none,,Virtual Desktop Bar - Switch to Recent Desktop
 view_actual_size=Meta+0,Meta+0,Zoom to Actual Size
-view_zoom_in=Meta+=,Meta+=,Zoom In
+view_zoom_in=Meta+=,Meta++,Zoom In
 view_zoom_out=Meta+-,Meta+-,Zoom Out
 
 [mediacontrol]

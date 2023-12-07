@@ -61,12 +61,12 @@ plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
 PreloadWeight=100
-popupHeight=496
+popupHeight=590
 popupWidth=914
 
 [Containments][2][Applets][3][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
+DialogHeight=1080
+DialogWidth=1920
 
 [Containments][2][Applets][3][Configuration][Configuration/General]
 showAppsByName=true
@@ -305,7 +305,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][8][Applets][17][Configuration]
-PreloadWeight=84
+PreloadWeight=25
 
 [Containments][8][Applets][22]
 immutability=1
@@ -319,7 +319,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][23][Configuration]
-PreloadWeight=89
+PreloadWeight=70
 
 [Containments][8][Applets][24][Configuration]
 PreloadWeight=42
@@ -353,7 +353,7 @@ immutability=1
 plugin=org.kde.kscreen
 
 [Containments][8][Applets][57][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][8][Applets][9][Configuration]
 PreloadWeight=42

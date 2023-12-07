@@ -18,7 +18,7 @@ DefaultProfile=Profile 3.profile
 
 [DetailsMode]
 ExpandableFolders=false
-PreviewSize=32
+PreviewSize=22
 
 [ExtractDialog]
 1920x1080 screen: Height=544
@@ -44,7 +44,7 @@ ViewPropsTimestamp=2021,11,7,23,26,33
 
 [IconsMode]
 IconSize=16
-PreviewSize=256
+PreviewSize=144
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
@@ -55,7 +55,7 @@ detailViewIconSize=16
 
 [KPropertiesDialog]
 1920x1080 screen: Height=458
-1920x1080 screen: Width=398
+1920x1080 screen: Width=414
 DP-0 HDMI-0 Height 1920x1080=458
 DP-0 HDMI-0 Height 2560x1440=587
 DP-0 HDMI-0 Width 1920x1080=383
@@ -168,7 +168,6 @@ IconSize=16
 Plugins=audiothumbnail,blenderthumbnail,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,textthumbnail,ffmpegthumbs
 
 [Search]
-Location=Everywhere
 What=Content
 
 [SettingsDialog]

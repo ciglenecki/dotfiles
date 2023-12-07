@@ -155,7 +155,6 @@
     "*.class": "default"
   },
   "jupyter.askForKernelRestart": false,
-  "workbench.editor.untitled.hint": "hidden",
   "editor.acceptSuggestionOnEnter": "off",
   "editor.smoothScrolling": true,
   "editor.cursorSmoothCaretAnimation": "on",
@@ -228,5 +227,6 @@
   "python.experiments.enabled": false,
   "python.analysis.autoImportCompletions": true,
   "python.analysis.diagnosticMode": "workspace",
-  "workbench.editor.empty.hint": "hidden"
+  "workbench.editor.empty.hint": "hidden",
+  "cmake.configureOnOpen": true
 }

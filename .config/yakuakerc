@@ -41,7 +41,6 @@ increase-window-height=Meta+Alt+Up
 increase-window-width=Meta+Alt+Left
 move-session-left=Alt+Shift+L
 move-session-right=Alt+Shift+H
-new-session=Ctrl+T
 next-session=Alt+L
 next-terminal=Alt+K
 previous-session=Alt+H

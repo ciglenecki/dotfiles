@@ -30,8 +30,9 @@ detailViewIconSize=16
 
 [MainWindow]
 1920x1080 screen: Height=1050
-1920x1080 screen: Width=1162
-1920x1080 screen: XPosition=757
+1920x1080 screen: Width=1060
+1920x1080 screen: Window-Maximized=true
+1920x1080 screen: XPosition=859
 1920x1080 screen: YPosition=0
 HDMI-0=HDMI-0
 HDMI-0 Height 1920x1080=1021
@@ -41,7 +42,7 @@ HDMI-0 YPosition 1920x1080=29
 Height 1080=515
 Height 1920=1888
 Height 720=1058
-State=AAAA/wAAAAD9AAAAAAAABEYAAAP8AAAABAAAAAQAAAAIAAAACPwAAAADAAAAAAAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+State=AAAA/wAAAAD9AAAAAAAAAroAAAP8AAAABAAAAAQAAAAIAAAACPwAAAADAAAAAAAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 Width 1080=1080
 Width 1280=1920
@@ -56,23 +57,23 @@ Height 1080=889
 Width 1920=840
 
 [Recent Files]
-File1[$e]=$HOME/1-documents/work/ciglenecki.github.io/cover_letter_matej_ciglenecki.pdf
-File10[$e]=$HOME/Downloads/Operativni sustavi i računalne mreže - Linux u primjeni.pdf
-File2[$e]=$HOME/1-documents/work/ciglenecki.github.io/happening_ml/cv_matej_ciglenecki.pdf
-File3[$e]=$HOME/1-documents/work/ciglenecki.github.io/hf/cv_matej_ciglenecki.pdf
-File4[$e]=$HOME/1-documents/work/ciglenecki.github.io/se/cv_matej_ciglenecki_se.pdf
-File5[$e]=$HOME/1-documents/work/ciglenecki.github.io/happening_ml/cv_matej_ciglenecki2.pdf
-File6[$e]=$HOME/1-documents/work/ciglenecki.github.io/blackshark/cv_matej_ciglenecki.pdf
-File7[$e]=$HOME/Downloads/[Effective Software Development Series] Brett Slatkin - Effective Python_ 59 Specific Ways to Write Better Python (2015, Addison-Wesley Professional) - libgen.li.pdf
-File8[$e]=$HOME/Downloads/BI Developer - JD.pdf
-File9[$e]=$HOME/Downloads/Brett Slatkin - Effective Python_ 90 Specific Ways to Write Better Python (2019, Addison-Wesley Professional) - libgen.li.pdf
-Name1[$e]=cover_letter_matej_ciglenecki.pdf
-Name10[$e]=Operativni sustavi i računalne mreže - Linux u primjeni.pdf
+File1[$e]=$HOME/1-documents/work/cv/2023-njuskalo/cv_matej_ciglenecki.pdf
+File10[$e]=$HOME/4-education/papers/super-resolution/hitchhiker_super_resolution.pdf
+File2[$e]=$HOME/1-documents/work/cv/2023-comping/cv_matej_ciglenecki.pdf
+File3[$e]=$HOME/1-documents/work/cv/2023-happening_ml/cv_matej_ciglenecki.pdf
+File4[$e]=$HOME/1-documents/work/cv/2023-eng-cv/cv_matej_ciglenecki.pdf
+File5[$e]=$HOME/4-education/papers/super-resolution/esrgan.pdf.old
+File6[$e]=$HOME/4-education/papers/super-resolution/srgan.pdf
+File7[$e]=$HOME/4-education/papers/super-resolution/esrgan.pdf
+File8[$e]=$HOME/1-documents/edu/potvrda_o_upisu_100714.pdf
+File9[$e]=$HOME/1-documents/edu/potvrda_o_upisu_s_prijepisom_ocjena_100715.pdf
+Name1[$e]=cv_matej_ciglenecki.pdf
+Name10[$e]=hitchhiker_super_resolution.pdf
 Name2[$e]=cv_matej_ciglenecki.pdf
 Name3[$e]=cv_matej_ciglenecki.pdf
-Name4[$e]=cv_matej_ciglenecki_se.pdf
-Name5[$e]=cv_matej_ciglenecki2.pdf
-Name6[$e]=cv_matej_ciglenecki.pdf
-Name7[$e]=[Effective Software Development Series] Brett Slatkin - Effective Python_ 59 Specific Ways to Write Better Python (2015, Addison-Wesley Professional) - libgen.li.pdf
-Name8[$e]=BI Developer - JD.pdf
-Name9[$e]=Brett Slatkin - Effective Python_ 90 Specific Ways to Write Better Python (2019, Addison-Wesley Professional) - libgen.li.pdf
+Name4[$e]=cv_matej_ciglenecki.pdf
+Name5[$e]=esrgan.pdf.old
+Name6[$e]=srgan.pdf
+Name7[$e]=esrgan.pdf
+Name8[$e]=potvrda_o_upisu_100714.pdf
+Name9[$e]=potvrda_o_upisu_s_prijepisom_ocjena_100715.pdf

@@ -127,7 +127,7 @@ shadeSortColumn=true
 widgetStyle=Breeze
 
 [KDE]
-AnimationDurationFactor=0
+AnimationDurationFactor=0.125
 ColorScheme=Breeze
 LookAndFeelPackage=org.kde.breeze.desktop
 ScrollbarLeftClickNavigatesByPage=false
@@ -142,14 +142,14 @@ Breadcrumb Navigation=false
 Decoration position=2
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
-Preview Width=262
+Preview Width=279
 Show Bookmarks=false
 Show Full Path=false
 Show Inline Previews=false
 Show Preview=true
 Show Speedbar=true
 Show hidden files=true
-Sort by=Name
+Sort by=Date
 Sort directories first=true
 Sort hidden files last=false
 Sort reversed=true
@@ -161,7 +161,7 @@ ScaleFactor=1
 ScreenScaleFactors=eDP-1=1;DP-1=1;HDMI-1=1;
 
 [KShortcutsDialog Settings]
-Dialog Size=856,599
+Dialog Size=1020,699
 
 [PreviewSettings]
 MaximumRemoteSize=0

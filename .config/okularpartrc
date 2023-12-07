@@ -16,7 +16,8 @@ ttsVoice=kal16
 
 [Main View]
 ShowBottomBar=true
-SplitterSizes=348,745
+ShowLeftPanel=false
+SplitterSizes=203,885
 
 [Nav Panel]
 GroupByAuthor=false

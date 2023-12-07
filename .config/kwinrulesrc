@@ -10,6 +10,14 @@ noborderrule=2
 wmclass=plasmashell
 wmclassmatch=1
 
+[2]
+Description=Settings for latexocr latexocr
+fullscreen=true
+fullscreenrule=3
+wmclass=latexocr latexocr
+wmclasscomplete=true
+wmclassmatch=1
+
 [3]
 Description=thunderbird
 clientmachine=localhost
@@ -32,12 +40,22 @@ wmclassmatch=1
 XftAntialias[$d]
 XftHintStyle[$d]
 XftSubPixel[$d]
-count=2
-rules=1,8a1023c7-9b78-44b0-9bae-8556b17dadba
+count=3
+rules=1,2,ac898e1c-7810-4be3-b29b-5b624d17e91c
 
 [KDE]
 LookAndFeelPackage[$d]
 SingleClick[$d]
+
+[ac898e1c-7810-4be3-b29b-5b624d17e91c]
+Description=New window settings
+fullscreen=true
+fullscreenrule=3
+maximizehoriz=true
+maximizehorizrule=3
+maximizevert=true
+maximizevertrule=3
+wmclassmatch=1
 
 [c45bd9f5-2b6e-4b38-b200-4267a5519099]
 Description=Settings for plasmashell

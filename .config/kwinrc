@@ -7,9 +7,8 @@ Enabled=false
 GLCore=true
 GLPreferBufferSwap=e
 GLTextureFilter=1
-LatencyPolicy=ExtremelyHigh
+LatencyPolicy=Low
 OpenGLIsUnsafe=false
-WindowsBlockCompositing=false
 XRenderSmoothScale=false
 
 [Desktops]
@@ -58,11 +57,9 @@ NightTemperature=2600
 
 [Plugins]
 bismuthEnabled=false
-desktopchangeosdEnabled=true
-diminactiveEnabled=true
+blurEnabled=false
 krohnkiteEnabled=true
 minimizeallEnabled=false
-slideEnabled=false
 synchronizeskipswitcherEnabled=false
 videowallEnabled=false
 virtual-desktops-only-on-primaryEnabled=true
@@ -81,7 +78,7 @@ preventMinimize=true
 tileLayoutGap=5
 
 [Script-desktopchangeosd]
-PopupHideDelay=0
+PopupHideDelay=50
 TextOnly=true
 
 [Script-krohnkite]
@@ -94,7 +91,6 @@ floatingTitle=matplotlib
 ignoreClass=krunner,yakuake,spectacle,kded5,matplotlib
 ignoreTitle=Plasma
 layoutPerActivity=false
-maximizeSoleTile=true
 noTileBorder=true
 preventProtrusion=false
 tileLayoutGap=5
@@ -105,6 +101,9 @@ DesktopListLayout=org.kde.breeze.desktop
 
 [Tiling]
 padding=4
+
+[Tiling][58ca410b-ce44-58d6-82b9-fefe44aba0e3]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][7c6cb96c-6e18-5658-853a-6a70b47a352b]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
