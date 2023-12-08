@@ -140,4 +140,7 @@ wget -O "$TEMP_DEB" https://cdn.insynchq.com/builds/linux/insync_3.8.6.50504-lun
 sudo dpkg -i "$TEMP_DEB"
 rm -f "$TEMP_DEB"
 
+# Startup script chmod +x
+chmod +x $HOME/.config/autostart/*
+
 run sxhkd
