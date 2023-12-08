@@ -1,5 +1,10 @@
 # dotfiles - mainly for Kubuntu
 
+```
+sudo apt install -y curl
+bash <(curl -s https://raw.githubusercontent.com/ciglenecki/dotfiles/master/.scripts/clone_github_dotfiles.sh)
+```
+
 files I curated/collected/configured
 
 ## Assets
