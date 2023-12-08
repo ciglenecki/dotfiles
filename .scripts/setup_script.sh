@@ -110,7 +110,7 @@ git config --global user.email "matej.ciglenecki@gmail.com"
 git config --global user.name "Matej Ciglenečki"
 
 # Set GpG agent to CLI instead of GUI
-sudo apt install pinentry-tty
+sudo apt install -y pinentry-tty
 sudo update-alternatives --config pinentry
 
 # Install bash git prompt, only git pull, that's it
