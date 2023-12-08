@@ -33,9 +33,7 @@ come to new machine in dolphin and go to smb://
 
 6. smbget -R smb://hotpan.local/.thunderbird/ ~/.thunderbird
 
-7. install vscode extensions
-
-8. copy gpg private key by running
+7. copy gpg private key by running
 gpg --import private.key
 '
 
@@ -131,5 +129,11 @@ pip install spotipy python-dotenv
 
 source $HOME/.profile
 source $HOME/.scripts/login.sh
+
+# Install insync
+TEMP_DEB="$(mktemp)" &&
+wget -O "$TEMP_DEB" https://cdn.insynchq.com/builds/linux/insync_3.8.6.50504-lunar_amd64.deb 2>&1 | tee &&
+sudo dpkg -i "$TEMP_DEB"
+rm -f "$TEMP_DEB"
 
 run sxhkd
