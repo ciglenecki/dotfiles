@@ -4,8 +4,8 @@
 75.49834435270752	/media/matej/c19a0f77-8b20-495d-88d3-0b8ca10d0bf8/home/matej
 251.396101799531	/home/matej/projects
 50.990195135927856	/home/matej/.config/autostart
-108.16653826391963	/home/matej/1-documents
-119.16375287812978	/home/matej/_tmp
+108.62780491200212	/home/matej/1-documents
+126.49110640673511	/home/matej/_tmp
 41.231056256176615	/home/matej/.config
 17.320508075688775	/home/matej/.config/flameshot
 46.904157598234306	/media/matej/c19a0f77-8b20-495d-88d3-0b8ca10d0bf8/home
@@ -20,7 +20,7 @@
 77.45966692414835	/home/matej/2-media
 22.360679774997898	/home/matej/5-assets
 34.64101615137755	/home/matej/0-notes
-348.28149534536027	/home/matej/Downloads
+349.85711369071834	/home/matej/Downloads
 40.00000000000001	/home/matej/Downloads/cams
 40.00000000000001	/media/matej/c19a0f77-8b20-495d-88d3-0b8ca10d0bf8/home/matej/projects
 72.8010988928052	/media/matej/hdd-main
@@ -295,7 +295,7 @@
 14.142135623730951	/home/matej/Downloads/ttf/ttf
 10.0	/home/matej/.local
 14.142135623730951	/home/matej/.local/share
-48.98979485566357	/home/matej/.local/share/fonts
+50.00000000000001	/home/matej/.local/share/fonts
 10.0	/run/user/1000/kio-fuse-tLDtaM/zip/home/matej/Downloads/OpenType.zip
 17.320508075688775	/run/user/1000/kio-fuse-tLDtaM/zip/home/matej/Downloads/OpenType.zip/OpenType
 10.0	/run/user/1000/kio-fuse-tLDtaM/zip/home/matej/Downloads/OpenType.zip/OpenType/IBM-Plex-Mono
@@ -405,10 +405,10 @@
 20.0	/home/matej/projects/commonsense-validation-and-explanation/models/06-02-06-04-45_CuteJan_deberta-v3-small
 10.0	/home/matej/projects/commonsense-validation-and-explanation/models/06-02-06-04-45_CuteJan_deberta-v3-small/1685678690.750271
 14.142135623730951	/home/matej/projects/commonsense-validation-and-explanation/models/06-02-05-03-22_LovedLima_deberta-v3-small
-17.320508075688775	/home/matej/1-documents/contracts
+20.0	/home/matej/1-documents/contracts
 93.27379053088814	/home/matej/1-documents/work
 33.166247903554	/home/matej/1-documents/travel
-178.04493814764857	/home/matej/1-documents/work/ciglenecki.github.io
+178.3255450012701	/home/matej/1-documents/work/ciglenecki.github.io
 14.142135623730951	/run/user/1000/kio-fuse-cIVnhA/baloosearch
 10.0	/home/matej/projects/ml-font-classifier/output/identity_documents_dewarp/1cecae8c-6f61-4b5f-9950-dc2732cc4d45
 10.0	/home/matej/projects/ml-font-classifier/output/identity_documents_dewarp/c4fcc1ec-9055-42f2-9b51-fd50461f8590
@@ -1010,7 +1010,7 @@
 76.1577310586391	/home/matej/Downloads/Obsidian_to_Anki-3.4.2
 10.0	/home/matej/Downloads/Obsidian_to_Anki-3.4.2/Images
 14.142135623730951	/home/matej/projects/.tmux
-26.457513110645905	/home/matej/.tmux/plugins/tpm
+28.284271247461902	/home/matej/.tmux/plugins/tpm
 10.0	/home/matej/projects/ml-font-classifier/ml_font_classifier.egg-info
 20.0	/home/matej/projects/ml-font-classifier/models
 10.0	/home/matej/projects/ml-font-classifier/models/data-train_convnext_small_DEFAULT
@@ -1208,8 +1208,8 @@
 10.0	/home/matej/fer/aud
 10.0	/home/matej/fer/seminar2
 31.622776601683796	/home/matej/4-education/papers/super-resolution
-248.99799195977496	/home/matej/projects/conty-traka
-62.44997998398399	/home/matej/projects/conty-traka/files
+256.709953059869	/home/matej/projects/conty-traka
+64.80740698407861	/home/matej/projects/conty-traka/files
 20.0	/home/matej/Downloads/Blade Runner (1982) Final Cut 1080p BluRay.x264 SUJAIDR
 10.0	/media/matej/sam
 10.0	/media/matej/sam/movies
@@ -1217,6 +1217,11 @@
 10.0	/run/user/1000/kio-fuse-hmrVdw/baloosearch
 59.16079783099617	/home/matej/_tmp/twitter-media-downloader
 17.320508075688775	/home/matej/projects/advent-of-code
-17.320508075688775	/home/matej/.tmux
+33.166247903554	/home/matej/.tmux
 17.320508075688775	/home/matej/Downloads/Parasite.2019.1080p.HDRip.X264.AC3-EVO[TGx]
 10.0	/home/matej/projects/conty-traka/.git
+17.320508075688775	/run/user/1000/kio-fuse-cSaIFo/baloosearch
+20.0	/home/matej/.tmux/plugins
+10.0	/home/matej/.tmux/plugins/tmux-yank
+44.7213595499958	/home/matej/_tmp/.tmux.git
+22.360679774997898	/home/matej/_tmp/.tmux

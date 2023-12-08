@@ -36,7 +36,7 @@ notify-send
 libnotify-bin
 pinentry-tty
 net-tools
-
+golang-go
 
 # Terminal
 yakuake
@@ -71,6 +71,7 @@ thunderbird
 vlc
 cpu-x
 flameshot
+pandoc
 
 # Editor
 nano

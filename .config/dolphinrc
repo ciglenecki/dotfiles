@@ -18,7 +18,7 @@ DefaultProfile=Profile 3.profile
 
 [DetailsMode]
 ExpandableFolders=false
-PreviewSize=22
+PreviewSize=16
 
 [ExtractDialog]
 1920x1080 screen: Height=544
@@ -172,6 +172,7 @@ IconSize=16
 Plugins=audiothumbnail,blenderthumbnail,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,textthumbnail,ffmpegthumbs
 
 [Search]
+Location=Everywhere
 What=Content
 
 [SettingsDialog]

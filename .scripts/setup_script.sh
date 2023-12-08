@@ -35,11 +35,7 @@ come to new machine in dolphin and go to smb://
 
 7. install vscode extensions
 
-8.
-cd ~/projects %% git clone https://github.com/matejciglenecki/spotify-random-saved-album.git
-pip install spotipy python-dotenv
-
-9. copy gpg private key by running
+8. copy gpg private key by running
 gpg --import private.key
 '
 
@@ -52,7 +48,9 @@ mkdir $HOME/tmp
 
 sudo apt-get update
 sudo apt-get upgrade -y
-sudo apt-get install -y git
+sudo apt-get install -y git curl
+
+bash <(curl -s https://raw.githubusercontent.com/ciglenecki/dotfiles/master/.scripts/clone_github_dotfiles.sh)
 
 
 # Install packages from package list, loop skips unlocated packages
@@ -86,7 +84,6 @@ if [ $DESKTOP_SESSION == "plasma" ]; then
 fi
 
 
-
 # Install shutter https://shutter-project.org/downloads/
 sudo add-apt-repository -y ppa:linuxuprising/shutter
 sudo apt-get update && sudo apt-get install -y shutter
@@ -96,6 +93,11 @@ TEMP_DEB="$(mktemp)" &&
 wget -O "$TEMP_DEB" 'https://discord.com/api/download?platform=linux&format=deb' &&
 sudo dpkg -i "$TEMP_DEB"
 rm -f "$TEMP_DEB"
+
+# Install spotify
+curl -sS https://download.spotify.com/debian/pubkey_7A3A762FAFD4A51F.gpg | sudo gpg --dearmor --yes -o /etc/apt/trusted.gpg.d/spotify.gpg
+echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+sudo apt-get update && sudo apt-get install spotify-client
 
 # Create a dir for vlc's plugin to work properly
 mkdir ~/.cache/vlc
@@ -115,13 +117,17 @@ git clone https://github.com/magicmonty/bash-git-prompt.git ~/.bash-git-prompt -
 # Install docker https://github.com/docker/docker-install#usage
 curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
-
-# Install nodejs
-curl -fsSL https://deb.nodesource.com/setup_19.x | sudo -E bash - &&\
-sudo apt-get install -y nodejs
+dockerd-rootless-setuptool.sh install
 
 wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -O $DOTFILES_DIR/.git-completion.bash
 ############
+
+# install code extensions
+bash <(curl -s https://raw.githubusercontent.com/ciglenecki/dotfiles/master/.scripts/setup_code_ext.sh)
+
+# Pull spotify random album
+cd ~/projects %% git clone https://github.com/matejciglenecki/spotify-random-saved-album.git
+pip install spotipy python-dotenv
 
 source $HOME/.profile
 source $HOME/.scripts/login.sh
