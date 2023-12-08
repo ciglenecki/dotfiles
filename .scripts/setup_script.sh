@@ -11,6 +11,10 @@
 
 
 : '
+
+bash <(curl -s https://raw.githubusercontent.com/ciglenecki/dotfiles/master/.scripts/setup_script.sh)
+
+
 Things to do after running this script:
 
 1. download other packages by hand
