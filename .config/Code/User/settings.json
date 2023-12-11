@@ -178,7 +178,7 @@
     "editor.defaultFormatter": "ms-python.python",
     "editor.formatOnType": true,
     "editor.codeActionsOnSave": {
-      "source.organizeImports": true
+      "source.organizeImports": "explicit"
     }
   },
   "isort.args": [

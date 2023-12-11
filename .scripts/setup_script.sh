@@ -45,8 +45,7 @@ gpg --import private.key
 sudo echo "Script now has sudo permissions"
 
 rm -rf $HOME/Documents $HOME/Music $HOME/Pictures $HOME/Public $HOME/Templates $HOME/Videos
-
-mkdir $HOME/tmp
+mkdir -p $HOME/tmp $HOME/projects
 
 sudo apt-get update
 sudo apt-get upgrade -y
@@ -54,11 +53,16 @@ sudo apt-get install -y git curl
 
 bash <(curl -s https://raw.githubusercontent.com/ciglenecki/dotfiles/master/.scripts/clone_github_dotfiles.sh)
 
+# Make scripts executable
+chmod +x $HOME/.scripts/*
 
 # Install packages from package list, loop skips unlocated packages
 for i in $(grep -vE "^\s*#" $HOME/.assets/packages.txt  | tr "\n" " "); do
   sudo apt-get install -y $i
 done
+
+# Setup venv
+bash $HOME/.scripts/setup_venv_home.sh
 
 if [ $DESKTOP_SESSION == "plasma" ]; then
   sudo apt install -y node-typescript
@@ -86,10 +90,6 @@ if [ $DESKTOP_SESSION == "plasma" ]; then
 fi
 
 
-# Install shutter https://shutter-project.org/downloads/
-sudo add-apt-repository -y ppa:linuxuprising/shutter
-sudo apt-get update && sudo apt-get install -y shutter
-
 # Install discord https://discord.com/download
 TEMP_DEB="$(mktemp)" &&
 wget -O "$TEMP_DEB" 'https://discord.com/api/download?platform=linux&format=deb' &&
@@ -99,7 +99,7 @@ rm -f "$TEMP_DEB"
 # Install spotify
 curl -sS https://download.spotify.com/debian/pubkey_7A3A762FAFD4A51F.gpg | sudo gpg --dearmor --yes -o /etc/apt/trusted.gpg.d/spotify.gpg
 echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
-sudo apt-get update && sudo apt-get install spotify-client
+sudo apt-get update && sudo apt-get install -y spotify-client
 
 # Create a dir for vlc's plugin to work properly
 mkdir ~/.cache/vlc
@@ -125,11 +125,10 @@ wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-com
 ############
 
 # install code extensions
-bash <(curl -s https://raw.githubusercontent.com/ciglenecki/dotfiles/master/.scripts/setup_code_ext.sh)
+bash $HOME/.scripts/setup_code_ext.sh
 
 # Pull spotify random album
-cd ~/projects %% git clone https://github.com/matejciglenecki/spotify-random-saved-album.git
-pip install spotipy python-dotenv
+$HOME/venv/bin/pip install spotify-random-saved-album
 
 source $HOME/.profile
 source $HOME/.scripts/login.sh
@@ -143,4 +142,5 @@ rm -f "$TEMP_DEB"
 # Startup script chmod +x
 chmod +x $HOME/.config/autostart/*
 
-run sxhkd
+killall dolphin
+nohup sxhkd &

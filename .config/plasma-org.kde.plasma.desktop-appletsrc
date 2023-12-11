@@ -242,10 +242,10 @@ PreloadWeight=0
 [Containments][2][General]
 AppletOrder=3;47;49;56;54;39;52;48;55;53;50;36;28;44;41;7;6
 
-[Containments][45]
+[Containments][59]
 ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
-activityId=e214cd9f-83af-453b-a50a-5a27178c2dd5
+activityId=ff28354e-18f3-45a6-b82e-2d71ebba7cf4
 formfactor=0
 immutability=1
 lastScreen=0
@@ -253,20 +253,14 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][45][ConfigDialog]
-DialogHeight=969
-DialogWidth=1267
-
-[Containments][45][Configuration]
-PreloadWeight=0
-
-[Containments][45][General]
-ToolBoxButtonState=topcenter
-ToolBoxButtonX=559
-
-[Containments][45][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/MilkyWay/contents/images/5120x2880.png
-SlidePaths=/usr/share/plasma/wallpapers,/usr/share/wallpapers
+[Containments][60]
+activityId=ff28354e-18f3-45a6-b82e-2d71ebba7cf4
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
 
 [Containments][8]
 activityId=
@@ -319,7 +313,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][23][Configuration]
-PreloadWeight=75
+PreloadWeight=100
 
 [Containments][8][Applets][24][Configuration]
 PreloadWeight=42

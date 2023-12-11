@@ -25,3 +25,5 @@
 Insync
 .ssh
 setup_script.sh
+.cfg
+setup_script.sh

@@ -7,6 +7,7 @@
 
 sudo apt install -y git
 
+cd $HOME
 mkdir -p $HOME/.cfg
 
 echo ".cfg" >> $HOME/.gitignore

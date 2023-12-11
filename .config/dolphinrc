@@ -44,7 +44,7 @@ ViewPropsTimestamp=2021,11,7,23,26,33
 
 [IconsMode]
 IconSize=16
-PreviewSize=144
+PreviewSize=16
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
@@ -172,7 +172,6 @@ IconSize=16
 Plugins=audiothumbnail,blenderthumbnail,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,textthumbnail,ffmpegthumbs
 
 [Search]
-Location=Everywhere
 What=Content
 
 [SettingsDialog]

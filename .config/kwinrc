@@ -102,6 +102,12 @@ DesktopListLayout=org.kde.breeze.desktop
 [Tiling]
 padding=4
 
+[Tiling][213a9620-187e-58a6-b80b-85d8fb95dfce]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][3dbb5d41-0e80-54f9-b63e-46744bd3aca5]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][58ca410b-ce44-58d6-82b9-fefe44aba0e3]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
