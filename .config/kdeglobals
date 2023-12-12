@@ -25,7 +25,7 @@ IntensityEffect=0
 
 [Colors:Button]
 BackgroundAlternate=224,223,222
-BackgroundNormal=255,255,255
+BackgroundNormal=245,252,255
 DecorationFocus=233,61,104
 DecorationHover=233,144,166
 ForegroundActive=255,128,224
@@ -81,7 +81,7 @@ ForegroundVisited=69,40,134
 
 [Colors:View]
 BackgroundAlternate=248,247,246
-BackgroundNormal=252,252,252
+BackgroundNormal=241,248,252
 DecorationFocus=233,61,104
 DecorationHover=233,144,166
 ForegroundActive=255,128,224
@@ -95,7 +95,7 @@ ForegroundVisited=69,40,134
 
 [Colors:Window]
 BackgroundAlternate=218,217,216
-BackgroundNormal=232,232,232
+BackgroundNormal=222,229,232
 DecorationFocus=233,61,104
 DecorationHover=233,144,166
 ForegroundActive=255,128,224
@@ -113,7 +113,7 @@ History Items[$e]=file:///media/matej/sam/movies,file:$HOME/fer/oos/docs/,file:$
 
 [General]
 BrowserApplication=brave-browser.desktop
-ColorScheme=matej-pink-white
+ColorScheme=matej-pink
 ColorSchemeHash=d2f9f23c62b2c7529878a3b4c96c2902e98086db
 Name=Breeze
 TerminalApplication="konsole -e tmux"

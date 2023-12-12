@@ -150,46 +150,11 @@ PreloadWeight=0
 expanding=false
 length=600
 
-[Containments][2][Applets][47]
-immutability=1
-plugin=org.kde.plasma.marginsseparator
-
-[Containments][2][Applets][47][Configuration]
-PreloadWeight=0
-
 [Containments][2][Applets][48]
 immutability=1
 plugin=org.kde.plasma.marginsseparator
 
 [Containments][2][Applets][48][Configuration]
-PreloadWeight=0
-
-[Containments][2][Applets][49]
-immutability=1
-plugin=org.kde.plasma.marginsseparator
-
-[Containments][2][Applets][49][Configuration]
-PreloadWeight=0
-
-[Containments][2][Applets][50]
-immutability=1
-plugin=org.kde.plasma.marginsseparator
-
-[Containments][2][Applets][50][Configuration]
-PreloadWeight=0
-
-[Containments][2][Applets][52]
-immutability=1
-plugin=org.kde.plasma.marginsseparator
-
-[Containments][2][Applets][52][Configuration]
-PreloadWeight=0
-
-[Containments][2][Applets][53]
-immutability=1
-plugin=org.kde.plasma.marginsseparator
-
-[Containments][2][Applets][53][Configuration]
 PreloadWeight=0
 
 [Containments][2][Applets][54]
@@ -202,15 +167,9 @@ PreloadWeight=0
 [Containments][2][Applets][55]
 immutability=1
 plugin=org.kde.plasma.marginsseparator
+transient=true
 
 [Containments][2][Applets][55][Configuration]
-PreloadWeight=0
-
-[Containments][2][Applets][56]
-immutability=1
-plugin=org.kde.plasma.marginsseparator
-
-[Containments][2][Applets][56][Configuration]
 PreloadWeight=0
 
 [Containments][2][Applets][6]
@@ -221,6 +180,14 @@ plugin=org.kde.plasma.marginsseparator
 PreloadWeight=0
 
 [Containments][2][Applets][6][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][2][Applets][61]
+immutability=1
+plugin=com.github.zren.commandoutput
+
+[Containments][2][Applets][61][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
@@ -240,7 +207,7 @@ DialogWidth=1920
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=3;47;49;56;54;39;52;48;55;53;50;36;28;44;41;7;6
+AppletOrder=3;54;39;48;36;28;44;61;41;7;6
 
 [Containments][59]
 ItemGeometries-1920x1080=
@@ -252,6 +219,18 @@ lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
+
+[Containments][59][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][59][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=444
+
+[Containments][59][Wallpaper][org.kde.image][General]
+Image=/usr/share/wallpapers/MilkyWay/
+SlidePaths=/usr/share/plasma/wallpapers/,/usr/share/wallpapers/
 
 [Containments][60]
 activityId=ff28354e-18f3-45a6-b82e-2d71ebba7cf4
