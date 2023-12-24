@@ -6,7 +6,7 @@ set show-all-if-ambiguous on
 
 
 # Do not autocomplete hidden files unless the pattern explicitly begins with a dot
-set match-hidden-files off
+set match-hidden-files on
 
 # Use Alt/Meta + Delete to delete the preceding word
 "\e[3;3~": kill-word
