@@ -1,1 +1,0 @@
-/home/matej/.scripts/logout.sh

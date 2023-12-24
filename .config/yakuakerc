@@ -4,11 +4,9 @@ UseWMAssist=false
 
 [Appearance]
 BackgroundColor=255,255,255
+HideSkinBorders=true
 TerminalHighlightOnManualActivation=true
 Translucency=true
-
-[Behavior]
-OpenAfterStart=true
 
 [Desktop Entry]
 DefaultProfile=konsole-matej.profile

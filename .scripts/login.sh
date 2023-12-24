@@ -5,9 +5,8 @@
 # Description:  Script that executes on login.
 #################################
 
-HOME=$(eval echo "~matej")
 
-yakuake &
+sleep 3
 # flameshot &
 sxhkd &
 
@@ -20,7 +19,7 @@ trickle -s -u 6250 -d 6250 insync start &
 # thunderbird &
 # qbittorrent &
 syncthing -no-browser &
-
+yakuake &
 
 # /usr/sbin/anacron -s -t $HOME/.anacron/etc/anacrontab -S $HOME/.anacron/spool &
 
