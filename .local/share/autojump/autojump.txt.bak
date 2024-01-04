@@ -1,29 +1,29 @@
 120.83045973594567	/home/matej/.scripts
-76.8114574786861	/media/matej/c19a0f77-8b20-495d-88d3-0b8ca10d0bf8
+78.74007874011812	/media/matej/c19a0f77-8b20-495d-88d3-0b8ca10d0bf8
 33.166247903554	/home
-77.45966692414835	/media/matej/c19a0f77-8b20-495d-88d3-0b8ca10d0bf8/home/matej
-251.396101799531	/home/matej/projects
+80.00000000000001	/media/matej/c19a0f77-8b20-495d-88d3-0b8ca10d0bf8/home/matej
+251.79356624028375	/home/matej/projects
 92.73618495495703	/home/matej/.config/autostart
-108.62780491200212	/home/matej/1-documents
-126.49110640673511	/home/matej/_tmp
+109.54451150103318	/home/matej/1-documents
+130.76696830622018	/home/matej/_tmp
 51.96152422706633	/home/matej/.config
 17.320508075688775	/home/matej/.config/flameshot
-47.9583152331272	/media/matej/c19a0f77-8b20-495d-88d3-0b8ca10d0bf8/home
+48.98979485566357	/media/matej/c19a0f77-8b20-495d-88d3-0b8ca10d0bf8/home
 20.0	/media/matej/c19a0f77-8b20-495d-88d3-0b8ca10d0bf8/home/matej/.config
 10.0	/media/matej/c19a0f77-8b20-495d-88d3-0b8ca10d0bf8/home/matej/.config/flameshot
 26.457513110645905	/media/matej/c19a0f77-8b20-495d-88d3-0b8ca10d0bf8/home/matej/fer
 24.49489742783178	/media/matej/c19a0f77-8b20-495d-88d3-0b8ca10d0bf8/home/matej/fer/oos
 22.360679774997898	/media/matej/c19a0f77-8b20-495d-88d3-0b8ca10d0bf8/home/matej/fer/oos/docs
-151.32745950421545	/home/matej/2-media/screenshots
-22.360679774997898	/media/matej/c19a0f77-8b20-495d-88d3-0b8ca10d0bf8/home/matej/2-media
+151.6575088810309	/home/matej/2-media/screenshots
+28.284271247461902	/media/matej/c19a0f77-8b20-495d-88d3-0b8ca10d0bf8/home/matej/2-media
 20.0	/media/matej/c19a0f77-8b20-495d-88d3-0b8ca10d0bf8/home/matej/2-media/screenshots
-77.45966692414835	/home/matej/2-media
+91.10433579144299	/home/matej/2-media
 22.360679774997898	/home/matej/5-assets
-34.64101615137755	/home/matej/0-notes
-352.9872518944561	/home/matej/Downloads
+40.00000000000001	/home/matej/0-notes
+367.9673898594826	/home/matej/Downloads
 40.00000000000001	/home/matej/Downloads/cams
 40.00000000000001	/media/matej/c19a0f77-8b20-495d-88d3-0b8ca10d0bf8/home/matej/projects
-74.83314773547885	/media/matej/hdd-main
+75.49834435270752	/media/matej/hdd-main
 50.990195135927856	/media/matej/hdd-main/1-projects
 24.49489742783178	/run/user/1000/kio-fuse-RRRXVK/sftp/brick@192.168.100.5:1234/storage/emulated/0/DCIM
 22.360679774997898	/run/user/1000/kio-fuse-RRRXVK/sftp/brick@192.168.100.5:1234/storage/emulated/0/DCIM/Amsterdam
@@ -49,7 +49,7 @@
 34.64101615137755	/home/matej/_tmp/Amsterdam/fotic
 14.142135623730951	/home/matej/2-media/marija_rodendan2
 34.64101615137755	/home/matej/3-audio
-71.41428428542852	/home/matej/tmp
+73.48469228349536	/home/matej/tmp
 55.677643628300224	/home/matej/_tmp/nerf-blender
 26.457513110645905	/media/matej/hdd-main/2-media
 1312.8975588369372	/home/matej/projects/lumen-audio
@@ -100,7 +100,7 @@
 31.622776601683796	/home/matej/projects/commonsense-validation-and-explanation/data/scoring_program
 31.622776601683796	/home/matej/projects/commonsense-validation-and-explanation/data/sample_data
 20.0	/home/matej/projects/commonsense-validation-and-explanation/src
-14.142135623730951	/home/matej/projects/commonsense-validation-and-explanation/src/scoring
+20.0	/home/matej/projects/commonsense-validation-and-explanation/src/scoring
 14.142135623730951	/home/matej/6-literature/Anne Frank
 14.142135623730951	/home/matej/6-literature/Anne Frank/Dnevnik Anne Frank (35)
 10.0	/home/matej/6-literature/Anne Frank/Dnevnik Anne Frank (101)
@@ -389,7 +389,7 @@
 10.0	/home/matej/projects/commonsense-validation-and-explanation/data/Dev Data
 10.0	/home/matej/projects/commonsense-validation-and-explanation/data/Test Data
 34.64101615137755	/home/matej/projects/commonsense-validation-and-explanation/data/dev
-24.49489742783178	/home/matej/projects/commonsense-validation-and-explanation/data/train
+26.457513110645905	/home/matej/projects/commonsense-validation-and-explanation/data/train
 40.00000000000001	/home/matej/projects/commonsense-validation-and-explanation/models
 28.284271247461902	/home/matej/projects/commonsense-validation-and-explanation/models/05-31-12-49-56_HardyLima_deberta-v3-small
 17.320508075688775	/home/matej/projects/commonsense-validation-and-explanation/models/05-31-12-49-56_HardyLima_deberta-v3-small/1685530202.2986324
@@ -548,9 +548,9 @@
 14.142135623730951	/home/matej/_tmp/nerf-blender/blender/renders/a_15.00_d_1.76_n_64
 10.0	/home/matej/_tmp/nerf-blender/blender/renders/a_15.00_d_1.76_n_64/images
 28.284271247461902	/home/matej/projects/nerf-research/blender
-26.457513110645905	/home/matej/projects/leetcode-2
+28.284271247461902	/home/matej/projects/leetcode-2
 180.83141320025123	/home/matej/projects/nerf-blender
-134.90737563232034	/home/matej/projects/nerf-blender/renders
+135.27749258468674	/home/matej/projects/nerf-blender/renders
 14.142135623730951	/home/matej/projects/nerf-blender/renders/n_81_a_15.00
 10.0	/home/matej/projects/nerf-blender/renders/n_81_a_15.00/images
 10.0	/home/matej/projects/nerf-blender/renders/n_25_a_5.00
@@ -984,7 +984,7 @@
 17.320508075688775	/home/matej/projects/ml-font-classifier/data/train/univers.ttf
 10.0	/home/matej/projects/ml-font-classifier/data/train/ukdl_light.ttf
 10.0	/home/matej/projects/ml-font-classifier/data/train/verdana.ttf
-50.990195135927856	/home/matej/2-media/camera.ignoreme
+51.96152422706633	/home/matej/2-media/camera.ignoreme
 31.622776601683796	/home/matej/2-media/camera.ignoreme/Camera
 20.0	/run/user/1000/kio-fuse-FBzEYl/zip/home/matej/2-media/camera.ignoreme/Camera/Camera.zip
 122.06555615733697	/home/matej/1-documents/work/ciglenecki.github.io/ciglenecki.github.io
@@ -1003,7 +1003,7 @@
 31.622776601683796	/home/matej/Downloads/anki-2.1.66-linux-qt6
 67.82329983125271	/home/matej/projects/text-speech
 33.166247903554	/home/matej/projects/ml-font-classifier/data_example
-36.0555127546399	/home/matej/2-media/memes
+38.729833462074176	/home/matej/2-media/memes
 14.142135623730951	/home/matej/2-media/icons
 20.0	/home/matej/1-documents/travel/2023_eindhoven_ryanair_complaint
 38.729833462074176	/home/matej/fer/oos
@@ -1021,7 +1021,7 @@
 14.142135623730951	/tmp/tmpyz9h96gq
 14.142135623730951	/tmp/tmpneduv44o
 10.0	/home/matej/projects/ml-font-classifier/src/ml_classifier/train
-14.142135623730951	/home/matej/projects/competitive-programming
+20.0	/home/matej/projects/competitive-programming
 31.622776601683796	/home/matej/projects/ml-font-classifier/data/new
 10.0	/home/matej/projects/ml-font-classifier/data/new/amiri_regular.ttf
 10.0	/home/matej/projects/ml-font-classifier/data/new/din_y1.ttf
@@ -1047,7 +1047,7 @@
 14.142135623730951	/home/matej/projects/template-python
 10.0	/home/matej/projects/ml-font-classifier/data/val_new/arial.ttf
 10.0	/run/user/1000/kio-fuse-JtheKk/baloosearch
-30.000000000000004	/media/matej/963C7C223C7BFB95
+36.0555127546399	/media/matej/963C7C223C7BFB95
 10.0	/media/matej/hdd-main/7-archive
 10.0	/media/matej/hdd-main/6-assets
 17.320508075688775	/media/matej/hdd-main/1-projects/2-editing-video/1-edits
@@ -1174,8 +1174,8 @@
 10.0	/home/matej/2-media/camera.ignoreme/čaj
 10.0	/home/matej/2-media/camera.ignoreme/Screen recordings
 10.0	/home/matej/2-media/camera.ignoreme/Screenshots
-10.0	/home/matej/2-media/avi
-17.320508075688775	/home/matej/2-media/marija_rodendan_backup.ignoreme
+14.142135623730951	/home/matej/2-media/avi
+30.000000000000004	/home/matej/2-media/marija_rodendan_backup.ignoreme
 30.000000000000004	/home/matej/1-documents/work/cv/2023-njuskalo
 10.0	/home/matej/1-documents/work/cv/2023-hf
 10.0	/home/matej/1-documents/work/cv/2023-blackshark
@@ -1217,7 +1217,7 @@
 10.0	/run/user/1000/kio-fuse-hmrVdw/baloosearch
 59.16079783099617	/home/matej/_tmp/twitter-media-downloader
 17.320508075688775	/home/matej/projects/advent-of-code
-33.166247903554	/home/matej/.tmux
+36.0555127546399	/home/matej/.tmux
 17.320508075688775	/home/matej/Downloads/Parasite.2019.1080p.HDRip.X264.AC3-EVO[TGx]
 10.0	/home/matej/projects/conty-traka/.git
 17.320508075688775	/run/user/1000/kio-fuse-cSaIFo/baloosearch
@@ -1235,5 +1235,64 @@
 17.320508075688775	/home/matej/tmp/fer-struce
 10.0	/home/matej/tmp/fer-struce/3-labs
 10.0	/home/matej/tmp/fer-struce/strojno_matej
-14.142135623730951	/media/matej/0B542915327001BA
+17.320508075688775	/media/matej/0B542915327001BA
 10.0	/media/matej/0B542915327001BA/.ssh
+14.142135623730951	/home/matej/Downloads/Inception (2010) [1080p]
+10.0	/home/matej/Downloads/Batman The Dark Knight (2008) [1080p]
+20.0	/home/matej/Downloads/The.Hunt.2012.720p.BluRay.x264-x0r
+14.142135623730951	/home/matej/Downloads/Calibre (2018) [WEBRip] [1080p] [YTS.AM]
+17.320508075688775	/home/matej/Downloads/12 Angry Men 1957 1080p BluRay x264 AAC - Ozlem
+26.457513110645905	/media/matej/gep
+26.457513110645905	/media/matej/gep/backup-files
+10.0	/media/matej/gep/backup-files/game saves
+14.142135623730951	/media/matej/gep/backup-files/deborah
+17.320508075688775	/media/matej/gep/backup-files/configs
+17.320508075688775	/media/matej/gep/backup-files/configs/foobar
+10.0	/media/matej/gep/backup-files/configs/foobar/2
+17.320508075688775	/media/matej/gep/backup-files/configs/foobar/1
+14.142135623730951	/media/matej/gep/backup-files/configs/foobar/1/foobar2000
+10.0	/media/matej/gep/backup-CD
+10.0	/media/matej/gep/backup-CD/C
+10.0	/media/matej/gep/backup-CD/C/Users
+17.320508075688775	/media/matej/gep/backup-CD/C/Users/matej
+10.0	/media/matej/gep/backup-CD/C/Users/matej/3D Objects
+20.0	/media/matej/gep/backup-CD/C/Users/matej/AppData
+14.142135623730951	/media/matej/gep/backup-CD/C/Users/matej/AppData/Local
+10.0	/media/matej/gep/backup-CD/C/Users/matej/AppData/LocalLow
+10.0	/media/matej/gep/installation-programs
+82.46211251235323	/media/matej/gep/home-matej-2021-10-04-00-42-20
+33.166247903554	/media/matej/gep/home-matej-2021-10-04-00-42-20/0-notes
+34.64101615137755	/media/matej/gep/home-matej-2021-10-04-00-42-20/5-backup
+26.457513110645905	/media/matej/gep/home-matej-2021-10-04-00-42-20/Downloads
+14.142135623730951	/media/matej/gep/home-matej-2021-10-04-00-42-20/Downloads/videos
+10.0	/media/matej/gep/home-matej-2021-10-04-00-42-20/Downloads/pics
+10.0	/media/matej/gep/home-matej-2021-10-04-00-42-20/Downloads/docs
+22.360679774997898	/media/matej/gep/home-matej-2021-10-04-00-42-20/6-literature
+34.64101615137755	/media/matej/gep/home-matej-2021-10-04-00-42-20/4-pictures
+37.41657386773942	/media/matej/gep/home-matej-2021-10-04-00-42-20/3-archive
+34.64101615137755	/media/matej/gep/home-matej-2021-10-04-00-42-20/2-fer
+10.0	/media/matej/gep/home-matej-2021-10-04-00-42-20/2-fer/nasp
+10.0	/media/matej/gep/home-matej-2021-10-04-00-42-20/3-archive/2020-memgraph
+10.0	/media/matej/gep/home-matej-2021-10-04-00-42-20/3-archive/affectnet_dataset
+17.320508075688775	/media/matej/gep/home-matej-2021-10-04-00-42-20/1-documents
+10.0	/media/matej/gep/home-matej-2021-10-04-00-42-20/6-literature/The Economist
+10.0	/media/matej/gep/home-matej-2021-10-04-00-42-20/5-backup/windows
+14.142135623730951	/media/matej/gep/home-matej-2021-10-04-00-42-20/5-backup/phone
+17.320508075688775	/media/matej/gep/home-matej-2021-10-04-00-42-20/Insync
+14.142135623730951	/media/matej/gep/home-matej-2021-10-04-00-42-20/Insync/matej.ciglenecki@gmail.com
+10.0	/media/matej/gep/home-matej-2021-10-04-00-42-20/Insync/matej.ciglenecki@gmail.com/OneDrive
+10.0	/media/matej/gep/home-matej-2021-10-04-00-42-20/MoneyManager
+17.320508075688775	/media/matej/gep/home-matej-2021-10-04-00-42-20/0-notes/specific
+10.0	/home/matej/0-notes/matej
+10.0	/media/matej/gep/home-matej-2021-10-04-00-42-20/4-pictures/avi
+10.0	/media/matej/gep/home-matej-2021-10-04-00-42-20/4-pictures/memes
+10.0	/home/matej/2-media/wallpaper
+10.0	/media/matej/c19a0f77-8b20-495d-88d3-0b8ca10d0bf8/home/matej/2-media/avi
+10.0	/media/matej/c19a0f77-8b20-495d-88d3-0b8ca10d0bf8/home/matej/2-media/camera.ignoreme
+10.0	/media/matej/c19a0f77-8b20-495d-88d3-0b8ca10d0bf8/home/matej/tmp
+10.0	/run/user/1000/kio-fuse-AQfdmt/filenamesearch
+46.904157598234306	/home/matej/Downloads/wolf
+44.7213595499958	/home/matej/Downloads/mar
+50.00000000000001	/home/matej/Downloads/urs
+55.677643628300224	/home/matej/Downloads/mat
+10.0	/run/user/1000/kio-fuse-AQfdmt/zip/home/matej/_tmp/Archive.zip
