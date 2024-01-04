@@ -199,15 +199,24 @@ DialogWidth=1920
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=3;54;39;48;36;28;44;41;7;6
+AppletOrder=3;54;39;48;36;28;44;41;7;6;61
 
-[Containments][62]
+[Containments][63]
 ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
-activityId=e214cd9f-83af-453b-a50a-5a27178c2dd5
+activityId=ff28354e-18f3-45a6-b82e-2d71ebba7cf4
 formfactor=0
 immutability=1
 lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][64]
+activityId=ff28354e-18f3-45a6-b82e-2d71ebba7cf4
+formfactor=0
+immutability=1
+lastScreen=1
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
@@ -256,7 +265,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][8][Applets][22][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][8][Applets][23]
 immutability=1
