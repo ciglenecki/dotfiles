@@ -179,6 +179,9 @@ DialogWidth=720
 immutability=1
 plugin=com.github.zren.commandoutput
 
+[Containments][2][Applets][61][Configuration]
+PreloadWeight=42
+
 [Containments][2][Applets][61][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
@@ -212,6 +215,9 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][63][Configuration]
+PreloadWeight=42
+
 [Containments][64]
 activityId=ff28354e-18f3-45a6-b82e-2d71ebba7cf4
 formfactor=0
@@ -220,6 +226,9 @@ lastScreen=1
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
+
+[Containments][64][Configuration]
+PreloadWeight=42
 
 [Containments][8]
 activityId=
@@ -258,14 +267,14 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][8][Applets][17][Configuration]
-PreloadWeight=30
+PreloadWeight=57
 
 [Containments][8][Applets][22]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][8][Applets][22][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][8][Applets][23]
 immutability=1

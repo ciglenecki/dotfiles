@@ -3,7 +3,6 @@ update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-
 
 [Compositing]
 Backend=OpenGL
-Enabled=false
 GLCore=true
 GLPreferBufferSwap=e
 GLTextureFilter=1
@@ -15,10 +14,16 @@ XRenderSmoothScale=false
 Id_1=c141142a-5176-45fe-9b5d-5e9b89115fac
 Id_2=1fbdf8ac-bbf1-498b-b4a6-27324861d580
 Id_3=e04ff956-8a04-4594-82e4-0ec3cd94598f
-Name_1=1-main
-Name_2=2-main2
-Name_3=3-media
-Number=3
+Id_4=a5a355a0-eb17-4922-8bfd-b52220bf9695
+Id_5=53914ea2-96fb-4efa-abc9-ad88daa2eed2
+Id_6=ba1547fd-c92c-42cb-8658-8c515785cd34
+Name_1=1
+Name_2=2
+Name_3=3
+Name_4=4
+Name_5=5
+Name_6=6
+Number=6
 Rows=1
 
 [Effect-DimInactive]
@@ -98,6 +103,9 @@ tileLayoutGap=5
 [TabBox]
 DesktopLayout=org.kde.breeze.desktop
 DesktopListLayout=org.kde.breeze.desktop
+DesktopMode=0
+LayoutName=thumbnail_grid
+SwitchingMode=1
 
 [Tiling]
 padding=4
@@ -112,6 +120,15 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][7c6cb96c-6e18-5658-853a-6a70b47a352b]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][bbd12e85-9b4a-56e1-9c5d-51dbf6280a39]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][d785dc46-e8f7-55c6-8b05-6096d8f87432]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][fa388e8a-c438-500e-b176-1febaa975f13]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Windows]

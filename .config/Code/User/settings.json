@@ -175,7 +175,7 @@
   "python.formatting.provider": "black",
   "python.linting.pylintEnabled": true,
   "[python]": {
-    "editor.defaultFormatter": "ms-python.python",
+    "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.formatOnType": true,
     "editor.codeActionsOnSave": {
       "source.organizeImports": "explicit"
@@ -187,7 +187,7 @@
   ],
   "notebook.output.textLineLimit": 300,
   "scm.diffDecorations": "none",
-  "python.defaultInterpreterPath": "",
+  "python.defaultInterpreterPath": "${workspaceFolder}/venv",
   "python.analysis.exclude": [
     "**/venv",
     "**/__pycache__",
@@ -214,7 +214,7 @@
   "github.copilot.enable": {
     "*": true,
     "plaintext": false,
-    "markdown": false,
+    "markdown": "true",
     "scminput": false,
     "cpp": false
   },
@@ -225,8 +225,11 @@
   ],
   "editor.trimAutoWhitespace": false,
   "python.experiments.enabled": false,
-  "python.analysis.autoImportCompletions": true,
   "python.analysis.diagnosticMode": "workspace",
   "workbench.editor.empty.hint": "hidden",
-  "cmake.configureOnOpen": true
+  "cmake.configureOnOpen": true,
+  "files.autoSave": "afterDelay",
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "python.venvPath": "${workspaceFolder}/venv",
+  "python.analysis.autoImportCompletions": true
 }

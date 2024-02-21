@@ -23,31 +23,41 @@ HDMI-0 Width 1920x1080=1423
 Height 1080=745
 Width 1920=907
 
+[General]
+LockSidebar=true
+ShowSidebar=false
+
 [KFileDialog Settings]
 Recent Files[$e]=SU1-2021-P02-OsnovniKoncepti.pdf,file:$HOME/projects/lumen-audio/figures/project_documentation.pdf,file:$HOME/projects/lumen-audio/figures/tempo_distribution_genre_jaz_blu.png,file:$HOME/projects/geoguessr-ai/pdf-technical-documentation.pdf,file:$HOME/Downloads/2003.08934.pdf,file:$HOME/fer/oos/sp4comm_corrected.pdf,file:$HOME/fer/oos/1-lectures/15_fft.pdf,file:$HOME/fer/oos/1-lectures/DOS_2017-2018_predavanje_06.pdf,file:$HOME/fer/oos/1-lectures/16_izvedba_filtara.pdf,file:$HOME/fer/oos/4-exams/mi_2021.pdf,file:$HOME/fer/oos/4-exams/mi_2022.pdf,file:$HOME/fer/oos/1-lectures/09_prijenosna_funkcija.pdf,file:$HOME/fer/oos/1-lectures/08_z_i_laplaceova_transformacija.pdf,file:$HOME/fer/nummat/1-lectures/predavanje_18.pdf,file:$HOME/fer/nummat/1-lectures/predavanje_16.pdf,file:$HOME/fer/nummat/1-lectures/predavanje_15.pdf
 Recent URLs[$e]=file:$HOME/fer/oos/,file:$HOME/Downloads/,file:$HOME/fer/oos/1-lectures/,file:$HOME/fer/oos/5-tasks/,file:$HOME/1-documents/work/ciglenecki.github.io/se/,file:$HOME/fer/oos/4-exams/,file:$HOME/fer/oos/3-labs/,file:$HOME/,file:$HOME/projects/geoguessr-ai/,file:$HOME/projects/lumen-audio/figures/
 detailViewIconSize=16
 
 [MainWindow]
-1920x1080 screen: Height=1050
-1920x1080 screen: Width=1060
-1920x1080 screen: Window-Maximized=true
-1920x1080 screen: XPosition=859
+1920x1080 screen: Height=1058
+1920x1080 screen: Width=957
+1920x1080 screen: XPosition=962
 1920x1080 screen: YPosition=0
+2 screens: Height=1058
+2 screens: Width=636
+2 screens: XPosition=1283
+2 screens: YPosition=0
 HDMI-0=HDMI-0
 HDMI-0 Height 1920x1080=1021
 HDMI-0 Width 1920x1080=1354
 HDMI-0 XPosition 1920x1080=432
 HDMI-0 YPosition 1920x1080=29
+HDMI-1=HDMI-1
+HDMI-1 eDP-1=HDMI-1
 Height 1080=515
 Height 1920=1888
 Height 720=1058
-State=AAAA/wAAAAD9AAAAAAAAAroAAAP8AAAABAAAAAQAAAAIAAAACPwAAAADAAAAAAAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+State=AAAA/wAAAAD9AAAAAQAAAAAAAABeAAAEBPwCAAAAAfsAAAAcAG8AawB1AGwAYQByAF8AcwBpAGQAZQBiAGEAcgAAAAAeAAAEBAAAAAMBAAACAAADeQAABAQAAAAEAAAABAAAAAgAAAAI/AAAAAMAAAAAAAAAAQAAACwAcQB1AGkAYwBrAEEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgMAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1080=1080
 Width 1280=1920
 Width 1920=1073
 Window-Maximized 768x1360=true
+eDP-1=eDP-1
 
 [Notification Messages]
 ShowTabWarning=true
@@ -57,23 +67,23 @@ Height 1080=889
 Width 1920=840
 
 [Recent Files]
-File1[$e]=$HOME/1-documents/work/cv/2023-njuskalo/cv_matej_ciglenecki.pdf
-File10[$e]=$HOME/4-education/papers/super-resolution/hitchhiker_super_resolution.pdf
-File2[$e]=$HOME/1-documents/work/cv/2023-comping/cv_matej_ciglenecki.pdf
-File3[$e]=$HOME/1-documents/work/cv/2023-happening_ml/cv_matej_ciglenecki.pdf
-File4[$e]=$HOME/1-documents/work/cv/2023-eng-cv/cv_matej_ciglenecki.pdf
-File5[$e]=$HOME/4-education/papers/super-resolution/esrgan.pdf.old
-File6[$e]=$HOME/4-education/papers/super-resolution/srgan.pdf
-File7[$e]=$HOME/4-education/papers/super-resolution/esrgan.pdf
-File8[$e]=$HOME/1-documents/edu/potvrda_o_upisu_100714.pdf
-File9[$e]=$HOME/1-documents/edu/potvrda_o_upisu_s_prijepisom_ocjena_100715.pdf
-Name1[$e]=cv_matej_ciglenecki.pdf
-Name10[$e]=hitchhiker_super_resolution.pdf
-Name2[$e]=cv_matej_ciglenecki.pdf
-Name3[$e]=cv_matej_ciglenecki.pdf
-Name4[$e]=cv_matej_ciglenecki.pdf
-Name5[$e]=esrgan.pdf.old
-Name6[$e]=srgan.pdf
-Name7[$e]=esrgan.pdf
-Name8[$e]=potvrda_o_upisu_100714.pdf
-Name9[$e]=potvrda_o_upisu_s_prijepisom_ocjena_100715.pdf
+File1[$e]=$HOME/1-documents/edu/ita/2022_FER3-HR-Informacijski_Paket_ECTS-a-Red_Predavanja-Diplomski.pdf
+File10[$e]=$HOME/Downloads/rO8xpSL2TT9zn25JPgY1Jg.pdf
+File2[$e]=$HOME/1-documents/edu/potvrda_o_upisu_s_prijepisom_ocjena_109979.pdf
+File3[$e]=$HOME/1-documents/edu/potvrda_o_upisu_109833.pdf
+File4[$e]=$HOME/1-documents/edu/potvrda_o_upisu_100714.pdf
+File5[$e]=$HOME/1-documents/edu/potvrda_o_upisu_s_prijepisom_ocjena_100715.pdf
+File6[$e]=$HOME/Downloads/CamScanner 02-06-2024 10.17.pdf
+File7[$e]=$HOME/Downloads/with_logo.pdf
+File8[$e]=$HOME/Downloads/ponuda_pdf.pdf
+File9[$e]=$HOME/Downloads/CamScanner 02-13-2024 23.27.pdf
+Name1[$e]=2022_FER3-HR-Informacijski_Paket_ECTS-a-Red_Predavanja-Diplomski.pdf
+Name10[$e]=rO8xpSL2TT9zn25JPgY1Jg.pdf
+Name2[$e]=potvrda_o_upisu_s_prijepisom_ocjena_109979.pdf
+Name3[$e]=potvrda_o_upisu_109833.pdf
+Name4[$e]=potvrda_o_upisu_100714.pdf
+Name5[$e]=potvrda_o_upisu_s_prijepisom_ocjena_100715.pdf
+Name6[$e]=CamScanner 02-06-2024 10.17.pdf
+Name7[$e]=with_logo.pdf
+Name8[$e]=ponuda_pdf.pdf
+Name9[$e]=CamScanner 02-13-2024 23.27.pdf

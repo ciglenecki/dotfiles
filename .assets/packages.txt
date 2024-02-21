@@ -121,3 +121,4 @@ libreoffice-l10n-hr
 # gnome-tweak-tool
 # dolphin
 htop
+tk-dev
