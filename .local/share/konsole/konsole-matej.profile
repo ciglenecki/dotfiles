@@ -1,11 +1,11 @@
 [Appearance]
 AntiAliasFonts=true
-BoldIntense=false
-ColorScheme=matej-red
+BoldIntense=true
+ColorScheme=matej-lavanda
 Font=Hack,11,-1,5,50,0,0,0,0,0
 LineSpacing=0
 TabColor=255,0,0
-UseFontLineChararacters=false
+UseFontLineChararacters=true
 
 [General]
 DimWhenInactive=false
@@ -13,8 +13,8 @@ Name=konsole-matej
 Parent=FALLBACK/
 ShowTerminalSizeHint=false
 TerminalCenter=false
-TerminalColumns=130
-TerminalMargin=30
+TerminalColumns=127
+TerminalMargin=0
 
 [Interaction Options]
 AutoCopySelectedText=false

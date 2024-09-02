@@ -279,6 +279,57 @@
       }
     }
   },
+  "geometry-of-convert_single_dialog_geom": {
+    "frame_geometry": {
+      "height": 958,
+      "width": 1850,
+      "x": 25,
+      "y": 28
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 958,
+      "width": 1850,
+      "x": 25,
+      "y": 28
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 958,
+      "width": 1850,
+      "x": 25,
+      "y": 28
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAZAAAAHAAAB1IAAAPZAAAAGQAAABwAAAdSAAAD2QAAAAAAAAAAB4AAAAAZAAAAHAAAB1IAAAPZ"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "Dell Inc.",
+      "model": "DELL P2419H-",
+      "name": "HDMI-1",
+      "serial": "FQ79ZT2-",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
   "geometry-of-duplicates-question-dialog-geometry": {
     "frame_geometry": {
       "height": 720,
@@ -330,19 +381,70 @@
       }
     }
   },
+  "geometry-of-jobs_dialog_geometry": {
+    "frame_geometry": {
+      "height": 528,
+      "width": 1275,
+      "x": 0,
+      "y": 309
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 528,
+      "width": 1275,
+      "x": 0,
+      "y": 309
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 528,
+      "width": 1275,
+      "x": 0,
+      "y": 309
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAAAAABNQAABPoAAANEAAAAAAAAATUAAAT6AAADRAAAAAAAAAAAB4AAAAAAAAABNQAABPoAAANE"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "Dell Inc.",
+      "model": "DELL P2419H-",
+      "name": "HDMI-1",
+      "serial": "FQ79ZT2-",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
   "gpm_template_editor_font": "Sans Serif",
   "gpm_template_editor_word_wrap_mode": true,
   "grid view visible": false,
   "jobs view column layout3": {
     "__class__": "bytearray",
-    "__value__": "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAx4AAAAFAQEBAAAAAAAAAAAAAAAAAGT/////AAAAhAAAAAAAAAAFAAABjgAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAD6AAAAAAAAAAAAA=="
+    "__value__": "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA38AAAAFAQEBAAAAAAAAAAAAAAAAAGT/////AAAAhAAAAAAAAAAFAAABjgAAAAEAAAAAAAAAxQAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAD6AAAAAAAAAAAAA=="
   },
   "jobs_dialog_geometry": {
     "__class__": "bytearray",
     "__value__": "AdnQywADAAAAAAAAAAABGAAABPoAAANEAAAAAAAAATUAAAT6AAADRAAAAAAAAAAAB4AAAAAAAAABNQAABPoAAANE"
   },
   "library_usage_stats": {
-    "/home/matej/6-literature": 43
+    "/home/matej/6-literature": 47
   },
   "manual_add_auto_convert": false,
   "memory_view books view state": {

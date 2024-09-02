@@ -113,7 +113,10 @@
   "vim.normalModeKeyBindingsNonRecursive": [],
   "vim.handleKeys": {
     "<C-k>": false,
-    "<C-d>": true
+    "<C-d>": true,
+    "<C-f>": false,
+    "<C-b>": false,
+    "<C-p>": false,
   },
   "markdown.links.openLocation": "beside",
   "spellright.documentTypes": [
@@ -136,8 +139,7 @@
   "[c]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
-  "diffEditor.renderSideBySide": false,
-  "debug.javascript.autoAttachFilter": "smart",
+  "debug.javascript.autoAttachFilter": "disabled",
   "java.dependency.showMembers": true,
   "terminal.integrated.tabs.enabled": true,
   "security.workspace.trust.enabled": false,
@@ -145,7 +147,6 @@
     "editor.defaultFormatter": "vscode.html-language-features"
   },
   "explorer.confirmDragAndDrop": false,
-  "editor.insertSpaces": false,
   "settingsSync.ignoredExtensions": [
     "ctf0.laravel-goto-env"
   ],
@@ -168,18 +169,17 @@
     "MD034": false
   },
   "markdown-preview-enhanced.previewTheme": "github-light.css",
-  "editor.formatOnSave": true,
   "terminal.integrated.inheritEnv": false,
   "markdown.preview.doubleClickToSwitchToEditor": false,
-  "autoDocstring.customTemplatePath": "/home/matej/.config/autoDocStringTemplate.mustache",
-  "python.formatting.provider": "black",
-  "python.linting.pylintEnabled": true,
+  "autoDocstring.customTemplatePath": "autoDocStringTemplate.mustache",
   "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.formatOnType": true,
     "editor.codeActionsOnSave": {
       "source.organizeImports": "explicit"
-    }
+    },
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
   },
   "isort.args": [
     "--profile",
@@ -187,7 +187,6 @@
   ],
   "notebook.output.textLineLimit": 300,
   "scm.diffDecorations": "none",
-  "python.defaultInterpreterPath": "${workspaceFolder}/venv",
   "python.analysis.exclude": [
     "**/venv",
     "**/__pycache__",
@@ -199,14 +198,8 @@
     "data/",
     "embeddings/",
     "output/",
-    "**/test"
+    "**/basicsr"
   ],
-  "python.linting.ignorePatterns": [
-    "**/site-packages/**/*.py",
-    ".vscode/*.py",
-    "**/venv/**/*.py"
-  ],
-  "python.analysis.logLevel": "Error",
   "editor.scrollbar.verticalScrollbarSize": 10,
   "editor.gotoLocation.multipleDefinitions": "gotoAndPeek",
   "editor.gotoLocation.multipleTypeDefinitions": "gotoAndPeek",
@@ -220,9 +213,6 @@
   },
   "terminal.integrated.scrollback": 999999,
   "workbench.colorTheme": "Quiet Light",
-  "python.linting.pylintArgs": [
-    "--generate-members"
-  ],
   "editor.trimAutoWhitespace": false,
   "python.experiments.enabled": false,
   "python.analysis.diagnosticMode": "workspace",
@@ -231,5 +221,25 @@
   "files.autoSave": "afterDelay",
   "python.terminal.activateEnvInCurrentTerminal": true,
   "python.venvPath": "${workspaceFolder}/venv",
-  "python.analysis.autoImportCompletions": true
+  "ruff.lint.run": "onSave",
+  "python.analysis.logLevel": "Warning",
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.autoFormatStrings": true,
+  "python.analysis.fixAll": [
+    "source.convertImportFormat"
+  ],
+  "python.defaultInterpreterPath": "/home/matej/venv",
+  "python.languageServer": "Pylance",
+  "python.analysis.typeCheckingMode": "basic",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "editor.formatOnSave": true,
+  "ruff.lint.args": [
+    "[\"--unfixable F401\"]"
+  ],
+  "remote.SSH.serverInstallPath": {
+    "tp-komp-ured": "/home/matejc/"
+  },
+  "remote.autoForwardPortsSource": "hybrid",
+  "diffEditor.maxComputationTime": 0,
+  "terminal.integrated.cwd": "${workspaceFolder}",
 }

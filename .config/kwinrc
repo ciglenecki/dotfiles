@@ -3,11 +3,13 @@ update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-
 
 [Compositing]
 Backend=OpenGL
+Enabled=false
 GLCore=true
 GLPreferBufferSwap=e
 GLTextureFilter=1
 LatencyPolicy=Low
 OpenGLIsUnsafe=false
+WindowsBlockCompositing=false
 XRenderSmoothScale=false
 
 [Desktops]
@@ -15,15 +17,11 @@ Id_1=c141142a-5176-45fe-9b5d-5e9b89115fac
 Id_2=1fbdf8ac-bbf1-498b-b4a6-27324861d580
 Id_3=e04ff956-8a04-4594-82e4-0ec3cd94598f
 Id_4=a5a355a0-eb17-4922-8bfd-b52220bf9695
-Id_5=53914ea2-96fb-4efa-abc9-ad88daa2eed2
-Id_6=ba1547fd-c92c-42cb-8658-8c515785cd34
 Name_1=1
 Name_2=2
 Name_3=3
 Name_4=4
-Name_5=5
-Name_6=6
-Number=6
+Number=4
 Rows=1
 
 [Effect-DimInactive]
@@ -61,6 +59,7 @@ Mode=Constant
 NightTemperature=2600
 
 [Plugins]
+alwaysopenonactivescreenEnabled=true
 bismuthEnabled=false
 blurEnabled=false
 krohnkiteEnabled=true
@@ -100,10 +99,13 @@ noTileBorder=true
 preventProtrusion=false
 tileLayoutGap=5
 
+[SubSession: 587e0a3c-47e5-4c3a-b1e8-d622553fd3b4]
+active=-1
+count=0
+
 [TabBox]
 DesktopLayout=org.kde.breeze.desktop
 DesktopListLayout=org.kde.breeze.desktop
-DesktopMode=0
 LayoutName=thumbnail_grid
 SwitchingMode=1
 
@@ -113,13 +115,28 @@ padding=4
 [Tiling][213a9620-187e-58a6-b80b-85d8fb95dfce]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][3bdf8999-fdd1-5ee0-93bc-efc52b057e03]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][3dbb5d41-0e80-54f9-b63e-46744bd3aca5]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][3e5bc94a-06d9-5bb4-81e7-46b070e88b5d]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][58ca410b-ce44-58d6-82b9-fefe44aba0e3]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][5b7a5ba4-43cc-5910-8e98-f358f9d54b43]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][7b474bde-9f54-59fa-a34b-534702f9b4af]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][7c6cb96c-6e18-5658-853a-6a70b47a352b]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][9e30bbf3-e4ae-53d1-9f2d-18c47f3723aa]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][bbd12e85-9b4a-56e1-9c5d-51dbf6280a39]

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xbel>
-<xbel xmlns:kdepriv="http://www.kde.org/kdepriv" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks">
+<xbel xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:kdepriv="http://www.kde.org/kdepriv">
  <info>
   <metadata owner="http://www.kde.org">
    <kde_places_version>4</kde_places_version>
@@ -28,25 +28,14 @@
    </metadata>
   </info>
  </bookmark>
- <bookmark href="file:///home/matej/projects/ml-font-classifier">
-  <title>ml-font-classifier</title>
+ <bookmark href="file:///home/matej/remote">
+  <title>remote</title>
   <info>
    <metadata owner="http://freedesktop.org">
     <bookmark:icon name="inode-directory"/>
    </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1694662403/0</ID>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="file:///home/matej/projects/nerf-blender/renders">
-  <title>renders</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="inode-directory"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1687984950/0</ID>
+    <ID>1723472423/0</ID>
    </metadata>
   </info>
  </bookmark>
@@ -89,6 +78,19 @@
    </metadata>
   </info>
  </bookmark>
+ <bookmark href="file:///home/matej/.assets">
+  <title>.assets</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1656843267/0</ID>
+    <isSystemItem>false</isSystemItem>
+    <IsHidden>false</IsHidden>
+   </metadata>
+  </info>
+ </bookmark>
  <bookmark href="file:///home/matej/Desktop">
   <title>Desktop</title>
   <info>
@@ -112,19 +114,6 @@
     <ID>1627132493/2</ID>
     <isSystemItem>true</isSystemItem>
     <IsHidden>true</IsHidden>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="file:///home/matej/.assets">
-  <title>.assets</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="inode-directory"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1656843267/0</ID>
-    <isSystemItem>false</isSystemItem>
-    <IsHidden>false</IsHidden>
    </metadata>
   </info>
  </bookmark>
@@ -268,6 +257,42 @@
     <ID>1627132493/4</ID>
     <isSystemItem>true</isSystemItem>
     <IsHidden>false</IsHidden>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="sftp://matejc@tp-komp-ured:443/">
+  <title>tp-komp-ured</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1719922453/0</ID>
+    <OnlyInApp>dolphin</OnlyInApp>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="sftp://matejc@tp-train2:443/">
+  <title>train2</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1718716346/0</ID>
+    <OnlyInApp>dolphin</OnlyInApp>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="sftp://matejc@karijola:443/home/matejc/projects">
+  <title>karijola</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1718279584/0</ID>
+    <OnlyInApp>dolphin</OnlyInApp>
    </metadata>
   </info>
  </bookmark>
@@ -1030,15 +1055,20 @@
    </metadata>
   </info>
  </separator>
- <bookmark href="kdeconnect://ff4badd4f3dc52e9/">
-  <title>SM-G780F</title>
+ <separator>
   <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="kdeconnect"/>
-   </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1708546388/4</ID>
+    <UDI>/org/kde/fstab/fuse.sshfs/home/matej/remote/tp-komp-ured</UDI>
+    <isSystemItem>true</isSystemItem>
    </metadata>
   </info>
- </bookmark>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/kde/solid/udev/sys/devices/pci0000:00/0000:00:0d.0/usb4/4-1</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
 </xbel>

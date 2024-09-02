@@ -24,100 +24,129 @@ IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=224,223,222
-BackgroundNormal=245,252,255
-DecorationFocus=233,61,104
-DecorationHover=233,144,166
-ForegroundActive=255,128,224
-ForegroundInactive=136,134,135
-ForegroundLink=0,87,174
-ForegroundNegative=191,3,3
-ForegroundNeutral=176,128,0
-ForegroundNormal=35,38,39
-ForegroundPositive=0,110,40
-ForegroundVisited=69,40,134
+BackgroundAlternate=132,76,202
+BackgroundNormal=252,252,252
+DecorationFocus=82,2,181
+DecorationHover=82,2,181
+ForegroundActive=82,2,181
+ForegroundInactive=112,125,138
+ForegroundLink=82,2,181
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=35,38,41
+ForegroundPositive=39,174,96
+ForegroundVisited=155,89,182
 
 [Colors:Complementary]
-BackgroundAlternate=59,64,69
-BackgroundNormal=49,54,59
-DecorationFocus=30,146,255
-DecorationHover=61,174,230
-ForegroundActive=246,116,0
-ForegroundInactive=175,176,179
-ForegroundLink=61,174,230
-ForegroundNegative=237,21,21
-ForegroundNeutral=201,206,59
-ForegroundNormal=239,240,241
-ForegroundPositive=17,209,22
-ForegroundVisited=61,174,230
+BackgroundAlternate=27,30,32
+BackgroundNormal=42,46,50
+DecorationFocus=82,2,181
+DecorationHover=82,2,181
+ForegroundActive=82,2,181
+ForegroundInactive=161,169,177
+ForegroundLink=82,2,181
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=252,252,252
+ForegroundPositive=39,174,96
+ForegroundVisited=155,89,182
+
+[Colors:Header]
+BackgroundAlternate=239,240,241
+BackgroundNormal=222,224,226
+DecorationFocus=82,2,181
+DecorationHover=82,2,181
+ForegroundActive=82,2,181
+ForegroundInactive=112,125,138
+ForegroundLink=82,2,181
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=35,38,41
+ForegroundPositive=39,174,96
+ForegroundVisited=155,89,182
+
+[Colors:Header][Inactive]
+BackgroundAlternate=227,229,231
+BackgroundNormal=239,240,241
+DecorationFocus=61,174,233
+DecorationHover=61,174,233
+ForegroundActive=61,174,233
+ForegroundInactive=112,125,138
+ForegroundLink=41,128,185
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=35,38,41
+ForegroundPositive=39,174,96
+ForegroundVisited=155,89,182
 
 [Colors:Selection]
-BackgroundAlternate=62,138,204
-BackgroundNormal=241,166,185
-DecorationFocus=233,61,104
-DecorationHover=233,144,166
-ForegroundActive=255,128,224
-ForegroundInactive=233,144,166
-ForegroundLink=0,49,110
-ForegroundNegative=156,14,14
-ForegroundNeutral=255,221,0
-ForegroundNormal=0,25,42
-ForegroundPositive=128,255,128
-ForegroundVisited=69,40,134
+BackgroundAlternate=133,77,203
+BackgroundNormal=133,77,203
+DecorationFocus=82,2,181
+DecorationHover=82,2,181
+ForegroundActive=82,2,181
+ForegroundInactive=255,255,255
+ForegroundLink=82,2,181
+ForegroundNegative=176,55,69
+ForegroundNeutral=198,92,0
+ForegroundNormal=255,255,255
+ForegroundPositive=23,104,57
+ForegroundVisited=155,89,182
 
 [Colors:Tooltip]
-BackgroundAlternate=196,224,255
-BackgroundNormal=252,252,252
-DecorationFocus=233,61,104
-DecorationHover=233,144,166
-ForegroundActive=255,128,224
-ForegroundInactive=136,134,135
-ForegroundLink=0,87,174
-ForegroundNegative=191,3,3
-ForegroundNeutral=176,128,0
-ForegroundNormal=35,38,39
-ForegroundPositive=0,110,40
-ForegroundVisited=69,40,134
+BackgroundAlternate=239,240,241
+BackgroundNormal=247,247,247
+DecorationFocus=82,2,181
+DecorationHover=82,2,181
+ForegroundActive=82,2,181
+ForegroundInactive=112,125,138
+ForegroundLink=82,2,181
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=35,38,41
+ForegroundPositive=39,174,96
+ForegroundVisited=155,89,182
 
 [Colors:View]
-BackgroundAlternate=248,247,246
-BackgroundNormal=241,248,252
-DecorationFocus=233,61,104
-DecorationHover=233,144,166
-ForegroundActive=255,128,224
-ForegroundInactive=136,134,135
-ForegroundLink=0,87,174
-ForegroundNegative=191,3,3
-ForegroundNeutral=176,128,0
-ForegroundNormal=39,38,38
-ForegroundPositive=0,110,40
-ForegroundVisited=69,40,134
+BackgroundAlternate=247,247,247
+BackgroundNormal=255,255,255
+DecorationFocus=82,2,181
+DecorationHover=82,2,181
+ForegroundActive=82,2,181
+ForegroundInactive=112,125,138
+ForegroundLink=82,2,181
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=35,38,41
+ForegroundPositive=39,174,96
+ForegroundVisited=155,89,182
 
 [Colors:Window]
-BackgroundAlternate=218,217,216
-BackgroundNormal=222,229,232
-DecorationFocus=233,61,104
-DecorationHover=233,144,166
-ForegroundActive=255,128,224
-ForegroundInactive=136,134,135
-ForegroundLink=0,87,174
-ForegroundNegative=191,3,3
-ForegroundNeutral=176,128,0
-ForegroundNormal=35,38,39
-ForegroundPositive=0,110,40
-ForegroundVisited=69,40,134
+BackgroundAlternate=227,229,231
+BackgroundNormal=239,240,241
+DecorationFocus=82,2,181
+DecorationHover=82,2,181
+ForegroundActive=82,2,181
+ForegroundInactive=112,125,138
+ForegroundLink=82,2,181
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=35,38,41
+ForegroundPositive=39,174,96
+ForegroundVisited=155,89,182
 
 [DirSelect Dialog]
-DirSelectDialog Size=1098,560
-History Items[$e]=file:///media/matej/sam/movies,file:$HOME/fer/oos/docs/,file:$HOME,file:$HOME/fer/oos/docs,file:$HOME/fer/oos/2-notes,file:$HOME/Downloads/specimen_card_mask/colmap/sparse/0,file:$HOME/Downloads/specimen_card_mask,file:$HOME/Downloads/colmap/sparse/0,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2/hand_card_sequence,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/hand_card_sequence,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/colmap/sparse/0,file:$HOME/Downloads/specimen_rgb,file:$HOME/Downloads/hand_card_sequence,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/colmap,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/colmap,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/hand_card_sequence,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/hand_card_sequence,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/images,file:$HOME/Downloads/colmap,file:$HOME/Downloads/images,file:$HOME/Downloads/images,file:$HOME/Downloads/colmap/sparse,file:$HOME/Downloads/colmap,file:$HOME/2-media/screenshots,file:$HOME/2-media/screenshots,file:$HOME,file:$HOME/2-media/screenshots
+DirSelectDialog Size=1682,563
+History Items[$e]=file:$HOME/2-media/screenshots,file:///media/matej/sam/movies,file:$HOME/fer/oos/docs/,file:$HOME,file:$HOME/fer/oos/docs,file:$HOME/fer/oos/2-notes,file:$HOME/Downloads/specimen_card_mask/colmap/sparse/0,file:$HOME/Downloads/specimen_card_mask,file:$HOME/Downloads/colmap/sparse/0,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2/hand_card_sequence,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/hand_card_sequence,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/colmap/sparse/0,file:$HOME/Downloads/specimen_rgb,file:$HOME/Downloads/hand_card_sequence,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/colmap,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/colmap,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/hand_card_sequence,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/hand_card_sequence,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/images,file:$HOME/Downloads/colmap,file:$HOME/Downloads/images,file:$HOME/Downloads/images,file:$HOME/Downloads/colmap/sparse,file:$HOME/Downloads/colmap,file:$HOME/2-media/screenshots,file:$HOME/2-media/screenshots,file:$HOME
 
 [General]
+AccentColor=82,2,181
 BrowserApplication=brave-browser.desktop
-ColorScheme=matej-pink
-ColorSchemeHash=d2f9f23c62b2c7529878a3b4c96c2902e98086db
+ColorScheme=BreezeLight
+ColorSchemeHash=fafcbc7575eca994617bac9531498765cddda88f
+LastUsedCustomAccentColor=82,2,181
 Name=Breeze
-TerminalApplication="konsole -e tmux"
-TerminalService=/home/matej/.local/share/applications/konsole.desktop
+TerminalApplication="konsole --profile=konsole-matej -e tmux"
 XftAntialias=true
 XftHintStyle=hintslight
 XftSubPixel=rgb
@@ -142,23 +171,22 @@ Breadcrumb Navigation=false
 Decoration position=2
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
-Preview Width=308
+Preview Width=367
 Show Bookmarks=false
 Show Full Path=false
 Show Inline Previews=false
 Show Preview=true
 Show Speedbar=true
 Show hidden files=true
-Sort by=Name
+Sort by=Date
 Sort directories first=true
 Sort hidden files last=false
-Sort reversed=false
+Sort reversed=true
 Speedbar Width=354
 View Style=DetailTree
 
 [KScreen]
-ScaleFactor=1
-ScreenScaleFactors=eDP-1=1;DP-1=1;HDMI-1=1;
+ScreenScaleFactors=eDP-1=1;HDMI-1=1;DP-1=1;DP-2=1;
 
 [KShortcutsDialog Settings]
 Dialog Size=1020,699
@@ -193,9 +221,11 @@ TipofDay=
 Zoom=
 
 [WM]
-activeBackground=239,240,241
-activeBlend=252,252,252
-activeForeground=35,38,39
-inactiveBackground=239,240,241
-inactiveBlend=75,71,67
-inactiveForeground=137,142,146
+activeBackground=51,1,117
+activeBlend=227,229,231
+activeForeground=239,240,241
+frame=51,1,117
+inactiveBackground=51,1,117
+inactiveBlend=239,240,241
+inactiveForeground=239,240,241
+inactiveFrame=51,1,117

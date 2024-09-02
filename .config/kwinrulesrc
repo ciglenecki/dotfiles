@@ -32,6 +32,22 @@ title=Sent Mail - Matej - Mozilla Thunderbird
 titlematch=0
 wmclassmatch=1
 
+[4]
+Description=Settings for todoist.com__app brave-browser
+desktops=a5a355a0-eb17-4922-8bfd-b52220bf9695
+desktopsrule=3
+wmclass=todoist.com__app brave-browser
+wmclasscomplete=true
+wmclassmatch=1
+
+[5]
+Description=Settings for calendar.google.com__calendar_r brave-browser
+desktops=a5a355a0-eb17-4922-8bfd-b52220bf9695
+desktopsrule=3
+wmclass=calendar.google.com__calendar_r brave-browser
+wmclasscomplete=true
+wmclassmatch=1
+
 [8a1023c7-9b78-44b0-9bae-8556b17dadba]
 Description=Settings for latexocr latexocr
 fullscreen=true
@@ -44,8 +60,8 @@ wmclassmatch=1
 XftAntialias[$d]
 XftHintStyle[$d]
 XftSubPixel[$d]
-count=3
-rules=1,2,3
+count=5
+rules=1,2,3,4,5
 
 [KDE]
 LookAndFeelPackage[$d]
@@ -68,6 +84,22 @@ minimizerule=3
 noborder=true
 noborderrule=2
 wmclass=plasmashell
+wmclassmatch=1
+
+[d86ce73a-3f02-4e11-8314-5dd3b497a088]
+Description=Settings for todoist.com__app brave-browser
+desktops=a5a355a0-eb17-4922-8bfd-b52220bf9695
+desktopsrule=3
+wmclass=todoist.com__app brave-browser
+wmclasscomplete=true
+wmclassmatch=1
+
+[ea3d851d-8e63-435b-ba95-cc5d5a46b87c]
+Description=Settings for calendar.google.com__calendar_r brave-browser
+desktops=a5a355a0-eb17-4922-8bfd-b52220bf9695
+desktopsrule=3
+wmclass=calendar.google.com__calendar_r brave-browser
+wmclasscomplete=true
 wmclassmatch=1
 
 [f67ba343-225e-4243-976c-834b190746c2]

@@ -50,16 +50,78 @@
       }
     }
   },
+  "geometry-of-viewer_image_popup_geometry": {
+    "frame_geometry": {
+      "height": 124,
+      "width": 728,
+      "x": 586,
+      "y": 427
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 124,
+      "width": 728,
+      "x": 586,
+      "y": 427
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 124,
+      "width": 728,
+      "x": 586,
+      "y": 427
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAJKAAABqwAABSEAAAImAAACSgAAAasAAAUhAAACJgAAAAAAAAAAB4AAAAJKAAABqwAABSEAAAIm"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "Dell Inc.",
+      "model": "DELL P2419H-",
+      "name": "HDMI-1",
+      "serial": "FQ79ZT2-",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
   "main_window_geometry": {
     "__class__": "bytearray",
     "__value__": "AdnQywADAAAAAAAAAAAAAAAAB38AAAQZAAAAAAAAAAAAAAd/AAAEGQAAAAAAAAAAB4AAAAAAAAAAAAAAB38AAAQZ"
   },
   "main_window_state": {
     "__class__": "bytearray",
-    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIoA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAmgD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACEAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAPIA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFAD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAANIA////AAAHgAAABCIAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAEFAAAEIvwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIoA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAAAAAQiAAAAmgD///8AAAABAAABkwAABCL8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAAAABCIAAACEAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAPIA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFAD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAANIA////AAAHgAAABCIAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
   },
   "old_prefs_migrated": true,
+  "saved-search-settings": {
+    "what time is it now": {
+      "case_sensitive": false,
+      "mode": "normal"
+    }
+  },
   "session_data": {
+    "base_font_size": 19,
+    "columns_per_screen": {
+      "landscape": 3,
+      "portrait": 3
+    },
     "controls_help_shown_count": 2,
     "standalone_font_settings": {},
     "standalone_misc_settings": {
@@ -73,9 +135,18 @@
         "authors": [
           "Alexandre Dumas"
         ],
+        "key": "/home/matej/6-literature/Alexandre Dumas/The Count of Monte Cristo, Illustrated (117)/The Count of Monte Cristo, Illustrated - Alexandre Dumas.epub",
+        "pathtoebook": "/home/matej/6-literature/Alexandre Dumas/The Count of Monte Cristo, Illustrated (117)/The Count of Monte Cristo, Illustrated - Alexandre Dumas.epub",
+        "timestamp": "2024-06-19T22:36:54.945Z",
+        "title": "The Count of Monte Cristo, Illustrated"
+      },
+      {
+        "authors": [
+          "Alexandre Dumas"
+        ],
         "key": "/home/matej/6-literature/Alexandre Dumas/The Count of Monte Cristo, Illustrated (117)/The Count of Monte Cristo, Illustrated - Alexandre Dumas.mobi",
         "pathtoebook": "/home/matej/6-literature/Alexandre Dumas/The Count of Monte Cristo, Illustrated (117)/The Count of Monte Cristo, Illustrated - Alexandre Dumas.mobi",
-        "timestamp": "2024-01-24T22:57:21.768Z",
+        "timestamp": "2024-06-19T22:01:04.812Z",
         "title": "The Count of Monte Cristo, Illustrated"
       },
       {
@@ -106,5 +177,7 @@
         "title": "The Count of Monte Cristo, Illustrated"
       }
     ]
-  }
+  },
+  "viewer-search-case-sensitive": false,
+  "viewer-search-mode": "normal"
 }

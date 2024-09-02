@@ -5,6 +5,7 @@ echo "Sourcing .bashrc"
 
 # Run tmux only if parent process is not Dolphin
 # Changing directory in Dolphin doesn't work if tmux is running
+
 parent_proc=$(ps -f $PPID | tail -n 1 | tr -s ' ' | cut -f9 -d ' ')
 if [[ "$parent_proc" != *"dolphin"* ]] ;then # determine if parent process is not Dolphin
     if [[ -z "$TMUX" ]] ;then # Check if tmux variable is blank

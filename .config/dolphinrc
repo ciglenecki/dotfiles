@@ -14,16 +14,17 @@ PreviewSize=16
 LastMimeType=application/zip
 
 [Desktop Entry]
-DefaultProfile=Profile 3.profile
+DefaultProfile=konsole-matej.profile
 
 [DetailsMode]
 ExpandableFolders=false
-PreviewSize=32
+PreviewSize=16
+SidePadding=0
 
 [ExtractDialog]
-1920x1080 screen: Height=544
-1920x1080 screen: Width=1410
-DirHistory[$e]=/opt/,$HOME/projects/lumen-audio/data/,$HOME/Downloads/,$HOME/Downloads/dubuce projekt/all_images/
+1920x1080 screen: Height=560
+1920x1080 screen: Width=1280
+DirHistory[$e]=$HOME/Downloads/,/opt/,$HOME/projects/lumen-audio/data/,$HOME/Downloads/dubuce projekt/all_images/
 HDMI-0 Height 1920x1080=547
 HDMI-0 Width 1920x1080=1279
 
@@ -48,13 +49,15 @@ IconSize=16
 [KFileDialog Settings]
 Places Icons Auto-resize=false
 Places Icons Static Size=16
-Recent Files[$e]=file:$HOME/projects/lumen-audio/data,file:///opt
-Recent URLs[$e]=file:$HOME/projects/lumen-audio/,file:///opt/,file:$HOME/2-media/icons/,file:$HOME/,file:$HOME/Downloads/,file:$HOME/projects/lumen-audio/data/,file:///
+Recent Files[$e]=file:$HOME
+Recent URLs[$e]=file:///opt/,file:$HOME/2-media/icons/,file:$HOME/,file:$HOME/Downloads/,file:///
 detailViewIconSize=16
 
 [KPropertiesDialog]
 1920x1080 screen: Height=458
-1920x1080 screen: Width=415
+1920x1080 screen: Width=410
+2560x1080 screen: Height=444
+2560x1080 screen: Width=432
 DP-0 HDMI-0 Height 1920x1080=458
 DP-0 HDMI-0 Height 2560x1440=587
 DP-0 HDMI-0 Width 1920x1080=383
@@ -169,9 +172,6 @@ IconSize=16
 
 [PreviewSettings]
 Plugins=audiothumbnail,blenderthumbnail,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,textthumbnail,ffmpegthumbs
-
-[Search]
-What=Content
 
 [SettingsDialog]
 Height 1080=456

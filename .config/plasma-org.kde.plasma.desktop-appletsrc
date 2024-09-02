@@ -124,14 +124,14 @@ plugin=org.kde.plasma.virtualdesktopbar
 PreloadWeight=0
 
 [Containments][2][Applets][41][Configuration][ConfigDialog]
-DialogHeight=540
+DialogHeight=735
 DialogWidth=1029
 
 [Containments][2][Applets][41][Configuration][Preferences]
 AddDesktopButtonShow=false
-DesktopIndicatorsCustomColorForCurrentDesktop=#d40000
-DesktopIndicatorsCustomColorForIdleDesktops=#621c1c
-DesktopIndicatorsCustomColorForOccupiedIdleDesktops=#621c1c
+DesktopIndicatorsCustomColorForCurrentDesktop=#9f00d4
+DesktopIndicatorsCustomColorForIdleDesktops=#511c62
+DesktopIndicatorsCustomColorForOccupiedIdleDesktops=#511c62
 DesktopIndicatorsDistinctForOccupiedIdleDesktops=false
 DesktopIndicatorsDoNotOverrideOpacityOfCustomColors=true
 DesktopIndicatorsStyle=2
@@ -180,9 +180,28 @@ immutability=1
 plugin=com.github.zren.commandoutput
 
 [Containments][2][Applets][61][Configuration]
-PreloadWeight=42
+PreloadWeight=0
 
 [Containments][2][Applets][61][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][2][Applets][65]
+immutability=1
+plugin=org.kde.plasma.digitalclock
+
+[Containments][2][Applets][65][Configuration]
+PreloadWeight=100
+popupHeight=450
+popupWidth=810
+
+[Containments][2][Applets][65][Configuration][Appearance]
+lastSelectedTimezone=UTC+00:00
+selectedTimeZones=UTC+00:00,Local
+showDate=false
+showSeconds=true
+
+[Containments][2][Applets][65][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
@@ -202,9 +221,10 @@ DialogWidth=1920
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=3;54;39;48;36;28;44;41;7;6;61
+AppletOrder=3;54;39;48;36;28;65;44;41;7;6;61
 
 [Containments][63]
+ItemGeometries-0x0=
 ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
 activityId=ff28354e-18f3-45a6-b82e-2d71ebba7cf4
@@ -215,8 +235,20 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][63][ConfigDialog]
+DialogHeight=797
+DialogWidth=1095
+
 [Containments][63][Configuration]
-PreloadWeight=42
+PreloadWeight=0
+
+[Containments][63][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=444
+
+[Containments][63][Wallpaper][org.kde.image][General]
+Image=/usr/share/wallpapers/MilkyWay/contents/images/5120x2880_purple.png
+SlidePaths=/usr/share/plasma/wallpapers/,/usr/share/wallpapers/
 
 [Containments][64]
 activityId=ff28354e-18f3-45a6-b82e-2d71ebba7cf4
@@ -228,7 +260,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][64][Configuration]
-PreloadWeight=42
+PreloadWeight=0
 
 [Containments][8]
 activityId=
@@ -267,14 +299,14 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][8][Applets][17][Configuration]
-PreloadWeight=57
+PreloadWeight=100
 
 [Containments][8][Applets][22]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][8][Applets][22][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][8][Applets][23]
 immutability=1
@@ -315,7 +347,10 @@ immutability=1
 plugin=org.kde.kscreen
 
 [Containments][8][Applets][57][Configuration]
-PreloadWeight=0
+PreloadWeight=5
+
+[Containments][8][Applets][66][Configuration]
+PreloadWeight=42
 
 [Containments][8][Applets][9][Configuration]
 PreloadWeight=42

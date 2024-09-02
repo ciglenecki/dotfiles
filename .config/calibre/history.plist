@@ -18,5 +18,9 @@
 		<string>design</string>
 		<string>darkest hour</string>
 	</array>
+	<key>lineedit_history_viewer-search-panel-expression</key>
+	<array>
+		<string>what time is it now</string>
+	</array>
 </dict>
 </plist>

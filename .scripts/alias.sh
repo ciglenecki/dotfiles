@@ -271,17 +271,16 @@ function cp_test {
 }
 
 
-function projects_uri {
-    local hex_=$(printf '+{"containerName":"/mciglenecki-projects","settings":{"host":"ssh://mciglenecki@zver1.zesoi.fer.hr:443"}}' | od -A n -t x1 | tr -d '[\n\t ]')
-    local path_uri="/root/projects/nerf-research"
-    local folder_uri="vscode-remote://attached-container%$hex_:$path_uri"
+function code_uri  {
+    local hex_=$(echo '+{"containerName":"/'$2'","settings":{"host":"ssh://'$1'"}}' | od -A n -t x1 | tr -d '[\n\t ]')
+    local folder_uri="vscode-remote://attached-container%$hex_:$3"
     echo $folder_uri
 }
 
+function slep {
+    systemctl suspend
+}
 
-function audio_uri {
-    local hex_=$(printf '+{"containerName":"/mciglenecki-audio-shm","settings":{"host":"ssh://mciglenecki@zver1.zesoi.fer.hr:443"}}' | od -A n -t x1 | tr -d '[\n\t ]')
-    local path_uri="/root/lumen-audio/"
-    local folder_uri="vscode-remote://attached-container%$hex_:$path_uri"
-    echo $folder_uri
+function video {
+    ffmpeg -i $1 -vcodec libx264 -crf 28 convert-$1
 }

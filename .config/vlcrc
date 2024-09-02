@@ -4,6 +4,10 @@ Autoplay=false
 [FileDialogSize]
 1920x1080 screen: Height=626
 1920x1080 screen: Width=1307
+2 screens: Height=626
+2 screens: Width=1027
+2560x1080 screen: Height=626
+2560x1080 screen: Width=1306
 DP-0 HDMI-0 Height 1920x1080=600
 DP-0 HDMI-0 Height 2560x1440=789
 DP-0 HDMI-0 Width 1920x1080=980
@@ -20,6 +24,6 @@ Width 1920=1027
 Width 2560=1306
 
 [KFileDialog Settings]
-Recent Files[$e]=The Sopranos - 2x07 - D-Girl.en.srt,file:$HOME/Downloads/12 Angry Men 1957 1080p BluRay x264 AAC - Ozlem/English.srt,file:$HOME/Downloads/Calibre (2018) [WEBRip] [1080p] [YTS.AM]/Calibre.2018.1080p.WEBRip.x264-[YTS.AM].srt,file:$HOME/Downloads/Pat & Mat/Pat & Mat - 03 -The Workshop (Dielna).avi,file:$HOME/Downloads/Pat & Mat/Pat & Mat - 02 - Wallpaper (Tapety).avi
-Recent URLs[$e]=file:$HOME/Downloads/Pat & Mat/,file:$HOME/Downloads/Calibre (2018) [WEBRip] [1080p] [YTS.AM]/,file:$HOME/Downloads/12 Angry Men 1957 1080p BluRay x264 AAC - Ozlem/
+Recent Files[$e]=The Sopranos - 2x07 - D-Girl.en.srt,file:$HOME/goldcast_3.mp4,file:$HOME/goldcast_2.mp4
+Recent URLs[$e]=file:$HOME/
 detailViewIconSize=16

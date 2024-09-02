@@ -35,3 +35,6 @@
 [safe]
 	directory = /media/zver/projects/nerf-research
 	directory = /home/matej/projects/zver/projects/nerf-research
+[push]
+	autoSetupRemote = true
+	autoSetupRemote = true
