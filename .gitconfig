@@ -31,7 +31,7 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 [pull]
-	rebase = false
+	rebase = true
 [safe]
 	directory = /media/zver/projects/nerf-research
 	directory = /home/matej/projects/zver/projects/nerf-research

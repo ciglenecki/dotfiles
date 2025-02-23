@@ -24,6 +24,6 @@ Width 1920=1027
 Width 2560=1306
 
 [KFileDialog Settings]
-Recent Files[$e]=The Sopranos - 2x07 - D-Girl.en.srt,file:$HOME/goldcast_3.mp4,file:$HOME/goldcast_2.mp4
-Recent URLs[$e]=file:$HOME/
+Recent Files[$e]=The Sopranos - 2x07 - D-Girl.en.srt,file:$HOME/Downloads/Twin Peaks Season 2/Twin Peaks [2x08] Drive with a Dead Girl.srt
+Recent URLs[$e]=file:$HOME/,file:$HOME/Downloads/,file:$HOME/Downloads/Twin Peaks Season 2/
 detailViewIconSize=16

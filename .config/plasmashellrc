@@ -1,10 +1,16 @@
 [KFileDialog Settings]
-Recent Files[$e]=file:///usr/share/wallpapers/MilkyWay/contents/images/5120x2880_purple.png,file:$HOME/2-media/wallpaper/milky_way_purple.png
-Recent URLs[$e]=file:$HOME/2-media/wallpaper/,file:///usr/share/wallpapers/MilkyWay/contents/images/,file:$HOME/Pictures/
+Recent Files[$e]=file:///usr/share/wallpapers/MilkyWay/contents/images/5120x2880_purple.png,file:$HOME/Downloads/1_Ue6ZhQ4SEZEIer3QtsQbfA.jpg,file:$HOME/2-media/wallpaper/milky_way_purple.png
+Recent URLs[$e]=file:$HOME/2-media/wallpaper/,file:///usr/share/wallpapers/MilkyWay/contents/images/,file:$HOME/Downloads/
 detailViewIconSize=16
 
+[KPropertiesDialog]
+1920x1080 screen: Height=529
+1920x1080 screen: Width=410
+2560x1080 screen: Height=529
+2560x1080 screen: Width=416
+
 [PlasmaTransientsConfig]
-PreloadWeight=0
+PreloadWeight=34
 
 [PlasmaViews][Panel 2][Defaults]
 thickness=22

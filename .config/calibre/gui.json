@@ -230,28 +230,28 @@
   ],
   "geometry-of-calibre_main_window_geometry": {
     "frame_geometry": {
-      "height": 1058,
-      "width": 957,
-      "x": 0,
+      "height": 526,
+      "width": 1078,
+      "x": 841,
       "y": 0
     },
     "full_screened": false,
     "geometry": {
-      "height": 1058,
-      "width": 957,
-      "x": 0,
+      "height": 526,
+      "width": 1078,
+      "x": 841,
       "y": 0
     },
     "maximized": false,
     "normal_geometry": {
-      "height": 1058,
-      "width": 957,
-      "x": 0,
+      "height": 526,
+      "width": 1078,
+      "x": 841,
       "y": 0
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAAAAAAAAAAAA7wAAAQhAAAAAAAAAAAAAAO8AAAEIQAAAAAAAAAAB4AAAAAAAAAAAAAAA7wAAAQh"
+      "__value__": "AdnQywADAAAAAANJAAAAAAAAB34AAAINAAADSQAAAAAAAAd+AAACDQAAAAEAAAAAB4AAAANJAAAAAAAAB34AAAIN"
     },
     "screen": {
       "depth": 24,
@@ -262,7 +262,7 @@
         "x": 0,
         "y": 0
       },
-      "index_in_screens_list": 0,
+      "index_in_screens_list": 1,
       "manufacturer": "Dell Inc.",
       "model": "DELL P2419H-",
       "name": "HDMI-1",
@@ -444,7 +444,36 @@
     "__value__": "AdnQywADAAAAAAAAAAABGAAABPoAAANEAAAAAAAAATUAAAT6AAADRAAAAAAAAAAAB4AAAAAAAAABNQAABPoAAANE"
   },
   "library_usage_stats": {
-    "/home/matej/6-literature": 47
+    "/home/matej/6-literature": 49
+  },
+  "main_window_central_widget_state": {
+    "layout": "wide",
+    "narrow_desires": {
+      "book_details_height": 0.23053435114503817,
+      "cover_browser_width": 0.3490073145245559,
+      "quick_view_height": 0.2564885496183206,
+      "tag_browser_width": 0.2497387669801463
+    },
+    "narrow_visibility": {
+      "book_details": true,
+      "book_list": true,
+      "cover_browser": false,
+      "quick_view": false,
+      "tag_browser": true
+    },
+    "wide_desires": {
+      "book_details_width": 0.329153605015674,
+      "cover_browser_height": 0.22935779816513763,
+      "quick_view_height": 0.25688073394495414,
+      "tag_browser_width": 0.2089864158829676
+    },
+    "wide_visibility": {
+      "book_details": true,
+      "book_list": true,
+      "cover_browser": false,
+      "quick_view": false,
+      "tag_browser": true
+    }
   },
   "manual_add_auto_convert": false,
   "memory_view books view state": {

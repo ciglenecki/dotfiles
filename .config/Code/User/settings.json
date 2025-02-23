@@ -141,7 +141,6 @@
   },
   "debug.javascript.autoAttachFilter": "disabled",
   "java.dependency.showMembers": true,
-  "terminal.integrated.tabs.enabled": true,
   "security.workspace.trust.enabled": false,
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
@@ -158,7 +157,6 @@
   "jupyter.askForKernelRestart": false,
   "editor.acceptSuggestionOnEnter": "off",
   "editor.smoothScrolling": true,
-  "editor.cursorSmoothCaretAnimation": "on",
   "http.systemCertificates": false,
   "markdownlint.config": {
     "MD040": false, // fenced code block allow no language spec
@@ -207,9 +205,11 @@
   "github.copilot.enable": {
     "*": true,
     "plaintext": false,
-    "markdown": "true",
+    "markdown": false,
     "scminput": false,
-    "cpp": false
+    "cpp": false,
+    "raw": false,
+    "ini": false
   },
   "terminal.integrated.scrollback": 999999,
   "workbench.colorTheme": "Quiet Light",
@@ -218,10 +218,8 @@
   "python.analysis.diagnosticMode": "workspace",
   "workbench.editor.empty.hint": "hidden",
   "cmake.configureOnOpen": true,
-  "files.autoSave": "afterDelay",
   "python.terminal.activateEnvInCurrentTerminal": true,
   "python.venvPath": "${workspaceFolder}/venv",
-  "ruff.lint.run": "onSave",
   "python.analysis.logLevel": "Warning",
   "python.analysis.autoImportCompletions": true,
   "python.analysis.autoFormatStrings": true,
@@ -233,13 +231,22 @@
   "python.analysis.typeCheckingMode": "basic",
   "github.copilot.editor.enableAutoCompletions": true,
   "editor.formatOnSave": true,
-  "ruff.lint.args": [
-    "[\"--unfixable F401\"]"
-  ],
   "remote.SSH.serverInstallPath": {
     "tp-komp-ured": "/home/matejc/"
   },
   "remote.autoForwardPortsSource": "hybrid",
   "diffEditor.maxComputationTime": 0,
   "terminal.integrated.cwd": "${workspaceFolder}",
+  "svifpd.debug": "debug",
+  "svifpd.useExperimentalDataTransfer": false,
+  "svifpd.allowPlugins": true,
+  "pylint.args": [
+    "\"pylint.args\": [\"--extension-pkg-whitelist=cv2\", \"--generate-members\"]"
+  ],
+  "githubPullRequests.pullBranch": "never",
+  "python.analysis.extraPaths": [
+    "."
+  ],
+  "python.analysis.autoSearchPaths": false,
+  "terminal.integrated.tabs.location": "left",
 }

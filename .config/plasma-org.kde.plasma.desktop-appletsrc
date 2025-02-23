@@ -61,11 +61,11 @@ plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
 PreloadWeight=100
-popupHeight=590
-popupWidth=914
+popupHeight=583
+popupWidth=1390
 
 [Containments][2][Applets][3][Configuration][ConfigDialog]
-DialogHeight=1080
+DialogHeight=1058
 DialogWidth=1920
 
 [Containments][2][Applets][3][Configuration][Configuration/General]
@@ -98,7 +98,7 @@ DialogWidth=720
 [Containments][2][Applets][36][Configuration][General]
 groupPopups=false
 groupingStrategy=0
-launchers=
+launchers=file:///usr/share/applications/brave-browser.desktop
 onlyGroupWhenFull=false
 showOnlyCurrentScreen=true
 
@@ -226,6 +226,8 @@ AppletOrder=3;54;39;48;36;28;65;44;41;7;6;61
 [Containments][63]
 ItemGeometries-0x0=
 ItemGeometries-1920x1080=
+ItemGeometries-2560x1080=
+ItemGeometries-2560x1440=
 ItemGeometriesHorizontal=
 activityId=ff28354e-18f3-45a6-b82e-2d71ebba7cf4
 formfactor=0
@@ -247,7 +249,7 @@ ToolBoxButtonState=topcenter
 ToolBoxButtonX=444
 
 [Containments][63][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/MilkyWay/contents/images/5120x2880_purple.png
+Image=/home/matej/2-media/wallpaper/milky_way_purple.png
 SlidePaths=/usr/share/plasma/wallpapers/,/usr/share/wallpapers/
 
 [Containments][64]
@@ -261,6 +263,24 @@ wallpaperplugin=org.kde.image
 
 [Containments][64][Configuration]
 PreloadWeight=0
+
+[Containments][64][Wallpaper][org.kde.image][General]
+Image=/home/matej/Downloads/TensorPix - 3e0e212843311519cfd4e8b6e7d56bbe.jpeg
+
+[Containments][66]
+activityId=ff28354e-18f3-45a6-b82e-2d71ebba7cf4
+formfactor=0
+immutability=1
+lastScreen=2
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][66][Configuration]
+PreloadWeight=34
+
+[Containments][66][Wallpaper][org.kde.image][General]
+Image=/home/matej/Downloads/TensorPix - 3e0e212843311519cfd4e8b6e7d56bbe.jpeg
 
 [Containments][8]
 activityId=
@@ -306,7 +326,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][8][Applets][22][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][8][Applets][23]
 immutability=1
@@ -347,7 +367,7 @@ immutability=1
 plugin=org.kde.kscreen
 
 [Containments][8][Applets][57][Configuration]
-PreloadWeight=5
+PreloadWeight=25
 
 [Containments][8][Applets][66][Configuration]
 PreloadWeight=42
@@ -364,7 +384,7 @@ PreloadWeight=0
 
 [Containments][8][General]
 extraItems=org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod,org.kde.kscreen
-hiddenItems=qBittorrent,shutter,Discover Notifier_org.kde.DiscoverNotifier,Yakuake,KDE Daemon,vlc,discord1,Microsoft Teams - Preview1,Insync,Plasma_microphone,org.kde.plasma.battery,flameshot
+hiddenItems=qBittorrent,shutter,Discover Notifier_org.kde.DiscoverNotifier,Yakuake,KDE Daemon,vlc,discord1,Microsoft Teams - Preview1,Insync,Plasma_microphone,org.kde.plasma.battery,flameshot,chrome_status_icon_1
 knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.clipboard,org.kde.kupapplet,org.kde.plasma.keyboardindicator,org.kde.plasma.devicenotifier,org.kde.plasma.printmanager,org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.kdeconnect,org.kde.plasma.vault,org.kde.plasma.bluetooth,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod,org.kde.kscreen
 scaleIconsToFit=true
 shownItems=org.kde.plasma.networkmanagement,org.kde.plasma.notifications,ibus-ui-gtk3,org.kde.plasma.volume

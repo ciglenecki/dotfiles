@@ -136,14 +136,13 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [DirSelect Dialog]
-DirSelectDialog Size=1682,563
-History Items[$e]=file:$HOME/2-media/screenshots,file:///media/matej/sam/movies,file:$HOME/fer/oos/docs/,file:$HOME,file:$HOME/fer/oos/docs,file:$HOME/fer/oos/2-notes,file:$HOME/Downloads/specimen_card_mask/colmap/sparse/0,file:$HOME/Downloads/specimen_card_mask,file:$HOME/Downloads/colmap/sparse/0,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2/hand_card_sequence,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/hand_card_sequence,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/colmap/sparse/0,file:$HOME/Downloads/specimen_rgb,file:$HOME/Downloads/hand_card_sequence,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/colmap,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/colmap,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/hand_card_sequence,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/hand_card_sequence,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/images,file:$HOME/Downloads/colmap,file:$HOME/Downloads/images,file:$HOME/Downloads/images,file:$HOME/Downloads/colmap/sparse,file:$HOME/Downloads/colmap,file:$HOME/2-media/screenshots,file:$HOME/2-media/screenshots,file:$HOME
+DirSelectDialog Size=1593,918
+History Items[$e]=file:$HOME/audiobooks,file:$HOME/projects/video-job-scheduler,file:$HOME/2-media/screenshots,file:///media/matej/sam/movies,file:$HOME/fer/oos/docs/,file:$HOME,file:$HOME/fer/oos/docs,file:$HOME/fer/oos/2-notes,file:$HOME/Downloads/specimen_card_mask/colmap/sparse/0,file:$HOME/Downloads/specimen_card_mask,file:$HOME/Downloads/colmap/sparse/0,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2/hand_card_sequence,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/hand_card_sequence,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/colmap/sparse/0,file:$HOME/Downloads/specimen_rgb,file:$HOME/Downloads/hand_card_sequence,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/colmap,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/colmap,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/hand_card_sequence,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/hand_card_sequence,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/col2/images,file:$HOME/Downloads/colmap/images,file:$HOME/Downloads/images,file:$HOME/Downloads/colmap,file:$HOME/Downloads/images,file:$HOME/Downloads/images,file:$HOME/Downloads/colmap/sparse,file:$HOME/Downloads/colmap,file:$HOME/2-media/screenshots
 
 [General]
 AccentColor=82,2,181
 BrowserApplication=brave-browser.desktop
-ColorScheme=BreezeLight
-ColorSchemeHash=fafcbc7575eca994617bac9531498765cddda88f
+ColorSchemeHash=32dc6f7a92bd354a14bcf38f7991e8de66fed1fe
 LastUsedCustomAccentColor=82,2,181
 Name=Breeze
 TerminalApplication="konsole --profile=konsole-matej -e tmux"
@@ -166,12 +165,12 @@ widgetStyle=Breeze
 
 [KFileDialog Settings]
 Allow Expansion=true
-Automatically select filename extension=true
+Automatically select filename extension=false
 Breadcrumb Navigation=false
 Decoration position=2
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
-Preview Width=367
+Preview Width=342
 Show Bookmarks=false
 Show Full Path=false
 Show Inline Previews=false
@@ -221,11 +220,11 @@ TipofDay=
 Zoom=
 
 [WM]
-activeBackground=51,1,117
+activeBackground=227,229,231
 activeBlend=227,229,231
-activeForeground=239,240,241
+activeForeground=35,38,41
 frame=51,1,117
-inactiveBackground=51,1,117
+inactiveBackground=239,240,241
 inactiveBlend=239,240,241
-inactiveForeground=239,240,241
+inactiveForeground=112,125,138
 inactiveFrame=51,1,117

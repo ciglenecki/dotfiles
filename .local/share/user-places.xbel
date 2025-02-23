@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xbel>
-<xbel xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:kdepriv="http://www.kde.org/kdepriv">
+<xbel xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:kdepriv="http://www.kde.org/kdepriv" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks">
  <info>
   <metadata owner="http://www.kde.org">
    <kde_places_version>4</kde_places_version>
@@ -28,14 +28,39 @@
    </metadata>
   </info>
  </bookmark>
- <bookmark href="file:///home/matej/remote">
-  <title>remote</title>
+ <bookmark href="file:///home/matej/Downloads">
+  <title>Downloads</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-downloads"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1627132493/3</ID>
+    <isSystemItem>true</isSystemItem>
+    <IsHidden>false</IsHidden>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/matej/remote/gym-lecun/home/mciglenecki/code">
+  <title>gym-lecun</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1739282815/0</ID>
+    <OnlyInApp>dolphin</OnlyInApp>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/matej/remote/tp-relu-playground/home/matejc/code/video-inference-server">
+  <title>tp-playground-relu video-inference-server</title>
   <info>
    <metadata owner="http://freedesktop.org">
     <bookmark:icon name="inode-directory"/>
    </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1723472423/0</ID>
+    <ID>1727699206/0</ID>
    </metadata>
   </info>
  </bookmark>
@@ -61,19 +86,6 @@
    <metadata owner="http://www.kde.org">
     <ID>1656791815/2</ID>
     <isSystemItem>false</isSystemItem>
-    <IsHidden>false</IsHidden>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="file:///home/matej/Downloads">
-  <title>Downloads</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="folder-downloads"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1627132493/3</ID>
-    <isSystemItem>true</isSystemItem>
     <IsHidden>false</IsHidden>
    </metadata>
   </info>
@@ -1067,6 +1079,54 @@
   <info>
    <metadata owner="http://www.kde.org">
     <UDI>/org/kde/solid/udev/sys/devices/pci0000:00/0000:00:0d.0/usb4/4-1</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/loop28</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/kde/solid/udev/sys/devices/pci0000:00/0000:00:14.0/usb3/3-5</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/kde/solid/udev/sys/devices/pci0000:00/0000:00:14.0/usb1/1-5</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/kde/fstab/fuse.sshfs/home/matej/remote/tp-relu-playground</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/kde/solid/udev/sys/devices/pci0000:00/0000:00:14.0/usb3/3-1</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/kde/fstab/fuse.sshfs/home/matej/remote/gym-lecun</UDI>
     <isSystemItem>true</isSystemItem>
    </metadata>
   </info>

@@ -89,7 +89,6 @@ TextOnly=true
 enableSpiralLayout=false
 enableSpreadLayout=false
 enableStairLayout=false
-enableThreeColumnLayout=false
 floatingClass=matplotlib
 floatingTitle=matplotlib
 ignoreClass=krunner,yakuake,spectacle,kded5,matplotlib
@@ -115,6 +114,9 @@ padding=4
 [Tiling][213a9620-187e-58a6-b80b-85d8fb95dfce]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][3b373912-3771-5b9e-8e0f-352ab93dec2f]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][3bdf8999-fdd1-5ee0-93bc-efc52b057e03]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
@@ -136,13 +138,25 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][7c6cb96c-6e18-5658-853a-6a70b47a352b]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][97a603dc-5743-5664-b5b0-94beeacb2fbd]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][9e30bbf3-e4ae-53d1-9f2d-18c47f3723aa]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][a8fa578c-d51f-5abf-9d15-733165b44a91]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][bbd12e85-9b4a-56e1-9c5d-51dbf6280a39]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][bdd4161e-fa8f-516c-b37e-41a253c25416]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][d785dc46-e8f7-55c6-8b05-6096d8f87432]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][e9e0c1db-8588-5beb-b503-2900e6d12cce]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][fa388e8a-c438-500e-b176-1febaa975f13]
