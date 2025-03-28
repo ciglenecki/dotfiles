@@ -3,13 +3,11 @@ update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-
 
 [Compositing]
 Backend=OpenGL
-Enabled=false
 GLCore=true
 GLPreferBufferSwap=e
 GLTextureFilter=1
-LatencyPolicy=Low
+LatencyPolicy=ExtremelyLow
 OpenGLIsUnsafe=false
-WindowsBlockCompositing=false
 XRenderSmoothScale=false
 
 [Desktops]
@@ -30,6 +28,9 @@ Strength=5
 
 [Effect-Slide]
 Duration=400
+
+[Effect-diminactive]
+Strength=15
 
 [MouseBindings]
 CommandActiveTitlebar1=Raise
@@ -59,7 +60,7 @@ Mode=Constant
 NightTemperature=2600
 
 [Plugins]
-alwaysopenonactivescreenEnabled=true
+alwaysopenonactivescreenEnabled=false
 bismuthEnabled=false
 blurEnabled=false
 krohnkiteEnabled=true
@@ -94,9 +95,8 @@ floatingTitle=matplotlib
 ignoreClass=krunner,yakuake,spectacle,kded5,matplotlib
 ignoreTitle=Plasma
 layoutPerActivity=false
-noTileBorder=true
+maximizeSoleTile=true
 preventProtrusion=false
-tileLayoutGap=5
 
 [SubSession: 587e0a3c-47e5-4c3a-b1e8-d622553fd3b4]
 active=-1
@@ -187,5 +187,7 @@ TitlebarDoubleClickCommand=Maximize
 WindowSnapZone=10
 
 [org.kde.kdecoration2]
-library=org.kde.breeze
-theme=Breeze
+BorderSize=Large
+BorderSizeAuto=false
+library=org.kde.oxygen
+theme=Oxygen

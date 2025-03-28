@@ -122,3 +122,4 @@ libreoffice-l10n-hr
 # dolphin
 htop
 tk-dev
+network-manager-openvpn

@@ -155,7 +155,7 @@ shadeSortColumn=true
 widgetStyle=Breeze
 
 [KDE]
-AnimationDurationFactor=0.125
+AnimationDurationFactor=0.08838834764831843
 ColorScheme=Breeze
 LookAndFeelPackage=org.kde.breeze.desktop
 ScrollbarLeftClickNavigatesByPage=false
@@ -166,11 +166,11 @@ widgetStyle=Breeze
 [KFileDialog Settings]
 Allow Expansion=true
 Automatically select filename extension=false
-Breadcrumb Navigation=false
+Breadcrumb Navigation=true
 Decoration position=2
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
-Preview Width=342
+Preview Width=284
 Show Bookmarks=false
 Show Full Path=false
 Show Inline Previews=false
@@ -223,8 +223,8 @@ Zoom=
 activeBackground=227,229,231
 activeBlend=227,229,231
 activeForeground=35,38,41
-frame=51,1,117
+frame=0,255,0
 inactiveBackground=239,240,241
 inactiveBlend=239,240,241
 inactiveForeground=112,125,138
-inactiveFrame=51,1,117
+inactiveFrame=255,0,0

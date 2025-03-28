@@ -9,9 +9,6 @@ detailViewIconSize=16
 2560x1080 screen: Height=529
 2560x1080 screen: Width=416
 
-[PlasmaTransientsConfig]
-PreloadWeight=34
-
 [PlasmaViews][Panel 2][Defaults]
 thickness=22
 

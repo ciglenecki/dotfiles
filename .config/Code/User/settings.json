@@ -249,4 +249,10 @@
   ],
   "python.analysis.autoSearchPaths": false,
   "terminal.integrated.tabs.location": "left",
+  "files.exclude": {
+    "**/venv": true
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
 }

@@ -85,10 +85,13 @@ shopt -s extglob
 function v(){
     if [ -d "venv" ]; then
         source venv/bin/activate
-    fi
-    if [ -d ".venv" ]; then
+    elif [ -d ".venv" ]; then
         source .venv/bin/activate
-    fi  
+    else
+        python3 -m venv venv
+        source venv/bin/activate
+    fi
+    
 }
 
 # shutdown the system

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xbel>
-<xbel xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:kdepriv="http://www.kde.org/kdepriv" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks">
+<xbel xmlns:kdepriv="http://www.kde.org/kdepriv" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info">
  <info>
   <metadata owner="http://www.kde.org">
    <kde_places_version>4</kde_places_version>
@@ -53,8 +53,8 @@
    </metadata>
   </info>
  </bookmark>
- <bookmark href="file:///home/matej/remote/tp-relu-playground/home/matejc/code/video-inference-server">
-  <title>tp-playground-relu video-inference-server</title>
+ <bookmark href="file:///home/matej/remote/playground-relu/home/matejc/code/">
+  <title>playgrund-relu</title>
   <info>
    <metadata owner="http://freedesktop.org">
     <bookmark:icon name="inode-directory"/>
@@ -1131,4 +1131,23 @@
    </metadata>
   </info>
  </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/kde/fstab/fuse.sshfs/home/matej/remote/playground-relu</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
+ <bookmark href="kdeconnect://0e02f0c7_43b8_4abe_8d39_df251878c6e7/">
+  <title>Lenovo Tab M9</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="kdeconnect"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1743123896/2</ID>
+   </metadata>
+  </info>
+ </bookmark>
 </xbel>

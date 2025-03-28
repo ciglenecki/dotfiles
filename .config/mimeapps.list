@@ -1,4 +1,5 @@
 [Added Associations]
+application/json=code.desktop;firefox_firefox.desktop;org.kde.kate.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;calibre-ebook-viewer.desktop;vim.desktop;calibre-gui.desktop;micro.desktop;
 application/vnd.debian.binary-package=qapt-deb-installer.desktop;org.kde.discover.desktop;org.kde.ark.desktop;
 application/x-desktop=org.kde.kate.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;calibre-ebook-viewer.desktop;vim.desktop;calibre-gui.desktop;
 application/x-ipynb+json=code.desktop;jupyter-notebook.desktop;org.kde.kate.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;rstudio.desktop;vim.desktop;calibre-ebook-viewer.desktop;calibre-gui.desktop;
@@ -34,6 +35,7 @@ x-scheme-handler/mailto=thunderbird.desktop;
 x-scheme-handler/tel=org.kde.kdeconnect.handler.desktop;
 
 [Default Applications]
+application/json=code.desktop;
 application/vnd.debian.binary-package=qapt-deb-installer.desktop;
 application/x-desktop=org.kde.kate.desktop;
 application/x-ipynb+json=code.desktop;
