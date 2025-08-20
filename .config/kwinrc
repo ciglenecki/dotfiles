@@ -60,7 +60,7 @@ Mode=Constant
 NightTemperature=2600
 
 [Plugins]
-alwaysopenonactivescreenEnabled=false
+alwaysopenonactivescreenEnabled=true
 bismuthEnabled=false
 blurEnabled=false
 krohnkiteEnabled=true
@@ -126,6 +126,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][3e5bc94a-06d9-5bb4-81e7-46b070e88b5d]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][50dd80b8-05a9-5c72-a2b8-4382ad3249e2]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][58ca410b-ce44-58d6-82b9-fefe44aba0e3]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
@@ -139,6 +142,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][97a603dc-5743-5664-b5b0-94beeacb2fbd]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][98c6915d-57a1-51a7-8973-d6916699a315]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][9e30bbf3-e4ae-53d1-9f2d-18c47f3723aa]

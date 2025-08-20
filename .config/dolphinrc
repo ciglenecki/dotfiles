@@ -18,7 +18,6 @@ DefaultProfile=konsole-matej.profile
 
 [DetailsMode]
 ExpandableFolders=false
-PreviewSize=16
 SidePadding=0
 
 [ExtractDialog]
@@ -55,12 +54,12 @@ Recent URLs[$e]=file:///opt/,file:$HOME/2-media/icons/,file:$HOME/,file:$HOME/Do
 detailViewIconSize=16
 
 [KPropertiesDialog]
-1920x1080 screen: Height=458
-1920x1080 screen: Width=725
+1920x1080 screen: Height=598
+1920x1080 screen: Width=438
 2 screens: Height=616
 2 screens: Width=438
-2560x1080 screen: Height=616
-2560x1080 screen: Width=438
+2560x1080 screen: Height=444
+2560x1080 screen: Width=375
 DP-0 HDMI-0 Height 1920x1080=458
 DP-0 HDMI-0 Height 2560x1440=587
 DP-0 HDMI-0 Width 1920x1080=383

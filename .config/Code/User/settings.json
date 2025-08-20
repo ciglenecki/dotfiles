@@ -196,7 +196,8 @@
     "data/",
     "embeddings/",
     "output/",
-    "**/basicsr"
+    "**/basicsr",
+    "**/.venv"
   ],
   "editor.scrollbar.verticalScrollbarSize": 10,
   "editor.gotoLocation.multipleDefinitions": "gotoAndPeek",
@@ -219,8 +220,8 @@
   "workbench.editor.empty.hint": "hidden",
   "cmake.configureOnOpen": true,
   "python.terminal.activateEnvInCurrentTerminal": true,
-  "python.venvPath": "${workspaceFolder}/venv",
-  "python.analysis.logLevel": "Warning",
+  "python.venvPath": "${workspaceFolder}/.venv",
+  "python.analysis.logLevel": "Error",
   "python.analysis.autoImportCompletions": true,
   "python.analysis.autoFormatStrings": true,
   "python.analysis.fixAll": [
@@ -228,7 +229,7 @@
   ],
   "python.defaultInterpreterPath": "/home/matej/venv",
   "python.languageServer": "Pylance",
-  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.typeCheckingMode": "standard",
   "github.copilot.editor.enableAutoCompletions": true,
   "editor.formatOnSave": true,
   "remote.SSH.serverInstallPath": {
@@ -255,4 +256,6 @@
   "[vue]": {
     "editor.defaultFormatter": "octref.vetur"
   },
+  "python.analysis.inlayHints.functionReturnTypes": true,
+  "github.copilot.nextEditSuggestions.enabled": true,
 }

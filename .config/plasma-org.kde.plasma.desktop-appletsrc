@@ -114,7 +114,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][2][Applets][39][Configuration][General]
-launcherUrls=file:///usr/share/applications/brave-browser.desktop,file:///usr/share/applications/org.kde.dolphin.desktop,file:///usr/share/applications/org.kde.yakuake.desktop
+launcherUrls=file:///usr/share/applications/org.kde.dolphin.desktop,file:///usr/share/applications/org.kde.yakuake.desktop,file:///usr/share/applications/brave-browser.desktop
 
 [Containments][2][Applets][41]
 immutability=1
@@ -191,7 +191,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][65][Configuration]
-PreloadWeight=39
+PreloadWeight=97
 popupHeight=450
 popupWidth=810
 
@@ -210,6 +210,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][2][Applets][67][Configuration]
+PreloadWeight=18
 localPath=/home/matej/.local/share/plasma_icons/brave-browser.desktop
 url=file:///home/matej/.local/share/applications/brave-browser.desktop
 
@@ -234,6 +235,7 @@ AppletOrder=3;54;67;39;48;36;28;65;44;41;7;6;61
 [Containments][63]
 ItemGeometries-0x0=
 ItemGeometries-1920x1080=
+ItemGeometries-1920x1200=
 ItemGeometries-2560x1080=
 ItemGeometries-2560x1440=
 ItemGeometriesHorizontal=
@@ -327,7 +329,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][8][Applets][17][Configuration]
-PreloadWeight=29
+PreloadWeight=92
 
 [Containments][8][Applets][22]
 immutability=1
@@ -341,7 +343,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][23][Configuration]
-PreloadWeight=14
+PreloadWeight=100
 
 [Containments][8][Applets][24][Configuration]
 PreloadWeight=42
@@ -419,4 +421,4 @@ DesktopLabelsCustomColor=#232627
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=
+screenMapping=desktop:/6KuH3nAvDE4UuIz5geUQkA,0,ff28354e-18f3-45a6-b82e-2d71ebba7cf4

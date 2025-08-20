@@ -11,11 +11,11 @@
   "notified-version-updates": {
     "__class__": "set",
     "__value__": [
-      "6.0",
       "5.44",
+      "6.3",
       "5.42",
       "5.37",
-      "6.3"
+      "6.0"
     ]
   },
   "recursive book import root dir dialog": "/home/matej/6-literature_backup",

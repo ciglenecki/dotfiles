@@ -287,3 +287,8 @@ function slep {
 function video {
     ffmpeg -i $1 -vcodec libx264 -crf 28 convert-$1
 }
+
+
+function cam_exposure {
+    DEVICE=$1; v4l2-ctl -d $DEVICE -c auto_exposure=1; v4l2-ctl -d $DEVICE -c exposure_time_absolute=$2
+}
