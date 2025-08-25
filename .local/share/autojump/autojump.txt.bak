@@ -1,4 +1,4 @@
-536.1902647381817	/home/matej/Downloads
+537.5872022286258	/home/matej/Downloads
 51.96152422706633	/home/matej/.config
 10.0	/home/matej/.cfg
 22.360679774997898	/run/user/1000/kio-fuse-HtXTnp/zip/home/matej/Downloads/dotfiles-master.zip
@@ -26,7 +26,7 @@
 10.0	/home/matej/Downloads/code/webapp-backend/src
 1641.036257978478	/home/matej/projects/video-job-scheduler
 14.142135623730951	/home/matej/.secrets
-222.93496809607964	/home/matej/tmp
+226.27416997969536	/home/matej/tmp
 10.0	/home/matej/Downloads/A/test
 84.85281374238572	/home/matej/Downloads/test
 31.622776601683796	/home/matej/Downloads/test/video-job-scheduler
@@ -35,7 +35,7 @@
 76.8114574786861	/home/matej/2-media
 26.457513110645905	/home/matej/2-media/memes
 22.360679774997898	/home/matej/5-assets
-108.62780491200212	/home/matej/0-notes
+109.0871211463571	/home/matej/0-notes
 28.284271247461902	/home/matej/Downloads/Million Dollar Extreme Presents; World Peace
 10.0	/home/matej/Downloads/Million Dollar Extreme Presents; World Peace/Outtakes & Extras
 22.360679774997898	/home/matej/Downloads/Million Dollar Extreme Presents; World Peace/Season 1
@@ -66,7 +66,7 @@
 47.9583152331272	/home/matej/1-documents/finance
 14.142135623730951	/home/matej/1-documents/_archived
 28.284271247461902	/home/matej/1-documents/contracts
-98.99494936611661	/home/matej/1-documents/work
+99.49874371066196	/home/matej/1-documents/work
 87.17797887081348	/home/matej/1-documents/work/cv
 14.142135623730951	/run/user/1000/kio-fuse-dNJQtZ/sftp/mciglenecki:130pastashotamc@zver1.zesoi.fer.hr:443/home/mciglenecki/projects/nerf-research
 10.0	/home/matej/4-education/datasets
@@ -97,7 +97,7 @@
 10.0	/home/matej/projects/conty-parse-kanterica/.vscode
 22.360679774997898	/home/matej/projects/conty-parse-kanterica/oma_files
 17.320508075688775	/run/user/1000/kio-fuse-JwQEyc/zip/home/matej/projects/conty-parse-kanterica/oma_primjer.zip
-20.0	/tmp
+24.49489742783178	/tmp
 10.0	/run/user/1000/kio-fuse-JwQEyc/filenamesearch
 10.0	/run/user/1000/kio-fuse-aiSTZA/filenamesearch
 14.142135623730951	/home/matej/.pyenv
@@ -1014,7 +1014,7 @@
 24.49489742783178	/home/matej/tmp/VisCompare
 10.0	/home/matej/tmp/bhi100-sisr-iqa-metrics/inference_results/chaiNNer/DRCT_X4
 54.772255750516614	/home/matej/remote/playground-relu
-79.37253933193773	/home/matej/remote/playground-relu/home/matejc/code
+81.85352771872452	/home/matej/remote/playground-relu/home/matejc/code
 10.0	/home/matej/remote/playground-relu/home/matejc/code/test_inference
 10.0	/home/matej/remote/playground-relu/home/matejc/code/test_inference/SUPIR
 14.142135623730951	/home/matej/remote/playground-relu/home/matejc/code/test_inference/SUPIR/assets
@@ -1189,7 +1189,7 @@
 10.0	/run/user/1000/kio-fuse-pSELCI/filenamesearch
 75.49834435270752	/home/matej/projects/average-expense
 24.49489742783178	/home/matej/remote/playground-relu/home
-20.0	/home/matej/remote/playground-relu/home/matejc
+22.360679774997898	/home/matej/remote/playground-relu/home/matejc
 80.62257748298552	/home/matej/remote/playground-relu/home/matejc/code/video-inference-server
 45.82575694955841	/home/matej/remote/playground-relu/home/matejc/code/ml-training-framework
 10.0	/home/matej/remote/playground-relu/home/matejc/code/ml-training-framework/benchmarks
@@ -1233,7 +1233,7 @@
 26.457513110645905	/home/matej/projects/herbalife-market-detector/output/3636963818575357341
 10.0	/home/matej/projects/herbalife-market-detector/data/backup-2025-07-22-19-33-54
 10.0	/run/user/1000/kio-fuse-fKGFQt/filenamesearch
-50.00000000000001	/home/matej/1-documents/work/dfs
+56.568542494923804	/home/matej/1-documents/work/dfs
 174.06895185529208	/home/matej/projects/compliance-ai/functions
 10.0	/home/matej/projects/compliance-ai/functions/venv
 10.0	/home/matej/remote/playground-relu/home/matejc/code/ml-training-framework/src/export/torch_compile_benchmark
@@ -1408,3 +1408,39 @@
 10.0	/mount/gep/fotic-18-08/CLIP
 10.0	/mount/gep/installation-games
 14.142135623730951	/mount/gep/installation-programs
+10.0	/run/user/1000/kio-fuse-Rpcxuq/filenamesearch
+17.320508075688775	/home/matej/Downloads/SDUnet_64c_GAN_GigaGanD_BhiData+Pexels+LAION300k_256x256
+20.0	/home/matej/Downloads/SDUnet_64c_GAN_GigaGanD_BhiData+Pexels+LAION300k_256x256/22-03-25-1218
+34.64101615137755	/home/matej/Downloads/SDUnet_64c_GAN_GigaGanD_BhiData+Pexels+LAION300k_256x256/22-03-25-1218/checkpoints
+14.142135623730951	/home/matej/Downloads/SDUnet_64c_GAN_GigaGanD_BhiData+Pexels+LAION300k_256x256/22-03-25-1218/logs
+10.0	/home/matej/Downloads/SDUnet_64c_GAN_GigaGanD_BhiData+Pexels+LAION300k_256x256/22-03-25-1218/logs/upscaled_images
+10.0	/run/user/1000/kio-fuse-lRbywA/zip/home/matej/Downloads/SDUnet_64c_GAN_GigaGanD_BhiData+Pexels+LAION300k_256x256/22-03-25-1218/code.zip
+10.0	/run/user/1000/kio-fuse-lRbywA/zip/home/matej/Downloads/SDUnet_64c_GAN_GigaGanD_BhiData+Pexels+LAION300k_256x256/22-03-25-1218/code.zip/home
+10.0	/run/user/1000/kio-fuse-lRbywA/zip/home/matej/Downloads/SDUnet_64c_GAN_GigaGanD_BhiData+Pexels+LAION300k_256x256/22-03-25-1218/code.zip/home/bfreskura
+10.0	/run/user/1000/kio-fuse-lRbywA/zip/home/matej/Downloads/SDUnet_64c_GAN_GigaGanD_BhiData+Pexels+LAION300k_256x256/22-03-25-1218/code.zip/home/bfreskura/Projects
+10.0	/run/user/1000/kio-fuse-lRbywA/zip/home/matej/Downloads/SDUnet_64c_GAN_GigaGanD_BhiData+Pexels+LAION300k_256x256/22-03-25-1218/code.zip/home/bfreskura/Projects/ml-training-framework
+10.0	/run/user/1000/kio-fuse-lRbywA/zip/home/matej/Downloads/SDUnet_64c_GAN_GigaGanD_BhiData+Pexels+LAION300k_256x256/22-03-25-1218/code.zip/home/bfreskura/Projects/ml-training-framework/src
+10.0	/run/user/1000/kio-fuse-lRbywA/zip/home/matej/Downloads/SDUnet_64c_GAN_GigaGanD_BhiData+Pexels+LAION300k_256x256/22-03-25-1218/code.zip/home/bfreskura/Projects/ml-training-framework/src/models
+10.0	/run/user/1000/kio-fuse-lRbywA/zip/home/matej/Downloads/SDUnet_64c_GAN_GigaGanD_BhiData+Pexels+LAION300k_256x256/22-03-25-1218/code.zip/home/bfreskura/Projects/ml-training-framework/src/models/archs
+10.0	/run/user/1000/kio-fuse-lRbywA/zip/home/matej/Downloads/SDUnet_64c_GAN_GigaGanD_BhiData+Pexels+LAION300k_256x256/22-03-25-1218/code.zip/home/bfreskura/Projects/ml-training-framework/src/models/archs/generators
+10.0	/run/user/1000/kio-fuse-lRbywA/zip/home/matej/Downloads/SDUnet_64c_GAN_GigaGanD_BhiData+Pexels+LAION300k_256x256/22-03-25-1218/code.zip/home/bfreskura/Projects/ml-training-framework/src/models/archs/generators/SDUNet
+129.99999999999997	/home/matej/tmp/main
+20.0	/home/matej/tmp/main/0/1
+17.320508075688775	/home/matej/tmp/main/0/1/test1
+26.457513110645905	/home/matej/tmp/main/0
+24.49489742783178	/home/matej/tmp/main/0/0
+20.0	/home/matej/tmp/main/1
+22.360679774997898	/home/matej/tmp/main/1/0
+33.166247903554	/home/matej/tmp/main/0/0/0
+20.0	/home/matej/tmp/main/0/0/0/test10
+14.142135623730951	/home/matej/tmp/main/0/0/0/test10/test10
+14.142135623730951	/home/matej/tmp/main/0/0/0/test1000
+17.320508075688775	/home/matej/tmp/main/1/4/9/test999/test999
+20.0	/home/matej/tmp/main/1/4/9/test999
+10.0	/home/matej/tmp/main/1/4/9
+14.142135623730951	/home/matej/tmp/main/1/4
+17.320508075688775	/home/matej/tmp/main/test999
+17.320508075688775	/home/matej/tmp/main/2/9/8
+14.142135623730951	/home/matej/tmp/main/2/9/8/test999
+10.0	/home/matej/tmp/main/2/9
+10.0	/home/matej/tmp/main/2
