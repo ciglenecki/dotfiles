@@ -1,0 +1,11 @@
+Generate a high-quality, production-grade python3.12 code which follows best practices:
+- type hints, use type hinting using standard collections (`list` instead of `typing.List`)
+- Google docstrings format (don't include explicit types in docstring)
+- when calling functions always kwargs (named arguments) but don't force kwargs in function definitions
+- parameterize variables via env file and validate them using pydantic 3. Use Annotated fields.
+- avoid using large dictionaries, use pydantic 3 models instead
+- code is optimized for performance and readability
+- well-structured, modular, and maintainable code
+- assert some arguments at the beginning of the function
+- start inline comments with small letter
+- assume it will be used in a mission-critical environment.
