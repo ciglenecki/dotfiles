@@ -21,8 +21,6 @@ trickle -s -u 6250 -d 6250 insync start &
 syncthing -no-browser &
 yakuake &
 
-sshfs tp-relu-playground:/ $HOME/remote/tp-relu-playground
-sshfs gym-lecun:/ $HOME/remote/gym-lecun
 
 # /usr/sbin/anacron -s -t $HOME/.anacron/etc/anacrontab -S $HOME/.anacron/spool &
 

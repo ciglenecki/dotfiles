@@ -242,16 +242,16 @@
       "x": 0,
       "y": 0
     },
-    "maximized": false,
+    "maximized": true,
     "normal_geometry": {
       "height": 1058,
-      "width": 1920,
-      "x": 0,
+      "width": 960,
+      "x": 960,
       "y": 0
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAAAAAAAAAAAB38AAAQhAAAAAAAAAAAAAAd/AAAEIQAAAAAAAAAAB4AAAAAAAAAAAAAAB38AAAQh"
+      "__value__": "AdnQywADAAAAAAAAAAAAAAAAB38AAAQhAAADwAAAAAAAAAd/AAAEIQAAAAACAAAAB4AAAAAAAAAAAAAAB38AAAQh"
     },
     "screen": {
       "depth": 24,
@@ -444,7 +444,7 @@
     "__value__": "AdnQywADAAAAAAAAAAABGAAABPoAAANEAAAAAAAAATUAAAT6AAADRAAAAAAAAAAAB4AAAAAAAAABNQAABPoAAANE"
   },
   "library_usage_stats": {
-    "/home/matej/6-literature": 57
+    "/home/matej/6-literature": 61
   },
   "main_window_central_widget_state": {
     "layout": "wide",

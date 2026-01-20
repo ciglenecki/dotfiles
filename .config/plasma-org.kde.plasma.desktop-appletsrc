@@ -175,17 +175,6 @@ PreloadWeight=0
 DialogHeight=540
 DialogWidth=720
 
-[Containments][2][Applets][61]
-immutability=1
-plugin=com.github.zren.commandoutput
-
-[Containments][2][Applets][61][Configuration]
-PreloadWeight=0
-
-[Containments][2][Applets][61][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
 [Containments][2][Applets][65]
 immutability=1
 plugin=org.kde.plasma.digitalclock
@@ -230,7 +219,7 @@ DialogWidth=1920
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=3;54;67;39;48;36;28;65;44;41;7;6;61
+AppletOrder=3;54;67;39;48;36;28;65;44;41;7;6
 
 [Containments][63]
 ItemGeometries-0x0=
@@ -238,6 +227,7 @@ ItemGeometries-1920x1080=
 ItemGeometries-1920x1200=
 ItemGeometries-2560x1080=
 ItemGeometries-2560x1440=
+ItemGeometries-3840x2160=
 ItemGeometriesHorizontal=
 activityId=ff28354e-18f3-45a6-b82e-2d71ebba7cf4
 formfactor=0
@@ -336,7 +326,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][8][Applets][22][Configuration]
-PreloadWeight=0
+PreloadWeight=10
 
 [Containments][8][Applets][23]
 immutability=1
@@ -377,7 +367,7 @@ immutability=1
 plugin=org.kde.kscreen
 
 [Containments][8][Applets][57][Configuration]
-PreloadWeight=10
+PreloadWeight=90
 
 [Containments][8][Applets][66][Configuration]
 PreloadWeight=42

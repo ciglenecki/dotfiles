@@ -143,7 +143,8 @@
   "java.dependency.showMembers": true,
   "security.workspace.trust.enabled": false,
   "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.formatOnSave": false
   },
   "explorer.confirmDragAndDrop": false,
   "settingsSync.ignoredExtensions": [
@@ -185,20 +186,6 @@
   ],
   "notebook.output.textLineLimit": 300,
   "scm.diffDecorations": "none",
-  "python.analysis.exclude": [
-    "**/venv",
-    "**/__pycache__",
-    "**/.pytest_cache",
-    "**/.mypy_cache",
-    "**/data",
-    "**/embeddings",
-    "**/output",
-    "data/",
-    "embeddings/",
-    "output/",
-    "**/basicsr",
-    "**/.venv"
-  ],
   "editor.scrollbar.verticalScrollbarSize": 10,
   "editor.gotoLocation.multipleDefinitions": "gotoAndPeek",
   "editor.gotoLocation.multipleTypeDefinitions": "gotoAndPeek",
@@ -210,7 +197,8 @@
     "scminput": false,
     "cpp": false,
     "raw": false,
-    "ini": false
+    "ini": false,
+    "instructions": true
   },
   "terminal.integrated.scrollback": 999999,
   "workbench.colorTheme": "Quiet Light",
@@ -228,7 +216,7 @@
     "source.convertImportFormat"
   ],
   "python.defaultInterpreterPath": "/home/matej/venv",
-  "python.languageServer": "Pylance",
+  "python.languageServer": "None",
   "python.analysis.typeCheckingMode": "standard",
   "github.copilot.editor.enableAutoCompletions": true,
   "editor.formatOnSave": true,
@@ -250,12 +238,38 @@
   ],
   "python.analysis.autoSearchPaths": false,
   "terminal.integrated.tabs.location": "left",
-  "files.exclude": {
-    "**/venv": true
-  },
   "[vue]": {
     "editor.defaultFormatter": "octref.vetur"
   },
   "python.analysis.inlayHints.functionReturnTypes": true,
   "github.copilot.nextEditSuggestions.enabled": true,
+  "files.watcherExclude": {
+    "**/.git/**": true,
+    "**/.venv/**": true,
+    "**/venv/**": true,
+    "**/node_modules/**": true,
+    ".git": true,
+    "**/__pycache__": true,
+    ".ruff_cache/**": true
+  },
+  "files.exclude": {
+    "**/.venv/**": true,
+    "**/venv/**": true,
+    "**/node_modules/**": true,
+    ".git": true,
+    "**/__pycache__": true,
+  },
+  "python.analysis.exclude": [
+    "**/.venv",
+    "**/venv",
+    "**/env",
+    "**/node_modules",
+    ".git",
+    "**/__pycache__",
+    ".ruff_cache",
+    "src/backend",
+    ".ruff_cache",
+  ],
+  "ty.inlayHints.variableTypes": false,
+  "update.showReleaseNotes": false,
 }

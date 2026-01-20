@@ -114,5 +114,6 @@ export FILE_SPOTIFY_SECRET="$DIR_SECRETS/spotify.sh"
 #etc
 export TIMEFS="%F"
 export TIMEFL="%F-%H-%M-%S"
-export DATENOW='date +"$TIMEFL"'
+export DATENOW='date +"$TIMEFS"'
+export DATENOW_SEC='date +"$TIMEFL"'
 export SOUND_LEVEL=20

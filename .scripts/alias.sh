@@ -292,3 +292,7 @@ function video {
 function cam_exposure {
     DEVICE=$1; v4l2-ctl -d $DEVICE -c auto_exposure=1; v4l2-ctl -d $DEVICE -c exposure_time_absolute=$2
 }
+
+function download_video {
+    yt-dlp -f "bv*+ba/b" --embed-subs --write-subs --sub-langs "en.*,hr.*,all" --convert-subs srt --replace-in-metadata title "\s+" "_" --replace-in-metadata uploader "\s+" "_" -o "$HOME/yt/%(uploader)s/%(title)s[%(id)s].%(ext)s" --print 'after_move:%(filepath)q' $1
+}

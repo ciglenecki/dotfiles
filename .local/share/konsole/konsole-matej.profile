@@ -1,7 +1,7 @@
 [Appearance]
 AntiAliasFonts=true
 BoldIntense=true
-ColorScheme=matej-lavanda
+ColorScheme=matej-red
 Font=Hack,11,-1,5,50,0,0,0,0,0
 LineSpacing=0
 TabColor=255,0,0

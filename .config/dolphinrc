@@ -18,6 +18,7 @@ DefaultProfile=konsole-matej.profile
 
 [DetailsMode]
 ExpandableFolders=false
+PreviewSize=32
 SidePadding=0
 
 [ExtractDialog]
@@ -44,7 +45,7 @@ ViewPropsTimestamp=2021,11,7,23,26,33
 
 [IconsMode]
 IconSize=16
-PreviewSize=112
+PreviewSize=256
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
@@ -54,10 +55,10 @@ Recent URLs[$e]=file:///opt/,file:$HOME/2-media/icons/,file:$HOME/,file:$HOME/Do
 detailViewIconSize=16
 
 [KPropertiesDialog]
-1920x1080 screen: Height=598
-1920x1080 screen: Width=438
-2 screens: Height=616
-2 screens: Width=438
+1920x1080 screen: Height=458
+1920x1080 screen: Width=416
+2 screens: Height=458
+2 screens: Width=387
 2560x1080 screen: Height=444
 2560x1080 screen: Width=375
 DP-0 HDMI-0 Height 1920x1080=458

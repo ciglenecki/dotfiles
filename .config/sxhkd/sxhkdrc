@@ -37,7 +37,9 @@ shift + KP_Add;
 alt + p; {d,D};
     sleep 0.2; xdotool getwindowfocus windowfocus --sync type "$(eval $DATENOW)"
 alt + p; {s,S};
-    sleep 0.2; xdotool getwindowfocus windowfocus --sync type "$(eval date +"%F")"
+    sleep 0.2; xdotool getwindowfocus windowfocus --sync type "$(eval $DATENOW_SEC)"
+alt + p; {c,C};
+    sleep 0.2; xdotool getwindowfocus windowfocus --sync type "(Matej Ciglenečki, $(eval $DATENOW))"
 alt + p; {e,E};
     sleep 0.2; xdotool getwindowfocus windowfocus --sync type "matej.ciglenecki@gmail.com"
 alt + p; {t};

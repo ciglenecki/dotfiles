@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xbel>
-<xbel xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:kdepriv="http://www.kde.org/kdepriv" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info">
+<xbel xmlns:kdepriv="http://www.kde.org/kdepriv" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info">
  <info>
   <metadata owner="http://www.kde.org">
    <kde_places_version>4</kde_places_version>
@@ -1139,15 +1139,12 @@
    </metadata>
   </info>
  </separator>
- <bookmark href="kdeconnect://0e02f0c7_43b8_4abe_8d39_df251878c6e7/">
-  <title>Lenovo Tab M9</title>
+ <separator>
   <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="kdeconnect"/>
-   </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1743544058/3</ID>
+    <UDI>/org/kde/solid/udev/sys/devices/pci0000:00/0000:00:14.0/usb3/3-2</UDI>
+    <isSystemItem>true</isSystemItem>
    </metadata>
   </info>
- </bookmark>
+ </separator>
 </xbel>

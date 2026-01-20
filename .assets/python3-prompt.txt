@@ -8,4 +8,5 @@ Generate a high-quality, production-grade python3.12 code which follows best pra
 - well-structured, modular, and maintainable code
 - assert some arguments at the beginning of the function
 - start inline comments with small letter
+- use f strings
 - assume it will be used in a mission-critical environment.
