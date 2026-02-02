@@ -294,5 +294,5 @@ function cam_exposure {
 }
 
 function download_video {
-    yt-dlp -f "bv*+ba/b" --embed-subs --write-subs --sub-langs "en.*,hr.*,all" --convert-subs srt --replace-in-metadata title "\s+" "_" --replace-in-metadata uploader "\s+" "_" -o "$HOME/yt/%(uploader)s/%(title)s[%(id)s].%(ext)s" --print 'after_move:%(filepath)q' $1
+    yt-dlp -f "bv*+ba/b" --embed-subs --write-subs --sub-langs "en.*,hr.*,all" --convert-subs srt --replace-in-metadata title "\s+" "_" --replace-in-metadata uploader "\s+" "_" -o "$HOME/yt/%(title)s[%(id)s].%(ext)s" --print 'after_move:%(filepath)q' $1
 }

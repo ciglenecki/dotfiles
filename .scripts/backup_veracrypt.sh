@@ -6,6 +6,9 @@
 #               1. Mount veracrypt container
 #               2. Rsync files defined in exclude and include lists
 #               3. Unmount veracrypt container
+
+# Usage
+#  ./backup_veracrypt.sh /media/matej/sam/home-backup.hc /media/matej/veracrypt/ 
 #################################
 
 function notify-send() {
@@ -29,10 +32,10 @@ fi
 HOME=$(eval echo "~matej")
 . $HOME/.scripts/env.sh
 SRC=$HOME/*; # files inside of home
-FILE_BACKUP=$FILE_BACKUP
+FILE_BACKUP=$1
 
 ### Mount veracrypt
-DEST_MOUNT_LOCATION=$DIR_BACKUP_DEST
+DEST_MOUNT_LOCATION=$2
 sudo mkdir -p $DEST_MOUNT_LOCATION
 
 echo "Unmounting any pervious virtual disks...";

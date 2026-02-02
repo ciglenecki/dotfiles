@@ -216,7 +216,7 @@
     "source.convertImportFormat"
   ],
   "python.defaultInterpreterPath": "/home/matej/venv",
-  "python.languageServer": "None",
+  "python.languageServer": "Pylance",
   "python.analysis.typeCheckingMode": "standard",
   "github.copilot.editor.enableAutoCompletions": true,
   "editor.formatOnSave": true,
@@ -270,6 +270,7 @@
     "src/backend",
     ".ruff_cache",
   ],
-  "ty.inlayHints.variableTypes": false,
   "update.showReleaseNotes": false,
+  "chat.viewSessions.orientation": "stacked",
+  "ty.inlayHints.callArgumentNames": false,
 }

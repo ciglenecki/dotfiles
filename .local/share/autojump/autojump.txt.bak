@@ -1,4 +1,4 @@
-574.020905542646	/home/matej/Downloads
+575.5866572463256	/home/matej/Downloads
 56.568542494923804	/home/matej/.config
 10.0	/home/matej/.cfg
 22.360679774997898	/run/user/1000/kio-fuse-HtXTnp/zip/home/matej/Downloads/dotfiles-master.zip
@@ -10,7 +10,7 @@
 10.0	/home/matej/.shutter
 30.000000000000004	/home/matej/Insync
 34.64101615137755	/home/matej/Insync/matej.ciglenecki@gmail.com
-180.83141320025123	/home/matej/projects
+191.04973174542803	/home/matej/projects
 343.802268753422	/home/matej/projects/webapp-frontend
 653.452370108182	/home/matej/projects/webapp-backend
 22.360679774997898	/run/user/1000/kio-fuse-ZOsNdd/zip/home/matej/Downloads/A.zip
@@ -24,7 +24,7 @@
 10.0	/home/matej/Downloads/code/webapp-backend/log_dir
 10.0	/home/matej/Downloads/code/webapp-backend/static
 10.0	/home/matej/Downloads/code/webapp-backend/src
-1641.3713778423232	/home/matej/projects/video-job-scheduler
+1642.7720474855935	/home/matej/projects/video-job-scheduler
 14.142135623730951	/home/matej/.secrets
 234.3074902771998	/home/matej/tmp
 10.0	/home/matej/Downloads/A/test
@@ -33,9 +33,9 @@
 44.7213595499958	/home
 10.0	/run/user/1000/kio-fuse-ZOsNdd/remote
 83.66600265340756	/home/matej/2-media
-30.000000000000004	/home/matej/2-media/memes
+31.622776601683796	/home/matej/2-media/memes
 33.166247903554	/home/matej/5-assets
-146.2873883832779	/home/matej/0-notes
+149.99999999999994	/home/matej/0-notes
 28.284271247461902	/home/matej/Downloads/Million Dollar Extreme Presents; World Peace
 10.0	/home/matej/Downloads/Million Dollar Extreme Presents; World Peace/Outtakes & Extras
 22.360679774997898	/home/matej/Downloads/Million Dollar Extreme Presents; World Peace/Season 1
@@ -51,14 +51,14 @@
 10.0	/home/matej/projects/video-job-scheduler/venv
 14.142135623730951	/home/matej/Downloads/venv
 14.142135623730951	/run/user/1000/kio-fuse-NyEzFc/zip/home/matej/Downloads/Archive.zip
-56.568542494923804	/boot
+58.30951894845301	/boot
 10.0	/boot/grub
 159.37377450509217	/home/matej/_tmp
 43.588989435406745	/home/matej/.tmux
 30.000000000000004	/home/matej/tmp/wl-clipboard
 26.457513110645905	/home/matej/projects/video-job-scheduler/nginx
-171.46428199482244	/home/matej/2-media/screenshots
-159.9999999999999	/home/matej/1-documents
+174.06895185529208	/home/matej/2-media/screenshots
+164.92422502470637	/home/matej/1-documents
 87.74964387392123	/home/matej/1-documents/edu
 171.46428199482244	/home/matej/projects/conty-parse-kanterica
 47.9583152331272	/home/matej/projects/conty-parse-kanterica/files
@@ -66,13 +66,13 @@
 47.9583152331272	/home/matej/1-documents/finance
 38.729833462074176	/home/matej/1-documents/_archived
 28.284271247461902	/home/matej/1-documents/contracts
-115.75836902790222	/home/matej/1-documents/work
-115.32562594670792	/home/matej/1-documents/work/cv
+129.22847983320082	/home/matej/1-documents/work
+133.41664064126329	/home/matej/1-documents/work/cv
 14.142135623730951	/run/user/1000/kio-fuse-dNJQtZ/sftp/mciglenecki:130pastashotamc@zver1.zesoi.fer.hr:443/home/mciglenecki/projects/nerf-research
 10.0	/home/matej/4-education/datasets
 28.284271247461902	/home/matej/4-education/papers
-22.360679774997898	/home/matej/1-documents/health
-17.320508075688775	/home/matej/1-documents/receipts
+28.284271247461902	/home/matej/1-documents/health
+20.0	/home/matej/1-documents/receipts
 24.49489742783178	/home/matej/1-documents/travel
 37.41657386773942	/home/matej/6-literature
 20.0	/home/matej/6-literature/Alexandre Dumas
@@ -80,7 +80,7 @@
 10.0	/home/matej/6-literature/Alexandre Dumas/The Count of Monte Cristo, Illustrated (16)
 10.0	/home/matej/6-literature/Alexandre Dumas/The Count of Monte Cristo, Illustrated (67)
 14.142135623730951	/home/matej/projects/video-job-scheduler/bin
-100.49875621120886	/home/matej/projects/python-repo-template
+100.99504938362074	/home/matej/projects/python-repo-template
 34.64101615137755	/home/matej/projects/video-job-scheduler/test
 31.622776601683796	/home/matej/projects/video-job-scheduler/redis-config
 14.142135623730951	/home/matej/projects/video-job-scheduler/redis-data
@@ -144,9 +144,9 @@
 24.49489742783178	/home/matej/1-documents/work/cv/2023-eng_second_spectrum
 37.41657386773942	/home/matej/Downloads/TensorPix Memeovi
 36.0555127546399	/home/matej/projects/webapp-backend/src/web_app
-14.142135623730951	/home/matej/1-documents/work/2024-educative
+17.320508075688775	/home/matej/1-documents/work/2024-educative
 10.0	/run/user/1000/kio-fuse-WntyIR/filenamesearch
-33.166247903554	/home/matej/1-documents/work/cv/cv_machine_learning
+36.0555127546399	/home/matej/1-documents/work/cv/cv_machine_learning
 14.142135623730951	/home/matej/Downloads/How.To.with.John.Wilson.S03.COMPLETE.1080p.AMZN.WEB-DL.DDP5.1.H.264-EDITH[TGx]
 28.284271247461902	/home/matej/Downloads/sid_processed
 14.142135623730951	/home/matej/Downloads/sid_processed/long_sid2
@@ -183,13 +183,13 @@
 10.0	/home/matej/Downloads/FiveK/test/input
 10.0	/home/matej/projects/video-job-scheduler/ias_configs
 10.0	/home/matej/1-documents/work/cv/2024-mhpc
-22.360679774997898	/home/matej/1-documents/work/cv/_legacy
+30.000000000000004	/home/matej/1-documents/work/cv/_legacy
 20.0	/home/matej/1-documents/work/cv/2023-se
 10.0	/home/matej/1-documents/work/cv/2023-blackshark
 10.0	/home/matej/1-documents/work/cv/2023-turing_ml
 58.30951894845301	/home/matej/1-documents/work/cv/2024-05-14-mhpc
 10.0	/run/user/1000/kio-fuse-tTbbGE/filenamesearch
-20.0	/home/matej/1-documents/work/ciglenecki.github.io
+24.49489742783178	/home/matej/1-documents/work/ciglenecki.github.io
 10.0	/home/matej/1-documents/work/ciglenecki.github.io/basf
 17.320508075688775	/home/matej/fer
 10.0	/home/matej/fer/__other
@@ -198,7 +198,7 @@
 10.0	/home/matej/projects/webapp-backend/assets/images
 20.0	/home/matej/projects/webapp-backend/static
 14.142135623730951	/home/matej/projects/webapp-backend/media
-14.142135623730951	/home/matej/1-documents/work/_archive
+22.360679774997898	/home/matej/1-documents/work/_archive
 22.360679774997898	/home/matej/1-documents/finance/obveznice-2024
 17.320508075688775	/home/matej/Desktop
 14.142135623730951	/home/matej/Downloads/food
@@ -385,7 +385,7 @@
 14.142135623730951	/home/matej/Downloads/low_light_demos/hvi_cidnet_sice_mix
 66.33249580710802	/home/matej/Downloads/HVI-CIDNet
 31.622776601683796	/home/matej/Downloads/HVI-CIDNet/HVI-CIDNet
-34.64101615137755	/home/matej/1-documents/work/recommendation
+36.0555127546399	/home/matej/1-documents/work/recommendation
 10.0	/run/user/1000/kio-fuse-oBmUex/smb/hotpan.local
 10.0	/run/user/1000/kio-fuse-oBmUex/sftp/matejc@komp-ured:443/home/matejc/projects/ml-training-framework
 10.0	/run/user/1000/kio-fuse-oBmUex/sftp/matejc@komp-ured:443/home/matejc/projects/ml-training-framework/output
@@ -718,7 +718,7 @@
 10.0	/home/matej/remote/tp-komp-ured/home/matejc/code/stylegan3
 10.0	/home/matej/remote/tp-komp-ured/etc
 10.0	/home/matej/remote/tp-komp-ured/boot
-17.320508075688775	/home/matej/1-documents/work/cv/2023-eng-ds
+20.0	/home/matej/1-documents/work/cv/2023-eng-ds
 14.142135623730951	/home/matej/1-documents/work/cv/2023-eng-cv
 34.64101615137755	/home/matej/1-documents/work/cv/2023-velebit
 24.49489742783178	/home/matej/remote/tp-komp-ured/home/matejc/code/video-inference-server/cache/tmpolynic24
@@ -763,7 +763,7 @@
 10.0	/run/user/1000/kio-fuse-auspKF/zip/home/matej/Downloads/letter.zip
 33.166247903554	/home/matej/Downloads/drive-download-20241115T211303Z-001
 30.000000000000004	/home/matej/1-documents/edu/ellis/ocjene
-42.42640687119286	/home/matej/1-documents/work/cv/2024-ellis
+44.7213595499958	/home/matej/1-documents/work/cv/2024-ellis
 20.0	/home/matej/Downloads/Better Call Saul Season 1 (1080p x265 10bit Joy)
 17.320508075688775	/home/matej/Downloads/bruno
 128.45232578665124	/home/matej/projects/git-workshop
@@ -782,7 +782,7 @@
 14.142135623730951	/home/matej/remote/tp-komp-ured/home/matejc/code/video-inference-server/cache/3b5q5yjm7/intermediary
 20.0	/home/matej/remote/tp-komp-ured/home/matejc/code/video-inference-server/cache/3qszq7td8
 14.142135623730951	/home/matej/remote/tp-komp-ured/home/matejc/code/video-inference-server/cache/3qszq7td8/intermediary
-20.0	/home/matej/1-documents/work/2024-11-27-tensorpix_1yo
+22.360679774997898	/home/matej/1-documents/work/2024-11-27-tensorpix_1yo
 10.0	/run/user/1000/kio-fuse-FxZRUs/filenamesearch
 31.622776601683796	/home/matej/Downloads/Twin.Peaks.SEASON.01.S01.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA
 33.166247903554	/run/user/1000/gvfs
@@ -994,9 +994,9 @@
 14.142135623730951	/home/matej/remote/gym-lecun/data/ssd2/datasets/image/laion-high-resolution/images
 14.142135623730951	/home/matej/remote/gym-lecun/data/ssd2/datasets/image/laion-high-resolution/images/1
 82.46211251235323	/home/matej/Downloads/video
-59.16079783099617	/home/matej/Downloads/image
-51.96152422706633	/home/matej/Downloads/docs
-42.42640687119286	/home/matej/Downloads/zip
+60.00000000000001	/home/matej/Downloads/image
+52.91502622129182	/home/matej/Downloads/docs
+46.904157598234306	/home/matej/Downloads/zip
 14.142135623730951	/home/matej/_tmp/let
 17.320508075688775	/run/user/1000/kio-fuse-XrtlEU/zip/home/matej/Downloads/zip/drive-download-20250204T113349Z-001.zip
 20.0	/run/user/1000/kio-fuse-XrtlEU/zip/home/matej/Downloads/zip/models-4xBHI_dat2_real.zip
@@ -1005,7 +1005,7 @@
 14.142135623730951	/run/user/1000/kio-fuse-XrtlEU/zip/home/matej/Downloads/zip/pbz_natjecaj_2022.zip/2022
 10.0	/run/user/1000/kio-fuse-XrtlEU/zip/home/matej/Downloads/zip/models-4xBHI_dat2_real.zip/models-4xBHI_dat2_real/SUPIR
 10.0	/home/matej/Downloads/test/images/1
-17.320508075688775	/home/matej/venv
+34.64101615137755	/home/matej/venv
 10.0	/home/matej/syncthing
 24.49489742783178	/home/matej/tmp/bhi100-sisr-iqa-metrics
 10.0	/home/matej/tmp/bhi100-sisr-iqa-metrics/inference_results
@@ -1120,7 +1120,7 @@
 10.0	/home/matej/remote/gym-lecun/data/ssd/datasets/image
 30.000000000000004	/home/matej/tmp/krohnkite
 40.00000000000001	/home/matej/Downloads/ljubljana-20000-sdb-f5e5ac
-72.1110255092798	/home/matej/projects/spotify_to_ytmusic
+72.8010988928052	/home/matej/projects/spotify_to_ytmusic
 30.000000000000004	/home/matej/projects/spotify_to_ytmusic/a
 45.82575694955841	/home/matej/projects/spotify_to_ytmusic/spotify_to_ytmusic
 17.320508075688775	/home/matej/Downloads/bhi
@@ -1161,7 +1161,7 @@
 10.0	/home/matej/Downloads/ljubljana-20000-sdb-f5e5ac/georef
 100.49875621120886	/home/matej/projects/frame-stream
 10.0	/home/matej/.config/obs-studio
-10.0	/home/matej/1-documents/work/cv/2023-kraken
+14.142135623730951	/home/matej/1-documents/work/cv/2023-kraken
 10.0	/run/user/1000/kio-fuse-xuNGUk/trash
 72.8010988928052	/home/matej/Downloads/laion-iqf
 17.320508075688775	/home/matej/Downloads/laion-iqf/a
@@ -1170,8 +1170,8 @@
 26.457513110645905	/home/matej/Downloads/bhi_part_1_lq/lq_part_1
 14.142135623730951	/home/matej/Downloads/bhi_part_1_lq/lq_part_1/folder_1
 10.0	/run/user/1000/kio-fuse-HAyTiy/filenamesearch
-28.284271247461902	/home/matej/1-documents/work/2025-tensorpix
-33.166247903554	/usr/bin
+31.622776601683796	/home/matej/1-documents/work/2025-tensorpix
+37.41657386773942	/usr/bin
 30.000000000000004	/home/matej/.local/bin
 10.0	/home/matej/projects/video-job-scheduler/gcp_vis_service_account.json
 10.0	/run/user/1000/kio-fuse-JzJrMx/filenamesearch
@@ -1183,7 +1183,7 @@
 20.0	/usr/share
 20.0	/home/matej/.local/share/applications
 10.0	/run/user/1000/kio-fuse-AhXnRf/filenamesearch
-14.142135623730951	/home/matej/1-documents/work/my_recommendations
+20.0	/home/matej/1-documents/work/my_recommendations
 22.360679774997898	/home/matej/_tmp/acqua
 14.142135623730951	/home/matej/_tmp/acqua/original
 10.0	/run/user/1000/kio-fuse-pSELCI/filenamesearch
@@ -1219,7 +1219,7 @@
 10.0	/run/user/1000/kio-fuse-SKQYdC/zip/home/matej/projects/video-inference-server/src/config.zip/config
 10.0	/run/user/1000/kio-fuse-lXIzdZ/filenamesearch
 31.622776601683796	/home/matej/1-documents/work/2025_dfs_intro
-22.360679774997898	/home/matej/1-documents/work/2025_dfs
+24.49489742783178	/home/matej/1-documents/work/2025_dfs
 183.57559750685823	/home/matej/projects/compliance-ai
 426.9660408041849	/home/matej/projects/herbalife-market-detector
 10.0	/run/user/1000/kio-fuse-rWYDNU/zip/home/matej/Downloads/2dbe160a-b835-4db6-afee-cd25a24d59ca_Export-7e18a6f3-0cdb-49c0-8e8b-5dffc230b09e.zip
@@ -1233,7 +1233,7 @@
 26.457513110645905	/home/matej/projects/herbalife-market-detector/output/3636963818575357341
 10.0	/home/matej/projects/herbalife-market-detector/data/backup-2025-07-22-19-33-54
 10.0	/run/user/1000/kio-fuse-fKGFQt/filenamesearch
-166.73332000533063	/home/matej/1-documents/work/dfs
+167.33200530681506	/home/matej/1-documents/work/dfs
 174.35595774162692	/home/matej/projects/compliance-ai/functions
 10.0	/home/matej/projects/compliance-ai/functions/venv
 10.0	/home/matej/remote/playground-relu/home/matejc/code/ml-training-framework/src/export/torch_compile_benchmark
@@ -1551,7 +1551,7 @@
 17.320508075688775	/home/matej/Downloads/deep_cleanSDUnet_64c_gan_BhiData+Pexels+LAION300k_256x256_00300000-metric-0.24209
 14.142135623730951	/home/matej/Downloads/deep_cleanSDUnet_64c_gan_BhiData+Pexels+LAION300k_256x256_00300000-metric-0.24209/SDUnet_64c_gan_BhiData+Pexels+LAION300k_256x256
 10.0	/home/matej/Downloads/deep_cleanSDUnet_64c_gan_BhiData+Pexels+LAION300k_256x256_00300000-metric-0.24209/SDUnet_64c_gan_BhiData+Pexels+LAION300k_256x256/27-03-25-0828
-30.000000000000004	/home/matej/1-documents/work/cv/2025-cradle
+41.231056256176615	/home/matej/1-documents/work/cv/2025-cradle
 10.0	/home/matej/1-documents/work/cv/2023-ai_datasci
 10.0	/run/user/1000/kio-fuse-bGuoAG/filenamesearch
 30.000000000000004	/home/matej/Downloads/macke
@@ -1649,11 +1649,11 @@
 14.142135623730951	/home/matej/projects/complyai
 17.320508075688775	/home/matej/remote/playground-relu/home/matejc/code/webapp-backend
 48.98979485566357	/home/matej/projects/rubikkon
-46.904157598234306	/home/matej/tensorpix_media
+48.98979485566357	/home/matej/tensorpix_media
 17.320508075688775	/home/matej/.ansible
 10.0	/home/matej/.ansible/tmp
 10.0	/home/matej/.anacron
-46.904157598234306	/home/matej/1-documents/work/tensorpix
+74.83314773547885	/home/matej/1-documents/work/tensorpix
 20.0	/home/matej/tensorpix_media/ai2future
 10.0	/home/matej/tensorpix_media/ai2future/bad_examples
 10.0	/home/matej/tensorpix_media/_videos
@@ -1677,7 +1677,7 @@
 10.0	/home/matej/2-media/random/max_verstappen
 14.142135623730951	/home/matej/1-documents/_archived/conty
 10.0	/home/matej/1-documents/2026-01-14_slike_macke
-10.0	/home/matej/1-documents/2026-phd
+70.71067811865477	/home/matej/1-documents/2026-phd
 14.142135623730951	/run/user/1000/kio-fuse-FYFoJt/zip/home/matej/1-documents/_archived/ages_old.zip
 10.0	/run/user/1000/kio-fuse-FYFoJt/zip/home/matej/1-documents/_archived/ages_old.zip/ages_old
 10.0	/home/matej/1-documents/work/dfs/2025-11-24-rubikon
@@ -1695,3 +1695,45 @@
 22.360679774997898	/home/matej/s20fe_camera/exifed
 10.0	/home/matej/s20fe_camera/exifed/big_videos
 50.990195135927856	/home/matej/projects/gitops
+36.0555127546399	/home/matej/yt
+10.0	/home/matej/yt/Dex_001
+10.0	/home/matej/yt/Dex 001
+26.457513110645905	/home/matej/1-documents/2026-phd/ellis_italy_part1
+53.851648071345046	/home/matej/1-documents/work/tensorpix/test
+22.360679774997898	/home/matej/projects/interview-coed
+98.99494936611661	/home/matej/projects/interview-code
+10.0	/home/matej/projects/interview-code/b
+10.0	/home/matej/projects/interview-code/a
+10.0	/home/matej/projects/interview-code/log_files
+28.284271247461902	/run/user/1000/kio-fuse-etsXDZ/zip/home/matej/projects/interview-code/log_parsing_interview_coding.zip
+20.0	/run/user/1000/kio-fuse-etsXDZ/zip/home/matej/projects/interview-code/log_parsing_interview_coding.zip/log_files
+14.142135623730951	/run/user/1000/kio-fuse-xvnreh/tags
+14.142135623730951	/media/matej/Ubuntu-Server 24.04.2 LTS amd64
+17.320508075688775	/home/matej/Downloads/zip/log_parsing_interview_coding (1)
+10.0	/home/matej/Downloads/zip/log_parsing_interview_coding (1)/log_files
+20.0	/home/matej/Downloads/zip/tensorpix_interview
+10.0	/home/matej/Downloads/zip/tensorpix_interview/log_files
+10.0	/home/matej/1-documents/work/2020-06-memgraph
+10.0	/home/matej/1-documents/work/2022-axillis
+10.0	/home/matej/1-documents/work/2023-microblink
+10.0	/home/matej/1-documents/work/2023-lumen
+10.0	/home/matej/1-documents/work/2022-photomath
+75.49834435270752	/home/matej/projects/nerf-research
+17.320508075688775	/home/matej/projects/nerf-research/logs
+14.142135623730951	/home/matej/projects/nerf-research/camera_paths
+20.0	/home/matej/1-documents/work/cv/_archive
+10.0	/home/matej/1-documents/work/cv/_cover_letter
+10.0	/home/matej/1-documents/work/cv/_cover_letters
+24.49489742783178	/home/matej/1-documents/work/cv/2025-phd-ml
+52.91502622129182	/home/matej/projects/lumen-audio
+20.0	/run/user/1000/kio-fuse-xwHekV/filenamesearch
+22.360679774997898	/home/matej/venv/bin
+26.457513110645905	/home/matej/venv/lib
+24.49489742783178	/home/matej/venv/lib/python3.13
+30.000000000000004	/home/matej/venv/lib/python3.13/site-packages
+31.622776601683796	/home/matej/venv/lib/python3.13/site-packages/spotify_random_saved_album
+20.0	/home/matej/venv/lib/python3.13/site-packages/spotify_random_saved_album/resources
+17.320508075688775	/home/matej/venv/lib/python3.13/site-packages/spotify_random_saved_album/__pycache__
+14.142135623730951	/home/matej/venv/lib/python3.13/site-packages/spotify_random_saved_album-0.0.8.dist-info
+10.0	/home/matej/armand-hammer-the-alchemist
+10.0	/home/matej/armand-hammer-the-alchemist/mercy

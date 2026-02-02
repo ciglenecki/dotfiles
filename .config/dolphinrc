@@ -55,12 +55,14 @@ Recent URLs[$e]=file:///opt/,file:$HOME/2-media/icons/,file:$HOME/,file:$HOME/Do
 detailViewIconSize=16
 
 [KPropertiesDialog]
-1920x1080 screen: Height=458
-1920x1080 screen: Width=416
+1920x1080 screen: Height=464
+1920x1080 screen: Width=385
 2 screens: Height=458
-2 screens: Width=387
+2 screens: Width=382
 2560x1080 screen: Height=444
 2560x1080 screen: Width=375
+2560x1440 screen: Height=588
+2560x1440 screen: Width=438
 DP-0 HDMI-0 Height 1920x1080=458
 DP-0 HDMI-0 Height 2560x1440=587
 DP-0 HDMI-0 Width 1920x1080=383
@@ -177,7 +179,7 @@ IconSize=16
 Plugins=audiothumbnail,blenderthumbnail,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,textthumbnail,ffmpegthumbs
 
 [Search]
-What=Content
+Location=Everywhere
 
 [SettingsDialog]
 Height 1080=456

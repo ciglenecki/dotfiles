@@ -16,7 +16,6 @@ __pycache__y
 */Cache/
 */BraveBrowser/
 
-
 ###
 # Starts here https://github.com/github/gitignore 
 ###

@@ -6,6 +6,7 @@
 5-assets/***
 6-literature/***
 fer/***
+audiobooks/***
 _tmp/***
 tmp/***
 .gnupg
