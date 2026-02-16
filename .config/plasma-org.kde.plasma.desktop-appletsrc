@@ -37,7 +37,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][28][Configuration]
-PreloadWeight=100
+PreloadWeight=68
 popupHeight=450
 popupWidth=396
 
@@ -180,7 +180,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][65][Configuration]
-PreloadWeight=100
+PreloadWeight=68
 popupHeight=450
 popupWidth=810
 
@@ -199,7 +199,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][2][Applets][67][Configuration]
-PreloadWeight=18
+PreloadWeight=0
 localPath=/home/matej/.local/share/plasma_icons/brave-browser.desktop
 url=file:///home/matej/.local/share/applications/brave-browser.desktop
 
@@ -282,6 +282,24 @@ PreloadWeight=0
 [Containments][66][Wallpaper][org.kde.image][General]
 Image=/home/matej/Downloads/TensorPix - 3e0e212843311519cfd4e8b6e7d56bbe.jpeg
 
+[Containments][68]
+activityId=a73e944d-da52-4381-a30f-453e01f5a30b
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][69]
+activityId=a73e944d-da52-4381-a30f-453e01f5a30b
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
 [Containments][8]
 activityId=
 formfactor=2
@@ -319,21 +337,21 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][8][Applets][17][Configuration]
-PreloadWeight=100
+PreloadWeight=68
 
 [Containments][8][Applets][22]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][8][Applets][22][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][8][Applets][23]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][23][Configuration]
-PreloadWeight=100
+PreloadWeight=78
 
 [Containments][8][Applets][24][Configuration]
 PreloadWeight=42
@@ -367,7 +385,7 @@ immutability=1
 plugin=org.kde.kscreen
 
 [Containments][8][Applets][57][Configuration]
-PreloadWeight=90
+PreloadWeight=70
 
 [Containments][8][Applets][66][Configuration]
 PreloadWeight=42
@@ -411,4 +429,4 @@ DesktopLabelsCustomColor=#232627
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/6KuH3nAvDE4UuIz5geUQkA,0,ff28354e-18f3-45a6-b82e-2d71ebba7cf4
+screenMapping=desktop:/6KuH3nAvDE4UuIz5geUQkA,0,ff28354e-18f3-45a6-b82e-2d71ebba7cf4,desktop:/6KuH3nAvDE4UuIz5geUQkA,0,a73e944d-da52-4381-a30f-453e01f5a30b

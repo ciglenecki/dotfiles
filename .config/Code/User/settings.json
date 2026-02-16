@@ -242,7 +242,7 @@
     "editor.defaultFormatter": "octref.vetur"
   },
   "python.analysis.inlayHints.functionReturnTypes": true,
-  "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.nextEditSuggestions.enabled": false,
   "files.watcherExclude": {
     "**/.git/**": true,
     "**/.venv/**": true,
@@ -271,6 +271,13 @@
     ".ruff_cache",
   ],
   "update.showReleaseNotes": false,
-  "chat.viewSessions.orientation": "stacked",
   "ty.inlayHints.callArgumentNames": false,
+  "chat.viewSessions.orientation": "stacked",
+  "chat.tools.edits.autoApprove": {
+    "sxhkd": true,
+    "**/*.lock": true,
+    "**/*.{code-workspace,csproj,fsproj,vbproj,vcxproj,proj,targets,props}": true,
+    "**/{package.json,server.xml,build.rs,web.config,.gitattributes,.env}": true,
+    "**/.git/**": true
+  },
 }

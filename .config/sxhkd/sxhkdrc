@@ -24,11 +24,11 @@ alt + o; {x,X};
 alt + o; {e,E};
     wmctrl -xa thunderbird; test $? -ne 0 && thunderbird
 
-shift + {Pause,KP_Subtract};
+{shift + Pause, shift + KP_Subtract};
     amixer -D pulse sset Master 2%-;
     # qdbus org.kde.kglobalaccel /component/kmix org.kde.kglobalaccel.Component.invokeShortcut 'decrease_volume'
     
-shift + KP_Add;
+{alt + Pause, shift + KP_Add};
     amixer -D pulse sset Master 2%+;
     # qdbus org.kde.kglobalaccel /component/kmix org.kde.kglobalaccel.Component.invokeShortcut 'increase_volume'
     

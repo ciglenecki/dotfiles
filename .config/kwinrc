@@ -61,6 +61,7 @@ NightTemperature=2600
 
 [Plugins]
 alwaysopenonactivescreenEnabled=true
+alwaysopenonprimaryscreenEnabled=true
 bismuthEnabled=false
 blurEnabled=false
 krohnkiteEnabled=true
@@ -94,9 +95,11 @@ floatingClass=matplotlib
 floatingTitle=matplotlib
 ignoreClass=krunner,yakuake,spectacle,kded5,matplotlib
 ignoreTitle=Plasma
-layoutPerActivity=false
 maximizeSoleTile=true
 preventProtrusion=false
+
+[Script-virtual-desktops-only-on-primary]
+primaryOutputIndex=1
 
 [SubSession: 587e0a3c-47e5-4c3a-b1e8-d622553fd3b4]
 active=-1

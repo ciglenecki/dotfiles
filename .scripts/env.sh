@@ -23,8 +23,10 @@ if [ -d "$HOME/bin" ] ; then
     export PATH="$PATH:$HOME/bin"
 fi
 
-if [ -d "$HOME/.npm-global/bin" ] ; then
-    PATH="$HOME/.npm-global/bin:$PATH"
+FNM_PATH="$HOME/.local/share/fnm"
+if [ -d "$FNM_PATH" ]; then
+  export PATH="$FNM_PATH:$PATH"
+  eval "`fnm env`"
 fi
 
 if [ -d "/usr/sbin:/sbin" ] ; then
