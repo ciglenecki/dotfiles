@@ -29,7 +29,6 @@ SidebarShowText=false
 BackgroundColor=0,0,0
 MouseMode=TextSelect
 PrimaryAnnotationToolBar=QuickAnnotationToolBar
-TrimMargins=true
 UseCustomBackgroundColor=true
 
 [Reviews]

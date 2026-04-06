@@ -2,27 +2,27 @@
   "geometry-of-main_window_geometry": {
     "frame_geometry": {
       "height": 1058,
-      "width": 960,
-      "x": 960,
+      "width": 1339,
+      "x": 580,
       "y": 0
     },
     "full_screened": false,
     "geometry": {
       "height": 1058,
-      "width": 960,
-      "x": 960,
+      "width": 1339,
+      "x": 580,
       "y": 0
     },
     "maximized": false,
     "normal_geometry": {
       "height": 1058,
-      "width": 960,
-      "x": 960,
+      "width": 1339,
+      "x": 580,
       "y": 0
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAPAAAAAAAAAB38AAAQhAAADwAAAAAAAAAd/AAAEIQAAAAAAAAAAB4AAAAPAAAAAAAAAB38AAAQh"
+      "__value__": "AdnQywADAAAAAAJEAAAAAAAAB34AAAQhAAACRAAAAAAAAAd+AAAEIQAAAAAAAAAAB4AAAAJEAAAAAAAAB34AAAQh"
     },
     "screen": {
       "depth": 24,
@@ -107,7 +107,7 @@
   },
   "main_window_state": {
     "__class__": "bytearray",
-    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAEFAAAEIvwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIoA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAAAAAQiAAAAmgD///8AAAABAAABkwAABCL8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAAAABCIAAACDAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAPIA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFAD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAANIA////AAADwAAABCIAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAEFAAAEIvwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIoA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAAAAAQiAAAAmgD///8AAAABAAABkwAABCL8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAAAABCIAAACDAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAPIA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFAD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAANIA////AAAFOwAABCIAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
   },
   "old_prefs_migrated": true,
   "saved-search-settings": {
@@ -131,6 +131,15 @@
       "singleinstance": false
     },
     "standalone_recently_opened": [
+      {
+        "authors": [
+          "Albert Camus"
+        ],
+        "key": "/home/matej/6-literature/Albert Camus/Stranac (119)/Stranac - Albert Camus.epub",
+        "pathtoebook": "/home/matej/6-literature/Albert Camus/Stranac (119)/Stranac - Albert Camus.epub",
+        "timestamp": "2026-02-28T23:15:50.771Z",
+        "title": "Stranac"
+      },
       {
         "authors": [
           "Dazai Osamu"

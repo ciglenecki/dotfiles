@@ -37,7 +37,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][28][Configuration]
-PreloadWeight=68
+PreloadWeight=100
 popupHeight=450
 popupWidth=396
 
@@ -180,7 +180,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][65][Configuration]
-PreloadWeight=68
+PreloadWeight=87
 popupHeight=450
 popupWidth=810
 
@@ -291,6 +291,9 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][68][Configuration]
+PreloadWeight=34
+
 [Containments][69]
 activityId=a73e944d-da52-4381-a30f-453e01f5a30b
 formfactor=0
@@ -299,6 +302,9 @@ lastScreen=1
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
+
+[Containments][69][Configuration]
+PreloadWeight=34
 
 [Containments][8]
 activityId=
@@ -337,7 +343,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][8][Applets][17][Configuration]
-PreloadWeight=68
+PreloadWeight=100
 
 [Containments][8][Applets][22]
 immutability=1
@@ -351,7 +357,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][23][Configuration]
-PreloadWeight=78
+PreloadWeight=100
 
 [Containments][8][Applets][24][Configuration]
 PreloadWeight=42
@@ -385,7 +391,7 @@ immutability=1
 plugin=org.kde.kscreen
 
 [Containments][8][Applets][57][Configuration]
-PreloadWeight=70
+PreloadWeight=84
 
 [Containments][8][Applets][66][Configuration]
 PreloadWeight=42
@@ -429,4 +435,4 @@ DesktopLabelsCustomColor=#232627
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/6KuH3nAvDE4UuIz5geUQkA,0,ff28354e-18f3-45a6-b82e-2d71ebba7cf4,desktop:/6KuH3nAvDE4UuIz5geUQkA,0,a73e944d-da52-4381-a30f-453e01f5a30b
+screenMapping=desktop:/6KuH3nAvDE4UuIz5geUQkA,0,a73e944d-da52-4381-a30f-453e01f5a30b

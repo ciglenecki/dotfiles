@@ -18,6 +18,7 @@ alias a="cd ~"
 alias -- -="cd -"
 alias cd='cd -P' # autofollow symlinks
 function cs() { cd $1;ls -1 --color=auto; } # cd + ls
+alias ka='killall'
 
 # f = show dir ending "/", symlinks "*"...
 alias l="ls -lF --group-directories-first" # List all files
@@ -66,6 +67,7 @@ alias study="$BROWSERUSER $BROWSERASAPP$STUDY_SHEET &"
 alias cal="$BROWSERUSER $BROWSERASAPP$CAL &"
 alias pomo="$BROWSERUSER $BROWSERASAPP$POMODORO &"
 alias poe="poetry"
+alias fullpath="realpath"
 
 # extglob If set, the extended pattern matching features described above under Pathname Expansion are enabled.
 shopt -s extglob

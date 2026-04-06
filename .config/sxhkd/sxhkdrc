@@ -1,10 +1,8 @@
 # o = open something
 alt + o; {b,B};
 	{wmctrl -xa $BROWSER, $BROWSERUSER}
-# alt + o; {m, M};
-# 	{wmctrl -xa $BROWSER, $BROWSERWORK}
-alt + o; {s, S};
-	{wmctrl -xa spotify, uri=$(source $FILE_SPOTIFY_SECRET && $HOME/venv/bin/spotify-random-saved-album --uri); test $? -eq 0 && LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify --uri=$uri}
+alt + o; {s,S};
+	{wmctrl -lx | grep -i brave | grep -i spotify | awk '\{print $1\}' | head -n1 | xargs wmctrl -i -a, . $HOME/.scripts/spotify_open_random_album_browser.sh}
 alt + o; {a,A};
 	{wmctrl -xa asoft, $ASOFTMURMUR}
 alt + o; {k,K};
@@ -20,15 +18,15 @@ alt + o; {w,W};
 alt + o; {z,Z};
     {wmctrl -xa code, code ~/tmp/tmp.md}
 alt + o; {x,X};
-    code -n $DIR_NOTES/notes.md
+    {wmctrl -a xnotes, code -n $DIR_NOTES}
 alt + o; {e,E};
     wmctrl -xa thunderbird; test $? -ne 0 && thunderbird
 
-{shift + Pause, shift + KP_Subtract};
+{shift + Insert, shift + KP_Subtract};
     amixer -D pulse sset Master 2%-;
     # qdbus org.kde.kglobalaccel /component/kmix org.kde.kglobalaccel.Component.invokeShortcut 'decrease_volume'
     
-{alt + Pause, shift + KP_Add};
+{super + Insert, shift + KP_Add};
     amixer -D pulse sset Master 2%+;
     # qdbus org.kde.kglobalaccel /component/kmix org.kde.kglobalaccel.Component.invokeShortcut 'increase_volume'
     
@@ -61,9 +59,12 @@ alt + c; s;
 alt + c; e;
     pinta $DIR_SCREENSHOTS$(ls -t $DIR_SCREENSHOTS | head -n 1)
 
+alt + space;
+    rofi -show combi
+    
     
 # volume with pause button
-Pause;
+Insert;
     amixer -D pulse sset Master $SOUND_LEVEL%
 
 ctrl + grave;

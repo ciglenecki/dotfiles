@@ -10,7 +10,14 @@
 # sudo ./setup_script.sh
 
 
+
 : '
+
+OLD DEVICE:
+
+1. backup vscode extensions
+code --list-extensions > vscode-extensions.txt
+
 
 bash <(curl -s https://raw.githubusercontent.com/ciglenecki/dotfiles/master/.scripts/setup_script.sh)
 

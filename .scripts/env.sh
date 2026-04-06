@@ -49,6 +49,15 @@ if [ -d "/opt/blender-3.5.1-linux-x64" ] ; then
     export PATH=$PATH:/opt/blender-3.5.1-linux-x64
 fi
 
+if [ -d "/opt/blender-3.5.1-linux-x64" ] ; then
+    export PATH=$PATH:/opt/blender-3.5.1-linux-x64
+fi
+
+
+if command -v npm >/dev/null 2>&1; then
+    export PATH="$PATH:$(npm prefix -g)/bin"
+fi
+
 
 export PYENV_ROOT="$HOME/.pyenv"
 export CUDA_HOME=/usr/local/cuda-11.8
@@ -73,8 +82,8 @@ export BROWSERUSER="$BROWSER --profile-directory=Default"
 export BROWSERWORK="$BROWSER --profile-directory=work"
 export BROWSERMUSIC="$BROWSER --profile-directory=music"
 export BROWSERAPP="${BROWSERUSER} ${BROWSERASAPP}"
-export SPOTIFY="${BROWSERMUSIC} --new-window ${BROWSERASAPP}https://open.spotify.com/collection/albums"
-export SPOTIFY_RAND_PREFIX="${BROWSERMUSIC} --new-window ${BROWSERASAPP}"
+export SPOTIFY="${BROWSERMUSIC} ${BROWSERASAPP}https://open.spotify.com/collection/albums"
+export SPOTIFY_RAND_PREFIX="${BROWSERMUSIC} ${BROWSERASAPP}"
 
 export CAL="${BROWSERUSER} ${BROWSERASAPP}https://calendar.google.com/calendar/r"
 export ASOFTMURMUR="${BROWSERMUSIC} ${BROWSERASAPP}https://asoftmurmur.com/"
@@ -95,13 +104,13 @@ export URL_WHATSAPP="https://web.whatsapp.com/"
 # paths
 export INPUTRC="$HOME/.inputrc"
 export DIR_FER="$HOME/fer"
-export DIR_NOTES="$HOME/0-notes"
+export DIR_NOTES="$HOME/0-xnotes"
 export DIR_DOCUMENTS="$HOME/1-documents"
 export DIR_PICTURES="$HOME/2-media"
     export DIR_SCREENSHOTS="$DIR_PICTURES/screenshots/"
 export DIR_AUDIO="$HOME/3-audio"
 export DIR_EDUCATION="$HOME/4-education"
-export DIR_ASSETS="$HOME/.assets"
+export DIR_ASSETS="$HOME/5-assets"
 export DIR_DOWNLOADS="$HOME/Downloads"
 export DIR_PROJECTS="$HOME/projects"
 export DIR_SECRETS="$HOME/.secrets"

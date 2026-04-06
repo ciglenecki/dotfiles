@@ -216,7 +216,6 @@
     "source.convertImportFormat"
   ],
   "python.defaultInterpreterPath": "/home/matej/venv",
-  "python.languageServer": "Pylance",
   "python.analysis.typeCheckingMode": "standard",
   "github.copilot.editor.enableAutoCompletions": true,
   "editor.formatOnSave": true,
@@ -253,8 +252,6 @@
     ".ruff_cache/**": true
   },
   "files.exclude": {
-    "**/.venv/**": true,
-    "**/venv/**": true,
     "**/node_modules/**": true,
     ".git": true,
     "**/__pycache__": true,
@@ -272,7 +269,6 @@
   ],
   "update.showReleaseNotes": false,
   "ty.inlayHints.callArgumentNames": false,
-  "chat.viewSessions.orientation": "stacked",
   "chat.tools.edits.autoApprove": {
     "sxhkd": true,
     "**/*.lock": true,
@@ -280,4 +276,9 @@
     "**/{package.json,server.xml,build.rs,web.config,.gitattributes,.env}": true,
     "**/.git/**": true
   },
+  "python.languageServer": "Default",
+  "claudeCode.preferredLocation": "panel",
+  "window.titleBarStyle": "custom",
+  "window.customMenuBarAltFocus": false,
+  "window.menuBarVisibility": "compact"
 }

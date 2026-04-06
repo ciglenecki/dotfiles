@@ -18,7 +18,7 @@ DefaultProfile=konsole-matej.profile
 
 [DetailsMode]
 ExpandableFolders=false
-PreviewSize=32
+PreviewSize=16
 SidePadding=0
 
 [ExtractDialog]
@@ -55,8 +55,8 @@ Recent URLs[$e]=file:///opt/,file:$HOME/2-media/icons/,file:$HOME/,file:$HOME/Do
 detailViewIconSize=16
 
 [KPropertiesDialog]
-1920x1080 screen: Height=464
-1920x1080 screen: Width=385
+1920x1080 screen: Height=616
+1920x1080 screen: Width=438
 2 screens: Height=458
 2 screens: Width=375
 2560x1080 screen: Height=444
@@ -177,9 +177,6 @@ IconSize=16
 
 [PreviewSettings]
 Plugins=audiothumbnail,blenderthumbnail,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,textthumbnail,ffmpegthumbs
-
-[Search]
-Location=Everywhere
 
 [SettingsDialog]
 Height 1080=456

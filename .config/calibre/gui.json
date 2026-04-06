@@ -43,9 +43,12 @@
       "timestamp": 70,
       "title": 56
     },
+    "formats_injected": true,
     "hidden_columns": [],
+    "id_injected": true,
     "languages_injected": true,
     "last_modified_injected": true,
+    "path_injected": true,
     "sort_history": [
       [
         "timestamp",
@@ -90,9 +93,12 @@
       "timestamp": 70,
       "title": 56
     },
+    "formats_injected": true,
     "hidden_columns": [],
+    "id_injected": true,
     "languages_injected": true,
     "last_modified_injected": true,
+    "path_injected": true,
     "sort_history": [
       [
         "timestamp",
@@ -230,19 +236,19 @@
   ],
   "geometry-of-calibre_main_window_geometry": {
     "frame_geometry": {
-      "height": 529,
-      "width": 960,
-      "x": 960,
-      "y": 529
+      "height": 1058,
+      "width": 1920,
+      "x": 0,
+      "y": 0
     },
     "full_screened": false,
     "geometry": {
-      "height": 529,
-      "width": 960,
-      "x": 960,
-      "y": 529
+      "height": 1058,
+      "width": 1920,
+      "x": 0,
+      "y": 0
     },
-    "maximized": true,
+    "maximized": false,
     "normal_geometry": {
       "height": 1058,
       "width": 1920,
@@ -251,7 +257,7 @@
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAPAAAACEQAAB38AAAQhAAAAAAAAAAAAAAd/AAAEIQAAAAACAAAAB4AAAAPAAAACEQAAB38AAAQh"
+      "__value__": "AdnQywADAAAAAAAAAAAAAAAAB38AAAQhAAAAAAAAAAAAAAd/AAAEIQAAAAAAAAAAB4AAAAAAAAAAAAAAB38AAAQh"
     },
     "screen": {
       "depth": 24,
@@ -263,10 +269,10 @@
         "y": 0
       },
       "index_in_screens_list": 0,
-      "manufacturer": "LG Display",
-      "model": "",
-      "name": "eDP-1",
-      "serial": "",
+      "manufacturer": "Dell Inc.",
+      "model": "DELL P2419H-",
+      "name": "HDMI-1",
+      "serial": "FQ79ZT2-",
       "size_in_logical_pixels": {
         "height": 1080,
         "width": 1920
@@ -383,28 +389,28 @@
   },
   "geometry-of-jobs_dialog_geometry": {
     "frame_geometry": {
-      "height": 528,
-      "width": 1275,
+      "height": 566,
+      "width": 1287,
       "x": 0,
-      "y": 309
+      "y": 277
     },
     "full_screened": false,
     "geometry": {
       "height": 528,
       "width": 1275,
-      "x": 0,
+      "x": 6,
       "y": 309
     },
     "maximized": false,
     "normal_geometry": {
       "height": 528,
       "width": 1275,
-      "x": 0,
+      "x": 6,
       "y": 309
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAAAAAABNQAABPoAAANEAAAAAAAAATUAAAT6AAADRAAAAAAAAAAAB4AAAAAAAAABNQAABPoAAANE"
+      "__value__": "AdnQywADAAAAAAAAAAABFQAABQYAAANKAAAABgAAATUAAAUAAAADRAAAAAAAAAAAB4AAAAAGAAABNQAABQAAAANE"
     },
     "screen": {
       "depth": 24,
@@ -444,7 +450,7 @@
     "__value__": "AdnQywADAAAAAAAAAAABGAAABPoAAANEAAAAAAAAATUAAAT6AAADRAAAAAAAAAAAB4AAAAAAAAABNQAABPoAAANE"
   },
   "library_usage_stats": {
-    "/home/matej/6-literature": 63
+    "/home/matej/6-literature": 65
   },
   "main_window_central_widget_state": {
     "layout": "wide",
@@ -497,9 +503,12 @@
       "timestamp": 91,
       "title": 350
     },
+    "formats_injected": true,
     "hidden_columns": [],
+    "id_injected": true,
     "languages_injected": true,
     "last_modified_injected": true,
+    "path_injected": true,
     "sort_history": [
       [
         "title",
@@ -533,6 +542,9 @@
   "previous_sort_order_DeviceBooksView": {
     "title": true
   },
+  "questions_to_auto_skip": [
+    "auto_convert_before_send"
+  ],
   "quick_start_guide_added": true,
   "quickview visible": false,
   "replace_scene_breaks_history": [
