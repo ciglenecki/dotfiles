@@ -252,9 +252,10 @@
     ".ruff_cache/**": true
   },
   "files.exclude": {
-    "**/node_modules/**": true,
     ".git": true,
     "**/__pycache__": true,
+    "**/node_modules/**": true,
+    "public/": true
   },
   "python.analysis.exclude": [
     "**/.venv",
@@ -280,5 +281,6 @@
   "claudeCode.preferredLocation": "panel",
   "window.titleBarStyle": "custom",
   "window.customMenuBarAltFocus": false,
-  "window.menuBarVisibility": "compact"
+  "window.menuBarVisibility": "compact",
+  "chat.tips.enabled": false
 }

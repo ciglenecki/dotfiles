@@ -237,49 +237,49 @@
   "geometry-of-calibre_main_window_geometry": {
     "frame_geometry": {
       "height": 1058,
-      "width": 1920,
-      "x": 0,
+      "width": 2559,
+      "x": 1,
       "y": 0
     },
     "full_screened": false,
     "geometry": {
       "height": 1058,
-      "width": 1920,
-      "x": 0,
+      "width": 2559,
+      "x": 1,
       "y": 0
     },
-    "maximized": false,
+    "maximized": true,
     "normal_geometry": {
       "height": 1058,
-      "width": 1920,
+      "width": 2560,
       "x": 0,
       "y": 0
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAAAAAAAAAAAB38AAAQhAAAAAAAAAAAAAAd/AAAEIQAAAAAAAAAAB4AAAAAAAAAAAAAAB38AAAQh"
+      "__value__": "AdnQywADAAAAAAABAAAAAAAACf8AAAQhAAAAAAAAAAAAAAn/AAAEIQAAAAACAAAACgAAAAABAAAAAAAACf8AAAQh"
     },
     "screen": {
       "depth": 24,
       "device_pixel_ratio": 1.0,
       "geometry_in_logical_pixels": {
         "height": 1080,
-        "width": 1920,
+        "width": 2560,
         "x": 0,
         "y": 0
       },
       "index_in_screens_list": 0,
-      "manufacturer": "Dell Inc.",
-      "model": "DELL P2419H-",
+      "manufacturer": "LG Electronics",
+      "model": "LG HDR WFHD-",
       "name": "HDMI-1",
-      "serial": "FQ79ZT2-",
+      "serial": "63621",
       "size_in_logical_pixels": {
         "height": 1080,
-        "width": 1920
+        "width": 2560
       },
       "virtual_geometry": {
         "height": 1080,
-        "width": 1920,
+        "width": 2560,
         "x": 0,
         "y": 0
       }
@@ -450,7 +450,7 @@
     "__value__": "AdnQywADAAAAAAAAAAABGAAABPoAAANEAAAAAAAAATUAAAT6AAADRAAAAAAAAAAAB4AAAAAAAAABNQAABPoAAANE"
   },
   "library_usage_stats": {
-    "/home/matej/6-literature": 65
+    "/home/matej/6-literature": 69
   },
   "main_window_central_widget_state": {
     "layout": "wide",

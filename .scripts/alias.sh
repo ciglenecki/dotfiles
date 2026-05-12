@@ -298,3 +298,34 @@ function cam_exposure {
 function download_video {
     yt-dlp -f "bv*+ba/b" --embed-subs --write-subs --sub-langs "en.*,hr.*,all" --convert-subs srt --replace-in-metadata title "\s+" "_" --replace-in-metadata uploader "\s+" "_" -o "$HOME/yt/%(title)s[%(id)s].%(ext)s" --print 'after_move:%(filepath)q' $1
 }
+
+
+dockerssh() {
+  local remote_host="$1"
+  local container_name="$2"
+  local target_dir="$3"
+
+  if [[ -z "$remote_host" || -z "$container_name" || -z "$target_dir" ]]; then
+    echo "Usage: dockerssh <user@host> <container_name> <directory_inside_container>"
+    return 1
+  fi
+
+  ssh -t "$remote_host" "
+    container_id=\$(docker ps --filter \"name=^/${container_name}\$\" --format '{{.ID}}' | head -n 1)
+
+    if [[ -z \"\$container_id\" ]]; then
+      echo \"No running container found with name: ${container_name}\"
+      exit 1
+    fi
+
+    docker exec -it \"\$container_id\" bash -lc '
+      if [[ -d \"$target_dir\" ]]; then
+        cd \"$target_dir\"
+        exec bash -i
+      else
+        echo \"Directory not found: $target_dir\"
+        exit 1
+      fi
+    '
+  "
+}

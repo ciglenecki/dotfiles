@@ -18,7 +18,7 @@ DefaultProfile=konsole-matej.profile
 
 [DetailsMode]
 ExpandableFolders=false
-PreviewSize=16
+PreviewSize=32
 SidePadding=0
 
 [ExtractDialog]
@@ -45,7 +45,7 @@ ViewPropsTimestamp=2021,11,7,23,26,33
 
 [IconsMode]
 IconSize=16
-PreviewSize=256
+PreviewSize=224
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
@@ -55,8 +55,8 @@ Recent URLs[$e]=file:///opt/,file:$HOME/2-media/icons/,file:$HOME/,file:$HOME/Do
 detailViewIconSize=16
 
 [KPropertiesDialog]
-1920x1080 screen: Height=616
-1920x1080 screen: Width=438
+1920x1080 screen: Height=458
+1920x1080 screen: Width=548
 2 screens: Height=458
 2 screens: Width=375
 2560x1080 screen: Height=444
@@ -176,7 +176,7 @@ History=wine,code,kate,imp,shut,shutt,brave,gwe,free,okular,packa
 IconSize=16
 
 [PreviewSettings]
-Plugins=audiothumbnail,blenderthumbnail,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,textthumbnail,ffmpegthumbs
+Plugins=appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,textthumbnail,ffmpegthumbs
 
 [SettingsDialog]
 Height 1080=456

@@ -1,225 +1,230 @@
 [
-    {
-        "key": "ctrl+alt+left",
-        "command": "-workbench.action.moveEditorToPreviousGroup"
+  {
+    "key": "ctrl+alt+left",
+    "command": "-workbench.action.moveEditorToPreviousGroup",
+  },
+  {
+    "key": "ctrl+alt+right",
+    "command": "-workbench.action.moveEditorToNextGroup",
+  },
+  {
+    "key": "ctrl+alt+left",
+    "command": "cursorLineStart",
+  },
+  {
+    "key": "ctrl+alt+right",
+    "command": "cursorLineEnd",
+  },
+  {
+    "key": "shift+alt+s",
+    "command": "cSpell.toggleEnableSpellChecker",
+  },
+  {
+    "key": "ctrl+shift+0",
+    "command": "workbench.action.zoomReset",
+  },
+  {
+    "key": "ctrl+numpad0",
+    "command": "-workbench.action.zoomReset",
+  },
+  {
+    "key": "ctrl+shift+v",
+    "command": "-markdown.extension.togglePreview",
+    "when": "!terminalFocus",
+  },
+  {
+    "key": "ctrl+k v",
+    "command": "-markdown.extension.togglePreviewToSide",
+    "when": "!terminalFocus",
+  },
+  {
+    "key": "shift+enter",
+    "command": "-python.execSelectionInTerminal",
+    "when": "editorTextFocus && !findInputFocussed && !python.datascience.ownsSelection && !replaceInputFocussed && editorLangId == 'python'",
+  },
+  {
+    "key": "ctrl+alt+0",
+    "command": "editor.action.fontZoomReset",
+  },
+  {
+    "key": "ctrl+shift+b",
+    "command": "markdown.extension.editing.toggleBold",
+    "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'",
+  },
+  {
+    "key": "ctrl+b",
+    "command": "-markdown.extension.editing.toggleBold",
+    "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'",
+  },
+  {
+    "key": "ctrl+q",
+    "command": "-workbench.action.quit",
+  },
+  {
+    "key": "ctrl+q",
+    "command": "editor.action.insertSnippet",
+    "when": "editorLangId == 'markdown'",
+    "args": {
+      "langId": "markdown",
+      "name": "markdown_question",
     },
-    {
-        "key": "ctrl+alt+right",
-        "command": "-workbench.action.moveEditorToNextGroup"
+  },
+  {
+    "key": "ctrl+alt+i",
+    "command": "editor.action.insertSnippet",
+    "when": "editorLangId == 'markdown'",
+    "args": {
+      "langId": "markdown",
+      "name": "markdown_image",
     },
-    {
-        "key": "ctrl+alt+left",
-        "command": "cursorLineStart"
+  },
+  {
+    "key": "ctrl+alt+k",
+    "command": "editor.action.insertSnippet",
+    "when": "editorLangId == 'markdown'",
+    "args": {
+      "langId": "markdown",
+      "name": "markdown_link",
     },
-    {
-        "key": "ctrl+alt+right",
-        "command": "cursorLineEnd"
+  },
+  {
+    "key": "ctrl+i",
+    "command": "editor.action.insertSnippet",
+    "when": "editorLangId == 'markdown'",
+    "args": {
+      "langId": "markdown",
+      "name": "markdown_italic",
     },
-    {
-        "key": "shift+alt+s",
-        "command": "cSpell.toggleEnableSpellChecker"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "-editor.action.goToDeclaration",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor",
+  },
+  {
+    "key": "alt+j",
+    "command": "workbench.action.splitEditorDown",
+  },
+  {
+    "key": "alt+k",
+    "command": "workbench.action.splitEditorUp",
+  },
+  {
+    "key": "alt+l",
+    "command": "workbench.action.moveEditorToRightGroup",
+  },
+  {
+    "key": "alt+h",
+    "command": "workbench.action.moveEditorToLeftGroup",
+  },
+  {
+    "key": "ctrl+shift+e",
+    "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
+    "when": "inFilesPicker && inQuickOpen",
+  },
+  {
+    "key": "alt+[",
+    "command": "workbench.action.splitEditorLeft",
+  },
+  {
+    "key": "alt+[",
+    "command": "-editor.action.inlineSuggest.showPrevious",
+    "when": "inlineSuggestionVisible && !editorReadonly",
+  },
+  {
+    "key": "alt+]",
+    "command": "workbench.action.splitEditorRight",
+  },
+  {
+    "key": "ctrl+m",
+    "command": "-editor.action.toggleTabFocusMode",
+  },
+  {
+    "key": "ctrl+j",
+    "command": "-workbench.action.togglePanel",
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active",
+  },
+  {
+    "key": "ctrl+`",
+    "command": "-workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active",
+  },
+  {
+    "key": "ctrl+.",
+    "command": "-acceptSelectedCodeAction",
+    "when": "codeActionMenuVisible",
+  },
+  {
+    "key": "ctrl+; x",
+    "command": "-jupyter.deleteCells",
+    "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused",
+  },
+  {
+    "key": "ctrl+alt+b",
+    "command": "workbench.action.toggleActivityBarVisibility",
+  },
+  {
+    "key": "ctrl+b",
+    "command": "-markdown.extension.editing.toggleBold",
+    "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^qmd$/",
+  },
+  {
+    "key": "alt",
+    "command": "workbench.action.toggleMultiCursorModifier",
+  },
+  {
+    "key": "ctrl+b",
+    "command": "-markdown.extension.editing.toggleBold",
+    "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^quarto$/",
+  },
+  {
+    "key": "ctrl+shift+c",
+    "command": "-workbench.action.terminal.openNativeConsole",
+    "when": "!terminalFocus",
+  },
+  {
+    "key": "ctrl+e",
+    "command": "-workbench.action.quickOpen",
+  },
+  {
+    "key": "shift+alt+c",
+    "command": "chatgpt.addFileToThread",
+  },
+  {
+    "key": "ctrl+g",
+    "command": "-workbench.action.terminal.goToRecentDirectory",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported",
+  },
+  {
+    "key": "shift+enter",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": {
+      "text": "\u001b\r",
     },
-    {
-        "key": "ctrl+shift+0",
-        "command": "workbench.action.zoomReset"
-    },
-    {
-        "key": "ctrl+numpad0",
-        "command": "-workbench.action.zoomReset"
-    },
-    {
-        "key": "ctrl+shift+v",
-        "command": "-markdown.extension.togglePreview",
-        "when": "!terminalFocus"
-    },
-    {
-        "key": "ctrl+k v",
-        "command": "-markdown.extension.togglePreviewToSide",
-        "when": "!terminalFocus"
-    },
-    {
-        "key": "shift+enter",
-        "command": "-python.execSelectionInTerminal",
-        "when": "editorTextFocus && !findInputFocussed && !python.datascience.ownsSelection && !replaceInputFocussed && editorLangId == 'python'"
-    },
-    {
-        "key": "ctrl+alt+0",
-        "command": "editor.action.fontZoomReset"
-    },
-    {
-        "key": "ctrl+shift+b",
-        "command": "markdown.extension.editing.toggleBold",
-        "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
-    },
-    {
-        "key": "ctrl+b",
-        "command": "-markdown.extension.editing.toggleBold",
-        "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
-    },
-    {
-        "key": "ctrl+q",
-        "command": "-workbench.action.quit"
-    },
-    {
-        "key": "ctrl+q",
-        "command": "editor.action.insertSnippet",
-        "when": "editorLangId == 'markdown'",
-        "args": {
-            "langId": "markdown",
-            "name": "markdown_question"
-        }
-    },
-    {
-        "key": "ctrl+alt+i",
-        "command": "editor.action.insertSnippet",
-        "when": "editorLangId == 'markdown'",
-        "args": {
-            "langId": "markdown",
-            "name": "markdown_image"
-        }
-    },
-    {
-        "key": "ctrl+alt+k",
-        "command": "editor.action.insertSnippet",
-        "when": "editorLangId == 'markdown'",
-        "args": {
-            "langId": "markdown",
-            "name": "markdown_link"
-        }
-    },
-    {
-        "key": "ctrl+i",
-        "command": "editor.action.insertSnippet",
-        "when": "editorLangId == 'markdown'",
-        "args": {
-            "langId": "markdown",
-            "name": "markdown_italic"
-        }
-    },
-    {
-        "key": "ctrl+b",
-        "command": "-editor.action.goToDeclaration",
-        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
-    },
-    {
-        "key": "alt+j",
-        "command": "workbench.action.splitEditorDown"
-    },
-    {
-        "key": "alt+k",
-        "command": "workbench.action.splitEditorUp"
-    },
-    {
-        "key": "alt+l",
-        "command": "workbench.action.moveEditorToRightGroup"
-    },
-    {
-        "key": "alt+h",
-        "command": "workbench.action.moveEditorToLeftGroup"
-    },
-    {
-        "key": "ctrl+shift+e",
-        "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
-        "when": "inFilesPicker && inQuickOpen"
-    },
-    {
-        "key": "alt+[",
-        "command": "workbench.action.splitEditorLeft"
-    },
-    {
-        "key": "alt+[",
-        "command": "-editor.action.inlineSuggest.showPrevious",
-        "when": "inlineSuggestionVisible && !editorReadonly"
-    },
-    {
-        "key": "alt+]",
-        "command": "workbench.action.splitEditorRight"
-    },
-    {
-        "key": "ctrl+m",
-        "command": "-editor.action.toggleTabFocusMode"
-    },
-    {
-        "key": "ctrl+j",
-        "command": "-workbench.action.togglePanel"
-    },
-    {
-        "key": "ctrl+j",
-        "command": "workbench.action.terminal.toggleTerminal",
-        "when": "terminal.active"
-    },
-    {
-        "key": "ctrl+`",
-        "command": "-workbench.action.terminal.toggleTerminal",
-        "when": "terminal.active"
-    },
-    {
-        "key": "ctrl+.",
-        "command": "-acceptSelectedCodeAction",
-        "when": "codeActionMenuVisible"
-    },
-    {
-        "key": "ctrl+; x",
-        "command": "-jupyter.deleteCells",
-        "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
-    },
-    {
-        "key": "ctrl+alt+b",
-        "command": "workbench.action.toggleActivityBarVisibility"
-    },
-    {
-        "key": "ctrl+b",
-        "command": "-markdown.extension.editing.toggleBold",
-        "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^qmd$/"
-    },
-    {
-        "key": "alt",
-        "command": "workbench.action.toggleMultiCursorModifier"
-    },
-    {
-        "key": "ctrl+b",
-        "command": "-markdown.extension.editing.toggleBold",
-        "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
-    },
-    {
-        "key": "ctrl+shift+c",
-        "command": "-workbench.action.terminal.openNativeConsole",
-        "when": "!terminalFocus"
-    },
-    {
-        "key": "ctrl+e",
-        "command": "-workbench.action.quickOpen"
-    },
-    {
-        "key": "shift+alt+c",
-        "command": "chatgpt.addFileToThread"
-    },
-    {
-        "key": "ctrl+g",
-        "command": "-workbench.action.terminal.goToRecentDirectory",
-        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
-    },
-    {
-        "key": "shift+enter",
-        "command": "workbench.action.terminal.sendSequence",
-        "args": {
-            "text": "\u001b\r"
-        },
-        "when": "terminalFocus"
-    },
-    {
-        "key": "alt+p",
-        "command": "-togglePreserveCase",
-        "when": "editorFocus"
-    },
-    {
-        "key": "alt+p",
-        "command": "-toggleSearchPreserveCase",
-        "when": "searchViewletFocus"
-    },
-    {
-        "key": "alt+p",
-        "command": "-keybindings.editor.toggleSortByPrecedence",
-        "when": "inKeybindings"
-    }
+    "when": "terminalFocus",
+  },
+  {
+    "key": "alt+p",
+    "command": "-togglePreserveCase",
+    "when": "editorFocus",
+  },
+  {
+    "key": "alt+p",
+    "command": "-toggleSearchPreserveCase",
+    "when": "searchViewletFocus",
+  },
+  {
+    "key": "alt+p",
+    "command": "-keybindings.editor.toggleSortByPrecedence",
+    "when": "inKeybindings",
+  },
+  {
+    "key": "ctrl+shift+v",
+    "command": "-markdown.togglePreview",
+    "when": "!notebookEditorFocused && resourceLangId =~ /^(markdown|prompt|instructions|chatagent|skill)$/",
+  },
 ]
