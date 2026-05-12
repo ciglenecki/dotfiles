@@ -117,7 +117,7 @@ export DIR_SECRETS="$HOME/.secrets"
 export DIR_GEP="/media/matej/ex-gep"
 export DIR_SAM="/media/matej/sam"
 
-export FILE_PACKAGES="$HOME/.assets/packages.txt"
+export FILE_PACKAGES="$DIR_ASSETS/packages.txt"
 export DIR_BACKUP_DEST="/tmp/backup-veracrypt"
 export FILE_BACKUP="$DIR_SAM/home-backup.hc"
 export FILE_SPOTIFY_SECRET="$DIR_SECRETS/spotify.sh"
