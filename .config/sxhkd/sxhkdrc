@@ -33,7 +33,9 @@ alt + o; {e,E};
 
 # p = paste
 alt + p; {w, W};
-    sleep 0.2; xdotool getwindowfocus windowfocus --sync type "Use direct, clear, plain, very precise, non-ambiguous, Google technical writing style English"
+    sleep 0.2; xdotool getwindowfocus windowfocus --sync type "Use extremely simple English. Be non-ambiguous, direct, clear and plain. You MUST be extremely technically precise without leaving out any details. Use Google technical writing style."
+alt + p; {q, Q};
+    sleep 0.2; xdotool getwindowfocus windowfocus --sync type "Use extremely PRIMITIVE and simple English words. Be non-ambiguous, direct, clear and plain. You MUST be extremely technically precise without leaving out any details. Use Google technical writing style."
 alt + p; {d,D};
     sleep 0.2; xdotool getwindowfocus windowfocus --sync type "$(eval $DATENOW)"
 alt + p; {s,S};

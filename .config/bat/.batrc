@@ -1,5 +1,0 @@
-# Set the theme to "TwoDark"
---theme="MonokaiExtendedBright"
-
-# Use C++ syntax for .ino files
---map-syntax "*.ino:C++"
