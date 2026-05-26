@@ -128,8 +128,8 @@ if [ -f "$AUTOJUMP" ]; then
 fi
 
 # Details about system
-if command -v neofetch &> /dev/null; then
-    neofetch
+if command -v fastfetch &> /dev/null; then
+    fastfetch
     yes '' | sed 8q # add some extra space
 fi;
 

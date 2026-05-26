@@ -1,191 +1,29 @@
-Height 1080=1056
-Height 1440=1396
-Width 1920=1451
-Width 2560=1265
-
-[Baloo KEditCommentDialog]
-Height 1080=252
-Width 1920=276
-
-[CompactMode]
-PreviewSize=16
-
-[CreateDialog]
-LastMimeType=application/zip
-
-[Desktop Entry]
-DefaultProfile=konsole-matej.profile
-
-[DetailsMode]
-ExpandableFolders=false
-PreviewSize=16
-SidePadding=0
-
-[ExtractDialog]
-1920x1080 screen: Height=560
-1920x1080 screen: Width=1280
-DirHistory[$e]=$HOME/Downloads/,/opt/,$HOME/projects/lumen-audio/data/,$HOME/Downloads/dubuce projekt/all_images/
-HDMI-0 Height 1920x1080=547
-HDMI-0 Width 1920x1080=1279
-
-[Favorite Profiles]
-Favorites=
+[ContentDisplay]
+DirectorySizeMode=ContentSize
 
 [General]
 BrowseThroughArchives=true
 EditableUrl=true
 GlobalViewProps=false
-LockPanels=false
+OpenExternallyCalledFolderInNewTab=true
 RememberOpenedTabs=false
 ShowFullPath=true
 ShowFullPathInTitlebar=true
-ShowZoomSlider=false
+ShowStatusBar=FullWidth
+ShowZoomSlider=true
 Version=202
-ViewPropsTimestamp=2021,11,7,23,26,33
+ViewPropsTimestamp=2026,5,26,17,16,1.609
 
 [IconsMode]
 IconSize=16
-PreviewSize=16
+PreviewSize=48
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
-Places Icons Static Size=16
-Recent Files[$e]=file:$HOME
-Recent URLs[$e]=file:///opt/,file:$HOME/2-media/icons/,file:$HOME/,file:$HOME/Downloads/,file:///
-detailViewIconSize=16
-
-[KPropertiesDialog]
-1920x1080 screen: Height=616
-1920x1080 screen: Width=438
-2 screens: Height=458
-2 screens: Width=375
-2560x1080 screen: Height=444
-2560x1080 screen: Width=375
-2560x1440 screen: Height=588
-2560x1440 screen: Width=438
-DP-0 HDMI-0 Height 1920x1080=458
-DP-0 HDMI-0 Height 2560x1440=587
-DP-0 HDMI-0 Width 1920x1080=383
-DP-0 HDMI-0 Width 2560x1440=518
-HDMI-0 Height 1920x1080=458
-HDMI-0 Width 1920x1080=311
-HDMI-1 Height 1920x1080=458
-HDMI-1 Width 1920x1080=378
-Height 1080=524
-Height 1440=516
-Height 1920=456
-Height 768=456
-Width 1080=362
-Width 1360=377
-Width 1920=438
-Width 2048=369
-Width 2560=849
-eDP-1 Height 1920x1080=616
-eDP-1 Width 1920x1080=444
+Places Icons Static Size=22
 
 [MainWindow]
-:0.0 Height 1920x1080=1045
-:0.0 Width 1920x1080=1023
-DP-0 HDMI-0 Height 1440x2560=831
-DP-0 HDMI-0 Height 1920x1080=1080
-DP-0 HDMI-0 Height 2560x1440=1414
-DP-0 HDMI-0 Width 1440x2560=1440
-DP-0 HDMI-0 Width 1920x1080=1920
-DP-0 HDMI-0 Width 2560x1440=2560
-DP-0 HDMI-0 Window-Maximized 1920x1080=true
-DP-0 HDMI-0 Window-Maximized 2560x1440=true
-DP-0 HDMI-0 XPosition 1440x2560=1920
-DP-0 HDMI-0 XPosition 1920x1080=0
-DP-0 HDMI-0 XPosition 2560x1440=3270
-DP-0 HDMI-0 YPosition 1440x2560=792
-DP-0 HDMI-0 YPosition 1920x1080=0
-DP-0 HDMI-0 YPosition 2560x1440=26
-DP-0 HDMI-0 eDP-1-1 Height 1920x1080=698
-DP-0 HDMI-0 eDP-1-1 Height 2560x1440=970
-DP-0 HDMI-0 eDP-1-1 Width 1920x1080=1339
-DP-0 HDMI-0 eDP-1-1 Width 2560x1440=1366
-DP-0 HDMI-0 eDP-1-1 XPosition 1920x1080=0
-DP-0 HDMI-0 eDP-1-1 XPosition 2560x1440=1920
-DP-0 HDMI-0 eDP-1-1 YPosition 1920x1080=0
-DP-0 HDMI-0 eDP-1-1 YPosition 2560x1440=0
-HDMI-0 Height 1920x1080=1055
-HDMI-0 Width 1920x1080=1920
-HDMI-0 Window-Maximized 1920x1080=true
-HDMI-0 XPosition 1920x1080=0
-HDMI-0 YPosition 1920x1080=0
-HDMI-0 eDP-1-1 Height 1920x1080=1058
-HDMI-0 eDP-1-1 Width 1920x1080=1648
-HDMI-0 eDP-1-1 XPosition 1920x1080=271
-HDMI-0 eDP-1-1 YPosition 1920x1080=22
-HDMI-1 Height 1920x1080=1056
-HDMI-1 Width 1920x1080=986
-HDMI-1 XPosition 1920x1080=0
-HDMI-1 YPosition 1920x1080=0
-HDMI-1 eDP-1 Height 1920x1080=1046
-HDMI-1 eDP-1 Width 1920x1080=952
-HDMI-1 eDP-1 XPosition 1920x1080=962
-HDMI-1 eDP-1 YPosition 1920x1080=29
-Height 1024=1000
-Height 1080=520
-Height 1440=451
-Height 1920=1888
-Height 2560=1080
-Height 617=598
-Height 720=696
-Height 768=1046
-ToolBarsMovable=Disabled
-Width 1080=1080
-Width 1097=491
-Width 1280=1280
-Width 1360=952
-Width 1440=1920
-Width 1920=1248
-Width 2048=552
-Width 2560=2044
-Window-Maximized 1080x1920=true
-Window-Maximized 1440x2560=true
-Window-Maximized 1920x1080=true
-default Height 1024x768=743
-default Width 1024x768=1024
-default XPosition 1024x768=0
-default YPosition 1024x768=0
-eDP-1 HDMI-1 Height 1920x1080=1056
-eDP-1 HDMI-1 Width 1920x1080=957
-eDP-1 HDMI-1 XPosition 1920x1080=962
-eDP-1 HDMI-1 YPosition 1920x1080=0
-eDP-1 Height 1920x1080=1056
-eDP-1 Width 1920x1080=1913
-eDP-1 Window-Maximized 1920x1080=true
-eDP-1 XPosition 1920x1080=0
-eDP-1 YPosition 1920x1080=24
-eDP-1-1 HDMI-0 Height 1920x1080=1058
-eDP-1-1 HDMI-0 Width 1920x1080=1920
-eDP-1-1 HDMI-0 XPosition 1920x1080=0
-eDP-1-1 HDMI-0 YPosition 1920x1080=22
-eDP-1-1 Height 1920x1080=784
-eDP-1-1 Width 1920x1080=852
-eDP-1-1 Window-Maximized 1920x1080=true
-eDP-1-1 XPosition 1920x1080=962
-eDP-1-1 YPosition 1920x1080=376
-
-[Open-with settings]
-CompletionMode=1
-History=wine,code,kate,imp,shut,shutt,brave,gwe,free,okular,packa
-
-[PlacesPanel]
-IconSize=16
+MenuBar=Disabled
 
 [PreviewSettings]
-Plugins=appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,textthumbnail,ffmpegthumbs
-
-[SettingsDialog]
-Height 1080=456
-Height 1440=566
-Width 1920=561
-Width 2560=691
-
-[ViewPropertiesDialog]
-HDMI-0 Height 1920x1080=449
-HDMI-0 Width 1920x1080=355
-Height 1080=704
-Width 1920=375
+Plugins=appimagethumbnail,audiothumbnail,glycin-heif,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,glycin-image-rs,jpegthumbnail,glycin-jxl,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,glycin-svg,librsvg,svgthumbnail,textthumbnail,ffmpegthumbs
