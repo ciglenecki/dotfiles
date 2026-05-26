@@ -111,3 +111,9 @@ bash <(curl -s https://raw.githubusercontent.com/ciglenecki/dotfiles/master/.scr
 4. Copy files from veracrypt to new system (!!!MAKE SURE YOU DO NOT COPY FILES THAT WILL BE SYNCED BY INSYNC!!!)
 
 5. Run setup script
+
+### VeraCrypt
+
+veracrypt -k "" --pim=0 --protect-hidden=no -m=nokernelcrypto --mount "$CONTAINER" "$MOUNT_POINT"
+
+sudo veracrypt -u "$MOUNT_POINT"
