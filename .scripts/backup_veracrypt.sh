@@ -6,113 +6,106 @@
 #               1. Mount veracrypt container
 #               2. Rsync files defined in exclude and include lists
 #               3. Unmount veracrypt container
-
-# Usage
-#  ./backup_veracrypt.sh /media/matej/sam/home-backup.hc /media/matej/veracrypt/ 
 #################################
 
-function notify-send() {
-    #Detect the name of the display in use
-    local display=":$(ls /tmp/.X11-unix/* | sed 's#/tmp/.X11-unix/X##' | head -n 1)"
+set -euo pipefail
 
-    #Detect the user using such display
-    local user=$(who | grep '('$display')' | awk '{print $1}' | head -n 1)
+usage() {
+  cat <<'EOF'
+Usage:
+  sudo ./backup_veracrypt.sh [options] <container.hc> <mount_point>
 
-    #Detect the id of the user
-    local uid=$(id -u $user)
+Options:
+  -s, --source DIR        Source root (default: invoking users home)
+      --include FILE      Rsync include list (default: ~/.assets/backup_include_pattern.txt)
+      --exclude FILE      Rsync exclude list (default: ~/.assets/backup_exclude_pattern.txt)
+  -l, --log FILE          Log file (default: ~/.log/backup-hdd.log)
+  -n, --dry-run           Rsync dry run
+  -y, --yes               Skip confirmations
+  -h, --help              Show help
 
-    sudo -u $user DISPLAY=$display DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/$uid/bus notify-send "$@"
+Examples:
+  sudo ./backup_veracrypt.sh /media/matej/sam/home-backup.hc /media/matej/veracrypt
+  sudo ./backup_veracrypt.sh -n --include /path/inc.txt --exclude /path/exc.txt container.hc /mnt/vc
+EOF
 }
 
-if [ "$EUID" -ne 0 ]; then
-    echo "Please run as root"
-    exit 1
-fi
+die(){ echo "Error: $*" >&2; exit 1; }
+have(){ command -v "$1" >/dev/null 2>&1; }
 
-HOME=$(eval echo "~matej")
-. $HOME/.scripts/env.sh
-SRC=$HOME/*; # files inside of home
-FILE_BACKUP=$1
+confirm() {
+  [[ "${YES:-0}" == "1" ]] && return 0
+  read -r -p "$1 [y/N] " a
+  [[ "$a" =~ ^[Yy] ]]
+}
 
-### Mount veracrypt
-DEST_MOUNT_LOCATION=$2
-sudo mkdir -p $DEST_MOUNT_LOCATION
+notify() {
+  have notify-send || return 0
+  local u="${SUDO_USER:-$USER}" uid display
+  uid="$(id -u "$u" 2>/dev/null || echo 0)"
+  display=":$(ls /tmp/.X11-unix/X* 2>/dev/null | sed 's#.*/X##' | head -n1)"
+  sudo -u "$u" DISPLAY="$display" DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/$uid/bus" \
+    notify-send "$@" 2>/dev/null || true
+}
 
-echo "Unmounting any pervious virtual disks...";
-veracrypt -d
+[[ "${EUID}" -eq 0 ]] || die "Run with sudo."
 
-if [ $? -ne 0 ]; then
-    echo "Canceling backup because existing virtual disk cannot be unmounted.";
-    exit $?;
-fi
+RUN_AS="${SUDO_USER:-root}"
+USER_HOME="$(getent passwd "$RUN_AS" | cut -d: -f6)"
+SRC_DIR="$USER_HOME"
+INC_LIST="$USER_HOME/5-assets/backup_include_pattern.txt"
+EXC_LIST="$USER_HOME/5-assets/backup_exclude_pattern.txt"
+LOG_FILE="$USER_HOME/.log/backup-hdd.log"
+YES=0; DRY_RUN=0
 
-echo "Mounting a new disk...";
+pos=()
 
-veracrypt -t -k "" --pim=0 --protect-hidden=no -m=nokernelcrypto --mount $FILE_BACKUP $DEST_MOUNT_LOCATION
+#### ARGUMENT PARSING ####
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    -s|--source)   SRC_DIR="$2"; shift 2;;
+    --include)     INC_LIST="$2"; shift 2;;
+    --exclude)     EXC_LIST="$2"; shift 2;;
+    -l|--log)      LOG_FILE="$2"; shift 2;;
+    -n|--dry-run)  DRY_RUN=1; shift;;
+    -y|--yes)      YES=1; shift;;
+    -h|--help)     usage; exit 0;;
+    *)             pos+=("$1"); shift;;
+  esac
+done
 
-if [ $? -eq 0 ]; then
-    echo "Veracrypt mounted at $DEST_MOUNT_LOCATION";
-else
-    echo "Veracrypt couldn't be monuted at $DEST_MOUNT_LOCATION";
-    return $?;
-fi
+CONTAINER="${pos[0]:-}"; MOUNT_POINT="${pos[1]:-}"
+[[ -n "$CONTAINER" && -n "$MOUNT_POINT" ]] || { usage; exit 2; }
 
+have veracrypt || die "veracrypt not found."
+have rsync || die "rsync not found."
+[[ -f "$CONTAINER" ]] || die "Container not found: $CONTAINER"
+[[ -f "$INC_LIST" ]] || die "Include list not found: $INC_LIST"
+[[ -f "$EXC_LIST" ]] || die "Exclude list not found: $EXC_LIST"
 
-EXCLUDE_LIST=$HOME/.assets/backup_exclude_pattern.txt
-INCLUDE_LIST=$HOME/.assets/backup_include_pattern.txt
+sudo -u "$RUN_AS" mkdir -p "$(dirname "$LOG_FILE")"
+mkdir -p "$MOUNT_POINT"
+exec > >(tee -a "$LOG_FILE") 2>&1
 
-LOG="$HOME/.log/";
-mkdir -p $LOG;
-LOG="$LOG/backup-hdd.log"
-echo $(date +"$TIMEFL") >> $LOG;
+echo "=== Backup plan ($(date -Is)) ==="
+printf "user:     %s\nsource:   %s\ncontainer:%s\nmount:    %s\ninclude:  %s\nexclude:  %s\nlog:      %s\ndry-run:  %s\n\n" \
+  "$RUN_AS" "$SRC_DIR" "$CONTAINER" "$MOUNT_POINT" "$INC_LIST" "$EXC_LIST" "$LOG_FILE" "$DRY_RUN"
 
-notify-send "Starting backup!" "src\t$SRC\ndest\t$DEST_HDD";
+notify "Backup" "Planned backup:\n$SRC_DIR -> $MOUNT_POINT"
 
-echo "Starting file transfer...";
+confirm "Step 1/4: Dismount ALL VeraCrypt volumes (veracrypt -d)?" && veracrypt -d
 
-# take into account .gitignore in each subdirectory. If gitignore exists dont copy file specified in that gitignore
-# --filter='dir-merge,- .gitignore'
+confirm "Step 2/4: Mount container to $MOUNT_POINT ?" && veracrypt -k "" --pim=0 --protect-hidden=no -m=nokernelcrypto --mount "$CONTAINER" "$MOUNT_POINT"
+echo "Disk usage:"; df -h "$MOUNT_POINT" || true
 
-rsync --archive --verbose --update --times --recursive --progress --human-readable \
---exclude-from $EXCLUDE_LIST \
---include-from $INCLUDE_LIST \
---exclude="*" \
-$HOME/* $DEST_MOUNT_LOCATION
+RSYNC_OPTS=(--archive --verbose --update --times --recursive --human-readable --progress
+            --exclude-from="$EXC_LIST" --include-from="$INC_LIST" --exclude="*")
+[[ "$DRY_RUN" -eq 1 ]] && RSYNC_OPTS+=(--dry-run)
 
-echo "File transfer ended.";
-echo "Unmount the virtual disk...";
+confirm "Step 3/4: Run rsync now?" && rsync "${RSYNC_OPTS[@]}" "$SRC_DIR"/ "$MOUNT_POINT"/
+echo "Rsync exit code: $?"
 
-sleep 2
-veracrypt -d
+confirm "Step 4/4: Dismount ALL VeraCrypt volumes (veracrypt -d)?" && veracrypt -d
 
-echo "Unmounting done.";
-
-notify-send "Backup done!" "src\t$SRC\ndest\t$DEST_HDD\nlog file\t$LOG";
-
-exit 0
-
-# /usr/bin/unison /home/matej /media/matej/ex-gep/test-backup\
-# 	-prefer "newer"\
-# 	-ignore "Path .?*"\
-# 	-ignore "Path ?*"\
-# 	-ignore "Name .DS_Store"\
-# 	-ignore "Name .DS_Store?"\
-# 	-ignore "Name ._*"\
-# 	-ignore "Name .Spotlight-V100"\
-# 	-ignore "Name .Trashes"\
-# 	-ignore "Name ehthumbs.db"\
-# 	-ignore "Name Thumbs.db"\
-# 	-ignore "Name **/TEOINF"\
-# 	-ignore "Name **/gitrepo"\
-# 	-ignore "Name **/.git"\
-# 	-ignore "Name **/venv"\
-# 	-ignore "Name **/__pycache__"\
-# 	-ignorenot "Path $DIR_NOTES"\
-# 	-ignorenot "Path $DIR_DOCUMENTS"\
-# 	-ignorenot "Path $DIR_DOWNLOADS"\
-# 	-batch
-# -ignorenot "Path $DIR_DOCUMENTS"\
-# -ignorenot "Path $DIR_DOCUMENTS"\
-# -ignorenot "Path $DIR_FER"\
-# -ignorenot "Path $DIR_PICTURES"\
-# -ignorenot "Path $DIR_DOWNLOADS"\
+notify "Backup" "Done.\nlog: $LOG_FILE"
+echo "Done."
