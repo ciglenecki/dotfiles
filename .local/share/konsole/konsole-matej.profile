@@ -2,7 +2,7 @@
 AntiAliasFonts=true
 BoldIntense=true
 ColorScheme=matej-red
-Font=Hack,11,-1,5,50,0,0,0,0,0
+Font=Hack,14,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 LineSpacing=0
 TabColor=255,0,0
 UseFontLineChararacters=true

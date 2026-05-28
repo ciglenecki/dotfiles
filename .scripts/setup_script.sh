@@ -12,7 +12,6 @@
 sudo echo "Script now has sudo permissions"
 
 # Backup config file
-cp -r ~/.config ~/.config-backup-$(date +%s)
 
 rm -rf $HOME/Documents $HOME/Music $HOME/Pictures $HOME/Public $HOME/Templates $HOME/Videos
 mkdir -p $HOME/tmp $HOME/projects
@@ -25,7 +24,10 @@ sudo apt-get install -y git curl
 git config --global user.email "matej.ciglenecki@gmail.com"
 git config --global user.name "Matej Ciglenečki"
 
-bash <(curl -s https://raw.githubusercontent.com/ciglenecki/dotfiles/master/.scripts/clone_github_dotfiles.sh)
+if [ ! -d "$HOME/.cfg" ]; then
+  cp -r ~/.config ~/.config-backup-$(date +%s)
+  bash <(curl -s https://raw.githubusercontent.com/ciglenecki/dotfiles/master/.scripts/clone_github_dotfiles.sh)
+fi
 
 # Make scripts executable
 chmod +x $HOME/.scripts/*

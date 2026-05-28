@@ -24,3 +24,4 @@ set enable-bracketed-paste on
 "^[[A": up-line-or-search
 "^[[B": down-line-or-search
 "\C-j": ""
+"\C-o": ""

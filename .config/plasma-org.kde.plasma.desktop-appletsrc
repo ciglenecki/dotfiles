@@ -1,10 +1,31 @@
 [ActionPlugins][0]
 RightButton;NoModifier=org.kde.contextmenu
+wheel:Vertical;NoModifier=org.kde.switchdesktop
+
+[ActionPlugins][0][RightButton;NoModifier]
+RightButton;NoModifier=org.kde.contextmenu
+_add panel=true
+_context=true
+_lock_screen=true
+_logout=true
+_run_command=true
+_sep1=true
+_sep2=true
+_sep3=true
+_wallpaper=true
+add widgets=true
+configure=true
+configure shortcuts=false
+edit mode=true
+manage activities=true
+remove=true
+run associated application=true[ActionPlugins][0]
 
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
+ItemGeometries-1920x1080=
 ItemGeometries-1920x1200=
 ItemGeometries-2560x1080=
 ItemGeometriesHorizontal=
@@ -16,10 +37,15 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][1][ConfigDialog]
+DialogHeight=931
+DialogWidth=1032
+
 [Containments][1][Wallpaper][org.kde.image][General]
-DarkLightScheduleState=AAAAAQAAAAgAAAGeXsRSaAAAAAAAAAGeXP8msAAAAZ5dIG44AAAAAQAAAZ5gaDaYAAABnmCJfiAAAAGeY+rF2AAAAAAAAAGeYiSkCAAAAZ5iRgrQAAAAAQAAAZ5lj4DgAAABnmWw56gAAAGeaRE9MAAAAAAAAAGeZ0otGAAAAZ5na7MgAAAAAQAAAZ5qtssoAAABnmrYTUgAAAGebje0iAAAAAAAAAGebG+9+AAAAZ5skV9YAAAAAQAAAZ5v3gm4AAABnm//rwAAAAGec14vyAAAAAAAAAGecZVakAAAAZ5xtxdIAAAAAQAAAZ51BUhIAAABnnUnBQAAAAGeeISrCAAAAAAAAAGedrr++AAAAZ523NrwAAAAAQAAAZ56LH8IAAABnnpOWwAAAAGefasqMAAAAAAAAAGee+CrMAAAAZ58AqKAAAAAAQAAAZ5/U7HgAAABnn91qTAAAAGegtGpWAAAAAAAAAGegQZnCAAAAZ6BKHXIAAAAAQAAAZ6EetzoAAABnoSc75A=
+DarkLightScheduleState=AAAAAQAAAAgAAAGeY+rF2AAAAAAAAAGeYiTPAAAAAZ5iRioQAAAAAQAAAZ5lj2GgAAABnmWwvLAAAAGeaRE9MAAAAAAAAAGeZ0pYEAAAAZ5na9JgAAAAAQAAAZ5qtqgAAAABnmrYIlAAAAGebje0iAAAAAAAAAGebG/o8AAAAZ5skYKAAAAAAQAAAZ5v3ep4AAABnm//gCAAAAGec14vyAAAAAAAAAGecZWFiAAAAZ5xtzpwAAAAAQAAAZ51BSUgAAABnnUm2ggAAAGeeISrCAAAAAAAAAGedrsp8AAAAZ523PowAAAAAQAAAZ56LFvgAAABnnpOMAgAAAGefasqMAAAAAAAAAGee+DaEAAAAZ58AsWoAAAAAQAAAZ5/U464AAABnn91elAAAAGegtGpWAAAAAAAAAGegQaSAAAAAZ6BKJjwAAAAAQAAAZ6EernAAAABnoScwLAAAAGeh/gogAAAAAAAAAGehixVqAAAAZ6GTnQIAAAAAQAAAZ6JoeDgAAABnonD/0A=
 DynamicMode=1
-Image=file:///usr/share/wallpapers/Kubuntu#day-night
+Image=file:///usr/share/wallpapers/MilkyWay/
+SlidePaths=/usr/share/wallpapers/
 
 [Containments][2]
 activityId=
@@ -30,70 +56,126 @@ location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][2][Applets][22]
+[Containments][2][Applets][28]
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
-[Containments][2][Applets][22][Configuration]
-popupHeight=451
-popupWidth=560
+[Containments][2][Applets][28][Configuration]
+popupHeight=455
+popupWidth=400
 
-[Containments][2][Applets][22][Configuration][Appearance]
+[Containments][2][Applets][28][Configuration][Appearance]
+autoFontAndSize=false
+dateDisplayFormat=BesideTime
+fontFamily=Noto Sans
+fontSize=20
+fontStyleName=Regular
 fontWeight=400
 showDate=true
-showSeconds=false
+showSeconds=true
+use24hFormat=2
 
-[Containments][2][Applets][23]
-immutability=1
-plugin=org.kde.plasma.showdesktop
+[Containments][2][Applets][28][Configuration][ConfigDialog]
+DialogHeight=720
+DialogWidth=960
 
 [Containments][2][Applets][3]
 immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
-popupHeight=509
-popupWidth=647
+popupHeight=588
+popupWidth=1444
+
+[Containments][2][Applets][3][Configuration][ConfigDialog]
+DialogHeight=1058
+DialogWidth=1920
+
+[Containments][2][Applets][3][Configuration][Configuration/General]
+showAppsByName=true
 
 [Containments][2][Applets][3][Configuration][General]
+favorites=preferred://browser,org.kde.discover.desktop,org.kde.kontact.desktop,org.kde.kate.desktop,libreoffice-startcenter.desktop,org.kde.dolphin.desktop,org.kde.ksysguard.desktop,systemsettings.desktop,org.kde.konsole.desktop
+favoritesDisplay=1
 favoritesPortedToKAstats=true
-icon=start-here-kubuntu
+icon=/home/matej/Downloads/kde.png
 showAppsByName=true
+systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
 
 [Containments][2][Applets][3][Configuration][Shortcuts]
 global=Alt+F1
+
+[Containments][2][Applets][3][Shortcuts]
+global=
+
+[Containments][2][Applets][36]
+immutability=1
+plugin=org.kde.plasma.taskmanager
+
+[Containments][2][Applets][36][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][2][Applets][36][Configuration][General]
+hideLauncherOnStart=false
+launchers=file:///usr/share/applications/brave-browser.desktop
+onlyGroupWhenFull=false
+showOnlyCurrentActivity=false
+showOnlyCurrentDesktop=false
+sortingStrategy=3
+taskMaxWidth=Narrow
 
 [Containments][2][Applets][4]
 immutability=1
 plugin=org.kde.plasma.pager
 
+[Containments][2][Applets][4][Configuration][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
+
 [Containments][2][Applets][4][Configuration][General]
-displayedText=Name
-wrapPage=true
+displayedText=Number
+showWindowOutlines=false
 
-[Containments][2][Applets][5]
+[Containments][2][Applets][44]
 immutability=1
-plugin=org.kde.plasma.icontasks
+plugin=org.kde.plasma.panelspacer
 
-[Containments][2][Applets][5][Configuration]
-launchers=applications:systemsettings.desktop,applications:org.kubuntu.manage-software.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.konsole.desktop,preferred://browser
+[Containments][2][Applets][44][Configuration][General]
+expanding=false
+length=600
 
-[Containments][2][Applets][5][Configuration][General]
-launchers=applications:systemsettings.desktop,applications:org.kubuntu.manage-software.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.konsole.desktop,preferred://browser
-
-[Containments][2][Applets][6]
+[Containments][2][Applets][54]
 immutability=1
 plugin=org.kde.plasma.marginsseparator
 
+[Containments][2][Applets][65]
+immutability=1
+plugin=org.kde.plasma.digitalclock
+
+[Containments][2][Applets][65][Configuration]
+popupHeight=455
+popupWidth=814
+
+[Containments][2][Applets][65][Configuration][Appearance]
+lastSelectedTimezone=UTC+00:00
+selectedTimeZones=UTC+00:00,Local
+showDate=false
+showSeconds=true
+
+[Containments][2][Applets][65][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][2][Applets][7]
 activityId=
-formfactor=0
+formfactor=2
 immutability=1
-lastScreen=-1
-location=0
+lastScreen=0
+location=4
 plugin=org.kde.plasma.systemtray
-popupHeight=432
-popupWidth=432
+popupHeight=436
+popupWidth=436
 wallpaperplugin=org.kde.image
 
 [Containments][2][Applets][7][Applets][10]
@@ -103,6 +185,9 @@ plugin=org.kde.kscreen
 [Containments][2][Applets][7][Applets][11]
 immutability=1
 plugin=org.kde.plasma.clipboard
+
+[Containments][2][Applets][7][Applets][11][Configuration]
+PreloadWeight=42
 
 [Containments][2][Applets][7][Applets][12]
 immutability=1
@@ -119,9 +204,15 @@ plugin=org.kde.plasma.cameraindicator
 immutability=1
 plugin=org.kde.plasma.printmanager
 
+[Containments][2][Applets][7][Applets][14][Configuration]
+PreloadWeight=42
+
 [Containments][2][Applets][7][Applets][15]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
+
+[Containments][2][Applets][7][Applets][15][Configuration]
+PreloadWeight=42
 
 [Containments][2][Applets][7][Applets][16]
 immutability=1
@@ -147,6 +238,14 @@ plugin=org.kde.plasma.networkmanagement
 immutability=1
 plugin=org.kde.plasma.weather
 
+[Containments][2][Applets][7][Applets][22]
+immutability=1
+plugin=org.kde.plasma.battery
+
+[Containments][2][Applets][7][Applets][23]
+immutability=1
+plugin=org.kde.plasma.networkmanagement
+
 [Containments][2][Applets][7][Applets][24]
 immutability=1
 plugin=org.kde.plasma.brightness
@@ -159,6 +258,31 @@ plugin=org.kde.plasma.battery
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
+[Containments][2][Applets][7][Applets][26][Configuration]
+PreloadWeight=42
+
+[Containments][2][Applets][7][Applets][31]
+immutability=1
+plugin=org.kde.plasma.volume
+
+[Containments][2][Applets][7][Applets][31][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=719
+
+[Containments][2][Applets][7][Applets][31][Configuration][General]
+migrated=true
+
+[Containments][2][Applets][7][Applets][42]
+immutability=1
+plugin=org.kde.plasma.manage-inputmethod
+
+[Containments][2][Applets][7][Applets][57]
+immutability=1
+plugin=org.kde.kscreen
+
+[Containments][2][Applets][7][Applets][66][Configuration]
+PreloadWeight=42
+
 [Containments][2][Applets][7][Applets][8]
 immutability=1
 plugin=org.kde.kdeconnect
@@ -167,12 +291,34 @@ plugin=org.kde.kdeconnect
 immutability=1
 plugin=org.kde.plasma.vault
 
+[Containments][2][Applets][7][Applets][9][Configuration]
+PreloadWeight=42
+
+[Containments][2][Applets][7][ConfigDialog]
+DialogHeight=720
+DialogWidth=960
+
 [Containments][2][Applets][7][General]
-extraItems=org.kde.kdeconnect,org.kde.kupapplet,org.kde.plasma.vault,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.kscreen,org.kde.plasma.clipboard,org.kde.plasma.volume,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.brightness,org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.weather
-knownItems=org.kde.kdeconnect,org.kde.kupapplet,org.kde.plasma.vault,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.kscreen,org.kde.plasma.clipboard,org.kde.plasma.volume,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.brightness,org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.weather
+extraItems=org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod,org.kde.kscreen,org.kde.plasma.cameraindicator,org.kde.plasma.brightness,org.kde.plasma.weather
+hiddenItems=qBittorrent,shutter,Discover Notifier_org.kde.DiscoverNotifier,Yakuake,KDE Daemon,vlc,discord1,Microsoft Teams - Preview1,Insync,Plasma_microphone,org.kde.plasma.battery,flameshot,chrome_status_icon_1
+knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.clipboard,org.kde.kupapplet,org.kde.plasma.keyboardindicator,org.kde.plasma.devicenotifier,org.kde.plasma.printmanager,org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.kdeconnect,org.kde.plasma.vault,org.kde.plasma.bluetooth,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod,org.kde.kscreen,org.kde.plasma.cameraindicator,org.kde.plasma.brightness,org.kde.plasma.weather
+scaleIconsToFit=true
+shownItems=org.kde.plasma.networkmanagement,org.kde.plasma.notifications,ibus-ui-gtk3,org.kde.plasma.volume
+
+[Containments][2][Applets][71]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][2][Applets][71][Configuration][General]
+expanding=false
+length=100
+
+[Containments][2][ConfigDialog]
+DialogHeight=84
+DialogWidth=1920
 
 [Containments][2][General]
-AppletOrder=3;5;22;6;4;7;23
+AppletOrder=3;54;36;28;65;44;4;71;7
 
 [Containments][27]
 activityId=507dcd3a-c15e-428f-ab17-e8e26c03a2fe
@@ -183,6 +329,26 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments2Appletsts][41][Configuration][Preferences]
+AddDesktopButtonShow=false
+DesktopIndicatorsCustomColorForCurrentDesktop=#6bc7ff
+DesktopIndicatorsCustomColorForDesktopsNeedingAttention=#ffffff
+DesktopIndicatorsCustomColorForIdleDesktops=#ffffff
+DesktopIndicatorsCustomColorForOccupiedIdleDesktops=#ffffff
+DesktopIndicatorsDoNotOverrideOpacityOfCustomColors=true
+DesktopIndicatorsStyle=2
+DesktopLabelsCustomColor=#232627
+
+[Containments31Appletsts][41][Configuration][Preferences]
+AddDesktopButtonShow=false
+DesktopIndicatorsCustomColorForCurrentDesktop=#6bc7ff
+DesktopIndicatorsCustomColorForDesktopsNeedingAttention=#ffffff
+DesktopIndicatorsCustomColorForIdleDesktops=#ffffff
+DesktopIndicatorsCustomColorForOccupiedIdleDesktops=#ffffff
+DesktopIndicatorsDoNotOverrideOpacityOfCustomColors=true
+DesktopIndicatorsStyle=2
+DesktopLabelsCustomColor=#232627
+
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/org.kubuntu.web.home.desktop,0,507dcd3a-c15e-428f-ab17-e8e26c03a2fe,desktop:/org.kfocus.web.howtos.desktop,0,507dcd3a-c15e-428f-ab17-e8e26c03a2fe
+screenMapping=desktop:/6KuH3nAvDE4UuIz5geUQkA,0,a73e944d-da52-4381-a30f-453e01f5a30b,desktop:/org.kubuntu.web.home.desktop,0,507dcd3a-c15e-428f-ab17-e8e26c03a2fe,desktop:/org.kfocus.web.howtos.desktop,0,507dcd3a-c15e-428f-ab17-e8e26c03a2fe

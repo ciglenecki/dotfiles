@@ -38,7 +38,7 @@
   "workbench.colorCustomizations": {
     "colorizer.color-1": "#ff9900",
     "colorizer.color-2": "#f500f5",
-    "colorizer.color-3": "#54b9f8"
+    "colorizer.color-3": "#54b9f8",
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.minimap.maxColumn": 60,
@@ -49,21 +49,16 @@
     // "editor.quickSuggestions": true,
     "editor.formatOnSave": false,
     "files.trimTrailingWhitespace": false,
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one",
   },
   "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
   "vim.insertModeKeyBindings": [
     {
-      "before": [
-        "<C-b>"
-      ],
-      "after": []
-    }
+      "before": ["<C-b>"],
+      "after": [],
+    },
   ],
-  "spellright.language": [
-    "en_US",
-    "hr_HR"
-  ],
+  "spellright.language": ["en_US", "hr_HR"],
   "cSpell.userWords": [
     "Allreduce",
     "Blokirajuće",
@@ -86,7 +81,7 @@
     "prescana",
     "psuma",
     "settamo",
-    "sweap"
+    "sweap",
   ],
   "editor.multiCursorMergeOverlapping": false,
   "workbench.startupEditor": "newUntitledFile",
@@ -119,11 +114,7 @@
     "<C-p>": false,
   },
   "markdown.links.openLocation": "beside",
-  "spellright.documentTypes": [
-    "latex",
-    "plaintext",
-    "markdown"
-  ],
+  "spellright.documentTypes": ["latex", "plaintext", "markdown"],
   "markdown-preview-enhanced.codeBlockTheme": "github.css",
   "gitlens.blame.highlight.enabled": false,
   "gitlens.blame.heatmap.enabled": false,
@@ -137,23 +128,21 @@
   "window.closeWhenEmpty": true,
   "editor.wordWrapColumn": 120,
   "[c]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
+    "editor.defaultFormatter": "ms-vscode.cpptools",
   },
   "debug.javascript.autoAttachFilter": "disabled",
   "java.dependency.showMembers": true,
   "security.workspace.trust.enabled": false,
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features",
-    "editor.formatOnSave": false
+    "editor.formatOnSave": false,
   },
   "explorer.confirmDragAndDrop": false,
-  "settingsSync.ignoredExtensions": [
-    "ctf0.laravel-goto-env"
-  ],
+  "settingsSync.ignoredExtensions": ["ctf0.laravel-goto-env"],
   "debug.onTaskErrors": "showErrors",
   "workbench.editorAssociations": {
     "*.mat": "default",
-    "*.class": "default"
+    "*.class": "default",
   },
   "jupyter.askForKernelRestart": false,
   "editor.acceptSuggestionOnEnter": "off",
@@ -165,7 +154,7 @@
     "MD045": false, // no image text
     "MD025": true,
     "MD010": false,
-    "MD034": false
+    "MD034": false,
   },
   "markdown-preview-enhanced.previewTheme": "github-light.css",
   "terminal.integrated.inheritEnv": false,
@@ -175,15 +164,12 @@
     "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.formatOnType": true,
     "editor.codeActionsOnSave": {
-      "source.organizeImports": "explicit"
+      "source.organizeImports": "explicit",
     },
     "editor.insertSpaces": true,
     "editor.tabSize": 4,
   },
-  "isort.args": [
-    "--profile",
-    "black"
-  ],
+  "isort.args": ["--profile", "black"],
   "notebook.output.textLineLimit": 300,
   "scm.diffDecorations": "none",
   "editor.scrollbar.verticalScrollbarSize": 10,
@@ -198,7 +184,7 @@
     "cpp": false,
     "raw": false,
     "ini": false,
-    "instructions": true
+    "instructions": true,
   },
   "terminal.integrated.scrollback": 999999,
   "workbench.colorTheme": "Quiet Light",
@@ -212,15 +198,13 @@
   "python.analysis.logLevel": "Error",
   "python.analysis.autoImportCompletions": true,
   "python.analysis.autoFormatStrings": true,
-  "python.analysis.fixAll": [
-    "source.convertImportFormat"
-  ],
+  "python.analysis.fixAll": ["source.convertImportFormat"],
   "python.defaultInterpreterPath": "/home/matej/venv",
   "python.analysis.typeCheckingMode": "standard",
   "github.copilot.editor.enableAutoCompletions": true,
   "editor.formatOnSave": true,
   "remote.SSH.serverInstallPath": {
-    "tp-komp-ured": "/home/matejc/"
+    "tp-komp-ured": "/home/matejc/",
   },
   "remote.autoForwardPortsSource": "hybrid",
   "diffEditor.maxComputationTime": 0,
@@ -229,16 +213,14 @@
   "svifpd.useExperimentalDataTransfer": false,
   "svifpd.allowPlugins": true,
   "pylint.args": [
-    "\"pylint.args\": [\"--extension-pkg-whitelist=cv2\", \"--generate-members\"]"
+    "\"pylint.args\": [\"--extension-pkg-whitelist=cv2\", \"--generate-members\"]",
   ],
   "githubPullRequests.pullBranch": "never",
-  "python.analysis.extraPaths": [
-    "."
-  ],
+  "python.analysis.extraPaths": ["."],
   "python.analysis.autoSearchPaths": false,
   "terminal.integrated.tabs.location": "left",
   "[vue]": {
-    "editor.defaultFormatter": "octref.vetur"
+    "editor.defaultFormatter": "octref.vetur",
   },
   "python.analysis.inlayHints.functionReturnTypes": true,
   "github.copilot.nextEditSuggestions.enabled": false,
@@ -249,13 +231,13 @@
     "**/node_modules/**": true,
     ".git": true,
     "**/__pycache__": true,
-    ".ruff_cache/**": true
+    ".ruff_cache/**": true,
   },
   "files.exclude": {
     ".git": true,
     "**/__pycache__": true,
     "**/node_modules/**": true,
-    "public/": true
+    "public/": true,
   },
   "python.analysis.exclude": [
     "**/.venv",
@@ -275,12 +257,14 @@
     "**/*.lock": true,
     "**/*.{code-workspace,csproj,fsproj,vbproj,vcxproj,proj,targets,props}": true,
     "**/{package.json,server.xml,build.rs,web.config,.gitattributes,.env}": true,
-    "**/.git/**": true
+    "**/.git/**": true,
   },
   "python.languageServer": "Default",
   "claudeCode.preferredLocation": "panel",
   "window.titleBarStyle": "custom",
   "window.customMenuBarAltFocus": false,
   "window.menuBarVisibility": "compact",
-  "chat.tips.enabled": false
+  "chat.tips.enabled": false,
+  "chat.agent.enabled": false,
+  "chat.viewSessions.orientation": "stacked",
 }

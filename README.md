@@ -117,3 +117,61 @@ bash <(curl -s https://raw.githubusercontent.com/ciglenecki/dotfiles/master/.scr
 veracrypt -k "" --pim=0 --protect-hidden=no -m=nokernelcrypto --mount "$CONTAINER" "$MOUNT_POINT"
 
 sudo veracrypt -u "$MOUNT_POINT"
+6. Install fnm (node)
+
+
+https://github.com/Schniz/fnm
+```
+curl -fsSL https://fnm.vercel.app/install | bash
+```
+```
+fnm install --lts
+```
+
+### keyd and ydotool
+
+```
+sudo apt install keyd
+```
+
+```
+sudo systemctl edit keyd
+```
+```
+
+at the top
+```
+[Service]
+ExecStart=
+ExecStart=/bin/bash -lc 'source /home/matej/.scripts/env.sh && exec /usr/bin/keyd.rvaiya'
+```
+
+```
+sudo usermod -aG keyd "$USER"
+sudo usermod -aG input "$USER"
+
+```
+
+```
+newgrp keyd
+```
+
+```
+sudo systemctl enable --now keyd
+```
+
+```
+sudo nano /etc/keyd/default.conf
+```
+
+
+
+```
+journalctl --user -u ydotool.service -b --no-page
+```
+
+ydotool
+
+```
+sudo -b ydotoold --socket-path="$HOME/.ydotool_socket" --socket-own="$(id -u):$(id -g)"
+```

@@ -8,7 +8,7 @@
 
 sleep 3
 # flameshot &
-sxhkd &
+# sxhkd &
 
 #$BROWSERUSER $BROWSERASAPP$CAL &
 #$BROWSERUSER $BROWSERASAPP$TODO_TODAY &
@@ -20,6 +20,8 @@ trickle -s -u 6250 -d 6250 insync start &
 # qbittorrent &
 syncthing -no-browser &
 yakuake &
+
+sudo -b ydotoold --socket-path="$HOME/.ydotool_socket" --socket-own="$(id -u):$(id -g)"
 
 
 # /usr/sbin/anacron -s -t $HOME/.anacron/etc/anacrontab -S $HOME/.anacron/spool &
