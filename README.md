@@ -167,6 +167,12 @@ sudo nano /etc/keyd/default.conf
 ```
 
 
+check config files
+
+```
+sudo /usr/bin/keyd.rvaiya check /etc/keyd/default.conf
+```
+
 reload config files
 ```
 sudo /usr/bin/keyd.rvaiya reload
