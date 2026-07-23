@@ -121,9 +121,11 @@ sudo veracrypt -u "$MOUNT_POINT"
 
 
 https://github.com/Schniz/fnm
+
 ```
 curl -fsSL https://fnm.vercel.app/install | bash
 ```
+
 ```
 fnm install --lts
 ```
@@ -137,7 +139,7 @@ sudo apt install keyd
 ```
 sudo systemctl edit keyd
 ```
-```
+
 
 at the top
 ```
@@ -165,6 +167,10 @@ sudo nano /etc/keyd/default.conf
 ```
 
 
+reload config files
+```
+sudo /usr/bin/keyd.rvaiya reload
+```
 
 ```
 journalctl --user -u ydotool.service -b --no-page
