@@ -66,13 +66,14 @@ popupWidth=400
 
 [Containments][2][Applets][28][Configuration][Appearance]
 autoFontAndSize=false
+boldText=true
 dateDisplayFormat=BesideTime
 fontFamily=Noto Sans
-fontSize=20
-fontStyleName=Regular
-fontWeight=400
+fontSize=36
+fontStyleName=Bold
+fontWeight=700
 showDate=true
-showSeconds=true
+showSeconds=Always
 use24hFormat=2
 
 [Containments][2][Applets][28][Configuration][ConfigDialog]
@@ -85,7 +86,7 @@ plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
 popupHeight=588
-popupWidth=1444
+popupWidth=1574
 
 [Containments][2][Applets][3][Configuration][ConfigDialog]
 DialogHeight=1058
@@ -121,7 +122,6 @@ hideLauncherOnStart=false
 launchers=file:///usr/share/applications/brave-browser.desktop
 onlyGroupWhenFull=false
 showOnlyCurrentActivity=false
-showOnlyCurrentDesktop=false
 sortingStrategy=3
 taskMaxWidth=Narrow
 
@@ -143,7 +143,7 @@ plugin=org.kde.plasma.panelspacer
 
 [Containments][2][Applets][44][Configuration][General]
 expanding=false
-length=600
+length=440
 
 [Containments][2][Applets][54]
 immutability=1
@@ -158,6 +158,12 @@ popupHeight=455
 popupWidth=814
 
 [Containments][2][Applets][65][Configuration][Appearance]
+autoFontAndSize=false
+boldText=true
+fontFamily=Noto Sans
+fontSize=28
+fontStyleName=SemiBold
+fontWeight=600
 lastSelectedTimezone=UTC+00:00
 selectedTimeZones=UTC+00:00,Local
 showDate=false
@@ -311,7 +317,7 @@ plugin=org.kde.plasma.panelspacer
 
 [Containments][2][Applets][71][Configuration][General]
 expanding=false
-length=100
+length=30
 
 [Containments][2][ConfigDialog]
 DialogHeight=84
@@ -328,6 +334,14 @@ lastScreen=1
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
+
+[Containments][27][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
+
+[Containments][27][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/MilkyWay/
+SlidePaths=/usr/share/wallpapers/
 
 [Containments2Appletsts][41][Configuration][Preferences]
 AddDesktopButtonShow=false
@@ -351,4 +365,4 @@ DesktopLabelsCustomColor=#232627
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/6KuH3nAvDE4UuIz5geUQkA,0,a73e944d-da52-4381-a30f-453e01f5a30b,desktop:/org.kubuntu.web.home.desktop,0,507dcd3a-c15e-428f-ab17-e8e26c03a2fe,desktop:/org.kfocus.web.howtos.desktop,0,507dcd3a-c15e-428f-ab17-e8e26c03a2fe
+screenMapping=desktop:/6KuH3nAvDE4UuIz5geUQkA,0,a73e944d-da52-4381-a30f-453e01f5a30b

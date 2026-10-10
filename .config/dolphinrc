@@ -1,5 +1,11 @@
+[CompactMode]
+PreviewSize=16
+
 [ContentDisplay]
 DirectorySizeMode=ContentSize
+
+[DetailsMode]
+PreviewSize=32
 
 [General]
 BrowseThroughArchives=true
@@ -16,7 +22,7 @@ ViewPropsTimestamp=2026,5,26,17,16,1.609
 
 [IconsMode]
 IconSize=16
-PreviewSize=48
+PreviewSize=208
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false

@@ -30,18 +30,22 @@ done
 # ========== HISTORY FILE ==========
 export HISTFILE="$HOME/.bash_history"
 
-if [[ -n "$PROMPT_COMMAND" ]]; then
-  PROMPT_COMMAND="$PROMPT_COMMAND"$'\n'
-fi
-PROMPT_COMMAND+="history -a; history -c; history -r"
+
+
+# When the shell exits, append to the history file instead of overwriting it
+shopt -s histappend
+
+PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND; }history -a; history -n"
+
+# This excludes cd and cd followed by a space, but keeps commands such as cdproject.
+export HISTIGNORE="${HISTIGNORE:+$HISTIGNORE:}cd:cd *"
 
 # don't put duplicate lines in the history
 export HISTCONTROL=ignoredups:erasedups
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 export HISTSIZE=9999999999  # the number of lines or commands that are stored in memory in a history list while your bash session is ongoing.
 export HISTFILESIZE=9999999999 # is the number of lines or commands that (a) are allowed in the history file at startup time of a session, and (b) are stored in the history file at the end of your bash session for use in future sessions.
-# When the shell exits, append to the history file instead of overwriting it
-shopt -s histappend
+
 # keep multiline commands together
 shopt -s cmdhist
 

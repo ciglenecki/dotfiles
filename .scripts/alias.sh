@@ -286,9 +286,10 @@ function slep {
     systemctl suspend
 }
 
-function video {
+function compress_video {
     ffmpeg -i $1 -vcodec libx264 -crf 28 convert-$1
 }
+
 
 
 function cam_exposure {

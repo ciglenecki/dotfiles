@@ -1,3 +1,7 @@
+[PlasmaTransientsConfig]
+popupHeight=400
+popupWidth=560
+
 [PlasmaViews][Panel 2]
 alignment=132
 floating=0
@@ -6,9 +10,13 @@ panelOpacity=0
 panelVisibility=0
 
 [PlasmaViews][Panel 2][Defaults]
-maxLength=2544
-minLength=2542
+maxLength=1492
+minLength=1440
 thickness=22
+
+[PlasmaViews][Panel 2][Horizontal1920]
+maxLength=1492
+minLength=1440
 
 [PlasmaViews][Panel 2][Horizontal2560]
 alignment=132

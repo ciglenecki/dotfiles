@@ -50,15 +50,24 @@
     "editor.formatOnSave": false,
     "files.trimTrailingWhitespace": false,
     "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false
   },
+  "markdown.extension.list.indentationSize": "inherit",
   "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
   "vim.insertModeKeyBindings": [
     {
-      "before": ["<C-b>"],
+      "before": [
+        "<C-b>"
+      ],
       "after": [],
     },
   ],
-  "spellright.language": ["en_US", "hr_HR"],
+  "spellright.language": [
+    "en_US",
+    "hr_HR"
+  ],
   "cSpell.userWords": [
     "Allreduce",
     "Blokirajuće",
@@ -114,7 +123,11 @@
     "<C-p>": false,
   },
   "markdown.links.openLocation": "beside",
-  "spellright.documentTypes": ["latex", "plaintext", "markdown"],
+  "spellright.documentTypes": [
+    "latex",
+    "plaintext",
+    "markdown"
+  ],
   "markdown-preview-enhanced.codeBlockTheme": "github.css",
   "gitlens.blame.highlight.enabled": false,
   "gitlens.blame.heatmap.enabled": false,
@@ -138,7 +151,9 @@
     "editor.formatOnSave": false,
   },
   "explorer.confirmDragAndDrop": false,
-  "settingsSync.ignoredExtensions": ["ctf0.laravel-goto-env"],
+  "settingsSync.ignoredExtensions": [
+    "ctf0.laravel-goto-env"
+  ],
   "debug.onTaskErrors": "showErrors",
   "workbench.editorAssociations": {
     "*.mat": "default",
@@ -169,7 +184,10 @@
     "editor.insertSpaces": true,
     "editor.tabSize": 4,
   },
-  "isort.args": ["--profile", "black"],
+  "isort.args": [
+    "--profile",
+    "black"
+  ],
   "notebook.output.textLineLimit": 300,
   "scm.diffDecorations": "none",
   "editor.scrollbar.verticalScrollbarSize": 10,
@@ -184,7 +202,7 @@
     "cpp": false,
     "raw": false,
     "ini": false,
-    "instructions": true,
+    "instructions": true
   },
   "terminal.integrated.scrollback": 999999,
   "workbench.colorTheme": "Quiet Light",
@@ -198,7 +216,9 @@
   "python.analysis.logLevel": "Error",
   "python.analysis.autoImportCompletions": true,
   "python.analysis.autoFormatStrings": true,
-  "python.analysis.fixAll": ["source.convertImportFormat"],
+  "python.analysis.fixAll": [
+    "source.convertImportFormat"
+  ],
   "python.defaultInterpreterPath": "/home/matej/venv",
   "python.analysis.typeCheckingMode": "standard",
   "github.copilot.editor.enableAutoCompletions": true,
@@ -216,7 +236,9 @@
     "\"pylint.args\": [\"--extension-pkg-whitelist=cv2\", \"--generate-members\"]",
   ],
   "githubPullRequests.pullBranch": "never",
-  "python.analysis.extraPaths": ["."],
+  "python.analysis.extraPaths": [
+    "."
+  ],
   "python.analysis.autoSearchPaths": false,
   "terminal.integrated.tabs.location": "left",
   "[vue]": {
@@ -263,8 +285,17 @@
   "claudeCode.preferredLocation": "panel",
   "window.titleBarStyle": "custom",
   "window.customMenuBarAltFocus": false,
-  "window.menuBarVisibility": "compact",
   "chat.tips.enabled": false,
   "chat.agent.enabled": false,
   "chat.viewSessions.orientation": "stacked",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "markdown.extension.tableFormatter.delimiterRowNoPadding": true,
+  "workbench.statusBar.visible": false,
+  "window.menuBarVisibility": "compact",
+  "workbench.browser.showInTitleBar": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 }

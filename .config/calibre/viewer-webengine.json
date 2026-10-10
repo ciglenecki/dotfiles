@@ -2,30 +2,30 @@
   "geometry-of-main_window_geometry": {
     "frame_geometry": {
       "height": 1058,
-      "width": 1339,
-      "x": 580,
+      "width": 1920,
+      "x": 0,
       "y": 0
     },
     "full_screened": false,
     "geometry": {
       "height": 1058,
-      "width": 1339,
-      "x": 580,
+      "width": 1920,
+      "x": 0,
       "y": 0
     },
     "maximized": false,
     "normal_geometry": {
       "height": 1058,
-      "width": 1339,
-      "x": 580,
+      "width": 1920,
+      "x": 0,
       "y": 0
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAJEAAAAAAAAB34AAAQhAAACRAAAAAAAAAd+AAAEIQAAAAAAAAAAB4AAAAJEAAAAAAAAB34AAAQh"
+      "__value__": "AdnQywADAAAAAAAAAAAAAAAAB38AAAQhAAAAAAAAAAAAAAd/AAAEIQAAAAAAAAAAB4AAAAAAAAAAAAAAB38AAAQh"
     },
     "screen": {
-      "depth": 24,
+      "depth": 32,
       "device_pixel_ratio": 1.0,
       "geometry_in_logical_pixels": {
         "height": 1080,
@@ -34,10 +34,10 @@
         "y": 0
       },
       "index_in_screens_list": 0,
-      "manufacturer": "Dell Inc.",
-      "model": "DELL P2419H-",
-      "name": "HDMI-1",
-      "serial": "FQ79ZT2-",
+      "manufacturer": "Lenovo Group Limited",
+      "model": "eDP-1-0x403A",
+      "name": "eDP-1",
+      "serial": "",
       "size_in_logical_pixels": {
         "height": 1080,
         "width": 1920
@@ -107,7 +107,7 @@
   },
   "main_window_state": {
     "__class__": "bytearray",
-    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAEFAAAEIvwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIoA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAAAAAQiAAAAmgD///8AAAABAAABkwAABCL8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAAAABCIAAACDAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAPIA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFAD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAANIA////AAAFOwAABCIAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAEFAAAEIvwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIoA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAAAAAQiAAAAmgD///8AAAABAAABkwAABCL8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAAAABCIAAAChAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAPIA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFAD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAANcA////AAAHgAAABCIAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
   },
   "old_prefs_migrated": true,
   "saved-search-settings": {
@@ -131,6 +131,15 @@
       "singleinstance": false
     },
     "standalone_recently_opened": [
+      {
+        "authors": [
+          "Brick"
+        ],
+        "key": "/home/matej/1-documents/1-work/1-cv/2026-phd-ml/cv_matej_ciglenecki.odt",
+        "pathtoebook": "/home/matej/1-documents/1-work/1-cv/2026-phd-ml/cv_matej_ciglenecki.odt",
+        "timestamp": "2026-06-03T07:24:07.934Z",
+        "title": "cv matej ciglenecki"
+      },
       {
         "authors": [
           "Albert Camus"

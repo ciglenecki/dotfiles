@@ -114,10 +114,24 @@ bash <(curl -s https://raw.githubusercontent.com/ciglenecki/dotfiles/master/.scr
 
 ### VeraCrypt
 
-veracrypt -k "" --pim=0 --protect-hidden=no -m=nokernelcrypto --mount "$CONTAINER" "$MOUNT_POINT"
+```
+mkdir -p /mount/sam/ ~/vera
+export HDD_MP=/mount/sam/
+export C_F="$MOUNT_POINT/home-backup.hc"
+export C_MP=~/vera
+sudo mount /dev/sda1 $HDD_MP
+```
 
+```
+veracrypt -k "" --pim=0 --protect-hidden=no -m=nokernelcrypto --mount "$C_F" "$C_MP"
+```
+
+
+```
 sudo veracrypt -u "$MOUNT_POINT"
-6. Install fnm (node)
+```
+
+### Install fnm (node)
 
 
 https://github.com/Schniz/fnm
@@ -140,8 +154,8 @@ sudo apt install keyd
 sudo systemctl edit keyd
 ```
 
-
 at the top
+
 ```
 [Service]
 ExecStart=
@@ -151,7 +165,6 @@ ExecStart=/bin/bash -lc 'source /home/matej/.scripts/env.sh && exec /usr/bin/key
 ```
 sudo usermod -aG keyd "$USER"
 sudo usermod -aG input "$USER"
-
 ```
 
 ```

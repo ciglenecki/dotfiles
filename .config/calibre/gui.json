@@ -22,6 +22,7 @@
     "__class__": "bytearray",
     "__value__": "AAAA/wAAAAEAAAACAAABAAAAAEYA/////wEAAAABAA=="
   },
+  "bookshelf view visible": false,
   "card_a_view books view state": {
     "column_alignment": {
       "size": "center",
@@ -126,6 +127,21 @@
     false,
     300
   ],
+  "cover_grid_background": {
+    "dark": [
+      45,
+      45,
+      45
+    ],
+    "dark_texture": null,
+    "light": [
+      80,
+      80,
+      80
+    ],
+    "light_texture": null,
+    "migrated": true
+  },
   "custom_colors_for_color_dialog": [
     [
       255,
@@ -237,49 +253,49 @@
   "geometry-of-calibre_main_window_geometry": {
     "frame_geometry": {
       "height": 1058,
-      "width": 2559,
-      "x": 1,
+      "width": 1307,
+      "x": 0,
       "y": 0
     },
     "full_screened": false,
     "geometry": {
       "height": 1058,
-      "width": 2559,
-      "x": 1,
+      "width": 1307,
+      "x": 0,
       "y": 0
     },
-    "maximized": true,
+    "maximized": false,
     "normal_geometry": {
       "height": 1058,
-      "width": 2560,
+      "width": 1307,
       "x": 0,
       "y": 0
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAABAAAAAAAACf8AAAQhAAAAAAAAAAAAAAn/AAAEIQAAAAACAAAACgAAAAABAAAAAAAACf8AAAQh"
+      "__value__": "AdnQywADAAAAAAAAAAAAAAAABRoAAAQhAAAAAAAAAAAAAAUaAAAEIQAAAAAAAAAAB4AAAAAAAAAAAAAABRoAAAQh"
     },
     "screen": {
-      "depth": 24,
+      "depth": 32,
       "device_pixel_ratio": 1.0,
       "geometry_in_logical_pixels": {
         "height": 1080,
-        "width": 2560,
+        "width": 1920,
         "x": 0,
         "y": 0
       },
       "index_in_screens_list": 0,
-      "manufacturer": "LG Electronics",
-      "model": "LG HDR WFHD-",
-      "name": "HDMI-1",
-      "serial": "63621",
+      "manufacturer": "Dell Inc.",
+      "model": "DELL P2419H",
+      "name": "HDMI-A-1",
+      "serial": "",
       "size_in_logical_pixels": {
         "height": 1080,
-        "width": 2560
+        "width": 1920
       },
       "virtual_geometry": {
         "height": 1080,
-        "width": 2560,
+        "width": 1920,
         "x": 0,
         "y": 0
       }
@@ -450,7 +466,7 @@
     "__value__": "AdnQywADAAAAAAAAAAABGAAABPoAAANEAAAAAAAAATUAAAT6AAADRAAAAAAAAAAAB4AAAAAAAAABNQAABPoAAANE"
   },
   "library_usage_stats": {
-    "/home/matej/6-literature": 69
+    "/home/matej/6-literature": 71
   },
   "main_window_central_widget_state": {
     "layout": "wide",
@@ -547,6 +563,7 @@
   ],
   "quick_start_guide_added": true,
   "quickview visible": false,
+  "qv_open_at_shutdown": false,
   "replace_scene_breaks_history": [
     "",
     "<hr />",
