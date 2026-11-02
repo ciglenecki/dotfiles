@@ -8,10 +8,10 @@
 # if [ -z ${HOME+x} ]; then export HOME="/home/matej"; fi
 # set PATH so it includes user's private bin if it exists
 
-export HOME=$(eval echo "~matej")
+export HOME=/home/matej
 
 if [ -d "$HOME/.local/bin" ] ; then
-    export PATH="$PATH:$HOME/.local/bin:"
+    export PATH="$PATH:$HOME/.local/bin"
 fi
 
 if [ -d "/bin/include" ] ; then
@@ -26,7 +26,7 @@ fi
 FNM_PATH="$HOME/.local/share/fnm"
 if [ -d "$FNM_PATH" ]; then
   export PATH="$FNM_PATH:$PATH"
-  eval "`fnm env`"
+  export PATH="$HOME/.local/share/fnm:$PATH"
 fi
 
 if [ -d "/usr/sbin:/sbin" ] ; then
@@ -45,18 +45,7 @@ if [ -d "$HOME/.cargo/bin" ] ; then
     export PATH=$PATH:$HOME/.cargo/bin
 fi
 
-if [ -d "/opt/blender-3.5.1-linux-x64" ] ; then
-    export PATH=$PATH:/opt/blender-3.5.1-linux-x64
-fi
 
-if [ -d "/opt/blender-3.5.1-linux-x64" ] ; then
-    export PATH=$PATH:/opt/blender-3.5.1-linux-x64
-fi
-
-
-if command -v npm >/dev/null 2>&1; then
-    export PATH="$PATH:$(npm prefix -g)/bin"
-fi
 
 
 export PYENV_ROOT="$HOME/.pyenv"

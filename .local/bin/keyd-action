@@ -1,0 +1,222 @@
+#!/usr/bin/env bash
+
+if [ "$(id -u)" = "0" ]; then
+    exec runuser -u matej -- env \
+        HOME=/home/matej \
+        USER=matej \
+        LOGNAME=matej \
+        DISPLAY="${DISPLAY:-:0}" \
+        WAYLAND_DISPLAY="${WAYLAND_DISPLAY:-wayland-0}" \
+        XAUTHORITY="/home/matej/.Xauthority" \
+        XDG_RUNTIME_DIR="/run/user/$(id -u matej)" \
+        DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/$(id -u matej)/bus" \
+        "$0" "$@"
+fi
+
+
+
+export HOME=/home/matej
+export PATH="$HOME/.local/bin:$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin"
+
+BROWSER="brave-browser"
+BROWSERASAPP="--app="
+BROWSERUSER="$BROWSER --profile-directory=Default"
+BROWSERMUSIC="$BROWSER --profile-directory=music"
+BROWSERWORK="$BROWSER --profile-directory=work"
+
+CAL="$BROWSERUSER $BROWSERASAPPhttps://calendar.google.com/calendar/r"
+ASOFTMURMUR="$BROWSERMUSIC $BROWSERASAPPhttps://asoftmurmur.com/"
+POMODORO="$BROWSERUSER $BROWSERASAPPhttps://pomofocus.io/"
+TODO_TODAY='https://todoist.com/app/#upcoming'
+URL_WHATSAPP="https://web.whatsapp.com/"
+
+DIR_NOTES="$HOME/0-xnotes"
+DIR_PICTURES="$HOME/2-media"
+DIR_SCREENSHOTS="$DIR_PICTURES/screenshots/"
+DIR_SECRETS="$HOME/.secrets"
+FILE_SPOTIFY_SECRET="$DIR_SECRETS/spotify.sh"
+
+TIMEFS="%F"
+TIMEFL="%F-%H-%M-%S"
+SOUND_LEVEL=20
+
+spotify_python="$HOME/projects/spotify-random-saved-album/venv/bin/python3"
+spotify_src="$HOME/projects/spotify-random-saved-album/src/spotify_random_saved_album"
+
+export YDOTOOL_SOCKET="$HOME/.ydotool_socket"
+
+user_systemd_run() {
+    systemd-run --user --collect \
+        --setenv=DISPLAY="${DISPLAY:-:0}" \
+        --setenv=XAUTHORITY="${XAUTHORITY:-/home/matej/.Xauthority}" \
+        --setenv=XDG_RUNTIME_DIR="${XDG_RUNTIME_DIR:-/run/user/$(id -u)}" \
+        --setenv=DBUS_SESSION_BUS_ADDRESS="${DBUS_SESSION_BUS_ADDRESS:-unix:path=/run/user/$(id -u)/bus}" \
+        /bin/bash -c '
+            exec >> "$HOME/user_systemd_run.log" 2>&1
+
+            echo "===== $(date) ====="
+            source "$HOME/.scripts/env.sh"
+            "$@"
+        ' bash "$@"
+}
+
+type_text() {
+    local text="$1"
+    YDOTOOL_SOCKET="$HOME/.ydotool_socket" ydotool type -d 0 -H 0 "$text"
+}
+
+latest_screenshot() {
+    ls -t "$DIR_SCREENSHOTS" | head -n 1
+}
+
+
+case "$1" in
+
+    brave)
+        user_systemd_run $BROWSERUSER
+        ;;
+        
+    brave_work)
+        user_systemd_run $BROWSERWORK
+        ;;
+        
+    open-spotify-focus)
+        wmctrl -lx | grep -i brave | grep -i spotify | awk '{print $1}' | head -n1 | xargs wmctrl -i -a
+        ;;
+        
+    open-spotify-random)
+        user_systemd_run $BROWSERMUSIC
+        ;;
+
+    open-asoft-focus)
+        wmctrl -xa asoft
+        ;;
+    open-asoft-open)
+        eval "$ASOFTMURMUR" &
+        ;;
+
+    open-keepass)
+        wmctrl -xa keepassxc || user_systemd_run keepassxc
+        ;;
+
+    open-pomodoro-focus)
+        wmctrl -xa pomofocus.io
+        ;;
+    open-pomodoro-open)
+        eval "$POMODORO" &
+        ;;
+
+    open-calendar-focus)
+        wmctrl -xa calendar
+        ;;
+    open-calendar-open)
+        eval "$CAL" &
+        ;;
+
+    open-todoist-focus)
+        wmctrl -xa todoist
+        ;;
+    open-todoist-open)
+        eval "$BROWSERUSER $BROWSERASAPP$TODO_TODAY" &
+        ;;
+
+    open-whatsapp)
+        user_systemd_run $BROWSERUSER $BROWSERASAPP$URL_WHATSAPP
+        ;;
+
+    open-zotero)
+        user_systemd_run bash -c 'id=$(kdotool search --class zotero | head -n1); if [[ -n "$id" ]]; then kdotool windowactivate "$id"; else exec zotero; fi'
+        ;;
+    open-code-tmp)
+        code "$HOME/tmp/tmp.md" &
+        ;;
+
+    open-xnotes-focus)
+        wmctrl -a xnotes
+        ;;
+    open-xnotes-open)
+        user_systemd_run code -n "$DIR_NOTES"
+        ;;
+
+    open-thunderbird)
+        wmctrl -xa thunderbird || user_systemd_run thunderbird
+        ;;
+
+    volume-down)
+        amixer -D pulse sset Master 2%-
+        ;;
+    volume-up)
+        amixer -D pulse sset Master 2%+
+        ;;
+    volume-set)
+        amixer -D pulse sset Master "$SOUND_LEVEL%"
+        ;;
+
+    paste-simple)
+        type_text "Use extremely PRIMITIVE, SIMPLE and COMMON English words. Make every statement direct, clear, plain, and exact. Include all needed technical details. Follow Google technical writing rules. Do not use compound words joined by hyphens, such as well-known and part-time. Do not use hyphens, en dashes, em dashes, quotation marks, or similar marks in normal text. Use one term for each concept, and use the same term every time. Use common nouns and verbs, but keep every technical statement exact and precise. Choose words that have one clear meaning in the given context. Give each sentence one main idea. Do not use a pronoun when the reader may not know which noun the pronoun refers to."
+        ;;
+    paste-primitive)
+        type_text "Use extremely PRIMITIVE, SIMPLE and COMMON English words. Make every statement direct, clear, plain, and exact. Include all needed technical details. Follow Google technical writing rules. Do not use compound words joined by hyphens, such as well-known and part-time. Do not use hyphens, en dashes, em dashes, quotation marks, or similar marks in normal text. Use one term for each concept, and use the same term every time. Use common nouns and verbs, but keep every technical statement exact and precise. Choose words that have one clear meaning in the given context. Give each sentence one main idea. Do not use a pronoun when the reader may not know which noun the pronoun refers to."
+        ;;
+    paste-date)
+        type_text "$(date +"$TIMEFS")"
+        ;;
+    paste-date-sec)
+        type_text "$(date +"$TIMEFL")"
+        ;;
+    paste-email)
+        type_text "myemail"
+        ;;
+    paste-todoist-filter)
+        type_text "(next 14 days | no due date) & (p1 | p2 | p3) & (!#📚 FER)"
+        ;;
+    restart-plasma)
+        user_systemd_run systemctl --user restart plasma-plasmashell.service
+        ;;
+
+    spotify-like-playlist)
+        . "$FILE_SPOTIFY_SECRET"
+        "$spotify_python" "$spotify_src/like_song.py" --playlist_id ""
+        ;;
+    spotify-like)
+        . "$FILE_SPOTIFY_SECRET"
+        "$spotify_python" "$spotify_src/like_song.py"
+        ;;
+    spotify-unlike)
+        . "$FILE_SPOTIFY_SECRET"
+        "$spotify_python" "$spotify_src/unlike_song.py"
+        ;;
+    spotify-next)
+        . "$FILE_SPOTIFY_SECRET"
+        "$spotify_python" "$spotify_src/next_song.py"
+        ;;
+
+    copy-last-screenshot)
+        latest="$(latest_screenshot)"
+        copyq write image/jpg - < "$DIR_SCREENSHOTS$latest" && copyq select 0
+        ;;
+    edit-last-screenshot)
+        latest="$(latest_screenshot)"
+        pinta "$DIR_SCREENSHOTS$latest" &
+        ;;
+
+    rofi)
+        rofi -show combi &
+        ;;
+
+    flameshot)
+        user_systemd_run flameshot gui -p "$DIR_SCREENSHOTS" -c
+        ;;
+
+    notes-screenshot)
+        foldername="$(wmctrl -lx | grep -E ".*code.Code.*notes" | tr -s ' ' | cut -d ' ' -f 5 | head -n 1 | sed 's/\~/\/home\/matej/')"
+        name="$(date +'%F-%H-%M-%S').jpg"
+        mkdir -p "$foldername/pic"
+        shutter --min_at_startup -e -s -n -o "$foldername/pic/$name"
+        echo "pic/$name" | xclip -selection clipboard
+        ;;
+
+    focus-desktop)
+        . "$HOME/.scripts/focus_all_windows_on_current_desktop.sh"
+        ;;
+esac

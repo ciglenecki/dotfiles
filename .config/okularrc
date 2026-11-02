@@ -17,22 +17,9 @@ FullScreen=false
 shouldShowMenuBarComingFromFullScreen=true
 shouldShowToolBarComingFromFullScreen=true
 
-[FileDialogSize]
-1920x1080 screen: Height=745
-1920x1080 screen: Width=1245
-HDMI-0 Height 1920x1080=745
-HDMI-0 Width 1920x1080=1423
-Height 1080=745
-Width 1920=907
-
 [General]
 LockSidebar=true
 ShowSidebar=false
-
-[KFileDialog Settings]
-Recent Files[$e]=SU1-2021-P02-OsnovniKoncepti.pdf,file:$HOME/Downloads/tensor_b.pdf,file:$HOME/fer/oos/sp4comm_corrected.pdf,file:$HOME/fer/oos/1-lectures/15_fft.pdf,file:$HOME/fer/oos/1-lectures/DOS_2017-2018_predavanje_06.pdf,file:$HOME/fer/oos/1-lectures/16_izvedba_filtara.pdf,file:$HOME/fer/oos/4-exams/mi_2021.pdf,file:$HOME/fer/oos/4-exams/mi_2022.pdf,file:$HOME/fer/oos/1-lectures/09_prijenosna_funkcija.pdf,file:$HOME/fer/oos/1-lectures/08_z_i_laplaceova_transformacija.pdf,file:$HOME/fer/nummat/1-lectures/predavanje_18.pdf,file:$HOME/fer/nummat/1-lectures/predavanje_16.pdf
-Recent URLs[$e]=file:$HOME/fer/oos/,file:$HOME/Downloads/,file:$HOME/fer/oos/1-lectures/,file:$HOME/fer/oos/5-tasks/,file:$HOME/fer/oos/4-exams/,file:$HOME/fer/oos/3-labs/,file:$HOME/,file:$HOME/Downloads/pdfjam-3.12/
-detailViewIconSize=16
 
 [MainWindow]
 1920x1080 screen: Height=1058
@@ -88,23 +75,23 @@ Height 1080=889
 Width 1920=840
 
 [Recent Files]
-File1[$e]=$HOME/1-documents/1-work/2026-phd-modena/admin/modena_phd_enrolment_docs/Documento2.pdf
-File10[$e]=$HOME/1-documents/1-work/2026-phd-modena/cv_matej_ciglenecki_unimore.pdf
-File2[$e]=$HOME/1-documents/1-work/2026-phd-modena/admin/modena_phd_enrolment_docs/phd_enrolment.pdf
-File3[$e]=$HOME/1-documents/1-work/2026-phd-modena/admin/modena_phd_enrolment_docs/enrolemnt_verification_document.pdf
-File4[$e]=$HOME/1-documents/1-work/2026-phd-modena/admin/modena_phd_enrolment_docs/signed_autocertificazione_gestione_separata_inps_2026_0.pdf
-File5[$e]=$HOME/1-documents/1-work/2026-phd-modena/admin/modena_phd_enrolment_docs/diploma_apostile_translated.pdf
-File6[$e]=$HOME/1-documents/1-work/2026-phd-modena/admin/modena_phd_enrolment_docs/signed_declaration_of_interest_in_a_possible_apprenticeship_contract_for_advanced_training.pdf
-File7[$e]=$HOME/1-documents/1-work/2026-phd-modena/admin/modena_phd_enrolment_docs/signed_additional_declarations_for_scholarship_holders.pdf
-File8[$e]=$HOME/1-documents/1-work/2026-phd-modena/admin/autocertificazione gestione separata INPS_2026_0_signed.pdf
-File9[$e]=$HOME/1-documents/1-work/2026-phd-modena/admin/DECLARATION OF INTEREST IN A POSSIBLE APPRENTICESHIP CONTRACT FOR ADVANCED TRAINING_signed.pdf
-Name1[$e]=Documento2.pdf
-Name10[$e]=cv_matej_ciglenecki_unimore.pdf
-Name2[$e]=phd_enrolment.pdf
-Name3[$e]=enrolemnt_verification_document.pdf
-Name4[$e]=signed_autocertificazione_gestione_separata_inps_2026_0.pdf
-Name5[$e]=diploma_apostile_translated.pdf
-Name6[$e]=signed_declaration_of_interest_in_a_possible_apprenticeship_contract_for_advanced_training.pdf
-Name7[$e]=signed_additional_declarations_for_scholarship_holders.pdf
-Name8[$e]=autocertificazione gestione separata INPS_2026_0_signed.pdf
-Name9[$e]=DECLARATION OF INTEREST IN A POSSIBLE APPRENTICESHIP CONTRACT FOR ADVANCED TRAINING_signed.pdf
+File1[$e]=$HOME/1-documents/0-research/unimore-2026/phd_application_docs/DECLARATION OF PRIORITY INTEREST TO COMPETE FOR SCHOLARSHIPS LINKED TO A SPECIFIC RESEARCH TOPIC-edit.pdf
+File10[$e]=$HOME/1-documents/1-work/2-recommendations/_archive/reference_bartol_freskura.pdf
+File2[$e]=$HOME/1-documents/0-research/fer-2023/all_grades_certificates.pdf
+File3[$e]=$HOME/1-documents/0-research/fer-2023/masters_certificate.pdf
+File4[$e]=$HOME/1-documents/0-research/fer-2023/masters_transcript.pdf
+File5[$e]=$HOME/1-documents/0-research/ellis-2026/ellis_grades/masters_transcript_ocr.pdf
+File6[$e]=$HOME/1-documents/0-research/unimore-2026/phd_application_docs/masters_summary.pdf
+File7[$e]=$HOME/1-documents/0-research/unimore-2026/phd_application_docs/Annex A_edit_OK.pdf
+File8[$e]=$HOME/1-documents/0-research/unimore-2026/matej_papers/publication_list.pdf
+File9[$e]=$HOME/1-documents/0-research/unimore-2026/matej_papers/publications.pdf
+Name1[$e]=DECLARATION OF PRIORITY INTEREST TO COMPETE FOR SCHOLARSHIPS LINKED TO A SPECIFIC RESEARCH TOPIC-edit.pdf
+Name10[$e]=reference_bartol_freskura.pdf
+Name2[$e]=all_grades_certificates.pdf
+Name3[$e]=masters_certificate.pdf
+Name4[$e]=masters_transcript.pdf
+Name5[$e]=masters_transcript_ocr.pdf
+Name6[$e]=masters_summary.pdf
+Name7[$e]=Annex A_edit_OK.pdf
+Name8[$e]=publication_list.pdf
+Name9[$e]=publications.pdf

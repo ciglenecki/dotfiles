@@ -14,6 +14,7 @@ import logging
 import re
 import shutil
 import sys
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
@@ -243,21 +244,18 @@ def collect_images(src_dir: Path) -> list[ProcessedImage]:
     Returns:
         List of ProcessedImage objects with resolved timestamps.
     """
-    images: list[ProcessedImage] = []
+    paths = [path for path in src_dir.rglob("*") if is_image_file(path=path)]
 
-    for path in src_dir.rglob("*"):
-        if path and not is_image_file(path=path):
-            continue
+    def process_path(path: Path) -> ProcessedImage:
         timestamp, source = determine_image_timestamp(path=path)
-        images.append(
-            ProcessedImage(
-                source_path=path,
-                timestamp=timestamp,
-                timestamp_source=source,
-            )
+        return ProcessedImage(
+            source_path=path,
+            timestamp=timestamp,
+            timestamp_source=source,
         )
 
-    return images
+    with ThreadPoolExecutor() as executor:
+        return list(executor.map(process_path, paths))
 
 
 def build_target_path(
@@ -265,6 +263,7 @@ def build_target_path(
     timestamp: datetime,
     start_index: int,
     extension: str,
+    reserved_paths: set[Path] | None = None,
 ) -> tuple[Path, int]:
     """Build a unique target path for an image.
 
@@ -286,7 +285,9 @@ def build_target_path(
 
     while True:
         candidate = dst_dir / f"{base}-{index:04d}{extension}"
-        if not candidate.exists():
+        if not candidate.exists() and (
+            reserved_paths is None or candidate not in reserved_paths
+        ):
             return candidate, index
         index += 1
 
@@ -334,16 +335,26 @@ def process_images(src_dir: Path, dst_dir: Path) -> None:
 
     stats = {"exif": 0, "name": 0, "modified": 0}
     sequence = 1
+    reserved_paths: set[Path] = set()
+    copy_jobs: list[tuple[Path, Path]] = []
 
     for img in images:
         stats[img.timestamp_source] = stats.get(img.timestamp_source, 0) + 1
+
+        # Preserve directory structure relative to source root
+        relative_parent = img.source_path.parent.relative_to(src_dir)
+        target_dir = dst_dir / relative_parent
+
         target_path, used_index = build_target_path(
-            dst_dir=dst_dir,
+            dst_dir=target_dir,
             timestamp=img.timestamp,
             start_index=sequence,
             extension=img.source_path.suffix.lower(),
+            reserved_paths=reserved_paths,
         )
+
         sequence = used_index + 1
+        reserved_paths.add(target_path)
 
         logging.debug(
             "Copying %s -> %s (timestamp=%s, source=%s)",
@@ -353,7 +364,19 @@ def process_images(src_dir: Path, dst_dir: Path) -> None:
             img.timestamp_source,
         )
 
-        shutil.copy2(src=img.source_path, dst=target_path)
+        copy_jobs.append((img.source_path, target_path))
+
+    def copy_image(job: tuple[Path, Path]) -> None:
+        src, dst = job
+
+        dst.parent.mkdir(parents=True, exist_ok=True)
+
+        shutil.copy2(src=src, dst=dst)
+
+    with ThreadPoolExecutor() as executor:
+        for i, _ in enumerate(executor.map(copy_image, copy_jobs)):
+            print(i)
+            pass
 
     total = sum(stats.values())
     print(f"Processed {total} images.")

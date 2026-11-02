@@ -98,11 +98,10 @@ confirm "Step 1/4: Dismount ALL VeraCrypt volumes (veracrypt -d)?" && veracrypt 
 confirm "Step 2/4: Mount container to $MOUNT_POINT ?" && veracrypt -k "" --pim=0 --protect-hidden=no -m=nokernelcrypto --mount "$CONTAINER" "$MOUNT_POINT"
 echo "Disk usage:"; df -h "$MOUNT_POINT" || true
 
-RSYNC_OPTS=(--archive --verbose --update --times --recursive --human-readable --progress
-            --exclude-from="$EXC_LIST" --include-from="$INC_LIST" --exclude="*")
+RSYNC_OPTS=(--archive --verbose --update --times --recursive --human-readable --progress --no-perms --no-owner --no-group --exclude-from="$EXC_LIST" --include-from="$INC_LIST" --exclude="*")
 [[ "$DRY_RUN" -eq 1 ]] && RSYNC_OPTS+=(--dry-run)
 
-confirm "Step 3/4: Run rsync now?" && rsync "${RSYNC_OPTS[@]}" "$SRC_DIR"/ "$MOUNT_POINT"/
+confirm "Step 3/4: Run rsync now?" && sudo -u "$RUN_AS" rsync "${RSYNC_OPTS[@]}" "$SRC_DIR"/ "$MOUNT_POINT"/
 echo "Rsync exit code: $?"
 
 confirm "Step 4/4: Dismount ALL VeraCrypt volumes (veracrypt -d)?" && veracrypt -d

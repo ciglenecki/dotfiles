@@ -7,6 +7,7 @@
 #################################
 
 HOME=$(eval echo "~matej")
+source $HOME/.scripts/env.sh
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
@@ -78,7 +79,7 @@ shopt -s extglob
 #     for subject in $(ls $DIR_FER | sed -nE 's/^([a-zA-Z].*)/\1/p'); do
 #         alias $subject="cs $DIR_FER/$subject"
 #     done
-# fi
+# fi 
 
 ################
 # FUNCTIONS 
@@ -330,3 +331,68 @@ dockerssh() {
     '
   "
 }
+
+scanpdf() (
+    local input="$1"
+    local output="${1%.pdf}_scanned.pdf"
+    local tmp img angle sign
+
+    # Tunables
+    local dpi=150
+    local rotation_min=0.15
+    local rotation_max=0.60
+    local rotation_precision=3
+    local noise_attenuation=0.01
+    local blur_radius=0
+    local blur_sigma=0.35
+
+    [[ -f "$input" && "$input" == *.pdf ]] || { echo "Invalid PDF"; exit 1; }
+    (( $(awk "BEGIN { print ($rotation_min <= $rotation_max) }") )) || {
+        echo "rotation_min must be <= rotation_max"
+        exit 1
+    }
+
+    tmp=$(mktemp -d) || exit 1
+    trap 'rm -rf -- "$tmp"' EXIT
+
+    pdftoppm -r "$dpi" -gray -jpeg "$input" "$tmp/page" || exit 1
+
+    for img in "$tmp"/*.jpg; do
+        if (( RANDOM % 2 )); then
+            sign=1
+        else
+            sign=-1
+        fi
+
+        angle=$(
+            awk \
+                -v seed="$RANDOM" \
+                -v min="$rotation_min" \
+                -v max="$rotation_max" \
+                -v sign="$sign" \
+                -v prec="$rotation_precision" \
+                'BEGIN {
+                    srand(seed)
+                    value = min + rand() * (max - min)
+                    printf "%.*f", prec, sign * value
+                }'
+        )
+
+        echo "Rotation: $angle°"
+
+        magick "$img" \
+            -background white \
+            -rotate "$angle" \
+            -attenuate "$noise_attenuation" +noise Impulse \
+            -blur "${blur_radius}x${blur_sigma}" \
+            "$img"
+    done
+
+    img2pdf "$tmp"/*.jpg -o "$output"
+)
+
+focuswindow() (
+    id=$(kdotool search --class "$1" | head -n1)
+    [[ -n "$id" ]] || exit 130
+    kdotool windowactivate "$id"
+)
