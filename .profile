@@ -25,7 +25,7 @@ if [ -d "$HOME" ]; then
   export DOTFILES_DIR="$HOME/.scripts"
 fi
 
-for dotfile in $DOTFILES_DIR/{env.sh,alias.sh}; do
+for dotfile in $DOTFILES_DIR/{env.sh,alias.sh,alias_with_dep.sh}; do
   echo "Sourcing $dotfile"
   [ -f "$dotfile" ] && . "$dotfile";
 done

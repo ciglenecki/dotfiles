@@ -23,7 +23,7 @@ case $- in
 esac
 
 DOTFILES_DIR="$HOME/.scripts"
-for DOTFILE in $DOTFILES_DIR/{env.sh,alias.sh}; do
+for DOTFILE in $DOTFILES_DIR/{env.sh,alias.sh,alias_with_dep.sh}; do
     [ -f "$DOTFILE" ] && source "$DOTFILE"
 done
 

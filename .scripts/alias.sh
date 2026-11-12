@@ -242,16 +242,33 @@ function renameall() {
 
 
 function note() {
-    note_file=$DIR_NOTES/notes.txt
-    str="$*"
+    local note_file="$DIR_NOTES/notes.txt"
+    local today="# $(date +%F)"
+    local tmp
+
     if [ $# -eq 0 ]; then
-        cat $note_file
+        [ -f "$note_file" ] && cat "$note_file"
         return
     fi
-    str="$*"
 
-    echo "$str"
-    echo -e "\n$str" >> $note_file
+    mkdir -p "$DIR_NOTES" || return 1
+    tmp=$(mktemp "${note_file}.tmp.XXXXXX") || return 1
+
+    if [ -f "$note_file" ] && [ "$(head -n 1 "$note_file")" = "$today" ]; then
+        # Same day: prepend note below existing date
+        {
+            printf '%s\n\n%s\n' "$today" "$*"
+            tail -n +2 "$note_file"
+        } > "$tmp"
+    else
+        # New day: prepend date and note
+        {
+            printf '%s\n\n%s\n\n' "$today" "$*"
+            [ -f "$note_file" ] && cat "$note_file"
+        } > "$tmp"
+    fi
+
+    mv "$tmp" "$note_file"
     echo "Noted to $note_file"
 }
 
@@ -392,7 +409,7 @@ scanpdf() (
 )
 
 focuswindow() (
-    id=$(kdotool search --class "$1" | head -n1)
+    id=$(kdotool search --name "$1" | head -n1)
     [[ -n "$id" ]] || exit 130
     kdotool windowactivate "$id"
 )

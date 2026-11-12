@@ -1,7 +1,7 @@
 92.73618495495703	/home/matej/1-documents/1-work
 20.0	/home/matej/1-documents/1-work/1-contract
 34.64101615137755	/home/matej/1-documents/1-work/2026-10-modena
-119.58260743101391	/home/matej/1-documents
+119.99999999999993	/home/matej/1-documents
 30.000000000000004	/home/matej/1-documents/7-receipts
 28.284271247461902	/home/matej/1-documents/1-work/ciglenecki.github.io
 26.457513110645905	/home/matej/1-documents/1-work/ciglenecki.github.io/ciglenecki.github.io
@@ -35,7 +35,7 @@
 10.0	/mount/gep/backup-files/configs
 17.320508075688775	/mount/gep/backup-files/deborah
 10.0	/mount/gep/backup-files/game saves
-42.42640687119286	/home/matej/5-assets
+53.851648071345046	/home/matej/5-assets
 14.142135623730951	/home/matej/5-assets/game-saves
 22.360679774997898	/home/matej/5-assets/_archive.ignoreme
 14.142135623730951	/home/matej/5-assets/_archive.ignoreme/game saves
@@ -54,24 +54,24 @@
 22.360679774997898	/home/matej/1-documents/_archive.ignoreme
 26.457513110645905	/home/matej/1-documents/_archive.ignoreme/skola_govornistva
 10.0	/home/matej/5-assets/0-notes/imgs
-139.99999999999994	/home/matej/2-media
-37.41657386773942	/home/matej/2-media/archive.ignoreme
-20.0	/home/matej/2-media/avi
+141.0673597966588	/home/matej/2-media
+38.729833462074176	/home/matej/2-media/archive.ignoreme
+73.48469228349536	/home/matej/2-media/avi
 37.41657386773942	/home/matej/3-audio
 17.320508075688775	/home/matej/3-audio/music.ignoreme
 14.142135623730951	/home/matej/3-audio/music.ignoreme/Kendrick Lamar
 10.0	/home/matej/3-audio/music.ignoreme/Kendrick Lamar/2012 - Good Kid M.A.A.D City
 40.00000000000001	/home/matej/4-education
-45.82575694955841	/home/matej/0-xnotes
+46.904157598234306	/home/matej/0-xnotes
 20.0	/mount/gep/2026-05-26-spire-backup
 33.166247903554	/home/matej/2-media/random
 17.320508075688775	/home/matej/.config-backup-new
 17.320508075688775	/home/matej/.config-new-old
-107.23805294763604	/home/matej/Downloads
+124.49899597988725	/home/matej/Downloads
 22.360679774997898	/home/matej/.config-backup
 10.0	/home/matej/.config-backup/.config
 10.0	/home/matej/.config-backup/.local
-99.49874371066196	/home/matej/_tmp
+101.48891565092215	/home/matej/_tmp
 10.0	/home/matej/_tmp/gea_rodendan
 14.142135623730951	/run/user/1000/kio-fuse-dPQuxu/zip/home/matej/_tmp/drive-download-20260921T095443Z-1-001.zip
 10.0	/home/matej/1-documents/1-work/2026-phd-modena/matej_papers
@@ -82,7 +82,7 @@
 22.360679774997898	/home/matej/1-documents/1-work/2026-phd-modena/admin
 17.320508075688775	/home/matej/1-documents/1-work/2026-phd-modena/admin/modena_phd_enrolment_docs
 40.00000000000001	/home/matej/1-documents/2-edu/phd-modena
-17.320508075688775	/home/matej/.scripts
+22.360679774997898	/home/matej/.scripts
 71.41428428542852	/mount/sam
 20.0	/mount/sam/movies
 17.320508075688775	/mount/sam/series
@@ -121,19 +121,19 @@
 10.0	/home/matej/Public
 10.0	/home/matej/Sync
 10.0	/home/matej/Templates
-36.0555127546399	/home/matej/tmp
+63.24555320336759	/home/matej/tmp
 26.457513110645905	/home/matej/tmp/D
 26.457513110645905	/home/matej/tmp/D/D
 24.49489742783178	/home/matej/tmp/D/D/4-pictures
 22.360679774997898	/home/matej/tmp/D/D/4-pictures/camera
-10.0	/home/matej/vera
+14.142135623730951	/home/matej/vera
 10.0	/home/matej/Videos
 17.320508075688775	/home/matej/yt
 17.320508075688775	/home/matej/.cache
 17.320508075688775	/home/matej/.cfg
 10.0	/home/matej/.codex
 17.320508075688775	/home/matej/Documents
-105.83005244258358	/mount/vc
+106.30145812734645	/mount/vc
 20.0	/mount/vc/0-notes
 10.0	/mount/vc/0-notes/imgs
 10.0	/mount/vc/0-notes/phd
@@ -168,7 +168,7 @@
 10.0	/mount/vc/1-documents/5-phd/reserach-proposal
 14.142135623730951	/mount/vc/1-documents/7-receipts
 14.142135623730951	/mount/vc/1-documents/6-health
-22.360679774997898	/home/matej/6-literature
+24.49489742783178	/home/matej/6-literature
 22.360679774997898	/home/matej/1-documents/6-health
 10.0	/mount/vc/1-documents/8-travel
 24.49489742783178	/home/matej/1-documents/8-travel
@@ -197,7 +197,7 @@
 22.360679774997898	/mount/vc/2-media/screenshots
 10.0	/mount/vc/2-media/wallpaper
 42.42640687119286	/mount/vc/2-media/phone
-42.42640687119286	/home/matej/2-media/screenshots
+47.9583152331272	/home/matej/2-media/screenshots
 28.284271247461902	/mount/vc/3-audio
 10.0	/mount/vc/3-audio/audiobooks-ignoreme
 30.000000000000004	/mount/vc/4-education
@@ -287,11 +287,11 @@
 14.142135623730951	/home/matej/Downloads/new
 10.0	/home/matej/Downloads/mar
 10.0	/home/matej/Downloads/images
-10.0	/home/matej/Downloads/image
+14.142135623730951	/home/matej/Downloads/image
 28.284271247461902	/home/matej/Downloads/foto
 17.320508075688775	/home/matej/Downloads/foto/101MSDCF
 24.49489742783178	/home/matej/Downloads/dedine_slike_Camera
-54.772255750516614	/home/matej/Downloads/docs
+57.44562646538029	/home/matej/Downloads/docs
 14.142135623730951	/run/user/1000/kio-fuse-dPQuxu/filenamesearch
 20.0	/home/matej/1-documents/0-legal/italia
 10.0	/home/matej/Downloads/1 bedroom flat for sale in London NW3 7AW, London, NW3 7AW, NW3_files
@@ -301,7 +301,7 @@
 14.142135623730951	/mount/vc/0-xnotes/archive/skola_govornistva
 14.142135623730951	/home/matej/0-xnotes/archive/skola_govornistva
 14.142135623730951	/mount/vc/0-xnotes/conversations
-24.49489742783178	/home/matej/0-xnotes/conversations
+37.41657386773942	/home/matej/0-xnotes/conversations
 10.0	/mount/vc/0-xnotes/imgs
 10.0	/mount/vc/0-xnotes/phd
 14.142135623730951	/mount/vc/_tmp
@@ -324,8 +324,8 @@
 10.0	/home/matej/2-media/photography/2016-04-16-focused-vjencanje-vanja
 10.0	/home/matej/2-media/photography/2016-08-16-focused-gmzorz-zagreb
 10.0	/home/matej/2-media/photography/2017-06-07-focused-sv-nedjelja-dvorac
-14.142135623730951	/home/matej/2-media/wallpaper
-10.0	/home/matej/2-media/icons
+22.360679774997898	/home/matej/2-media/wallpaper
+17.320508075688775	/home/matej/2-media/icons
 14.142135623730951	/home/matej/1-documents/1-work/2026-phd-trento
 10.0	/home/matej/1-documents/1-work/2026-phd-trento/motivation
 10.0	/home/matej/1-documents/1-work/2026-phd-general
@@ -354,7 +354,7 @@
 30.000000000000004	/home/matej/2-media/Camera
 30.000000000000004	/home/matej/2-media/camera-rename.ignoreme
 17.320508075688775	/home/matej/2-media/camera-rename.ignoreme/big_videos
-22.360679774997898	/home/matej/2-media/phone.ignoreme
+24.49489742783178	/home/matej/2-media/phone.ignoreme
 10.0	/home/matej/_tmp/stan-naljeskoviceva-2026-10-07
 14.142135623730951	/home/matej/_tmp/stan-naljeskoviceva-2026-10-03
 14.142135623730951	/home/matej/tmp/D/D/4-pictures/camera/Camera
@@ -379,10 +379,10 @@
 20.0	/home/matej/1-documents/0-research/2026-00-phd-modena/positions
 33.166247903554	/home/matej/1-documents/0-research/2026-00-phd-modena/drive_upload
 34.64101615137755	/home/matej/1-documents/0-research/2026-00-phd-modena/matej_papers
-31.622776601683796	/home/matej/1-documents/0-research/2026-00-phd-trento
+33.166247903554	/home/matej/1-documents/0-research/2026-00-phd-trento
 24.49489742783178	/home/matej/1-documents/0-research/2026-00-phd-trento/motivation
 24.49489742783178	/run/user/1000/kio-fuse-IFteTT/filenamesearch
-20.0	/home/matej/1-documents/0-research/2026-00-application-phd-general
+40.00000000000001	/home/matej/1-documents/0-research/2026-00-application-phd-general
 20.0	/home/matej/1-documents/0-research/2026-00-phd-modena/funders_context
 33.166247903554	/home/matej/1-documents/0-research/2026-00-phd-modena/admin
 10.0	/home/matej/1-documents/1-work/2025-tensorpix
@@ -403,7 +403,7 @@
 10.0	/run/user/1000/kio-fuse-BiTDSb/filenamesearch
 14.142135623730951	/home/matej/_tmp/print_modena_2
 30.000000000000004	/home/matej/1-documents/0-research/unimore
-51.96152422706633	/home/matej/1-documents/0-research/unimore-2026
+52.91502622129182	/home/matej/1-documents/0-research/unimore-2026
 10.0	/home/matej/1-documents/0-research/unimore-2026/unimore_docs
 28.284271247461902	/home/matej/1-documents/0-research/unimore-2026/phd_application_docs
 14.142135623730951	/home/matej/1-documents/0-research/unimore-2026/funders_context
@@ -411,7 +411,7 @@
 14.142135623730951	/home/matej/1-documents/0-research/unimore-2026/admin/modena_phd_enrolment_docs
 14.142135623730951	/home/matej/1-documents/0-research/unimore-2026/positions
 10.0	/home/matej/1-documents/0-research/unimore-2026/drive_upload
-17.320508075688775	/home/matej/1-documents/0-research/unimore-2026/matej_papers
+36.0555127546399	/home/matej/1-documents/0-research/unimore-2026/matej_papers
 17.320508075688775	/home/matej/1-documents/0-research/unimore-2026/_archive
 28.284271247461902	/home/matej/1-documents/0-research/fer-2023
 10.0	/home/matej/1-documents/0-research/fer-2023/archive
@@ -419,3 +419,31 @@
 41.231056256176615	/home/matej/1-documents/0-research/ellis-2026/ellis_grades
 14.142135623730951	/home/matej/1-documents/0-research/ellis-2026/ellis_grades/generated_request
 22.360679774997898	/run/user/1000/kio-fuse-crmOho/filenamesearch
+17.320508075688775	/home/matej/Downloads/grsync-1.3.1
+20.0	/home/matej/.config/BraveSoftware
+96.4365076099295	/home/matej/.config/BraveSoftware/Brave-Browser
+10.0	/run/user/1000/kio-fuse-XqEEJD/filenamesearch
+10.0	/home/matej/.config/BraveSoftware/Brave-Browser/System Profile
+14.142135623730951	/home/matej/.config/BraveSoftware/Brave-Browser/Profile 1
+10.0	/home/matej/.config/BraveSoftware/Brave-Browser/work
+10.0	/home/matej/.config/BraveSoftware/Brave-Browser/Guest Profile
+10.0	/run/user/1000/kio-fuse-XqEEJD/remote
+10.0	/run/user/1000/kio-fuse-XqEEJD/smb/hotpan.local
+10.0	/run/user/1000/kio-fuse-XqEEJD/trash
+22.360679774997898	/home/matej/.local/share/fnm/node-versions/v24.16.0/installation
+14.142135623730951	/home/matej/.local/share/fnm/node-versions/v24.16.0/installation/bin
+10.0	/home/matej/.rustup
+51.96152422706633	/home/matej/projects
+184.39088914585778	/home/matej/projects/global-canonical-shortcuts
+92.73618495495703	/home/matej/projects/ciglenecki.github.io
+14.142135623730951	/home/matej/projects/ciglenecki.github.io/content/posts
+17.320508075688775	/home/matej/projects/global-canonical-shortcuts/.git
+14.142135623730951	/home/matej/Zotero
+14.142135623730951	/home/matej/Zotero/storage
+10.0	/home/matej/Zotero/storage/DGVAQS76
+10.0	/run/user/1000/kio-fuse-CSBYYM/filenamesearch
+24.49489742783178	/home/matej/Zotero/storage/SZS2VMNS
+10.0	/run/user/1000/kio-fuse-uAIoUa/filenamesearch
+10.0	/home/matej/2-media/phone.ignoreme/big_videos
+10.0	/run/user/1000/kio-fuse-nndeGc/filenamesearch
+17.320508075688775	/home/matej/projects/learning_research

@@ -1,0 +1,1 @@
+export SUDO_EDITOR="code --wait --new-window"

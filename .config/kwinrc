@@ -9,6 +9,9 @@ Id_4=26fdd3da-cd33-42ff-b195-37187216298b
 Number=4
 Rows=1
 
+[Effect-zoom]
+ZoomFactor=1.05
+
 [NightColor]
 Active=true
 NightTemperature=3000
@@ -18,6 +21,7 @@ krohnkiteEnabled=true
 virtualdesktopsonlyonprimaryEnabled=false
 
 [Script-krohnkite]
+monocleMaximize=false
 noTileBorder=true
 screenGapBetween=4
 soleWindowNoBorders=true

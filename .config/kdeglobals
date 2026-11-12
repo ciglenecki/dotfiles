@@ -112,8 +112,10 @@ ColorSchemeHash=9f63c7711a13123582e720791ea0f8c0172977d2
 LastUsedCustomAccentColor=82,2,181
 TerminalApplication=yakuake
 TerminalService=org.kde.yakuake.desktop
+UseSystemBell=true
 
 [KDE]
+AnimationDurationFactor=0
 LookAndFeelPackage=org.kde.breeze.desktop
 ShowDeleteCommand=false
 

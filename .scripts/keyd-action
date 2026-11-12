@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 if [ "$(id -u)" = "0" ]; then
-    exec runuser -u matej -- env \
+    exec /usr/sbin/runuser -u matej -- env \
         HOME=/home/matej \
         USER=matej \
         LOGNAME=matej \
@@ -13,56 +13,91 @@ if [ "$(id -u)" = "0" ]; then
         "$0" "$@"
 fi
 
-
-
 export HOME=/home/matej
 export PATH="$HOME/.local/bin:$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin"
+source $HOME/.scripts/env.sh
 
-BROWSER="brave-browser"
-BROWSERASAPP="--app="
-BROWSERUSER="$BROWSER --profile-directory=Default"
-BROWSERMUSIC="$BROWSER --profile-directory=music"
-BROWSERWORK="$BROWSER --profile-directory=work"
+# DEBUG ON
+# {
+#     echo "=== $(date -Is) ==="
+#     echo "UID=$(/usr/bin/id -u)"
+#     echo "EUID=$EUID"
+#     echo "PID=$$"
+#     echo "ACTION=${1:-}"
+#     echo "XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR"
+#     echo "WAYLAND_DISPLAY=$WAYLAND_DISPLAY"
+#     echo "YDOTOOL_SOCKET=$YDOTOOL_SOCKET"
+# } >> "$HOME/keyd-action-debug.log"
 
-CAL="$BROWSERUSER $BROWSERASAPPhttps://calendar.google.com/calendar/r"
-ASOFTMURMUR="$BROWSERMUSIC $BROWSERASAPPhttps://asoftmurmur.com/"
-POMODORO="$BROWSERUSER $BROWSERASAPPhttps://pomofocus.io/"
-TODO_TODAY='https://todoist.com/app/#upcoming'
-URL_WHATSAPP="https://web.whatsapp.com/"
+# exec 2>> "$HOME/keyd-action-errors.log"
 
-DIR_NOTES="$HOME/0-xnotes"
-DIR_PICTURES="$HOME/2-media"
-DIR_SCREENSHOTS="$DIR_PICTURES/screenshots/"
-DIR_SECRETS="$HOME/.secrets"
-FILE_SPOTIFY_SECRET="$DIR_SECRETS/spotify.sh"
-
-TIMEFS="%F"
-TIMEFL="%F-%H-%M-%S"
-SOUND_LEVEL=20
 
 spotify_python="$HOME/projects/spotify-random-saved-album/venv/bin/python3"
 spotify_src="$HOME/projects/spotify-random-saved-album/src/spotify_random_saved_album"
 
-export YDOTOOL_SOCKET="$HOME/.ydotool_socket"
+# Run a command in a separate systemd user service.
+#
+# The command runs independently of the calling shell, with access to
+# the graphical session and functions defined in ~/.scripts/alias.sh.
+#
+# Usage:
+#   user_systemd_run COMMAND [ARGS...]      # Run a command with arguments
+#   user_systemd_run -c 'SHELL_EXPRESSION'  # Execute shell syntax
+#
+# Examples:
+#   user_systemd_run firefox
+#   user_systemd_run firefox --private-window
+#   user_systemd_run -c 'focuswindow Zotero || zotero'
+#   user_systemd_run -c 'command1 && command2'
+#
+# Behavior:
+#   - Starts a transient systemd user service.
+#   - Passes graphical session environment variables.
+#   - Appends stdout and stderr to ~/user_systemd_run.log.
+#   - Loads aliases and functions from ~/.scripts/alias.sh.
+#   - Supports shell operators (||, &&, |) through -c.
+#
+# Notes:
+#   - Use -c only with trusted commands (it uses eval).
+#   - Aliases require -c; shell functions work in both modes.
+#   - The function returns the status of systemd-run, not the
+#     final exit status of the launched command.
+
 
 user_systemd_run() {
     systemd-run --user --collect \
         --setenv=DISPLAY="${DISPLAY:-:0}" \
-        --setenv=XAUTHORITY="${XAUTHORITY:-/home/matej/.Xauthority}" \
-        --setenv=XDG_RUNTIME_DIR="${XDG_RUNTIME_DIR:-/run/user/$(id -u)}" \
-        --setenv=DBUS_SESSION_BUS_ADDRESS="${DBUS_SESSION_BUS_ADDRESS:-unix:path=/run/user/$(id -u)/bus}" \
+        --setenv=WAYLAND_DISPLAY="${WAYLAND_DISPLAY:-wayland-0}" \
         /bin/bash -c '
             exec >> "$HOME/user_systemd_run.log" 2>&1
 
-            echo "===== $(date) ====="
             source "$HOME/.scripts/env.sh"
-            "$@"
+
+            shopt -s expand_aliases
+            source "$HOME/.scripts/alias.sh"
+
+            if [[ "$1" == "-c" ]]; then
+                shift
+                eval "$1"
+            else
+                "$@"
+            fi
         ' bash "$@"
 }
 
+
+
+
 type_text() {
-    local text="$1"
-    YDOTOOL_SOCKET="$HOME/.ydotool_socket" ydotool type -d 0 -H 0 "$text"
+    printf '%s' "$1" | wl-copy --type text/plain || return 1
+    # CTRL + SHIFT + V
+    ydotool key 29:1 42:1 47:1 47:0 42:0 29:0 
+}
+
+type_file() {
+    wl-copy --type text/plain < "$1" || return 1
+    # CTRL + SHIFT + V
+    ydotool key 29:1 42:1 47:1 47:0 42:0 29:0
 }
 
 latest_screenshot() {
@@ -72,88 +107,75 @@ latest_screenshot() {
 
 case "$1" in
 
-    brave)
+    open-brave)
         user_systemd_run $BROWSERUSER
         ;;
-        
-    brave_work)
+    
+    focus-brave)
+        user_systemd_run focuswindow Brave
+        ;;
+    brave-work)
         user_systemd_run $BROWSERWORK
         ;;
-        
-    open-spotify-focus)
-        wmctrl -lx | grep -i brave | grep -i spotify | awk '{print $1}' | head -n1 | xargs wmctrl -i -a
-        ;;
-        
-    open-spotify-random)
+
+    spotify)
         user_systemd_run $BROWSERMUSIC
         ;;
 
-    open-asoft-focus)
-        wmctrl -xa asoft
-        ;;
-    open-asoft-open)
-        eval "$ASOFTMURMUR" &
+    asoft)
+        user_systemd_run -c 'focuswindow "Soft" || $ASOFTMURMUR'
         ;;
 
-    open-keepass)
-        wmctrl -xa keepassxc || user_systemd_run keepassxc
+    keepass)
+        user_systemd_run -c 'focuswindow KeePassXC || keepassxc /home/matej/5-assets/password-database.kdbx'
         ;;
 
-    open-pomodoro-focus)
-        wmctrl -xa pomofocus.io
-        ;;
-    open-pomodoro-open)
-        eval "$POMODORO" &
+    pomodoro)
+        user_systemd_run -c 'focuswindow Pomodoro || $POMODORO'
         ;;
 
-    open-calendar-focus)
-        wmctrl -xa calendar
-        ;;
-    open-calendar-open)
-        eval "$CAL" &
+    calendar)
+        user_systemd_run -c 'focuswindow Calendar || $CAL'
         ;;
 
-    open-todoist-focus)
-        wmctrl -xa todoist
-        ;;
-    open-todoist-open)
-        eval "$BROWSERUSER $BROWSERASAPP$TODO_TODAY" &
+    todoist)
+        user_systemd_run -c 'focuswindow Todoist || $TODOIST'
         ;;
 
-    open-whatsapp)
-        user_systemd_run $BROWSERUSER $BROWSERASAPP$URL_WHATSAPP
+    whatsapp)
+        user_systemd_run -c 'focuswindow WhatsApp || $BROWSERUSER $BROWSERASAPP$URL_WHATSAPP'
         ;;
 
-    open-zotero)
-        user_systemd_run bash -c 'id=$(kdotool search --class zotero | head -n1); if [[ -n "$id" ]]; then kdotool windowactivate "$id"; else exec zotero; fi'
-        ;;
-    open-code-tmp)
-        code "$HOME/tmp/tmp.md" &
+    zotero)
+        user_systemd_run -c 'focuswindow Zotero || zotero'
         ;;
 
-    open-xnotes-focus)
-        wmctrl -a xnotes
-        ;;
-    open-xnotes-open)
-        user_systemd_run code -n "$DIR_NOTES"
+    xnotes)
+        user_systemd_run -c 'focuswindow xnotes || code -n "$DIR_NOTES"'
         ;;
 
-    open-thunderbird)
-        wmctrl -xa thunderbird || user_systemd_run thunderbird
+    thunderbird)
+        user_systemd_run -c 'focuswindow Thunderbird || thunderbird'
         ;;
-
+        
+    code-notes)
+        user_systemd_run -c 'focuswindow notes.txt || code "$DIR_NOTES/notes.txt"'
+        ;;
+            
     volume-down)
         amixer -D pulse sset Master 2%-
         ;;
+        
     volume-up)
         amixer -D pulse sset Master 2%+
         ;;
+        
     volume-set)
         amixer -D pulse sset Master "$SOUND_LEVEL%"
         ;;
 
     paste-simple)
-        type_text "Use extremely PRIMITIVE, SIMPLE and COMMON English words. Make every statement direct, clear, plain, and exact. Include all needed technical details. Follow Google technical writing rules. Do not use compound words joined by hyphens, such as well-known and part-time. Do not use hyphens, en dashes, em dashes, quotation marks, or similar marks in normal text. Use one term for each concept, and use the same term every time. Use common nouns and verbs, but keep every technical statement exact and precise. Choose words that have one clear meaning in the given context. Give each sentence one main idea. Do not use a pronoun when the reader may not know which noun the pronoun refers to."
+        type_file /home/matej/5-assets/prompt_paper_summary.txt
         ;;
     paste-primitive)
         type_text "Use extremely PRIMITIVE, SIMPLE and COMMON English words. Make every statement direct, clear, plain, and exact. Include all needed technical details. Follow Google technical writing rules. Do not use compound words joined by hyphens, such as well-known and part-time. Do not use hyphens, en dashes, em dashes, quotation marks, or similar marks in normal text. Use one term for each concept, and use the same term every time. Use common nouns and verbs, but keep every technical statement exact and precise. Choose words that have one clear meaning in the given context. Give each sentence one main idea. Do not use a pronoun when the reader may not know which noun the pronoun refers to."
@@ -161,15 +183,15 @@ case "$1" in
     paste-date)
         type_text "$(date +"$TIMEFS")"
         ;;
+        
     paste-date-sec)
         type_text "$(date +"$TIMEFL")"
         ;;
+        
     paste-email)
-        type_text "myemail"
+        type_text "matej.ciglenecki"
         ;;
-    paste-todoist-filter)
-        type_text "(next 14 days | no due date) & (p1 | p2 | p3) & (!#📚 FER)"
-        ;;
+
     restart-plasma)
         user_systemd_run systemctl --user restart plasma-plasmashell.service
         ;;

@@ -89,7 +89,7 @@ export TODO_PROJECTS="https://todoist.com/app#project%2F2221923577%2Ffull"
 export STUDY_SHEET="https://docs.google.com/spreadsheets/d/11UlxBM-DTHeX6rWfuDKuoaKp-lOP1sK10xJGQKnsqMU"
 export URL_WHATSAPP="https://web.whatsapp.com/"
 
-
+export TODOIST="$BROWSERUSER $BROWSERASAPP$TODO_TODAY"
 # paths
 export INPUTRC="$HOME/.inputrc"
 export DIR_FER="$HOME/fer"
@@ -117,3 +117,8 @@ export TIMEFL="%F-%H-%M-%S"
 export DATENOW='date +"$TIMEFS"'
 export DATENOW_SEC='date +"$TIMEFL"'
 export SOUND_LEVEL=20
+
+
+export XDG_RUNTIME_DIR="${XDG_RUNTIME_DIR:-/run/user/1000}"
+export YDOTOOL_SOCKET="${XDG_RUNTIME_DIR}/.ydotool_socket"
+export WAYLAND_DISPLAY="${WAYLAND_DISPLAY:-wayland-0}"

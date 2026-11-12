@@ -44,7 +44,8 @@ DialogWidth=1032
 [Containments][1][Wallpaper][org.kde.image][General]
 DarkLightScheduleState=AAAAAQAAAAgAAAGeY+rF2AAAAAAAAAGeYiTPAAAAAZ5iRioQAAAAAQAAAZ5lj2GgAAABnmWwvLAAAAGeaRE9MAAAAAAAAAGeZ0pYEAAAAZ5na9JgAAAAAQAAAZ5qtqgAAAABnmrYIlAAAAGebje0iAAAAAAAAAGebG/o8AAAAZ5skYKAAAAAAQAAAZ5v3ep4AAABnm//gCAAAAGec14vyAAAAAAAAAGecZWFiAAAAZ5xtzpwAAAAAQAAAZ51BSUgAAABnnUm2ggAAAGeeISrCAAAAAAAAAGedrsp8AAAAZ523PowAAAAAQAAAZ56LFvgAAABnnpOMAgAAAGefasqMAAAAAAAAAGee+DaEAAAAZ58AsWoAAAAAQAAAZ5/U464AAABnn91elAAAAGegtGpWAAAAAAAAAGegQaSAAAAAZ6BKJjwAAAAAQAAAZ6EernAAAABnoScwLAAAAGeh/gogAAAAAAAAAGehixVqAAAAZ6GTnQIAAAAAQAAAZ6JoeDgAAABnonD/0A=
 DynamicMode=1
-Image=file:///usr/share/wallpapers/MilkyWay/
+FillMode=0
+Image=file:///home/matej/2-media/wallpaper/shortcuts_wallpaper.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][2]
@@ -67,7 +68,9 @@ popupWidth=400
 [Containments][2][Applets][28][Configuration][Appearance]
 autoFontAndSize=false
 boldText=true
+customDateFormat=MMMM (dddd) yyyy-MM-dd
 dateDisplayFormat=BesideTime
+dateFormat=custom
 fontFamily=Noto Sans
 fontSize=36
 fontStyleName=Bold
@@ -78,7 +81,7 @@ use24hFormat=2
 
 [Containments][2][Applets][28][Configuration][ConfigDialog]
 DialogHeight=720
-DialogWidth=960
+DialogWidth=540
 
 [Containments][2][Applets][3]
 immutability=1
@@ -119,7 +122,7 @@ DialogWidth=720
 
 [Containments][2][Applets][36][Configuration][General]
 hideLauncherOnStart=false
-launchers=file:///usr/share/applications/brave-browser.desktop
+launchers=file:///usr/share/applications/brave-browser.desktop,file:///opt/Mattermost/mattermost-desktop
 onlyGroupWhenFull=false
 showOnlyCurrentActivity=false
 sortingStrategy=3
@@ -148,6 +151,10 @@ length=440
 [Containments][2][Applets][54]
 immutability=1
 plugin=org.kde.plasma.marginsseparator
+
+[Containments][2][Applets][54][Configuration][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
 
 [Containments][2][Applets][65]
 immutability=1
@@ -251,6 +258,9 @@ plugin=org.kde.plasma.battery
 [Containments][2][Applets][7][Applets][23]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
+
+[Containments][2][Applets][7][Applets][23][Configuration][General]
+currentDetailsTab=details
 
 [Containments][2][Applets][7][Applets][24]
 immutability=1
